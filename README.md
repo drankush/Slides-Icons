@@ -1,17 +1,34 @@
-# OpenIcons PowerPoint Add-in
+# Slides Icons
 
-Insert **6,500+ free icons** from 6 open-source libraries directly into your PowerPoint presentations.
+**A PowerPoint Add-in with 9,000+ free icons from 12 popular open-source libraries.**
 
-## Supported Icon Libraries
+![Slides Icons Screenshot](https://raw.githubusercontent.com/drankush/Slides-Icons/main/docs/screenshot.png)
 
-| Library | Icons | License |
-|---------|-------|---------|
-| [Health Icons](https://healthicons.org) | 740 | CC0 |
-| [Bootstrap Icons](https://icons.getbootstrap.com) | 2,078 | MIT |
-| [Ionicons](https://ionic.io/ionicons) | 396 | MIT |
-| [Iconoir](https://iconoir.com) | 1,000 | MIT |
-| [Remix Icon](https://remixicon.com) | 1,537 | Apache 2.0 |
-| [Boxicons](https://boxicons.com) | 814 | MIT |
+## Features
+
+- 🎨 **12 Icon Libraries** with 9,000+ icons
+- 🔍 **Fast Search** - filter icons instantly by name
+- 🎯 **One-Click Insert** - add icons directly to slides
+- 🌈 **Color Picker** - customize icon color before inserting
+- 📐 **Size Options** - 24px to 128px
+- ⚡ **On-Demand Loading** - icons load from CDN as needed
+
+## Supported Libraries
+
+| Library | Icons |
+|---------|-------|
+| Bootstrap Icons | 1,000 |
+| Heroicons | 324 |
+| Feather Icons | 287 |
+| Lucide Icons | 500 |
+| Tabler Icons | 1,000 |
+| Ionicons | 1,000 |
+| Iconoir | 1,000 |
+| Phosphor Icons | 1,000 |
+| Boxicons | 814 |
+| GitHub Octicons | 720 |
+| Radix Icons | 332 |
+| Eva Icons | 244 |
 
 ## Quick Start
 
@@ -20,7 +37,6 @@ Insert **6,500+ free icons** from 6 open-source libraries directly into your Pow
 npm install
 npm run dev
 ```
-This builds the project and starts an HTTPS server at `https://localhost:3000`.
 
 ### 2. Sideload in PowerPoint (Mac)
 ```bash
@@ -30,23 +46,35 @@ cp manifest.xml ~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef
 
 ### 3. Use in PowerPoint
 1. Open PowerPoint
-2. Go to **Insert** → **Add-ins** → **OpenIcons**
-3. Select a library, browse/search icons, and click to insert!
+2. Go to **Insert** → **Add-ins** → **Slides Icons**
+3. Browse libraries, search icons, click to insert!
 
-## Features
+## Architecture
 
-- 🎨 **6 icon libraries** with 6,500+ icons
-- 🔄 **Multiple styles** per library (Filled, Outline, Solid, etc.)
-- 📐 **Adjustable sizes**: 48px, 96px, 128px
-- 🔍 **Search**: Find icons by name or keywords
-- ⚡ **One-click insert**: Click any icon to add to your slide
-- 💾 **CDN caching**: Fast icon loading after first fetch
+**Hybrid CDN Approach:**
+1. Lightweight JSON manifests contain icon names (~50KB per library)
+2. Individual SVGs are fetched on-demand from jsDelivr CDN
+3. Icons are cached in-memory for fast re-access
+
+This approach provides fast initial load while supporting 9,000+ icons without bundling large files.
+
+## Development
+
+```bash
+# Generate manifests from GitHub API
+npm run generate-manifests
+
+# Build for production
+npm run build
+
+# Start dev server
+npm start
+```
+
+## Credits
+
+Icons are sourced from their respective open-source projects. All icons are MIT or similarly licensed.
 
 ## License
 
-- **Add-in code**: MIT License
-- **Icons**: See individual library licenses above
-
----
-
-> **Looking for more icons?** Check out [Slides Icons](https://github.com/drankush/Slides-Icons) - our newer add-in with 94,000+ icons!
+MIT License

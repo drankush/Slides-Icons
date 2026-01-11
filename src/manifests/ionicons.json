@@ -1,1592 +1,4009 @@
 {
+  "id": "ionicons",
+  "name": "Ionicons",
   "version": "1.0.0",
-  "totalIcons": 396,
-  "icons": {
-    "all": [
-      {
-        "name": "accessibility",
-        "title": "Accessibility"
-      },
-      {
-        "name": "add",
-        "title": "Add"
-      },
-      {
-        "name": "add-circle",
-        "title": "Add Circle"
-      },
-      {
-        "name": "airplane",
-        "title": "Airplane"
-      },
-      {
-        "name": "alarm",
-        "title": "Alarm"
-      },
-      {
-        "name": "albums",
-        "title": "Albums"
-      },
-      {
-        "name": "alert",
-        "title": "Alert"
-      },
-      {
-        "name": "alert-circle",
-        "title": "Alert Circle"
-      },
-      {
-        "name": "american-football",
-        "title": "American Football"
-      },
-      {
-        "name": "analytics",
-        "title": "Analytics"
-      },
-      {
-        "name": "aperture",
-        "title": "Aperture"
-      },
-      {
-        "name": "apps",
-        "title": "Apps"
-      },
-      {
-        "name": "archive",
-        "title": "Archive"
-      },
-      {
-        "name": "arrow-back",
-        "title": "Arrow Back"
-      },
-      {
-        "name": "arrow-back-circle",
-        "title": "Arrow Back Circle"
-      },
-      {
-        "name": "arrow-down",
-        "title": "Arrow Down"
-      },
-      {
-        "name": "arrow-down-circle",
-        "title": "Arrow Down Circle"
-      },
-      {
-        "name": "arrow-down-left-box",
-        "title": "Arrow Down Left Box"
-      },
-      {
-        "name": "arrow-down-right-box",
-        "title": "Arrow Down Right Box"
-      },
-      {
-        "name": "arrow-forward",
-        "title": "Arrow Forward"
-      },
-      {
-        "name": "arrow-forward-circle",
-        "title": "Arrow Forward Circle"
-      },
-      {
-        "name": "arrow-redo",
-        "title": "Arrow Redo"
-      },
-      {
-        "name": "arrow-redo-circle",
-        "title": "Arrow Redo Circle"
-      },
-      {
-        "name": "arrow-undo",
-        "title": "Arrow Undo"
-      },
-      {
-        "name": "arrow-undo-circle",
-        "title": "Arrow Undo Circle"
-      },
-      {
-        "name": "arrow-up",
-        "title": "Arrow Up"
-      },
-      {
-        "name": "arrow-up-circle",
-        "title": "Arrow Up Circle"
-      },
-      {
-        "name": "arrow-up-left-box",
-        "title": "Arrow Up Left Box"
-      },
-      {
-        "name": "arrow-up-right-box",
-        "title": "Arrow Up Right Box"
-      },
-      {
-        "name": "at",
-        "title": "At"
-      },
-      {
-        "name": "at-circle",
-        "title": "At Circle"
-      },
-      {
-        "name": "attach",
-        "title": "Attach"
-      },
-      {
-        "name": "backspace",
-        "title": "Backspace"
-      },
-      {
-        "name": "bag",
-        "title": "Bag"
-      },
-      {
-        "name": "bag-add",
-        "title": "Bag Add"
-      },
-      {
-        "name": "bag-check",
-        "title": "Bag Check"
-      },
-      {
-        "name": "bag-handle",
-        "title": "Bag Handle"
-      },
-      {
-        "name": "bag-remove",
-        "title": "Bag Remove"
-      },
-      {
-        "name": "balloon",
-        "title": "Balloon"
-      },
-      {
-        "name": "ban",
-        "title": "Ban"
-      },
-      {
-        "name": "bandage",
-        "title": "Bandage"
-      },
-      {
-        "name": "bar-chart",
-        "title": "Bar Chart"
-      },
-      {
-        "name": "barbell",
-        "title": "Barbell"
-      },
-      {
-        "name": "barcode",
-        "title": "Barcode"
-      },
-      {
-        "name": "baseball",
-        "title": "Baseball"
-      },
-      {
-        "name": "basket",
-        "title": "Basket"
-      },
-      {
-        "name": "basketball",
-        "title": "Basketball"
-      },
-      {
-        "name": "battery-charging",
-        "title": "Battery Charging"
-      },
-      {
-        "name": "battery-dead",
-        "title": "Battery Dead"
-      },
-      {
-        "name": "battery-full",
-        "title": "Battery Full"
-      },
-      {
-        "name": "battery-half",
-        "title": "Battery Half"
-      },
-      {
-        "name": "beaker",
-        "title": "Beaker"
-      },
-      {
-        "name": "bed",
-        "title": "Bed"
-      },
-      {
-        "name": "beer",
-        "title": "Beer"
-      },
-      {
-        "name": "bicycle",
-        "title": "Bicycle"
-      },
-      {
-        "name": "binoculars",
-        "title": "Binoculars"
-      },
-      {
-        "name": "bluetooth",
-        "title": "Bluetooth"
-      },
-      {
-        "name": "boat",
-        "title": "Boat"
-      },
-      {
-        "name": "body",
-        "title": "Body"
-      },
-      {
-        "name": "bonfire",
-        "title": "Bonfire"
-      },
-      {
-        "name": "book",
-        "title": "Book"
-      },
-      {
-        "name": "bookmark",
-        "title": "Bookmark"
-      },
-      {
-        "name": "bookmarks",
-        "title": "Bookmarks"
-      },
-      {
-        "name": "bowling-ball",
-        "title": "Bowling Ball"
-      },
-      {
-        "name": "briefcase",
-        "title": "Briefcase"
-      },
-      {
-        "name": "browsers",
-        "title": "Browsers"
-      },
-      {
-        "name": "brush",
-        "title": "Brush"
-      },
-      {
-        "name": "bug",
-        "title": "Bug"
-      },
-      {
-        "name": "build",
-        "title": "Build"
-      },
-      {
-        "name": "bulb",
-        "title": "Bulb"
-      },
-      {
-        "name": "bus",
-        "title": "Bus"
-      },
-      {
-        "name": "business",
-        "title": "Business"
-      },
-      {
-        "name": "cafe",
-        "title": "Cafe"
-      },
-      {
-        "name": "calculator",
-        "title": "Calculator"
-      },
-      {
-        "name": "calendar",
-        "title": "Calendar"
-      },
-      {
-        "name": "calendar-clear",
-        "title": "Calendar Clear"
-      },
-      {
-        "name": "calendar-number",
-        "title": "Calendar Number"
-      },
-      {
-        "name": "call",
-        "title": "Call"
-      },
-      {
-        "name": "camera",
-        "title": "Camera"
-      },
-      {
-        "name": "camera-reverse",
-        "title": "Camera Reverse"
-      },
-      {
-        "name": "car",
-        "title": "Car"
-      },
-      {
-        "name": "car-sport",
-        "title": "Car Sport"
-      },
-      {
-        "name": "card",
-        "title": "Card"
-      },
-      {
-        "name": "caret-back",
-        "title": "Caret Back"
-      },
-      {
-        "name": "caret-back-circle",
-        "title": "Caret Back Circle"
-      },
-      {
-        "name": "caret-down",
-        "title": "Caret Down"
-      },
-      {
-        "name": "caret-down-circle",
-        "title": "Caret Down Circle"
-      },
-      {
-        "name": "caret-forward",
-        "title": "Caret Forward"
-      },
-      {
-        "name": "caret-forward-circle",
-        "title": "Caret Forward Circle"
-      },
-      {
-        "name": "caret-up",
-        "title": "Caret Up"
-      },
-      {
-        "name": "caret-up-circle",
-        "title": "Caret Up Circle"
-      },
-      {
-        "name": "cart",
-        "title": "Cart"
-      },
-      {
-        "name": "cash",
-        "title": "Cash"
-      },
-      {
-        "name": "cellular",
-        "title": "Cellular"
-      },
-      {
-        "name": "chatbox",
-        "title": "Chatbox"
-      },
-      {
-        "name": "chatbox-ellipses",
-        "title": "Chatbox Ellipses"
-      },
-      {
-        "name": "chatbubble",
-        "title": "Chatbubble"
-      },
-      {
-        "name": "chatbubble-ellipses",
-        "title": "Chatbubble Ellipses"
-      },
-      {
-        "name": "chatbubbles",
-        "title": "Chatbubbles"
-      },
-      {
-        "name": "checkbox",
-        "title": "Checkbox"
-      },
-      {
-        "name": "checkmark",
-        "title": "Checkmark"
-      },
-      {
-        "name": "checkmark-circle",
-        "title": "Checkmark Circle"
-      },
-      {
-        "name": "checkmark-done",
-        "title": "Checkmark Done"
-      },
-      {
-        "name": "checkmark-done-circle",
-        "title": "Checkmark Done Circle"
-      },
-      {
-        "name": "chevron-back",
-        "title": "Chevron Back"
-      },
-      {
-        "name": "chevron-back-circle",
-        "title": "Chevron Back Circle"
-      },
-      {
-        "name": "chevron-collapse",
-        "title": "Chevron Collapse"
-      },
-      {
-        "name": "chevron-down",
-        "title": "Chevron Down"
-      },
-      {
-        "name": "chevron-down-circle",
-        "title": "Chevron Down Circle"
-      },
-      {
-        "name": "chevron-expand",
-        "title": "Chevron Expand"
-      },
-      {
-        "name": "chevron-forward",
-        "title": "Chevron Forward"
-      },
-      {
-        "name": "chevron-forward-circle",
-        "title": "Chevron Forward Circle"
-      },
-      {
-        "name": "chevron-up",
-        "title": "Chevron Up"
-      },
-      {
-        "name": "chevron-up-circle",
-        "title": "Chevron Up Circle"
-      },
-      {
-        "name": "clipboard",
-        "title": "Clipboard"
-      },
-      {
-        "name": "close",
-        "title": "Close"
-      },
-      {
-        "name": "close-circle",
-        "title": "Close Circle"
-      },
-      {
-        "name": "cloud",
-        "title": "Cloud"
-      },
-      {
-        "name": "cloud-circle",
-        "title": "Cloud Circle"
-      },
-      {
-        "name": "cloud-done",
-        "title": "Cloud Done"
-      },
-      {
-        "name": "cloud-download",
-        "title": "Cloud Download"
-      },
-      {
-        "name": "cloud-offline",
-        "title": "Cloud Offline"
-      },
-      {
-        "name": "cloud-upload",
-        "title": "Cloud Upload"
-      },
-      {
-        "name": "cloudy",
-        "title": "Cloudy"
-      },
-      {
-        "name": "cloudy-night",
-        "title": "Cloudy Night"
-      },
-      {
-        "name": "code",
-        "title": "Code"
-      },
-      {
-        "name": "code-download",
-        "title": "Code Download"
-      },
-      {
-        "name": "code-slash",
-        "title": "Code Slash"
-      },
-      {
-        "name": "code-working",
-        "title": "Code Working"
-      },
-      {
-        "name": "cog",
-        "title": "Cog"
-      },
-      {
-        "name": "color-fill",
-        "title": "Color Fill"
-      },
-      {
-        "name": "color-filter",
-        "title": "Color Filter"
-      },
-      {
-        "name": "color-palette",
-        "title": "Color Palette"
-      },
-      {
-        "name": "color-wand",
-        "title": "Color Wand"
-      },
-      {
-        "name": "compass",
-        "title": "Compass"
-      },
-      {
-        "name": "construct",
-        "title": "Construct"
-      },
-      {
-        "name": "contract",
-        "title": "Contract"
-      },
-      {
-        "name": "contrast",
-        "title": "Contrast"
-      },
-      {
-        "name": "copy",
-        "title": "Copy"
-      },
-      {
-        "name": "create",
-        "title": "Create"
-      },
-      {
-        "name": "crop",
-        "title": "Crop"
-      },
-      {
-        "name": "cube",
-        "title": "Cube"
-      },
-      {
-        "name": "cut",
-        "title": "Cut"
-      },
-      {
-        "name": "desktop",
-        "title": "Desktop"
-      },
-      {
-        "name": "diamond",
-        "title": "Diamond"
-      },
-      {
-        "name": "dice",
-        "title": "Dice"
-      },
-      {
-        "name": "disc",
-        "title": "Disc"
-      },
-      {
-        "name": "document",
-        "title": "Document"
-      },
-      {
-        "name": "document-attach",
-        "title": "Document Attach"
-      },
-      {
-        "name": "document-lock",
-        "title": "Document Lock"
-      },
-      {
-        "name": "document-text",
-        "title": "Document Text"
-      },
-      {
-        "name": "documents",
-        "title": "Documents"
-      },
-      {
-        "name": "download",
-        "title": "Download"
-      },
-      {
-        "name": "duplicate",
-        "title": "Duplicate"
-      },
-      {
-        "name": "ear",
-        "title": "Ear"
-      },
-      {
-        "name": "earth",
-        "title": "Earth"
-      },
-      {
-        "name": "easel",
-        "title": "Easel"
-      },
-      {
-        "name": "egg",
-        "title": "Egg"
-      },
-      {
-        "name": "ellipse",
-        "title": "Ellipse"
-      },
-      {
-        "name": "ellipsis-horizontal",
-        "title": "Ellipsis Horizontal"
-      },
-      {
-        "name": "ellipsis-horizontal-circle",
-        "title": "Ellipsis Horizontal Circle"
-      },
-      {
-        "name": "ellipsis-vertical",
-        "title": "Ellipsis Vertical"
-      },
-      {
-        "name": "ellipsis-vertical-circle",
-        "title": "Ellipsis Vertical Circle"
-      },
-      {
-        "name": "enter",
-        "title": "Enter"
-      },
-      {
-        "name": "exit",
-        "title": "Exit"
-      },
-      {
-        "name": "expand",
-        "title": "Expand"
-      },
-      {
-        "name": "extension-puzzle",
-        "title": "Extension Puzzle"
-      },
-      {
-        "name": "eye",
-        "title": "Eye"
-      },
-      {
-        "name": "eye-off",
-        "title": "Eye Off"
-      },
-      {
-        "name": "eyedrop",
-        "title": "Eyedrop"
-      },
-      {
-        "name": "fast-food",
-        "title": "Fast Food"
-      },
-      {
-        "name": "female",
-        "title": "Female"
-      },
-      {
-        "name": "file-tray",
-        "title": "File Tray"
-      },
-      {
-        "name": "file-tray-full",
-        "title": "File Tray Full"
-      },
-      {
-        "name": "file-tray-stacked",
-        "title": "File Tray Stacked"
-      },
-      {
-        "name": "film",
-        "title": "Film"
-      },
-      {
-        "name": "filter",
-        "title": "Filter"
-      },
-      {
-        "name": "filter-circle",
-        "title": "Filter Circle"
-      },
-      {
-        "name": "finger-print",
-        "title": "Finger Print"
-      },
-      {
-        "name": "fish",
-        "title": "Fish"
-      },
-      {
-        "name": "fitness",
-        "title": "Fitness"
-      },
-      {
-        "name": "flag",
-        "title": "Flag"
-      },
-      {
-        "name": "flame",
-        "title": "Flame"
-      },
-      {
-        "name": "flash",
-        "title": "Flash"
-      },
-      {
-        "name": "flash-off",
-        "title": "Flash Off"
-      },
-      {
-        "name": "flashlight",
-        "title": "Flashlight"
-      },
-      {
-        "name": "flask",
-        "title": "Flask"
-      },
-      {
-        "name": "flower",
-        "title": "Flower"
-      },
-      {
-        "name": "folder",
-        "title": "Folder"
-      },
-      {
-        "name": "folder-open",
-        "title": "Folder Open"
-      },
-      {
-        "name": "football",
-        "title": "Football"
-      },
-      {
-        "name": "footsteps",
-        "title": "Footsteps"
-      },
-      {
-        "name": "funnel",
-        "title": "Funnel"
-      },
-      {
-        "name": "game-controller",
-        "title": "Game Controller"
-      },
-      {
-        "name": "gift",
-        "title": "Gift"
-      },
-      {
-        "name": "git-branch",
-        "title": "Git Branch"
-      },
-      {
-        "name": "git-commit",
-        "title": "Git Commit"
-      },
-      {
-        "name": "git-compare",
-        "title": "Git Compare"
-      },
-      {
-        "name": "git-merge",
-        "title": "Git Merge"
-      },
-      {
-        "name": "git-network",
-        "title": "Git Network"
-      },
-      {
-        "name": "git-pull-request",
-        "title": "Git Pull Request"
-      },
-      {
-        "name": "glasses",
-        "title": "Glasses"
-      },
-      {
-        "name": "globe",
-        "title": "Globe"
-      },
-      {
-        "name": "golf",
-        "title": "Golf"
-      },
-      {
-        "name": "grid",
-        "title": "Grid"
-      },
-      {
-        "name": "hammer",
-        "title": "Hammer"
-      },
-      {
-        "name": "hand-left",
-        "title": "Hand Left"
-      },
-      {
-        "name": "hand-right",
-        "title": "Hand Right"
-      },
-      {
-        "name": "happy",
-        "title": "Happy"
-      },
-      {
-        "name": "hardware-chip",
-        "title": "Hardware Chip"
-      },
-      {
-        "name": "headset",
-        "title": "Headset"
-      },
-      {
-        "name": "heart",
-        "title": "Heart"
-      },
-      {
-        "name": "heart-circle",
-        "title": "Heart Circle"
-      },
-      {
-        "name": "heart-dislike",
-        "title": "Heart Dislike"
-      },
-      {
-        "name": "heart-dislike-circle",
-        "title": "Heart Dislike Circle"
-      },
-      {
-        "name": "heart-half",
-        "title": "Heart Half"
-      },
-      {
-        "name": "help",
-        "title": "Help"
-      },
-      {
-        "name": "help-buoy",
-        "title": "Help Buoy"
-      },
-      {
-        "name": "help-circle",
-        "title": "Help Circle"
-      },
-      {
-        "name": "home",
-        "title": "Home"
-      },
-      {
-        "name": "hourglass",
-        "title": "Hourglass"
-      },
-      {
-        "name": "ice-cream",
-        "title": "Ice Cream"
-      },
-      {
-        "name": "id-card",
-        "title": "Id Card"
-      },
-      {
-        "name": "image",
-        "title": "Image"
-      },
-      {
-        "name": "images",
-        "title": "Images"
-      },
-      {
-        "name": "infinite",
-        "title": "Infinite"
-      },
-      {
-        "name": "information",
-        "title": "Information"
-      },
-      {
-        "name": "information-circle",
-        "title": "Information Circle"
-      },
-      {
-        "name": "invert-mode",
-        "title": "Invert Mode"
-      },
-      {
-        "name": "journal",
-        "title": "Journal"
-      },
-      {
-        "name": "key",
-        "title": "Key"
-      },
-      {
-        "name": "keypad",
-        "title": "Keypad"
-      },
-      {
-        "name": "language",
-        "title": "Language"
-      },
-      {
-        "name": "laptop",
-        "title": "Laptop"
-      },
-      {
-        "name": "layers",
-        "title": "Layers"
-      },
-      {
-        "name": "leaf",
-        "title": "Leaf"
-      },
-      {
-        "name": "library",
-        "title": "Library"
-      },
-      {
-        "name": "link",
-        "title": "Link"
-      },
-      {
-        "name": "list",
-        "title": "List"
-      },
-      {
-        "name": "list-circle",
-        "title": "List Circle"
-      },
-      {
-        "name": "locate",
-        "title": "Locate"
-      },
-      {
-        "name": "location",
-        "title": "Location"
-      },
-      {
-        "name": "lock-closed",
-        "title": "Lock Closed"
-      },
-      {
-        "name": "lock-open",
-        "title": "Lock Open"
-      },
-      {
-        "name": "log-in",
-        "title": "Log In"
-      },
-      {
-        "name": "log-out",
-        "title": "Log Out"
-      },
-      {
-        "name": "logo-alipay",
-        "title": "Logo Alipay"
-      },
-      {
-        "name": "logo-amazon",
-        "title": "Logo Amazon"
-      },
-      {
-        "name": "logo-amplify",
-        "title": "Logo Amplify"
-      },
-      {
-        "name": "logo-android",
-        "title": "Logo Android"
-      },
-      {
-        "name": "logo-angular",
-        "title": "Logo Angular"
-      },
-      {
-        "name": "logo-appflow",
-        "title": "Logo Appflow"
-      },
-      {
-        "name": "logo-apple",
-        "title": "Logo Apple"
-      },
-      {
-        "name": "logo-apple-appstore",
-        "title": "Logo Apple Appstore"
-      },
-      {
-        "name": "logo-apple-ar",
-        "title": "Logo Apple Ar"
-      },
-      {
-        "name": "logo-behance",
-        "title": "Logo Behance"
-      },
-      {
-        "name": "logo-bitbucket",
-        "title": "Logo Bitbucket"
-      },
-      {
-        "name": "logo-bitcoin",
-        "title": "Logo Bitcoin"
-      },
-      {
-        "name": "logo-buffer",
-        "title": "Logo Buffer"
-      },
-      {
-        "name": "logo-capacitor",
-        "title": "Logo Capacitor"
-      },
-      {
-        "name": "logo-chrome",
-        "title": "Logo Chrome"
-      },
-      {
-        "name": "logo-closed-captioning",
-        "title": "Logo Closed Captioning"
-      },
-      {
-        "name": "logo-codepen",
-        "title": "Logo Codepen"
-      },
-      {
-        "name": "logo-css3",
-        "title": "Logo Css3"
-      },
-      {
-        "name": "logo-designernews",
-        "title": "Logo Designernews"
-      },
-      {
-        "name": "logo-deviantart",
-        "title": "Logo Deviantart"
-      },
-      {
-        "name": "logo-discord",
-        "title": "Logo Discord"
-      },
-      {
-        "name": "logo-docker",
-        "title": "Logo Docker"
-      },
-      {
-        "name": "logo-dribbble",
-        "title": "Logo Dribbble"
-      },
-      {
-        "name": "logo-dropbox",
-        "title": "Logo Dropbox"
-      },
-      {
-        "name": "logo-edge",
-        "title": "Logo Edge"
-      },
-      {
-        "name": "logo-electron",
-        "title": "Logo Electron"
-      },
-      {
-        "name": "logo-euro",
-        "title": "Logo Euro"
-      },
-      {
-        "name": "logo-facebook",
-        "title": "Logo Facebook"
-      },
-      {
-        "name": "logo-figma",
-        "title": "Logo Figma"
-      },
-      {
-        "name": "logo-firebase",
-        "title": "Logo Firebase"
-      },
-      {
-        "name": "logo-firefox",
-        "title": "Logo Firefox"
-      },
-      {
-        "name": "logo-flickr",
-        "title": "Logo Flickr"
-      },
-      {
-        "name": "logo-foursquare",
-        "title": "Logo Foursquare"
-      },
-      {
-        "name": "logo-github",
-        "title": "Logo Github"
-      },
-      {
-        "name": "logo-gitlab",
-        "title": "Logo Gitlab"
-      },
-      {
-        "name": "logo-google",
-        "title": "Logo Google"
-      },
-      {
-        "name": "logo-google-playstore",
-        "title": "Logo Google Playstore"
-      },
-      {
-        "name": "logo-hackernews",
-        "title": "Logo Hackernews"
-      },
-      {
-        "name": "logo-html5",
-        "title": "Logo Html5"
-      },
-      {
-        "name": "logo-instagram",
-        "title": "Logo Instagram"
-      },
-      {
-        "name": "logo-ionic",
-        "title": "Logo Ionic"
-      },
-      {
-        "name": "logo-ionitron",
-        "title": "Logo Ionitron"
-      },
-      {
-        "name": "logo-javascript",
-        "title": "Logo Javascript"
-      },
-      {
-        "name": "logo-laravel",
-        "title": "Logo Laravel"
-      },
-      {
-        "name": "logo-linkedin",
-        "title": "Logo Linkedin"
-      },
-      {
-        "name": "logo-markdown",
-        "title": "Logo Markdown"
-      },
-      {
-        "name": "logo-mastodon",
-        "title": "Logo Mastodon"
-      },
-      {
-        "name": "logo-medium",
-        "title": "Logo Medium"
-      },
-      {
-        "name": "logo-microsoft",
-        "title": "Logo Microsoft"
-      },
-      {
-        "name": "logo-no-smoking",
-        "title": "Logo No Smoking"
-      },
-      {
-        "name": "logo-nodejs",
-        "title": "Logo Nodejs"
-      },
-      {
-        "name": "logo-npm",
-        "title": "Logo Npm"
-      },
-      {
-        "name": "logo-octocat",
-        "title": "Logo Octocat"
-      },
-      {
-        "name": "logo-paypal",
-        "title": "Logo Paypal"
-      },
-      {
-        "name": "logo-pinterest",
-        "title": "Logo Pinterest"
-      },
-      {
-        "name": "logo-playstation",
-        "title": "Logo Playstation"
-      },
-      {
-        "name": "logo-pwa",
-        "title": "Logo Pwa"
-      },
-      {
-        "name": "logo-python",
-        "title": "Logo Python"
-      },
-      {
-        "name": "logo-react",
-        "title": "Logo React"
-      },
-      {
-        "name": "logo-reddit",
-        "title": "Logo Reddit"
-      },
-      {
-        "name": "logo-rss",
-        "title": "Logo Rss"
-      },
-      {
-        "name": "logo-sass",
-        "title": "Logo Sass"
-      },
-      {
-        "name": "logo-skype",
-        "title": "Logo Skype"
-      },
-      {
-        "name": "logo-slack",
-        "title": "Logo Slack"
-      },
-      {
-        "name": "logo-snapchat",
-        "title": "Logo Snapchat"
-      },
-      {
-        "name": "logo-soundcloud",
-        "title": "Logo Soundcloud"
-      },
-      {
-        "name": "logo-stackoverflow",
-        "title": "Logo Stackoverflow"
-      },
-      {
-        "name": "logo-steam",
-        "title": "Logo Steam"
-      },
-      {
-        "name": "logo-stencil",
-        "title": "Logo Stencil"
-      },
-      {
-        "name": "logo-tableau",
-        "title": "Logo Tableau"
-      },
-      {
-        "name": "logo-threads",
-        "title": "Logo Threads"
-      },
-      {
-        "name": "logo-tiktok",
-        "title": "Logo Tiktok"
-      },
-      {
-        "name": "logo-trapeze",
-        "title": "Logo Trapeze"
-      },
-      {
-        "name": "logo-tumblr",
-        "title": "Logo Tumblr"
-      },
-      {
-        "name": "logo-tux",
-        "title": "Logo Tux"
-      },
-      {
-        "name": "logo-twitch",
-        "title": "Logo Twitch"
-      },
-      {
-        "name": "logo-twitter",
-        "title": "Logo Twitter"
-      },
-      {
-        "name": "logo-usd",
-        "title": "Logo Usd"
-      },
-      {
-        "name": "logo-venmo",
-        "title": "Logo Venmo"
-      },
-      {
-        "name": "logo-vercel",
-        "title": "Logo Vercel"
-      },
-      {
-        "name": "logo-vimeo",
-        "title": "Logo Vimeo"
-      },
-      {
-        "name": "logo-vk",
-        "title": "Logo Vk"
-      },
-      {
-        "name": "logo-vue",
-        "title": "Logo Vue"
-      },
-      {
-        "name": "logo-web-component",
-        "title": "Logo Web Component"
-      },
-      {
-        "name": "logo-wechat",
-        "title": "Logo Wechat"
-      },
-      {
-        "name": "logo-whatsapp",
-        "title": "Logo Whatsapp"
-      },
-      {
-        "name": "logo-windows",
-        "title": "Logo Windows"
-      },
-      {
-        "name": "logo-wordpress",
-        "title": "Logo Wordpress"
-      },
-      {
-        "name": "logo-x",
-        "title": "Logo X"
-      },
-      {
-        "name": "logo-xbox",
-        "title": "Logo Xbox"
-      },
-      {
-        "name": "logo-xing",
-        "title": "Logo Xing"
-      },
-      {
-        "name": "logo-yahoo",
-        "title": "Logo Yahoo"
-      },
-      {
-        "name": "logo-yen",
-        "title": "Logo Yen"
-      },
-      {
-        "name": "logo-youtube",
-        "title": "Logo Youtube"
-      },
-      {
-        "name": "magnet",
-        "title": "Magnet"
-      },
-      {
-        "name": "mail",
-        "title": "Mail"
-      },
-      {
-        "name": "mail-open",
-        "title": "Mail Open"
-      },
-      {
-        "name": "mail-unread",
-        "title": "Mail Unread"
-      },
-      {
-        "name": "male",
-        "title": "Male"
-      },
-      {
-        "name": "male-female",
-        "title": "Male Female"
-      },
-      {
-        "name": "man",
-        "title": "Man"
-      },
-      {
-        "name": "map",
-        "title": "Map"
-      },
-      {
-        "name": "medal",
-        "title": "Medal"
-      },
-      {
-        "name": "medical",
-        "title": "Medical"
-      },
-      {
-        "name": "medkit",
-        "title": "Medkit"
-      },
-      {
-        "name": "megaphone",
-        "title": "Megaphone"
-      },
-      {
-        "name": "menu",
-        "title": "Menu"
-      },
-      {
-        "name": "mic",
-        "title": "Mic"
-      },
-      {
-        "name": "mic-circle",
-        "title": "Mic Circle"
-      },
-      {
-        "name": "mic-off",
-        "title": "Mic Off"
-      },
-      {
-        "name": "mic-off-circle",
-        "title": "Mic Off Circle"
-      },
-      {
-        "name": "moon",
-        "title": "Moon"
-      },
-      {
-        "name": "move",
-        "title": "Move"
-      },
-      {
-        "name": "musical-note",
-        "title": "Musical Note"
-      },
-      {
-        "name": "musical-notes",
-        "title": "Musical Notes"
-      },
-      {
-        "name": "navigate",
-        "title": "Navigate"
-      },
-      {
-        "name": "navigate-circle",
-        "title": "Navigate Circle"
-      },
-      {
-        "name": "newspaper",
-        "title": "Newspaper"
-      },
-      {
-        "name": "notifications",
-        "title": "Notifications"
-      },
-      {
-        "name": "notifications-circle",
-        "title": "Notifications Circle"
-      },
-      {
-        "name": "notifications-off",
-        "title": "Notifications Off"
-      },
-      {
-        "name": "notifications-off-circle",
-        "title": "Notifications Off Circle"
-      },
-      {
-        "name": "nuclear",
-        "title": "Nuclear"
-      },
-      {
-        "name": "nutrition",
-        "title": "Nutrition"
-      },
-      {
-        "name": "open",
-        "title": "Open"
-      },
-      {
-        "name": "options",
-        "title": "Options"
-      },
-      {
-        "name": "paper-plane",
-        "title": "Paper Plane"
-      },
-      {
-        "name": "partly-sunny",
-        "title": "Partly Sunny"
-      },
-      {
-        "name": "pause",
-        "title": "Pause"
-      },
-      {
-        "name": "pause-circle",
-        "title": "Pause Circle"
-      },
-      {
-        "name": "paw",
-        "title": "Paw"
-      },
-      {
-        "name": "pencil",
-        "title": "Pencil"
-      },
-      {
-        "name": "people",
-        "title": "People"
-      },
-      {
-        "name": "people-circle",
-        "title": "People Circle"
-      },
-      {
-        "name": "person",
-        "title": "Person"
-      },
-      {
-        "name": "person-add",
-        "title": "Person Add"
-      },
-      {
-        "name": "person-circle",
-        "title": "Person Circle"
-      },
-      {
-        "name": "person-remove",
-        "title": "Person Remove"
-      },
-      {
-        "name": "phone-landscape",
-        "title": "Phone Landscape"
-      },
-      {
-        "name": "phone-portrait",
-        "title": "Phone Portrait"
-      },
-      {
-        "name": "pie-chart",
-        "title": "Pie Chart"
-      },
-      {
-        "name": "pin",
-        "title": "Pin"
-      },
-      {
-        "name": "pint",
-        "title": "Pint"
-      },
-      {
-        "name": "pizza",
-        "title": "Pizza"
-      },
-      {
-        "name": "planet",
-        "title": "Planet"
-      },
-      {
-        "name": "play-back",
-        "title": "Play Back"
-      },
-      {
-        "name": "play-back-circle",
-        "title": "Play Back Circle"
-      },
-      {
-        "name": "play-circle",
-        "title": "Play Circle"
-      },
-      {
-        "name": "play-forward",
-        "title": "Play Forward"
-      },
-      {
-        "name": "play-forward-circle",
-        "title": "Play Forward Circle"
-      }
-    ]
-  }
+  "cdnPattern": "https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/svg/{name}.svg",
+  "totalIcons": 1000,
+  "icons": [
+    {
+      "name": "accessibility-outline",
+      "title": "Accessibility Outline"
+    },
+    {
+      "name": "accessibility-sharp",
+      "title": "Accessibility Sharp"
+    },
+    {
+      "name": "accessibility",
+      "title": "Accessibility"
+    },
+    {
+      "name": "add-circle-outline",
+      "title": "Add Circle Outline"
+    },
+    {
+      "name": "add-circle-sharp",
+      "title": "Add Circle Sharp"
+    },
+    {
+      "name": "add-circle",
+      "title": "Add Circle"
+    },
+    {
+      "name": "add-outline",
+      "title": "Add Outline"
+    },
+    {
+      "name": "add-sharp",
+      "title": "Add Sharp"
+    },
+    {
+      "name": "add",
+      "title": "Add"
+    },
+    {
+      "name": "airplane-outline",
+      "title": "Airplane Outline"
+    },
+    {
+      "name": "airplane-sharp",
+      "title": "Airplane Sharp"
+    },
+    {
+      "name": "airplane",
+      "title": "Airplane"
+    },
+    {
+      "name": "alarm-outline",
+      "title": "Alarm Outline"
+    },
+    {
+      "name": "alarm-sharp",
+      "title": "Alarm Sharp"
+    },
+    {
+      "name": "alarm",
+      "title": "Alarm"
+    },
+    {
+      "name": "albums-outline",
+      "title": "Albums Outline"
+    },
+    {
+      "name": "albums-sharp",
+      "title": "Albums Sharp"
+    },
+    {
+      "name": "albums",
+      "title": "Albums"
+    },
+    {
+      "name": "alert-circle-outline",
+      "title": "Alert Circle Outline"
+    },
+    {
+      "name": "alert-circle-sharp",
+      "title": "Alert Circle Sharp"
+    },
+    {
+      "name": "alert-circle",
+      "title": "Alert Circle"
+    },
+    {
+      "name": "alert-outline",
+      "title": "Alert Outline"
+    },
+    {
+      "name": "alert-sharp",
+      "title": "Alert Sharp"
+    },
+    {
+      "name": "alert",
+      "title": "Alert"
+    },
+    {
+      "name": "american-football-outline",
+      "title": "American Football Outline"
+    },
+    {
+      "name": "american-football-sharp",
+      "title": "American Football Sharp"
+    },
+    {
+      "name": "american-football",
+      "title": "American Football"
+    },
+    {
+      "name": "analytics-outline",
+      "title": "Analytics Outline"
+    },
+    {
+      "name": "analytics-sharp",
+      "title": "Analytics Sharp"
+    },
+    {
+      "name": "analytics",
+      "title": "Analytics"
+    },
+    {
+      "name": "aperture-outline",
+      "title": "Aperture Outline"
+    },
+    {
+      "name": "aperture-sharp",
+      "title": "Aperture Sharp"
+    },
+    {
+      "name": "aperture",
+      "title": "Aperture"
+    },
+    {
+      "name": "apps-outline",
+      "title": "Apps Outline"
+    },
+    {
+      "name": "apps-sharp",
+      "title": "Apps Sharp"
+    },
+    {
+      "name": "apps",
+      "title": "Apps"
+    },
+    {
+      "name": "archive-outline",
+      "title": "Archive Outline"
+    },
+    {
+      "name": "archive-sharp",
+      "title": "Archive Sharp"
+    },
+    {
+      "name": "archive",
+      "title": "Archive"
+    },
+    {
+      "name": "arrow-back-circle-outline",
+      "title": "Arrow Back Circle Outline"
+    },
+    {
+      "name": "arrow-back-circle-sharp",
+      "title": "Arrow Back Circle Sharp"
+    },
+    {
+      "name": "arrow-back-circle",
+      "title": "Arrow Back Circle"
+    },
+    {
+      "name": "arrow-back-outline",
+      "title": "Arrow Back Outline"
+    },
+    {
+      "name": "arrow-back-sharp",
+      "title": "Arrow Back Sharp"
+    },
+    {
+      "name": "arrow-back",
+      "title": "Arrow Back"
+    },
+    {
+      "name": "arrow-down-circle-outline",
+      "title": "Arrow Down Circle Outline"
+    },
+    {
+      "name": "arrow-down-circle-sharp",
+      "title": "Arrow Down Circle Sharp"
+    },
+    {
+      "name": "arrow-down-circle",
+      "title": "Arrow Down Circle"
+    },
+    {
+      "name": "arrow-down-left-box-outline",
+      "title": "Arrow Down Left Box Outline"
+    },
+    {
+      "name": "arrow-down-left-box-sharp",
+      "title": "Arrow Down Left Box Sharp"
+    },
+    {
+      "name": "arrow-down-left-box",
+      "title": "Arrow Down Left Box"
+    },
+    {
+      "name": "arrow-down-outline",
+      "title": "Arrow Down Outline"
+    },
+    {
+      "name": "arrow-down-right-box-outline",
+      "title": "Arrow Down Right Box Outline"
+    },
+    {
+      "name": "arrow-down-right-box-sharp",
+      "title": "Arrow Down Right Box Sharp"
+    },
+    {
+      "name": "arrow-down-right-box",
+      "title": "Arrow Down Right Box"
+    },
+    {
+      "name": "arrow-down-sharp",
+      "title": "Arrow Down Sharp"
+    },
+    {
+      "name": "arrow-down",
+      "title": "Arrow Down"
+    },
+    {
+      "name": "arrow-forward-circle-outline",
+      "title": "Arrow Forward Circle Outline"
+    },
+    {
+      "name": "arrow-forward-circle-sharp",
+      "title": "Arrow Forward Circle Sharp"
+    },
+    {
+      "name": "arrow-forward-circle",
+      "title": "Arrow Forward Circle"
+    },
+    {
+      "name": "arrow-forward-outline",
+      "title": "Arrow Forward Outline"
+    },
+    {
+      "name": "arrow-forward-sharp",
+      "title": "Arrow Forward Sharp"
+    },
+    {
+      "name": "arrow-forward",
+      "title": "Arrow Forward"
+    },
+    {
+      "name": "arrow-redo-circle-outline",
+      "title": "Arrow Redo Circle Outline"
+    },
+    {
+      "name": "arrow-redo-circle-sharp",
+      "title": "Arrow Redo Circle Sharp"
+    },
+    {
+      "name": "arrow-redo-circle",
+      "title": "Arrow Redo Circle"
+    },
+    {
+      "name": "arrow-redo-outline",
+      "title": "Arrow Redo Outline"
+    },
+    {
+      "name": "arrow-redo-sharp",
+      "title": "Arrow Redo Sharp"
+    },
+    {
+      "name": "arrow-redo",
+      "title": "Arrow Redo"
+    },
+    {
+      "name": "arrow-undo-circle-outline",
+      "title": "Arrow Undo Circle Outline"
+    },
+    {
+      "name": "arrow-undo-circle-sharp",
+      "title": "Arrow Undo Circle Sharp"
+    },
+    {
+      "name": "arrow-undo-circle",
+      "title": "Arrow Undo Circle"
+    },
+    {
+      "name": "arrow-undo-outline",
+      "title": "Arrow Undo Outline"
+    },
+    {
+      "name": "arrow-undo-sharp",
+      "title": "Arrow Undo Sharp"
+    },
+    {
+      "name": "arrow-undo",
+      "title": "Arrow Undo"
+    },
+    {
+      "name": "arrow-up-circle-outline",
+      "title": "Arrow Up Circle Outline"
+    },
+    {
+      "name": "arrow-up-circle-sharp",
+      "title": "Arrow Up Circle Sharp"
+    },
+    {
+      "name": "arrow-up-circle",
+      "title": "Arrow Up Circle"
+    },
+    {
+      "name": "arrow-up-left-box-outline",
+      "title": "Arrow Up Left Box Outline"
+    },
+    {
+      "name": "arrow-up-left-box-sharp",
+      "title": "Arrow Up Left Box Sharp"
+    },
+    {
+      "name": "arrow-up-left-box",
+      "title": "Arrow Up Left Box"
+    },
+    {
+      "name": "arrow-up-outline",
+      "title": "Arrow Up Outline"
+    },
+    {
+      "name": "arrow-up-right-box-outline",
+      "title": "Arrow Up Right Box Outline"
+    },
+    {
+      "name": "arrow-up-right-box-sharp",
+      "title": "Arrow Up Right Box Sharp"
+    },
+    {
+      "name": "arrow-up-right-box",
+      "title": "Arrow Up Right Box"
+    },
+    {
+      "name": "arrow-up-sharp",
+      "title": "Arrow Up Sharp"
+    },
+    {
+      "name": "arrow-up",
+      "title": "Arrow Up"
+    },
+    {
+      "name": "at-circle-outline",
+      "title": "At Circle Outline"
+    },
+    {
+      "name": "at-circle-sharp",
+      "title": "At Circle Sharp"
+    },
+    {
+      "name": "at-circle",
+      "title": "At Circle"
+    },
+    {
+      "name": "at-outline",
+      "title": "At Outline"
+    },
+    {
+      "name": "at-sharp",
+      "title": "At Sharp"
+    },
+    {
+      "name": "at",
+      "title": "At"
+    },
+    {
+      "name": "attach-outline",
+      "title": "Attach Outline"
+    },
+    {
+      "name": "attach-sharp",
+      "title": "Attach Sharp"
+    },
+    {
+      "name": "attach",
+      "title": "Attach"
+    },
+    {
+      "name": "backspace-outline",
+      "title": "Backspace Outline"
+    },
+    {
+      "name": "backspace-sharp",
+      "title": "Backspace Sharp"
+    },
+    {
+      "name": "backspace",
+      "title": "Backspace"
+    },
+    {
+      "name": "bag-add-outline",
+      "title": "Bag Add Outline"
+    },
+    {
+      "name": "bag-add-sharp",
+      "title": "Bag Add Sharp"
+    },
+    {
+      "name": "bag-add",
+      "title": "Bag Add"
+    },
+    {
+      "name": "bag-check-outline",
+      "title": "Bag Check Outline"
+    },
+    {
+      "name": "bag-check-sharp",
+      "title": "Bag Check Sharp"
+    },
+    {
+      "name": "bag-check",
+      "title": "Bag Check"
+    },
+    {
+      "name": "bag-handle-outline",
+      "title": "Bag Handle Outline"
+    },
+    {
+      "name": "bag-handle-sharp",
+      "title": "Bag Handle Sharp"
+    },
+    {
+      "name": "bag-handle",
+      "title": "Bag Handle"
+    },
+    {
+      "name": "bag-outline",
+      "title": "Bag Outline"
+    },
+    {
+      "name": "bag-remove-outline",
+      "title": "Bag Remove Outline"
+    },
+    {
+      "name": "bag-remove-sharp",
+      "title": "Bag Remove Sharp"
+    },
+    {
+      "name": "bag-remove",
+      "title": "Bag Remove"
+    },
+    {
+      "name": "bag-sharp",
+      "title": "Bag Sharp"
+    },
+    {
+      "name": "bag",
+      "title": "Bag"
+    },
+    {
+      "name": "balloon-outline",
+      "title": "Balloon Outline"
+    },
+    {
+      "name": "balloon-sharp",
+      "title": "Balloon Sharp"
+    },
+    {
+      "name": "balloon",
+      "title": "Balloon"
+    },
+    {
+      "name": "ban-outline",
+      "title": "Ban Outline"
+    },
+    {
+      "name": "ban-sharp",
+      "title": "Ban Sharp"
+    },
+    {
+      "name": "ban",
+      "title": "Ban"
+    },
+    {
+      "name": "bandage-outline",
+      "title": "Bandage Outline"
+    },
+    {
+      "name": "bandage-sharp",
+      "title": "Bandage Sharp"
+    },
+    {
+      "name": "bandage",
+      "title": "Bandage"
+    },
+    {
+      "name": "bar-chart-outline",
+      "title": "Bar Chart Outline"
+    },
+    {
+      "name": "bar-chart-sharp",
+      "title": "Bar Chart Sharp"
+    },
+    {
+      "name": "bar-chart",
+      "title": "Bar Chart"
+    },
+    {
+      "name": "barbell-outline",
+      "title": "Barbell Outline"
+    },
+    {
+      "name": "barbell-sharp",
+      "title": "Barbell Sharp"
+    },
+    {
+      "name": "barbell",
+      "title": "Barbell"
+    },
+    {
+      "name": "barcode-outline",
+      "title": "Barcode Outline"
+    },
+    {
+      "name": "barcode-sharp",
+      "title": "Barcode Sharp"
+    },
+    {
+      "name": "barcode",
+      "title": "Barcode"
+    },
+    {
+      "name": "baseball-outline",
+      "title": "Baseball Outline"
+    },
+    {
+      "name": "baseball-sharp",
+      "title": "Baseball Sharp"
+    },
+    {
+      "name": "baseball",
+      "title": "Baseball"
+    },
+    {
+      "name": "basket-outline",
+      "title": "Basket Outline"
+    },
+    {
+      "name": "basket-sharp",
+      "title": "Basket Sharp"
+    },
+    {
+      "name": "basket",
+      "title": "Basket"
+    },
+    {
+      "name": "basketball-outline",
+      "title": "Basketball Outline"
+    },
+    {
+      "name": "basketball-sharp",
+      "title": "Basketball Sharp"
+    },
+    {
+      "name": "basketball",
+      "title": "Basketball"
+    },
+    {
+      "name": "battery-charging-outline",
+      "title": "Battery Charging Outline"
+    },
+    {
+      "name": "battery-charging-sharp",
+      "title": "Battery Charging Sharp"
+    },
+    {
+      "name": "battery-charging",
+      "title": "Battery Charging"
+    },
+    {
+      "name": "battery-dead-outline",
+      "title": "Battery Dead Outline"
+    },
+    {
+      "name": "battery-dead-sharp",
+      "title": "Battery Dead Sharp"
+    },
+    {
+      "name": "battery-dead",
+      "title": "Battery Dead"
+    },
+    {
+      "name": "battery-full-outline",
+      "title": "Battery Full Outline"
+    },
+    {
+      "name": "battery-full-sharp",
+      "title": "Battery Full Sharp"
+    },
+    {
+      "name": "battery-full",
+      "title": "Battery Full"
+    },
+    {
+      "name": "battery-half-outline",
+      "title": "Battery Half Outline"
+    },
+    {
+      "name": "battery-half-sharp",
+      "title": "Battery Half Sharp"
+    },
+    {
+      "name": "battery-half",
+      "title": "Battery Half"
+    },
+    {
+      "name": "beaker-outline",
+      "title": "Beaker Outline"
+    },
+    {
+      "name": "beaker-sharp",
+      "title": "Beaker Sharp"
+    },
+    {
+      "name": "beaker",
+      "title": "Beaker"
+    },
+    {
+      "name": "bed-outline",
+      "title": "Bed Outline"
+    },
+    {
+      "name": "bed-sharp",
+      "title": "Bed Sharp"
+    },
+    {
+      "name": "bed",
+      "title": "Bed"
+    },
+    {
+      "name": "beer-outline",
+      "title": "Beer Outline"
+    },
+    {
+      "name": "beer-sharp",
+      "title": "Beer Sharp"
+    },
+    {
+      "name": "beer",
+      "title": "Beer"
+    },
+    {
+      "name": "bicycle-outline",
+      "title": "Bicycle Outline"
+    },
+    {
+      "name": "bicycle-sharp",
+      "title": "Bicycle Sharp"
+    },
+    {
+      "name": "bicycle",
+      "title": "Bicycle"
+    },
+    {
+      "name": "binoculars-outline",
+      "title": "Binoculars Outline"
+    },
+    {
+      "name": "binoculars-sharp",
+      "title": "Binoculars Sharp"
+    },
+    {
+      "name": "binoculars",
+      "title": "Binoculars"
+    },
+    {
+      "name": "bluetooth-outline",
+      "title": "Bluetooth Outline"
+    },
+    {
+      "name": "bluetooth-sharp",
+      "title": "Bluetooth Sharp"
+    },
+    {
+      "name": "bluetooth",
+      "title": "Bluetooth"
+    },
+    {
+      "name": "boat-outline",
+      "title": "Boat Outline"
+    },
+    {
+      "name": "boat-sharp",
+      "title": "Boat Sharp"
+    },
+    {
+      "name": "boat",
+      "title": "Boat"
+    },
+    {
+      "name": "body-outline",
+      "title": "Body Outline"
+    },
+    {
+      "name": "body-sharp",
+      "title": "Body Sharp"
+    },
+    {
+      "name": "body",
+      "title": "Body"
+    },
+    {
+      "name": "bonfire-outline",
+      "title": "Bonfire Outline"
+    },
+    {
+      "name": "bonfire-sharp",
+      "title": "Bonfire Sharp"
+    },
+    {
+      "name": "bonfire",
+      "title": "Bonfire"
+    },
+    {
+      "name": "book-outline",
+      "title": "Book Outline"
+    },
+    {
+      "name": "book-sharp",
+      "title": "Book Sharp"
+    },
+    {
+      "name": "book",
+      "title": "Book"
+    },
+    {
+      "name": "bookmark-outline",
+      "title": "Bookmark Outline"
+    },
+    {
+      "name": "bookmark-sharp",
+      "title": "Bookmark Sharp"
+    },
+    {
+      "name": "bookmark",
+      "title": "Bookmark"
+    },
+    {
+      "name": "bookmarks-outline",
+      "title": "Bookmarks Outline"
+    },
+    {
+      "name": "bookmarks-sharp",
+      "title": "Bookmarks Sharp"
+    },
+    {
+      "name": "bookmarks",
+      "title": "Bookmarks"
+    },
+    {
+      "name": "bowling-ball-outline",
+      "title": "Bowling Ball Outline"
+    },
+    {
+      "name": "bowling-ball-sharp",
+      "title": "Bowling Ball Sharp"
+    },
+    {
+      "name": "bowling-ball",
+      "title": "Bowling Ball"
+    },
+    {
+      "name": "briefcase-outline",
+      "title": "Briefcase Outline"
+    },
+    {
+      "name": "briefcase-sharp",
+      "title": "Briefcase Sharp"
+    },
+    {
+      "name": "briefcase",
+      "title": "Briefcase"
+    },
+    {
+      "name": "browsers-outline",
+      "title": "Browsers Outline"
+    },
+    {
+      "name": "browsers-sharp",
+      "title": "Browsers Sharp"
+    },
+    {
+      "name": "browsers",
+      "title": "Browsers"
+    },
+    {
+      "name": "brush-outline",
+      "title": "Brush Outline"
+    },
+    {
+      "name": "brush-sharp",
+      "title": "Brush Sharp"
+    },
+    {
+      "name": "brush",
+      "title": "Brush"
+    },
+    {
+      "name": "bug-outline",
+      "title": "Bug Outline"
+    },
+    {
+      "name": "bug-sharp",
+      "title": "Bug Sharp"
+    },
+    {
+      "name": "bug",
+      "title": "Bug"
+    },
+    {
+      "name": "build-outline",
+      "title": "Build Outline"
+    },
+    {
+      "name": "build-sharp",
+      "title": "Build Sharp"
+    },
+    {
+      "name": "build",
+      "title": "Build"
+    },
+    {
+      "name": "bulb-outline",
+      "title": "Bulb Outline"
+    },
+    {
+      "name": "bulb-sharp",
+      "title": "Bulb Sharp"
+    },
+    {
+      "name": "bulb",
+      "title": "Bulb"
+    },
+    {
+      "name": "bus-outline",
+      "title": "Bus Outline"
+    },
+    {
+      "name": "bus-sharp",
+      "title": "Bus Sharp"
+    },
+    {
+      "name": "bus",
+      "title": "Bus"
+    },
+    {
+      "name": "business-outline",
+      "title": "Business Outline"
+    },
+    {
+      "name": "business-sharp",
+      "title": "Business Sharp"
+    },
+    {
+      "name": "business",
+      "title": "Business"
+    },
+    {
+      "name": "cafe-outline",
+      "title": "Cafe Outline"
+    },
+    {
+      "name": "cafe-sharp",
+      "title": "Cafe Sharp"
+    },
+    {
+      "name": "cafe",
+      "title": "Cafe"
+    },
+    {
+      "name": "calculator-outline",
+      "title": "Calculator Outline"
+    },
+    {
+      "name": "calculator-sharp",
+      "title": "Calculator Sharp"
+    },
+    {
+      "name": "calculator",
+      "title": "Calculator"
+    },
+    {
+      "name": "calendar-clear-outline",
+      "title": "Calendar Clear Outline"
+    },
+    {
+      "name": "calendar-clear-sharp",
+      "title": "Calendar Clear Sharp"
+    },
+    {
+      "name": "calendar-clear",
+      "title": "Calendar Clear"
+    },
+    {
+      "name": "calendar-number-outline",
+      "title": "Calendar Number Outline"
+    },
+    {
+      "name": "calendar-number-sharp",
+      "title": "Calendar Number Sharp"
+    },
+    {
+      "name": "calendar-number",
+      "title": "Calendar Number"
+    },
+    {
+      "name": "calendar-outline",
+      "title": "Calendar Outline"
+    },
+    {
+      "name": "calendar-sharp",
+      "title": "Calendar Sharp"
+    },
+    {
+      "name": "calendar",
+      "title": "Calendar"
+    },
+    {
+      "name": "call-outline",
+      "title": "Call Outline"
+    },
+    {
+      "name": "call-sharp",
+      "title": "Call Sharp"
+    },
+    {
+      "name": "call",
+      "title": "Call"
+    },
+    {
+      "name": "camera-outline",
+      "title": "Camera Outline"
+    },
+    {
+      "name": "camera-reverse-outline",
+      "title": "Camera Reverse Outline"
+    },
+    {
+      "name": "camera-reverse-sharp",
+      "title": "Camera Reverse Sharp"
+    },
+    {
+      "name": "camera-reverse",
+      "title": "Camera Reverse"
+    },
+    {
+      "name": "camera-sharp",
+      "title": "Camera Sharp"
+    },
+    {
+      "name": "camera",
+      "title": "Camera"
+    },
+    {
+      "name": "car-outline",
+      "title": "Car Outline"
+    },
+    {
+      "name": "car-sharp",
+      "title": "Car Sharp"
+    },
+    {
+      "name": "car-sport-outline",
+      "title": "Car Sport Outline"
+    },
+    {
+      "name": "car-sport-sharp",
+      "title": "Car Sport Sharp"
+    },
+    {
+      "name": "car-sport",
+      "title": "Car Sport"
+    },
+    {
+      "name": "car",
+      "title": "Car"
+    },
+    {
+      "name": "card-outline",
+      "title": "Card Outline"
+    },
+    {
+      "name": "card-sharp",
+      "title": "Card Sharp"
+    },
+    {
+      "name": "card",
+      "title": "Card"
+    },
+    {
+      "name": "caret-back-circle-outline",
+      "title": "Caret Back Circle Outline"
+    },
+    {
+      "name": "caret-back-circle-sharp",
+      "title": "Caret Back Circle Sharp"
+    },
+    {
+      "name": "caret-back-circle",
+      "title": "Caret Back Circle"
+    },
+    {
+      "name": "caret-back-outline",
+      "title": "Caret Back Outline"
+    },
+    {
+      "name": "caret-back-sharp",
+      "title": "Caret Back Sharp"
+    },
+    {
+      "name": "caret-back",
+      "title": "Caret Back"
+    },
+    {
+      "name": "caret-down-circle-outline",
+      "title": "Caret Down Circle Outline"
+    },
+    {
+      "name": "caret-down-circle-sharp",
+      "title": "Caret Down Circle Sharp"
+    },
+    {
+      "name": "caret-down-circle",
+      "title": "Caret Down Circle"
+    },
+    {
+      "name": "caret-down-outline",
+      "title": "Caret Down Outline"
+    },
+    {
+      "name": "caret-down-sharp",
+      "title": "Caret Down Sharp"
+    },
+    {
+      "name": "caret-down",
+      "title": "Caret Down"
+    },
+    {
+      "name": "caret-forward-circle-outline",
+      "title": "Caret Forward Circle Outline"
+    },
+    {
+      "name": "caret-forward-circle-sharp",
+      "title": "Caret Forward Circle Sharp"
+    },
+    {
+      "name": "caret-forward-circle",
+      "title": "Caret Forward Circle"
+    },
+    {
+      "name": "caret-forward-outline",
+      "title": "Caret Forward Outline"
+    },
+    {
+      "name": "caret-forward-sharp",
+      "title": "Caret Forward Sharp"
+    },
+    {
+      "name": "caret-forward",
+      "title": "Caret Forward"
+    },
+    {
+      "name": "caret-up-circle-outline",
+      "title": "Caret Up Circle Outline"
+    },
+    {
+      "name": "caret-up-circle-sharp",
+      "title": "Caret Up Circle Sharp"
+    },
+    {
+      "name": "caret-up-circle",
+      "title": "Caret Up Circle"
+    },
+    {
+      "name": "caret-up-outline",
+      "title": "Caret Up Outline"
+    },
+    {
+      "name": "caret-up-sharp",
+      "title": "Caret Up Sharp"
+    },
+    {
+      "name": "caret-up",
+      "title": "Caret Up"
+    },
+    {
+      "name": "cart-outline",
+      "title": "Cart Outline"
+    },
+    {
+      "name": "cart-sharp",
+      "title": "Cart Sharp"
+    },
+    {
+      "name": "cart",
+      "title": "Cart"
+    },
+    {
+      "name": "cash-outline",
+      "title": "Cash Outline"
+    },
+    {
+      "name": "cash-sharp",
+      "title": "Cash Sharp"
+    },
+    {
+      "name": "cash",
+      "title": "Cash"
+    },
+    {
+      "name": "cellular-outline",
+      "title": "Cellular Outline"
+    },
+    {
+      "name": "cellular-sharp",
+      "title": "Cellular Sharp"
+    },
+    {
+      "name": "cellular",
+      "title": "Cellular"
+    },
+    {
+      "name": "chatbox-ellipses-outline",
+      "title": "Chatbox Ellipses Outline"
+    },
+    {
+      "name": "chatbox-ellipses-sharp",
+      "title": "Chatbox Ellipses Sharp"
+    },
+    {
+      "name": "chatbox-ellipses",
+      "title": "Chatbox Ellipses"
+    },
+    {
+      "name": "chatbox-outline",
+      "title": "Chatbox Outline"
+    },
+    {
+      "name": "chatbox-sharp",
+      "title": "Chatbox Sharp"
+    },
+    {
+      "name": "chatbox",
+      "title": "Chatbox"
+    },
+    {
+      "name": "chatbubble-ellipses-outline",
+      "title": "Chatbubble Ellipses Outline"
+    },
+    {
+      "name": "chatbubble-ellipses-sharp",
+      "title": "Chatbubble Ellipses Sharp"
+    },
+    {
+      "name": "chatbubble-ellipses",
+      "title": "Chatbubble Ellipses"
+    },
+    {
+      "name": "chatbubble-outline",
+      "title": "Chatbubble Outline"
+    },
+    {
+      "name": "chatbubble-sharp",
+      "title": "Chatbubble Sharp"
+    },
+    {
+      "name": "chatbubble",
+      "title": "Chatbubble"
+    },
+    {
+      "name": "chatbubbles-outline",
+      "title": "Chatbubbles Outline"
+    },
+    {
+      "name": "chatbubbles-sharp",
+      "title": "Chatbubbles Sharp"
+    },
+    {
+      "name": "chatbubbles",
+      "title": "Chatbubbles"
+    },
+    {
+      "name": "checkbox-outline",
+      "title": "Checkbox Outline"
+    },
+    {
+      "name": "checkbox-sharp",
+      "title": "Checkbox Sharp"
+    },
+    {
+      "name": "checkbox",
+      "title": "Checkbox"
+    },
+    {
+      "name": "checkmark-circle-outline",
+      "title": "Checkmark Circle Outline"
+    },
+    {
+      "name": "checkmark-circle-sharp",
+      "title": "Checkmark Circle Sharp"
+    },
+    {
+      "name": "checkmark-circle",
+      "title": "Checkmark Circle"
+    },
+    {
+      "name": "checkmark-done-circle-outline",
+      "title": "Checkmark Done Circle Outline"
+    },
+    {
+      "name": "checkmark-done-circle-sharp",
+      "title": "Checkmark Done Circle Sharp"
+    },
+    {
+      "name": "checkmark-done-circle",
+      "title": "Checkmark Done Circle"
+    },
+    {
+      "name": "checkmark-done-outline",
+      "title": "Checkmark Done Outline"
+    },
+    {
+      "name": "checkmark-done-sharp",
+      "title": "Checkmark Done Sharp"
+    },
+    {
+      "name": "checkmark-done",
+      "title": "Checkmark Done"
+    },
+    {
+      "name": "checkmark-outline",
+      "title": "Checkmark Outline"
+    },
+    {
+      "name": "checkmark-sharp",
+      "title": "Checkmark Sharp"
+    },
+    {
+      "name": "checkmark",
+      "title": "Checkmark"
+    },
+    {
+      "name": "chevron-back-circle-outline",
+      "title": "Chevron Back Circle Outline"
+    },
+    {
+      "name": "chevron-back-circle-sharp",
+      "title": "Chevron Back Circle Sharp"
+    },
+    {
+      "name": "chevron-back-circle",
+      "title": "Chevron Back Circle"
+    },
+    {
+      "name": "chevron-back-outline",
+      "title": "Chevron Back Outline"
+    },
+    {
+      "name": "chevron-back-sharp",
+      "title": "Chevron Back Sharp"
+    },
+    {
+      "name": "chevron-back",
+      "title": "Chevron Back"
+    },
+    {
+      "name": "chevron-collapse-outline",
+      "title": "Chevron Collapse Outline"
+    },
+    {
+      "name": "chevron-collapse-sharp",
+      "title": "Chevron Collapse Sharp"
+    },
+    {
+      "name": "chevron-collapse",
+      "title": "Chevron Collapse"
+    },
+    {
+      "name": "chevron-down-circle-outline",
+      "title": "Chevron Down Circle Outline"
+    },
+    {
+      "name": "chevron-down-circle-sharp",
+      "title": "Chevron Down Circle Sharp"
+    },
+    {
+      "name": "chevron-down-circle",
+      "title": "Chevron Down Circle"
+    },
+    {
+      "name": "chevron-down-outline",
+      "title": "Chevron Down Outline"
+    },
+    {
+      "name": "chevron-down-sharp",
+      "title": "Chevron Down Sharp"
+    },
+    {
+      "name": "chevron-down",
+      "title": "Chevron Down"
+    },
+    {
+      "name": "chevron-expand-outline",
+      "title": "Chevron Expand Outline"
+    },
+    {
+      "name": "chevron-expand-sharp",
+      "title": "Chevron Expand Sharp"
+    },
+    {
+      "name": "chevron-expand",
+      "title": "Chevron Expand"
+    },
+    {
+      "name": "chevron-forward-circle-outline",
+      "title": "Chevron Forward Circle Outline"
+    },
+    {
+      "name": "chevron-forward-circle-sharp",
+      "title": "Chevron Forward Circle Sharp"
+    },
+    {
+      "name": "chevron-forward-circle",
+      "title": "Chevron Forward Circle"
+    },
+    {
+      "name": "chevron-forward-outline",
+      "title": "Chevron Forward Outline"
+    },
+    {
+      "name": "chevron-forward-sharp",
+      "title": "Chevron Forward Sharp"
+    },
+    {
+      "name": "chevron-forward",
+      "title": "Chevron Forward"
+    },
+    {
+      "name": "chevron-up-circle-outline",
+      "title": "Chevron Up Circle Outline"
+    },
+    {
+      "name": "chevron-up-circle-sharp",
+      "title": "Chevron Up Circle Sharp"
+    },
+    {
+      "name": "chevron-up-circle",
+      "title": "Chevron Up Circle"
+    },
+    {
+      "name": "chevron-up-outline",
+      "title": "Chevron Up Outline"
+    },
+    {
+      "name": "chevron-up-sharp",
+      "title": "Chevron Up Sharp"
+    },
+    {
+      "name": "chevron-up",
+      "title": "Chevron Up"
+    },
+    {
+      "name": "clipboard-outline",
+      "title": "Clipboard Outline"
+    },
+    {
+      "name": "clipboard-sharp",
+      "title": "Clipboard Sharp"
+    },
+    {
+      "name": "clipboard",
+      "title": "Clipboard"
+    },
+    {
+      "name": "close-circle-outline",
+      "title": "Close Circle Outline"
+    },
+    {
+      "name": "close-circle-sharp",
+      "title": "Close Circle Sharp"
+    },
+    {
+      "name": "close-circle",
+      "title": "Close Circle"
+    },
+    {
+      "name": "close-outline",
+      "title": "Close Outline"
+    },
+    {
+      "name": "close-sharp",
+      "title": "Close Sharp"
+    },
+    {
+      "name": "close",
+      "title": "Close"
+    },
+    {
+      "name": "cloud-circle-outline",
+      "title": "Cloud Circle Outline"
+    },
+    {
+      "name": "cloud-circle-sharp",
+      "title": "Cloud Circle Sharp"
+    },
+    {
+      "name": "cloud-circle",
+      "title": "Cloud Circle"
+    },
+    {
+      "name": "cloud-done-outline",
+      "title": "Cloud Done Outline"
+    },
+    {
+      "name": "cloud-done-sharp",
+      "title": "Cloud Done Sharp"
+    },
+    {
+      "name": "cloud-done",
+      "title": "Cloud Done"
+    },
+    {
+      "name": "cloud-download-outline",
+      "title": "Cloud Download Outline"
+    },
+    {
+      "name": "cloud-download-sharp",
+      "title": "Cloud Download Sharp"
+    },
+    {
+      "name": "cloud-download",
+      "title": "Cloud Download"
+    },
+    {
+      "name": "cloud-offline-outline",
+      "title": "Cloud Offline Outline"
+    },
+    {
+      "name": "cloud-offline-sharp",
+      "title": "Cloud Offline Sharp"
+    },
+    {
+      "name": "cloud-offline",
+      "title": "Cloud Offline"
+    },
+    {
+      "name": "cloud-outline",
+      "title": "Cloud Outline"
+    },
+    {
+      "name": "cloud-sharp",
+      "title": "Cloud Sharp"
+    },
+    {
+      "name": "cloud-upload-outline",
+      "title": "Cloud Upload Outline"
+    },
+    {
+      "name": "cloud-upload-sharp",
+      "title": "Cloud Upload Sharp"
+    },
+    {
+      "name": "cloud-upload",
+      "title": "Cloud Upload"
+    },
+    {
+      "name": "cloud",
+      "title": "Cloud"
+    },
+    {
+      "name": "cloudy-night-outline",
+      "title": "Cloudy Night Outline"
+    },
+    {
+      "name": "cloudy-night-sharp",
+      "title": "Cloudy Night Sharp"
+    },
+    {
+      "name": "cloudy-night",
+      "title": "Cloudy Night"
+    },
+    {
+      "name": "cloudy-outline",
+      "title": "Cloudy Outline"
+    },
+    {
+      "name": "cloudy-sharp",
+      "title": "Cloudy Sharp"
+    },
+    {
+      "name": "cloudy",
+      "title": "Cloudy"
+    },
+    {
+      "name": "code-download-outline",
+      "title": "Code Download Outline"
+    },
+    {
+      "name": "code-download-sharp",
+      "title": "Code Download Sharp"
+    },
+    {
+      "name": "code-download",
+      "title": "Code Download"
+    },
+    {
+      "name": "code-outline",
+      "title": "Code Outline"
+    },
+    {
+      "name": "code-sharp",
+      "title": "Code Sharp"
+    },
+    {
+      "name": "code-slash-outline",
+      "title": "Code Slash Outline"
+    },
+    {
+      "name": "code-slash-sharp",
+      "title": "Code Slash Sharp"
+    },
+    {
+      "name": "code-slash",
+      "title": "Code Slash"
+    },
+    {
+      "name": "code-working-outline",
+      "title": "Code Working Outline"
+    },
+    {
+      "name": "code-working-sharp",
+      "title": "Code Working Sharp"
+    },
+    {
+      "name": "code-working",
+      "title": "Code Working"
+    },
+    {
+      "name": "code",
+      "title": "Code"
+    },
+    {
+      "name": "cog-outline",
+      "title": "Cog Outline"
+    },
+    {
+      "name": "cog-sharp",
+      "title": "Cog Sharp"
+    },
+    {
+      "name": "cog",
+      "title": "Cog"
+    },
+    {
+      "name": "color-fill-outline",
+      "title": "Color Fill Outline"
+    },
+    {
+      "name": "color-fill-sharp",
+      "title": "Color Fill Sharp"
+    },
+    {
+      "name": "color-fill",
+      "title": "Color Fill"
+    },
+    {
+      "name": "color-filter-outline",
+      "title": "Color Filter Outline"
+    },
+    {
+      "name": "color-filter-sharp",
+      "title": "Color Filter Sharp"
+    },
+    {
+      "name": "color-filter",
+      "title": "Color Filter"
+    },
+    {
+      "name": "color-palette-outline",
+      "title": "Color Palette Outline"
+    },
+    {
+      "name": "color-palette-sharp",
+      "title": "Color Palette Sharp"
+    },
+    {
+      "name": "color-palette",
+      "title": "Color Palette"
+    },
+    {
+      "name": "color-wand-outline",
+      "title": "Color Wand Outline"
+    },
+    {
+      "name": "color-wand-sharp",
+      "title": "Color Wand Sharp"
+    },
+    {
+      "name": "color-wand",
+      "title": "Color Wand"
+    },
+    {
+      "name": "compass-outline",
+      "title": "Compass Outline"
+    },
+    {
+      "name": "compass-sharp",
+      "title": "Compass Sharp"
+    },
+    {
+      "name": "compass",
+      "title": "Compass"
+    },
+    {
+      "name": "construct-outline",
+      "title": "Construct Outline"
+    },
+    {
+      "name": "construct-sharp",
+      "title": "Construct Sharp"
+    },
+    {
+      "name": "construct",
+      "title": "Construct"
+    },
+    {
+      "name": "contract-outline",
+      "title": "Contract Outline"
+    },
+    {
+      "name": "contract-sharp",
+      "title": "Contract Sharp"
+    },
+    {
+      "name": "contract",
+      "title": "Contract"
+    },
+    {
+      "name": "contrast-outline",
+      "title": "Contrast Outline"
+    },
+    {
+      "name": "contrast-sharp",
+      "title": "Contrast Sharp"
+    },
+    {
+      "name": "contrast",
+      "title": "Contrast"
+    },
+    {
+      "name": "copy-outline",
+      "title": "Copy Outline"
+    },
+    {
+      "name": "copy-sharp",
+      "title": "Copy Sharp"
+    },
+    {
+      "name": "copy",
+      "title": "Copy"
+    },
+    {
+      "name": "create-outline",
+      "title": "Create Outline"
+    },
+    {
+      "name": "create-sharp",
+      "title": "Create Sharp"
+    },
+    {
+      "name": "create",
+      "title": "Create"
+    },
+    {
+      "name": "crop-outline",
+      "title": "Crop Outline"
+    },
+    {
+      "name": "crop-sharp",
+      "title": "Crop Sharp"
+    },
+    {
+      "name": "crop",
+      "title": "Crop"
+    },
+    {
+      "name": "cube-outline",
+      "title": "Cube Outline"
+    },
+    {
+      "name": "cube-sharp",
+      "title": "Cube Sharp"
+    },
+    {
+      "name": "cube",
+      "title": "Cube"
+    },
+    {
+      "name": "cut-outline",
+      "title": "Cut Outline"
+    },
+    {
+      "name": "cut-sharp",
+      "title": "Cut Sharp"
+    },
+    {
+      "name": "cut",
+      "title": "Cut"
+    },
+    {
+      "name": "desktop-outline",
+      "title": "Desktop Outline"
+    },
+    {
+      "name": "desktop-sharp",
+      "title": "Desktop Sharp"
+    },
+    {
+      "name": "desktop",
+      "title": "Desktop"
+    },
+    {
+      "name": "diamond-outline",
+      "title": "Diamond Outline"
+    },
+    {
+      "name": "diamond-sharp",
+      "title": "Diamond Sharp"
+    },
+    {
+      "name": "diamond",
+      "title": "Diamond"
+    },
+    {
+      "name": "dice-outline",
+      "title": "Dice Outline"
+    },
+    {
+      "name": "dice-sharp",
+      "title": "Dice Sharp"
+    },
+    {
+      "name": "dice",
+      "title": "Dice"
+    },
+    {
+      "name": "disc-outline",
+      "title": "Disc Outline"
+    },
+    {
+      "name": "disc-sharp",
+      "title": "Disc Sharp"
+    },
+    {
+      "name": "disc",
+      "title": "Disc"
+    },
+    {
+      "name": "document-attach-outline",
+      "title": "Document Attach Outline"
+    },
+    {
+      "name": "document-attach-sharp",
+      "title": "Document Attach Sharp"
+    },
+    {
+      "name": "document-attach",
+      "title": "Document Attach"
+    },
+    {
+      "name": "document-lock-outline",
+      "title": "Document Lock Outline"
+    },
+    {
+      "name": "document-lock-sharp",
+      "title": "Document Lock Sharp"
+    },
+    {
+      "name": "document-lock",
+      "title": "Document Lock"
+    },
+    {
+      "name": "document-outline",
+      "title": "Document Outline"
+    },
+    {
+      "name": "document-sharp",
+      "title": "Document Sharp"
+    },
+    {
+      "name": "document-text-outline",
+      "title": "Document Text Outline"
+    },
+    {
+      "name": "document-text-sharp",
+      "title": "Document Text Sharp"
+    },
+    {
+      "name": "document-text",
+      "title": "Document Text"
+    },
+    {
+      "name": "document",
+      "title": "Document"
+    },
+    {
+      "name": "documents-outline",
+      "title": "Documents Outline"
+    },
+    {
+      "name": "documents-sharp",
+      "title": "Documents Sharp"
+    },
+    {
+      "name": "documents",
+      "title": "Documents"
+    },
+    {
+      "name": "download-outline",
+      "title": "Download Outline"
+    },
+    {
+      "name": "download-sharp",
+      "title": "Download Sharp"
+    },
+    {
+      "name": "download",
+      "title": "Download"
+    },
+    {
+      "name": "duplicate-outline",
+      "title": "Duplicate Outline"
+    },
+    {
+      "name": "duplicate-sharp",
+      "title": "Duplicate Sharp"
+    },
+    {
+      "name": "duplicate",
+      "title": "Duplicate"
+    },
+    {
+      "name": "ear-outline",
+      "title": "Ear Outline"
+    },
+    {
+      "name": "ear-sharp",
+      "title": "Ear Sharp"
+    },
+    {
+      "name": "ear",
+      "title": "Ear"
+    },
+    {
+      "name": "earth-outline",
+      "title": "Earth Outline"
+    },
+    {
+      "name": "earth-sharp",
+      "title": "Earth Sharp"
+    },
+    {
+      "name": "earth",
+      "title": "Earth"
+    },
+    {
+      "name": "easel-outline",
+      "title": "Easel Outline"
+    },
+    {
+      "name": "easel-sharp",
+      "title": "Easel Sharp"
+    },
+    {
+      "name": "easel",
+      "title": "Easel"
+    },
+    {
+      "name": "egg-outline",
+      "title": "Egg Outline"
+    },
+    {
+      "name": "egg-sharp",
+      "title": "Egg Sharp"
+    },
+    {
+      "name": "egg",
+      "title": "Egg"
+    },
+    {
+      "name": "ellipse-outline",
+      "title": "Ellipse Outline"
+    },
+    {
+      "name": "ellipse-sharp",
+      "title": "Ellipse Sharp"
+    },
+    {
+      "name": "ellipse",
+      "title": "Ellipse"
+    },
+    {
+      "name": "ellipsis-horizontal-circle-outline",
+      "title": "Ellipsis Horizontal Circle Outline"
+    },
+    {
+      "name": "ellipsis-horizontal-circle-sharp",
+      "title": "Ellipsis Horizontal Circle Sharp"
+    },
+    {
+      "name": "ellipsis-horizontal-circle",
+      "title": "Ellipsis Horizontal Circle"
+    },
+    {
+      "name": "ellipsis-horizontal-outline",
+      "title": "Ellipsis Horizontal Outline"
+    },
+    {
+      "name": "ellipsis-horizontal-sharp",
+      "title": "Ellipsis Horizontal Sharp"
+    },
+    {
+      "name": "ellipsis-horizontal",
+      "title": "Ellipsis Horizontal"
+    },
+    {
+      "name": "ellipsis-vertical-circle-outline",
+      "title": "Ellipsis Vertical Circle Outline"
+    },
+    {
+      "name": "ellipsis-vertical-circle-sharp",
+      "title": "Ellipsis Vertical Circle Sharp"
+    },
+    {
+      "name": "ellipsis-vertical-circle",
+      "title": "Ellipsis Vertical Circle"
+    },
+    {
+      "name": "ellipsis-vertical-outline",
+      "title": "Ellipsis Vertical Outline"
+    },
+    {
+      "name": "ellipsis-vertical-sharp",
+      "title": "Ellipsis Vertical Sharp"
+    },
+    {
+      "name": "ellipsis-vertical",
+      "title": "Ellipsis Vertical"
+    },
+    {
+      "name": "enter-outline",
+      "title": "Enter Outline"
+    },
+    {
+      "name": "enter-sharp",
+      "title": "Enter Sharp"
+    },
+    {
+      "name": "enter",
+      "title": "Enter"
+    },
+    {
+      "name": "exit-outline",
+      "title": "Exit Outline"
+    },
+    {
+      "name": "exit-sharp",
+      "title": "Exit Sharp"
+    },
+    {
+      "name": "exit",
+      "title": "Exit"
+    },
+    {
+      "name": "expand-outline",
+      "title": "Expand Outline"
+    },
+    {
+      "name": "expand-sharp",
+      "title": "Expand Sharp"
+    },
+    {
+      "name": "expand",
+      "title": "Expand"
+    },
+    {
+      "name": "extension-puzzle-outline",
+      "title": "Extension Puzzle Outline"
+    },
+    {
+      "name": "extension-puzzle-sharp",
+      "title": "Extension Puzzle Sharp"
+    },
+    {
+      "name": "extension-puzzle",
+      "title": "Extension Puzzle"
+    },
+    {
+      "name": "eye-off-outline",
+      "title": "Eye Off Outline"
+    },
+    {
+      "name": "eye-off-sharp",
+      "title": "Eye Off Sharp"
+    },
+    {
+      "name": "eye-off",
+      "title": "Eye Off"
+    },
+    {
+      "name": "eye-outline",
+      "title": "Eye Outline"
+    },
+    {
+      "name": "eye-sharp",
+      "title": "Eye Sharp"
+    },
+    {
+      "name": "eye",
+      "title": "Eye"
+    },
+    {
+      "name": "eyedrop-outline",
+      "title": "Eyedrop Outline"
+    },
+    {
+      "name": "eyedrop-sharp",
+      "title": "Eyedrop Sharp"
+    },
+    {
+      "name": "eyedrop",
+      "title": "Eyedrop"
+    },
+    {
+      "name": "fast-food-outline",
+      "title": "Fast Food Outline"
+    },
+    {
+      "name": "fast-food-sharp",
+      "title": "Fast Food Sharp"
+    },
+    {
+      "name": "fast-food",
+      "title": "Fast Food"
+    },
+    {
+      "name": "female-outline",
+      "title": "Female Outline"
+    },
+    {
+      "name": "female-sharp",
+      "title": "Female Sharp"
+    },
+    {
+      "name": "female",
+      "title": "Female"
+    },
+    {
+      "name": "file-tray-full-outline",
+      "title": "File Tray Full Outline"
+    },
+    {
+      "name": "file-tray-full-sharp",
+      "title": "File Tray Full Sharp"
+    },
+    {
+      "name": "file-tray-full",
+      "title": "File Tray Full"
+    },
+    {
+      "name": "file-tray-outline",
+      "title": "File Tray Outline"
+    },
+    {
+      "name": "file-tray-sharp",
+      "title": "File Tray Sharp"
+    },
+    {
+      "name": "file-tray-stacked-outline",
+      "title": "File Tray Stacked Outline"
+    },
+    {
+      "name": "file-tray-stacked-sharp",
+      "title": "File Tray Stacked Sharp"
+    },
+    {
+      "name": "file-tray-stacked",
+      "title": "File Tray Stacked"
+    },
+    {
+      "name": "file-tray",
+      "title": "File Tray"
+    },
+    {
+      "name": "film-outline",
+      "title": "Film Outline"
+    },
+    {
+      "name": "film-sharp",
+      "title": "Film Sharp"
+    },
+    {
+      "name": "film",
+      "title": "Film"
+    },
+    {
+      "name": "filter-circle-outline",
+      "title": "Filter Circle Outline"
+    },
+    {
+      "name": "filter-circle-sharp",
+      "title": "Filter Circle Sharp"
+    },
+    {
+      "name": "filter-circle",
+      "title": "Filter Circle"
+    },
+    {
+      "name": "filter-outline",
+      "title": "Filter Outline"
+    },
+    {
+      "name": "filter-sharp",
+      "title": "Filter Sharp"
+    },
+    {
+      "name": "filter",
+      "title": "Filter"
+    },
+    {
+      "name": "finger-print-outline",
+      "title": "Finger Print Outline"
+    },
+    {
+      "name": "finger-print-sharp",
+      "title": "Finger Print Sharp"
+    },
+    {
+      "name": "finger-print",
+      "title": "Finger Print"
+    },
+    {
+      "name": "fish-outline",
+      "title": "Fish Outline"
+    },
+    {
+      "name": "fish-sharp",
+      "title": "Fish Sharp"
+    },
+    {
+      "name": "fish",
+      "title": "Fish"
+    },
+    {
+      "name": "fitness-outline",
+      "title": "Fitness Outline"
+    },
+    {
+      "name": "fitness-sharp",
+      "title": "Fitness Sharp"
+    },
+    {
+      "name": "fitness",
+      "title": "Fitness"
+    },
+    {
+      "name": "flag-outline",
+      "title": "Flag Outline"
+    },
+    {
+      "name": "flag-sharp",
+      "title": "Flag Sharp"
+    },
+    {
+      "name": "flag",
+      "title": "Flag"
+    },
+    {
+      "name": "flame-outline",
+      "title": "Flame Outline"
+    },
+    {
+      "name": "flame-sharp",
+      "title": "Flame Sharp"
+    },
+    {
+      "name": "flame",
+      "title": "Flame"
+    },
+    {
+      "name": "flash-off-outline",
+      "title": "Flash Off Outline"
+    },
+    {
+      "name": "flash-off-sharp",
+      "title": "Flash Off Sharp"
+    },
+    {
+      "name": "flash-off",
+      "title": "Flash Off"
+    },
+    {
+      "name": "flash-outline",
+      "title": "Flash Outline"
+    },
+    {
+      "name": "flash-sharp",
+      "title": "Flash Sharp"
+    },
+    {
+      "name": "flash",
+      "title": "Flash"
+    },
+    {
+      "name": "flashlight-outline",
+      "title": "Flashlight Outline"
+    },
+    {
+      "name": "flashlight-sharp",
+      "title": "Flashlight Sharp"
+    },
+    {
+      "name": "flashlight",
+      "title": "Flashlight"
+    },
+    {
+      "name": "flask-outline",
+      "title": "Flask Outline"
+    },
+    {
+      "name": "flask-sharp",
+      "title": "Flask Sharp"
+    },
+    {
+      "name": "flask",
+      "title": "Flask"
+    },
+    {
+      "name": "flower-outline",
+      "title": "Flower Outline"
+    },
+    {
+      "name": "flower-sharp",
+      "title": "Flower Sharp"
+    },
+    {
+      "name": "flower",
+      "title": "Flower"
+    },
+    {
+      "name": "folder-open-outline",
+      "title": "Folder Open Outline"
+    },
+    {
+      "name": "folder-open-sharp",
+      "title": "Folder Open Sharp"
+    },
+    {
+      "name": "folder-open",
+      "title": "Folder Open"
+    },
+    {
+      "name": "folder-outline",
+      "title": "Folder Outline"
+    },
+    {
+      "name": "folder-sharp",
+      "title": "Folder Sharp"
+    },
+    {
+      "name": "folder",
+      "title": "Folder"
+    },
+    {
+      "name": "football-outline",
+      "title": "Football Outline"
+    },
+    {
+      "name": "football-sharp",
+      "title": "Football Sharp"
+    },
+    {
+      "name": "football",
+      "title": "Football"
+    },
+    {
+      "name": "footsteps-outline",
+      "title": "Footsteps Outline"
+    },
+    {
+      "name": "footsteps-sharp",
+      "title": "Footsteps Sharp"
+    },
+    {
+      "name": "footsteps",
+      "title": "Footsteps"
+    },
+    {
+      "name": "funnel-outline",
+      "title": "Funnel Outline"
+    },
+    {
+      "name": "funnel-sharp",
+      "title": "Funnel Sharp"
+    },
+    {
+      "name": "funnel",
+      "title": "Funnel"
+    },
+    {
+      "name": "game-controller-outline",
+      "title": "Game Controller Outline"
+    },
+    {
+      "name": "game-controller-sharp",
+      "title": "Game Controller Sharp"
+    },
+    {
+      "name": "game-controller",
+      "title": "Game Controller"
+    },
+    {
+      "name": "gift-outline",
+      "title": "Gift Outline"
+    },
+    {
+      "name": "gift-sharp",
+      "title": "Gift Sharp"
+    },
+    {
+      "name": "gift",
+      "title": "Gift"
+    },
+    {
+      "name": "git-branch-outline",
+      "title": "Git Branch Outline"
+    },
+    {
+      "name": "git-branch-sharp",
+      "title": "Git Branch Sharp"
+    },
+    {
+      "name": "git-branch",
+      "title": "Git Branch"
+    },
+    {
+      "name": "git-commit-outline",
+      "title": "Git Commit Outline"
+    },
+    {
+      "name": "git-commit-sharp",
+      "title": "Git Commit Sharp"
+    },
+    {
+      "name": "git-commit",
+      "title": "Git Commit"
+    },
+    {
+      "name": "git-compare-outline",
+      "title": "Git Compare Outline"
+    },
+    {
+      "name": "git-compare-sharp",
+      "title": "Git Compare Sharp"
+    },
+    {
+      "name": "git-compare",
+      "title": "Git Compare"
+    },
+    {
+      "name": "git-merge-outline",
+      "title": "Git Merge Outline"
+    },
+    {
+      "name": "git-merge-sharp",
+      "title": "Git Merge Sharp"
+    },
+    {
+      "name": "git-merge",
+      "title": "Git Merge"
+    },
+    {
+      "name": "git-network-outline",
+      "title": "Git Network Outline"
+    },
+    {
+      "name": "git-network-sharp",
+      "title": "Git Network Sharp"
+    },
+    {
+      "name": "git-network",
+      "title": "Git Network"
+    },
+    {
+      "name": "git-pull-request-outline",
+      "title": "Git Pull Request Outline"
+    },
+    {
+      "name": "git-pull-request-sharp",
+      "title": "Git Pull Request Sharp"
+    },
+    {
+      "name": "git-pull-request",
+      "title": "Git Pull Request"
+    },
+    {
+      "name": "glasses-outline",
+      "title": "Glasses Outline"
+    },
+    {
+      "name": "glasses-sharp",
+      "title": "Glasses Sharp"
+    },
+    {
+      "name": "glasses",
+      "title": "Glasses"
+    },
+    {
+      "name": "globe-outline",
+      "title": "Globe Outline"
+    },
+    {
+      "name": "globe-sharp",
+      "title": "Globe Sharp"
+    },
+    {
+      "name": "globe",
+      "title": "Globe"
+    },
+    {
+      "name": "golf-outline",
+      "title": "Golf Outline"
+    },
+    {
+      "name": "golf-sharp",
+      "title": "Golf Sharp"
+    },
+    {
+      "name": "golf",
+      "title": "Golf"
+    },
+    {
+      "name": "grid-outline",
+      "title": "Grid Outline"
+    },
+    {
+      "name": "grid-sharp",
+      "title": "Grid Sharp"
+    },
+    {
+      "name": "grid",
+      "title": "Grid"
+    },
+    {
+      "name": "hammer-outline",
+      "title": "Hammer Outline"
+    },
+    {
+      "name": "hammer-sharp",
+      "title": "Hammer Sharp"
+    },
+    {
+      "name": "hammer",
+      "title": "Hammer"
+    },
+    {
+      "name": "hand-left-outline",
+      "title": "Hand Left Outline"
+    },
+    {
+      "name": "hand-left-sharp",
+      "title": "Hand Left Sharp"
+    },
+    {
+      "name": "hand-left",
+      "title": "Hand Left"
+    },
+    {
+      "name": "hand-right-outline",
+      "title": "Hand Right Outline"
+    },
+    {
+      "name": "hand-right-sharp",
+      "title": "Hand Right Sharp"
+    },
+    {
+      "name": "hand-right",
+      "title": "Hand Right"
+    },
+    {
+      "name": "happy-outline",
+      "title": "Happy Outline"
+    },
+    {
+      "name": "happy-sharp",
+      "title": "Happy Sharp"
+    },
+    {
+      "name": "happy",
+      "title": "Happy"
+    },
+    {
+      "name": "hardware-chip-outline",
+      "title": "Hardware Chip Outline"
+    },
+    {
+      "name": "hardware-chip-sharp",
+      "title": "Hardware Chip Sharp"
+    },
+    {
+      "name": "hardware-chip",
+      "title": "Hardware Chip"
+    },
+    {
+      "name": "headset-outline",
+      "title": "Headset Outline"
+    },
+    {
+      "name": "headset-sharp",
+      "title": "Headset Sharp"
+    },
+    {
+      "name": "headset",
+      "title": "Headset"
+    },
+    {
+      "name": "heart-circle-outline",
+      "title": "Heart Circle Outline"
+    },
+    {
+      "name": "heart-circle-sharp",
+      "title": "Heart Circle Sharp"
+    },
+    {
+      "name": "heart-circle",
+      "title": "Heart Circle"
+    },
+    {
+      "name": "heart-dislike-circle-outline",
+      "title": "Heart Dislike Circle Outline"
+    },
+    {
+      "name": "heart-dislike-circle-sharp",
+      "title": "Heart Dislike Circle Sharp"
+    },
+    {
+      "name": "heart-dislike-circle",
+      "title": "Heart Dislike Circle"
+    },
+    {
+      "name": "heart-dislike-outline",
+      "title": "Heart Dislike Outline"
+    },
+    {
+      "name": "heart-dislike-sharp",
+      "title": "Heart Dislike Sharp"
+    },
+    {
+      "name": "heart-dislike",
+      "title": "Heart Dislike"
+    },
+    {
+      "name": "heart-half-outline",
+      "title": "Heart Half Outline"
+    },
+    {
+      "name": "heart-half-sharp",
+      "title": "Heart Half Sharp"
+    },
+    {
+      "name": "heart-half",
+      "title": "Heart Half"
+    },
+    {
+      "name": "heart-outline",
+      "title": "Heart Outline"
+    },
+    {
+      "name": "heart-sharp",
+      "title": "Heart Sharp"
+    },
+    {
+      "name": "heart",
+      "title": "Heart"
+    },
+    {
+      "name": "help-buoy-outline",
+      "title": "Help Buoy Outline"
+    },
+    {
+      "name": "help-buoy-sharp",
+      "title": "Help Buoy Sharp"
+    },
+    {
+      "name": "help-buoy",
+      "title": "Help Buoy"
+    },
+    {
+      "name": "help-circle-outline",
+      "title": "Help Circle Outline"
+    },
+    {
+      "name": "help-circle-sharp",
+      "title": "Help Circle Sharp"
+    },
+    {
+      "name": "help-circle",
+      "title": "Help Circle"
+    },
+    {
+      "name": "help-outline",
+      "title": "Help Outline"
+    },
+    {
+      "name": "help-sharp",
+      "title": "Help Sharp"
+    },
+    {
+      "name": "help",
+      "title": "Help"
+    },
+    {
+      "name": "home-outline",
+      "title": "Home Outline"
+    },
+    {
+      "name": "home-sharp",
+      "title": "Home Sharp"
+    },
+    {
+      "name": "home",
+      "title": "Home"
+    },
+    {
+      "name": "hourglass-outline",
+      "title": "Hourglass Outline"
+    },
+    {
+      "name": "hourglass-sharp",
+      "title": "Hourglass Sharp"
+    },
+    {
+      "name": "hourglass",
+      "title": "Hourglass"
+    },
+    {
+      "name": "ice-cream-outline",
+      "title": "Ice Cream Outline"
+    },
+    {
+      "name": "ice-cream-sharp",
+      "title": "Ice Cream Sharp"
+    },
+    {
+      "name": "ice-cream",
+      "title": "Ice Cream"
+    },
+    {
+      "name": "id-card-outline",
+      "title": "Id Card Outline"
+    },
+    {
+      "name": "id-card-sharp",
+      "title": "Id Card Sharp"
+    },
+    {
+      "name": "id-card",
+      "title": "Id Card"
+    },
+    {
+      "name": "image-outline",
+      "title": "Image Outline"
+    },
+    {
+      "name": "image-sharp",
+      "title": "Image Sharp"
+    },
+    {
+      "name": "image",
+      "title": "Image"
+    },
+    {
+      "name": "images-outline",
+      "title": "Images Outline"
+    },
+    {
+      "name": "images-sharp",
+      "title": "Images Sharp"
+    },
+    {
+      "name": "images",
+      "title": "Images"
+    },
+    {
+      "name": "infinite-outline",
+      "title": "Infinite Outline"
+    },
+    {
+      "name": "infinite-sharp",
+      "title": "Infinite Sharp"
+    },
+    {
+      "name": "infinite",
+      "title": "Infinite"
+    },
+    {
+      "name": "information-circle-outline",
+      "title": "Information Circle Outline"
+    },
+    {
+      "name": "information-circle-sharp",
+      "title": "Information Circle Sharp"
+    },
+    {
+      "name": "information-circle",
+      "title": "Information Circle"
+    },
+    {
+      "name": "information-outline",
+      "title": "Information Outline"
+    },
+    {
+      "name": "information-sharp",
+      "title": "Information Sharp"
+    },
+    {
+      "name": "information",
+      "title": "Information"
+    },
+    {
+      "name": "invert-mode-outline",
+      "title": "Invert Mode Outline"
+    },
+    {
+      "name": "invert-mode-sharp",
+      "title": "Invert Mode Sharp"
+    },
+    {
+      "name": "invert-mode",
+      "title": "Invert Mode"
+    },
+    {
+      "name": "journal-outline",
+      "title": "Journal Outline"
+    },
+    {
+      "name": "journal-sharp",
+      "title": "Journal Sharp"
+    },
+    {
+      "name": "journal",
+      "title": "Journal"
+    },
+    {
+      "name": "key-outline",
+      "title": "Key Outline"
+    },
+    {
+      "name": "key-sharp",
+      "title": "Key Sharp"
+    },
+    {
+      "name": "key",
+      "title": "Key"
+    },
+    {
+      "name": "keypad-outline",
+      "title": "Keypad Outline"
+    },
+    {
+      "name": "keypad-sharp",
+      "title": "Keypad Sharp"
+    },
+    {
+      "name": "keypad",
+      "title": "Keypad"
+    },
+    {
+      "name": "language-outline",
+      "title": "Language Outline"
+    },
+    {
+      "name": "language-sharp",
+      "title": "Language Sharp"
+    },
+    {
+      "name": "language",
+      "title": "Language"
+    },
+    {
+      "name": "laptop-outline",
+      "title": "Laptop Outline"
+    },
+    {
+      "name": "laptop-sharp",
+      "title": "Laptop Sharp"
+    },
+    {
+      "name": "laptop",
+      "title": "Laptop"
+    },
+    {
+      "name": "layers-outline",
+      "title": "Layers Outline"
+    },
+    {
+      "name": "layers-sharp",
+      "title": "Layers Sharp"
+    },
+    {
+      "name": "layers",
+      "title": "Layers"
+    },
+    {
+      "name": "leaf-outline",
+      "title": "Leaf Outline"
+    },
+    {
+      "name": "leaf-sharp",
+      "title": "Leaf Sharp"
+    },
+    {
+      "name": "leaf",
+      "title": "Leaf"
+    },
+    {
+      "name": "library-outline",
+      "title": "Library Outline"
+    },
+    {
+      "name": "library-sharp",
+      "title": "Library Sharp"
+    },
+    {
+      "name": "library",
+      "title": "Library"
+    },
+    {
+      "name": "link-outline",
+      "title": "Link Outline"
+    },
+    {
+      "name": "link-sharp",
+      "title": "Link Sharp"
+    },
+    {
+      "name": "link",
+      "title": "Link"
+    },
+    {
+      "name": "list-circle-outline",
+      "title": "List Circle Outline"
+    },
+    {
+      "name": "list-circle-sharp",
+      "title": "List Circle Sharp"
+    },
+    {
+      "name": "list-circle",
+      "title": "List Circle"
+    },
+    {
+      "name": "list-outline",
+      "title": "List Outline"
+    },
+    {
+      "name": "list-sharp",
+      "title": "List Sharp"
+    },
+    {
+      "name": "list",
+      "title": "List"
+    },
+    {
+      "name": "locate-outline",
+      "title": "Locate Outline"
+    },
+    {
+      "name": "locate-sharp",
+      "title": "Locate Sharp"
+    },
+    {
+      "name": "locate",
+      "title": "Locate"
+    },
+    {
+      "name": "location-outline",
+      "title": "Location Outline"
+    },
+    {
+      "name": "location-sharp",
+      "title": "Location Sharp"
+    },
+    {
+      "name": "location",
+      "title": "Location"
+    },
+    {
+      "name": "lock-closed-outline",
+      "title": "Lock Closed Outline"
+    },
+    {
+      "name": "lock-closed-sharp",
+      "title": "Lock Closed Sharp"
+    },
+    {
+      "name": "lock-closed",
+      "title": "Lock Closed"
+    },
+    {
+      "name": "lock-open-outline",
+      "title": "Lock Open Outline"
+    },
+    {
+      "name": "lock-open-sharp",
+      "title": "Lock Open Sharp"
+    },
+    {
+      "name": "lock-open",
+      "title": "Lock Open"
+    },
+    {
+      "name": "log-in-outline",
+      "title": "Log In Outline"
+    },
+    {
+      "name": "log-in-sharp",
+      "title": "Log In Sharp"
+    },
+    {
+      "name": "log-in",
+      "title": "Log In"
+    },
+    {
+      "name": "log-out-outline",
+      "title": "Log Out Outline"
+    },
+    {
+      "name": "log-out-sharp",
+      "title": "Log Out Sharp"
+    },
+    {
+      "name": "log-out",
+      "title": "Log Out"
+    },
+    {
+      "name": "logo-alipay",
+      "title": "Logo Alipay"
+    },
+    {
+      "name": "logo-amazon",
+      "title": "Logo Amazon"
+    },
+    {
+      "name": "logo-amplify",
+      "title": "Logo Amplify"
+    },
+    {
+      "name": "logo-android",
+      "title": "Logo Android"
+    },
+    {
+      "name": "logo-angular",
+      "title": "Logo Angular"
+    },
+    {
+      "name": "logo-appflow",
+      "title": "Logo Appflow"
+    },
+    {
+      "name": "logo-apple-appstore",
+      "title": "Logo Apple Appstore"
+    },
+    {
+      "name": "logo-apple-ar",
+      "title": "Logo Apple Ar"
+    },
+    {
+      "name": "logo-apple",
+      "title": "Logo Apple"
+    },
+    {
+      "name": "logo-behance",
+      "title": "Logo Behance"
+    },
+    {
+      "name": "logo-bitbucket",
+      "title": "Logo Bitbucket"
+    },
+    {
+      "name": "logo-bitcoin",
+      "title": "Logo Bitcoin"
+    },
+    {
+      "name": "logo-buffer",
+      "title": "Logo Buffer"
+    },
+    {
+      "name": "logo-capacitor",
+      "title": "Logo Capacitor"
+    },
+    {
+      "name": "logo-chrome",
+      "title": "Logo Chrome"
+    },
+    {
+      "name": "logo-closed-captioning",
+      "title": "Logo Closed Captioning"
+    },
+    {
+      "name": "logo-codepen",
+      "title": "Logo Codepen"
+    },
+    {
+      "name": "logo-css3",
+      "title": "Logo Css3"
+    },
+    {
+      "name": "logo-designernews",
+      "title": "Logo Designernews"
+    },
+    {
+      "name": "logo-deviantart",
+      "title": "Logo Deviantart"
+    },
+    {
+      "name": "logo-discord",
+      "title": "Logo Discord"
+    },
+    {
+      "name": "logo-docker",
+      "title": "Logo Docker"
+    },
+    {
+      "name": "logo-dribbble",
+      "title": "Logo Dribbble"
+    },
+    {
+      "name": "logo-dropbox",
+      "title": "Logo Dropbox"
+    },
+    {
+      "name": "logo-edge",
+      "title": "Logo Edge"
+    },
+    {
+      "name": "logo-electron",
+      "title": "Logo Electron"
+    },
+    {
+      "name": "logo-euro",
+      "title": "Logo Euro"
+    },
+    {
+      "name": "logo-facebook",
+      "title": "Logo Facebook"
+    },
+    {
+      "name": "logo-figma",
+      "title": "Logo Figma"
+    },
+    {
+      "name": "logo-firebase",
+      "title": "Logo Firebase"
+    },
+    {
+      "name": "logo-firefox",
+      "title": "Logo Firefox"
+    },
+    {
+      "name": "logo-flickr",
+      "title": "Logo Flickr"
+    },
+    {
+      "name": "logo-foursquare",
+      "title": "Logo Foursquare"
+    },
+    {
+      "name": "logo-github",
+      "title": "Logo Github"
+    },
+    {
+      "name": "logo-gitlab",
+      "title": "Logo Gitlab"
+    },
+    {
+      "name": "logo-google-playstore",
+      "title": "Logo Google Playstore"
+    },
+    {
+      "name": "logo-google",
+      "title": "Logo Google"
+    },
+    {
+      "name": "logo-hackernews",
+      "title": "Logo Hackernews"
+    },
+    {
+      "name": "logo-html5",
+      "title": "Logo Html5"
+    },
+    {
+      "name": "logo-instagram",
+      "title": "Logo Instagram"
+    },
+    {
+      "name": "logo-ionic",
+      "title": "Logo Ionic"
+    },
+    {
+      "name": "logo-ionitron",
+      "title": "Logo Ionitron"
+    },
+    {
+      "name": "logo-javascript",
+      "title": "Logo Javascript"
+    },
+    {
+      "name": "logo-laravel",
+      "title": "Logo Laravel"
+    },
+    {
+      "name": "logo-linkedin",
+      "title": "Logo Linkedin"
+    },
+    {
+      "name": "logo-markdown",
+      "title": "Logo Markdown"
+    },
+    {
+      "name": "logo-mastodon",
+      "title": "Logo Mastodon"
+    },
+    {
+      "name": "logo-medium",
+      "title": "Logo Medium"
+    },
+    {
+      "name": "logo-microsoft",
+      "title": "Logo Microsoft"
+    },
+    {
+      "name": "logo-no-smoking",
+      "title": "Logo No Smoking"
+    },
+    {
+      "name": "logo-nodejs",
+      "title": "Logo Nodejs"
+    },
+    {
+      "name": "logo-npm",
+      "title": "Logo Npm"
+    },
+    {
+      "name": "logo-octocat",
+      "title": "Logo Octocat"
+    },
+    {
+      "name": "logo-paypal",
+      "title": "Logo Paypal"
+    },
+    {
+      "name": "logo-pinterest",
+      "title": "Logo Pinterest"
+    },
+    {
+      "name": "logo-playstation",
+      "title": "Logo Playstation"
+    },
+    {
+      "name": "logo-pwa",
+      "title": "Logo Pwa"
+    },
+    {
+      "name": "logo-python",
+      "title": "Logo Python"
+    },
+    {
+      "name": "logo-react",
+      "title": "Logo React"
+    },
+    {
+      "name": "logo-reddit",
+      "title": "Logo Reddit"
+    },
+    {
+      "name": "logo-rss",
+      "title": "Logo Rss"
+    },
+    {
+      "name": "logo-sass",
+      "title": "Logo Sass"
+    },
+    {
+      "name": "logo-skype",
+      "title": "Logo Skype"
+    },
+    {
+      "name": "logo-slack",
+      "title": "Logo Slack"
+    },
+    {
+      "name": "logo-snapchat",
+      "title": "Logo Snapchat"
+    },
+    {
+      "name": "logo-soundcloud",
+      "title": "Logo Soundcloud"
+    },
+    {
+      "name": "logo-stackoverflow",
+      "title": "Logo Stackoverflow"
+    },
+    {
+      "name": "logo-steam",
+      "title": "Logo Steam"
+    },
+    {
+      "name": "logo-stencil",
+      "title": "Logo Stencil"
+    },
+    {
+      "name": "logo-tableau",
+      "title": "Logo Tableau"
+    },
+    {
+      "name": "logo-threads",
+      "title": "Logo Threads"
+    },
+    {
+      "name": "logo-tiktok",
+      "title": "Logo Tiktok"
+    },
+    {
+      "name": "logo-trapeze",
+      "title": "Logo Trapeze"
+    },
+    {
+      "name": "logo-tumblr",
+      "title": "Logo Tumblr"
+    },
+    {
+      "name": "logo-tux",
+      "title": "Logo Tux"
+    },
+    {
+      "name": "logo-twitch",
+      "title": "Logo Twitch"
+    },
+    {
+      "name": "logo-twitter",
+      "title": "Logo Twitter"
+    },
+    {
+      "name": "logo-usd",
+      "title": "Logo Usd"
+    },
+    {
+      "name": "logo-venmo",
+      "title": "Logo Venmo"
+    },
+    {
+      "name": "logo-vercel",
+      "title": "Logo Vercel"
+    },
+    {
+      "name": "logo-vimeo",
+      "title": "Logo Vimeo"
+    },
+    {
+      "name": "logo-vk",
+      "title": "Logo Vk"
+    },
+    {
+      "name": "logo-vue",
+      "title": "Logo Vue"
+    },
+    {
+      "name": "logo-web-component",
+      "title": "Logo Web Component"
+    },
+    {
+      "name": "logo-wechat",
+      "title": "Logo Wechat"
+    },
+    {
+      "name": "logo-whatsapp",
+      "title": "Logo Whatsapp"
+    },
+    {
+      "name": "logo-windows",
+      "title": "Logo Windows"
+    },
+    {
+      "name": "logo-wordpress",
+      "title": "Logo Wordpress"
+    },
+    {
+      "name": "logo-x",
+      "title": "Logo X"
+    },
+    {
+      "name": "logo-xbox",
+      "title": "Logo Xbox"
+    },
+    {
+      "name": "logo-xing",
+      "title": "Logo Xing"
+    },
+    {
+      "name": "logo-yahoo",
+      "title": "Logo Yahoo"
+    },
+    {
+      "name": "logo-yen",
+      "title": "Logo Yen"
+    },
+    {
+      "name": "logo-youtube",
+      "title": "Logo Youtube"
+    },
+    {
+      "name": "magnet-outline",
+      "title": "Magnet Outline"
+    },
+    {
+      "name": "magnet-sharp",
+      "title": "Magnet Sharp"
+    },
+    {
+      "name": "magnet",
+      "title": "Magnet"
+    },
+    {
+      "name": "mail-open-outline",
+      "title": "Mail Open Outline"
+    },
+    {
+      "name": "mail-open-sharp",
+      "title": "Mail Open Sharp"
+    },
+    {
+      "name": "mail-open",
+      "title": "Mail Open"
+    },
+    {
+      "name": "mail-outline",
+      "title": "Mail Outline"
+    },
+    {
+      "name": "mail-sharp",
+      "title": "Mail Sharp"
+    },
+    {
+      "name": "mail-unread-outline",
+      "title": "Mail Unread Outline"
+    },
+    {
+      "name": "mail-unread-sharp",
+      "title": "Mail Unread Sharp"
+    },
+    {
+      "name": "mail-unread",
+      "title": "Mail Unread"
+    },
+    {
+      "name": "mail",
+      "title": "Mail"
+    },
+    {
+      "name": "male-female-outline",
+      "title": "Male Female Outline"
+    },
+    {
+      "name": "male-female-sharp",
+      "title": "Male Female Sharp"
+    },
+    {
+      "name": "male-female",
+      "title": "Male Female"
+    },
+    {
+      "name": "male-outline",
+      "title": "Male Outline"
+    },
+    {
+      "name": "male-sharp",
+      "title": "Male Sharp"
+    },
+    {
+      "name": "male",
+      "title": "Male"
+    },
+    {
+      "name": "man-outline",
+      "title": "Man Outline"
+    },
+    {
+      "name": "man-sharp",
+      "title": "Man Sharp"
+    },
+    {
+      "name": "man",
+      "title": "Man"
+    },
+    {
+      "name": "map-outline",
+      "title": "Map Outline"
+    },
+    {
+      "name": "map-sharp",
+      "title": "Map Sharp"
+    },
+    {
+      "name": "map",
+      "title": "Map"
+    },
+    {
+      "name": "medal-outline",
+      "title": "Medal Outline"
+    },
+    {
+      "name": "medal-sharp",
+      "title": "Medal Sharp"
+    },
+    {
+      "name": "medal",
+      "title": "Medal"
+    },
+    {
+      "name": "medical-outline",
+      "title": "Medical Outline"
+    },
+    {
+      "name": "medical-sharp",
+      "title": "Medical Sharp"
+    },
+    {
+      "name": "medical",
+      "title": "Medical"
+    },
+    {
+      "name": "medkit-outline",
+      "title": "Medkit Outline"
+    },
+    {
+      "name": "medkit-sharp",
+      "title": "Medkit Sharp"
+    },
+    {
+      "name": "medkit",
+      "title": "Medkit"
+    },
+    {
+      "name": "megaphone-outline",
+      "title": "Megaphone Outline"
+    },
+    {
+      "name": "megaphone-sharp",
+      "title": "Megaphone Sharp"
+    },
+    {
+      "name": "megaphone",
+      "title": "Megaphone"
+    },
+    {
+      "name": "menu-outline",
+      "title": "Menu Outline"
+    },
+    {
+      "name": "menu-sharp",
+      "title": "Menu Sharp"
+    },
+    {
+      "name": "menu",
+      "title": "Menu"
+    },
+    {
+      "name": "mic-circle-outline",
+      "title": "Mic Circle Outline"
+    },
+    {
+      "name": "mic-circle-sharp",
+      "title": "Mic Circle Sharp"
+    },
+    {
+      "name": "mic-circle",
+      "title": "Mic Circle"
+    },
+    {
+      "name": "mic-off-circle-outline",
+      "title": "Mic Off Circle Outline"
+    },
+    {
+      "name": "mic-off-circle-sharp",
+      "title": "Mic Off Circle Sharp"
+    },
+    {
+      "name": "mic-off-circle",
+      "title": "Mic Off Circle"
+    },
+    {
+      "name": "mic-off-outline",
+      "title": "Mic Off Outline"
+    },
+    {
+      "name": "mic-off-sharp",
+      "title": "Mic Off Sharp"
+    },
+    {
+      "name": "mic-off",
+      "title": "Mic Off"
+    },
+    {
+      "name": "mic-outline",
+      "title": "Mic Outline"
+    },
+    {
+      "name": "mic-sharp",
+      "title": "Mic Sharp"
+    },
+    {
+      "name": "mic",
+      "title": "Mic"
+    },
+    {
+      "name": "moon-outline",
+      "title": "Moon Outline"
+    },
+    {
+      "name": "moon-sharp",
+      "title": "Moon Sharp"
+    },
+    {
+      "name": "moon",
+      "title": "Moon"
+    },
+    {
+      "name": "move-outline",
+      "title": "Move Outline"
+    },
+    {
+      "name": "move-sharp",
+      "title": "Move Sharp"
+    },
+    {
+      "name": "move",
+      "title": "Move"
+    },
+    {
+      "name": "musical-note-outline",
+      "title": "Musical Note Outline"
+    },
+    {
+      "name": "musical-note-sharp",
+      "title": "Musical Note Sharp"
+    },
+    {
+      "name": "musical-note",
+      "title": "Musical Note"
+    },
+    {
+      "name": "musical-notes-outline",
+      "title": "Musical Notes Outline"
+    },
+    {
+      "name": "musical-notes-sharp",
+      "title": "Musical Notes Sharp"
+    },
+    {
+      "name": "musical-notes",
+      "title": "Musical Notes"
+    },
+    {
+      "name": "navigate-circle-outline",
+      "title": "Navigate Circle Outline"
+    },
+    {
+      "name": "navigate-circle-sharp",
+      "title": "Navigate Circle Sharp"
+    },
+    {
+      "name": "navigate-circle",
+      "title": "Navigate Circle"
+    },
+    {
+      "name": "navigate-outline",
+      "title": "Navigate Outline"
+    },
+    {
+      "name": "navigate-sharp",
+      "title": "Navigate Sharp"
+    },
+    {
+      "name": "navigate",
+      "title": "Navigate"
+    },
+    {
+      "name": "newspaper-outline",
+      "title": "Newspaper Outline"
+    },
+    {
+      "name": "newspaper-sharp",
+      "title": "Newspaper Sharp"
+    },
+    {
+      "name": "newspaper",
+      "title": "Newspaper"
+    },
+    {
+      "name": "notifications-circle-outline",
+      "title": "Notifications Circle Outline"
+    },
+    {
+      "name": "notifications-circle-sharp",
+      "title": "Notifications Circle Sharp"
+    },
+    {
+      "name": "notifications-circle",
+      "title": "Notifications Circle"
+    },
+    {
+      "name": "notifications-off-circle-outline",
+      "title": "Notifications Off Circle Outline"
+    },
+    {
+      "name": "notifications-off-circle-sharp",
+      "title": "Notifications Off Circle Sharp"
+    },
+    {
+      "name": "notifications-off-circle",
+      "title": "Notifications Off Circle"
+    },
+    {
+      "name": "notifications-off-outline",
+      "title": "Notifications Off Outline"
+    },
+    {
+      "name": "notifications-off-sharp",
+      "title": "Notifications Off Sharp"
+    },
+    {
+      "name": "notifications-off",
+      "title": "Notifications Off"
+    },
+    {
+      "name": "notifications-outline",
+      "title": "Notifications Outline"
+    },
+    {
+      "name": "notifications-sharp",
+      "title": "Notifications Sharp"
+    },
+    {
+      "name": "notifications",
+      "title": "Notifications"
+    },
+    {
+      "name": "nuclear-outline",
+      "title": "Nuclear Outline"
+    },
+    {
+      "name": "nuclear-sharp",
+      "title": "Nuclear Sharp"
+    },
+    {
+      "name": "nuclear",
+      "title": "Nuclear"
+    },
+    {
+      "name": "nutrition-outline",
+      "title": "Nutrition Outline"
+    },
+    {
+      "name": "nutrition-sharp",
+      "title": "Nutrition Sharp"
+    },
+    {
+      "name": "nutrition",
+      "title": "Nutrition"
+    },
+    {
+      "name": "open-outline",
+      "title": "Open Outline"
+    },
+    {
+      "name": "open-sharp",
+      "title": "Open Sharp"
+    },
+    {
+      "name": "open",
+      "title": "Open"
+    },
+    {
+      "name": "options-outline",
+      "title": "Options Outline"
+    },
+    {
+      "name": "options-sharp",
+      "title": "Options Sharp"
+    },
+    {
+      "name": "options",
+      "title": "Options"
+    },
+    {
+      "name": "paper-plane-outline",
+      "title": "Paper Plane Outline"
+    },
+    {
+      "name": "paper-plane-sharp",
+      "title": "Paper Plane Sharp"
+    },
+    {
+      "name": "paper-plane",
+      "title": "Paper Plane"
+    },
+    {
+      "name": "partly-sunny-outline",
+      "title": "Partly Sunny Outline"
+    },
+    {
+      "name": "partly-sunny-sharp",
+      "title": "Partly Sunny Sharp"
+    },
+    {
+      "name": "partly-sunny",
+      "title": "Partly Sunny"
+    },
+    {
+      "name": "pause-circle-outline",
+      "title": "Pause Circle Outline"
+    },
+    {
+      "name": "pause-circle-sharp",
+      "title": "Pause Circle Sharp"
+    },
+    {
+      "name": "pause-circle",
+      "title": "Pause Circle"
+    },
+    {
+      "name": "pause-outline",
+      "title": "Pause Outline"
+    },
+    {
+      "name": "pause-sharp",
+      "title": "Pause Sharp"
+    },
+    {
+      "name": "pause",
+      "title": "Pause"
+    },
+    {
+      "name": "paw-outline",
+      "title": "Paw Outline"
+    },
+    {
+      "name": "paw-sharp",
+      "title": "Paw Sharp"
+    },
+    {
+      "name": "paw",
+      "title": "Paw"
+    },
+    {
+      "name": "pencil-outline",
+      "title": "Pencil Outline"
+    },
+    {
+      "name": "pencil-sharp",
+      "title": "Pencil Sharp"
+    },
+    {
+      "name": "pencil",
+      "title": "Pencil"
+    },
+    {
+      "name": "people-circle-outline",
+      "title": "People Circle Outline"
+    },
+    {
+      "name": "people-circle-sharp",
+      "title": "People Circle Sharp"
+    },
+    {
+      "name": "people-circle",
+      "title": "People Circle"
+    },
+    {
+      "name": "people-outline",
+      "title": "People Outline"
+    },
+    {
+      "name": "people-sharp",
+      "title": "People Sharp"
+    },
+    {
+      "name": "people",
+      "title": "People"
+    },
+    {
+      "name": "person-add-outline",
+      "title": "Person Add Outline"
+    },
+    {
+      "name": "person-add-sharp",
+      "title": "Person Add Sharp"
+    },
+    {
+      "name": "person-add",
+      "title": "Person Add"
+    },
+    {
+      "name": "person-circle-outline",
+      "title": "Person Circle Outline"
+    },
+    {
+      "name": "person-circle-sharp",
+      "title": "Person Circle Sharp"
+    },
+    {
+      "name": "person-circle",
+      "title": "Person Circle"
+    },
+    {
+      "name": "person-outline",
+      "title": "Person Outline"
+    },
+    {
+      "name": "person-remove-outline",
+      "title": "Person Remove Outline"
+    },
+    {
+      "name": "person-remove-sharp",
+      "title": "Person Remove Sharp"
+    },
+    {
+      "name": "person-remove",
+      "title": "Person Remove"
+    },
+    {
+      "name": "person-sharp",
+      "title": "Person Sharp"
+    },
+    {
+      "name": "person",
+      "title": "Person"
+    },
+    {
+      "name": "phone-landscape-outline",
+      "title": "Phone Landscape Outline"
+    },
+    {
+      "name": "phone-landscape-sharp",
+      "title": "Phone Landscape Sharp"
+    },
+    {
+      "name": "phone-landscape",
+      "title": "Phone Landscape"
+    },
+    {
+      "name": "phone-portrait-outline",
+      "title": "Phone Portrait Outline"
+    },
+    {
+      "name": "phone-portrait-sharp",
+      "title": "Phone Portrait Sharp"
+    },
+    {
+      "name": "phone-portrait",
+      "title": "Phone Portrait"
+    },
+    {
+      "name": "pie-chart-outline",
+      "title": "Pie Chart Outline"
+    },
+    {
+      "name": "pie-chart-sharp",
+      "title": "Pie Chart Sharp"
+    },
+    {
+      "name": "pie-chart",
+      "title": "Pie Chart"
+    },
+    {
+      "name": "pin-outline",
+      "title": "Pin Outline"
+    },
+    {
+      "name": "pin-sharp",
+      "title": "Pin Sharp"
+    },
+    {
+      "name": "pin",
+      "title": "Pin"
+    },
+    {
+      "name": "pint-outline",
+      "title": "Pint Outline"
+    },
+    {
+      "name": "pint-sharp",
+      "title": "Pint Sharp"
+    },
+    {
+      "name": "pint",
+      "title": "Pint"
+    },
+    {
+      "name": "pizza-outline",
+      "title": "Pizza Outline"
+    },
+    {
+      "name": "pizza-sharp",
+      "title": "Pizza Sharp"
+    },
+    {
+      "name": "pizza",
+      "title": "Pizza"
+    },
+    {
+      "name": "planet-outline",
+      "title": "Planet Outline"
+    },
+    {
+      "name": "planet-sharp",
+      "title": "Planet Sharp"
+    },
+    {
+      "name": "planet",
+      "title": "Planet"
+    },
+    {
+      "name": "play-back-circle-outline",
+      "title": "Play Back Circle Outline"
+    },
+    {
+      "name": "play-back-circle-sharp",
+      "title": "Play Back Circle Sharp"
+    },
+    {
+      "name": "play-back-circle",
+      "title": "Play Back Circle"
+    },
+    {
+      "name": "play-back-outline",
+      "title": "Play Back Outline"
+    },
+    {
+      "name": "play-back-sharp",
+      "title": "Play Back Sharp"
+    },
+    {
+      "name": "play-back",
+      "title": "Play Back"
+    },
+    {
+      "name": "play-circle-outline",
+      "title": "Play Circle Outline"
+    },
+    {
+      "name": "play-circle-sharp",
+      "title": "Play Circle Sharp"
+    },
+    {
+      "name": "play-circle",
+      "title": "Play Circle"
+    },
+    {
+      "name": "play-forward-circle-outline",
+      "title": "Play Forward Circle Outline"
+    },
+    {
+      "name": "play-forward-circle-sharp",
+      "title": "Play Forward Circle Sharp"
+    },
+    {
+      "name": "play-forward-circle",
+      "title": "Play Forward Circle"
+    },
+    {
+      "name": "play-forward-outline",
+      "title": "Play Forward Outline"
+    },
+    {
+      "name": "play-forward-sharp",
+      "title": "Play Forward Sharp"
+    },
+    {
+      "name": "play-forward",
+      "title": "Play Forward"
+    }
+  ]
 }

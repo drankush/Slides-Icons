@@ -1,33 +1,119 @@
 /**
- * Generate manifests for all icon libraries using GitHub API
- * Updated with correct endpoints from user research
+ * Generate manifests for Slides Icons using GitHub API
+ * Creates lightweight JSON with icon names and CDN URLs
  */
 
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const MANIFESTS_DIR = path.join(__dirname, '..', 'src', 'manifests');
+const DIST_DIR = path.join(__dirname, '..', 'src', 'manifests');
 
-// Ensure manifests directory exists
-if (!fs.existsSync(MANIFESTS_DIR)) {
-    fs.mkdirSync(MANIFESTS_DIR, { recursive: true });
+if (!fs.existsSync(DIST_DIR)) {
+    fs.mkdirSync(DIST_DIR, { recursive: true });
 }
 
-// Helper to fetch JSON from GitHub API
-function fetchGitHubAPI(path) {
+// Library configurations with GitHub paths and CDN patterns
+const LIBRARIES = [
+    {
+        id: 'bootstrap',
+        name: 'Bootstrap Icons',
+        count: 2050,
+        githubPath: '/repos/twbs/icons/contents/icons',
+        cdnPattern: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/{name}.svg'
+    },
+    {
+        id: 'heroicons',
+        name: 'Heroicons',
+        count: 592,
+        githubPath: '/repos/tailwindlabs/heroicons/contents/src/24/outline',
+        cdnPattern: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.3/24/outline/{name}.svg'
+    },
+    {
+        id: 'feather',
+        name: 'Feather Icons',
+        count: 287,
+        githubPath: '/repos/feathericons/feather/contents/icons',
+        cdnPattern: 'https://cdn.jsdelivr.net/npm/feather-icons@4.29.1/dist/icons/{name}.svg'
+    },
+    {
+        id: 'lucide',
+        name: 'Lucide Icons',
+        count: 1500,
+        githubPath: '/repos/lucide-icons/lucide/contents/icons',
+        cdnPattern: 'https://cdn.jsdelivr.net/npm/lucide-static@0.378.0/icons/{name}.svg'
+    },
+    {
+        id: 'tabler',
+        name: 'Tabler Icons',
+        count: 4969,
+        githubPath: '/repos/tabler/tabler-icons/contents/icons/outline',
+        cdnPattern: 'https://cdn.jsdelivr.net/npm/@tabler/icons@3.5.0/icons/outline/{name}.svg'
+    },
+    {
+        id: 'ionicons',
+        name: 'Ionicons',
+        count: 1300,
+        githubPath: '/repos/ionic-team/ionicons/contents/src/svg',
+        cdnPattern: 'https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/svg/{name}.svg'
+    },
+    {
+        id: 'iconoir',
+        name: 'Iconoir',
+        count: 1500,
+        githubPath: '/repos/iconoir-icons/iconoir/contents/icons/regular',
+        cdnPattern: 'https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/icons/regular/{name}.svg'
+    },
+    {
+        id: 'phosphor',
+        name: 'Phosphor Icons',
+        count: 7000,
+        githubPath: '/repos/phosphor-icons/core/contents/assets/regular',
+        cdnPattern: 'https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/{name}.svg'
+    },
+    {
+        id: 'boxicons',
+        name: 'Boxicons',
+        count: 1600,
+        githubPath: '/repos/atisawd/boxicons/contents/svg/regular',
+        cdnPattern: 'https://cdn.jsdelivr.net/npm/boxicons@2.1.4/svg/regular/{name}.svg'
+    },
+    {
+        id: 'octicons',
+        name: 'GitHub Octicons',
+        count: 500,
+        githubPath: '/repos/primer/octicons/contents/icons',
+        cdnPattern: 'https://cdn.jsdelivr.net/npm/@primer/octicons@19.9.0/build/svg/{name}-24.svg'
+    },
+    {
+        id: 'radix',
+        name: 'Radix Icons',
+        count: 322,
+        githubPath: '/repos/radix-ui/icons/contents/packages/radix-icons/icons',
+        cdnPattern: 'https://cdn.jsdelivr.net/npm/@radix-ui/react-icons@1.3.0/dist/{name}.svg'
+    },
+    {
+        id: 'eva',
+        name: 'Eva Icons',
+        count: 490,
+        githubPath: '/repos/akveo/eva-icons/contents/package/icons/outline/svg',
+        cdnPattern: 'https://cdn.jsdelivr.net/npm/eva-icons@1.1.3/outline/svg/{name}.svg'
+    }
+];
+
+// Fetch from GitHub API
+function fetchGitHub(path) {
     return new Promise((resolve, reject) => {
         const options = {
             hostname: 'api.github.com',
             path: path,
             headers: {
-                'User-Agent': 'OpenIcons-Manifest-Generator',
+                'User-Agent': 'Slides-Icons-Manifest-Generator',
                 'Accept': 'application/vnd.github.v3+json'
             }
         };
 
         https.get(options, (res) => {
-            // Handle redirects
             if (res.statusCode === 301 || res.statusCode === 302) {
                 const redirectUrl = new URL(res.headers.location);
                 options.hostname = redirectUrl.hostname;
@@ -44,7 +130,7 @@ function fetchGitHubAPI(path) {
                     try {
                         resolve(JSON.parse(data));
                     } catch (e) {
-                        reject(new Error(`Failed to parse: ${data.substring(0, 100)}`));
+                        reject(new Error(`Parse error: ${data.substring(0, 100)}`));
                     }
                 });
             }
@@ -52,180 +138,56 @@ function fetchGitHubAPI(path) {
     });
 }
 
-// Save manifest to file
-function saveManifest(name, data) {
-    const filePath = path.join(MANIFESTS_DIR, `${name}.json`);
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-    const iconCount = data.totalIcons || Object.values(data.icons || {}).flat().length;
-    console.log(`  ✓ Saved ${name}.json (${iconCount} icons)`);
-}
+// Generate manifest for a library
+async function generateManifest(lib) {
+    console.log(`\n📦 ${lib.name}`);
 
-// ============================================
-// Iconoir - /icons/regular/ directory
-// ============================================
-async function generateIconoirManifest() {
-    console.log('\n📦 Iconoir');
     try {
-        const files = await fetchGitHubAPI('/repos/iconoir-icons/iconoir/contents/icons/regular');
+        const files = await fetchGitHub(lib.githubPath);
 
         if (!Array.isArray(files)) {
-            throw new Error('Unexpected response format');
+            console.log(`  ⚠ Unexpected response: ${JSON.stringify(files).substring(0, 100)}`);
+            return;
         }
 
         const icons = files
             .filter(f => f.name.endsWith('.svg'))
-            .map(f => ({
-                name: f.name.replace('.svg', ''),
-                title: f.name.replace('.svg', '').replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
-            }));
-
-        saveManifest('iconoir', {
-            version: '1.0.0',
-            totalIcons: icons.length,
-            icons: { 'all': icons }
-        });
-    } catch (error) {
-        console.log(`  ⚠ Failed: ${error.message}`);
-    }
-}
-
-// ============================================
-// Remix Icon - /icons/{Category}/ directories
-// ============================================
-async function generateRemixIconManifest() {
-    console.log('\n📦 Remix Icon');
-    try {
-        // Get categories
-        const categories = await fetchGitHubAPI('/repos/Remix-Design/RemixIcon/contents/icons');
-
-        if (!Array.isArray(categories)) {
-            throw new Error('Unexpected response format');
-        }
-
-        const icons = {};
-        let totalIcons = 0;
-
-        // Fetch icons from each category
-        for (const cat of categories.filter(c => c.type === 'dir')) {
-            console.log(`    Fetching ${cat.name}...`);
-            try {
-                const catFiles = await fetchGitHubAPI(`/repos/Remix-Design/RemixIcon/contents/icons/${cat.name}`);
-
-                if (Array.isArray(catFiles)) {
-                    // Get unique base names (remove -line, -fill suffix)
-                    const baseNames = new Set();
-                    catFiles
-                        .filter(f => f.name.endsWith('.svg'))
-                        .forEach(f => {
-                            const baseName = f.name.replace('.svg', '').replace(/-line$|-fill$/, '');
-                            baseNames.add(baseName);
-                        });
-
-                    icons[cat.name] = Array.from(baseNames).map(name => ({
-                        name: name,
-                        title: name.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
-                    }));
-                    totalIcons += icons[cat.name].length;
-                }
-            } catch (e) {
-                console.log(`      ⚠ Failed to fetch ${cat.name}`);
-            }
-
-            // Rate limit protection
-            await new Promise(r => setTimeout(r, 500));
-        }
-
-        saveManifest('remixicon', {
-            version: '1.0.0',
-            totalIcons: totalIcons,
-            icons: icons
-        });
-    } catch (error) {
-        console.log(`  ⚠ Failed: ${error.message}`);
-    }
-}
-
-// ============================================
-// Boxicons - /svg/{style}/ directories
-// ============================================
-async function generateBoxiconsManifest() {
-    console.log('\n📦 Boxicons');
-    try {
-        // Use the correct repo (box-icons instead of atisawd)
-        const regularFiles = await fetchGitHubAPI('/repos/atisawd/boxicons/contents/svg/regular');
-
-        if (!Array.isArray(regularFiles)) {
-            throw new Error('Unexpected response format');
-        }
-
-        const icons = regularFiles
-            .filter(f => f.name.endsWith('.svg'))
             .map(f => {
-                // Boxicons naming: bx-icon-name.svg -> icon-name
-                const name = f.name.replace('.svg', '').replace(/^bx-/, '');
+                const name = f.name.replace('.svg', '');
                 return {
                     name: name,
-                    title: name.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+                    title: name.replace(/[-_]/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
                 };
             });
 
-        saveManifest('boxicons', {
+        const manifest = {
+            id: lib.id,
+            name: lib.name,
             version: '1.0.0',
+            cdnPattern: lib.cdnPattern,
             totalIcons: icons.length,
-            icons: { 'all': icons }
-        });
+            icons: icons
+        };
+
+        const outputPath = path.join(DIST_DIR, `${lib.id}.json`);
+        fs.writeFileSync(outputPath, JSON.stringify(manifest, null, 2));
+        console.log(`  ✓ Saved ${lib.id}.json (${icons.length} icons)`);
+
     } catch (error) {
         console.log(`  ⚠ Failed: ${error.message}`);
     }
+
+    // Rate limit protection
+    await new Promise(r => setTimeout(r, 1000));
 }
 
-// ============================================
-// Ionicons - improve existing manifest
-// ============================================
-async function generateIoniconsManifest() {
-    console.log('\n📦 Ionicons');
-    try {
-        const files = await fetchGitHubAPI('/repos/ionic-team/ionicons/contents/src/svg');
-
-        if (!Array.isArray(files)) {
-            throw new Error('Unexpected response format');
-        }
-
-        // Extract unique base names (remove -outline, -sharp suffixes)
-        const baseNames = new Set();
-        files
-            .filter(f => f.name.endsWith('.svg'))
-            .forEach(f => {
-                const name = f.name.replace('.svg', '').replace(/-outline$|-sharp$/, '');
-                baseNames.add(name);
-            });
-
-        const icons = Array.from(baseNames).sort().map(name => ({
-            name: name,
-            title: name.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
-        }));
-
-        saveManifest('ionicons', {
-            version: '1.0.0',
-            totalIcons: icons.length,
-            icons: { 'all': icons }
-        });
-    } catch (error) {
-        console.log(`  ⚠ Failed: ${error.message}`);
-    }
-}
-
-// ============================================
 // Main
-// ============================================
 async function main() {
-    console.log('🎨 Generating icon manifests for OpenIcons...');
-    console.log('   (Using GitHub API - may take a minute)\n');
+    console.log('🎨 Generating Slides Icons manifests...\n');
 
-    await generateIconoirManifest();
-    await generateIoniconsManifest();
-    await generateBoxiconsManifest();
-    await generateRemixIconManifest();  // This one takes longest due to multiple requests
+    for (const lib of LIBRARIES) {
+        await generateManifest(lib);
+    }
 
     console.log('\n✅ Manifest generation complete!\n');
 }

@@ -1,0 +1,4009 @@
+{
+  "id": "tabler",
+  "name": "Tabler Icons",
+  "version": "1.0.0",
+  "cdnPattern": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.5.0/icons/outline/{name}.svg",
+  "totalIcons": 1000,
+  "icons": [
+    {
+      "name": "a-b-2",
+      "title": "A B 2"
+    },
+    {
+      "name": "a-b-off",
+      "title": "A B Off"
+    },
+    {
+      "name": "a-b",
+      "title": "A B"
+    },
+    {
+      "name": "abacus-off",
+      "title": "Abacus Off"
+    },
+    {
+      "name": "abacus",
+      "title": "Abacus"
+    },
+    {
+      "name": "abc",
+      "title": "Abc"
+    },
+    {
+      "name": "access-point-off",
+      "title": "Access Point Off"
+    },
+    {
+      "name": "access-point",
+      "title": "Access Point"
+    },
+    {
+      "name": "accessible-off",
+      "title": "Accessible Off"
+    },
+    {
+      "name": "accessible",
+      "title": "Accessible"
+    },
+    {
+      "name": "activity-heartbeat",
+      "title": "Activity Heartbeat"
+    },
+    {
+      "name": "activity",
+      "title": "Activity"
+    },
+    {
+      "name": "ad-2",
+      "title": "Ad 2"
+    },
+    {
+      "name": "ad-circle-off",
+      "title": "Ad Circle Off"
+    },
+    {
+      "name": "ad-circle",
+      "title": "Ad Circle"
+    },
+    {
+      "name": "ad-off",
+      "title": "Ad Off"
+    },
+    {
+      "name": "ad",
+      "title": "Ad"
+    },
+    {
+      "name": "address-book-off",
+      "title": "Address Book Off"
+    },
+    {
+      "name": "address-book",
+      "title": "Address Book"
+    },
+    {
+      "name": "adjustments-alt",
+      "title": "Adjustments Alt"
+    },
+    {
+      "name": "adjustments-bolt",
+      "title": "Adjustments Bolt"
+    },
+    {
+      "name": "adjustments-cancel",
+      "title": "Adjustments Cancel"
+    },
+    {
+      "name": "adjustments-check",
+      "title": "Adjustments Check"
+    },
+    {
+      "name": "adjustments-code",
+      "title": "Adjustments Code"
+    },
+    {
+      "name": "adjustments-cog",
+      "title": "Adjustments Cog"
+    },
+    {
+      "name": "adjustments-dollar",
+      "title": "Adjustments Dollar"
+    },
+    {
+      "name": "adjustments-down",
+      "title": "Adjustments Down"
+    },
+    {
+      "name": "adjustments-exclamation",
+      "title": "Adjustments Exclamation"
+    },
+    {
+      "name": "adjustments-heart",
+      "title": "Adjustments Heart"
+    },
+    {
+      "name": "adjustments-horizontal",
+      "title": "Adjustments Horizontal"
+    },
+    {
+      "name": "adjustments-minus",
+      "title": "Adjustments Minus"
+    },
+    {
+      "name": "adjustments-off",
+      "title": "Adjustments Off"
+    },
+    {
+      "name": "adjustments-pause",
+      "title": "Adjustments Pause"
+    },
+    {
+      "name": "adjustments-pin",
+      "title": "Adjustments Pin"
+    },
+    {
+      "name": "adjustments-plus",
+      "title": "Adjustments Plus"
+    },
+    {
+      "name": "adjustments-question",
+      "title": "Adjustments Question"
+    },
+    {
+      "name": "adjustments-search",
+      "title": "Adjustments Search"
+    },
+    {
+      "name": "adjustments-share",
+      "title": "Adjustments Share"
+    },
+    {
+      "name": "adjustments-spark",
+      "title": "Adjustments Spark"
+    },
+    {
+      "name": "adjustments-star",
+      "title": "Adjustments Star"
+    },
+    {
+      "name": "adjustments-up",
+      "title": "Adjustments Up"
+    },
+    {
+      "name": "adjustments-x",
+      "title": "Adjustments X"
+    },
+    {
+      "name": "adjustments",
+      "title": "Adjustments"
+    },
+    {
+      "name": "aerial-lift",
+      "title": "Aerial Lift"
+    },
+    {
+      "name": "affiliate",
+      "title": "Affiliate"
+    },
+    {
+      "name": "ai",
+      "title": "Ai"
+    },
+    {
+      "name": "air-balloon",
+      "title": "Air Balloon"
+    },
+    {
+      "name": "air-conditioning-disabled",
+      "title": "Air Conditioning Disabled"
+    },
+    {
+      "name": "air-conditioning",
+      "title": "Air Conditioning"
+    },
+    {
+      "name": "air-traffic-control",
+      "title": "Air Traffic Control"
+    },
+    {
+      "name": "alarm-average",
+      "title": "Alarm Average"
+    },
+    {
+      "name": "alarm-minus",
+      "title": "Alarm Minus"
+    },
+    {
+      "name": "alarm-off",
+      "title": "Alarm Off"
+    },
+    {
+      "name": "alarm-plus",
+      "title": "Alarm Plus"
+    },
+    {
+      "name": "alarm-smoke",
+      "title": "Alarm Smoke"
+    },
+    {
+      "name": "alarm-snooze",
+      "title": "Alarm Snooze"
+    },
+    {
+      "name": "alarm",
+      "title": "Alarm"
+    },
+    {
+      "name": "album-off",
+      "title": "Album Off"
+    },
+    {
+      "name": "album",
+      "title": "Album"
+    },
+    {
+      "name": "alert-circle-off",
+      "title": "Alert Circle Off"
+    },
+    {
+      "name": "alert-circle",
+      "title": "Alert Circle"
+    },
+    {
+      "name": "alert-hexagon-off",
+      "title": "Alert Hexagon Off"
+    },
+    {
+      "name": "alert-hexagon",
+      "title": "Alert Hexagon"
+    },
+    {
+      "name": "alert-octagon",
+      "title": "Alert Octagon"
+    },
+    {
+      "name": "alert-small-off",
+      "title": "Alert Small Off"
+    },
+    {
+      "name": "alert-small",
+      "title": "Alert Small"
+    },
+    {
+      "name": "alert-square-rounded-off",
+      "title": "Alert Square Rounded Off"
+    },
+    {
+      "name": "alert-square-rounded",
+      "title": "Alert Square Rounded"
+    },
+    {
+      "name": "alert-square",
+      "title": "Alert Square"
+    },
+    {
+      "name": "alert-triangle-off",
+      "title": "Alert Triangle Off"
+    },
+    {
+      "name": "alert-triangle",
+      "title": "Alert Triangle"
+    },
+    {
+      "name": "alien",
+      "title": "Alien"
+    },
+    {
+      "name": "align-box-bottom-center",
+      "title": "Align Box Bottom Center"
+    },
+    {
+      "name": "align-box-bottom-left",
+      "title": "Align Box Bottom Left"
+    },
+    {
+      "name": "align-box-bottom-right",
+      "title": "Align Box Bottom Right"
+    },
+    {
+      "name": "align-box-center-bottom",
+      "title": "Align Box Center Bottom"
+    },
+    {
+      "name": "align-box-center-middle",
+      "title": "Align Box Center Middle"
+    },
+    {
+      "name": "align-box-center-stretch",
+      "title": "Align Box Center Stretch"
+    },
+    {
+      "name": "align-box-center-top",
+      "title": "Align Box Center Top"
+    },
+    {
+      "name": "align-box-left-bottom",
+      "title": "Align Box Left Bottom"
+    },
+    {
+      "name": "align-box-left-middle",
+      "title": "Align Box Left Middle"
+    },
+    {
+      "name": "align-box-left-stretch",
+      "title": "Align Box Left Stretch"
+    },
+    {
+      "name": "align-box-left-top",
+      "title": "Align Box Left Top"
+    },
+    {
+      "name": "align-box-right-bottom",
+      "title": "Align Box Right Bottom"
+    },
+    {
+      "name": "align-box-right-middle",
+      "title": "Align Box Right Middle"
+    },
+    {
+      "name": "align-box-right-stretch",
+      "title": "Align Box Right Stretch"
+    },
+    {
+      "name": "align-box-right-top",
+      "title": "Align Box Right Top"
+    },
+    {
+      "name": "align-box-top-center",
+      "title": "Align Box Top Center"
+    },
+    {
+      "name": "align-box-top-left",
+      "title": "Align Box Top Left"
+    },
+    {
+      "name": "align-box-top-right",
+      "title": "Align Box Top Right"
+    },
+    {
+      "name": "align-center",
+      "title": "Align Center"
+    },
+    {
+      "name": "align-justified",
+      "title": "Align Justified"
+    },
+    {
+      "name": "align-left-2",
+      "title": "Align Left 2"
+    },
+    {
+      "name": "align-left",
+      "title": "Align Left"
+    },
+    {
+      "name": "align-right-2",
+      "title": "Align Right 2"
+    },
+    {
+      "name": "align-right",
+      "title": "Align Right"
+    },
+    {
+      "name": "alpha",
+      "title": "Alpha"
+    },
+    {
+      "name": "alphabet-arabic",
+      "title": "Alphabet Arabic"
+    },
+    {
+      "name": "alphabet-bangla",
+      "title": "Alphabet Bangla"
+    },
+    {
+      "name": "alphabet-cyrillic",
+      "title": "Alphabet Cyrillic"
+    },
+    {
+      "name": "alphabet-greek",
+      "title": "Alphabet Greek"
+    },
+    {
+      "name": "alphabet-hebrew",
+      "title": "Alphabet Hebrew"
+    },
+    {
+      "name": "alphabet-korean",
+      "title": "Alphabet Korean"
+    },
+    {
+      "name": "alphabet-latin",
+      "title": "Alphabet Latin"
+    },
+    {
+      "name": "alphabet-polish",
+      "title": "Alphabet Polish"
+    },
+    {
+      "name": "alphabet-runes",
+      "title": "Alphabet Runes"
+    },
+    {
+      "name": "alphabet-thai",
+      "title": "Alphabet Thai"
+    },
+    {
+      "name": "alt",
+      "title": "Alt"
+    },
+    {
+      "name": "ambulance",
+      "title": "Ambulance"
+    },
+    {
+      "name": "ampersand",
+      "title": "Ampersand"
+    },
+    {
+      "name": "analyze-off",
+      "title": "Analyze Off"
+    },
+    {
+      "name": "analyze",
+      "title": "Analyze"
+    },
+    {
+      "name": "anchor-off",
+      "title": "Anchor Off"
+    },
+    {
+      "name": "anchor",
+      "title": "Anchor"
+    },
+    {
+      "name": "angle",
+      "title": "Angle"
+    },
+    {
+      "name": "ankh",
+      "title": "Ankh"
+    },
+    {
+      "name": "antenna-bars-1",
+      "title": "Antenna Bars 1"
+    },
+    {
+      "name": "antenna-bars-2",
+      "title": "Antenna Bars 2"
+    },
+    {
+      "name": "antenna-bars-3",
+      "title": "Antenna Bars 3"
+    },
+    {
+      "name": "antenna-bars-4",
+      "title": "Antenna Bars 4"
+    },
+    {
+      "name": "antenna-bars-5",
+      "title": "Antenna Bars 5"
+    },
+    {
+      "name": "antenna-bars-off",
+      "title": "Antenna Bars Off"
+    },
+    {
+      "name": "antenna-off",
+      "title": "Antenna Off"
+    },
+    {
+      "name": "antenna",
+      "title": "Antenna"
+    },
+    {
+      "name": "aperture-off",
+      "title": "Aperture Off"
+    },
+    {
+      "name": "aperture",
+      "title": "Aperture"
+    },
+    {
+      "name": "api-app-off",
+      "title": "Api App Off"
+    },
+    {
+      "name": "api-app",
+      "title": "Api App"
+    },
+    {
+      "name": "api-off",
+      "title": "Api Off"
+    },
+    {
+      "name": "api",
+      "title": "Api"
+    },
+    {
+      "name": "app-window",
+      "title": "App Window"
+    },
+    {
+      "name": "apple",
+      "title": "Apple"
+    },
+    {
+      "name": "apps-off",
+      "title": "Apps Off"
+    },
+    {
+      "name": "apps",
+      "title": "Apps"
+    },
+    {
+      "name": "archery-arrow",
+      "title": "Archery Arrow"
+    },
+    {
+      "name": "archive-off",
+      "title": "Archive Off"
+    },
+    {
+      "name": "archive",
+      "title": "Archive"
+    },
+    {
+      "name": "armchair-2-off",
+      "title": "Armchair 2 Off"
+    },
+    {
+      "name": "armchair-2",
+      "title": "Armchair 2"
+    },
+    {
+      "name": "armchair-off",
+      "title": "Armchair Off"
+    },
+    {
+      "name": "armchair",
+      "title": "Armchair"
+    },
+    {
+      "name": "arrow-autofit-content",
+      "title": "Arrow Autofit Content"
+    },
+    {
+      "name": "arrow-autofit-down",
+      "title": "Arrow Autofit Down"
+    },
+    {
+      "name": "arrow-autofit-height",
+      "title": "Arrow Autofit Height"
+    },
+    {
+      "name": "arrow-autofit-left",
+      "title": "Arrow Autofit Left"
+    },
+    {
+      "name": "arrow-autofit-right",
+      "title": "Arrow Autofit Right"
+    },
+    {
+      "name": "arrow-autofit-up",
+      "title": "Arrow Autofit Up"
+    },
+    {
+      "name": "arrow-autofit-width",
+      "title": "Arrow Autofit Width"
+    },
+    {
+      "name": "arrow-back-up-double",
+      "title": "Arrow Back Up Double"
+    },
+    {
+      "name": "arrow-back-up",
+      "title": "Arrow Back Up"
+    },
+    {
+      "name": "arrow-back",
+      "title": "Arrow Back"
+    },
+    {
+      "name": "arrow-badge-down",
+      "title": "Arrow Badge Down"
+    },
+    {
+      "name": "arrow-badge-left",
+      "title": "Arrow Badge Left"
+    },
+    {
+      "name": "arrow-badge-right",
+      "title": "Arrow Badge Right"
+    },
+    {
+      "name": "arrow-badge-up",
+      "title": "Arrow Badge Up"
+    },
+    {
+      "name": "arrow-bar-both",
+      "title": "Arrow Bar Both"
+    },
+    {
+      "name": "arrow-bar-down",
+      "title": "Arrow Bar Down"
+    },
+    {
+      "name": "arrow-bar-left",
+      "title": "Arrow Bar Left"
+    },
+    {
+      "name": "arrow-bar-right",
+      "title": "Arrow Bar Right"
+    },
+    {
+      "name": "arrow-bar-to-down-dashed",
+      "title": "Arrow Bar To Down Dashed"
+    },
+    {
+      "name": "arrow-bar-to-down",
+      "title": "Arrow Bar To Down"
+    },
+    {
+      "name": "arrow-bar-to-left-dashed",
+      "title": "Arrow Bar To Left Dashed"
+    },
+    {
+      "name": "arrow-bar-to-left",
+      "title": "Arrow Bar To Left"
+    },
+    {
+      "name": "arrow-bar-to-right-dashed",
+      "title": "Arrow Bar To Right Dashed"
+    },
+    {
+      "name": "arrow-bar-to-right",
+      "title": "Arrow Bar To Right"
+    },
+    {
+      "name": "arrow-bar-to-up-dashed",
+      "title": "Arrow Bar To Up Dashed"
+    },
+    {
+      "name": "arrow-bar-to-up",
+      "title": "Arrow Bar To Up"
+    },
+    {
+      "name": "arrow-bar-up",
+      "title": "Arrow Bar Up"
+    },
+    {
+      "name": "arrow-bear-left-2",
+      "title": "Arrow Bear Left 2"
+    },
+    {
+      "name": "arrow-bear-left",
+      "title": "Arrow Bear Left"
+    },
+    {
+      "name": "arrow-bear-right-2",
+      "title": "Arrow Bear Right 2"
+    },
+    {
+      "name": "arrow-bear-right",
+      "title": "Arrow Bear Right"
+    },
+    {
+      "name": "arrow-big-down-line",
+      "title": "Arrow Big Down Line"
+    },
+    {
+      "name": "arrow-big-down-lines",
+      "title": "Arrow Big Down Lines"
+    },
+    {
+      "name": "arrow-big-down",
+      "title": "Arrow Big Down"
+    },
+    {
+      "name": "arrow-big-left-line",
+      "title": "Arrow Big Left Line"
+    },
+    {
+      "name": "arrow-big-left-lines",
+      "title": "Arrow Big Left Lines"
+    },
+    {
+      "name": "arrow-big-left",
+      "title": "Arrow Big Left"
+    },
+    {
+      "name": "arrow-big-right-line",
+      "title": "Arrow Big Right Line"
+    },
+    {
+      "name": "arrow-big-right-lines",
+      "title": "Arrow Big Right Lines"
+    },
+    {
+      "name": "arrow-big-right",
+      "title": "Arrow Big Right"
+    },
+    {
+      "name": "arrow-big-up-line",
+      "title": "Arrow Big Up Line"
+    },
+    {
+      "name": "arrow-big-up-lines",
+      "title": "Arrow Big Up Lines"
+    },
+    {
+      "name": "arrow-big-up",
+      "title": "Arrow Big Up"
+    },
+    {
+      "name": "arrow-bounce",
+      "title": "Arrow Bounce"
+    },
+    {
+      "name": "arrow-capsule",
+      "title": "Arrow Capsule"
+    },
+    {
+      "name": "arrow-curve-left",
+      "title": "Arrow Curve Left"
+    },
+    {
+      "name": "arrow-curve-right",
+      "title": "Arrow Curve Right"
+    },
+    {
+      "name": "arrow-down-bar",
+      "title": "Arrow Down Bar"
+    },
+    {
+      "name": "arrow-down-circle",
+      "title": "Arrow Down Circle"
+    },
+    {
+      "name": "arrow-down-dashed",
+      "title": "Arrow Down Dashed"
+    },
+    {
+      "name": "arrow-down-from-arc",
+      "title": "Arrow Down From Arc"
+    },
+    {
+      "name": "arrow-down-left-circle",
+      "title": "Arrow Down Left Circle"
+    },
+    {
+      "name": "arrow-down-left",
+      "title": "Arrow Down Left"
+    },
+    {
+      "name": "arrow-down-rhombus",
+      "title": "Arrow Down Rhombus"
+    },
+    {
+      "name": "arrow-down-right-circle",
+      "title": "Arrow Down Right Circle"
+    },
+    {
+      "name": "arrow-down-right",
+      "title": "Arrow Down Right"
+    },
+    {
+      "name": "arrow-down-square",
+      "title": "Arrow Down Square"
+    },
+    {
+      "name": "arrow-down-tail",
+      "title": "Arrow Down Tail"
+    },
+    {
+      "name": "arrow-down-to-arc",
+      "title": "Arrow Down To Arc"
+    },
+    {
+      "name": "arrow-down",
+      "title": "Arrow Down"
+    },
+    {
+      "name": "arrow-elbow-left",
+      "title": "Arrow Elbow Left"
+    },
+    {
+      "name": "arrow-elbow-right",
+      "title": "Arrow Elbow Right"
+    },
+    {
+      "name": "arrow-fork",
+      "title": "Arrow Fork"
+    },
+    {
+      "name": "arrow-forward-up-double",
+      "title": "Arrow Forward Up Double"
+    },
+    {
+      "name": "arrow-forward-up",
+      "title": "Arrow Forward Up"
+    },
+    {
+      "name": "arrow-forward",
+      "title": "Arrow Forward"
+    },
+    {
+      "name": "arrow-guide",
+      "title": "Arrow Guide"
+    },
+    {
+      "name": "arrow-iteration",
+      "title": "Arrow Iteration"
+    },
+    {
+      "name": "arrow-left-bar",
+      "title": "Arrow Left Bar"
+    },
+    {
+      "name": "arrow-left-circle",
+      "title": "Arrow Left Circle"
+    },
+    {
+      "name": "arrow-left-dashed",
+      "title": "Arrow Left Dashed"
+    },
+    {
+      "name": "arrow-left-from-arc",
+      "title": "Arrow Left From Arc"
+    },
+    {
+      "name": "arrow-left-rhombus",
+      "title": "Arrow Left Rhombus"
+    },
+    {
+      "name": "arrow-left-right",
+      "title": "Arrow Left Right"
+    },
+    {
+      "name": "arrow-left-square",
+      "title": "Arrow Left Square"
+    },
+    {
+      "name": "arrow-left-tail",
+      "title": "Arrow Left Tail"
+    },
+    {
+      "name": "arrow-left-to-arc",
+      "title": "Arrow Left To Arc"
+    },
+    {
+      "name": "arrow-left",
+      "title": "Arrow Left"
+    },
+    {
+      "name": "arrow-loop-left-2",
+      "title": "Arrow Loop Left 2"
+    },
+    {
+      "name": "arrow-loop-left",
+      "title": "Arrow Loop Left"
+    },
+    {
+      "name": "arrow-loop-right-2",
+      "title": "Arrow Loop Right 2"
+    },
+    {
+      "name": "arrow-loop-right",
+      "title": "Arrow Loop Right"
+    },
+    {
+      "name": "arrow-merge-alt-left",
+      "title": "Arrow Merge Alt Left"
+    },
+    {
+      "name": "arrow-merge-alt-right",
+      "title": "Arrow Merge Alt Right"
+    },
+    {
+      "name": "arrow-merge-both",
+      "title": "Arrow Merge Both"
+    },
+    {
+      "name": "arrow-merge-left",
+      "title": "Arrow Merge Left"
+    },
+    {
+      "name": "arrow-merge-right",
+      "title": "Arrow Merge Right"
+    },
+    {
+      "name": "arrow-merge",
+      "title": "Arrow Merge"
+    },
+    {
+      "name": "arrow-move-down",
+      "title": "Arrow Move Down"
+    },
+    {
+      "name": "arrow-move-left",
+      "title": "Arrow Move Left"
+    },
+    {
+      "name": "arrow-move-right",
+      "title": "Arrow Move Right"
+    },
+    {
+      "name": "arrow-move-up",
+      "title": "Arrow Move Up"
+    },
+    {
+      "name": "arrow-narrow-down-dashed",
+      "title": "Arrow Narrow Down Dashed"
+    },
+    {
+      "name": "arrow-narrow-down",
+      "title": "Arrow Narrow Down"
+    },
+    {
+      "name": "arrow-narrow-left-dashed",
+      "title": "Arrow Narrow Left Dashed"
+    },
+    {
+      "name": "arrow-narrow-left",
+      "title": "Arrow Narrow Left"
+    },
+    {
+      "name": "arrow-narrow-right-dashed",
+      "title": "Arrow Narrow Right Dashed"
+    },
+    {
+      "name": "arrow-narrow-right",
+      "title": "Arrow Narrow Right"
+    },
+    {
+      "name": "arrow-narrow-up-dashed",
+      "title": "Arrow Narrow Up Dashed"
+    },
+    {
+      "name": "arrow-narrow-up",
+      "title": "Arrow Narrow Up"
+    },
+    {
+      "name": "arrow-ramp-left-2",
+      "title": "Arrow Ramp Left 2"
+    },
+    {
+      "name": "arrow-ramp-left-3",
+      "title": "Arrow Ramp Left 3"
+    },
+    {
+      "name": "arrow-ramp-left",
+      "title": "Arrow Ramp Left"
+    },
+    {
+      "name": "arrow-ramp-right-2",
+      "title": "Arrow Ramp Right 2"
+    },
+    {
+      "name": "arrow-ramp-right-3",
+      "title": "Arrow Ramp Right 3"
+    },
+    {
+      "name": "arrow-ramp-right",
+      "title": "Arrow Ramp Right"
+    },
+    {
+      "name": "arrow-right-bar",
+      "title": "Arrow Right Bar"
+    },
+    {
+      "name": "arrow-right-circle",
+      "title": "Arrow Right Circle"
+    },
+    {
+      "name": "arrow-right-dashed",
+      "title": "Arrow Right Dashed"
+    },
+    {
+      "name": "arrow-right-from-arc",
+      "title": "Arrow Right From Arc"
+    },
+    {
+      "name": "arrow-right-rhombus",
+      "title": "Arrow Right Rhombus"
+    },
+    {
+      "name": "arrow-right-square",
+      "title": "Arrow Right Square"
+    },
+    {
+      "name": "arrow-right-tail",
+      "title": "Arrow Right Tail"
+    },
+    {
+      "name": "arrow-right-to-arc",
+      "title": "Arrow Right To Arc"
+    },
+    {
+      "name": "arrow-right",
+      "title": "Arrow Right"
+    },
+    {
+      "name": "arrow-rotary-first-left",
+      "title": "Arrow Rotary First Left"
+    },
+    {
+      "name": "arrow-rotary-first-right",
+      "title": "Arrow Rotary First Right"
+    },
+    {
+      "name": "arrow-rotary-last-left",
+      "title": "Arrow Rotary Last Left"
+    },
+    {
+      "name": "arrow-rotary-last-right",
+      "title": "Arrow Rotary Last Right"
+    },
+    {
+      "name": "arrow-rotary-left",
+      "title": "Arrow Rotary Left"
+    },
+    {
+      "name": "arrow-rotary-right",
+      "title": "Arrow Rotary Right"
+    },
+    {
+      "name": "arrow-rotary-straight",
+      "title": "Arrow Rotary Straight"
+    },
+    {
+      "name": "arrow-roundabout-left",
+      "title": "Arrow Roundabout Left"
+    },
+    {
+      "name": "arrow-roundabout-right",
+      "title": "Arrow Roundabout Right"
+    },
+    {
+      "name": "arrow-sharp-turn-left",
+      "title": "Arrow Sharp Turn Left"
+    },
+    {
+      "name": "arrow-sharp-turn-right",
+      "title": "Arrow Sharp Turn Right"
+    },
+    {
+      "name": "arrow-up-bar",
+      "title": "Arrow Up Bar"
+    },
+    {
+      "name": "arrow-up-circle",
+      "title": "Arrow Up Circle"
+    },
+    {
+      "name": "arrow-up-dashed",
+      "title": "Arrow Up Dashed"
+    },
+    {
+      "name": "arrow-up-from-arc",
+      "title": "Arrow Up From Arc"
+    },
+    {
+      "name": "arrow-up-left-circle",
+      "title": "Arrow Up Left Circle"
+    },
+    {
+      "name": "arrow-up-left",
+      "title": "Arrow Up Left"
+    },
+    {
+      "name": "arrow-up-rhombus",
+      "title": "Arrow Up Rhombus"
+    },
+    {
+      "name": "arrow-up-right-circle",
+      "title": "Arrow Up Right Circle"
+    },
+    {
+      "name": "arrow-up-right",
+      "title": "Arrow Up Right"
+    },
+    {
+      "name": "arrow-up-square",
+      "title": "Arrow Up Square"
+    },
+    {
+      "name": "arrow-up-tail",
+      "title": "Arrow Up Tail"
+    },
+    {
+      "name": "arrow-up-to-arc",
+      "title": "Arrow Up To Arc"
+    },
+    {
+      "name": "arrow-up",
+      "title": "Arrow Up"
+    },
+    {
+      "name": "arrow-wave-left-down",
+      "title": "Arrow Wave Left Down"
+    },
+    {
+      "name": "arrow-wave-left-up",
+      "title": "Arrow Wave Left Up"
+    },
+    {
+      "name": "arrow-wave-right-down",
+      "title": "Arrow Wave Right Down"
+    },
+    {
+      "name": "arrow-wave-right-up",
+      "title": "Arrow Wave Right Up"
+    },
+    {
+      "name": "arrow-zig-zag",
+      "title": "Arrow Zig Zag"
+    },
+    {
+      "name": "arrows-cross",
+      "title": "Arrows Cross"
+    },
+    {
+      "name": "arrows-diagonal-2",
+      "title": "Arrows Diagonal 2"
+    },
+    {
+      "name": "arrows-diagonal-minimize-2",
+      "title": "Arrows Diagonal Minimize 2"
+    },
+    {
+      "name": "arrows-diagonal-minimize",
+      "title": "Arrows Diagonal Minimize"
+    },
+    {
+      "name": "arrows-diagonal",
+      "title": "Arrows Diagonal"
+    },
+    {
+      "name": "arrows-diff",
+      "title": "Arrows Diff"
+    },
+    {
+      "name": "arrows-double-ne-sw",
+      "title": "Arrows Double Ne Sw"
+    },
+    {
+      "name": "arrows-double-nw-se",
+      "title": "Arrows Double Nw Se"
+    },
+    {
+      "name": "arrows-double-se-nw",
+      "title": "Arrows Double Se Nw"
+    },
+    {
+      "name": "arrows-double-sw-ne",
+      "title": "Arrows Double Sw Ne"
+    },
+    {
+      "name": "arrows-down-up",
+      "title": "Arrows Down Up"
+    },
+    {
+      "name": "arrows-down",
+      "title": "Arrows Down"
+    },
+    {
+      "name": "arrows-exchange-2",
+      "title": "Arrows Exchange 2"
+    },
+    {
+      "name": "arrows-exchange",
+      "title": "Arrows Exchange"
+    },
+    {
+      "name": "arrows-horizontal",
+      "title": "Arrows Horizontal"
+    },
+    {
+      "name": "arrows-join-2",
+      "title": "Arrows Join 2"
+    },
+    {
+      "name": "arrows-join",
+      "title": "Arrows Join"
+    },
+    {
+      "name": "arrows-left-down",
+      "title": "Arrows Left Down"
+    },
+    {
+      "name": "arrows-left-right",
+      "title": "Arrows Left Right"
+    },
+    {
+      "name": "arrows-left",
+      "title": "Arrows Left"
+    },
+    {
+      "name": "arrows-maximize",
+      "title": "Arrows Maximize"
+    },
+    {
+      "name": "arrows-minimize",
+      "title": "Arrows Minimize"
+    },
+    {
+      "name": "arrows-move-horizontal",
+      "title": "Arrows Move Horizontal"
+    },
+    {
+      "name": "arrows-move-vertical",
+      "title": "Arrows Move Vertical"
+    },
+    {
+      "name": "arrows-move",
+      "title": "Arrows Move"
+    },
+    {
+      "name": "arrows-random",
+      "title": "Arrows Random"
+    },
+    {
+      "name": "arrows-right-down",
+      "title": "Arrows Right Down"
+    },
+    {
+      "name": "arrows-right-left",
+      "title": "Arrows Right Left"
+    },
+    {
+      "name": "arrows-right",
+      "title": "Arrows Right"
+    },
+    {
+      "name": "arrows-shuffle-2",
+      "title": "Arrows Shuffle 2"
+    },
+    {
+      "name": "arrows-shuffle",
+      "title": "Arrows Shuffle"
+    },
+    {
+      "name": "arrows-sort",
+      "title": "Arrows Sort"
+    },
+    {
+      "name": "arrows-split-2",
+      "title": "Arrows Split 2"
+    },
+    {
+      "name": "arrows-split",
+      "title": "Arrows Split"
+    },
+    {
+      "name": "arrows-transfer-down",
+      "title": "Arrows Transfer Down"
+    },
+    {
+      "name": "arrows-transfer-up-down",
+      "title": "Arrows Transfer Up Down"
+    },
+    {
+      "name": "arrows-transfer-up",
+      "title": "Arrows Transfer Up"
+    },
+    {
+      "name": "arrows-up-down",
+      "title": "Arrows Up Down"
+    },
+    {
+      "name": "arrows-up-left",
+      "title": "Arrows Up Left"
+    },
+    {
+      "name": "arrows-up-right",
+      "title": "Arrows Up Right"
+    },
+    {
+      "name": "arrows-up",
+      "title": "Arrows Up"
+    },
+    {
+      "name": "arrows-vertical",
+      "title": "Arrows Vertical"
+    },
+    {
+      "name": "artboard-off",
+      "title": "Artboard Off"
+    },
+    {
+      "name": "artboard",
+      "title": "Artboard"
+    },
+    {
+      "name": "article-off",
+      "title": "Article Off"
+    },
+    {
+      "name": "article",
+      "title": "Article"
+    },
+    {
+      "name": "aspect-ratio-off",
+      "title": "Aspect Ratio Off"
+    },
+    {
+      "name": "aspect-ratio",
+      "title": "Aspect Ratio"
+    },
+    {
+      "name": "assembly-off",
+      "title": "Assembly Off"
+    },
+    {
+      "name": "assembly",
+      "title": "Assembly"
+    },
+    {
+      "name": "asset",
+      "title": "Asset"
+    },
+    {
+      "name": "asterisk-simple",
+      "title": "Asterisk Simple"
+    },
+    {
+      "name": "asterisk",
+      "title": "Asterisk"
+    },
+    {
+      "name": "at-off",
+      "title": "At Off"
+    },
+    {
+      "name": "at",
+      "title": "At"
+    },
+    {
+      "name": "atom-2",
+      "title": "Atom 2"
+    },
+    {
+      "name": "atom-off",
+      "title": "Atom Off"
+    },
+    {
+      "name": "atom",
+      "title": "Atom"
+    },
+    {
+      "name": "augmented-reality-2",
+      "title": "Augmented Reality 2"
+    },
+    {
+      "name": "augmented-reality-off",
+      "title": "Augmented Reality Off"
+    },
+    {
+      "name": "augmented-reality",
+      "title": "Augmented Reality"
+    },
+    {
+      "name": "auth-2fa",
+      "title": "Auth 2fa"
+    },
+    {
+      "name": "automatic-gearbox",
+      "title": "Automatic Gearbox"
+    },
+    {
+      "name": "automation",
+      "title": "Automation"
+    },
+    {
+      "name": "avocado",
+      "title": "Avocado"
+    },
+    {
+      "name": "award-off",
+      "title": "Award Off"
+    },
+    {
+      "name": "award",
+      "title": "Award"
+    },
+    {
+      "name": "axe",
+      "title": "Axe"
+    },
+    {
+      "name": "axis-x",
+      "title": "Axis X"
+    },
+    {
+      "name": "axis-y",
+      "title": "Axis Y"
+    },
+    {
+      "name": "baby-bottle",
+      "title": "Baby Bottle"
+    },
+    {
+      "name": "baby-carriage",
+      "title": "Baby Carriage"
+    },
+    {
+      "name": "background",
+      "title": "Background"
+    },
+    {
+      "name": "backhoe",
+      "title": "Backhoe"
+    },
+    {
+      "name": "backpack-off",
+      "title": "Backpack Off"
+    },
+    {
+      "name": "backpack",
+      "title": "Backpack"
+    },
+    {
+      "name": "backslash",
+      "title": "Backslash"
+    },
+    {
+      "name": "backspace",
+      "title": "Backspace"
+    },
+    {
+      "name": "badge-2k",
+      "title": "Badge 2k"
+    },
+    {
+      "name": "badge-3d",
+      "title": "Badge 3d"
+    },
+    {
+      "name": "badge-3k",
+      "title": "Badge 3k"
+    },
+    {
+      "name": "badge-4k",
+      "title": "Badge 4k"
+    },
+    {
+      "name": "badge-5k",
+      "title": "Badge 5k"
+    },
+    {
+      "name": "badge-8k",
+      "title": "Badge 8k"
+    },
+    {
+      "name": "badge-ad-off",
+      "title": "Badge Ad Off"
+    },
+    {
+      "name": "badge-ad",
+      "title": "Badge Ad"
+    },
+    {
+      "name": "badge-ar",
+      "title": "Badge Ar"
+    },
+    {
+      "name": "badge-cc",
+      "title": "Badge Cc"
+    },
+    {
+      "name": "badge-hd",
+      "title": "Badge Hd"
+    },
+    {
+      "name": "badge-off",
+      "title": "Badge Off"
+    },
+    {
+      "name": "badge-sd",
+      "title": "Badge Sd"
+    },
+    {
+      "name": "badge-tm",
+      "title": "Badge Tm"
+    },
+    {
+      "name": "badge-vo",
+      "title": "Badge Vo"
+    },
+    {
+      "name": "badge-vr",
+      "title": "Badge Vr"
+    },
+    {
+      "name": "badge-wc",
+      "title": "Badge Wc"
+    },
+    {
+      "name": "badge",
+      "title": "Badge"
+    },
+    {
+      "name": "badges-off",
+      "title": "Badges Off"
+    },
+    {
+      "name": "badges",
+      "title": "Badges"
+    },
+    {
+      "name": "baguette",
+      "title": "Baguette"
+    },
+    {
+      "name": "ball-american-football-off",
+      "title": "Ball American Football Off"
+    },
+    {
+      "name": "ball-american-football",
+      "title": "Ball American Football"
+    },
+    {
+      "name": "ball-baseball",
+      "title": "Ball Baseball"
+    },
+    {
+      "name": "ball-basketball",
+      "title": "Ball Basketball"
+    },
+    {
+      "name": "ball-bowling",
+      "title": "Ball Bowling"
+    },
+    {
+      "name": "ball-football-off",
+      "title": "Ball Football Off"
+    },
+    {
+      "name": "ball-football",
+      "title": "Ball Football"
+    },
+    {
+      "name": "ball-tennis",
+      "title": "Ball Tennis"
+    },
+    {
+      "name": "ball-volleyball",
+      "title": "Ball Volleyball"
+    },
+    {
+      "name": "balloon-off",
+      "title": "Balloon Off"
+    },
+    {
+      "name": "balloon",
+      "title": "Balloon"
+    },
+    {
+      "name": "ballpen-off",
+      "title": "Ballpen Off"
+    },
+    {
+      "name": "ballpen",
+      "title": "Ballpen"
+    },
+    {
+      "name": "ban",
+      "title": "Ban"
+    },
+    {
+      "name": "bandage-off",
+      "title": "Bandage Off"
+    },
+    {
+      "name": "bandage",
+      "title": "Bandage"
+    },
+    {
+      "name": "barbell-off",
+      "title": "Barbell Off"
+    },
+    {
+      "name": "barbell",
+      "title": "Barbell"
+    },
+    {
+      "name": "barcode-off",
+      "title": "Barcode Off"
+    },
+    {
+      "name": "barcode",
+      "title": "Barcode"
+    },
+    {
+      "name": "barrel-off",
+      "title": "Barrel Off"
+    },
+    {
+      "name": "barrel",
+      "title": "Barrel"
+    },
+    {
+      "name": "barrier-block-off",
+      "title": "Barrier Block Off"
+    },
+    {
+      "name": "barrier-block",
+      "title": "Barrier Block"
+    },
+    {
+      "name": "baseline-density-large",
+      "title": "Baseline Density Large"
+    },
+    {
+      "name": "baseline-density-medium",
+      "title": "Baseline Density Medium"
+    },
+    {
+      "name": "baseline-density-small",
+      "title": "Baseline Density Small"
+    },
+    {
+      "name": "baseline",
+      "title": "Baseline"
+    },
+    {
+      "name": "basket-bolt",
+      "title": "Basket Bolt"
+    },
+    {
+      "name": "basket-cancel",
+      "title": "Basket Cancel"
+    },
+    {
+      "name": "basket-check",
+      "title": "Basket Check"
+    },
+    {
+      "name": "basket-code",
+      "title": "Basket Code"
+    },
+    {
+      "name": "basket-cog",
+      "title": "Basket Cog"
+    },
+    {
+      "name": "basket-discount",
+      "title": "Basket Discount"
+    },
+    {
+      "name": "basket-dollar",
+      "title": "Basket Dollar"
+    },
+    {
+      "name": "basket-down",
+      "title": "Basket Down"
+    },
+    {
+      "name": "basket-exclamation",
+      "title": "Basket Exclamation"
+    },
+    {
+      "name": "basket-heart",
+      "title": "Basket Heart"
+    },
+    {
+      "name": "basket-minus",
+      "title": "Basket Minus"
+    },
+    {
+      "name": "basket-off",
+      "title": "Basket Off"
+    },
+    {
+      "name": "basket-pause",
+      "title": "Basket Pause"
+    },
+    {
+      "name": "basket-pin",
+      "title": "Basket Pin"
+    },
+    {
+      "name": "basket-plus",
+      "title": "Basket Plus"
+    },
+    {
+      "name": "basket-question",
+      "title": "Basket Question"
+    },
+    {
+      "name": "basket-search",
+      "title": "Basket Search"
+    },
+    {
+      "name": "basket-share",
+      "title": "Basket Share"
+    },
+    {
+      "name": "basket-star",
+      "title": "Basket Star"
+    },
+    {
+      "name": "basket-up",
+      "title": "Basket Up"
+    },
+    {
+      "name": "basket-x",
+      "title": "Basket X"
+    },
+    {
+      "name": "basket",
+      "title": "Basket"
+    },
+    {
+      "name": "bat",
+      "title": "Bat"
+    },
+    {
+      "name": "bath-off",
+      "title": "Bath Off"
+    },
+    {
+      "name": "bath",
+      "title": "Bath"
+    },
+    {
+      "name": "battery-1",
+      "title": "Battery 1"
+    },
+    {
+      "name": "battery-2",
+      "title": "Battery 2"
+    },
+    {
+      "name": "battery-3",
+      "title": "Battery 3"
+    },
+    {
+      "name": "battery-4",
+      "title": "Battery 4"
+    },
+    {
+      "name": "battery-automotive",
+      "title": "Battery Automotive"
+    },
+    {
+      "name": "battery-charging-2",
+      "title": "Battery Charging 2"
+    },
+    {
+      "name": "battery-charging",
+      "title": "Battery Charging"
+    },
+    {
+      "name": "battery-eco",
+      "title": "Battery Eco"
+    },
+    {
+      "name": "battery-exclamation",
+      "title": "Battery Exclamation"
+    },
+    {
+      "name": "battery-off",
+      "title": "Battery Off"
+    },
+    {
+      "name": "battery-spark",
+      "title": "Battery Spark"
+    },
+    {
+      "name": "battery-vertical-1",
+      "title": "Battery Vertical 1"
+    },
+    {
+      "name": "battery-vertical-2",
+      "title": "Battery Vertical 2"
+    },
+    {
+      "name": "battery-vertical-3",
+      "title": "Battery Vertical 3"
+    },
+    {
+      "name": "battery-vertical-4",
+      "title": "Battery Vertical 4"
+    },
+    {
+      "name": "battery-vertical-charging-2",
+      "title": "Battery Vertical Charging 2"
+    },
+    {
+      "name": "battery-vertical-charging",
+      "title": "Battery Vertical Charging"
+    },
+    {
+      "name": "battery-vertical-eco",
+      "title": "Battery Vertical Eco"
+    },
+    {
+      "name": "battery-vertical-exclamation",
+      "title": "Battery Vertical Exclamation"
+    },
+    {
+      "name": "battery-vertical-off",
+      "title": "Battery Vertical Off"
+    },
+    {
+      "name": "battery-vertical",
+      "title": "Battery Vertical"
+    },
+    {
+      "name": "battery",
+      "title": "Battery"
+    },
+    {
+      "name": "beach-off",
+      "title": "Beach Off"
+    },
+    {
+      "name": "beach",
+      "title": "Beach"
+    },
+    {
+      "name": "bed-flat",
+      "title": "Bed Flat"
+    },
+    {
+      "name": "bed-off",
+      "title": "Bed Off"
+    },
+    {
+      "name": "bed",
+      "title": "Bed"
+    },
+    {
+      "name": "beer-off",
+      "title": "Beer Off"
+    },
+    {
+      "name": "beer",
+      "title": "Beer"
+    },
+    {
+      "name": "bell-bolt",
+      "title": "Bell Bolt"
+    },
+    {
+      "name": "bell-cancel",
+      "title": "Bell Cancel"
+    },
+    {
+      "name": "bell-check",
+      "title": "Bell Check"
+    },
+    {
+      "name": "bell-code",
+      "title": "Bell Code"
+    },
+    {
+      "name": "bell-cog",
+      "title": "Bell Cog"
+    },
+    {
+      "name": "bell-dollar",
+      "title": "Bell Dollar"
+    },
+    {
+      "name": "bell-down",
+      "title": "Bell Down"
+    },
+    {
+      "name": "bell-exclamation",
+      "title": "Bell Exclamation"
+    },
+    {
+      "name": "bell-heart",
+      "title": "Bell Heart"
+    },
+    {
+      "name": "bell-minus",
+      "title": "Bell Minus"
+    },
+    {
+      "name": "bell-off",
+      "title": "Bell Off"
+    },
+    {
+      "name": "bell-pause",
+      "title": "Bell Pause"
+    },
+    {
+      "name": "bell-pin",
+      "title": "Bell Pin"
+    },
+    {
+      "name": "bell-plus",
+      "title": "Bell Plus"
+    },
+    {
+      "name": "bell-question",
+      "title": "Bell Question"
+    },
+    {
+      "name": "bell-ringing-2",
+      "title": "Bell Ringing 2"
+    },
+    {
+      "name": "bell-ringing",
+      "title": "Bell Ringing"
+    },
+    {
+      "name": "bell-school",
+      "title": "Bell School"
+    },
+    {
+      "name": "bell-search",
+      "title": "Bell Search"
+    },
+    {
+      "name": "bell-share",
+      "title": "Bell Share"
+    },
+    {
+      "name": "bell-star",
+      "title": "Bell Star"
+    },
+    {
+      "name": "bell-up",
+      "title": "Bell Up"
+    },
+    {
+      "name": "bell-x",
+      "title": "Bell X"
+    },
+    {
+      "name": "bell-z",
+      "title": "Bell Z"
+    },
+    {
+      "name": "bell",
+      "title": "Bell"
+    },
+    {
+      "name": "beta",
+      "title": "Beta"
+    },
+    {
+      "name": "bible",
+      "title": "Bible"
+    },
+    {
+      "name": "bike-off",
+      "title": "Bike Off"
+    },
+    {
+      "name": "bike",
+      "title": "Bike"
+    },
+    {
+      "name": "binary-off",
+      "title": "Binary Off"
+    },
+    {
+      "name": "binary-tree-2",
+      "title": "Binary Tree 2"
+    },
+    {
+      "name": "binary-tree",
+      "title": "Binary Tree"
+    },
+    {
+      "name": "binary",
+      "title": "Binary"
+    },
+    {
+      "name": "binoculars",
+      "title": "Binoculars"
+    },
+    {
+      "name": "biohazard-off",
+      "title": "Biohazard Off"
+    },
+    {
+      "name": "biohazard",
+      "title": "Biohazard"
+    },
+    {
+      "name": "blade",
+      "title": "Blade"
+    },
+    {
+      "name": "bleach-chlorine",
+      "title": "Bleach Chlorine"
+    },
+    {
+      "name": "bleach-no-chlorine",
+      "title": "Bleach No Chlorine"
+    },
+    {
+      "name": "bleach-off",
+      "title": "Bleach Off"
+    },
+    {
+      "name": "bleach",
+      "title": "Bleach"
+    },
+    {
+      "name": "blend-mode",
+      "title": "Blend Mode"
+    },
+    {
+      "name": "blender",
+      "title": "Blender"
+    },
+    {
+      "name": "blind",
+      "title": "Blind"
+    },
+    {
+      "name": "blob",
+      "title": "Blob"
+    },
+    {
+      "name": "blockquote",
+      "title": "Blockquote"
+    },
+    {
+      "name": "blocks",
+      "title": "Blocks"
+    },
+    {
+      "name": "bluetooth-connected",
+      "title": "Bluetooth Connected"
+    },
+    {
+      "name": "bluetooth-off",
+      "title": "Bluetooth Off"
+    },
+    {
+      "name": "bluetooth-x",
+      "title": "Bluetooth X"
+    },
+    {
+      "name": "bluetooth",
+      "title": "Bluetooth"
+    },
+    {
+      "name": "blur-off",
+      "title": "Blur Off"
+    },
+    {
+      "name": "blur",
+      "title": "Blur"
+    },
+    {
+      "name": "bmp",
+      "title": "Bmp"
+    },
+    {
+      "name": "body-scan",
+      "title": "Body Scan"
+    },
+    {
+      "name": "bold-off",
+      "title": "Bold Off"
+    },
+    {
+      "name": "bold",
+      "title": "Bold"
+    },
+    {
+      "name": "bolt-off",
+      "title": "Bolt Off"
+    },
+    {
+      "name": "bolt",
+      "title": "Bolt"
+    },
+    {
+      "name": "bomb",
+      "title": "Bomb"
+    },
+    {
+      "name": "bone-off",
+      "title": "Bone Off"
+    },
+    {
+      "name": "bone",
+      "title": "Bone"
+    },
+    {
+      "name": "bong-off",
+      "title": "Bong Off"
+    },
+    {
+      "name": "bong",
+      "title": "Bong"
+    },
+    {
+      "name": "book-2",
+      "title": "Book 2"
+    },
+    {
+      "name": "book-download",
+      "title": "Book Download"
+    },
+    {
+      "name": "book-off",
+      "title": "Book Off"
+    },
+    {
+      "name": "book-upload",
+      "title": "Book Upload"
+    },
+    {
+      "name": "book",
+      "title": "Book"
+    },
+    {
+      "name": "bookmark-ai",
+      "title": "Bookmark Ai"
+    },
+    {
+      "name": "bookmark-edit",
+      "title": "Bookmark Edit"
+    },
+    {
+      "name": "bookmark-minus",
+      "title": "Bookmark Minus"
+    },
+    {
+      "name": "bookmark-off",
+      "title": "Bookmark Off"
+    },
+    {
+      "name": "bookmark-plus",
+      "title": "Bookmark Plus"
+    },
+    {
+      "name": "bookmark-question",
+      "title": "Bookmark Question"
+    },
+    {
+      "name": "bookmark",
+      "title": "Bookmark"
+    },
+    {
+      "name": "bookmarks-off",
+      "title": "Bookmarks Off"
+    },
+    {
+      "name": "bookmarks",
+      "title": "Bookmarks"
+    },
+    {
+      "name": "books-off",
+      "title": "Books Off"
+    },
+    {
+      "name": "books",
+      "title": "Books"
+    },
+    {
+      "name": "boom",
+      "title": "Boom"
+    },
+    {
+      "name": "border-all",
+      "title": "Border All"
+    },
+    {
+      "name": "border-bottom-plus",
+      "title": "Border Bottom Plus"
+    },
+    {
+      "name": "border-bottom",
+      "title": "Border Bottom"
+    },
+    {
+      "name": "border-corner-ios",
+      "title": "Border Corner Ios"
+    },
+    {
+      "name": "border-corner-pill",
+      "title": "Border Corner Pill"
+    },
+    {
+      "name": "border-corner-rounded",
+      "title": "Border Corner Rounded"
+    },
+    {
+      "name": "border-corner-square",
+      "title": "Border Corner Square"
+    },
+    {
+      "name": "border-corners",
+      "title": "Border Corners"
+    },
+    {
+      "name": "border-horizontal",
+      "title": "Border Horizontal"
+    },
+    {
+      "name": "border-inner",
+      "title": "Border Inner"
+    },
+    {
+      "name": "border-left-plus",
+      "title": "Border Left Plus"
+    },
+    {
+      "name": "border-left",
+      "title": "Border Left"
+    },
+    {
+      "name": "border-none",
+      "title": "Border None"
+    },
+    {
+      "name": "border-outer",
+      "title": "Border Outer"
+    },
+    {
+      "name": "border-radius",
+      "title": "Border Radius"
+    },
+    {
+      "name": "border-right-plus",
+      "title": "Border Right Plus"
+    },
+    {
+      "name": "border-right",
+      "title": "Border Right"
+    },
+    {
+      "name": "border-sides",
+      "title": "Border Sides"
+    },
+    {
+      "name": "border-style-2",
+      "title": "Border Style 2"
+    },
+    {
+      "name": "border-style",
+      "title": "Border Style"
+    },
+    {
+      "name": "border-top-plus",
+      "title": "Border Top Plus"
+    },
+    {
+      "name": "border-top",
+      "title": "Border Top"
+    },
+    {
+      "name": "border-vertical",
+      "title": "Border Vertical"
+    },
+    {
+      "name": "bottle-off",
+      "title": "Bottle Off"
+    },
+    {
+      "name": "bottle",
+      "title": "Bottle"
+    },
+    {
+      "name": "bounce-left",
+      "title": "Bounce Left"
+    },
+    {
+      "name": "bounce-right",
+      "title": "Bounce Right"
+    },
+    {
+      "name": "bow",
+      "title": "Bow"
+    },
+    {
+      "name": "bowl-chopsticks",
+      "title": "Bowl Chopsticks"
+    },
+    {
+      "name": "bowl-spoon",
+      "title": "Bowl Spoon"
+    },
+    {
+      "name": "bowl",
+      "title": "Bowl"
+    },
+    {
+      "name": "bowling",
+      "title": "Bowling"
+    },
+    {
+      "name": "box-align-bottom-left",
+      "title": "Box Align Bottom Left"
+    },
+    {
+      "name": "box-align-bottom-right",
+      "title": "Box Align Bottom Right"
+    },
+    {
+      "name": "box-align-bottom",
+      "title": "Box Align Bottom"
+    },
+    {
+      "name": "box-align-left",
+      "title": "Box Align Left"
+    },
+    {
+      "name": "box-align-right",
+      "title": "Box Align Right"
+    },
+    {
+      "name": "box-align-top-left",
+      "title": "Box Align Top Left"
+    },
+    {
+      "name": "box-align-top-right",
+      "title": "Box Align Top Right"
+    },
+    {
+      "name": "box-align-top",
+      "title": "Box Align Top"
+    },
+    {
+      "name": "box-margin",
+      "title": "Box Margin"
+    },
+    {
+      "name": "box-model-2-off",
+      "title": "Box Model 2 Off"
+    },
+    {
+      "name": "box-model-2",
+      "title": "Box Model 2"
+    },
+    {
+      "name": "box-model-off",
+      "title": "Box Model Off"
+    },
+    {
+      "name": "box-model",
+      "title": "Box Model"
+    },
+    {
+      "name": "box-multiple-0",
+      "title": "Box Multiple 0"
+    },
+    {
+      "name": "box-multiple-1",
+      "title": "Box Multiple 1"
+    },
+    {
+      "name": "box-multiple-2",
+      "title": "Box Multiple 2"
+    },
+    {
+      "name": "box-multiple-3",
+      "title": "Box Multiple 3"
+    },
+    {
+      "name": "box-multiple-4",
+      "title": "Box Multiple 4"
+    },
+    {
+      "name": "box-multiple-5",
+      "title": "Box Multiple 5"
+    },
+    {
+      "name": "box-multiple-6",
+      "title": "Box Multiple 6"
+    },
+    {
+      "name": "box-multiple-7",
+      "title": "Box Multiple 7"
+    },
+    {
+      "name": "box-multiple-8",
+      "title": "Box Multiple 8"
+    },
+    {
+      "name": "box-multiple-9",
+      "title": "Box Multiple 9"
+    },
+    {
+      "name": "box-multiple",
+      "title": "Box Multiple"
+    },
+    {
+      "name": "box-off",
+      "title": "Box Off"
+    },
+    {
+      "name": "box-padding",
+      "title": "Box Padding"
+    },
+    {
+      "name": "box",
+      "title": "Box"
+    },
+    {
+      "name": "braces-off",
+      "title": "Braces Off"
+    },
+    {
+      "name": "braces",
+      "title": "Braces"
+    },
+    {
+      "name": "brackets-angle-off",
+      "title": "Brackets Angle Off"
+    },
+    {
+      "name": "brackets-angle",
+      "title": "Brackets Angle"
+    },
+    {
+      "name": "brackets-contain-end",
+      "title": "Brackets Contain End"
+    },
+    {
+      "name": "brackets-contain-start",
+      "title": "Brackets Contain Start"
+    },
+    {
+      "name": "brackets-contain",
+      "title": "Brackets Contain"
+    },
+    {
+      "name": "brackets-off",
+      "title": "Brackets Off"
+    },
+    {
+      "name": "brackets",
+      "title": "Brackets"
+    },
+    {
+      "name": "braille",
+      "title": "Braille"
+    },
+    {
+      "name": "brain",
+      "title": "Brain"
+    },
+    {
+      "name": "brand-4chan",
+      "title": "Brand 4chan"
+    },
+    {
+      "name": "brand-abstract",
+      "title": "Brand Abstract"
+    },
+    {
+      "name": "brand-adobe-after-effect",
+      "title": "Brand Adobe After Effect"
+    },
+    {
+      "name": "brand-adobe-illustrator",
+      "title": "Brand Adobe Illustrator"
+    },
+    {
+      "name": "brand-adobe-indesign",
+      "title": "Brand Adobe Indesign"
+    },
+    {
+      "name": "brand-adobe-photoshop",
+      "title": "Brand Adobe Photoshop"
+    },
+    {
+      "name": "brand-adobe-premiere",
+      "title": "Brand Adobe Premiere"
+    },
+    {
+      "name": "brand-adobe-xd",
+      "title": "Brand Adobe Xd"
+    },
+    {
+      "name": "brand-adobe",
+      "title": "Brand Adobe"
+    },
+    {
+      "name": "brand-adonis-js",
+      "title": "Brand Adonis Js"
+    },
+    {
+      "name": "brand-airbnb",
+      "title": "Brand Airbnb"
+    },
+    {
+      "name": "brand-airtable",
+      "title": "Brand Airtable"
+    },
+    {
+      "name": "brand-algolia",
+      "title": "Brand Algolia"
+    },
+    {
+      "name": "brand-alipay",
+      "title": "Brand Alipay"
+    },
+    {
+      "name": "brand-alpine-js",
+      "title": "Brand Alpine Js"
+    },
+    {
+      "name": "brand-amazon",
+      "title": "Brand Amazon"
+    },
+    {
+      "name": "brand-amd",
+      "title": "Brand Amd"
+    },
+    {
+      "name": "brand-amie",
+      "title": "Brand Amie"
+    },
+    {
+      "name": "brand-amigo",
+      "title": "Brand Amigo"
+    },
+    {
+      "name": "brand-among-us",
+      "title": "Brand Among Us"
+    },
+    {
+      "name": "brand-android",
+      "title": "Brand Android"
+    },
+    {
+      "name": "brand-angular",
+      "title": "Brand Angular"
+    },
+    {
+      "name": "brand-ansible",
+      "title": "Brand Ansible"
+    },
+    {
+      "name": "brand-ao3",
+      "title": "Brand Ao3"
+    },
+    {
+      "name": "brand-appgallery",
+      "title": "Brand Appgallery"
+    },
+    {
+      "name": "brand-apple-arcade",
+      "title": "Brand Apple Arcade"
+    },
+    {
+      "name": "brand-apple-news",
+      "title": "Brand Apple News"
+    },
+    {
+      "name": "brand-apple-podcast",
+      "title": "Brand Apple Podcast"
+    },
+    {
+      "name": "brand-apple",
+      "title": "Brand Apple"
+    },
+    {
+      "name": "brand-appstore",
+      "title": "Brand Appstore"
+    },
+    {
+      "name": "brand-arc",
+      "title": "Brand Arc"
+    },
+    {
+      "name": "brand-asana",
+      "title": "Brand Asana"
+    },
+    {
+      "name": "brand-astro",
+      "title": "Brand Astro"
+    },
+    {
+      "name": "brand-auth0",
+      "title": "Brand Auth0"
+    },
+    {
+      "name": "brand-aws",
+      "title": "Brand Aws"
+    },
+    {
+      "name": "brand-azure",
+      "title": "Brand Azure"
+    },
+    {
+      "name": "brand-backbone",
+      "title": "Brand Backbone"
+    },
+    {
+      "name": "brand-badoo",
+      "title": "Brand Badoo"
+    },
+    {
+      "name": "brand-baidu",
+      "title": "Brand Baidu"
+    },
+    {
+      "name": "brand-bandcamp",
+      "title": "Brand Bandcamp"
+    },
+    {
+      "name": "brand-bandlab",
+      "title": "Brand Bandlab"
+    },
+    {
+      "name": "brand-beats",
+      "title": "Brand Beats"
+    },
+    {
+      "name": "brand-bebo",
+      "title": "Brand Bebo"
+    },
+    {
+      "name": "brand-behance",
+      "title": "Brand Behance"
+    },
+    {
+      "name": "brand-bilibili",
+      "title": "Brand Bilibili"
+    },
+    {
+      "name": "brand-binance",
+      "title": "Brand Binance"
+    },
+    {
+      "name": "brand-bing",
+      "title": "Brand Bing"
+    },
+    {
+      "name": "brand-bitbucket",
+      "title": "Brand Bitbucket"
+    },
+    {
+      "name": "brand-blackberry",
+      "title": "Brand Blackberry"
+    },
+    {
+      "name": "brand-blender",
+      "title": "Brand Blender"
+    },
+    {
+      "name": "brand-blogger",
+      "title": "Brand Blogger"
+    },
+    {
+      "name": "brand-bluesky",
+      "title": "Brand Bluesky"
+    },
+    {
+      "name": "brand-booking",
+      "title": "Brand Booking"
+    },
+    {
+      "name": "brand-bootstrap",
+      "title": "Brand Bootstrap"
+    },
+    {
+      "name": "brand-bulma",
+      "title": "Brand Bulma"
+    },
+    {
+      "name": "brand-bumble",
+      "title": "Brand Bumble"
+    },
+    {
+      "name": "brand-bunpo",
+      "title": "Brand Bunpo"
+    },
+    {
+      "name": "brand-c-sharp",
+      "title": "Brand C Sharp"
+    },
+    {
+      "name": "brand-cake",
+      "title": "Brand Cake"
+    },
+    {
+      "name": "brand-cakephp",
+      "title": "Brand Cakephp"
+    },
+    {
+      "name": "brand-campaignmonitor",
+      "title": "Brand Campaignmonitor"
+    },
+    {
+      "name": "brand-carbon",
+      "title": "Brand Carbon"
+    },
+    {
+      "name": "brand-cashapp",
+      "title": "Brand Cashapp"
+    },
+    {
+      "name": "brand-chrome",
+      "title": "Brand Chrome"
+    },
+    {
+      "name": "brand-cinema-4d",
+      "title": "Brand Cinema 4d"
+    },
+    {
+      "name": "brand-citymapper",
+      "title": "Brand Citymapper"
+    },
+    {
+      "name": "brand-cloudflare",
+      "title": "Brand Cloudflare"
+    },
+    {
+      "name": "brand-codecov",
+      "title": "Brand Codecov"
+    },
+    {
+      "name": "brand-codepen",
+      "title": "Brand Codepen"
+    },
+    {
+      "name": "brand-codesandbox",
+      "title": "Brand Codesandbox"
+    },
+    {
+      "name": "brand-cohost",
+      "title": "Brand Cohost"
+    },
+    {
+      "name": "brand-coinbase",
+      "title": "Brand Coinbase"
+    },
+    {
+      "name": "brand-comedy-central",
+      "title": "Brand Comedy Central"
+    },
+    {
+      "name": "brand-coreos",
+      "title": "Brand Coreos"
+    },
+    {
+      "name": "brand-couchdb",
+      "title": "Brand Couchdb"
+    },
+    {
+      "name": "brand-couchsurfing",
+      "title": "Brand Couchsurfing"
+    },
+    {
+      "name": "brand-cpp",
+      "title": "Brand Cpp"
+    },
+    {
+      "name": "brand-craft",
+      "title": "Brand Craft"
+    },
+    {
+      "name": "brand-crunchbase",
+      "title": "Brand Crunchbase"
+    },
+    {
+      "name": "brand-css3",
+      "title": "Brand Css3"
+    },
+    {
+      "name": "brand-ctemplar",
+      "title": "Brand Ctemplar"
+    },
+    {
+      "name": "brand-cucumber",
+      "title": "Brand Cucumber"
+    },
+    {
+      "name": "brand-cupra",
+      "title": "Brand Cupra"
+    },
+    {
+      "name": "brand-cypress",
+      "title": "Brand Cypress"
+    },
+    {
+      "name": "brand-d3",
+      "title": "Brand D3"
+    },
+    {
+      "name": "brand-databricks",
+      "title": "Brand Databricks"
+    },
+    {
+      "name": "brand-days-counter",
+      "title": "Brand Days Counter"
+    },
+    {
+      "name": "brand-dcos",
+      "title": "Brand Dcos"
+    },
+    {
+      "name": "brand-debian",
+      "title": "Brand Debian"
+    },
+    {
+      "name": "brand-deezer",
+      "title": "Brand Deezer"
+    },
+    {
+      "name": "brand-deliveroo",
+      "title": "Brand Deliveroo"
+    },
+    {
+      "name": "brand-deno",
+      "title": "Brand Deno"
+    },
+    {
+      "name": "brand-denodo",
+      "title": "Brand Denodo"
+    },
+    {
+      "name": "brand-deviantart",
+      "title": "Brand Deviantart"
+    },
+    {
+      "name": "brand-digg",
+      "title": "Brand Digg"
+    },
+    {
+      "name": "brand-dingtalk",
+      "title": "Brand Dingtalk"
+    },
+    {
+      "name": "brand-discord",
+      "title": "Brand Discord"
+    },
+    {
+      "name": "brand-disney",
+      "title": "Brand Disney"
+    },
+    {
+      "name": "brand-disqus",
+      "title": "Brand Disqus"
+    },
+    {
+      "name": "brand-django",
+      "title": "Brand Django"
+    },
+    {
+      "name": "brand-docker",
+      "title": "Brand Docker"
+    },
+    {
+      "name": "brand-doctrine",
+      "title": "Brand Doctrine"
+    },
+    {
+      "name": "brand-dolby-digital",
+      "title": "Brand Dolby Digital"
+    },
+    {
+      "name": "brand-douban",
+      "title": "Brand Douban"
+    },
+    {
+      "name": "brand-dribbble",
+      "title": "Brand Dribbble"
+    },
+    {
+      "name": "brand-dropbox",
+      "title": "Brand Dropbox"
+    },
+    {
+      "name": "brand-drops",
+      "title": "Brand Drops"
+    },
+    {
+      "name": "brand-drupal",
+      "title": "Brand Drupal"
+    },
+    {
+      "name": "brand-edge",
+      "title": "Brand Edge"
+    },
+    {
+      "name": "brand-elastic",
+      "title": "Brand Elastic"
+    },
+    {
+      "name": "brand-electronic-arts",
+      "title": "Brand Electronic Arts"
+    },
+    {
+      "name": "brand-ember",
+      "title": "Brand Ember"
+    },
+    {
+      "name": "brand-envato",
+      "title": "Brand Envato"
+    },
+    {
+      "name": "brand-etsy",
+      "title": "Brand Etsy"
+    },
+    {
+      "name": "brand-evernote",
+      "title": "Brand Evernote"
+    },
+    {
+      "name": "brand-facebook",
+      "title": "Brand Facebook"
+    },
+    {
+      "name": "brand-feedly",
+      "title": "Brand Feedly"
+    },
+    {
+      "name": "brand-figma",
+      "title": "Brand Figma"
+    },
+    {
+      "name": "brand-filezilla",
+      "title": "Brand Filezilla"
+    },
+    {
+      "name": "brand-finder",
+      "title": "Brand Finder"
+    },
+    {
+      "name": "brand-firebase",
+      "title": "Brand Firebase"
+    },
+    {
+      "name": "brand-firefox",
+      "title": "Brand Firefox"
+    },
+    {
+      "name": "brand-fiverr",
+      "title": "Brand Fiverr"
+    },
+    {
+      "name": "brand-flickr",
+      "title": "Brand Flickr"
+    },
+    {
+      "name": "brand-flightradar24",
+      "title": "Brand Flightradar24"
+    },
+    {
+      "name": "brand-flipboard",
+      "title": "Brand Flipboard"
+    },
+    {
+      "name": "brand-flutter",
+      "title": "Brand Flutter"
+    },
+    {
+      "name": "brand-fortnite",
+      "title": "Brand Fortnite"
+    },
+    {
+      "name": "brand-foursquare",
+      "title": "Brand Foursquare"
+    },
+    {
+      "name": "brand-framer-motion",
+      "title": "Brand Framer Motion"
+    },
+    {
+      "name": "brand-framer",
+      "title": "Brand Framer"
+    },
+    {
+      "name": "brand-funimation",
+      "title": "Brand Funimation"
+    },
+    {
+      "name": "brand-gatsby",
+      "title": "Brand Gatsby"
+    },
+    {
+      "name": "brand-git",
+      "title": "Brand Git"
+    },
+    {
+      "name": "brand-github-copilot",
+      "title": "Brand Github Copilot"
+    },
+    {
+      "name": "brand-github",
+      "title": "Brand Github"
+    },
+    {
+      "name": "brand-gitlab",
+      "title": "Brand Gitlab"
+    },
+    {
+      "name": "brand-gmail",
+      "title": "Brand Gmail"
+    },
+    {
+      "name": "brand-golang",
+      "title": "Brand Golang"
+    },
+    {
+      "name": "brand-google-analytics",
+      "title": "Brand Google Analytics"
+    },
+    {
+      "name": "brand-google-big-query",
+      "title": "Brand Google Big Query"
+    },
+    {
+      "name": "brand-google-drive",
+      "title": "Brand Google Drive"
+    },
+    {
+      "name": "brand-google-fit",
+      "title": "Brand Google Fit"
+    },
+    {
+      "name": "brand-google-home",
+      "title": "Brand Google Home"
+    },
+    {
+      "name": "brand-google-maps",
+      "title": "Brand Google Maps"
+    },
+    {
+      "name": "brand-google-one",
+      "title": "Brand Google One"
+    },
+    {
+      "name": "brand-google-photos",
+      "title": "Brand Google Photos"
+    },
+    {
+      "name": "brand-google-play",
+      "title": "Brand Google Play"
+    },
+    {
+      "name": "brand-google-podcasts",
+      "title": "Brand Google Podcasts"
+    },
+    {
+      "name": "brand-google",
+      "title": "Brand Google"
+    },
+    {
+      "name": "brand-grammarly",
+      "title": "Brand Grammarly"
+    },
+    {
+      "name": "brand-graphql",
+      "title": "Brand Graphql"
+    },
+    {
+      "name": "brand-gravatar",
+      "title": "Brand Gravatar"
+    },
+    {
+      "name": "brand-grindr",
+      "title": "Brand Grindr"
+    },
+    {
+      "name": "brand-guardian",
+      "title": "Brand Guardian"
+    },
+    {
+      "name": "brand-gumroad",
+      "title": "Brand Gumroad"
+    },
+    {
+      "name": "brand-hackerrank",
+      "title": "Brand Hackerrank"
+    },
+    {
+      "name": "brand-hbo",
+      "title": "Brand Hbo"
+    },
+    {
+      "name": "brand-headlessui",
+      "title": "Brand Headlessui"
+    },
+    {
+      "name": "brand-hexo",
+      "title": "Brand Hexo"
+    },
+    {
+      "name": "brand-hipchat",
+      "title": "Brand Hipchat"
+    },
+    {
+      "name": "brand-html5",
+      "title": "Brand Html5"
+    },
+    {
+      "name": "brand-inertia",
+      "title": "Brand Inertia"
+    },
+    {
+      "name": "brand-instagram",
+      "title": "Brand Instagram"
+    },
+    {
+      "name": "brand-intercom",
+      "title": "Brand Intercom"
+    },
+    {
+      "name": "brand-itch",
+      "title": "Brand Itch"
+    },
+    {
+      "name": "brand-javascript",
+      "title": "Brand Javascript"
+    },
+    {
+      "name": "brand-juejin",
+      "title": "Brand Juejin"
+    },
+    {
+      "name": "brand-kako-talk",
+      "title": "Brand Kako Talk"
+    },
+    {
+      "name": "brand-kbin",
+      "title": "Brand Kbin"
+    },
+    {
+      "name": "brand-kick",
+      "title": "Brand Kick"
+    },
+    {
+      "name": "brand-kickstarter",
+      "title": "Brand Kickstarter"
+    },
+    {
+      "name": "brand-kotlin",
+      "title": "Brand Kotlin"
+    },
+    {
+      "name": "brand-laravel",
+      "title": "Brand Laravel"
+    },
+    {
+      "name": "brand-lastfm",
+      "title": "Brand Lastfm"
+    },
+    {
+      "name": "brand-leetcode",
+      "title": "Brand Leetcode"
+    },
+    {
+      "name": "brand-letterboxd",
+      "title": "Brand Letterboxd"
+    },
+    {
+      "name": "brand-line",
+      "title": "Brand Line"
+    },
+    {
+      "name": "brand-linkedin",
+      "title": "Brand Linkedin"
+    },
+    {
+      "name": "brand-linktree",
+      "title": "Brand Linktree"
+    },
+    {
+      "name": "brand-linqpad",
+      "title": "Brand Linqpad"
+    },
+    {
+      "name": "brand-livewire",
+      "title": "Brand Livewire"
+    },
+    {
+      "name": "brand-loom",
+      "title": "Brand Loom"
+    },
+    {
+      "name": "brand-mailgun",
+      "title": "Brand Mailgun"
+    },
+    {
+      "name": "brand-mantine",
+      "title": "Brand Mantine"
+    },
+    {
+      "name": "brand-mastercard",
+      "title": "Brand Mastercard"
+    },
+    {
+      "name": "brand-mastodon",
+      "title": "Brand Mastodon"
+    },
+    {
+      "name": "brand-matrix",
+      "title": "Brand Matrix"
+    },
+    {
+      "name": "brand-mcdonalds",
+      "title": "Brand Mcdonalds"
+    },
+    {
+      "name": "brand-medium",
+      "title": "Brand Medium"
+    },
+    {
+      "name": "brand-meetup",
+      "title": "Brand Meetup"
+    },
+    {
+      "name": "brand-mercedes",
+      "title": "Brand Mercedes"
+    },
+    {
+      "name": "brand-messenger",
+      "title": "Brand Messenger"
+    },
+    {
+      "name": "brand-meta",
+      "title": "Brand Meta"
+    },
+    {
+      "name": "brand-metabrainz",
+      "title": "Brand Metabrainz"
+    },
+    {
+      "name": "brand-minecraft",
+      "title": "Brand Minecraft"
+    },
+    {
+      "name": "brand-miniprogram",
+      "title": "Brand Miniprogram"
+    },
+    {
+      "name": "brand-mixpanel",
+      "title": "Brand Mixpanel"
+    },
+    {
+      "name": "brand-monday",
+      "title": "Brand Monday"
+    },
+    {
+      "name": "brand-mongodb",
+      "title": "Brand Mongodb"
+    },
+    {
+      "name": "brand-my-oppo",
+      "title": "Brand My Oppo"
+    },
+    {
+      "name": "brand-mysql",
+      "title": "Brand Mysql"
+    },
+    {
+      "name": "brand-national-geographic",
+      "title": "Brand National Geographic"
+    },
+    {
+      "name": "brand-nem",
+      "title": "Brand Nem"
+    },
+    {
+      "name": "brand-netbeans",
+      "title": "Brand Netbeans"
+    },
+    {
+      "name": "brand-netease-music",
+      "title": "Brand Netease Music"
+    },
+    {
+      "name": "brand-netflix",
+      "title": "Brand Netflix"
+    },
+    {
+      "name": "brand-nexo",
+      "title": "Brand Nexo"
+    },
+    {
+      "name": "brand-nextcloud",
+      "title": "Brand Nextcloud"
+    },
+    {
+      "name": "brand-nextjs",
+      "title": "Brand Nextjs"
+    },
+    {
+      "name": "brand-nodejs",
+      "title": "Brand Nodejs"
+    },
+    {
+      "name": "brand-nord-vpn",
+      "title": "Brand Nord Vpn"
+    },
+    {
+      "name": "brand-notion",
+      "title": "Brand Notion"
+    },
+    {
+      "name": "brand-npm",
+      "title": "Brand Npm"
+    },
+    {
+      "name": "brand-nuxt",
+      "title": "Brand Nuxt"
+    },
+    {
+      "name": "brand-nytimes",
+      "title": "Brand Nytimes"
+    },
+    {
+      "name": "brand-oauth",
+      "title": "Brand Oauth"
+    },
+    {
+      "name": "brand-office",
+      "title": "Brand Office"
+    },
+    {
+      "name": "brand-ok-ru",
+      "title": "Brand Ok Ru"
+    },
+    {
+      "name": "brand-onedrive",
+      "title": "Brand Onedrive"
+    },
+    {
+      "name": "brand-onlyfans",
+      "title": "Brand Onlyfans"
+    },
+    {
+      "name": "brand-open-source",
+      "title": "Brand Open Source"
+    },
+    {
+      "name": "brand-openai",
+      "title": "Brand Openai"
+    },
+    {
+      "name": "brand-openvpn",
+      "title": "Brand Openvpn"
+    },
+    {
+      "name": "brand-opera",
+      "title": "Brand Opera"
+    },
+    {
+      "name": "brand-pagekit",
+      "title": "Brand Pagekit"
+    },
+    {
+      "name": "brand-parsinta",
+      "title": "Brand Parsinta"
+    },
+    {
+      "name": "brand-patreon",
+      "title": "Brand Patreon"
+    },
+    {
+      "name": "brand-paypal",
+      "title": "Brand Paypal"
+    },
+    {
+      "name": "brand-paypay",
+      "title": "Brand Paypay"
+    },
+    {
+      "name": "brand-peanut",
+      "title": "Brand Peanut"
+    },
+    {
+      "name": "brand-pepsi",
+      "title": "Brand Pepsi"
+    },
+    {
+      "name": "brand-php",
+      "title": "Brand Php"
+    },
+    {
+      "name": "brand-picsart",
+      "title": "Brand Picsart"
+    },
+    {
+      "name": "brand-pinterest",
+      "title": "Brand Pinterest"
+    },
+    {
+      "name": "brand-planetscale",
+      "title": "Brand Planetscale"
+    },
+    {
+      "name": "brand-pnpm",
+      "title": "Brand Pnpm"
+    },
+    {
+      "name": "brand-pocket",
+      "title": "Brand Pocket"
+    },
+    {
+      "name": "brand-polymer",
+      "title": "Brand Polymer"
+    },
+    {
+      "name": "brand-powershell",
+      "title": "Brand Powershell"
+    },
+    {
+      "name": "brand-printables",
+      "title": "Brand Printables"
+    },
+    {
+      "name": "brand-prisma",
+      "title": "Brand Prisma"
+    },
+    {
+      "name": "brand-producthunt",
+      "title": "Brand Producthunt"
+    },
+    {
+      "name": "brand-pushbullet",
+      "title": "Brand Pushbullet"
+    },
+    {
+      "name": "brand-pushover",
+      "title": "Brand Pushover"
+    },
+    {
+      "name": "brand-python",
+      "title": "Brand Python"
+    },
+    {
+      "name": "brand-qq",
+      "title": "Brand Qq"
+    },
+    {
+      "name": "brand-radix-ui",
+      "title": "Brand Radix Ui"
+    },
+    {
+      "name": "brand-react-native",
+      "title": "Brand React Native"
+    },
+    {
+      "name": "brand-react",
+      "title": "Brand React"
+    },
+    {
+      "name": "brand-reason",
+      "title": "Brand Reason"
+    },
+    {
+      "name": "brand-reddit",
+      "title": "Brand Reddit"
+    },
+    {
+      "name": "brand-redhat",
+      "title": "Brand Redhat"
+    },
+    {
+      "name": "brand-redux",
+      "title": "Brand Redux"
+    },
+    {
+      "name": "brand-revolut",
+      "title": "Brand Revolut"
+    },
+    {
+      "name": "brand-rumble",
+      "title": "Brand Rumble"
+    },
+    {
+      "name": "brand-rust",
+      "title": "Brand Rust"
+    },
+    {
+      "name": "brand-safari",
+      "title": "Brand Safari"
+    },
+    {
+      "name": "brand-samsungpass",
+      "title": "Brand Samsungpass"
+    },
+    {
+      "name": "brand-sass",
+      "title": "Brand Sass"
+    },
+    {
+      "name": "brand-sentry",
+      "title": "Brand Sentry"
+    },
+    {
+      "name": "brand-sharik",
+      "title": "Brand Sharik"
+    },
+    {
+      "name": "brand-shazam",
+      "title": "Brand Shazam"
+    },
+    {
+      "name": "brand-shopee",
+      "title": "Brand Shopee"
+    },
+    {
+      "name": "brand-sketch",
+      "title": "Brand Sketch"
+    },
+    {
+      "name": "brand-skype",
+      "title": "Brand Skype"
+    },
+    {
+      "name": "brand-slack",
+      "title": "Brand Slack"
+    },
+    {
+      "name": "brand-snapchat",
+      "title": "Brand Snapchat"
+    },
+    {
+      "name": "brand-snapseed",
+      "title": "Brand Snapseed"
+    },
+    {
+      "name": "brand-snowflake",
+      "title": "Brand Snowflake"
+    },
+    {
+      "name": "brand-socket-io",
+      "title": "Brand Socket Io"
+    },
+    {
+      "name": "brand-solidjs",
+      "title": "Brand Solidjs"
+    },
+    {
+      "name": "brand-soundcloud",
+      "title": "Brand Soundcloud"
+    },
+    {
+      "name": "brand-spacehey",
+      "title": "Brand Spacehey"
+    },
+    {
+      "name": "brand-speedtest",
+      "title": "Brand Speedtest"
+    },
+    {
+      "name": "brand-spotify",
+      "title": "Brand Spotify"
+    },
+    {
+      "name": "brand-stackoverflow",
+      "title": "Brand Stackoverflow"
+    },
+    {
+      "name": "brand-stackshare",
+      "title": "Brand Stackshare"
+    },
+    {
+      "name": "brand-steam",
+      "title": "Brand Steam"
+    },
+    {
+      "name": "brand-stocktwits",
+      "title": "Brand Stocktwits"
+    },
+    {
+      "name": "brand-storj",
+      "title": "Brand Storj"
+    },
+    {
+      "name": "brand-storybook",
+      "title": "Brand Storybook"
+    },
+    {
+      "name": "brand-storytel",
+      "title": "Brand Storytel"
+    },
+    {
+      "name": "brand-strava",
+      "title": "Brand Strava"
+    },
+    {
+      "name": "brand-stripe",
+      "title": "Brand Stripe"
+    },
+    {
+      "name": "brand-sublime-text",
+      "title": "Brand Sublime Text"
+    },
+    {
+      "name": "brand-sugarizer",
+      "title": "Brand Sugarizer"
+    },
+    {
+      "name": "brand-supabase",
+      "title": "Brand Supabase"
+    },
+    {
+      "name": "brand-superhuman",
+      "title": "Brand Superhuman"
+    },
+    {
+      "name": "brand-supernova",
+      "title": "Brand Supernova"
+    },
+    {
+      "name": "brand-surfshark",
+      "title": "Brand Surfshark"
+    },
+    {
+      "name": "brand-svelte",
+      "title": "Brand Svelte"
+    },
+    {
+      "name": "brand-swift",
+      "title": "Brand Swift"
+    },
+    {
+      "name": "brand-symfony",
+      "title": "Brand Symfony"
+    },
+    {
+      "name": "brand-tabler",
+      "title": "Brand Tabler"
+    },
+    {
+      "name": "brand-tabnine",
+      "title": "Brand Tabnine"
+    },
+    {
+      "name": "brand-tailwind",
+      "title": "Brand Tailwind"
+    },
+    {
+      "name": "brand-taobao",
+      "title": "Brand Taobao"
+    },
+    {
+      "name": "brand-teams",
+      "title": "Brand Teams"
+    },
+    {
+      "name": "brand-ted",
+      "title": "Brand Ted"
+    },
+    {
+      "name": "brand-telegram",
+      "title": "Brand Telegram"
+    },
+    {
+      "name": "brand-terraform",
+      "title": "Brand Terraform"
+    },
+    {
+      "name": "brand-tesla",
+      "title": "Brand Tesla"
+    },
+    {
+      "name": "brand-tether",
+      "title": "Brand Tether"
+    },
+    {
+      "name": "brand-thingiverse",
+      "title": "Brand Thingiverse"
+    },
+    {
+      "name": "brand-threads",
+      "title": "Brand Threads"
+    },
+    {
+      "name": "brand-threejs",
+      "title": "Brand Threejs"
+    },
+    {
+      "name": "brand-tidal",
+      "title": "Brand Tidal"
+    },
+    {
+      "name": "brand-tiktok",
+      "title": "Brand Tiktok"
+    },
+    {
+      "name": "brand-tinder",
+      "title": "Brand Tinder"
+    },
+    {
+      "name": "brand-topbuzz",
+      "title": "Brand Topbuzz"
+    },
+    {
+      "name": "brand-torchain",
+      "title": "Brand Torchain"
+    },
+    {
+      "name": "brand-toyota",
+      "title": "Brand Toyota"
+    },
+    {
+      "name": "brand-trello",
+      "title": "Brand Trello"
+    },
+    {
+      "name": "brand-tripadvisor",
+      "title": "Brand Tripadvisor"
+    },
+    {
+      "name": "brand-tumblr",
+      "title": "Brand Tumblr"
+    },
+    {
+      "name": "brand-twilio",
+      "title": "Brand Twilio"
+    },
+    {
+      "name": "brand-twitch",
+      "title": "Brand Twitch"
+    },
+    {
+      "name": "brand-twitter",
+      "title": "Brand Twitter"
+    },
+    {
+      "name": "brand-typescript",
+      "title": "Brand Typescript"
+    },
+    {
+      "name": "brand-uber",
+      "title": "Brand Uber"
+    },
+    {
+      "name": "brand-ubuntu",
+      "title": "Brand Ubuntu"
+    },
+    {
+      "name": "brand-unity",
+      "title": "Brand Unity"
+    },
+    {
+      "name": "brand-unsplash",
+      "title": "Brand Unsplash"
+    },
+    {
+      "name": "brand-upwork",
+      "title": "Brand Upwork"
+    },
+    {
+      "name": "brand-valorant",
+      "title": "Brand Valorant"
+    },
+    {
+      "name": "brand-vercel",
+      "title": "Brand Vercel"
+    },
+    {
+      "name": "brand-vimeo",
+      "title": "Brand Vimeo"
+    },
+    {
+      "name": "brand-vinted",
+      "title": "Brand Vinted"
+    },
+    {
+      "name": "brand-visa",
+      "title": "Brand Visa"
+    },
+    {
+      "name": "brand-visual-studio",
+      "title": "Brand Visual Studio"
+    },
+    {
+      "name": "brand-vite",
+      "title": "Brand Vite"
+    },
+    {
+      "name": "brand-vivaldi",
+      "title": "Brand Vivaldi"
+    },
+    {
+      "name": "brand-vk",
+      "title": "Brand Vk"
+    },
+    {
+      "name": "brand-vlc",
+      "title": "Brand Vlc"
+    },
+    {
+      "name": "brand-volkswagen",
+      "title": "Brand Volkswagen"
+    },
+    {
+      "name": "brand-vsco",
+      "title": "Brand Vsco"
+    },
+    {
+      "name": "brand-vscode",
+      "title": "Brand Vscode"
+    },
+    {
+      "name": "brand-vue",
+      "title": "Brand Vue"
+    },
+    {
+      "name": "brand-walmart",
+      "title": "Brand Walmart"
+    },
+    {
+      "name": "brand-waze",
+      "title": "Brand Waze"
+    },
+    {
+      "name": "brand-webflow",
+      "title": "Brand Webflow"
+    },
+    {
+      "name": "brand-wechat",
+      "title": "Brand Wechat"
+    },
+    {
+      "name": "brand-weibo",
+      "title": "Brand Weibo"
+    },
+    {
+      "name": "brand-whatsapp",
+      "title": "Brand Whatsapp"
+    },
+    {
+      "name": "brand-wikipedia",
+      "title": "Brand Wikipedia"
+    },
+    {
+      "name": "brand-windows",
+      "title": "Brand Windows"
+    },
+    {
+      "name": "brand-windy",
+      "title": "Brand Windy"
+    },
+    {
+      "name": "brand-wish",
+      "title": "Brand Wish"
+    },
+    {
+      "name": "brand-wix",
+      "title": "Brand Wix"
+    },
+    {
+      "name": "brand-wordpress",
+      "title": "Brand Wordpress"
+    },
+    {
+      "name": "brand-x",
+      "title": "Brand X"
+    },
+    {
+      "name": "brand-xamarin",
+      "title": "Brand Xamarin"
+    },
+    {
+      "name": "brand-xbox",
+      "title": "Brand Xbox"
+    },
+    {
+      "name": "brand-xdeep",
+      "title": "Brand Xdeep"
+    },
+    {
+      "name": "brand-xing",
+      "title": "Brand Xing"
+    },
+    {
+      "name": "brand-yahoo",
+      "title": "Brand Yahoo"
+    },
+    {
+      "name": "brand-yandex",
+      "title": "Brand Yandex"
+    },
+    {
+      "name": "brand-yarn",
+      "title": "Brand Yarn"
+    },
+    {
+      "name": "brand-yatse",
+      "title": "Brand Yatse"
+    },
+    {
+      "name": "brand-ycombinator",
+      "title": "Brand Ycombinator"
+    },
+    {
+      "name": "brand-youtube-kids",
+      "title": "Brand Youtube Kids"
+    },
+    {
+      "name": "brand-youtube",
+      "title": "Brand Youtube"
+    },
+    {
+      "name": "brand-zalando",
+      "title": "Brand Zalando"
+    },
+    {
+      "name": "brand-zapier",
+      "title": "Brand Zapier"
+    },
+    {
+      "name": "brand-zeit",
+      "title": "Brand Zeit"
+    },
+    {
+      "name": "brand-zhihu",
+      "title": "Brand Zhihu"
+    },
+    {
+      "name": "brand-zoom",
+      "title": "Brand Zoom"
+    },
+    {
+      "name": "brand-zulip",
+      "title": "Brand Zulip"
+    },
+    {
+      "name": "brand-zwift",
+      "title": "Brand Zwift"
+    },
+    {
+      "name": "bread-off",
+      "title": "Bread Off"
+    },
+    {
+      "name": "bread",
+      "title": "Bread"
+    },
+    {
+      "name": "briefcase-2",
+      "title": "Briefcase 2"
+    },
+    {
+      "name": "briefcase-off",
+      "title": "Briefcase Off"
+    },
+    {
+      "name": "briefcase",
+      "title": "Briefcase"
+    },
+    {
+      "name": "brightness-2",
+      "title": "Brightness 2"
+    },
+    {
+      "name": "brightness-auto",
+      "title": "Brightness Auto"
+    },
+    {
+      "name": "brightness-down",
+      "title": "Brightness Down"
+    },
+    {
+      "name": "brightness-half",
+      "title": "Brightness Half"
+    },
+    {
+      "name": "brightness-off",
+      "title": "Brightness Off"
+    },
+    {
+      "name": "brightness-up",
+      "title": "Brightness Up"
+    },
+    {
+      "name": "brightness",
+      "title": "Brightness"
+    },
+    {
+      "name": "broadcast-off",
+      "title": "Broadcast Off"
+    }
+  ]
+}

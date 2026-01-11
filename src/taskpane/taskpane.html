@@ -4,92 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenIcons</title>
+    <title>Slides Icons</title>
     <link rel="stylesheet" href="taskpane.css">
     <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
 </head>
 
 <body>
-    <div class="container">
+    <div class="app">
         <!-- Header -->
         <header class="header">
-            <h1 class="logo">
-                <span class="logo-icon">✦</span>
-                OpenIcons
-            </h1>
-            <p class="tagline">10,000+ free icons for your presentations</p>
+            <h1 class="logo">✦ Slides Icons</h1>
+            <p class="tagline">94,000+ icons for your presentations</p>
         </header>
 
-        <!-- Library Selector -->
-        <div class="library-selector">
-            <label class="selector-label">Icon Library</label>
-            <select id="librarySelect" class="library-select">
-                <option value="healthicons" data-count="740">🏥 Health Icons</option>
-                <option value="bootstrap" data-count="2050">🅱️ Bootstrap Icons</option>
-                <option value="ionicons" data-count="1300">⚡ Ionicons</option>
-                <option value="remixicon" data-count="3100">🎨 Remix Icon</option>
-                <option value="iconoir" data-count="1600">✨ Iconoir</option>
-                <option value="boxicons" data-count="1500">📦 Boxicons</option>
-            </select>
-            <div id="libraryInfo" class="library-info">
-                <span class="library-badge">CC0</span>
-                <a href="https://healthicons.org" target="_blank" class="library-link">Website ↗</a>
+        <!-- Controls -->
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search icons..." autocomplete="off">
+                <span class="search-icon">🔍</span>
             </div>
-        </div>
-
-        <!-- Search -->
-        <div class="search-container">
-            <input type="text" id="searchInput" class="search-input" placeholder="Search icons..." autocomplete="off">
-            <span class="search-icon">🔍</span>
-        </div>
-
-        <!-- Options -->
-        <div class="options-row">
-            <div class="option-group">
-                <label class="option-label">Style:</label>
-                <div id="styleToggle" class="toggle-group">
-                    <button class="toggle-btn active" data-style="filled">Filled</button>
-                    <button class="toggle-btn" data-style="outline">Outline</button>
-                </div>
-            </div>
-            <div class="option-group">
-                <label class="option-label">Size:</label>
-                <select id="sizeSelect" class="size-select">
-                    <option value="48">48px</option>
-                    <option value="96" selected>96px</option>
+            <div class="controls-row">
+                <select id="sizeSelect" class="control-select">
+                    <option value="24">24px</option>
+                    <option value="48" selected>48px</option>
+                    <option value="64">64px</option>
+                    <option value="96">96px</option>
                     <option value="128">128px</option>
                 </select>
+                <input type="color" id="colorPicker" value="#000000" class="color-picker" title="Icon color">
             </div>
         </div>
 
-        <!-- Categories -->
-        <div class="categories-container">
-            <h2 class="section-title">Categories</h2>
-            <div id="categoryList" class="category-list">
-                <!-- Categories will be populated by JavaScript -->
-            </div>
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Library Sidebar -->
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-header">
+                    <span>Libraries</span>
+                    <span id="totalCount" class="total-count">94,405</span>
+                </div>
+                <div id="libraryList" class="library-list">
+                    <!-- Libraries populated by JS -->
+                </div>
+            </aside>
+
+            <!-- Icons Grid -->
+            <main class="icons-panel">
+                <div class="icons-header">
+                    <span id="currentLibrary">All Icons</span>
+                    <span id="iconCount" class="icon-count"></span>
+                </div>
+                <div id="iconsGrid" class="icons-grid">
+                    <div class="loading-state">
+                        <div class="spinner"></div>
+                        <p>Loading icons...</p>
+                    </div>
+                </div>
+            </main>
         </div>
 
-        <!-- Icons Grid -->
-        <div class="icons-section">
-            <div class="icons-header">
-                <h2 id="currentCategory" class="section-title">All Icons</h2>
-                <span id="iconCount" class="icon-count"></span>
-            </div>
-            <div id="iconsGrid" class="icons-grid">
-                <!-- Icons will be populated by JavaScript -->
-            </div>
-            <div id="loadingOverlay" class="loading-overlay hidden">
-                <div class="spinner"></div>
-                <span>Loading icons...</span>
-            </div>
-        </div>
-
-        <!-- Status Message -->
-        <div id="statusMessage" class="status-message"></div>
+        <!-- Status Toast -->
+        <div id="toast" class="toast"></div>
     </div>
 
-    <script src="libraries.js"></script>
     <script src="taskpane.js"></script>
 </body>
 

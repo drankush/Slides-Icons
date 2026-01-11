@@ -1,0 +1,2009 @@
+{
+  "id": "lucide",
+  "name": "Lucide Icons",
+  "version": "1.0.0",
+  "cdnPattern": "https://cdn.jsdelivr.net/npm/lucide-static@0.378.0/icons/{name}.svg",
+  "totalIcons": 500,
+  "icons": [
+    {
+      "name": "a-arrow-down",
+      "title": "A Arrow Down"
+    },
+    {
+      "name": "a-arrow-up",
+      "title": "A Arrow Up"
+    },
+    {
+      "name": "a-large-small",
+      "title": "A Large Small"
+    },
+    {
+      "name": "accessibility",
+      "title": "Accessibility"
+    },
+    {
+      "name": "activity",
+      "title": "Activity"
+    },
+    {
+      "name": "air-vent",
+      "title": "Air Vent"
+    },
+    {
+      "name": "airplay",
+      "title": "Airplay"
+    },
+    {
+      "name": "alarm-clock-check",
+      "title": "Alarm Clock Check"
+    },
+    {
+      "name": "alarm-clock-minus",
+      "title": "Alarm Clock Minus"
+    },
+    {
+      "name": "alarm-clock-off",
+      "title": "Alarm Clock Off"
+    },
+    {
+      "name": "alarm-clock-plus",
+      "title": "Alarm Clock Plus"
+    },
+    {
+      "name": "alarm-clock",
+      "title": "Alarm Clock"
+    },
+    {
+      "name": "alarm-smoke",
+      "title": "Alarm Smoke"
+    },
+    {
+      "name": "album",
+      "title": "Album"
+    },
+    {
+      "name": "align-center-horizontal",
+      "title": "Align Center Horizontal"
+    },
+    {
+      "name": "align-center-vertical",
+      "title": "Align Center Vertical"
+    },
+    {
+      "name": "align-end-horizontal",
+      "title": "Align End Horizontal"
+    },
+    {
+      "name": "align-end-vertical",
+      "title": "Align End Vertical"
+    },
+    {
+      "name": "align-horizontal-distribute-center",
+      "title": "Align Horizontal Distribute Center"
+    },
+    {
+      "name": "align-horizontal-distribute-end",
+      "title": "Align Horizontal Distribute End"
+    },
+    {
+      "name": "align-horizontal-distribute-start",
+      "title": "Align Horizontal Distribute Start"
+    },
+    {
+      "name": "align-horizontal-justify-center",
+      "title": "Align Horizontal Justify Center"
+    },
+    {
+      "name": "align-horizontal-justify-end",
+      "title": "Align Horizontal Justify End"
+    },
+    {
+      "name": "align-horizontal-justify-start",
+      "title": "Align Horizontal Justify Start"
+    },
+    {
+      "name": "align-horizontal-space-around",
+      "title": "Align Horizontal Space Around"
+    },
+    {
+      "name": "align-horizontal-space-between",
+      "title": "Align Horizontal Space Between"
+    },
+    {
+      "name": "align-start-horizontal",
+      "title": "Align Start Horizontal"
+    },
+    {
+      "name": "align-start-vertical",
+      "title": "Align Start Vertical"
+    },
+    {
+      "name": "align-vertical-distribute-center",
+      "title": "Align Vertical Distribute Center"
+    },
+    {
+      "name": "align-vertical-distribute-end",
+      "title": "Align Vertical Distribute End"
+    },
+    {
+      "name": "align-vertical-distribute-start",
+      "title": "Align Vertical Distribute Start"
+    },
+    {
+      "name": "align-vertical-justify-center",
+      "title": "Align Vertical Justify Center"
+    },
+    {
+      "name": "align-vertical-justify-end",
+      "title": "Align Vertical Justify End"
+    },
+    {
+      "name": "align-vertical-justify-start",
+      "title": "Align Vertical Justify Start"
+    },
+    {
+      "name": "align-vertical-space-around",
+      "title": "Align Vertical Space Around"
+    },
+    {
+      "name": "align-vertical-space-between",
+      "title": "Align Vertical Space Between"
+    },
+    {
+      "name": "ambulance",
+      "title": "Ambulance"
+    },
+    {
+      "name": "ampersand",
+      "title": "Ampersand"
+    },
+    {
+      "name": "ampersands",
+      "title": "Ampersands"
+    },
+    {
+      "name": "amphora",
+      "title": "Amphora"
+    },
+    {
+      "name": "anchor",
+      "title": "Anchor"
+    },
+    {
+      "name": "angry",
+      "title": "Angry"
+    },
+    {
+      "name": "annoyed",
+      "title": "Annoyed"
+    },
+    {
+      "name": "antenna",
+      "title": "Antenna"
+    },
+    {
+      "name": "anvil",
+      "title": "Anvil"
+    },
+    {
+      "name": "aperture",
+      "title": "Aperture"
+    },
+    {
+      "name": "app-window-mac",
+      "title": "App Window Mac"
+    },
+    {
+      "name": "app-window",
+      "title": "App Window"
+    },
+    {
+      "name": "apple",
+      "title": "Apple"
+    },
+    {
+      "name": "archive-restore",
+      "title": "Archive Restore"
+    },
+    {
+      "name": "archive-x",
+      "title": "Archive X"
+    },
+    {
+      "name": "archive",
+      "title": "Archive"
+    },
+    {
+      "name": "armchair",
+      "title": "Armchair"
+    },
+    {
+      "name": "arrow-big-down-dash",
+      "title": "Arrow Big Down Dash"
+    },
+    {
+      "name": "arrow-big-down",
+      "title": "Arrow Big Down"
+    },
+    {
+      "name": "arrow-big-left-dash",
+      "title": "Arrow Big Left Dash"
+    },
+    {
+      "name": "arrow-big-left",
+      "title": "Arrow Big Left"
+    },
+    {
+      "name": "arrow-big-right-dash",
+      "title": "Arrow Big Right Dash"
+    },
+    {
+      "name": "arrow-big-right",
+      "title": "Arrow Big Right"
+    },
+    {
+      "name": "arrow-big-up-dash",
+      "title": "Arrow Big Up Dash"
+    },
+    {
+      "name": "arrow-big-up",
+      "title": "Arrow Big Up"
+    },
+    {
+      "name": "arrow-down-0-1",
+      "title": "Arrow Down 0 1"
+    },
+    {
+      "name": "arrow-down-1-0",
+      "title": "Arrow Down 1 0"
+    },
+    {
+      "name": "arrow-down-a-z",
+      "title": "Arrow Down A Z"
+    },
+    {
+      "name": "arrow-down-from-line",
+      "title": "Arrow Down From Line"
+    },
+    {
+      "name": "arrow-down-left",
+      "title": "Arrow Down Left"
+    },
+    {
+      "name": "arrow-down-narrow-wide",
+      "title": "Arrow Down Narrow Wide"
+    },
+    {
+      "name": "arrow-down-right",
+      "title": "Arrow Down Right"
+    },
+    {
+      "name": "arrow-down-to-dot",
+      "title": "Arrow Down To Dot"
+    },
+    {
+      "name": "arrow-down-to-line",
+      "title": "Arrow Down To Line"
+    },
+    {
+      "name": "arrow-down-up",
+      "title": "Arrow Down Up"
+    },
+    {
+      "name": "arrow-down-wide-narrow",
+      "title": "Arrow Down Wide Narrow"
+    },
+    {
+      "name": "arrow-down-z-a",
+      "title": "Arrow Down Z A"
+    },
+    {
+      "name": "arrow-down",
+      "title": "Arrow Down"
+    },
+    {
+      "name": "arrow-left-from-line",
+      "title": "Arrow Left From Line"
+    },
+    {
+      "name": "arrow-left-right",
+      "title": "Arrow Left Right"
+    },
+    {
+      "name": "arrow-left-to-line",
+      "title": "Arrow Left To Line"
+    },
+    {
+      "name": "arrow-left",
+      "title": "Arrow Left"
+    },
+    {
+      "name": "arrow-right-from-line",
+      "title": "Arrow Right From Line"
+    },
+    {
+      "name": "arrow-right-left",
+      "title": "Arrow Right Left"
+    },
+    {
+      "name": "arrow-right-to-line",
+      "title": "Arrow Right To Line"
+    },
+    {
+      "name": "arrow-right",
+      "title": "Arrow Right"
+    },
+    {
+      "name": "arrow-up-0-1",
+      "title": "Arrow Up 0 1"
+    },
+    {
+      "name": "arrow-up-1-0",
+      "title": "Arrow Up 1 0"
+    },
+    {
+      "name": "arrow-up-a-z",
+      "title": "Arrow Up A Z"
+    },
+    {
+      "name": "arrow-up-down",
+      "title": "Arrow Up Down"
+    },
+    {
+      "name": "arrow-up-from-dot",
+      "title": "Arrow Up From Dot"
+    },
+    {
+      "name": "arrow-up-from-line",
+      "title": "Arrow Up From Line"
+    },
+    {
+      "name": "arrow-up-left",
+      "title": "Arrow Up Left"
+    },
+    {
+      "name": "arrow-up-narrow-wide",
+      "title": "Arrow Up Narrow Wide"
+    },
+    {
+      "name": "arrow-up-right",
+      "title": "Arrow Up Right"
+    },
+    {
+      "name": "arrow-up-to-line",
+      "title": "Arrow Up To Line"
+    },
+    {
+      "name": "arrow-up-wide-narrow",
+      "title": "Arrow Up Wide Narrow"
+    },
+    {
+      "name": "arrow-up-z-a",
+      "title": "Arrow Up Z A"
+    },
+    {
+      "name": "arrow-up",
+      "title": "Arrow Up"
+    },
+    {
+      "name": "arrows-up-from-line",
+      "title": "Arrows Up From Line"
+    },
+    {
+      "name": "asterisk",
+      "title": "Asterisk"
+    },
+    {
+      "name": "at-sign",
+      "title": "At Sign"
+    },
+    {
+      "name": "atom",
+      "title": "Atom"
+    },
+    {
+      "name": "audio-lines",
+      "title": "Audio Lines"
+    },
+    {
+      "name": "audio-waveform",
+      "title": "Audio Waveform"
+    },
+    {
+      "name": "award",
+      "title": "Award"
+    },
+    {
+      "name": "axe",
+      "title": "Axe"
+    },
+    {
+      "name": "axis-3d",
+      "title": "Axis 3d"
+    },
+    {
+      "name": "baby",
+      "title": "Baby"
+    },
+    {
+      "name": "backpack",
+      "title": "Backpack"
+    },
+    {
+      "name": "badge-alert",
+      "title": "Badge Alert"
+    },
+    {
+      "name": "badge-cent",
+      "title": "Badge Cent"
+    },
+    {
+      "name": "badge-check",
+      "title": "Badge Check"
+    },
+    {
+      "name": "badge-dollar-sign",
+      "title": "Badge Dollar Sign"
+    },
+    {
+      "name": "badge-euro",
+      "title": "Badge Euro"
+    },
+    {
+      "name": "badge-indian-rupee",
+      "title": "Badge Indian Rupee"
+    },
+    {
+      "name": "badge-info",
+      "title": "Badge Info"
+    },
+    {
+      "name": "badge-japanese-yen",
+      "title": "Badge Japanese Yen"
+    },
+    {
+      "name": "badge-minus",
+      "title": "Badge Minus"
+    },
+    {
+      "name": "badge-percent",
+      "title": "Badge Percent"
+    },
+    {
+      "name": "badge-plus",
+      "title": "Badge Plus"
+    },
+    {
+      "name": "badge-pound-sterling",
+      "title": "Badge Pound Sterling"
+    },
+    {
+      "name": "badge-question-mark",
+      "title": "Badge Question Mark"
+    },
+    {
+      "name": "badge-russian-ruble",
+      "title": "Badge Russian Ruble"
+    },
+    {
+      "name": "badge-swiss-franc",
+      "title": "Badge Swiss Franc"
+    },
+    {
+      "name": "badge-turkish-lira",
+      "title": "Badge Turkish Lira"
+    },
+    {
+      "name": "badge-x",
+      "title": "Badge X"
+    },
+    {
+      "name": "badge",
+      "title": "Badge"
+    },
+    {
+      "name": "baggage-claim",
+      "title": "Baggage Claim"
+    },
+    {
+      "name": "balloon",
+      "title": "Balloon"
+    },
+    {
+      "name": "ban",
+      "title": "Ban"
+    },
+    {
+      "name": "banana",
+      "title": "Banana"
+    },
+    {
+      "name": "bandage",
+      "title": "Bandage"
+    },
+    {
+      "name": "banknote-arrow-down",
+      "title": "Banknote Arrow Down"
+    },
+    {
+      "name": "banknote-arrow-up",
+      "title": "Banknote Arrow Up"
+    },
+    {
+      "name": "banknote-x",
+      "title": "Banknote X"
+    },
+    {
+      "name": "banknote",
+      "title": "Banknote"
+    },
+    {
+      "name": "barcode",
+      "title": "Barcode"
+    },
+    {
+      "name": "barrel",
+      "title": "Barrel"
+    },
+    {
+      "name": "baseline",
+      "title": "Baseline"
+    },
+    {
+      "name": "bath",
+      "title": "Bath"
+    },
+    {
+      "name": "battery-charging",
+      "title": "Battery Charging"
+    },
+    {
+      "name": "battery-full",
+      "title": "Battery Full"
+    },
+    {
+      "name": "battery-low",
+      "title": "Battery Low"
+    },
+    {
+      "name": "battery-medium",
+      "title": "Battery Medium"
+    },
+    {
+      "name": "battery-plus",
+      "title": "Battery Plus"
+    },
+    {
+      "name": "battery-warning",
+      "title": "Battery Warning"
+    },
+    {
+      "name": "battery",
+      "title": "Battery"
+    },
+    {
+      "name": "beaker",
+      "title": "Beaker"
+    },
+    {
+      "name": "bean-off",
+      "title": "Bean Off"
+    },
+    {
+      "name": "bean",
+      "title": "Bean"
+    },
+    {
+      "name": "bed-double",
+      "title": "Bed Double"
+    },
+    {
+      "name": "bed-single",
+      "title": "Bed Single"
+    },
+    {
+      "name": "bed",
+      "title": "Bed"
+    },
+    {
+      "name": "beef",
+      "title": "Beef"
+    },
+    {
+      "name": "beer-off",
+      "title": "Beer Off"
+    },
+    {
+      "name": "beer",
+      "title": "Beer"
+    },
+    {
+      "name": "bell-dot",
+      "title": "Bell Dot"
+    },
+    {
+      "name": "bell-electric",
+      "title": "Bell Electric"
+    },
+    {
+      "name": "bell-minus",
+      "title": "Bell Minus"
+    },
+    {
+      "name": "bell-off",
+      "title": "Bell Off"
+    },
+    {
+      "name": "bell-plus",
+      "title": "Bell Plus"
+    },
+    {
+      "name": "bell-ring",
+      "title": "Bell Ring"
+    },
+    {
+      "name": "bell",
+      "title": "Bell"
+    },
+    {
+      "name": "between-horizontal-end",
+      "title": "Between Horizontal End"
+    },
+    {
+      "name": "between-horizontal-start",
+      "title": "Between Horizontal Start"
+    },
+    {
+      "name": "between-vertical-end",
+      "title": "Between Vertical End"
+    },
+    {
+      "name": "between-vertical-start",
+      "title": "Between Vertical Start"
+    },
+    {
+      "name": "biceps-flexed",
+      "title": "Biceps Flexed"
+    },
+    {
+      "name": "bike",
+      "title": "Bike"
+    },
+    {
+      "name": "binary",
+      "title": "Binary"
+    },
+    {
+      "name": "binoculars",
+      "title": "Binoculars"
+    },
+    {
+      "name": "biohazard",
+      "title": "Biohazard"
+    },
+    {
+      "name": "bird",
+      "title": "Bird"
+    },
+    {
+      "name": "birdhouse",
+      "title": "Birdhouse"
+    },
+    {
+      "name": "bitcoin",
+      "title": "Bitcoin"
+    },
+    {
+      "name": "blend",
+      "title": "Blend"
+    },
+    {
+      "name": "blinds",
+      "title": "Blinds"
+    },
+    {
+      "name": "blocks",
+      "title": "Blocks"
+    },
+    {
+      "name": "bluetooth-connected",
+      "title": "Bluetooth Connected"
+    },
+    {
+      "name": "bluetooth-off",
+      "title": "Bluetooth Off"
+    },
+    {
+      "name": "bluetooth-searching",
+      "title": "Bluetooth Searching"
+    },
+    {
+      "name": "bluetooth",
+      "title": "Bluetooth"
+    },
+    {
+      "name": "bold",
+      "title": "Bold"
+    },
+    {
+      "name": "bolt",
+      "title": "Bolt"
+    },
+    {
+      "name": "bomb",
+      "title": "Bomb"
+    },
+    {
+      "name": "bone",
+      "title": "Bone"
+    },
+    {
+      "name": "book-a",
+      "title": "Book A"
+    },
+    {
+      "name": "book-alert",
+      "title": "Book Alert"
+    },
+    {
+      "name": "book-audio",
+      "title": "Book Audio"
+    },
+    {
+      "name": "book-check",
+      "title": "Book Check"
+    },
+    {
+      "name": "book-copy",
+      "title": "Book Copy"
+    },
+    {
+      "name": "book-dashed",
+      "title": "Book Dashed"
+    },
+    {
+      "name": "book-down",
+      "title": "Book Down"
+    },
+    {
+      "name": "book-headphones",
+      "title": "Book Headphones"
+    },
+    {
+      "name": "book-heart",
+      "title": "Book Heart"
+    },
+    {
+      "name": "book-image",
+      "title": "Book Image"
+    },
+    {
+      "name": "book-key",
+      "title": "Book Key"
+    },
+    {
+      "name": "book-lock",
+      "title": "Book Lock"
+    },
+    {
+      "name": "book-marked",
+      "title": "Book Marked"
+    },
+    {
+      "name": "book-minus",
+      "title": "Book Minus"
+    },
+    {
+      "name": "book-open-check",
+      "title": "Book Open Check"
+    },
+    {
+      "name": "book-open-text",
+      "title": "Book Open Text"
+    },
+    {
+      "name": "book-open",
+      "title": "Book Open"
+    },
+    {
+      "name": "book-plus",
+      "title": "Book Plus"
+    },
+    {
+      "name": "book-search",
+      "title": "Book Search"
+    },
+    {
+      "name": "book-text",
+      "title": "Book Text"
+    },
+    {
+      "name": "book-type",
+      "title": "Book Type"
+    },
+    {
+      "name": "book-up-2",
+      "title": "Book Up 2"
+    },
+    {
+      "name": "book-up",
+      "title": "Book Up"
+    },
+    {
+      "name": "book-user",
+      "title": "Book User"
+    },
+    {
+      "name": "book-x",
+      "title": "Book X"
+    },
+    {
+      "name": "book",
+      "title": "Book"
+    },
+    {
+      "name": "bookmark-check",
+      "title": "Bookmark Check"
+    },
+    {
+      "name": "bookmark-minus",
+      "title": "Bookmark Minus"
+    },
+    {
+      "name": "bookmark-plus",
+      "title": "Bookmark Plus"
+    },
+    {
+      "name": "bookmark-x",
+      "title": "Bookmark X"
+    },
+    {
+      "name": "bookmark",
+      "title": "Bookmark"
+    },
+    {
+      "name": "boom-box",
+      "title": "Boom Box"
+    },
+    {
+      "name": "bot-message-square",
+      "title": "Bot Message Square"
+    },
+    {
+      "name": "bot-off",
+      "title": "Bot Off"
+    },
+    {
+      "name": "bot",
+      "title": "Bot"
+    },
+    {
+      "name": "bottle-wine",
+      "title": "Bottle Wine"
+    },
+    {
+      "name": "bow-arrow",
+      "title": "Bow Arrow"
+    },
+    {
+      "name": "box",
+      "title": "Box"
+    },
+    {
+      "name": "boxes",
+      "title": "Boxes"
+    },
+    {
+      "name": "braces",
+      "title": "Braces"
+    },
+    {
+      "name": "brackets",
+      "title": "Brackets"
+    },
+    {
+      "name": "brain-circuit",
+      "title": "Brain Circuit"
+    },
+    {
+      "name": "brain-cog",
+      "title": "Brain Cog"
+    },
+    {
+      "name": "brain",
+      "title": "Brain"
+    },
+    {
+      "name": "brick-wall-fire",
+      "title": "Brick Wall Fire"
+    },
+    {
+      "name": "brick-wall-shield",
+      "title": "Brick Wall Shield"
+    },
+    {
+      "name": "brick-wall",
+      "title": "Brick Wall"
+    },
+    {
+      "name": "briefcase-business",
+      "title": "Briefcase Business"
+    },
+    {
+      "name": "briefcase-conveyor-belt",
+      "title": "Briefcase Conveyor Belt"
+    },
+    {
+      "name": "briefcase-medical",
+      "title": "Briefcase Medical"
+    },
+    {
+      "name": "briefcase",
+      "title": "Briefcase"
+    },
+    {
+      "name": "bring-to-front",
+      "title": "Bring To Front"
+    },
+    {
+      "name": "brush-cleaning",
+      "title": "Brush Cleaning"
+    },
+    {
+      "name": "brush",
+      "title": "Brush"
+    },
+    {
+      "name": "bubbles",
+      "title": "Bubbles"
+    },
+    {
+      "name": "bug-off",
+      "title": "Bug Off"
+    },
+    {
+      "name": "bug-play",
+      "title": "Bug Play"
+    },
+    {
+      "name": "bug",
+      "title": "Bug"
+    },
+    {
+      "name": "building-2",
+      "title": "Building 2"
+    },
+    {
+      "name": "building",
+      "title": "Building"
+    },
+    {
+      "name": "bus-front",
+      "title": "Bus Front"
+    },
+    {
+      "name": "bus",
+      "title": "Bus"
+    },
+    {
+      "name": "cable-car",
+      "title": "Cable Car"
+    },
+    {
+      "name": "cable",
+      "title": "Cable"
+    },
+    {
+      "name": "cake-slice",
+      "title": "Cake Slice"
+    },
+    {
+      "name": "cake",
+      "title": "Cake"
+    },
+    {
+      "name": "calculator",
+      "title": "Calculator"
+    },
+    {
+      "name": "calendar-1",
+      "title": "Calendar 1"
+    },
+    {
+      "name": "calendar-arrow-down",
+      "title": "Calendar Arrow Down"
+    },
+    {
+      "name": "calendar-arrow-up",
+      "title": "Calendar Arrow Up"
+    },
+    {
+      "name": "calendar-check-2",
+      "title": "Calendar Check 2"
+    },
+    {
+      "name": "calendar-check",
+      "title": "Calendar Check"
+    },
+    {
+      "name": "calendar-clock",
+      "title": "Calendar Clock"
+    },
+    {
+      "name": "calendar-cog",
+      "title": "Calendar Cog"
+    },
+    {
+      "name": "calendar-days",
+      "title": "Calendar Days"
+    },
+    {
+      "name": "calendar-fold",
+      "title": "Calendar Fold"
+    },
+    {
+      "name": "calendar-heart",
+      "title": "Calendar Heart"
+    },
+    {
+      "name": "calendar-minus-2",
+      "title": "Calendar Minus 2"
+    },
+    {
+      "name": "calendar-minus",
+      "title": "Calendar Minus"
+    },
+    {
+      "name": "calendar-off",
+      "title": "Calendar Off"
+    },
+    {
+      "name": "calendar-plus-2",
+      "title": "Calendar Plus 2"
+    },
+    {
+      "name": "calendar-plus",
+      "title": "Calendar Plus"
+    },
+    {
+      "name": "calendar-range",
+      "title": "Calendar Range"
+    },
+    {
+      "name": "calendar-search",
+      "title": "Calendar Search"
+    },
+    {
+      "name": "calendar-sync",
+      "title": "Calendar Sync"
+    },
+    {
+      "name": "calendar-x-2",
+      "title": "Calendar X 2"
+    },
+    {
+      "name": "calendar-x",
+      "title": "Calendar X"
+    },
+    {
+      "name": "calendar",
+      "title": "Calendar"
+    },
+    {
+      "name": "calendars",
+      "title": "Calendars"
+    },
+    {
+      "name": "camera-off",
+      "title": "Camera Off"
+    },
+    {
+      "name": "camera",
+      "title": "Camera"
+    },
+    {
+      "name": "candy-cane",
+      "title": "Candy Cane"
+    },
+    {
+      "name": "candy-off",
+      "title": "Candy Off"
+    },
+    {
+      "name": "candy",
+      "title": "Candy"
+    },
+    {
+      "name": "cannabis-off",
+      "title": "Cannabis Off"
+    },
+    {
+      "name": "cannabis",
+      "title": "Cannabis"
+    },
+    {
+      "name": "captions-off",
+      "title": "Captions Off"
+    },
+    {
+      "name": "captions",
+      "title": "Captions"
+    },
+    {
+      "name": "car-front",
+      "title": "Car Front"
+    },
+    {
+      "name": "car-taxi-front",
+      "title": "Car Taxi Front"
+    },
+    {
+      "name": "car",
+      "title": "Car"
+    },
+    {
+      "name": "caravan",
+      "title": "Caravan"
+    },
+    {
+      "name": "card-sim",
+      "title": "Card Sim"
+    },
+    {
+      "name": "carrot",
+      "title": "Carrot"
+    },
+    {
+      "name": "case-lower",
+      "title": "Case Lower"
+    },
+    {
+      "name": "case-sensitive",
+      "title": "Case Sensitive"
+    },
+    {
+      "name": "case-upper",
+      "title": "Case Upper"
+    },
+    {
+      "name": "cassette-tape",
+      "title": "Cassette Tape"
+    },
+    {
+      "name": "cast",
+      "title": "Cast"
+    },
+    {
+      "name": "castle",
+      "title": "Castle"
+    },
+    {
+      "name": "cat",
+      "title": "Cat"
+    },
+    {
+      "name": "cctv",
+      "title": "Cctv"
+    },
+    {
+      "name": "chart-area",
+      "title": "Chart Area"
+    },
+    {
+      "name": "chart-bar-big",
+      "title": "Chart Bar Big"
+    },
+    {
+      "name": "chart-bar-decreasing",
+      "title": "Chart Bar Decreasing"
+    },
+    {
+      "name": "chart-bar-increasing",
+      "title": "Chart Bar Increasing"
+    },
+    {
+      "name": "chart-bar-stacked",
+      "title": "Chart Bar Stacked"
+    },
+    {
+      "name": "chart-bar",
+      "title": "Chart Bar"
+    },
+    {
+      "name": "chart-candlestick",
+      "title": "Chart Candlestick"
+    },
+    {
+      "name": "chart-column-big",
+      "title": "Chart Column Big"
+    },
+    {
+      "name": "chart-column-decreasing",
+      "title": "Chart Column Decreasing"
+    },
+    {
+      "name": "chart-column-increasing",
+      "title": "Chart Column Increasing"
+    },
+    {
+      "name": "chart-column-stacked",
+      "title": "Chart Column Stacked"
+    },
+    {
+      "name": "chart-column",
+      "title": "Chart Column"
+    },
+    {
+      "name": "chart-gantt",
+      "title": "Chart Gantt"
+    },
+    {
+      "name": "chart-line",
+      "title": "Chart Line"
+    },
+    {
+      "name": "chart-network",
+      "title": "Chart Network"
+    },
+    {
+      "name": "chart-no-axes-column-decreasing",
+      "title": "Chart No Axes Column Decreasing"
+    },
+    {
+      "name": "chart-no-axes-column-increasing",
+      "title": "Chart No Axes Column Increasing"
+    },
+    {
+      "name": "chart-no-axes-column",
+      "title": "Chart No Axes Column"
+    },
+    {
+      "name": "chart-no-axes-combined",
+      "title": "Chart No Axes Combined"
+    },
+    {
+      "name": "chart-no-axes-gantt",
+      "title": "Chart No Axes Gantt"
+    },
+    {
+      "name": "chart-pie",
+      "title": "Chart Pie"
+    },
+    {
+      "name": "chart-scatter",
+      "title": "Chart Scatter"
+    },
+    {
+      "name": "chart-spline",
+      "title": "Chart Spline"
+    },
+    {
+      "name": "check-check",
+      "title": "Check Check"
+    },
+    {
+      "name": "check-line",
+      "title": "Check Line"
+    },
+    {
+      "name": "check",
+      "title": "Check"
+    },
+    {
+      "name": "chef-hat",
+      "title": "Chef Hat"
+    },
+    {
+      "name": "cherry",
+      "title": "Cherry"
+    },
+    {
+      "name": "chess-bishop",
+      "title": "Chess Bishop"
+    },
+    {
+      "name": "chess-king",
+      "title": "Chess King"
+    },
+    {
+      "name": "chess-knight",
+      "title": "Chess Knight"
+    },
+    {
+      "name": "chess-pawn",
+      "title": "Chess Pawn"
+    },
+    {
+      "name": "chess-queen",
+      "title": "Chess Queen"
+    },
+    {
+      "name": "chess-rook",
+      "title": "Chess Rook"
+    },
+    {
+      "name": "chevron-down",
+      "title": "Chevron Down"
+    },
+    {
+      "name": "chevron-first",
+      "title": "Chevron First"
+    },
+    {
+      "name": "chevron-last",
+      "title": "Chevron Last"
+    },
+    {
+      "name": "chevron-left",
+      "title": "Chevron Left"
+    },
+    {
+      "name": "chevron-right",
+      "title": "Chevron Right"
+    },
+    {
+      "name": "chevron-up",
+      "title": "Chevron Up"
+    },
+    {
+      "name": "chevrons-down-up",
+      "title": "Chevrons Down Up"
+    },
+    {
+      "name": "chevrons-down",
+      "title": "Chevrons Down"
+    },
+    {
+      "name": "chevrons-left-right-ellipsis",
+      "title": "Chevrons Left Right Ellipsis"
+    },
+    {
+      "name": "chevrons-left-right",
+      "title": "Chevrons Left Right"
+    },
+    {
+      "name": "chevrons-left",
+      "title": "Chevrons Left"
+    },
+    {
+      "name": "chevrons-right-left",
+      "title": "Chevrons Right Left"
+    },
+    {
+      "name": "chevrons-right",
+      "title": "Chevrons Right"
+    },
+    {
+      "name": "chevrons-up-down",
+      "title": "Chevrons Up Down"
+    },
+    {
+      "name": "chevrons-up",
+      "title": "Chevrons Up"
+    },
+    {
+      "name": "chromium",
+      "title": "Chromium"
+    },
+    {
+      "name": "church",
+      "title": "Church"
+    },
+    {
+      "name": "cigarette-off",
+      "title": "Cigarette Off"
+    },
+    {
+      "name": "cigarette",
+      "title": "Cigarette"
+    },
+    {
+      "name": "circle-alert",
+      "title": "Circle Alert"
+    },
+    {
+      "name": "circle-arrow-down",
+      "title": "Circle Arrow Down"
+    },
+    {
+      "name": "circle-arrow-left",
+      "title": "Circle Arrow Left"
+    },
+    {
+      "name": "circle-arrow-out-down-left",
+      "title": "Circle Arrow Out Down Left"
+    },
+    {
+      "name": "circle-arrow-out-down-right",
+      "title": "Circle Arrow Out Down Right"
+    },
+    {
+      "name": "circle-arrow-out-up-left",
+      "title": "Circle Arrow Out Up Left"
+    },
+    {
+      "name": "circle-arrow-out-up-right",
+      "title": "Circle Arrow Out Up Right"
+    },
+    {
+      "name": "circle-arrow-right",
+      "title": "Circle Arrow Right"
+    },
+    {
+      "name": "circle-arrow-up",
+      "title": "Circle Arrow Up"
+    },
+    {
+      "name": "circle-check-big",
+      "title": "Circle Check Big"
+    },
+    {
+      "name": "circle-check",
+      "title": "Circle Check"
+    },
+    {
+      "name": "circle-chevron-down",
+      "title": "Circle Chevron Down"
+    },
+    {
+      "name": "circle-chevron-left",
+      "title": "Circle Chevron Left"
+    },
+    {
+      "name": "circle-chevron-right",
+      "title": "Circle Chevron Right"
+    },
+    {
+      "name": "circle-chevron-up",
+      "title": "Circle Chevron Up"
+    },
+    {
+      "name": "circle-dashed",
+      "title": "Circle Dashed"
+    },
+    {
+      "name": "circle-divide",
+      "title": "Circle Divide"
+    },
+    {
+      "name": "circle-dollar-sign",
+      "title": "Circle Dollar Sign"
+    },
+    {
+      "name": "circle-dot-dashed",
+      "title": "Circle Dot Dashed"
+    },
+    {
+      "name": "circle-dot",
+      "title": "Circle Dot"
+    },
+    {
+      "name": "circle-ellipsis",
+      "title": "Circle Ellipsis"
+    },
+    {
+      "name": "circle-equal",
+      "title": "Circle Equal"
+    },
+    {
+      "name": "circle-fading-arrow-up",
+      "title": "Circle Fading Arrow Up"
+    },
+    {
+      "name": "circle-fading-plus",
+      "title": "Circle Fading Plus"
+    },
+    {
+      "name": "circle-gauge",
+      "title": "Circle Gauge"
+    },
+    {
+      "name": "circle-minus",
+      "title": "Circle Minus"
+    },
+    {
+      "name": "circle-off",
+      "title": "Circle Off"
+    },
+    {
+      "name": "circle-parking-off",
+      "title": "Circle Parking Off"
+    },
+    {
+      "name": "circle-parking",
+      "title": "Circle Parking"
+    },
+    {
+      "name": "circle-pause",
+      "title": "Circle Pause"
+    },
+    {
+      "name": "circle-percent",
+      "title": "Circle Percent"
+    },
+    {
+      "name": "circle-pile",
+      "title": "Circle Pile"
+    },
+    {
+      "name": "circle-play",
+      "title": "Circle Play"
+    },
+    {
+      "name": "circle-plus",
+      "title": "Circle Plus"
+    },
+    {
+      "name": "circle-pound-sterling",
+      "title": "Circle Pound Sterling"
+    },
+    {
+      "name": "circle-power",
+      "title": "Circle Power"
+    },
+    {
+      "name": "circle-question-mark",
+      "title": "Circle Question Mark"
+    },
+    {
+      "name": "circle-slash-2",
+      "title": "Circle Slash 2"
+    },
+    {
+      "name": "circle-slash",
+      "title": "Circle Slash"
+    },
+    {
+      "name": "circle-small",
+      "title": "Circle Small"
+    },
+    {
+      "name": "circle-star",
+      "title": "Circle Star"
+    },
+    {
+      "name": "circle-stop",
+      "title": "Circle Stop"
+    },
+    {
+      "name": "circle-user-round",
+      "title": "Circle User Round"
+    },
+    {
+      "name": "circle-user",
+      "title": "Circle User"
+    },
+    {
+      "name": "circle-x",
+      "title": "Circle X"
+    },
+    {
+      "name": "circle",
+      "title": "Circle"
+    },
+    {
+      "name": "circuit-board",
+      "title": "Circuit Board"
+    },
+    {
+      "name": "citrus",
+      "title": "Citrus"
+    },
+    {
+      "name": "clapperboard",
+      "title": "Clapperboard"
+    },
+    {
+      "name": "clipboard-check",
+      "title": "Clipboard Check"
+    },
+    {
+      "name": "clipboard-clock",
+      "title": "Clipboard Clock"
+    },
+    {
+      "name": "clipboard-copy",
+      "title": "Clipboard Copy"
+    },
+    {
+      "name": "clipboard-list",
+      "title": "Clipboard List"
+    },
+    {
+      "name": "clipboard-minus",
+      "title": "Clipboard Minus"
+    },
+    {
+      "name": "clipboard-paste",
+      "title": "Clipboard Paste"
+    },
+    {
+      "name": "clipboard-pen-line",
+      "title": "Clipboard Pen Line"
+    },
+    {
+      "name": "clipboard-pen",
+      "title": "Clipboard Pen"
+    },
+    {
+      "name": "clipboard-plus",
+      "title": "Clipboard Plus"
+    },
+    {
+      "name": "clipboard-type",
+      "title": "Clipboard Type"
+    },
+    {
+      "name": "clipboard-x",
+      "title": "Clipboard X"
+    },
+    {
+      "name": "clipboard",
+      "title": "Clipboard"
+    },
+    {
+      "name": "clock-1",
+      "title": "Clock 1"
+    },
+    {
+      "name": "clock-10",
+      "title": "Clock 10"
+    },
+    {
+      "name": "clock-11",
+      "title": "Clock 11"
+    },
+    {
+      "name": "clock-12",
+      "title": "Clock 12"
+    },
+    {
+      "name": "clock-2",
+      "title": "Clock 2"
+    },
+    {
+      "name": "clock-3",
+      "title": "Clock 3"
+    },
+    {
+      "name": "clock-4",
+      "title": "Clock 4"
+    },
+    {
+      "name": "clock-5",
+      "title": "Clock 5"
+    },
+    {
+      "name": "clock-6",
+      "title": "Clock 6"
+    },
+    {
+      "name": "clock-7",
+      "title": "Clock 7"
+    },
+    {
+      "name": "clock-8",
+      "title": "Clock 8"
+    },
+    {
+      "name": "clock-9",
+      "title": "Clock 9"
+    },
+    {
+      "name": "clock-alert",
+      "title": "Clock Alert"
+    },
+    {
+      "name": "clock-arrow-down",
+      "title": "Clock Arrow Down"
+    },
+    {
+      "name": "clock-arrow-up",
+      "title": "Clock Arrow Up"
+    },
+    {
+      "name": "clock-check",
+      "title": "Clock Check"
+    },
+    {
+      "name": "clock-fading",
+      "title": "Clock Fading"
+    },
+    {
+      "name": "clock-plus",
+      "title": "Clock Plus"
+    },
+    {
+      "name": "clock",
+      "title": "Clock"
+    },
+    {
+      "name": "closed-caption",
+      "title": "Closed Caption"
+    },
+    {
+      "name": "cloud-alert",
+      "title": "Cloud Alert"
+    },
+    {
+      "name": "cloud-backup",
+      "title": "Cloud Backup"
+    },
+    {
+      "name": "cloud-check",
+      "title": "Cloud Check"
+    },
+    {
+      "name": "cloud-cog",
+      "title": "Cloud Cog"
+    },
+    {
+      "name": "cloud-download",
+      "title": "Cloud Download"
+    },
+    {
+      "name": "cloud-drizzle",
+      "title": "Cloud Drizzle"
+    },
+    {
+      "name": "cloud-fog",
+      "title": "Cloud Fog"
+    },
+    {
+      "name": "cloud-hail",
+      "title": "Cloud Hail"
+    },
+    {
+      "name": "cloud-lightning",
+      "title": "Cloud Lightning"
+    },
+    {
+      "name": "cloud-moon-rain",
+      "title": "Cloud Moon Rain"
+    },
+    {
+      "name": "cloud-moon",
+      "title": "Cloud Moon"
+    },
+    {
+      "name": "cloud-off",
+      "title": "Cloud Off"
+    },
+    {
+      "name": "cloud-rain-wind",
+      "title": "Cloud Rain Wind"
+    },
+    {
+      "name": "cloud-rain",
+      "title": "Cloud Rain"
+    },
+    {
+      "name": "cloud-snow",
+      "title": "Cloud Snow"
+    },
+    {
+      "name": "cloud-sun-rain",
+      "title": "Cloud Sun Rain"
+    },
+    {
+      "name": "cloud-sun",
+      "title": "Cloud Sun"
+    },
+    {
+      "name": "cloud-sync",
+      "title": "Cloud Sync"
+    },
+    {
+      "name": "cloud-upload",
+      "title": "Cloud Upload"
+    },
+    {
+      "name": "cloud",
+      "title": "Cloud"
+    },
+    {
+      "name": "cloudy",
+      "title": "Cloudy"
+    },
+    {
+      "name": "clover",
+      "title": "Clover"
+    },
+    {
+      "name": "club",
+      "title": "Club"
+    },
+    {
+      "name": "code-xml",
+      "title": "Code Xml"
+    },
+    {
+      "name": "code",
+      "title": "Code"
+    },
+    {
+      "name": "codepen",
+      "title": "Codepen"
+    },
+    {
+      "name": "codesandbox",
+      "title": "Codesandbox"
+    },
+    {
+      "name": "coffee",
+      "title": "Coffee"
+    },
+    {
+      "name": "cog",
+      "title": "Cog"
+    },
+    {
+      "name": "coins",
+      "title": "Coins"
+    },
+    {
+      "name": "columns-2",
+      "title": "Columns 2"
+    },
+    {
+      "name": "columns-3-cog",
+      "title": "Columns 3 Cog"
+    },
+    {
+      "name": "columns-3",
+      "title": "Columns 3"
+    },
+    {
+      "name": "columns-4",
+      "title": "Columns 4"
+    },
+    {
+      "name": "combine",
+      "title": "Combine"
+    },
+    {
+      "name": "command",
+      "title": "Command"
+    },
+    {
+      "name": "compass",
+      "title": "Compass"
+    },
+    {
+      "name": "component",
+      "title": "Component"
+    },
+    {
+      "name": "computer",
+      "title": "Computer"
+    },
+    {
+      "name": "concierge-bell",
+      "title": "Concierge Bell"
+    },
+    {
+      "name": "cone",
+      "title": "Cone"
+    },
+    {
+      "name": "construction",
+      "title": "Construction"
+    },
+    {
+      "name": "contact-round",
+      "title": "Contact Round"
+    },
+    {
+      "name": "contact",
+      "title": "Contact"
+    },
+    {
+      "name": "container",
+      "title": "Container"
+    },
+    {
+      "name": "contrast",
+      "title": "Contrast"
+    },
+    {
+      "name": "cookie",
+      "title": "Cookie"
+    },
+    {
+      "name": "cooking-pot",
+      "title": "Cooking Pot"
+    },
+    {
+      "name": "copy-check",
+      "title": "Copy Check"
+    },
+    {
+      "name": "copy-minus",
+      "title": "Copy Minus"
+    },
+    {
+      "name": "copy-plus",
+      "title": "Copy Plus"
+    },
+    {
+      "name": "copy-slash",
+      "title": "Copy Slash"
+    },
+    {
+      "name": "copy-x",
+      "title": "Copy X"
+    },
+    {
+      "name": "copy",
+      "title": "Copy"
+    },
+    {
+      "name": "copyleft",
+      "title": "Copyleft"
+    },
+    {
+      "name": "copyright",
+      "title": "Copyright"
+    },
+    {
+      "name": "corner-down-left",
+      "title": "Corner Down Left"
+    },
+    {
+      "name": "corner-down-right",
+      "title": "Corner Down Right"
+    },
+    {
+      "name": "corner-left-down",
+      "title": "Corner Left Down"
+    },
+    {
+      "name": "corner-left-up",
+      "title": "Corner Left Up"
+    },
+    {
+      "name": "corner-right-down",
+      "title": "Corner Right Down"
+    },
+    {
+      "name": "corner-right-up",
+      "title": "Corner Right Up"
+    },
+    {
+      "name": "corner-up-left",
+      "title": "Corner Up Left"
+    },
+    {
+      "name": "corner-up-right",
+      "title": "Corner Up Right"
+    },
+    {
+      "name": "cpu",
+      "title": "Cpu"
+    },
+    {
+      "name": "creative-commons",
+      "title": "Creative Commons"
+    },
+    {
+      "name": "credit-card",
+      "title": "Credit Card"
+    },
+    {
+      "name": "croissant",
+      "title": "Croissant"
+    },
+    {
+      "name": "crop",
+      "title": "Crop"
+    },
+    {
+      "name": "cross",
+      "title": "Cross"
+    },
+    {
+      "name": "crosshair",
+      "title": "Crosshair"
+    }
+  ]
+}

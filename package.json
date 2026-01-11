@@ -9,10 +9,19 @@
     "dev": "npm run build && npm run start",
     "generate-certs": "npx office-addin-dev-certs install"
   },
-  "keywords": ["powerpoint", "add-in", "health", "icons"],
+  "keywords": [
+    "powerpoint",
+    "add-in",
+    "health",
+    "icons"
+  ],
   "license": "MIT",
   "devDependencies": {
     "http-server": "^14.1.1",
     "office-addin-dev-certs": "^1.13.4"
+  },
+  "dependencies": {
+    "lz-string": "^1.5.0",
+    "open-icons": "^1.0.6"
   }
 }

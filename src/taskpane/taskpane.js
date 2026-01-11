@@ -1,358 +1,337 @@
 /**
- * OpenIcons PowerPoint Add-in
- * Core JavaScript for browsing and inserting icons from multiple libraries
+ * Slides Icons - PowerPoint Add-in
+ * Hybrid CDN approach: Load manifests, fetch SVGs on-demand
  */
 
-// State variables
-let currentLibrary = 'healthicons';
-let currentManifest = null;
-let currentStyle = 'filled';
-let currentSize = 96;
-let currentCategory = 'all';
+// Available icon libraries
+const ICON_LIBRARIES = [
+    { id: 'bootstrap', name: 'Bootstrap Icons' },
+    { id: 'heroicons', name: 'Heroicons' },
+    { id: 'feather', name: 'Feather Icons' },
+    { id: 'lucide', name: 'Lucide Icons' },
+    { id: 'tabler', name: 'Tabler Icons' },
+    { id: 'ionicons', name: 'Ionicons' },
+    { id: 'iconoir', name: 'Iconoir' },
+    { id: 'phosphor', name: 'Phosphor Icons' },
+    { id: 'boxicons', name: 'Boxicons' },
+    { id: 'octicons', name: 'GitHub Octicons' },
+    { id: 'radix', name: 'Radix Icons' },
+    { id: 'eva', name: 'Eva Icons' }
+];
 
-// Initialize Office.js (or standalone mode for browser testing)
+// State
+let currentLibrary = 'bootstrap';
+let currentManifest = null;
+let iconSize = 48;
+let iconColor = '#000000';
+let svgCache = {};
+
+// Initialize on Office ready or browser mode
 Office.onReady((info) => {
-    if (info.host === Office.HostType.PowerPoint) {
-        console.log('Office.js is ready - PowerPoint mode');
-        initializeApp();
-    } else {
-        // Standalone browser mode for development/testing
-        console.log('Running in standalone browser mode');
-        initializeApp();
-    }
+    console.log('Office ready:', info.host || 'browser');
+    initializeApp();
 });
 
 /**
- * Initialize the application
+ * Initialize the app
  */
 async function initializeApp() {
-    console.log('Initializing OpenIcons add-in...');
+    console.log('Initializing Slides Icons...');
+
+    // Render library sidebar
+    renderLibraryList();
 
     // Set up event listeners
     setupEventListeners();
 
-    // Load initial library
-    await loadLibrary(currentLibrary);
+    // Load first library
+    await loadLibrary('bootstrap');
+}
+
+/**
+ * Render the library sidebar
+ */
+function renderLibraryList() {
+    const list = document.getElementById('libraryList');
+
+    list.innerHTML = ICON_LIBRARIES.map(lib => `
+        <div class="library-item" data-id="${lib.id}">
+            <span>${lib.name}</span>
+            <span class="count">...</span>
+        </div>
+    `).join('');
+
+    // Add click handlers
+    list.querySelectorAll('.library-item').forEach(item => {
+        item.addEventListener('click', () => loadLibrary(item.dataset.id));
+    });
 }
 
 /**
  * Set up event listeners
  */
 function setupEventListeners() {
-    // Library selector
-    const librarySelect = document.getElementById('librarySelect');
-    librarySelect.addEventListener('change', async (e) => {
-        currentLibrary = e.target.value;
-        currentCategory = 'all';
-        await loadLibrary(currentLibrary);
-    });
-
-    // Search input
+    // Search
     const searchInput = document.getElementById('searchInput');
     searchInput.addEventListener('input', debounce(handleSearch, 200));
 
-    // Size select
-    const sizeSelect = document.getElementById('sizeSelect');
-    sizeSelect.addEventListener('change', (e) => {
-        currentSize = parseInt(e.target.value);
+    // Size
+    document.getElementById('sizeSelect').addEventListener('change', (e) => {
+        iconSize = parseInt(e.target.value);
+    });
+
+    // Color
+    document.getElementById('colorPicker').addEventListener('input', (e) => {
+        iconColor = e.target.value;
+        applyColorToGrid();
     });
 }
 
 /**
- * Load a library and its manifest
+ * Load a library manifest
  */
 async function loadLibrary(libraryId) {
-    const library = getLibrary(libraryId);
-    if (!library) {
-        showStatus(`Unknown library: ${libraryId}`, 'error');
-        return;
-    }
+    // Update UI
+    document.querySelectorAll('.library-item').forEach(item => {
+        item.classList.toggle('active', item.dataset.id === libraryId);
+    });
 
+    const lib = ICON_LIBRARIES.find(l => l.id === libraryId);
+    document.getElementById('currentLibrary').textContent = lib?.name || libraryId;
+    currentLibrary = libraryId;
+
+    // Show loading
     showLoading(true);
 
     try {
-        // Update library info
-        updateLibraryInfo(library);
-
-        // Update style buttons
-        updateStyleButtons(library);
-
         // Load manifest
-        const response = await fetch(library.manifestUrl);
-        if (!response.ok) throw new Error(`Failed to load manifest`);
+        const response = await fetch(`manifests/${libraryId}.json`);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
         currentManifest = await response.json();
 
-        console.log(`Loaded ${library.name}: ${currentManifest.totalIcons} icons`);
+        // Update count in sidebar
+        const item = document.querySelector(`.library-item[data-id="${libraryId}"]`);
+        if (item) {
+            item.querySelector('.count').textContent = currentManifest.totalIcons;
+        }
 
-        // Reset current style to library default
-        currentStyle = library.defaultStyle;
+        // Update total count
+        updateTotalCount();
 
-        // Render UI
-        renderCategories();
+        // Render icons
         renderIcons();
+
+        console.log(`Loaded ${libraryId}: ${currentManifest.totalIcons} icons`);
 
     } catch (error) {
-        console.error(`Failed to load ${libraryId}:`, error);
-        showStatus(`Failed to load ${library.name}`, 'error');
-        currentManifest = { icons: {} };
-        renderCategories();
-        renderIcons();
+        console.error('Failed to load library:', error);
+        showToast('Failed to load library', 'error');
     } finally {
         showLoading(false);
     }
 }
 
 /**
- * Update library info display
+ * Update total icon count
  */
-function updateLibraryInfo(library) {
-    const infoEl = document.getElementById('libraryInfo');
-    infoEl.innerHTML = `
-        <span class="library-badge">${library.license}</span>
-        <a href="${library.website}" target="_blank" class="library-link">Website ↗</a>
-    `;
-}
-
-/**
- * Update style toggle buttons based on library
- */
-function updateStyleButtons(library) {
-    const toggleGroup = document.getElementById('styleToggle');
-
-    toggleGroup.innerHTML = library.styles.map((style, index) => `
-        <button class="toggle-btn ${index === 0 ? 'active' : ''}" data-style="${style.id}">
-            ${style.name}
-        </button>
-    `).join('');
-
-    // Set current style to first available
-    currentStyle = library.styles[0].id;
-
-    // Add click handlers
-    toggleGroup.querySelectorAll('.toggle-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            toggleGroup.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            currentStyle = btn.dataset.style;
-            renderIcons();
-        });
-    });
-}
-
-/**
- * Show/hide loading overlay
- */
-function showLoading(show) {
-    const overlay = document.getElementById('loadingOverlay');
-    overlay.classList.toggle('hidden', !show);
-}
-
-/**
- * Debounce utility function
- */
-function debounce(func, wait) {
-    let timeout;
-    return function executedFunction(...args) {
-        const later = () => {
-            clearTimeout(timeout);
-            func(...args);
-        };
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-    };
-}
-
-/**
- * Handle search input
- */
-function handleSearch(event) {
-    const query = event.target.value.toLowerCase().trim();
-    renderIcons(query);
-}
-
-/**
- * Render category buttons
- */
-function renderCategories() {
-    const categoryList = document.getElementById('categoryList');
-
-    if (!currentManifest || !currentManifest.icons) {
-        categoryList.innerHTML = '<span class="loading">Loading categories</span>';
-        return;
-    }
-
-    // Filter out 'all' from manifest keys to avoid duplicate
-    const manifestCategories = Object.keys(currentManifest.icons).filter(cat => cat !== 'all');
-    const categories = ['all', ...manifestCategories];
-
-    categoryList.innerHTML = categories.map(cat => `
-        <button class="category-btn ${cat === currentCategory ? 'active' : ''}" data-category="${cat}">
-            ${formatCategoryName(cat)}
-        </button>
-    `).join('');
-
-    // Add click handlers
-    categoryList.querySelectorAll('.category-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            currentCategory = btn.dataset.category;
-            document.getElementById('currentCategory').textContent = formatCategoryName(currentCategory);
-            renderIcons();
-        });
-    });
-}
-
-/**
- * Format category name for display
- */
-function formatCategoryName(name) {
-    if (name === 'all') return 'All Icons';
-    if (name === 'ppe') return 'PPE';
-    return name.charAt(0).toUpperCase() + name.slice(1).replace(/-/g, ' ');
+function updateTotalCount() {
+    // For now, show current library count
+    document.getElementById('totalCount').textContent = currentManifest?.totalIcons || 0;
 }
 
 /**
  * Render icons grid
  */
-function renderIcons(searchQuery = '') {
-    const iconsGrid = document.getElementById('iconsGrid');
-    const iconCount = document.getElementById('iconCount');
-    const library = getLibrary(currentLibrary);
+function renderIcons(filter = '') {
+    const grid = document.getElementById('iconsGrid');
+    const countEl = document.getElementById('iconCount');
 
     if (!currentManifest || !currentManifest.icons) {
-        iconsGrid.innerHTML = '<div class="loading">Loading icons</div>';
+        grid.innerHTML = '<div class="empty-state">No icons loaded</div>';
         return;
     }
 
-    // Get icons based on current category and search
-    let icons = [];
+    let icons = currentManifest.icons;
 
-    if (currentCategory === 'all') {
-        Object.keys(currentManifest.icons).forEach(cat => {
-            const catIcons = currentManifest.icons[cat] || [];
-            catIcons.forEach(icon => {
-                icons.push({ ...icon, category: cat });
-            });
-        });
-    } else {
-        icons = (currentManifest.icons[currentCategory] || []).map(icon => ({
-            ...icon,
-            category: currentCategory
-        }));
-    }
-
-    // Filter by search query
-    if (searchQuery) {
+    // Filter by search
+    if (filter) {
+        const q = filter.toLowerCase();
         icons = icons.filter(icon =>
-            icon.name.toLowerCase().includes(searchQuery) ||
-            (icon.title && icon.title.toLowerCase().includes(searchQuery)) ||
-            (icon.keywords && icon.keywords.some(k => k.toLowerCase().includes(searchQuery)))
+            icon.name.toLowerCase().includes(q) ||
+            icon.title.toLowerCase().includes(q)
         );
     }
 
-    // Update count
-    iconCount.textContent = `${icons.length} icons`;
+    countEl.textContent = `${icons.length} icons`;
 
-    // Render icons
     if (icons.length === 0) {
-        iconsGrid.innerHTML = `
-            <div class="empty-state">
-                <div class="empty-state-icon">🔍</div>
-                <p>No icons found</p>
-            </div>
-        `;
+        grid.innerHTML = '<div class="empty-state">No icons found</div>';
         return;
     }
 
-    // Limit display to prevent performance issues
+    // Limit for performance
     const displayIcons = icons.slice(0, 200);
 
-    iconsGrid.innerHTML = displayIcons.map(icon => {
-        const iconUrl = library.getIconUrl(icon.name, currentStyle, icon.category);
-        const title = icon.title || formatCategoryName(icon.name);
-
-        return `
-            <div class="icon-item" 
-                 data-name="${icon.name}"
-                 data-category="${icon.category}"
-                 data-url="${iconUrl}"
-                 title="${title}">
-                <img src="${iconUrl}" alt="${icon.name}" loading="lazy" onerror="this.parentElement.style.display='none'">
+    grid.innerHTML = displayIcons.map(icon => `
+        <div class="icon-item" data-name="${icon.name}" title="${icon.title}">
+            <div class="icon-placeholder" data-name="${icon.name}">
+                <div class="mini-spinner"></div>
             </div>
-        `;
-    }).join('');
+        </div>
+    `).join('');
 
     if (icons.length > 200) {
-        iconsGrid.innerHTML += `<div class="icon-limit-message">Showing 200 of ${icons.length} icons. Use search to filter.</div>`;
+        grid.innerHTML += `<div class="icon-limit-message">Showing 200 of ${icons.length}. Use search to filter.</div>`;
     }
 
+    // Load SVGs lazily
+    loadVisibleIcons();
+
     // Add click handlers
-    iconsGrid.querySelectorAll('.icon-item').forEach(item => {
+    grid.querySelectorAll('.icon-item').forEach(item => {
         item.addEventListener('click', () => insertIcon(item));
     });
 }
 
 /**
- * Insert icon into PowerPoint slide
+ * Load visible icons
  */
-async function insertIcon(iconElement) {
-    const iconName = iconElement.dataset.name;
-    const iconCategory = iconElement.dataset.category;
-    const iconUrl = iconElement.dataset.url;
-    const library = getLibrary(currentLibrary);
+async function loadVisibleIcons() {
+    const placeholders = document.querySelectorAll('.icon-placeholder');
 
-    // Add visual feedback
-    iconElement.classList.add('inserting');
+    for (const placeholder of placeholders) {
+        const iconName = placeholder.dataset.name;
 
-    try {
-        let svgContent;
-
-        // For local icons, fetch directly. For CDN, use cache helper
-        if (library.isLocal) {
-            const response = await fetch(iconUrl);
-            svgContent = await response.text();
-        } else {
-            svgContent = await fetchIconSvg(currentLibrary, iconName, currentStyle, iconCategory);
+        try {
+            const svg = await fetchSvg(iconName);
+            if (svg && placeholder.isConnected) {
+                placeholder.innerHTML = svg;
+                applyColorToElement(placeholder);
+            }
+        } catch (error) {
+            placeholder.innerHTML = '⚠';
         }
-
-        // Convert SVG to PNG base64
-        const base64 = await svgToBase64PNG(svgContent, currentSize);
-
-        // Insert into PowerPoint
-        await insertImageAsync(base64);
-
-        showStatus(`Inserted: ${formatCategoryName(iconName)}`, 'success');
-    } catch (error) {
-        console.error('Failed to insert icon:', error);
-        showStatus('Failed to insert icon', 'error');
-    } finally {
-        iconElement.classList.remove('inserting');
     }
 }
 
 /**
- * Convert SVG to Base64 PNG using Canvas
+ * Fetch SVG from CDN
  */
-function svgToBase64PNG(svgContent, size) {
+async function fetchSvg(iconName) {
+    if (!currentManifest || !currentManifest.cdnPattern) {
+        return null;
+    }
+
+    const cacheKey = `${currentLibrary}:${iconName}`;
+
+    // Check cache
+    if (svgCache[cacheKey]) {
+        return svgCache[cacheKey];
+    }
+
+    // Build URL from pattern
+    const url = currentManifest.cdnPattern.replace('{name}', iconName);
+
+    try {
+        const response = await fetch(url);
+        if (!response.ok) return null;
+
+        const svg = await response.text();
+        svgCache[cacheKey] = svg;
+        return svg;
+    } catch (error) {
+        console.error(`Failed to fetch ${iconName}:`, error);
+        return null;
+    }
+}
+
+/**
+ * Apply color to all icons
+ */
+function applyColorToGrid() {
+    document.querySelectorAll('.icon-placeholder').forEach(applyColorToElement);
+}
+
+/**
+ * Apply color to a single element
+ */
+function applyColorToElement(el) {
+    const svg = el.querySelector('svg');
+    if (svg) {
+        svg.style.fill = iconColor;
+        svg.style.color = iconColor;
+        svg.setAttribute('fill', 'currentColor');
+    }
+}
+
+/**
+ * Handle search input
+ */
+function handleSearch(e) {
+    renderIcons(e.target.value);
+}
+
+/**
+ * Insert icon into PowerPoint
+ */
+async function insertIcon(element) {
+    const iconName = element.dataset.name;
+    const placeholder = element.querySelector('.icon-placeholder');
+    const svgContent = placeholder?.innerHTML;
+
+    if (!svgContent || svgContent.includes('spinner')) {
+        showToast('Icon still loading...', 'error');
+        return;
+    }
+
+    element.classList.add('inserting');
+
+    try {
+        // Convert SVG to PNG
+        const base64 = await svgToBase64PNG(svgContent, iconSize, iconColor);
+
+        // Insert into PowerPoint
+        await insertImageAsync(base64);
+
+        showToast(`Inserted: ${iconName}`, 'success');
+    } catch (error) {
+        console.error('Insert failed:', error);
+        showToast('Insert failed', 'error');
+    } finally {
+        element.classList.remove('inserting');
+    }
+}
+
+/**
+ * Convert SVG to PNG base64
+ */
+function svgToBase64PNG(svgContent, size, color) {
     return new Promise((resolve, reject) => {
+        // Apply color to SVG
+        let coloredSvg = svgContent
+            .replace(/fill="[^"]*"/g, `fill="${color}"`)
+            .replace(/stroke="[^"]*"/g, `stroke="${color}"`);
+
+        // Ensure SVG has proper attributes
+        if (!coloredSvg.includes('xmlns')) {
+            coloredSvg = coloredSvg.replace('<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
+        }
+
         const canvas = document.createElement('canvas');
         canvas.width = size;
         canvas.height = size;
         const ctx = canvas.getContext('2d');
 
         const img = new Image();
-        const svgBlob = new Blob([svgContent], { type: 'image/svg+xml;charset=utf-8' });
-        const url = URL.createObjectURL(svgBlob);
+        const blob = new Blob([coloredSvg], { type: 'image/svg+xml;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
 
         img.onload = () => {
             ctx.drawImage(img, 0, 0, size, size);
             URL.revokeObjectURL(url);
-
-            // Get base64 without the data URL prefix
             const dataUrl = canvas.toDataURL('image/png');
-            const base64 = dataUrl.split(',')[1];
-            resolve(base64);
+            resolve(dataUrl.split(',')[1]);
         };
 
         img.onerror = (error) => {
@@ -365,24 +344,31 @@ function svgToBase64PNG(svgContent, size) {
 }
 
 /**
- * Insert base64 image into PowerPoint
+ * Insert image into PowerPoint
  */
 function insertImageAsync(base64) {
     return new Promise((resolve, reject) => {
+        if (!Office.context?.document) {
+            // Browser mode - just log
+            console.log('Would insert image (browser mode)');
+            resolve();
+            return;
+        }
+
         Office.context.document.setSelectedDataAsync(
             base64,
             {
                 coercionType: Office.CoercionType.Image,
                 imageLeft: 100,
                 imageTop: 100,
-                imageWidth: currentSize,
-                imageHeight: currentSize
+                imageWidth: iconSize,
+                imageHeight: iconSize
             },
             (result) => {
                 if (result.status === Office.AsyncResultStatus.Succeeded) {
                     resolve();
                 } else {
-                    reject(new Error(result.error.message));
+                    reject(new Error(result.error?.message || 'Insert failed'));
                 }
             }
         );
@@ -390,14 +376,35 @@ function insertImageAsync(base64) {
 }
 
 /**
- * Show status message
+ * Show/hide loading state
  */
-function showStatus(message, type = 'info') {
-    const statusEl = document.getElementById('statusMessage');
-    statusEl.textContent = message;
-    statusEl.className = `status-message visible ${type}`;
+function showLoading(show) {
+    const grid = document.getElementById('iconsGrid');
+    if (show) {
+        grid.innerHTML = '<div class="loading-state"><div class="spinner"></div><p>Loading icons...</p></div>';
+    }
+}
+
+/**
+ * Show toast notification
+ */
+function showToast(message, type = 'info') {
+    const toast = document.getElementById('toast');
+    toast.textContent = message;
+    toast.className = `toast visible ${type}`;
 
     setTimeout(() => {
-        statusEl.classList.remove('visible');
+        toast.classList.remove('visible');
     }, 2000);
+}
+
+/**
+ * Debounce utility
+ */
+function debounce(fn, delay) {
+    let timeout;
+    return (...args) => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => fn(...args), delay);
+    };
 }

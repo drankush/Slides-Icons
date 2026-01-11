@@ -1,0 +1,985 @@
+{
+  "id": "eva",
+  "name": "Eva Icons",
+  "version": "1.0.0",
+  "cdnPattern": "https://cdn.jsdelivr.net/npm/eva-icons@1.1.3/outline/svg/{name}.svg",
+  "totalIcons": 244,
+  "icons": [
+    {
+      "name": "activity-outline",
+      "title": "Activity Outline"
+    },
+    {
+      "name": "alert-circle-outline",
+      "title": "Alert Circle Outline"
+    },
+    {
+      "name": "alert-triangle-outline",
+      "title": "Alert Triangle Outline"
+    },
+    {
+      "name": "archive-outline",
+      "title": "Archive Outline"
+    },
+    {
+      "name": "arrow-back-outline",
+      "title": "Arrow Back Outline"
+    },
+    {
+      "name": "arrow-circle-down-outline",
+      "title": "Arrow Circle Down Outline"
+    },
+    {
+      "name": "arrow-circle-left-outline",
+      "title": "Arrow Circle Left Outline"
+    },
+    {
+      "name": "arrow-circle-right-outline",
+      "title": "Arrow Circle Right Outline"
+    },
+    {
+      "name": "arrow-circle-up-outline",
+      "title": "Arrow Circle Up Outline"
+    },
+    {
+      "name": "arrow-down-outline",
+      "title": "Arrow Down Outline"
+    },
+    {
+      "name": "arrow-downward-outline",
+      "title": "Arrow Downward Outline"
+    },
+    {
+      "name": "arrow-forward-outline",
+      "title": "Arrow Forward Outline"
+    },
+    {
+      "name": "arrow-ios-back-outline",
+      "title": "Arrow Ios Back Outline"
+    },
+    {
+      "name": "arrow-ios-downward-outline",
+      "title": "Arrow Ios Downward Outline"
+    },
+    {
+      "name": "arrow-ios-forward-outline",
+      "title": "Arrow Ios Forward Outline"
+    },
+    {
+      "name": "arrow-ios-upward-outline",
+      "title": "Arrow Ios Upward Outline"
+    },
+    {
+      "name": "arrow-left-outline",
+      "title": "Arrow Left Outline"
+    },
+    {
+      "name": "arrow-right-outline",
+      "title": "Arrow Right Outline"
+    },
+    {
+      "name": "arrow-up-outline",
+      "title": "Arrow Up Outline"
+    },
+    {
+      "name": "arrow-upward-outline",
+      "title": "Arrow Upward Outline"
+    },
+    {
+      "name": "arrowhead-down-outline",
+      "title": "Arrowhead Down Outline"
+    },
+    {
+      "name": "arrowhead-left-outline",
+      "title": "Arrowhead Left Outline"
+    },
+    {
+      "name": "arrowhead-right-outline",
+      "title": "Arrowhead Right Outline"
+    },
+    {
+      "name": "arrowhead-up-outline",
+      "title": "Arrowhead Up Outline"
+    },
+    {
+      "name": "at-outline",
+      "title": "At Outline"
+    },
+    {
+      "name": "attach-2-outline",
+      "title": "Attach 2 Outline"
+    },
+    {
+      "name": "attach-outline",
+      "title": "Attach Outline"
+    },
+    {
+      "name": "award-outline",
+      "title": "Award Outline"
+    },
+    {
+      "name": "backspace-outline",
+      "title": "Backspace Outline"
+    },
+    {
+      "name": "bar-chart-2-outline",
+      "title": "Bar Chart 2 Outline"
+    },
+    {
+      "name": "bar-chart-outline",
+      "title": "Bar Chart Outline"
+    },
+    {
+      "name": "battery-outline",
+      "title": "Battery Outline"
+    },
+    {
+      "name": "behance-outline",
+      "title": "Behance Outline"
+    },
+    {
+      "name": "bell-off-outline",
+      "title": "Bell Off Outline"
+    },
+    {
+      "name": "bell-outline",
+      "title": "Bell Outline"
+    },
+    {
+      "name": "bluetooth-outline",
+      "title": "Bluetooth Outline"
+    },
+    {
+      "name": "book-open-outline",
+      "title": "Book Open Outline"
+    },
+    {
+      "name": "book-outline",
+      "title": "Book Outline"
+    },
+    {
+      "name": "bookmark-outline",
+      "title": "Bookmark Outline"
+    },
+    {
+      "name": "briefcase-outline",
+      "title": "Briefcase Outline"
+    },
+    {
+      "name": "browser-outline",
+      "title": "Browser Outline"
+    },
+    {
+      "name": "brush-outline",
+      "title": "Brush Outline"
+    },
+    {
+      "name": "bulb-outline",
+      "title": "Bulb Outline"
+    },
+    {
+      "name": "calendar-outline",
+      "title": "Calendar Outline"
+    },
+    {
+      "name": "camera-outline",
+      "title": "Camera Outline"
+    },
+    {
+      "name": "car-outline",
+      "title": "Car Outline"
+    },
+    {
+      "name": "cast-outline",
+      "title": "Cast Outline"
+    },
+    {
+      "name": "charging-outline",
+      "title": "Charging Outline"
+    },
+    {
+      "name": "checkmark-circle-2-outline",
+      "title": "Checkmark Circle 2 Outline"
+    },
+    {
+      "name": "checkmark-circle-outline",
+      "title": "Checkmark Circle Outline"
+    },
+    {
+      "name": "checkmark-outline",
+      "title": "Checkmark Outline"
+    },
+    {
+      "name": "checkmark-square-2-outline",
+      "title": "Checkmark Square 2 Outline"
+    },
+    {
+      "name": "checkmark-square-outline",
+      "title": "Checkmark Square Outline"
+    },
+    {
+      "name": "chevron-down-outline",
+      "title": "Chevron Down Outline"
+    },
+    {
+      "name": "chevron-left-outline",
+      "title": "Chevron Left Outline"
+    },
+    {
+      "name": "chevron-right-outline",
+      "title": "Chevron Right Outline"
+    },
+    {
+      "name": "chevron-up-outline",
+      "title": "Chevron Up Outline"
+    },
+    {
+      "name": "clipboard-outline",
+      "title": "Clipboard Outline"
+    },
+    {
+      "name": "clock-outline",
+      "title": "Clock Outline"
+    },
+    {
+      "name": "close-circle-outline",
+      "title": "Close Circle Outline"
+    },
+    {
+      "name": "close-outline",
+      "title": "Close Outline"
+    },
+    {
+      "name": "close-square-outline",
+      "title": "Close Square Outline"
+    },
+    {
+      "name": "cloud-download-outline",
+      "title": "Cloud Download Outline"
+    },
+    {
+      "name": "cloud-upload-outline",
+      "title": "Cloud Upload Outline"
+    },
+    {
+      "name": "code-download-outline",
+      "title": "Code Download Outline"
+    },
+    {
+      "name": "code-outline",
+      "title": "Code Outline"
+    },
+    {
+      "name": "collapse-outline",
+      "title": "Collapse Outline"
+    },
+    {
+      "name": "color-palette-outline",
+      "title": "Color Palette Outline"
+    },
+    {
+      "name": "color-picker-outline",
+      "title": "Color Picker Outline"
+    },
+    {
+      "name": "compass-outline",
+      "title": "Compass Outline"
+    },
+    {
+      "name": "copy-outline",
+      "title": "Copy Outline"
+    },
+    {
+      "name": "corner-down-left-outline",
+      "title": "Corner Down Left Outline"
+    },
+    {
+      "name": "corner-down-right-outline",
+      "title": "Corner Down Right Outline"
+    },
+    {
+      "name": "corner-left-down-outline",
+      "title": "Corner Left Down Outline"
+    },
+    {
+      "name": "corner-left-up-outline",
+      "title": "Corner Left Up Outline"
+    },
+    {
+      "name": "corner-right-down-outline",
+      "title": "Corner Right Down Outline"
+    },
+    {
+      "name": "corner-right-up-outline",
+      "title": "Corner Right Up Outline"
+    },
+    {
+      "name": "corner-up-left-outline",
+      "title": "Corner Up Left Outline"
+    },
+    {
+      "name": "corner-up-right-outline",
+      "title": "Corner Up Right Outline"
+    },
+    {
+      "name": "credit-card-outline",
+      "title": "Credit Card Outline"
+    },
+    {
+      "name": "crop-outline",
+      "title": "Crop Outline"
+    },
+    {
+      "name": "cube-outline",
+      "title": "Cube Outline"
+    },
+    {
+      "name": "diagonal-arrow-left-down-outline",
+      "title": "Diagonal Arrow Left Down Outline"
+    },
+    {
+      "name": "diagonal-arrow-left-up-outline",
+      "title": "Diagonal Arrow Left Up Outline"
+    },
+    {
+      "name": "diagonal-arrow-right-down-outline",
+      "title": "Diagonal Arrow Right Down Outline"
+    },
+    {
+      "name": "diagonal-arrow-right-up-outline",
+      "title": "Diagonal Arrow Right Up Outline"
+    },
+    {
+      "name": "done-all-outline",
+      "title": "Done All Outline"
+    },
+    {
+      "name": "download-outline",
+      "title": "Download Outline"
+    },
+    {
+      "name": "droplet-off-outline",
+      "title": "Droplet Off Outline"
+    },
+    {
+      "name": "droplet-outline",
+      "title": "Droplet Outline"
+    },
+    {
+      "name": "edit-2-outline",
+      "title": "Edit 2 Outline"
+    },
+    {
+      "name": "edit-outline",
+      "title": "Edit Outline"
+    },
+    {
+      "name": "email-outline",
+      "title": "Email Outline"
+    },
+    {
+      "name": "expand-outline",
+      "title": "Expand Outline"
+    },
+    {
+      "name": "external-link-outline",
+      "title": "External Link Outline"
+    },
+    {
+      "name": "eye-off-2-outline",
+      "title": "Eye Off 2 Outline"
+    },
+    {
+      "name": "eye-off-outline",
+      "title": "Eye Off Outline"
+    },
+    {
+      "name": "eye-outline",
+      "title": "Eye Outline"
+    },
+    {
+      "name": "facebook-outline",
+      "title": "Facebook Outline"
+    },
+    {
+      "name": "file-add-outline",
+      "title": "File Add Outline"
+    },
+    {
+      "name": "file-outline",
+      "title": "File Outline"
+    },
+    {
+      "name": "file-remove-outline",
+      "title": "File Remove Outline"
+    },
+    {
+      "name": "file-text-outline",
+      "title": "File Text Outline"
+    },
+    {
+      "name": "film-outline",
+      "title": "Film Outline"
+    },
+    {
+      "name": "flag-outline",
+      "title": "Flag Outline"
+    },
+    {
+      "name": "flash-off-outline",
+      "title": "Flash Off Outline"
+    },
+    {
+      "name": "flash-outline",
+      "title": "Flash Outline"
+    },
+    {
+      "name": "flip-2-outline",
+      "title": "Flip 2 Outline"
+    },
+    {
+      "name": "flip-outline",
+      "title": "Flip Outline"
+    },
+    {
+      "name": "folder-add-outline",
+      "title": "Folder Add Outline"
+    },
+    {
+      "name": "folder-outline",
+      "title": "Folder Outline"
+    },
+    {
+      "name": "folder-remove-outline",
+      "title": "Folder Remove Outline"
+    },
+    {
+      "name": "funnel-outline",
+      "title": "Funnel Outline"
+    },
+    {
+      "name": "gift-outline",
+      "title": "Gift Outline"
+    },
+    {
+      "name": "github-outline",
+      "title": "Github Outline"
+    },
+    {
+      "name": "globe-2-outline",
+      "title": "Globe 2 Outline"
+    },
+    {
+      "name": "globe-outline",
+      "title": "Globe Outline"
+    },
+    {
+      "name": "google-outline",
+      "title": "Google Outline"
+    },
+    {
+      "name": "grid-outline",
+      "title": "Grid Outline"
+    },
+    {
+      "name": "hard-drive-outline",
+      "title": "Hard Drive Outline"
+    },
+    {
+      "name": "hash-outline",
+      "title": "Hash Outline"
+    },
+    {
+      "name": "headphones-outline",
+      "title": "Headphones Outline"
+    },
+    {
+      "name": "heart-outline",
+      "title": "Heart Outline"
+    },
+    {
+      "name": "home-outline",
+      "title": "Home Outline"
+    },
+    {
+      "name": "image-outline",
+      "title": "Image Outline"
+    },
+    {
+      "name": "inbox-outline",
+      "title": "Inbox Outline"
+    },
+    {
+      "name": "info-outline",
+      "title": "Info Outline"
+    },
+    {
+      "name": "keypad-outline",
+      "title": "Keypad Outline"
+    },
+    {
+      "name": "layers-outline",
+      "title": "Layers Outline"
+    },
+    {
+      "name": "layout-outline",
+      "title": "Layout Outline"
+    },
+    {
+      "name": "link-2-outline",
+      "title": "Link 2 Outline"
+    },
+    {
+      "name": "link-outline",
+      "title": "Link Outline"
+    },
+    {
+      "name": "linkedin-outline",
+      "title": "Linkedin Outline"
+    },
+    {
+      "name": "list-outline",
+      "title": "List Outline"
+    },
+    {
+      "name": "loader-outline",
+      "title": "Loader Outline"
+    },
+    {
+      "name": "lock-outline",
+      "title": "Lock Outline"
+    },
+    {
+      "name": "log-in-outline",
+      "title": "Log In Outline"
+    },
+    {
+      "name": "log-out-outline",
+      "title": "Log Out Outline"
+    },
+    {
+      "name": "map-outline",
+      "title": "Map Outline"
+    },
+    {
+      "name": "maximize-outline",
+      "title": "Maximize Outline"
+    },
+    {
+      "name": "menu-2-outline",
+      "title": "Menu 2 Outline"
+    },
+    {
+      "name": "menu-arrow-outline",
+      "title": "Menu Arrow Outline"
+    },
+    {
+      "name": "menu-outline",
+      "title": "Menu Outline"
+    },
+    {
+      "name": "message-circle-outline",
+      "title": "Message Circle Outline"
+    },
+    {
+      "name": "message-square-outline",
+      "title": "Message Square Outline"
+    },
+    {
+      "name": "mic-off-outline",
+      "title": "Mic Off Outline"
+    },
+    {
+      "name": "mic-outline",
+      "title": "Mic Outline"
+    },
+    {
+      "name": "minimize-outline",
+      "title": "Minimize Outline"
+    },
+    {
+      "name": "minus-circle-outline",
+      "title": "Minus Circle Outline"
+    },
+    {
+      "name": "minus-outline",
+      "title": "Minus Outline"
+    },
+    {
+      "name": "minus-square-outline",
+      "title": "Minus Square Outline"
+    },
+    {
+      "name": "monitor-outline",
+      "title": "Monitor Outline"
+    },
+    {
+      "name": "moon-outline",
+      "title": "Moon Outline"
+    },
+    {
+      "name": "more-horizontal-outline",
+      "title": "More Horizontal Outline"
+    },
+    {
+      "name": "more-vertical-outline",
+      "title": "More Vertical Outline"
+    },
+    {
+      "name": "move-outline",
+      "title": "Move Outline"
+    },
+    {
+      "name": "music-outline",
+      "title": "Music Outline"
+    },
+    {
+      "name": "navigation-2-outline",
+      "title": "Navigation 2 Outline"
+    },
+    {
+      "name": "navigation-outline",
+      "title": "Navigation Outline"
+    },
+    {
+      "name": "npm-outline",
+      "title": "Npm Outline"
+    },
+    {
+      "name": "options-2-outline",
+      "title": "Options 2 Outline"
+    },
+    {
+      "name": "options-outline",
+      "title": "Options Outline"
+    },
+    {
+      "name": "pantone-outline",
+      "title": "Pantone Outline"
+    },
+    {
+      "name": "paper-plane-outline",
+      "title": "Paper Plane Outline"
+    },
+    {
+      "name": "pause-circle-outline",
+      "title": "Pause Circle Outline"
+    },
+    {
+      "name": "people-outline",
+      "title": "People Outline"
+    },
+    {
+      "name": "percent-outline",
+      "title": "Percent Outline"
+    },
+    {
+      "name": "person-add-outline",
+      "title": "Person Add Outline"
+    },
+    {
+      "name": "person-delete-outline",
+      "title": "Person Delete Outline"
+    },
+    {
+      "name": "person-done-outline",
+      "title": "Person Done Outline"
+    },
+    {
+      "name": "person-outline",
+      "title": "Person Outline"
+    },
+    {
+      "name": "person-remove-outline",
+      "title": "Person Remove Outline"
+    },
+    {
+      "name": "phone-call-outline",
+      "title": "Phone Call Outline"
+    },
+    {
+      "name": "phone-missed-outline",
+      "title": "Phone Missed Outline"
+    },
+    {
+      "name": "phone-off-outline",
+      "title": "Phone Off Outline"
+    },
+    {
+      "name": "phone-outline",
+      "title": "Phone Outline"
+    },
+    {
+      "name": "pie-chart-outline",
+      "title": "Pie Chart Outline"
+    },
+    {
+      "name": "pin-outline",
+      "title": "Pin Outline"
+    },
+    {
+      "name": "play-circle-outline",
+      "title": "Play Circle Outline"
+    },
+    {
+      "name": "plus-circle-outline",
+      "title": "Plus Circle Outline"
+    },
+    {
+      "name": "plus-outline",
+      "title": "Plus Outline"
+    },
+    {
+      "name": "plus-square-outline",
+      "title": "Plus Square Outline"
+    },
+    {
+      "name": "power-outline",
+      "title": "Power Outline"
+    },
+    {
+      "name": "pricetags-outline",
+      "title": "Pricetags Outline"
+    },
+    {
+      "name": "printer-outline",
+      "title": "Printer Outline"
+    },
+    {
+      "name": "question-mark-circle-outline",
+      "title": "Question Mark Circle Outline"
+    },
+    {
+      "name": "question-mark-outline",
+      "title": "Question Mark Outline"
+    },
+    {
+      "name": "radio-button-off-outline",
+      "title": "Radio Button Off Outline"
+    },
+    {
+      "name": "radio-button-on-outline",
+      "title": "Radio Button On Outline"
+    },
+    {
+      "name": "radio-outline",
+      "title": "Radio Outline"
+    },
+    {
+      "name": "recording-outline",
+      "title": "Recording Outline"
+    },
+    {
+      "name": "refresh-outline",
+      "title": "Refresh Outline"
+    },
+    {
+      "name": "repeat-outline",
+      "title": "Repeat Outline"
+    },
+    {
+      "name": "rewind-left-outline",
+      "title": "Rewind Left Outline"
+    },
+    {
+      "name": "rewind-right-outline",
+      "title": "Rewind Right Outline"
+    },
+    {
+      "name": "save-outline",
+      "title": "Save Outline"
+    },
+    {
+      "name": "scissors-outline",
+      "title": "Scissors Outline"
+    },
+    {
+      "name": "search-outline",
+      "title": "Search Outline"
+    },
+    {
+      "name": "settings-2-outline",
+      "title": "Settings 2 Outline"
+    },
+    {
+      "name": "settings-outline",
+      "title": "Settings Outline"
+    },
+    {
+      "name": "shake-outline",
+      "title": "Shake Outline"
+    },
+    {
+      "name": "share-outline",
+      "title": "Share Outline"
+    },
+    {
+      "name": "shield-off-outline",
+      "title": "Shield Off Outline"
+    },
+    {
+      "name": "shield-outline",
+      "title": "Shield Outline"
+    },
+    {
+      "name": "shopping-bag-outline",
+      "title": "Shopping Bag Outline"
+    },
+    {
+      "name": "shopping-cart-outline",
+      "title": "Shopping Cart Outline"
+    },
+    {
+      "name": "shuffle-2-outline",
+      "title": "Shuffle 2 Outline"
+    },
+    {
+      "name": "shuffle-outline",
+      "title": "Shuffle Outline"
+    },
+    {
+      "name": "skip-back-outline",
+      "title": "Skip Back Outline"
+    },
+    {
+      "name": "skip-forward-outline",
+      "title": "Skip Forward Outline"
+    },
+    {
+      "name": "slash-outline",
+      "title": "Slash Outline"
+    },
+    {
+      "name": "smartphone-outline",
+      "title": "Smartphone Outline"
+    },
+    {
+      "name": "smiling-face-outline",
+      "title": "Smiling Face Outline"
+    },
+    {
+      "name": "speaker-outline",
+      "title": "Speaker Outline"
+    },
+    {
+      "name": "square-outline",
+      "title": "Square Outline"
+    },
+    {
+      "name": "star-outline",
+      "title": "Star Outline"
+    },
+    {
+      "name": "stop-circle-outline",
+      "title": "Stop Circle Outline"
+    },
+    {
+      "name": "sun-outline",
+      "title": "Sun Outline"
+    },
+    {
+      "name": "swap-outline",
+      "title": "Swap Outline"
+    },
+    {
+      "name": "sync-outline",
+      "title": "Sync Outline"
+    },
+    {
+      "name": "text-outline",
+      "title": "Text Outline"
+    },
+    {
+      "name": "thermometer-minus-outline",
+      "title": "Thermometer Minus Outline"
+    },
+    {
+      "name": "thermometer-outline",
+      "title": "Thermometer Outline"
+    },
+    {
+      "name": "thermometer-plus-outline",
+      "title": "Thermometer Plus Outline"
+    },
+    {
+      "name": "toggle-left-outline",
+      "title": "Toggle Left Outline"
+    },
+    {
+      "name": "toggle-right-outline",
+      "title": "Toggle Right Outline"
+    },
+    {
+      "name": "trash-2-outline",
+      "title": "Trash 2 Outline"
+    },
+    {
+      "name": "trash-outline",
+      "title": "Trash Outline"
+    },
+    {
+      "name": "trending-down-outline",
+      "title": "Trending Down Outline"
+    },
+    {
+      "name": "trending-up-outline",
+      "title": "Trending Up Outline"
+    },
+    {
+      "name": "tv-outline",
+      "title": "Tv Outline"
+    },
+    {
+      "name": "twitter-outline",
+      "title": "Twitter Outline"
+    },
+    {
+      "name": "umbrella-outline",
+      "title": "Umbrella Outline"
+    },
+    {
+      "name": "undo-outline",
+      "title": "Undo Outline"
+    },
+    {
+      "name": "unlock-outline",
+      "title": "Unlock Outline"
+    },
+    {
+      "name": "upload-outline",
+      "title": "Upload Outline"
+    },
+    {
+      "name": "video-off-outline",
+      "title": "Video Off Outline"
+    },
+    {
+      "name": "video-outline",
+      "title": "Video Outline"
+    },
+    {
+      "name": "volume-down-outline",
+      "title": "Volume Down Outline"
+    },
+    {
+      "name": "volume-mute-outline",
+      "title": "Volume Mute Outline"
+    },
+    {
+      "name": "volume-off-outline",
+      "title": "Volume Off Outline"
+    },
+    {
+      "name": "volume-up-outline",
+      "title": "Volume Up Outline"
+    },
+    {
+      "name": "wifi-off-outline",
+      "title": "Wifi Off Outline"
+    },
+    {
+      "name": "wifi-outline",
+      "title": "Wifi Outline"
+    }
+  ]
+}
