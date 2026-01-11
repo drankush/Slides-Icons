@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health Icons</title>
+    <title>OpenIcons</title>
     <link rel="stylesheet" href="taskpane.css">
     <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
 </head>
+
 <body>
     <div class="container">
         <!-- Header -->
         <header class="header">
             <h1 class="logo">
-                <span class="logo-icon">🏥</span>
-                Health Icons
+                <span class="logo-icon">✦</span>
+                OpenIcons
             </h1>
-            <p class="tagline">1,500+ free icons for health projects</p>
+            <p class="tagline">10,000+ free icons for your presentations</p>
         </header>
+
+        <!-- Library Selector -->
+        <div class="library-selector">
+            <label class="selector-label">Icon Library</label>
+            <select id="librarySelect" class="library-select">
+                <option value="healthicons" data-count="740">🏥 Health Icons</option>
+                <option value="bootstrap" data-count="2050">🅱️ Bootstrap Icons</option>
+                <option value="ionicons" data-count="1300">⚡ Ionicons</option>
+                <option value="remixicon" data-count="3100">🎨 Remix Icon</option>
+                <option value="iconoir" data-count="1600">✨ Iconoir</option>
+                <option value="boxicons" data-count="1500">📦 Boxicons</option>
+            </select>
+            <div id="libraryInfo" class="library-info">
+                <span class="library-badge">CC0</span>
+                <a href="https://healthicons.org" target="_blank" class="library-link">Website ↗</a>
+            </div>
+        </div>
 
         <!-- Search -->
         <div class="search-container">
-            <input 
-                type="text" 
-                id="searchInput" 
-                class="search-input" 
-                placeholder="Search icons..."
-                autocomplete="off"
-            >
+            <input type="text" id="searchInput" class="search-input" placeholder="Search icons..." autocomplete="off">
             <span class="search-icon">🔍</span>
         </div>
 
@@ -34,7 +47,7 @@
         <div class="options-row">
             <div class="option-group">
                 <label class="option-label">Style:</label>
-                <div class="toggle-group">
+                <div id="styleToggle" class="toggle-group">
                     <button class="toggle-btn active" data-style="filled">Filled</button>
                     <button class="toggle-btn" data-style="outline">Outline</button>
                 </div>
@@ -44,6 +57,7 @@
                 <select id="sizeSelect" class="size-select">
                     <option value="48">48px</option>
                     <option value="96" selected>96px</option>
+                    <option value="128">128px</option>
                 </select>
             </div>
         </div>
@@ -65,12 +79,18 @@
             <div id="iconsGrid" class="icons-grid">
                 <!-- Icons will be populated by JavaScript -->
             </div>
+            <div id="loadingOverlay" class="loading-overlay hidden">
+                <div class="spinner"></div>
+                <span>Loading icons...</span>
+            </div>
         </div>
 
         <!-- Status Message -->
         <div id="statusMessage" class="status-message"></div>
     </div>
 
+    <script src="libraries.js"></script>
     <script src="taskpane.js"></script>
 </body>
+
 </html>

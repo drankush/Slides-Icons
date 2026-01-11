@@ -1,0 +1,113 @@
+{
+  "version": "1.0.0",
+  "totalIcons": 21,
+  "icons": {
+    "Other": [
+      {
+        "name": "_comment",
+        "title": "_comment",
+        "keywords": []
+      },
+      {
+        "name": "Arrows",
+        "title": "Arrows",
+        "keywords": []
+      },
+      {
+        "name": "Buildings",
+        "title": "Buildings",
+        "keywords": []
+      },
+      {
+        "name": "Business",
+        "title": "Business",
+        "keywords": []
+      },
+      {
+        "name": "Communication",
+        "title": "Communication",
+        "keywords": []
+      },
+      {
+        "name": "Design",
+        "title": "Design",
+        "keywords": []
+      },
+      {
+        "name": "Development",
+        "title": "Development",
+        "keywords": []
+      },
+      {
+        "name": "Device",
+        "title": "Device",
+        "keywords": []
+      },
+      {
+        "name": "Document",
+        "title": "Document",
+        "keywords": []
+      },
+      {
+        "name": "Editor",
+        "title": "Editor",
+        "keywords": []
+      },
+      {
+        "name": "Finance",
+        "title": "Finance",
+        "keywords": []
+      },
+      {
+        "name": "Food",
+        "title": "Food",
+        "keywords": []
+      },
+      {
+        "name": "Game & Sports",
+        "title": "Game & Sports",
+        "keywords": []
+      },
+      {
+        "name": "Health & Medical",
+        "title": "Health & Medical",
+        "keywords": []
+      },
+      {
+        "name": "Logos",
+        "title": "Logos",
+        "keywords": []
+      },
+      {
+        "name": "Map",
+        "title": "Map",
+        "keywords": []
+      },
+      {
+        "name": "Media",
+        "title": "Media",
+        "keywords": []
+      },
+      {
+        "name": "System",
+        "title": "System",
+        "keywords": []
+      },
+      {
+        "name": "User & Faces",
+        "title": "User & Faces",
+        "keywords": []
+      },
+      {
+        "name": "Weather",
+        "title": "Weather",
+        "keywords": []
+      },
+      {
+        "name": "Others",
+        "title": "Others",
+        "keywords": []
+      }
+    ]
+  }
+}

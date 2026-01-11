@@ -1,6 +1,6 @@
 /**
- * Build script for Health Icons PowerPoint Add-in
- * Generates icon manifest and copies files to dist folder
+ * Build script for OpenIcons PowerPoint Add-in
+ * Copies files and manifests to dist folder
  */
 
 const fs = require('fs');
@@ -8,7 +8,6 @@ const path = require('path');
 
 const SRC_DIR = path.join(__dirname, '..', 'src');
 const DIST_DIR = path.join(__dirname, '..', 'dist');
-const META_DATA_PATH = '/tmp/healthicons_extracted/icons/meta-data.json';
 
 // Clean and create dist directory
 if (fs.existsSync(DIST_DIR)) {
@@ -16,93 +15,71 @@ if (fs.existsSync(DIST_DIR)) {
 }
 fs.mkdirSync(DIST_DIR, { recursive: true });
 
-console.log('Building Health Icons add-in...\n');
-
-// Generate icon manifest from meta-data
-function generateManifest() {
-    console.log('Generating icon manifest...');
-
-    const metaData = JSON.parse(fs.readFileSync(META_DATA_PATH, 'utf8'));
-
-    // Group icons by category
-    const iconsByCategory = {};
-
-    metaData.forEach(icon => {
-        const category = icon.category;
-        if (!iconsByCategory[category]) {
-            iconsByCategory[category] = [];
-        }
-        iconsByCategory[category].push({
-            name: icon.id,
-            title: icon.title,
-            keywords: icon.tags || []
-        });
-    });
-
-    // Sort categories alphabetically
-    const sortedCategories = {};
-    Object.keys(iconsByCategory).sort().forEach(cat => {
-        sortedCategories[cat] = iconsByCategory[cat];
-    });
-
-    const manifest = {
-        version: '1.0.0',
-        generatedAt: new Date().toISOString(),
-        totalIcons: metaData.length,
-        icons: sortedCategories
-    };
-
-    // Write manifest to src (for reference) and dist
-    const manifestPath = path.join(SRC_DIR, 'icons', 'manifest.json');
-    fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
-
-    console.log(`  ✓ Generated manifest with ${metaData.length} icons in ${Object.keys(sortedCategories).length} categories\n`);
-
-    return manifest;
-}
+console.log('Building OpenIcons add-in...\n');
 
 // Copy taskpane files
 function copyTaskpane() {
     console.log('Copying taskpane files...');
 
-    const files = ['taskpane.html', 'taskpane.css', 'taskpane.js'];
+    const files = ['taskpane.html', 'taskpane.css', 'taskpane.js', 'libraries.js'];
     const srcDir = path.join(SRC_DIR, 'taskpane');
 
     files.forEach(file => {
         const srcPath = path.join(srcDir, file);
-        const destPath = path.join(DIST_DIR, file);
-        fs.copyFileSync(srcPath, destPath);
-        console.log(`  ✓ Copied ${file}`);
+        if (fs.existsSync(srcPath)) {
+            const destPath = path.join(DIST_DIR, file);
+            fs.copyFileSync(srcPath, destPath);
+            console.log(`  ✓ Copied ${file}`);
+        }
     });
     console.log('');
 }
 
-// Copy icons
+// Copy manifests
+function copyManifests() {
+    console.log('Copying manifests...');
+
+    const manifestsSrcDir = path.join(SRC_DIR, 'manifests');
+    const manifestsDestDir = path.join(DIST_DIR, 'manifests');
+
+    if (fs.existsSync(manifestsSrcDir)) {
+        copyDirRecursive(manifestsSrcDir, manifestsDestDir);
+        const files = fs.readdirSync(manifestsSrcDir);
+        console.log(`  ✓ Copied ${files.length} manifest files`);
+    } else {
+        fs.mkdirSync(manifestsDestDir, { recursive: true });
+        console.log('  ⚠ No manifests directory found');
+    }
+    console.log('');
+}
+
+// Copy health icons (local bundle)
 function copyIcons() {
-    console.log('Copying icons...');
+    console.log('Copying Health Icons (local bundle)...');
 
     const iconsSrcDir = path.join(SRC_DIR, 'icons');
     const iconsDestDir = path.join(DIST_DIR, 'icons');
 
+    if (!fs.existsSync(iconsSrcDir)) {
+        console.log('  ⚠ No icons directory found\n');
+        return;
+    }
+
     fs.mkdirSync(iconsDestDir, { recursive: true });
 
-    // Copy manifest
-    fs.copyFileSync(
-        path.join(iconsSrcDir, 'manifest.json'),
-        path.join(iconsDestDir, 'manifest.json')
-    );
-
     // Copy icon directories (filled and outline)
+    let iconCount = 0;
     ['filled', 'outline'].forEach(style => {
         const styleSrcDir = path.join(iconsSrcDir, style);
         const styleDestDir = path.join(iconsDestDir, style);
 
         if (fs.existsSync(styleSrcDir)) {
             copyDirRecursive(styleSrcDir, styleDestDir);
+            iconCount += countFiles(styleSrcDir);
         }
     });
 
-    console.log('  ✓ Copied all icon files\n');
+    console.log(`  ✓ Copied ${iconCount} icon files\n`);
 }
 
 // Copy assets
@@ -139,10 +116,24 @@ function copyDirRecursive(src, dest) {
     }
 }
 
+// Count files in directory recursively
+function countFiles(dir) {
+    let count = 0;
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
+        if (entry.isDirectory()) {
+            count += countFiles(path.join(dir, entry.name));
+        } else {
+            count++;
+        }
+    }
+    return count;
+}
+
 // Main build
 try {
-    generateManifest();
     copyTaskpane();
+    copyManifests();
     copyIcons();
     copyAssets();
 

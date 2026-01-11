@@ -1,0 +1,8606 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-01-11T14:05:41.321Z",
+  "totalIcons": 740,
+  "icons": {
+    "blood": [
+      {
+        "name": "blood_bag",
+        "title": "Blood Bag",
+        "keywords": [
+          "Bag",
+          "Blood",
+          "Hematology",
+          "Transfusion"
+        ]
+      },
+      {
+        "name": "blood_a_n",
+        "title": "Blood Type A-",
+        "keywords": [
+          "A Negative",
+          "Bag",
+          "Blood",
+          "Hematology",
+          "Transfusion",
+          "dhis2:blood_a_n"
+        ]
+      },
+      {
+        "name": "blood_a_p",
+        "title": "Blood Type A+",
+        "keywords": [
+          "A Positive",
+          "Bag",
+          "Blood",
+          "Hematology",
+          "Transfusion",
+          "dhis2:blood_a_p"
+        ]
+      },
+      {
+        "name": "blood_ab_n",
+        "title": "Blood Type AB-",
+        "keywords": [
+          "AB Negative",
+          "Bag",
+          "Blood",
+          "Hematology",
+          "Transfusion",
+          "dhis2:blood_ab_n"
+        ]
+      },
+      {
+        "name": "blood_ab_p",
+        "title": "Blood Type AB+",
+        "keywords": [
+          "AB Positive",
+          "Bag",
+          "Blood",
+          "Hematology",
+          "Transfusion",
+          "dhis2:blood_ab_p"
+        ]
+      },
+      {
+        "name": "blood_b_n",
+        "title": "Blood Type B-",
+        "keywords": [
+          "B Negative",
+          "Bag",
+          "Blood",
+          "Hematology",
+          "Transfusion",
+          "dhis2:blood_b_n"
+        ]
+      },
+      {
+        "name": "blood_b_p",
+        "title": "Blood Type B+",
+        "keywords": [
+          "B Positive",
+          "Bag",
+          "Blood",
+          "Hematology",
+          "Transfusion",
+          "dhis2:blood_b_p"
+        ]
+      },
+      {
+        "name": "blood_o_n",
+        "title": "Blood Type O-",
+        "keywords": [
+          "Bag",
+          "Blood",
+          "Hematology",
+          "O Negative",
+          "Transfusion",
+          "dhis2:blood_o_n"
+        ]
+      },
+      {
+        "name": "blood_o_p",
+        "title": "Blood Type O+",
+        "keywords": [
+          "Bag",
+          "Blood",
+          "Hematology",
+          "O Positive",
+          "Transfusion",
+          "dhis2:blood_o_p"
+        ]
+      },
+      {
+        "name": "blood_rh_n",
+        "title": "Blood Type RH-",
+        "keywords": [
+          "Bag",
+          "Blood",
+          "Hematology",
+          "RH Negative",
+          "Transfusion",
+          "dhis2:blood_rh_n"
+        ]
+      },
+      {
+        "name": "blood_rh_p",
+        "title": "Blood Type RH+",
+        "keywords": [
+          "Bag",
+          "Blood",
+          "Hematology",
+          "RH Positive",
+          "Transfusion",
+          "dhis2:blood_rh_p"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "name": "heart_organ",
+        "title": "Heart",
+        "keywords": [
+          "Cardiac",
+          "Cardiologist",
+          "Cardiology",
+          "Coronary",
+          "Heart",
+          "Organ"
+        ]
+      },
+      {
+        "name": "tooth",
+        "title": "Tooth",
+        "keywords": [
+          "Cavity",
+          "Dental",
+          "Mouth",
+          "Oral",
+          "Teeth"
+        ]
+      },
+      {
+        "name": "neurology",
+        "title": "Brain",
+        "keywords": [
+          "Brain",
+          "Head",
+          "Mental Health",
+          "Neurology",
+          "Organ",
+          "Spine",
+          "dhis2:brain"
+        ]
+      },
+      {
+        "name": "lungs",
+        "title": "Lungs",
+        "keywords": [
+          "Organ",
+          "Pulmonary dhis2:lungs"
+        ]
+      },
+      {
+        "name": "kidneys",
+        "title": "Kidneys",
+        "keywords": [
+          "Organ",
+          "Urinary",
+          "dhis2:kidney"
+        ]
+      },
+      {
+        "name": "dna",
+        "title": "DNA",
+        "keywords": [
+          "Chomosome",
+          "Deoxyribonucleic Acid",
+          "Double Helix"
+        ]
+      },
+      {
+        "name": "bacteria",
+        "title": "Bacteria",
+        "keywords": [
+          "Bacterium",
+          "Microbe",
+          "Microorganism",
+          "Microscopic"
+        ]
+      },
+      {
+        "name": "ear",
+        "title": "Ear",
+        "keywords": [
+          "Auditory",
+          "ENT",
+          "Eardrum",
+          "Listen",
+          "Organ",
+          "Sound"
+        ]
+      },
+      {
+        "name": "female_reproductive_system",
+        "title": "Female Reproductive System",
+        "keywords": [
+          "Gynecology",
+          "Health",
+          "Organ",
+          "Ovary",
+          "Uterus",
+          "Vagina",
+          "Woman"
+        ]
+      },
+      {
+        "name": "spine",
+        "title": "Spine",
+        "keywords": [
+          "Back",
+          "Organ",
+          "Spinal Cord",
+          "Vertebrae"
+        ]
+      },
+      {
+        "name": "liver",
+        "title": "Liver",
+        "keywords": [
+          "Hepatology",
+          "Liver",
+          "Organ"
+        ]
+      },
+      {
+        "name": "arm",
+        "title": "Arm",
+        "keywords": [
+          "Arm",
+          "Hand",
+          "Joint"
+        ]
+      },
+      {
+        "name": "leg",
+        "title": "Leg",
+        "keywords": [
+          "Foot",
+          "Knee",
+          "Leg"
+        ]
+      },
+      {
+        "name": "eye",
+        "title": "Eye",
+        "keywords": [
+          "Eye",
+          "Ocular",
+          "Oculus",
+          "Sight",
+          "Vision"
+        ]
+      },
+      {
+        "name": "mouth",
+        "title": "Mouth",
+        "keywords": [
+          "Face",
+          "Lips",
+          "Mouth",
+          "Oral"
+        ]
+      },
+      {
+        "name": "joints",
+        "title": "Joints",
+        "keywords": [
+          "Bones",
+          "Joints",
+          "Ortho",
+          "Orthopaedics"
+        ]
+      },
+      {
+        "name": "body",
+        "title": "Body",
+        "keywords": [
+          "Body",
+          "Human",
+          "Limbs"
+        ]
+      },
+      {
+        "name": "spleen",
+        "title": "Spleen",
+        "keywords": [
+          "Body",
+          "Human",
+          "Immune System",
+          "Lymphatic System",
+          "Organs",
+          "Spleen"
+        ]
+      },
+      {
+        "name": "blood_cells",
+        "title": "Blood Cells",
+        "keywords": [
+          "Blood",
+          "Body",
+          "Circulatory System",
+          "Human",
+          "Platelets"
+        ]
+      },
+      {
+        "name": "enzyme",
+        "title": "Enzyme",
+        "keywords": [
+          "Body",
+          "Digestive System",
+          "Human",
+          "Microscopic"
+        ]
+      },
+      {
+        "name": "skeleton",
+        "title": "Skeleton",
+        "keywords": [
+          "Body",
+          "Death",
+          "Head",
+          "Human",
+          "Skeletal System",
+          "Skeleton"
+        ]
+      },
+      {
+        "name": "skull",
+        "title": "Skull",
+        "keywords": [
+          "Body",
+          "Death",
+          "Head",
+          "Human",
+          "Skeletal System",
+          "Skeleton"
+        ]
+      },
+      {
+        "name": "bladder",
+        "title": "Bladder",
+        "keywords": [
+          "Organ",
+          "Urinary Tract",
+          "Urine"
+        ]
+      },
+      {
+        "name": "foot",
+        "title": "Foot",
+        "keywords": [
+          "Ankle",
+          "Feet",
+          "Podiatrist",
+          "Podiatry",
+          "Toe"
+        ]
+      },
+      {
+        "name": "gallbladder",
+        "title": "Gallbladder",
+        "keywords": [
+          "Gallstone",
+          "Organ"
+        ]
+      },
+      {
+        "name": "lymph_nodes",
+        "title": "Lymph Node",
+        "keywords": [
+          "Lymphatic System",
+          "Organ"
+        ]
+      },
+      {
+        "name": "nerve",
+        "title": "Nerve",
+        "keywords": [
+          "Nervous System",
+          "Pain"
+        ]
+      },
+      {
+        "name": "nose",
+        "title": "Nose",
+        "keywords": [
+          "Nose",
+          "Nostril",
+          "Smell"
+        ]
+      },
+      {
+        "name": "liver-alt",
+        "title": "Liver ALT",
+        "keywords": [
+          "Organ"
+        ]
+      },
+      {
+        "name": "blood_vessel",
+        "title": "Blood Vessel",
+        "keywords": [
+          "Blood",
+          "Body",
+          "Hematology",
+          "Vessel"
+        ]
+      },
+      {
+        "name": "intestine",
+        "title": "Intestine",
+        "keywords": [
+          "Body",
+          "Digestive System",
+          "Intestine"
+        ]
+      },
+      {
+        "name": "vagina_alt",
+        "title": "Vulva",
+        "keywords": [
+          "Anatomy",
+          "Body",
+          "Female",
+          "Genitals",
+          "Organ",
+          "Reproductive System",
+          "Vagina",
+          "Vulva"
+        ]
+      },
+      {
+        "name": "penis_alt",
+        "title": "Penis",
+        "keywords": [
+          "Anatomy",
+          "Body",
+          "Genitals",
+          "Male",
+          "Organ",
+          "Reproductive System"
+        ]
+      },
+      {
+        "name": "penis",
+        "title": "Penis",
+        "keywords": [
+          "Anatomy",
+          "Body",
+          "Genitals",
+          "Male",
+          "Reproductive System"
+        ]
+      },
+      {
+        "name": "testicles",
+        "title": "Testicles",
+        "keywords": [
+          "Anatomy",
+          "Balls",
+          "Body",
+          "Genitals",
+          "Male",
+          "Organ",
+          "Reproductive System",
+          "Scrotum"
+        ]
+      },
+      {
+        "name": "anus",
+        "title": "Anus",
+        "keywords": [
+          "Anatomy",
+          "Anus",
+          "Body",
+          "Bum",
+          "Intestinal System",
+          "Intestine"
+        ]
+      },
+      {
+        "name": "vagina",
+        "title": "Vagina",
+        "keywords": [
+          "Anatomy",
+          "Body",
+          "Clitoris",
+          "Female",
+          "Genitals",
+          "Organ",
+          "Reproductive System",
+          "Vagina",
+          "Vulva"
+        ]
+      },
+      {
+        "name": "pancreas",
+        "title": "Pancreas",
+        "keywords": [
+          "Digestive",
+          "Gland",
+          "Insulin",
+          "Organ",
+          "Pancreatic"
+        ]
+      },
+      {
+        "name": "prostate",
+        "title": "Prostate",
+        "keywords": [
+          "Bladder",
+          "Gland",
+          "Organ",
+          "Prostate"
+        ]
+      },
+      {
+        "name": "stomach",
+        "title": "Stomach",
+        "keywords": [
+          "Digestive System",
+          "Gut",
+          "Intestine",
+          "Organ"
+        ]
+      },
+      {
+        "name": "cell_nuclei",
+        "title": "Cell Nuclei",
+        "keywords": [
+          "Body",
+          "Cell",
+          "Chromatin",
+          "Ribosomes"
+        ]
+      },
+      {
+        "name": "head",
+        "title": "Head",
+        "keywords": [
+          "Body",
+          "Centimeter",
+          "Diagnostic",
+          "Face",
+          "Head",
+          "Measure",
+          "Neck",
+          "Nose",
+          "Patient",
+          "Skull"
+        ]
+      },
+      {
+        "name": "colon",
+        "title": "Colon",
+        "keywords": [
+          "Anus",
+          "Appendix",
+          "Bowel",
+          "Colon",
+          "Digestive System",
+          "Intestine",
+          "Organ"
+        ]
+      },
+      {
+        "name": "thyroid",
+        "title": "Thyroid",
+        "keywords": [
+          "Gland",
+          "Hormones",
+          "Metabolism",
+          "Neck",
+          "Thyroid"
+        ]
+      },
+      {
+        "name": "breasts",
+        "title": "Breasts",
+        "keywords": [
+          "Body",
+          "Breast",
+          "Breast feeding",
+          "Chest",
+          "Mammary",
+          "Mammogram",
+          "Mother",
+          "Nipple"
+        ]
+      },
+      {
+        "name": "blood_drop",
+        "title": "Blood Drop",
+        "keywords": [
+          "Blood",
+          "Circulatory System"
+        ]
+      },
+      {
+        "name": "antibody",
+        "title": "Antibody",
+        "keywords": [
+          "Antibodies",
+          "Antigens",
+          "Immune System",
+          "Pathogens",
+          "Proteins"
+        ]
+      },
+      {
+        "name": "tissue",
+        "title": "Tissue",
+        "keywords": [
+          "Body",
+          "Cell",
+          "Connective",
+          "Tissue"
+        ]
+      },
+      {
+        "name": "tumour",
+        "title": "Tumor",
+        "keywords": [
+          "Abnormal mass",
+          "Cancer",
+          "Tissue",
+          "Tumor",
+          "Tumour"
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "name": "cervical_cancer",
+        "title": "Cervical Cancer",
+        "keywords": [
+          "Cancer",
+          "Cervix",
+          "Woman",
+          "dhis2:cervical_cancer"
+        ]
+      },
+      {
+        "name": "tb",
+        "title": "Tuberculosis",
+        "keywords": [
+          "Lungs",
+          "Organ",
+          "TB",
+          "dhis2:tb"
+        ]
+      },
+      {
+        "name": "diarrhea",
+        "title": "Diarrhea",
+        "keywords": [
+          "Diarrhea",
+          "Feces",
+          "Person",
+          "Sick",
+          "Symptom",
+          "dhis2:diarrhea"
+        ]
+      },
+      {
+        "name": "deaf",
+        "title": "Deaf",
+        "keywords": [
+          "Ear",
+          "Hearing",
+          "Hearing Impaired"
+        ]
+      },
+      {
+        "name": "allergies",
+        "title": "Allergies",
+        "keywords": [
+          "Hand",
+          "Rash",
+          "dhis2:allergies"
+        ]
+      },
+      {
+        "name": "hpv",
+        "title": "HPV",
+        "keywords": [
+          "Human Papillomavirus",
+          "Infection",
+          "Infectious Disease",
+          "Virus",
+          "dhis2:vih"
+        ]
+      },
+      {
+        "name": "vih",
+        "title": "HIV",
+        "keywords": [
+          "AIDS",
+          "HIV",
+          "Infection",
+          "Infectious Disease",
+          "Virus",
+          "dhis2:vih"
+        ]
+      },
+      {
+        "name": "low_vision",
+        "title": "Low Vision",
+        "keywords": [
+          "Eye",
+          "Eyes",
+          "Opthamology",
+          "Optometry",
+          "Sight",
+          "Vision"
+        ]
+      },
+      {
+        "name": "hiv_ind",
+        "title": "HIV Inconclusive",
+        "keywords": [
+          "AIDS",
+          "HIV",
+          "dhis2:hiv_ind"
+        ]
+      },
+      {
+        "name": "hiv_neg",
+        "title": "HIV Negative",
+        "keywords": [
+          "AIDS",
+          "HIV",
+          "dhis2:hiv_neg"
+        ]
+      },
+      {
+        "name": "hiv_pos",
+        "title": "HIV Positive",
+        "keywords": [
+          "AIDS",
+          "HIV",
+          "dhis2:hiv_pos"
+        ]
+      },
+      {
+        "name": "ribbon",
+        "title": "HIV",
+        "keywords": [
+          "AIDS",
+          "Campaign",
+          "Cancer",
+          "HIV",
+          "Ribbon"
+        ]
+      },
+      {
+        "name": "sti",
+        "title": "Sexually Transmitted Infection",
+        "keywords": [
+          "Disease",
+          "Illness",
+          "Person",
+          "STD",
+          "STI",
+          "Sex",
+          "Sexual",
+          "Sick",
+          "Symptom dhis2:sti"
+        ]
+      },
+      {
+        "name": "overweight",
+        "title": "Overweight",
+        "keywords": [
+          "Obese",
+          "Overweight",
+          "Patient",
+          "People",
+          "Vitals",
+          "dhis2:overweight"
+        ]
+      },
+      {
+        "name": "vomiting",
+        "title": "Vomiting",
+        "keywords": [
+          "Gastro",
+          "Nausea",
+          "Person",
+          "Sick",
+          "Spew",
+          "Stomach Flu",
+          "Symptom",
+          "Throw Up",
+          "dhis2:vomiting"
+        ]
+      },
+      {
+        "name": "coughing_alt",
+        "title": "Coughing",
+        "keywords": [
+          "Aerosol",
+          "Cough",
+          "Expectorate",
+          "Mouth",
+          "Sneeze",
+          "Symptom",
+          "dhis2:coughing"
+        ]
+      },
+      {
+        "name": "sweating",
+        "title": "Sweating",
+        "keywords": [
+          "Fever",
+          "Illness",
+          "Person",
+          "Sick",
+          "Symptom dhis2:sweating",
+          "Temperature"
+        ]
+      },
+      {
+        "name": "underweight",
+        "title": "Underweight",
+        "keywords": [
+          "Malnutrition",
+          "Patient",
+          "People",
+          "Thin",
+          "Underweight",
+          "Vitals",
+          "dhis2:underweight"
+        ]
+      },
+      {
+        "name": "chills",
+        "title": "Chills",
+        "keywords": [
+          "Cold",
+          "Freezing",
+          "Hypothermia",
+          "Person",
+          "Shake",
+          "Symptom",
+          "dhis2:chills"
+        ]
+      },
+      {
+        "name": "chills_fever",
+        "title": "Fever",
+        "keywords": [
+          "Chills",
+          "Cold",
+          "Hot",
+          "Person",
+          "Shaking",
+          "Sick",
+          "Symptom",
+          "Temperature",
+          "dhis2:chills_fever"
+        ]
+      },
+      {
+        "name": "back_pain",
+        "title": "Back Pain",
+        "keywords": [
+          "Arthritis",
+          "Pain",
+          "Person",
+          "Spine",
+          "Symptom",
+          "dhis2:back_pain"
+        ]
+      },
+      {
+        "name": "nausea",
+        "title": "Nausea",
+        "keywords": [
+          "Cold",
+          "Hot",
+          "Person",
+          "Shaking",
+          "Sick",
+          "Symptom",
+          "Temperature",
+          "Vomit",
+          "dhis2:nausea"
+        ]
+      },
+      {
+        "name": "headache",
+        "title": "Headache",
+        "keywords": [
+          "Headache",
+          "Illness",
+          "Person",
+          "Sick",
+          "Symptom dhis2:headache"
+        ]
+      },
+      {
+        "name": "pneumonia",
+        "title": "Pneumonia",
+        "keywords": [
+          "Lung",
+          "Lungs",
+          "Organ",
+          "Pneumonia",
+          "dhis2:pneumonia"
+        ]
+      },
+      {
+        "name": "intestinal-pain",
+        "title": "Intestinal Pain",
+        "keywords": [
+          "Ache",
+          "Digestive System",
+          "Intestine",
+          "Pain",
+          "Stomach",
+          "Symptom"
+        ]
+      },
+      {
+        "name": "loss-smell",
+        "title": "Loss of Smell",
+        "keywords": [
+          "Covid",
+          "Nose",
+          "Smell",
+          "Symptom"
+        ]
+      },
+      {
+        "name": "viral_lung_infection",
+        "title": "Viral Lung Infection",
+        "keywords": [
+          "Covid",
+          "Epidemic",
+          "Flu",
+          "Influenza",
+          "Pandemic",
+          "Symptom",
+          "Virus"
+        ]
+      },
+      {
+        "name": "varicose_vein",
+        "title": "Varicose Vein",
+        "keywords": [
+          "Aging",
+          "Blood",
+          "Body",
+          "Elderly",
+          "Leg",
+          "Varicose",
+          "Vein",
+          "Vessel"
+        ]
+      },
+      {
+        "name": "pain",
+        "title": "Pain",
+        "keywords": [
+          "Ache",
+          "Agony",
+          "Back",
+          "Cramp",
+          "Hurt",
+          "Pain",
+          "Sore",
+          "Trauma"
+        ]
+      },
+      {
+        "name": "burn",
+        "title": "Burn",
+        "keywords": [
+          "Burn",
+          "Condition",
+          "Emergency",
+          "Fire",
+          "Flame",
+          "Hand",
+          "Injury"
+        ]
+      },
+      {
+        "name": "chemical_burn",
+        "title": "Chemical Burn",
+        "keywords": [
+          "Accident",
+          "Burn",
+          "Chemical",
+          "Condition",
+          "Flame",
+          "Flame",
+          "Hand",
+          "Injury",
+          "Lab",
+          "Laboratory",
+          "Test Tube"
+        ]
+      },
+      {
+        "name": "pancreatic_cancer",
+        "title": "Pancreatic Cancer",
+        "keywords": [
+          "Cancer",
+          "Digestive",
+          "Gland",
+          "Growth",
+          "Insulin",
+          "Malignant",
+          "Organ",
+          "Pancreatic",
+          "Tumor"
+        ]
+      },
+      {
+        "name": "prostate_cancer",
+        "title": "Prostate Cancer",
+        "keywords": [
+          "Bladder",
+          "Cancer",
+          "Gland",
+          "Growth",
+          "Malignant",
+          "Prostate",
+          "Tumor"
+        ]
+      },
+      {
+        "name": "stomach_cancer",
+        "title": "Stomach Cancer",
+        "keywords": [
+          "Cancer",
+          "Digestive System",
+          "Growth",
+          "Gut",
+          "Intestine",
+          "Malignant",
+          "Organ",
+          "Tumor"
+        ]
+      },
+      {
+        "name": "cancerous_cell_nuclei",
+        "title": "Cancerous Cell Nuclei",
+        "keywords": [
+          "Cancer",
+          "Cell",
+          "Malignant",
+          "Nucleus",
+          "Tumor"
+        ]
+      },
+      {
+        "name": "gonorrhea",
+        "title": "Gonorrhea",
+        "keywords": [
+          "STD",
+          "STI",
+          "bacteria",
+          "clap",
+          "disease",
+          "gonorrhea",
+          "infection",
+          "sex",
+          "sexual",
+          "sexually transmitted disease",
+          "sexually transmitted infection"
+        ]
+      },
+      {
+        "name": "gonorrhea-alt",
+        "title": "Gonorrhea",
+        "keywords": [
+          "STD",
+          "STI",
+          "bacteria",
+          "clap",
+          "disease",
+          "gonorrhea",
+          "infection",
+          "sex",
+          "sexual",
+          "sexually transmitted disease",
+          "sexually transmitted infection"
+        ]
+      },
+      {
+        "name": "chlamydia",
+        "title": "Chlamydia",
+        "keywords": [
+          "STD",
+          "STI",
+          "bacteria",
+          "chlamydia",
+          "disease",
+          "infection",
+          "sex",
+          "sexual",
+          "sexually transmitted disease",
+          "sexually transmitted infection"
+        ]
+      },
+      {
+        "name": "chlamydia-alt",
+        "title": "Chlamydia",
+        "keywords": [
+          "STD",
+          "STI",
+          "bacteria",
+          "chlamydia",
+          "disease",
+          "infection",
+          "sex",
+          "sexual",
+          "sexually transmitted disease",
+          "sexually transmitted infection"
+        ]
+      },
+      {
+        "name": "syphilis-alt",
+        "title": "Syphilis",
+        "keywords": [
+          "STD",
+          "STI",
+          "bacteria",
+          "disease",
+          "infection",
+          "sex",
+          "sexual",
+          "sexually transmitted disease",
+          "sexually transmitted infection",
+          "syphilis"
+        ]
+      },
+      {
+        "name": "colorectal_cancer",
+        "title": "Colorectal Cancer",
+        "keywords": [
+          "Cancer",
+          "Digestive System",
+          "Growth",
+          "Gut",
+          "Intestine",
+          "Malignant",
+          "Organ",
+          "Tumor"
+        ]
+      },
+      {
+        "name": "bladder_cancer",
+        "title": "Colorectal Cancer",
+        "keywords": [
+          "Anus",
+          "Bowel",
+          "Bowel Cancer",
+          "Cancer",
+          "Growth",
+          "Malignant",
+          "Organ",
+          "Rectum",
+          "Tumor",
+          "Urinary Tract"
+        ]
+      },
+      {
+        "name": "skin_cancer",
+        "title": "Skin Cancer",
+        "keywords": [
+          "Cancer",
+          "Carcinoma",
+          "Growth",
+          "Integumentary System",
+          "Malignant",
+          "Melanoma",
+          "Organ",
+          "Skin Cancer",
+          "Tumor"
+        ]
+      },
+      {
+        "name": "oesophagus_cancer",
+        "title": "Oesophagus Cancer",
+        "keywords": [
+          "Cancer",
+          "Digestive system",
+          "Esophageal",
+          "Esophagus",
+          "Food pipe",
+          "Growth",
+          "Gullet",
+          "Malignant",
+          "Organ",
+          "Tumor"
+        ]
+      },
+      {
+        "name": "lymphoma",
+        "title": "Lymphoma",
+        "keywords": [
+          "Cancer",
+          "Growth",
+          "Hodgkin lymphoma",
+          "Lymphatic System",
+          "Malignant",
+          "Non-Hodgkin lymphoma",
+          "Organ",
+          "Tumor"
+        ]
+      },
+      {
+        "name": "malnutrition",
+        "title": "Malnutrition",
+        "keywords": [
+          "Malnourished",
+          "Patient",
+          "People",
+          "Thin",
+          "Underweight",
+          "Vitals"
+        ]
+      },
+      {
+        "name": "thyroid_cancer",
+        "title": "Thyroid Cancer",
+        "keywords": [
+          "Cancer",
+          "Growth",
+          "Hormones",
+          "Malignant",
+          "Organ",
+          "Thyroid",
+          "Tumor"
+        ]
+      },
+      {
+        "name": "dry_eyes",
+        "title": "Dry Eyes",
+        "keywords": [
+          "Dry",
+          "Eye",
+          "Eyeball",
+          "Itchy",
+          "Optic",
+          "Optical",
+          "Symptom",
+          "Vein"
+        ]
+      },
+      {
+        "name": "dry_mouth",
+        "title": "Dry Mouth",
+        "keywords": [
+          "Cracked",
+          "Dry",
+          "Itchy",
+          "Lips",
+          "Mouth",
+          "Oral",
+          "Symptom"
+        ]
+      },
+      {
+        "name": "autoimmune_disease",
+        "title": "Autoimmune disease",
+        "keywords": [
+          "Autoimmune",
+          "Body",
+          "Condition",
+          "Disease",
+          "Endocrine",
+          "Nervous System",
+          "Organs",
+          "Tissues"
+        ]
+      }
+    ],
+    "contraceptives": [
+      {
+        "name": "oral_contraception_pillsx28",
+        "title": "Oral Contraceptive 28",
+        "keywords": [
+          "Birth Control Pills",
+          "Contraception",
+          "Female Contraception",
+          "dhis2:oral_contraception_pillsx28"
+        ]
+      },
+      {
+        "name": "oral_contraception_pillsx21",
+        "title": "Oral Contraceptive 21",
+        "keywords": [
+          "Birth Control Pills",
+          "Contraception",
+          "Female Contraception",
+          "dhis2:oral_contraception_pillsx21"
+        ]
+      },
+      {
+        "name": "male_condom",
+        "title": "Male Condom",
+        "keywords": [
+          "Condom",
+          "Contraceptive",
+          "Family Planning",
+          "dhis2:male_condom"
+        ]
+      },
+      {
+        "name": "iud",
+        "title": "Intrauterine Device",
+        "keywords": [
+          "Contraceptive",
+          "Family Planning",
+          "IUD",
+          "Intrauterine Device",
+          "dhis2:iud"
+        ]
+      },
+      {
+        "name": "implant",
+        "title": "Implant",
+        "keywords": [
+          "Device",
+          "dhis2:implant"
+        ]
+      },
+      {
+        "name": "hormonal_ring",
+        "title": "Hormonal Ring",
+        "keywords": [
+          "Contraceptive",
+          "Family Planning",
+          "dhis2:hormonal_ring"
+        ]
+      },
+      {
+        "name": "female_condom",
+        "title": "Female Condom",
+        "keywords": [
+          "Condom",
+          "Contraceptive",
+          "Family Planning",
+          "dhis2:female_condom"
+        ]
+      },
+      {
+        "name": "family_planning",
+        "title": "Family Planning",
+        "keywords": [
+          "Condom",
+          "Contraceptive",
+          "Family Planning",
+          "IUD",
+          "Pills",
+          "dhis2:family_planning"
+        ]
+      },
+      {
+        "name": "contraceptive_patch",
+        "title": "Contraceptive Patch",
+        "keywords": [
+          "Contraceptive",
+          "Family Planning",
+          "Patch",
+          "dhis2:contraceptive_patch"
+        ]
+      },
+      {
+        "name": "contraceptive_diaphragm",
+        "title": "Contraceptive Diaphragm",
+        "keywords": [
+          "Contraceptive",
+          "Diaphragm",
+          "Family Planning",
+          "dhis2:contraceptive_diaphragm"
+        ]
+      },
+      {
+        "name": "contraceptive_injection",
+        "title": "Contraceptive Injection",
+        "keywords": [
+          "Contraceptive",
+          "Family Planning",
+          "Injection",
+          "dhis2:contraceptive_injection"
+        ]
+      },
+      {
+        "name": "copper_iud",
+        "title": "Copper Intrauterine Device",
+        "keywords": [
+          "Contraceptive",
+          "Family Planning",
+          "IUD",
+          "Intrauterine Device",
+          "dhis2:copper_iud"
+        ]
+      },
+      {
+        "name": "sayana_press",
+        "title": "Syana Press",
+        "keywords": [
+          "Contraceptive",
+          "Family Planning",
+          "dhis2:syana_press"
+        ]
+      },
+      {
+        "name": "contraceptive_voucher",
+        "title": "Contraceptive",
+        "keywords": [
+          "Condom",
+          "Contraception",
+          "Sperm",
+          "dhis2:contraceptive_voucher"
+        ]
+      },
+      {
+        "name": "sperm",
+        "title": "Sperm",
+        "keywords": [
+          "Family Planning",
+          "Pregnancy",
+          "Reproductive System"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "name": "weight",
+        "title": "Weight Scale",
+        "keywords": [
+          "Diagnostic",
+          "Lab",
+          "Obese",
+          "Overweight",
+          "Science",
+          "Vitals",
+          "dhis2:weight"
+        ]
+      },
+      {
+        "name": "thermometer",
+        "title": "Temperature",
+        "keywords": [
+          "Cold Chain",
+          "Freezer",
+          "Refrigeration",
+          "Temperature",
+          "Thermometer",
+          "dhis2:thermometer"
+        ]
+      },
+      {
+        "name": "syringe",
+        "title": "Syringe",
+        "keywords": [
+          "Blood",
+          "Diagnostic",
+          "Injection",
+          "Lab",
+          "Liquid",
+          "Needle",
+          "Science",
+          "Treatment",
+          "dhis2:syringe"
+        ]
+      },
+      {
+        "name": "surgical_sterilization",
+        "title": "Surgical Tools",
+        "keywords": [
+          "Scalpel",
+          "Sterilized Surgical Tools",
+          "Surgeon",
+          "Surgery",
+          "Tweezers",
+          "dhis2:surgical_sterilization"
+        ]
+      },
+      {
+        "name": "stethoscope",
+        "title": "Stethoscope",
+        "keywords": [
+          "Device",
+          "Diagnosis",
+          "Doctor",
+          "Medical Officer",
+          "Vitals",
+          "dhis2:stethoscope"
+        ]
+      },
+      {
+        "name": "oxygen_tank",
+        "title": "Oxygen Tank",
+        "keywords": [
+          "02",
+          "Air",
+          "Breath dhis2:oxygen_tank",
+          "Canister"
+        ]
+      },
+      {
+        "name": "odontology_implant",
+        "title": "Odontology Implant",
+        "keywords": [
+          "Dentist",
+          "Tooth",
+          "dhis2:odontology_implant"
+        ]
+      },
+      {
+        "name": "odontology",
+        "title": "Odontology",
+        "keywords": [
+          "Dentist",
+          "Tooth",
+          "dhis2:odontology"
+        ]
+      },
+      {
+        "name": "observation",
+        "title": "Hospital Bed Timer",
+        "keywords": [
+          "Bed",
+          "Hospital",
+          "Inpatient",
+          "Observation",
+          "Treatment",
+          "dhis2:observation"
+        ]
+      },
+      {
+        "name": "mobile",
+        "title": "Mobile App",
+        "keywords": [
+          "App",
+          "Application",
+          "Phone",
+          "Smartphone",
+          "dhis2:mobile_app",
+          "eHealth"
+        ]
+      },
+      {
+        "name": "microscope",
+        "title": "Microscope",
+        "keywords": [
+          "Diagnostic",
+          "Lab",
+          "Magnify",
+          "Microscope",
+          "dhis2:microscope"
+        ]
+      },
+      {
+        "name": "inpatient",
+        "title": "Hospital Bed ALT",
+        "keywords": [
+          "Bed",
+          "Hospital",
+          "Inpatient",
+          "Treatment",
+          "dhis2:inpatient"
+        ]
+      },
+      {
+        "name": "hospitalized",
+        "title": "Hospital Bed",
+        "keywords": [
+          "Bed",
+          "Hospital",
+          "IV drip",
+          "Inpatient",
+          "Intravenous Drip",
+          "Treatment",
+          "dhis2:hospitalized"
+        ]
+      },
+      {
+        "name": "blood_pressure",
+        "title": "Hypertension",
+        "keywords": [
+          "BP",
+          "Blood pressure",
+          "Cardiology",
+          "Diagnosis",
+          "Heart",
+          "Hypertension",
+          "dhis2:blood_pressure_positive"
+        ]
+      },
+      {
+        "name": "diabetes_measure",
+        "title": "Glucometer",
+        "keywords": [
+          "Blood Sugar",
+          "DM",
+          "Diabetes",
+          "Glucose",
+          "Strip",
+          "dhis2:diabetes_measure"
+        ]
+      },
+      {
+        "name": "wheelchair_alt",
+        "title": "Wheelchair ALT",
+        "keywords": [
+          "Transport"
+        ]
+      },
+      {
+        "name": "intravenous_drip",
+        "title": "Intravenous Drip",
+        "keywords": [
+          "Bag",
+          "Blood",
+          "Drip",
+          "Hospitalized",
+          "IV",
+          "Inpatient",
+          "Patient",
+          "Saline",
+          "Surgery",
+          "Water"
+        ]
+      },
+      {
+        "name": "intravenous_bag",
+        "title": "Intravenous Bag",
+        "keywords": [
+          "Bag",
+          "Blood",
+          "Drip",
+          "IV",
+          "Liquid"
+        ]
+      },
+      {
+        "name": "thermometer_digital",
+        "title": "Thermometer Digital",
+        "keywords": [
+          "Fever",
+          "Temperature",
+          "Thermometer"
+        ]
+      },
+      {
+        "name": "wheelchair",
+        "title": "Wheelchair",
+        "keywords": [
+          "Accessibility",
+          "Disability",
+          "Disabled",
+          "Wheelchair"
+        ]
+      },
+      {
+        "name": "defibrillator",
+        "title": "Defibrillator",
+        "keywords": [
+          "Cardiology",
+          "ER",
+          "Electrical",
+          "Emergency",
+          "Heart"
+        ]
+      },
+      {
+        "name": "xray",
+        "title": "X-ray",
+        "keywords": [
+          "Chest",
+          "Exam",
+          "Radiology",
+          "Xray"
+        ]
+      },
+      {
+        "name": "llin",
+        "title": "Bed Net",
+        "keywords": [
+          "Device",
+          "Insecticide",
+          "Long Lasting Insecticidal Nets",
+          "Mosquito",
+          "dhis2:llin"
+        ]
+      },
+      {
+        "name": "blood_pressure_2",
+        "title": "Blood Pressure Monitor ALT",
+        "keywords": [
+          "BP",
+          "Cardiology",
+          "Device",
+          "Heart",
+          "Hypertension",
+          "dhis2:blood_pressure_2"
+        ]
+      },
+      {
+        "name": "blood_pressure_monitor",
+        "title": "Blood Pressure Monitor",
+        "keywords": [
+          "BP",
+          "Cardiology",
+          "Device",
+          "Heart",
+          "Hypertension",
+          "dhis2:blood_pressure_monitor"
+        ]
+      },
+      {
+        "name": "cold_chain",
+        "title": "Cold Temperature",
+        "keywords": [
+          "Cold",
+          "Cold Chain",
+          "Cool",
+          "Freezer",
+          "Low",
+          "Refrigeration",
+          "Temperature",
+          "Thermometer",
+          "dhis2:cold_chain"
+        ]
+      },
+      {
+        "name": "fever",
+        "title": "High Temperature",
+        "keywords": [
+          "Fever",
+          "High",
+          "Temperature",
+          "Thermometer",
+          "dhis2:fever"
+        ]
+      },
+      {
+        "name": "clinical_a",
+        "title": "Test Tube",
+        "keywords": [
+          "Diagnostic",
+          "Lab",
+          "Liquid",
+          "Science",
+          "dhis2:clinical_a"
+        ]
+      },
+      {
+        "name": "treated_water",
+        "title": "Treated Water",
+        "keywords": [
+          "Clean Water",
+          "Drinking Water",
+          "Hygeine",
+          "dhis2:treated_water"
+        ]
+      },
+      {
+        "name": "tac",
+        "title": "CT Scan",
+        "keywords": [
+          "CAT Scan",
+          "CT Scan",
+          "Computed Tomography",
+          "Diagnostic Imaging",
+          "Radiology",
+          "dhis2:tac"
+        ]
+      },
+      {
+        "name": "ventilator",
+        "title": "Ventilator",
+        "keywords": [
+          "Breathing",
+          "Device",
+          "Lungs"
+        ]
+      },
+      {
+        "name": "ventilator_alt",
+        "title": "Ventilator ALT",
+        "keywords": [
+          "Breathing",
+          "Device",
+          "Lungs"
+        ]
+      },
+      {
+        "name": "contact_lenses",
+        "title": "Contact Lens",
+        "keywords": [
+          "Corrective Lens",
+          "Ophthalmology",
+          "Sight",
+          "Vision"
+        ]
+      },
+      {
+        "name": "cast",
+        "title": "Cast",
+        "keywords": [
+          "Arm",
+          "Broken Arm",
+          "Limb",
+          "Splint"
+        ]
+      },
+      {
+        "name": "syringe-vaccine",
+        "title": "Syringe Vaccine",
+        "keywords": [
+          "Covid",
+          "Injection",
+          "Syringe",
+          "Vaccine",
+          "Virus"
+        ]
+      },
+      {
+        "name": "dental_hygiene",
+        "title": "Dental Hygiene",
+        "keywords": [
+          "Dental",
+          "Dentist",
+          "Hygiene",
+          "Teeth",
+          "Toothbrush",
+          "Toothpaste"
+        ]
+      },
+      {
+        "name": "ppe_santizer_alt",
+        "title": "PPE Sanitizer ALT",
+        "keywords": [
+          "Infection Control",
+          "PPE"
+        ]
+      },
+      {
+        "name": "sling",
+        "title": "Sling",
+        "keywords": [
+          "Arm",
+          "Broken Arm",
+          "Cast",
+          "Injury",
+          "Sprain",
+          "Trauma"
+        ]
+      },
+      {
+        "name": "virus-sanitizer-spray",
+        "title": "PPE Virus Sanitizer Spray",
+        "keywords": [
+          "Antibacterial",
+          "Cleaner",
+          "PPE",
+          "Protection",
+          "Safety",
+          "Sanitizer"
+        ]
+      },
+      {
+        "name": "virus_lab_research_syringe",
+        "title": "Virus Lab Research",
+        "keywords": [
+          "Research",
+          "Syringe",
+          "Viral",
+          "Virus"
+        ]
+      },
+      {
+        "name": "virus_lab_research_test_tube",
+        "title": "Virus Lab Research ALT",
+        "keywords": [
+          "Research",
+          "Test Tube",
+          "Viral",
+          "Virus"
+        ]
+      },
+      {
+        "name": "eyeglasses",
+        "title": "Eyeglasses",
+        "keywords": [
+          "Corrective Lens",
+          "Eyeglasses",
+          "Eyes",
+          "Glasses",
+          "Optometrist",
+          "Optometry"
+        ]
+      },
+      {
+        "name": "patient_band_alt",
+        "title": "Patient Band ALT",
+        "keywords": [
+          "Hospital",
+          "ID",
+          "Identification",
+          "Patient"
+        ]
+      },
+      {
+        "name": "patient_band",
+        "title": "Patient Band",
+        "keywords": [
+          "Hospital",
+          "ID",
+          "Identification",
+          "Patient"
+        ]
+      },
+      {
+        "name": "sonogram",
+        "title": "Sonogram",
+        "keywords": [
+          "Antenatal",
+          "Baby",
+          "Birth",
+          "Device",
+          "Fetus",
+          "Prenatal",
+          "Scan",
+          "Sonogram",
+          "Sonograph",
+          "Sonography"
+        ]
+      },
+      {
+        "name": "toilet_paper",
+        "title": "Toilet Paper",
+        "keywords": [
+          "Clean",
+          "Fecal",
+          "Feces",
+          "Paper",
+          "Poop",
+          "Sanitation",
+          "Sanitation",
+          "Toilet"
+        ]
+      },
+      {
+        "name": "ultrasound_scanner",
+        "title": "Ultrasound Device",
+        "keywords": [
+          "Baby",
+          "Childbirth",
+          "Device",
+          "Fetus",
+          "Maternity",
+          "Neonatal",
+          "Obgyn",
+          "Obstetrics",
+          "Prenatal",
+          "Scan",
+          "Ultrasound"
+        ]
+      },
+      {
+        "name": "medical_sample",
+        "title": "Medical Sample",
+        "keywords": [
+          "Container",
+          "Exam",
+          "Fluid",
+          "Lab",
+          "Laboratory",
+          "Sample",
+          "Test",
+          "Test tube"
+        ]
+      },
+      {
+        "name": "breast_pump",
+        "title": "Breast Pump",
+        "keywords": [
+          "Baby",
+          "Birth",
+          "Birthing",
+          "Breastfeed",
+          "Chest",
+          "Milk",
+          "Mother",
+          "Obgyn",
+          "Obstetrics",
+          "Parent",
+          "Postnatal"
+        ]
+      },
+      {
+        "name": "pulse_oximeter_alt",
+        "title": "Pulse Oximeter",
+        "keywords": [
+          "Device",
+          "Finger",
+          "Measure",
+          "Oximeter",
+          "Oxygen",
+          "Pulse"
+        ]
+      },
+      {
+        "name": "pulse_oximeter",
+        "title": "Pulse Oximeter",
+        "keywords": [
+          "Device",
+          "Finger",
+          "Measure",
+          "Oximeter",
+          "Oxygen",
+          "Pulse"
+        ]
+      },
+      {
+        "name": "medicine_mortar",
+        "title": "Mortar and Pestle",
+        "keywords": [
+          "Compound",
+          "Compounding",
+          "Medicine",
+          "Mix",
+          "Mortar",
+          "Pestle",
+          "Pharmacy"
+        ]
+      },
+      {
+        "name": "medicine_bottle",
+        "title": "Medicine Container",
+        "keywords": [
+          "Bottle",
+          "Capsule",
+          "Drug",
+          "Medication",
+          "Packaging",
+          "Pharmacy",
+          "Prescription"
+        ]
+      },
+      {
+        "name": "asthma_inhaler",
+        "title": "Inhaler",
+        "keywords": [
+          "Allergy",
+          "Asthma",
+          "Breath",
+          "Breathing",
+          "Inhaler",
+          "Lung",
+          "Nebulizer",
+          "Puffer",
+          "Pump",
+          "Respiratory System"
+        ]
+      },
+      {
+        "name": "hearing_aid",
+        "title": "Hearing Aid",
+        "keywords": [
+          "Assistive",
+          "Audio",
+          "Audiology",
+          "Device",
+          "Ear",
+          "Hearing"
+        ]
+      },
+      {
+        "name": "crutches",
+        "title": "Crutch",
+        "keywords": [
+          "Assistive",
+          "Break",
+          "Crutch",
+          "Physical Therapy",
+          "Rehab",
+          "Rehabilitation"
+        ]
+      },
+      {
+        "name": "cane",
+        "title": "Cane",
+        "keywords": [
+          "Assistive",
+          "Cane",
+          "Disability",
+          "Elderly",
+          "Older",
+          "Physiotherapy",
+          "Staff",
+          "Stick",
+          "Stick",
+          "Support",
+          "Walker",
+          "Walking"
+        ]
+      },
+      {
+        "name": "test_tubes",
+        "title": "Test tubes",
+        "keywords": [
+          "Research",
+          "Sample",
+          "Test Tube",
+          "Vial"
+        ]
+      },
+      {
+        "name": "stent",
+        "title": "Stent",
+        "keywords": [
+          "Artery",
+          "Blood vessel",
+          "Device",
+          "Heart",
+          "Heart attack",
+          "Stent",
+          "Stroke",
+          "Surgery",
+          "Vein"
+        ]
+      },
+      {
+        "name": "cochlear_implant",
+        "title": "Cochlear Implant",
+        "keywords": [
+          "Assistive Device",
+          "Audio",
+          "Ear",
+          "Hearing",
+          "Hearing Aid",
+          "Sensory",
+          "Sound",
+          "Speech"
+        ]
+      },
+      {
+        "name": "urine_sample",
+        "title": "Urine Sample",
+        "keywords": [
+          "Container",
+          "Cup",
+          "Kidney",
+          "Lab",
+          "Laboratory",
+          "Liquid",
+          "Sample"
+        ]
+      },
+      {
+        "name": "orthotics",
+        "title": "Orthotics",
+        "keywords": [
+          "Braces",
+          "Calipers",
+          "Foot",
+          "Footwear",
+          "Insole",
+          "Support"
+        ]
+      },
+      {
+        "name": "endotracheal_tube",
+        "title": "Endotracheal Tube",
+        "keywords": [
+          "Airway",
+          "Breathe",
+          "Catheter",
+          "Device",
+          "Emergency",
+          "Oxygen",
+          "Throat",
+          "Trachea",
+          "Vocal cords"
+        ]
+      },
+      {
+        "name": "laryngoscope",
+        "title": "Laryngoscope",
+        "keywords": [
+          "Airway",
+          "Device",
+          "Exam",
+          "Examination",
+          "Larynx",
+          "Throat",
+          "Video",
+          "Vocal cords"
+        ]
+      },
+      {
+        "name": "microscope_with_specimen",
+        "title": "Microscope with Specimen",
+        "keywords": [
+          "Diagnostic",
+          "Examination",
+          "Lab",
+          "Magnify",
+          "Microscope",
+          "Specimen"
+        ]
+      },
+      {
+        "name": "staples",
+        "title": "Staples",
+        "keywords": [
+          "Emergency",
+          "Incision",
+          "Staples",
+          "Stitch",
+          "Suture",
+          "Wound",
+          "Wound"
+        ]
+      },
+      {
+        "name": "stitches",
+        "title": "Stitches",
+        "keywords": [
+          "Emergency",
+          "Incision",
+          "Staples",
+          "Stitch",
+          "Suture",
+          "Wound",
+          "Wound"
+        ]
+      },
+      {
+        "name": "ecmo",
+        "title": "ECMO",
+        "keywords": [
+          "Critical Care",
+          "Device",
+          "Extracorporeal membrane oxygenation",
+          "ICU",
+          "Life Support",
+          "Lungs",
+          "Oxygen",
+          "Pump"
+        ]
+      },
+      {
+        "name": "cpap_machine",
+        "title": "CPAP machine",
+        "keywords": [
+          "Breathing",
+          "Continuous positive airway pressure",
+          "Device",
+          "Mask",
+          "Sleep Apnea"
+        ]
+      },
+      {
+        "name": "cpap_tubes",
+        "title": "CPAP Mask",
+        "keywords": [
+          "Breathing",
+          "Continuous positive airway pressure",
+          "Device",
+          "Mask",
+          "Sleep Apnea",
+          "Tubes"
+        ]
+      },
+      {
+        "name": "infusion_pump",
+        "title": "Infusion pump",
+        "keywords": [
+          "Bag",
+          "Device",
+          "Fluids",
+          "IV",
+          "Infusion",
+          "Liquid",
+          "Nutrients",
+          "Pump"
+        ]
+      },
+      {
+        "name": "cpap_masks",
+        "title": "CPAP Mask ALT",
+        "keywords": [
+          "Breathing",
+          "Continuous positive airway pressure",
+          "Device",
+          "Mask",
+          "Sleep Apnea",
+          "Tubes"
+        ]
+      }
+    ],
+    "diagnostics": [
+      {
+        "name": "synergist_insecticide_bioassays",
+        "title": "Synergist Insecticide Bioassays",
+        "keywords": [
+          "Malaria",
+          "Mosquito",
+          "dhis2:synergist_insecticide_bioassays"
+        ]
+      },
+      {
+        "name": "rdt_result_pv",
+        "title": "Rapid Diagnostic Testing Result PV",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_pv"
+        ]
+      },
+      {
+        "name": "rdt_result_positive",
+        "title": "Rapid Diagnostic Testing Result Positive",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_positive"
+        ]
+      },
+      {
+        "name": "rdt_result_pf_invalid",
+        "title": "Rapid Diagnostic Testing Result PF Invalid",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_pf_invalid"
+        ]
+      },
+      {
+        "name": "rdt_result_no_test",
+        "title": "Rapid Diagnostic Testing Result No Test",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_no_test"
+        ]
+      },
+      {
+        "name": "rdt_result_neg_invalid",
+        "title": "Rapid Diagnostic Testing Result Negative Invalid",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_neg_invalid"
+        ]
+      },
+      {
+        "name": "rdt_result_neg",
+        "title": "Rapid Diagnostic Testing Result Negative",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_neg"
+        ]
+      },
+      {
+        "name": "rdt_result_mixed_invalid",
+        "title": "Rapid Diagnostic Testing Result Mixed Invalid",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_mixed_invalid"
+        ]
+      },
+      {
+        "name": "rdt_result_mixed",
+        "title": "Rapid Diagnostic Testing Result Mixed Positve",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_mixed"
+        ]
+      },
+      {
+        "name": "rdt_result_pv_invalid",
+        "title": "Rapid Diagnostic Testing Result Invalid",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_pv_invalid"
+        ]
+      },
+      {
+        "name": "rdt_result_pf",
+        "title": "Rapid Diagnostic Testing PF",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_pf"
+        ]
+      },
+      {
+        "name": "rdt_result_invalid",
+        "title": "Rapid Diagnostic Testing Result Invalid",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_invalid"
+        ]
+      },
+      {
+        "name": "rdt_result",
+        "title": "Rapid Diagnostic Testing Result Negative",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_negative"
+        ]
+      },
+      {
+        "name": "mosquito_collection",
+        "title": "Mosquito Collection",
+        "keywords": [
+          "Malaria",
+          "Mosquito",
+          "dhis2:mosquito_collection"
+        ]
+      },
+      {
+        "name": "malaria_testing",
+        "title": "Malaria Testing",
+        "keywords": [
+          "Malaria",
+          "Mosquito",
+          "dhis2:malaria_testing"
+        ]
+      },
+      {
+        "name": "malaria_pv_microscope",
+        "title": "Malaria PV",
+        "keywords": [
+          "Diagnostic",
+          "Malaria",
+          "Microscopic",
+          "dhis2:malaria_pv_microscope"
+        ]
+      },
+      {
+        "name": "malaria_pf_microscope",
+        "title": "Malaria PF",
+        "keywords": [
+          "Diagnostic",
+          "Malaria",
+          "Microscopic",
+          "dhis2:malaria_pf_microscope"
+        ]
+      },
+      {
+        "name": "malaria_mixed_microscope",
+        "title": "Malaria Mixed",
+        "keywords": [
+          "Diagnostic",
+          "Malaria",
+          "Microscopic",
+          "dhis2:malaria_mixed_microscope"
+        ]
+      },
+      {
+        "name": "malaria_microscope",
+        "title": "Malaria Negative",
+        "keywords": [
+          "Diagnostic",
+          "Malaria",
+          "Microscopic",
+          "dhis2:malaria_negative_microscope"
+        ]
+      },
+      {
+        "name": "hiv_self_test",
+        "title": "HIV Self Test",
+        "keywords": [
+          "AIDS",
+          "Blood",
+          "Diagnostic",
+          "HIV",
+          "Hand",
+          "dhis2:hiv_self_test"
+        ]
+      },
+      {
+        "name": "cone_test_on_walls",
+        "title": "Cone Test on Walls",
+        "keywords": [
+          "Diagnostic",
+          "Testing",
+          "dhis2:cone_test_on_walls"
+        ]
+      },
+      {
+        "name": "cone_test_on_nets",
+        "title": "Cone Test on Nets",
+        "keywords": [
+          "Diagnostic",
+          "Testing",
+          "dhis2:cone_test_on_nets"
+        ]
+      },
+      {
+        "name": "intensity_concentration_bioassays",
+        "title": "Intensity Concentration Bioassays",
+        "keywords": [
+          "Diagnostic",
+          "Malaria",
+          "Mosquito",
+          "dhis2:intensity_concentration_bioassays"
+        ]
+      },
+      {
+        "name": "discriminating_concentration_bioassays",
+        "title": "Discriminating Concentration Bioassays",
+        "keywords": [
+          "Mosquito",
+          "Test",
+          "dhis2:discriminating_concentration_bioassays"
+        ]
+      },
+      {
+        "name": "rdt_result_pv_rectangular",
+        "title": "Rapid Diagnostic Testing Result PV",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_pv_rectangular"
+        ]
+      },
+      {
+        "name": "rdt_result_pf_rectangular",
+        "title": "Rapid Diagnostic Testing Result PF",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_pf_rectangular"
+        ]
+      },
+      {
+        "name": "rdt_result_pf_invalid_rectangular",
+        "title": "Rapid Diagnostic Testing Result PF Invalid",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_pf_invalid_rectangular"
+        ]
+      },
+      {
+        "name": "rdt_result_neg_rectangular",
+        "title": "Rapid Diagnostic Testing Result Negative",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_neg_rectangular"
+        ]
+      },
+      {
+        "name": "rdt_result_mixed_rectangular",
+        "title": "Rapid Diagnostic Testing Result Mixed",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_mixed_rectangular"
+        ]
+      },
+      {
+        "name": "rdt_result_mixed_invalid_rectangular",
+        "title": "Rapid Diagnostic Testing Result Mixed Invalid",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_mixed_invalid_rectangular"
+        ]
+      },
+      {
+        "name": "rdt_result_neg_invalid_rectangular",
+        "title": "Rapid Diagnostic Testing Result Negative Invalid",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_neg_invalid_rectangular"
+        ]
+      },
+      {
+        "name": "rdt_result_pv_invalid_rectangular",
+        "title": "Rapid Diagnostic Testing Result PV Invalid",
+        "keywords": [
+          "Diagnostic",
+          "RDT",
+          "Testing",
+          "dhis2:rdt_result_pv_invalid_rectangular"
+        ]
+      },
+      {
+        "name": "biopsy",
+        "title": "Biopsy",
+        "keywords": [
+          "Biopsy",
+          "Cancer",
+          "Cells",
+          "Device",
+          "Diagnostic",
+          "Lab",
+          "Laboratory",
+          "Sample",
+          "Test",
+          "Tissue",
+          "Tumor"
+        ]
+      }
+    ],
+    "emotions": [
+      {
+        "name": "expectorate",
+        "title": "Expectorate",
+        "keywords": [
+          "Aerosol",
+          "Cough",
+          "Emoji",
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Sneeze",
+          "dhis2:expectorate"
+        ]
+      },
+      {
+        "name": "fever",
+        "title": "Fever",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Fever",
+          "Frown",
+          "Negative",
+          "Sick",
+          "Symptom",
+          "Thermometer",
+          "dhis2:fever"
+        ]
+      },
+      {
+        "name": "sad",
+        "title": "Sad",
+        "keywords": [
+          "Bad",
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Frown",
+          "Negative",
+          "Sad",
+          "dhis2:sad"
+        ]
+      },
+      {
+        "name": "measles",
+        "title": "Measles",
+        "keywords": [
+          "Disease",
+          "Emoji",
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Fever",
+          "Measles",
+          "dhis2:measles"
+        ]
+      },
+      {
+        "name": "ok",
+        "title": "Smile",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Happy",
+          "OK",
+          "Okay",
+          "Smile",
+          "dhis2:ok"
+        ]
+      },
+      {
+        "name": "angry",
+        "title": "Angry",
+        "keywords": [
+          "Anger",
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Mad",
+          "Upset"
+        ]
+      },
+      {
+        "name": "confused",
+        "title": "Confused",
+        "keywords": [
+          "Concern",
+          "Confusion",
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face"
+        ]
+      },
+      {
+        "name": "crying",
+        "title": "Crying",
+        "keywords": [
+          "Crying",
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Sad",
+          "Tears"
+        ]
+      },
+      {
+        "name": "nauseous",
+        "title": "Nauseous",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Nausea",
+          "Nauseous",
+          "Puke",
+          "Sick",
+          "Vomit"
+        ]
+      },
+      {
+        "name": "loudly_crying",
+        "title": "Loudly Crying",
+        "keywords": [
+          "Crying",
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Sad",
+          "Tears"
+        ]
+      },
+      {
+        "name": "not_ok",
+        "title": "Frown",
+        "keywords": [
+          "Bad",
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Frown",
+          "Negative",
+          "dhis2:not_ok"
+        ]
+      },
+      {
+        "name": "neutral",
+        "title": "Neutral",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Neutral",
+          "OK",
+          "Okay",
+          "dhis2:neutral"
+        ]
+      },
+      {
+        "name": "happy",
+        "title": "Happy",
+        "keywords": [
+          "Content",
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Joy",
+          "Laugh",
+          "Smile",
+          "dhis2:happy"
+        ]
+      },
+      {
+        "name": "coughing",
+        "title": "Coughing",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Sick",
+          "Sneeze",
+          "Symptom"
+        ]
+      },
+      {
+        "name": "vomitting",
+        "title": "Vomiting",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Puke",
+          "Sick",
+          "Symptom"
+        ]
+      },
+      {
+        "name": "masked",
+        "title": "Masked",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Mask",
+          "PPE",
+          "Sick",
+          "Surgery"
+        ]
+      },
+      {
+        "name": "eyeglasses",
+        "title": "Glasses",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Eyeglasses",
+          "Eyeglasses",
+          "Face",
+          "Optometry",
+          "Spectacles"
+        ]
+      },
+      {
+        "name": "bandaged",
+        "title": "Bandage",
+        "keywords": [
+          "Bandage",
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Head Injury",
+          "Injury",
+          "Sick"
+        ]
+      },
+      {
+        "name": "dizzy",
+        "title": "Dizzy",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Nausea",
+          "Nauseous"
+        ]
+      },
+      {
+        "name": "tongue",
+        "title": "Tongue",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Mouth"
+        ]
+      },
+      {
+        "name": "woozy",
+        "title": "Woozy",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Nausea",
+          "Nauseous",
+          "Sick"
+        ]
+      },
+      {
+        "name": "sweating",
+        "title": "Sweating",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Fever",
+          "Perspiration",
+          "Sweat"
+        ]
+      },
+      {
+        "name": "nervous",
+        "title": "Nervous",
+        "keywords": [
+          "Clenched Teeth",
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Nerves",
+          "Teeth"
+        ]
+      },
+      {
+        "name": "sleepy",
+        "title": "Sleepy",
+        "keywords": [
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Exhausted",
+          "Face",
+          "Sleeping",
+          "Tired"
+        ]
+      },
+      {
+        "name": "calm",
+        "title": "Calm",
+        "keywords": [
+          "Calm",
+          "Comfort",
+          "Emoji",
+          "Emoticon",
+          "Emotion",
+          "Face",
+          "Relaxed"
+        ]
+      }
+    ],
+    "exercise": [
+      {
+        "name": "swim",
+        "title": "Swimming",
+        "keywords": [
+          "Aqua",
+          "Aquatics",
+          "Exercise",
+          "Fitness",
+          "Physio",
+          "Physiotherapy",
+          "Pool",
+          "Swim",
+          "Swimming",
+          "Therapy",
+          "Water"
+        ]
+      },
+      {
+        "name": "walking",
+        "title": "Activity Walk",
+        "keywords": [
+          "Exercise",
+          "Fitness",
+          "Lifestyle",
+          "Patient",
+          "People",
+          "Physio",
+          "Physio",
+          "Physiotherapy",
+          "Walk"
+        ]
+      },
+      {
+        "name": "running",
+        "title": "Activity Run",
+        "keywords": [
+          "Exercise",
+          "Fitness",
+          "Jog",
+          "Lifestyle",
+          "Patient",
+          "People",
+          "Physio",
+          "Physiotherapy",
+          "Run"
+        ]
+      },
+      {
+        "name": "weights",
+        "title": "Activity Weights",
+        "keywords": [
+          "Exercise",
+          "Fitness",
+          "Lifestyle",
+          "Patient",
+          "People",
+          "Physio",
+          "Physiotherapy",
+          "Weightlifting",
+          "Weights"
+        ]
+      },
+      {
+        "name": "walk_supported",
+        "title": "Supported Walk",
+        "keywords": [
+          "Exercise",
+          "Fitness",
+          "Lifestyle",
+          "Patient",
+          "People",
+          "Physio",
+          "Physiotherapy",
+          "Walk"
+        ]
+      },
+      {
+        "name": "exercise_bicycle",
+        "title": "Exercise Bicycle",
+        "keywords": [
+          "Bicycle",
+          "Bike",
+          "Exercise",
+          "Fitness",
+          "Gym",
+          "Physio",
+          "Physiotherapy",
+          "Rehab",
+          "Rehabilitation"
+        ]
+      },
+      {
+        "name": "exercise",
+        "title": "Exercise",
+        "keywords": [
+          "Fitness",
+          "Physio",
+          "Physiotherapy",
+          "Strong",
+          "Weightlifting",
+          "Weights",
+          "Wellness",
+          "dhis2:exercise"
+        ]
+      }
+    ],
+    "graphs": [
+      {
+        "name": "chart_bar",
+        "title": "Bar Chart",
+        "keywords": [
+          "Bar Chart",
+          "Data",
+          "Graph",
+          "Visualization"
+        ]
+      },
+      {
+        "name": "chart_bar_stacked",
+        "title": "Split Bar Chart",
+        "keywords": [
+          "Bar Chart",
+          "Data",
+          "Graph",
+          "Visualization"
+        ]
+      },
+      {
+        "name": "chart_line",
+        "title": "Line Chart",
+        "keywords": [
+          "Data",
+          "Graph",
+          "Line Chart",
+          "Node",
+          "Visualization"
+        ]
+      },
+      {
+        "name": "chart_line_stacked",
+        "title": "Double Line Chart",
+        "keywords": [
+          "Data",
+          "Graph",
+          "Line Chart",
+          "Node",
+          "Visualization"
+        ]
+      },
+      {
+        "name": "chart_pie",
+        "title": "Pie Chart",
+        "keywords": [
+          "Data",
+          "Graph",
+          "Node",
+          "Pie Chart",
+          "Visualization"
+        ]
+      },
+      {
+        "name": "chart-cured-decreasing",
+        "title": "Cured Decreasing Line Chart",
+        "keywords": [
+          "Chart",
+          "Covid",
+          "Death",
+          "Graph",
+          "Metrics",
+          "Mortality",
+          "Viral",
+          "Virology",
+          "Virus"
+        ]
+      },
+      {
+        "name": "chart-cured-increasing",
+        "title": "Cured Increasing Line Chart",
+        "keywords": [
+          "Chart",
+          "Covid",
+          "Death",
+          "Graph",
+          "Metrics",
+          "Mortality",
+          "Viral",
+          "Virology",
+          "Virus"
+        ]
+      },
+      {
+        "name": "chart-death-rate-increasing",
+        "title": "Death Rate Decreasing Line Chart",
+        "keywords": [
+          "Chart",
+          "Covid",
+          "Death",
+          "Graph",
+          "Metrics",
+          "Mortality",
+          "Viral",
+          "Virology",
+          "Virus"
+        ]
+      },
+      {
+        "name": "chart-death-rate-decreasing",
+        "title": "Death Rate Increasing Line Chart",
+        "keywords": [
+          "Chart",
+          "Covid",
+          "Death",
+          "Graph",
+          "Metrics",
+          "Mortality",
+          "Viral",
+          "Virology",
+          "Virus"
+        ]
+      },
+      {
+        "name": "chart-death-rate-stable",
+        "title": "Death Rate Stable Line Chart",
+        "keywords": [
+          "Chart",
+          "Covid",
+          "Death",
+          "Graph",
+          "Metrics",
+          "Mortality",
+          "Viral",
+          "Virology",
+          "Virus"
+        ]
+      },
+      {
+        "name": "chart-infected-decreasing",
+        "title": "Infected Decreasing Line Chart",
+        "keywords": [
+          "Chart",
+          "Covid",
+          "Graph",
+          "Metrics",
+          "Viral",
+          "Virology",
+          "Virus"
+        ]
+      },
+      {
+        "name": "chart-infected-increasing",
+        "title": "Infected Increasing Line Chart",
+        "keywords": [
+          "Chart",
+          "Covid",
+          "Graph",
+          "Metrics",
+          "Viral",
+          "Virology",
+          "Virus"
+        ]
+      },
+      {
+        "name": "chart-infected-stable",
+        "title": "Infected Stable Line Chart",
+        "keywords": [
+          "Chart",
+          "Covid",
+          "Flat",
+          "Graph",
+          "Metrics",
+          "Stable",
+          "Viral",
+          "Virology",
+          "Virus"
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "name": "pills_4",
+        "title": "Pill 4",
+        "keywords": [
+          "Drug",
+          "Medication",
+          "Meds",
+          "Pharmacy",
+          "Pill",
+          "Round",
+          "dhis2:pill_4"
+        ]
+      },
+      {
+        "name": "pills_3",
+        "title": "Pill 3",
+        "keywords": [
+          "Drug",
+          "Medication",
+          "Meds",
+          "Pharmacy",
+          "Pill",
+          "Round",
+          "dhis2:pill_3"
+        ]
+      },
+      {
+        "name": "pills_2",
+        "title": "Pill 2",
+        "keywords": [
+          "Drug",
+          "Medication",
+          "Meds",
+          "Pharmacy",
+          "Pill",
+          "Round",
+          "dhis2:pill_2"
+        ]
+      },
+      {
+        "name": "pill_1",
+        "title": "Pill 1",
+        "keywords": [
+          "Drug",
+          "Medication",
+          "Meds",
+          "Pharmacy",
+          "Pill",
+          "Round",
+          "dhis2:pill_1"
+        ]
+      },
+      {
+        "name": "medicines",
+        "title": "Medicines",
+        "keywords": [
+          "Drugs",
+          "Medications",
+          "Meds",
+          "Pharmacy",
+          "Pills",
+          "dhis2:Medicines"
+        ]
+      },
+      {
+        "name": "blister_pills_round_x16",
+        "title": "Blister Pills Round x16",
+        "keywords": [
+          "Blister Pack",
+          "Drug",
+          "Foil",
+          "Medication",
+          "Meds",
+          "Pharmacy",
+          "Pill",
+          "Round",
+          "dhis2:blister_pills_round_x16"
+        ]
+      },
+      {
+        "name": "blister_pills_round_x14",
+        "title": "Blister Pills Round x14",
+        "keywords": [
+          "Blister Pack",
+          "Drug",
+          "Foil",
+          "Medication",
+          "Meds",
+          "Pharmacy",
+          "Pill",
+          "Round",
+          "dhis2:blister_pills_round_x14"
+        ]
+      },
+      {
+        "name": "blister_pills_round_x4",
+        "title": "Blister Pills Round x4",
+        "keywords": [
+          "Blister Pack",
+          "Drug",
+          "Foil",
+          "Medication",
+          "Meds",
+          "Pharmacy",
+          "Pill",
+          "Round",
+          "dhis2:blister_pills_round_x4"
+        ]
+      },
+      {
+        "name": "blister_pills_round_x1",
+        "title": "Blister Pills Round x1",
+        "keywords": [
+          "Blister Pack",
+          "Drug",
+          "Foil",
+          "Medication",
+          "Meds",
+          "Pharmacy",
+          "Pill",
+          "Round",
+          "dhis2:blister_pills_round_x1"
+        ]
+      },
+      {
+        "name": "blister_pills_oval_x16",
+        "title": "Blister Pills Oval x16",
+        "keywords": [
+          "Blister Pack",
+          "Drug",
+          "Foil",
+          "Medication",
+          "Meds",
+          "Oval",
+          "Pharmacy",
+          "Pill",
+          "dhis2:blister_pills_oval_x16"
+        ]
+      },
+      {
+        "name": "blister_pills_oval_x14",
+        "title": "Blister Pills Oval x14",
+        "keywords": [
+          "Blister Pack",
+          "Drug",
+          "Foil",
+          "Medication",
+          "Meds",
+          "Oval",
+          "Pharmacy",
+          "Pill",
+          "dhis2:blister_pills_oval_x14"
+        ]
+      },
+      {
+        "name": "blister_pills_oval_x4",
+        "title": "Blister Pills Oval x4",
+        "keywords": [
+          "Blister Pack",
+          "Drug",
+          "Foil",
+          "Medication",
+          "Meds",
+          "Oval",
+          "Pharmacy",
+          "Pill",
+          "dhis2:blister_pills_oval_x4"
+        ]
+      },
+      {
+        "name": "blister_pills_oval_x1",
+        "title": "Blister Pills Oval x1",
+        "keywords": [
+          "Blister Pack",
+          "Drug",
+          "Foil",
+          "Medication",
+          "Meds",
+          "Oval",
+          "Pharmacy",
+          "Pill",
+          "dhis2:blister_pills_oval_x1"
+        ]
+      }
+    ],
+    "nutrition": [
+      {
+        "name": "nutrition",
+        "title": "Nutrition",
+        "keywords": [
+          "Apple",
+          "Carrot",
+          "Diet",
+          "Food",
+          "Fruit",
+          "Healthy",
+          "Vegetables",
+          "dhis2:nutrition"
+        ]
+      },
+      {
+        "name": "fruits",
+        "title": "Fruits",
+        "keywords": [
+          "Apple",
+          "Food",
+          "Fruit",
+          "Fruits",
+          "Grape",
+          "Health",
+          "Healthy",
+          "Nutrition"
+        ]
+      },
+      {
+        "name": "alcohol",
+        "title": "Alcohol",
+        "keywords": [
+          "Abuse",
+          "Alcohol",
+          "Beverage",
+          "Booze",
+          "Bottle",
+          "Consumable",
+          "Drug",
+          "Food",
+          "Glass",
+          "Wine"
+        ]
+      },
+      {
+        "name": "carbohydrates",
+        "title": "Carbohydrates",
+        "keywords": [
+          "Bread",
+          "Carbohydrates",
+          "Carbs",
+          "Diet",
+          "Food",
+          "Nutrition",
+          "Wheat"
+        ]
+      },
+      {
+        "name": "hot_meal",
+        "title": "Hot Meal",
+        "keywords": [
+          "Food",
+          "Meal",
+          "dhis2:hot_meal"
+        ]
+      },
+      {
+        "name": "unhealthy_food",
+        "title": "Unhealthy Food",
+        "keywords": [
+          "Fast Food",
+          "Food",
+          "French Fries",
+          "Fried Food",
+          "Nutrition"
+        ]
+      },
+      {
+        "name": "lactose",
+        "title": "Sodium",
+        "keywords": [
+          "Cardiology",
+          "Food",
+          "Nutrition",
+          "Salt",
+          "Sodium",
+          "Unhealthy"
+        ]
+      },
+      {
+        "name": "sodium_free",
+        "title": "Low Sodium",
+        "keywords": [
+          "Food",
+          "No",
+          "None",
+          "Nutrition",
+          "Salt",
+          "Sodium"
+        ]
+      },
+      {
+        "name": "dairy",
+        "title": "Dairy",
+        "keywords": [
+          "Beverage",
+          "Cow",
+          "Dairy",
+          "Drink",
+          "Food",
+          "Lactose",
+          "Milk",
+          "Nutrition"
+        ]
+      },
+      {
+        "name": "lactose_free",
+        "title": "Dairy Free",
+        "keywords": [
+          "Allergy",
+          "Beverage",
+          "Cow",
+          "Dairy",
+          "Drink",
+          "Food",
+          "Lactose",
+          "Lactose Free",
+          "Milk",
+          "Nutrition"
+        ]
+      },
+      {
+        "name": "baby_formula",
+        "title": "Baby Formula",
+        "keywords": [
+          "Baby",
+          "Baby Food",
+          "Dairy",
+          "Food",
+          "Milk",
+          "Milk Substitute",
+          "Mother",
+          "Nutrition",
+          "Postnatal"
+        ]
+      },
+      {
+        "name": "sugar",
+        "title": "Sugar",
+        "keywords": [
+          "Cube",
+          "Food",
+          "Nutrition",
+          "Sucrose",
+          "Sugar",
+          "Sweetener"
+        ]
+      },
+      {
+        "name": "sugar_alt",
+        "title": "Sugar",
+        "keywords": [
+          "Food",
+          "Nutrition",
+          "Salt",
+          "Sodium",
+          "Spoon",
+          "Sucrose",
+          "Sugar",
+          "Sweetener"
+        ]
+      },
+      {
+        "name": "alcohol_cessation",
+        "title": "No Alcohol",
+        "keywords": [
+          "Alcohol",
+          "Cessation",
+          "Food",
+          "Liquor",
+          "Nutrition",
+          "Nutrition",
+          "Reduction",
+          "Wine"
+        ]
+      },
+      {
+        "name": "gluten",
+        "title": "Gluten",
+        "keywords": [
+          "Celiac Disease",
+          "Cereal",
+          "Food",
+          "Gluten",
+          "Nutrition",
+          "Wheat"
+        ]
+      },
+      {
+        "name": "gluten_free",
+        "title": "Gluten Free",
+        "keywords": [
+          "Celiac Disease",
+          "Cereal",
+          "Food",
+          "Gluten",
+          "Nutrition",
+          "Wheat"
+        ]
+      },
+      {
+        "name": "vegetables",
+        "title": "Vegetables",
+        "keywords": [
+          "Apple",
+          "Carrot",
+          "Diet",
+          "Food",
+          "Fruit",
+          "Green",
+          "Healthy",
+          "Kale",
+          "Nutrition",
+          "Vegetables"
+        ]
+      },
+      {
+        "name": "sugar_free",
+        "title": "Sugar Free",
+        "keywords": [
+          "Diet",
+          "Food",
+          "Healthy",
+          "Nutrition",
+          "Sugar",
+          "Sugar Free",
+          "Sweet"
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "name": "money_bag",
+        "title": "Money Bag",
+        "keywords": [
+          "Currency",
+          "Money",
+          "Payment",
+          "dhis2:money_bag"
+        ]
+      },
+      {
+        "name": "coins",
+        "title": "Coins",
+        "keywords": [
+          "Currency",
+          "Money",
+          "Payment",
+          "dhis2:coins"
+        ]
+      },
+      {
+        "name": "bills",
+        "title": "Money Bills",
+        "keywords": [
+          "Currency",
+          "Paper Money",
+          "Payment",
+          "dhis2:bills"
+        ]
+      },
+      {
+        "name": "prescription_document",
+        "title": "Prescription",
+        "keywords": [
+          "Medication",
+          "Pharmacy",
+          "Rx",
+          "Script"
+        ]
+      },
+      {
+        "name": "megaphone",
+        "title": "Megaphone",
+        "keywords": [
+          "Announcement",
+          "Noise",
+          "Speaker",
+          "dhis2:megaphone"
+        ]
+      },
+      {
+        "name": "calendar",
+        "title": "Calendar",
+        "keywords": [
+          "Appointment",
+          "Cal",
+          "Event",
+          "dhis2:calendar"
+        ]
+      },
+      {
+        "name": "book",
+        "title": "Medical Book",
+        "keywords": [
+          "Book",
+          "Dictionary",
+          "Guide",
+          "Records",
+          "Textbook",
+          "dhis2:book"
+        ]
+      },
+      {
+        "name": "award_trophy",
+        "title": "Trophy",
+        "keywords": [
+          "Prize",
+          "Success",
+          "Trophy",
+          "dhis2:award_trophy"
+        ]
+      },
+      {
+        "name": "spreadsheets",
+        "title": "Spreadsheet",
+        "keywords": [
+          "Calculation",
+          "Data",
+          "Excel",
+          "Sheets"
+        ]
+      },
+      {
+        "name": "desktop_app",
+        "title": "Desktop App",
+        "keywords": [
+          "Computer",
+          "Desktop",
+          "Icons",
+          "MacOS",
+          "Monitor",
+          "Operating System",
+          "Windows"
+        ]
+      },
+      {
+        "name": "register_book",
+        "title": "Health Register Book",
+        "keywords": [
+          "Book",
+          "Chart",
+          "Document",
+          "Documentation",
+          "Health Record",
+          "Library",
+          "Medicine",
+          "Registry",
+          "Symbol"
+        ]
+      },
+      {
+        "name": "i_certificate_paper",
+        "title": "Certificate",
+        "keywords": [
+          "Document",
+          "Paper",
+          "Test",
+          "dhis2:i_certificate"
+        ]
+      },
+      {
+        "name": "health_worker_form",
+        "title": "Health Worker Form",
+        "keywords": [
+          "Doctor",
+          "Document",
+          "Nurse",
+          "Paper",
+          "Patient",
+          "Test",
+          "dhis2:health_worker_form"
+        ]
+      },
+      {
+        "name": "justice",
+        "title": "Justice",
+        "keywords": [
+          "Law",
+          "Legal",
+          "Scales",
+          "dhis2:justice"
+        ]
+      },
+      {
+        "name": "phone",
+        "title": "Phone",
+        "keywords": [
+          "Call",
+          "Communication",
+          "Telephone",
+          "dhis2:phone"
+        ]
+      },
+      {
+        "name": "credit_card",
+        "title": "Credit Card",
+        "keywords": [
+          "Currency",
+          "Mastercard",
+          "Money",
+          "Payment",
+          "Visa",
+          "dhis2:credit_card"
+        ]
+      },
+      {
+        "name": "construction",
+        "title": "Hammer",
+        "keywords": [
+          "Build",
+          "Construction",
+          "Settings",
+          "Tool",
+          "dhis2:construction"
+        ]
+      },
+      {
+        "name": "running_water",
+        "title": "Water Tap",
+        "keywords": [
+          "Clean Water",
+          "Drinking Water",
+          "Running Water",
+          "Sanitation",
+          "dhis2:running_water"
+        ]
+      },
+      {
+        "name": "cleaning",
+        "title": "Cleaning",
+        "keywords": [
+          "Broom",
+          "Cache",
+          "Cleaning",
+          "Sanitation"
+        ]
+      },
+      {
+        "name": "umbrella",
+        "title": "Umbrella",
+        "keywords": [
+          "Transgender"
+        ]
+      },
+      {
+        "name": "bandage_adhesive",
+        "title": "Bandage",
+        "keywords": [
+          "Bandage",
+          "Bandaid",
+          "Contusion",
+          "Cut",
+          "Injury"
+        ]
+      },
+      {
+        "name": "rdt_result_out_stock",
+        "title": "Stock Out RDT",
+        "keywords": [
+          "Empty Box",
+          "Retroviral",
+          "dhis2:rdt_result_out_stock"
+        ]
+      },
+      {
+        "name": "stock_out",
+        "title": "Stock Out",
+        "keywords": [
+          "Empty Box",
+          "Medicines",
+          "dhis2:stock_out"
+        ]
+      },
+      {
+        "name": "i_utensils",
+        "title": "Utensils",
+        "keywords": [
+          "Office",
+          "Pen",
+          "Ruler",
+          "Tools",
+          "dhis2:i_utensils"
+        ]
+      },
+      {
+        "name": "insurance_card",
+        "title": "Insurance Card",
+        "keywords": [
+          "ID",
+          "ID Card",
+          "Identification",
+          "Insurance",
+          "License",
+          "Patient",
+          "Patient ID",
+          "Payment",
+          "User"
+        ]
+      },
+      {
+        "name": "laptop",
+        "title": "Laptop",
+        "keywords": [
+          "Computer",
+          "Device",
+          "Health",
+          "IT",
+          "Information technology",
+          "Laptop",
+          "Medicine",
+          "Technology"
+        ]
+      }
+    ],
+    "people": [
+      {
+        "name": "world_care",
+        "title": "Environmental",
+        "keywords": [
+          "Activism",
+          "Environment",
+          "Globe",
+          "Hands",
+          "dhis2:world_care"
+        ]
+      },
+      {
+        "name": "water_sanitation",
+        "title": "Water Sanitation",
+        "keywords": [
+          "Clean",
+          "Fingers",
+          "Hand",
+          "Hygiene",
+          "Sanitation",
+          "dhis2:wash_hands"
+        ]
+      },
+      {
+        "name": "wash_hands",
+        "title": "Wash Hands",
+        "keywords": [
+          "Clean",
+          "Fingers",
+          "Hand",
+          "Hygiene",
+          "Sanitation",
+          "dhis2:wash_hands"
+        ]
+      },
+      {
+        "name": "refused",
+        "title": "Hand",
+        "keywords": [
+          "Fingers",
+          "Five",
+          "Palm",
+          "Refused",
+          "Stop",
+          "dhis2:refused"
+        ]
+      },
+      {
+        "name": "people",
+        "title": "People",
+        "keywords": [
+          "Avatars",
+          "Group",
+          "Parent",
+          "Person",
+          "Two People",
+          "Users",
+          "dhis2:people"
+        ]
+      },
+      {
+        "name": "miner_worker_alt",
+        "title": "Person Miner ALT",
+        "keywords": [
+          "Helmet",
+          "Industry",
+          "Miner",
+          "Worker",
+          "dhis2:miner_worker"
+        ]
+      },
+      {
+        "name": "mental_disorders",
+        "title": "Mental Disorder",
+        "keywords": [
+          "Brain",
+          "Head",
+          "Mental Health",
+          "Neurology",
+          "Spine",
+          "dhis2:mental_disorders"
+        ]
+      },
+      {
+        "name": "group_discussion_meeting",
+        "title": "Discussion",
+        "keywords": [
+          "Chat",
+          "Discussion",
+          "Forum",
+          "Meeting",
+          "People",
+          "Speech",
+          "dhis2:discussion_meeting"
+        ]
+      },
+      {
+        "name": "diabetes",
+        "title": "Diabetes",
+        "keywords": [
+          "Blood",
+          "Blood Test Hand"
+        ]
+      },
+      {
+        "name": "clean_hands",
+        "title": "Clean Hands",
+        "keywords": [
+          "Clean",
+          "Fingers",
+          "Hand",
+          "Hygiene",
+          "Sanitation",
+          "dhis2:clean_hands"
+        ]
+      },
+      {
+        "name": "child_cognition",
+        "title": "Child Cognition",
+        "keywords": [
+          "Brain",
+          "Education",
+          "Head",
+          "Learning",
+          "Mental Health",
+          "Neurology",
+          "Psychiatry",
+          "Psychology",
+          "Spine",
+          "dhis2:child_cognition"
+        ]
+      },
+      {
+        "name": "asthma",
+        "title": "Asthma",
+        "keywords": [
+          "Inhaler",
+          "Lungs",
+          "Mouth",
+          "Respiratory"
+        ]
+      },
+      {
+        "name": "call_centre",
+        "title": "Call Center",
+        "keywords": [
+          "Headset",
+          "Help",
+          "Phone",
+          "Talking"
+        ]
+      },
+      {
+        "name": "i_groups_perspective_crowd",
+        "title": "Group",
+        "keywords": [
+          "Community",
+          "Crowd",
+          "Group",
+          "Person",
+          "Three People",
+          "Users",
+          "dhis2:i_groups_perspective_crowd"
+        ]
+      },
+      {
+        "name": "nurse",
+        "title": "Person Nurse",
+        "keywords": [
+          "HCW",
+          "Healthcare Worker",
+          "Hospital Staff",
+          "Nurse",
+          "Staff Nurse",
+          "Worker",
+          "dhis2:nurse"
+        ]
+      },
+      {
+        "name": "military_worker",
+        "title": "Person Military",
+        "keywords": [
+          "Armed Services",
+          "Army",
+          "Gun",
+          "Helmet",
+          "Soldier",
+          "Uniform",
+          "dhis2:military_worker"
+        ]
+      },
+      {
+        "name": "truck_driver",
+        "title": "Person Truck Driver",
+        "keywords": [
+          "Driver",
+          "Lorry",
+          "Road",
+          "Truck",
+          "Vehicle",
+          "Wheel",
+          "Worker",
+          "dhis2:truck_driver"
+        ]
+      },
+      {
+        "name": "security_worker",
+        "title": "Person Security Worker",
+        "keywords": [
+          "Guard",
+          "Officer",
+          "Prison",
+          "Worker",
+          "dhis2:security_worker"
+        ]
+      },
+      {
+        "name": "construction_worker",
+        "title": "Person Construction Worker",
+        "keywords": [
+          "Builder",
+          "Construction",
+          "Helmet",
+          "Worker",
+          "dhis2:construction_worker"
+        ]
+      },
+      {
+        "name": "speech_language_therapy",
+        "title": "Speech Language Therapy",
+        "keywords": [
+          "Face",
+          "Language",
+          "SLP",
+          "Speaking",
+          "Speech Pathology",
+          "Therapy"
+        ]
+      },
+      {
+        "name": "msm",
+        "title": "Men Who Have Sex With Men",
+        "keywords": [
+          "Male",
+          "Man",
+          "Sex",
+          "dhis2:msm"
+        ]
+      },
+      {
+        "name": "boy_0105y",
+        "title": "Child 1-5 Years",
+        "keywords": [
+          "Boy",
+          "Child",
+          "Male",
+          "Toddler",
+          "dhis2:boy_0105y"
+        ]
+      },
+      {
+        "name": "child_program",
+        "title": "Children",
+        "keywords": [
+          "Boy",
+          "Child",
+          "Child Program",
+          "Family",
+          "Female",
+          "Girl",
+          "Kids",
+          "Male",
+          "Siblings",
+          "Young",
+          "Youth",
+          "dhis2:child_program"
+        ]
+      },
+      {
+        "name": "girl_0105y",
+        "title": "Girl 1-5 Years",
+        "keywords": [
+          "Child",
+          "Female",
+          "Girl",
+          "Toddler",
+          "dhis2:girl_0105y"
+        ]
+      },
+      {
+        "name": "girl_1015y",
+        "title": "Child Female 10-15 Years",
+        "keywords": [
+          "Child",
+          "Female",
+          "Girl",
+          "Teen",
+          "dhis2:girl_1015y"
+        ]
+      },
+      {
+        "name": "male_and_female",
+        "title": "Male and Female",
+        "keywords": [
+          "Couple",
+          "Man",
+          "People",
+          "Woman",
+          "dhis2:male_and_female"
+        ]
+      },
+      {
+        "name": "female_and_male",
+        "title": "Female and Male",
+        "keywords": [
+          "Couple",
+          "Man",
+          "People",
+          "Woman",
+          "dhis2:female_and_male"
+        ]
+      },
+      {
+        "name": "man",
+        "title": "Person",
+        "keywords": [
+          "Boy",
+          "Gender",
+          "Male",
+          "Man",
+          "Sex",
+          "Symbol",
+          "dhis2:man"
+        ]
+      },
+      {
+        "name": "outpatient",
+        "title": "Outpatient",
+        "keywords": [
+          "Checkup",
+          "Diagnosis",
+          "Doctor",
+          "Exam",
+          "Examination",
+          "Hospital",
+          "OPD",
+          "Outpatient Department",
+          "Patient",
+          "Triage",
+          "Visit",
+          "dhis2:outpatient"
+        ]
+      },
+      {
+        "name": "baby_male_0609m",
+        "title": "Baby Male 2-3 Months",
+        "keywords": [
+          "Boy",
+          "Diaper",
+          "Infant",
+          "dhis2:baby_male_0203m"
+        ]
+      },
+      {
+        "name": "baby_0203m",
+        "title": "Baby 2-3 Months",
+        "keywords": [
+          "Boy",
+          "Diaper",
+          "Girl",
+          "Infant"
+        ]
+      },
+      {
+        "name": "baby_female_0609m",
+        "title": "Baby Female 2-3 Months",
+        "keywords": [
+          "Diaper",
+          "Girl",
+          "Infant",
+          "dhis2:baby_male_0203m"
+        ]
+      },
+      {
+        "name": "factory_worker",
+        "title": "Person Factory Worker",
+        "keywords": [
+          "Factory",
+          "Helmet",
+          "Plant",
+          "Worker",
+          "dhis2:factory_worker"
+        ]
+      },
+      {
+        "name": "agriculture_worker_alt",
+        "title": "Person Farmer ALT",
+        "keywords": [
+          "Agricultural Worker",
+          "Farmhand",
+          "Pitchfork",
+          "dhis2:agricultural_worker"
+        ]
+      },
+      {
+        "name": "domestic_worker_alt",
+        "title": "Person Domestic Worker ALT",
+        "keywords": [
+          "Cleaner",
+          "Labor",
+          "Plumber",
+          "dhis2:domestic_worker"
+        ]
+      },
+      {
+        "name": "agriculture_worker",
+        "title": "Person Farmer",
+        "keywords": [
+          "Agricultural Worker",
+          "Farmhand",
+          "Pitchfork",
+          "dhis2:agricultural_worker"
+        ]
+      },
+      {
+        "name": "travel_alt",
+        "title": "Person Traveller ALT",
+        "keywords": [
+          "Flight",
+          "Person",
+          "Suitcase",
+          "Travel",
+          "dhis2:travel"
+        ]
+      },
+      {
+        "name": "plantation_worker_alt",
+        "title": "Person Plantation Worker ALT",
+        "keywords": [
+          "Agriculture",
+          "Farmer",
+          "Pitchfork",
+          "Plantation",
+          "Worker",
+          "dhis2:plantation_worker"
+        ]
+      },
+      {
+        "name": "prisoner",
+        "title": "Person Prisoner",
+        "keywords": [
+          "Detainee",
+          "Incarceration",
+          "Inmate",
+          "Prison",
+          "dhis2:prisoner"
+        ]
+      },
+      {
+        "name": "officer",
+        "title": "Person Police Officer",
+        "keywords": [
+          "Cop",
+          "Detective",
+          "Guard",
+          "Police",
+          "Worker",
+          "dhis2:officer"
+        ]
+      },
+      {
+        "name": "domestic_worker",
+        "title": "Person Domestic Worker",
+        "keywords": [
+          "Cleaner",
+          "Labor",
+          "Plumber",
+          "dhis2:domestic_worker"
+        ]
+      },
+      {
+        "name": "travel",
+        "title": "Person Traveller",
+        "keywords": [
+          "Flight",
+          "Person",
+          "Suitcase",
+          "Travel",
+          "dhis2:travel"
+        ]
+      },
+      {
+        "name": "plantation_worker",
+        "title": "Person Plantation Worker",
+        "keywords": [
+          "Agriculture",
+          "Farmer",
+          "Pitchfork",
+          "Plantation",
+          "Worker",
+          "dhis2:plantation_worker"
+        ]
+      },
+      {
+        "name": "miner_worker",
+        "title": "Person Miner",
+        "keywords": [
+          "Helmet",
+          "Miner",
+          "Worker",
+          "dhis2:miner_worker"
+        ]
+      },
+      {
+        "name": "pregnant",
+        "title": "Pregnant",
+        "keywords": [
+          "ANC",
+          "Mother",
+          "Person",
+          "Pregnancy",
+          "Woman",
+          "antenatal",
+          "dhis2:pregnant"
+        ]
+      },
+      {
+        "name": "lactation",
+        "title": "Nursing Mother",
+        "keywords": [
+          "Baby",
+          "Breast",
+          "Lactation",
+          "Milk",
+          "Mother",
+          "Nursing",
+          "Postnatal",
+          "Pregnant",
+          "dhis2:lactation"
+        ]
+      },
+      {
+        "name": "baby_female_0306m",
+        "title": "Baby Female 3-6 Months",
+        "keywords": [
+          "Crawl",
+          "Diaper",
+          "Female",
+          "Girl",
+          "Infant",
+          "dhis2:baby_female"
+        ]
+      },
+      {
+        "name": "baby_male_0306m",
+        "title": "Baby Male 3-6 Months",
+        "keywords": [
+          "Boy",
+          "Crawl",
+          "Diaper",
+          "Girl",
+          "Infant",
+          "dhis2:baby_male"
+        ]
+      },
+      {
+        "name": "baby_0306m",
+        "title": "Baby 3-6 months",
+        "keywords": [
+          "Boy",
+          "Crawl",
+          "Diaper",
+          "Female",
+          "Girl",
+          "Infant",
+          "Male"
+        ]
+      },
+      {
+        "name": "baby_female_0203m_alt",
+        "title": "Baby Female 2-3 Months ALT",
+        "keywords": [
+          "Diaper",
+          "Girl",
+          "Infant",
+          "dhis2:baby_male_0203m"
+        ]
+      },
+      {
+        "name": "baby_male_0203m_alt",
+        "title": "Baby Male 2-3 Months ALT",
+        "keywords": [
+          "Boy",
+          "Diaper",
+          "Infant",
+          "dhis2:baby_male_0203m"
+        ]
+      },
+      {
+        "name": "baby_0203_alt",
+        "title": "Baby 2-3 Months ALT",
+        "keywords": [
+          "Boy",
+          "Diaper",
+          "Girl",
+          "Infant"
+        ]
+      },
+      {
+        "name": "spraying",
+        "title": "Spraying",
+        "keywords": [
+          "Crop Spray",
+          "Herbicide",
+          "Insecticide",
+          "Person",
+          "Worker",
+          "dhis2:spraying"
+        ]
+      },
+      {
+        "name": "agriculture",
+        "title": "Agriculture",
+        "keywords": [
+          "Ecology",
+          "Environment",
+          "Hands",
+          "Leaf",
+          "Plant",
+          "Seed",
+          "dhis2:agriculture"
+        ]
+      },
+      {
+        "name": "elderly",
+        "title": "Elderly People",
+        "keywords": [
+          "Cane",
+          "Couple",
+          "Elder",
+          "Geriatric",
+          "Man",
+          "Old",
+          "People",
+          "Woman",
+          "dhis2:elderly"
+        ]
+      },
+      {
+        "name": "rmnh",
+        "title": "Reproductive Maternal and Newborn Health",
+        "keywords": [
+          "Antenatal",
+          "Baby",
+          "Child",
+          "Mother",
+          "Postnatal",
+          "RMNH",
+          "dhis2:rmnh"
+        ]
+      },
+      {
+        "name": "young_people",
+        "title": "Youth",
+        "keywords": [
+          "Boy",
+          "Child",
+          "Female",
+          "Girl",
+          "Kids",
+          "Male",
+          "Teen",
+          "Young",
+          "Youth",
+          "dhis2:young_people"
+        ]
+      },
+      {
+        "name": "female_sex_worker",
+        "title": "Sex Worker Female",
+        "keywords": [
+          "Female",
+          "Person",
+          "Prostitute",
+          "Woman",
+          "Worker",
+          "dhis2:sex_worker_male"
+        ]
+      },
+      {
+        "name": "male_sex_worker",
+        "title": "Sex Worker",
+        "keywords": [
+          "Male",
+          "Person",
+          "Prostitute",
+          "Worker",
+          "dhis2:sex_worker_male"
+        ]
+      },
+      {
+        "name": "health_worker",
+        "title": "Person Health Worker",
+        "keywords": [
+          "Doctor",
+          "Health Provider",
+          "Nurse",
+          "dhis2:health_worker"
+        ]
+      },
+      {
+        "name": "doctor_male",
+        "title": "Person Male Doctor",
+        "keywords": [
+          "Doctor",
+          "MD",
+          "Man",
+          "Stethoscope",
+          "dhis2:doctor_female"
+        ]
+      },
+      {
+        "name": "doctor_female",
+        "title": "Person Female Doctor",
+        "keywords": [
+          "Doctor",
+          "MD",
+          "Stethoscope",
+          "Woman",
+          "dhis2:doctor_female"
+        ]
+      },
+      {
+        "name": "doctor",
+        "title": "Doctor",
+        "keywords": [
+          "Healthcare Worker",
+          "Medical Officer",
+          "Stethoscope",
+          "Worker",
+          "dhis2:doctor"
+        ]
+      },
+      {
+        "name": "city_worker",
+        "title": "Business Person",
+        "keywords": [
+          "Business",
+          "Official",
+          "Suit",
+          "Worker",
+          "dhis2:city_worker"
+        ]
+      },
+      {
+        "name": "group_discussion_meetingx3",
+        "title": "Group Discussion",
+        "keywords": [
+          "Chat",
+          "Discussion",
+          "Forum",
+          "Meeting",
+          "People",
+          "Speech",
+          "dhis2:group_discussion_meetingx3"
+        ]
+      },
+      {
+        "name": "child_care",
+        "title": "Child care",
+        "keywords": [
+          "Baby",
+          "Childcare",
+          "Parent",
+          "dhis2:child_care"
+        ]
+      },
+      {
+        "name": "pwid",
+        "title": "People Who Inject Drugs",
+        "keywords": [
+          "Arm",
+          "Drugs",
+          "IV",
+          "Intravenous",
+          "Narcotics",
+          "Needle",
+          "People",
+          "dhis2:pwid"
+        ]
+      },
+      {
+        "name": "fetus",
+        "title": "Fetus",
+        "keywords": [
+          "ANC",
+          "Antenatal",
+          "Baby",
+          "Placenta",
+          "Umbilical Cord",
+          "dhis2:fetus"
+        ]
+      },
+      {
+        "name": "pregnant_32w",
+        "title": "Fetus 32 Weeks",
+        "keywords": [
+          "ANC",
+          "Antenatal",
+          "Mother",
+          "Person",
+          "Pregnancy",
+          "Woman",
+          "dhis2:pregnant_32w"
+        ]
+      },
+      {
+        "name": "pregnant_0812w",
+        "title": "Fetus 8-12 Weeks",
+        "keywords": [
+          "ANC",
+          "Antenatal",
+          "Mother",
+          "Person",
+          "Pregnancy",
+          "Woman",
+          "dhis2:pregnant_0812w"
+        ]
+      },
+      {
+        "name": "pregnant_2426w",
+        "title": "Fetus 24-26 Weeks",
+        "keywords": [
+          "ANC",
+          "Antenatal",
+          "Mother",
+          "Person",
+          "Pregnancy",
+          "Woman",
+          "dhis2:pregnant_2426w"
+        ]
+      },
+      {
+        "name": "pregnant_3638w",
+        "title": "Fetus 36-38 Weeks",
+        "keywords": [
+          "ANC",
+          "Antenatal",
+          "Mother",
+          "Person",
+          "Pregnancy",
+          "Woman",
+          "dhis2:pregnant_3638w"
+        ]
+      },
+      {
+        "name": "old_man",
+        "title": "Elderly Man",
+        "keywords": [
+          "Geriatric",
+          "Male",
+          "Man",
+          "Old",
+          "Symbol",
+          "dhis2:old_man"
+        ]
+      },
+      {
+        "name": "old_woman",
+        "title": "Elderly Woman",
+        "keywords": [
+          "Female",
+          "Geriatric",
+          "Old",
+          "Symbol",
+          "Woman",
+          "dhis2:old_woman"
+        ]
+      },
+      {
+        "name": "person",
+        "title": "Person",
+        "keywords": [
+          "Adult",
+          "Avatar",
+          "Man",
+          "Parent",
+          "User",
+          "Woman",
+          "dhis2:person"
+        ]
+      },
+      {
+        "name": "symptom",
+        "title": "Symptoms",
+        "keywords": [
+          "Body",
+          "Diagnosis",
+          "Exam",
+          "Symptoms",
+          "Triage"
+        ]
+      },
+      {
+        "name": "i_training_class",
+        "title": "Training",
+        "keywords": [
+          "Class",
+          "Person",
+          "Presentation",
+          "School",
+          "Teacher",
+          "Teaching",
+          "Train",
+          "dhis2:i_training_class"
+        ]
+      },
+      {
+        "name": "traumatism",
+        "title": "Trauma",
+        "keywords": [
+          "ER",
+          "Emergency",
+          "Injury",
+          "Patient",
+          "People",
+          "Trauma",
+          "dhis2:traumatism"
+        ]
+      },
+      {
+        "name": "ancv",
+        "title": "Antenatal Care Visit",
+        "keywords": [
+          "ANC",
+          "Mother",
+          "Pregnancy",
+          "Pregnant",
+          "dhis2:ancv"
+        ]
+      },
+      {
+        "name": "woman",
+        "title": "Woman",
+        "keywords": [
+          "Female",
+          "Gender",
+          "Girl",
+          "Sex",
+          "Symbol",
+          "Woman",
+          "dhis2:woman"
+        ]
+      },
+      {
+        "name": "boy_1015y",
+        "title": "Child 10-15 Years",
+        "keywords": [
+          "Boy",
+          "Child",
+          "Male",
+          "Teen",
+          "dhis2:boy_1015y"
+        ]
+      },
+      {
+        "name": "pediatric_surgery",
+        "title": "Pediatric Surgery",
+        "keywords": [
+          "Antenatal Care",
+          "Baby",
+          "Child",
+          "Pediatrics",
+          "Surgery"
+        ]
+      },
+      {
+        "name": "neuro_surgery",
+        "title": "Neurosurgery",
+        "keywords": [
+          "Brain",
+          "Brain Surgery",
+          "Neurology",
+          "Surgery"
+        ]
+      },
+      {
+        "name": "community_healthworker",
+        "title": "Community Healthcare Worker",
+        "keywords": [
+          "ASHA",
+          "CHEW",
+          "CHW",
+          "Healthcare Worker",
+          "Nurse",
+          "Village"
+        ]
+      },
+      {
+        "name": "exercise_yoga",
+        "title": "Yoga",
+        "keywords": [
+          "Calm",
+          "Exercise",
+          "Fitness",
+          "Meditate",
+          "Meditation",
+          "Physio",
+          "Physiotherapy",
+          "Therapy"
+        ]
+      },
+      {
+        "name": "cpr",
+        "title": "CPR",
+        "keywords": [
+          "CPR",
+          "Cardiopulmonary",
+          "Emergency",
+          "First Aid",
+          "Pulmonary",
+          "Rescue",
+          "Resuscitation"
+        ]
+      },
+      {
+        "name": "crisis_response_center_person",
+        "title": "Emergency Operations Person",
+        "keywords": [
+          "Alert",
+          "Computers",
+          "Emergency",
+          "Epidemiology",
+          "Headquarters",
+          "Monitors",
+          "Operations",
+          "Response",
+          "Statistics",
+          "Worker"
+        ]
+      },
+      {
+        "name": "surveilance_officer",
+        "title": "Person Surveillance Officer",
+        "keywords": [
+          "Doctor",
+          "Epidemiologist",
+          "Offiical",
+          "Quality Improvement",
+          "Surveillance"
+        ]
+      },
+      {
+        "name": "regular_patient",
+        "title": "Regular patient",
+        "keywords": [
+          "Ongoing",
+          "Patient",
+          "Person",
+          "Regular",
+          "Repeat"
+        ]
+      }
+    ],
+    "places": [
+      {
+        "name": "market_stall",
+        "title": "Market Stall",
+        "keywords": [
+          "Awning",
+          "Building",
+          "Shack",
+          "Shop",
+          "Stall",
+          "dhis2:market_stall"
+        ]
+      },
+      {
+        "name": "hospital",
+        "title": "Hospital",
+        "keywords": [
+          "Building",
+          "Clinic",
+          "Large Hospital",
+          "Urban Hospital",
+          "dhis2:hospital"
+        ]
+      },
+      {
+        "name": "home_alt",
+        "title": "Home ALT",
+        "keywords": [
+          "Building",
+          "Door",
+          "House",
+          "Roof",
+          "dhis2:home"
+        ]
+      },
+      {
+        "name": "forest",
+        "title": "Forest",
+        "keywords": [
+          "Nature",
+          "Park",
+          "Trees",
+          "Woods",
+          "dhis2:forest"
+        ]
+      },
+      {
+        "name": "city",
+        "title": "City",
+        "keywords": [
+          "Building",
+          "Buildings",
+          "Downtown",
+          "Highrise",
+          "Metro",
+          "Metropolis",
+          "Urban",
+          "dhis2:city"
+        ]
+      },
+      {
+        "name": "church",
+        "title": "Church",
+        "keywords": [
+          "Building",
+          "Christian",
+          "House of Worship",
+          "Religion",
+          "Worship",
+          "dhis2:church"
+        ]
+      },
+      {
+        "name": "village",
+        "title": "Village",
+        "keywords": [
+          "Building",
+          "Camp",
+          "Houses",
+          "Huts",
+          "Tents",
+          "Town",
+          "dhis2:village"
+        ]
+      },
+      {
+        "name": "ministry_of_health",
+        "title": "Ministry of Health",
+        "keywords": [
+          "Building",
+          "Government",
+          "Hospital",
+          "Office",
+          "Official",
+          "dhis2:ministry_of_health"
+        ]
+      },
+      {
+        "name": "home",
+        "title": "Home",
+        "keywords": [
+          "Accommodation",
+          "Building",
+          "Door",
+          "House",
+          "Roof"
+        ]
+      },
+      {
+        "name": "palm_branches_roof",
+        "title": "Home with Roof Made of Palm Branches",
+        "keywords": [
+          "Building",
+          "House",
+          "Hut",
+          "dhis2:palm_branches_roof"
+        ]
+      },
+      {
+        "name": "proper_roof",
+        "title": "Home with Proper Roof",
+        "keywords": [
+          "Building",
+          "House",
+          "Hut",
+          "dhis2:proper_roof"
+        ]
+      },
+      {
+        "name": "letrina",
+        "title": "Latrine",
+        "keywords": [
+          "Bathroom",
+          "Biffy",
+          "Bog",
+          "Crapper",
+          "Dunny",
+          "Honey Bucket",
+          "John",
+          "Kybo",
+          "Latrine",
+          "Long Drop",
+          "Outdoor Toilet",
+          "Portaloo",
+          "Privy",
+          "Thunderbox",
+          "Toilet",
+          "WC",
+          "Water Closet",
+          "dhis2:letrina"
+        ]
+      },
+      {
+        "name": "letrina_alt",
+        "title": "Latrine ALT",
+        "keywords": [
+          "Bathroom",
+          "Biffy",
+          "Bog",
+          "Crapper",
+          "Dunny",
+          "Honey Bucket",
+          "John",
+          "Kybo",
+          "Latrine",
+          "Long Drop",
+          "Outdoor Toilet",
+          "Portaloo",
+          "Privy",
+          "Thunderbox",
+          "Toilet",
+          "WC",
+          "Water Closet"
+        ]
+      },
+      {
+        "name": "temple",
+        "title": "Temple",
+        "keywords": [
+          "Building",
+          "House of Worship",
+          "Religion",
+          "Worship"
+        ]
+      },
+      {
+        "name": "temple_alt",
+        "title": "Temple Alt",
+        "keywords": [
+          "Building",
+          "House of Worship",
+          "Religion",
+          "Worship"
+        ]
+      },
+      {
+        "name": "mosque",
+        "title": "Mosque",
+        "keywords": [
+          "Building",
+          "House of Worship",
+          "Islam",
+          "Muslim",
+          "Religion",
+          "Worship"
+        ]
+      },
+      {
+        "name": "emergency_post",
+        "title": "Field Hospital",
+        "keywords": [
+          "Building",
+          "Cross",
+          "Emergency Post",
+          "Tent",
+          "War Hospital",
+          "dhis2:emergency_post"
+        ]
+      },
+      {
+        "name": "rural_post",
+        "title": "Rural Clinic",
+        "keywords": [
+          "Building",
+          "Hospital",
+          "Rural Post",
+          "Small Hospital",
+          "dhis2:rural_post"
+        ]
+      },
+      {
+        "name": "ambulatory_clinic",
+        "title": "Clinic",
+        "keywords": [
+          "Ambulatory Clinic",
+          "Building",
+          "Hospital",
+          "Office",
+          "Small Hospital",
+          "dhis2:ambulatory_clinic"
+        ]
+      },
+      {
+        "name": "rural_post_alt",
+        "title": "Rural Post ALT",
+        "keywords": [
+          "Building",
+          "Clinic",
+          "Hospital",
+          "Local",
+          "PHC",
+          "Primary Care",
+          "Village"
+        ]
+      },
+      {
+        "name": "forest_persons",
+        "title": "Person in Forest",
+        "keywords": [
+          "Nature",
+          "Person",
+          "Tree",
+          "Walking",
+          "Woods",
+          "dhis2:forest_persons"
+        ]
+      },
+      {
+        "name": "emergency_operations_center",
+        "title": "Emergency Operations Center",
+        "keywords": [
+          "Building",
+          "Emergency",
+          "Headquarters",
+          "Operations",
+          "Response",
+          "Satellite"
+        ]
+      }
+    ],
+    "ppe": [
+      {
+        "name": "ppe_apron",
+        "title": "PPE Apron",
+        "keywords": [
+          "Apron",
+          "Clothing",
+          "PPE",
+          "Protection",
+          "Safety"
+        ]
+      },
+      {
+        "name": "ppe_sanitizer",
+        "title": "PPE Sanitizer",
+        "keywords": [
+          "Infection Control",
+          "PPE",
+          "dhis2:sanitizer"
+        ]
+      },
+      {
+        "name": "ppe_mask_n95",
+        "title": "PPE Mask N95",
+        "keywords": [
+          "Infection Control",
+          "PPE",
+          "dhis2:ppe_mask_n95"
+        ]
+      },
+      {
+        "name": "ppe_gown",
+        "title": "PPE Gown",
+        "keywords": [
+          "Clothes",
+          "Infection Control",
+          "dhis2:ppe_gown"
+        ]
+      },
+      {
+        "name": "ppe_gloves",
+        "title": "PPE Gloves",
+        "keywords": [
+          "Glove",
+          "Hands",
+          "Infection Control",
+          "PPE",
+          "dhis2:ppe_gloves"
+        ]
+      },
+      {
+        "name": "ppe_face_mask",
+        "title": "PPE Face Mask",
+        "keywords": [
+          "Infection Control",
+          "PPE",
+          "dhis2:ppe_face_mask"
+        ]
+      },
+      {
+        "name": "ppe-mask",
+        "title": "PPE Surgical Mask",
+        "keywords": [
+          "Infection Control",
+          "PPE",
+          "dhis2:ppe_mask"
+        ]
+      },
+      {
+        "name": "ppe_face_shield",
+        "title": "PPE Face Shield",
+        "keywords": [
+          "Hazardous Materials",
+          "PPE",
+          "Protection",
+          "Safety"
+        ]
+      },
+      {
+        "name": "ppe_goggles",
+        "title": "PPE Goggles",
+        "keywords": [
+          "Eye",
+          "Eye Protection",
+          "Hazardous Materials",
+          "PPE",
+          "Protection",
+          "Safety"
+        ]
+      },
+      {
+        "name": "ppe_suit",
+        "title": "PPE Suit",
+        "keywords": [
+          "Hazardous Materials",
+          "Hazmat",
+          "Protection",
+          "Safety"
+        ]
+      },
+      {
+        "name": "respirator",
+        "title": "PPE Respirator",
+        "keywords": [
+          "Breathing",
+          "Mask",
+          "Outbreak",
+          "PPE",
+          "Safety",
+          "Virus"
+        ]
+      },
+      {
+        "name": "disinfecting_wipes",
+        "title": "PPE Disinfecting Wipes",
+        "keywords": [
+          "Antibacterial",
+          "Cleaning",
+          "PPE",
+          "Sanitation"
+        ]
+      },
+      {
+        "name": "ppe-face-shield-alt",
+        "title": "PPE Face Shield ALT",
+        "keywords": [
+          "Hazardous Materials",
+          "PPE",
+          "Protection",
+          "Safety"
+        ]
+      },
+      {
+        "name": "hand-wipe-paper",
+        "title": "Hand Wipe Paper",
+        "keywords": [
+          "Clean",
+          "Cleaning",
+          "Hand",
+          "PPE",
+          "Paper",
+          "Sanitation",
+          "Towel",
+          "Wipe"
+        ]
+      }
+    ],
+    "shapes": [
+      {
+        "name": "triangle_small",
+        "title": "Triangle Small",
+        "keywords": [
+          "Bullet",
+          "Shape",
+          "Triangle",
+          "dhis2:triangle_small"
+        ]
+      },
+      {
+        "name": "triangle_medium",
+        "title": "Triangle Medium",
+        "keywords": [
+          "Bullet",
+          "Shape",
+          "Triangle",
+          "dhis2:triangle_medium"
+        ]
+      },
+      {
+        "name": "triangle_large",
+        "title": "Triangle Large",
+        "keywords": [
+          "Bullet",
+          "Shape",
+          "Triangle",
+          "dhis2:triangle_large"
+        ]
+      },
+      {
+        "name": "star_small",
+        "title": "Star Small",
+        "keywords": [
+          "Bullet",
+          "Shape",
+          "Star",
+          "dhis2:star_small"
+        ]
+      },
+      {
+        "name": "star_medium",
+        "title": "Star Medium",
+        "keywords": [
+          "Bullet",
+          "Shape",
+          "Star",
+          "dhis2:star_medium"
+        ]
+      },
+      {
+        "name": "star_large",
+        "title": "Star Large",
+        "keywords": [
+          "Bullet",
+          "Shape",
+          "Star",
+          "dhis2:star_large"
+        ]
+      },
+      {
+        "name": "square_small",
+        "title": "Square Small",
+        "keywords": [
+          "Bullet",
+          "Cube",
+          "Rectangle",
+          "Shape",
+          "dhis2:square_small"
+        ]
+      },
+      {
+        "name": "square_medium",
+        "title": "Square Medium",
+        "keywords": [
+          "Bullet",
+          "Cube",
+          "Rectangle",
+          "Shape",
+          "dhis2:square_medium"
+        ]
+      },
+      {
+        "name": "square_large",
+        "title": "Square Large",
+        "keywords": [
+          "Bullet",
+          "Cube",
+          "Rectangle",
+          "Shape",
+          "dhis2:square_large"
+        ]
+      },
+      {
+        "name": "information_campaign",
+        "title": "Information Campaign",
+        "keywords": [
+          "Advertising",
+          "Circle",
+          "IC",
+          "Shape",
+          "Sphere",
+          "dhis2:information_campaign"
+        ]
+      },
+      {
+        "name": "circle_small",
+        "title": "Circle Small",
+        "keywords": [
+          "Circle",
+          "Dot",
+          "Shape",
+          "Sphere",
+          "dhis2:circle_small"
+        ]
+      },
+      {
+        "name": "circle_medium",
+        "title": "Circle Medium",
+        "keywords": [
+          "Circle",
+          "Dot",
+          "Shape",
+          "Sphere",
+          "dhis2:circle_medium"
+        ]
+      },
+      {
+        "name": "circle_large",
+        "title": "Circle Large",
+        "keywords": [
+          "Circle",
+          "Dot",
+          "Shape",
+          "Sphere",
+          "dhis2:circle_large"
+        ]
+      },
+      {
+        "name": "triangle_inverted_small",
+        "title": "Triangle Small Inverted",
+        "keywords": [
+          "Bullet",
+          "Medication monitoring",
+          "Shape",
+          "Triangle"
+        ]
+      },
+      {
+        "name": "triangle_inverted_medium",
+        "title": "Triangle Medium Inverted",
+        "keywords": [
+          "Bullet",
+          "Medication monitoring",
+          "Shape",
+          "Triangle"
+        ]
+      },
+      {
+        "name": "triangle_inverted_large",
+        "title": "Triangle Large Inverted",
+        "keywords": [
+          "Bullet",
+          "Medication monitoring",
+          "Shape",
+          "Triangle"
+        ]
+      }
+    ],
+    "specialties": [
+      {
+        "name": "accident_and_emergency",
+        "title": "Accident and Emergency",
+        "keywords": [
+          "Ambulance",
+          "Critical Care",
+          "Department",
+          "Emergency",
+          "Light",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "admissions",
+        "title": "Admissions",
+        "keywords": [
+          "Admissions",
+          "Department",
+          "Door",
+          "Entrance",
+          "OPD",
+          "Open",
+          "Outpatient",
+          "Registration",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "coronary_care_unit",
+        "title": "Coronary Care",
+        "keywords": [
+          "Cardiology",
+          "Coronary Care",
+          "Department",
+          "Heart",
+          "Pulse",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "critical_care",
+        "title": "Critical Care",
+        "keywords": [
+          "Critical Care",
+          "Department",
+          "Emergency",
+          "Heartbeat",
+          "ICU",
+          "Intensive Care Unit",
+          "Monitor",
+          "NICU",
+          "Pulse",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "discharge_lounge",
+        "title": "Discharge Lounge",
+        "keywords": [
+          "Chair",
+          "Department",
+          "Discharge",
+          "Exit",
+          "Leave",
+          "Lounge",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "cardiology",
+        "title": "Cardiology",
+        "keywords": [
+          "Cardiologist",
+          "Coronary Care",
+          "Department",
+          "Heart",
+          "Organ",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "hematology",
+        "title": "Hematology",
+        "keywords": [
+          "Blood",
+          "Department",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "nephrology",
+        "title": "Nephrology",
+        "keywords": [
+          "Department",
+          "Kidneys",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "obstetricsmonia",
+        "title": "Obstetricsmonia",
+        "keywords": [
+          "Baby",
+          "Birth",
+          "Childbirth",
+          "Department",
+          "Gynecology",
+          "Obgyn",
+          "Obstetrics",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "opthalmology",
+        "title": "Opthalmology",
+        "keywords": [
+          "Department",
+          "Eye",
+          "Sight",
+          "Speciality",
+          "Vision"
+        ]
+      },
+      {
+        "name": "respirology",
+        "title": "Respirology",
+        "keywords": [
+          "Breathing",
+          "Department",
+          "Lungs",
+          "Pulmonary",
+          "Specialty"
+        ]
+      },
+      {
+        "name": "psychology",
+        "title": "Psychology",
+        "keywords": [
+          "Brain",
+          "Department",
+          "Psych",
+          "Psychiatry",
+          "Specialty"
+        ]
+      },
+      {
+        "name": "medical_records",
+        "title": "Medical Records",
+        "keywords": [
+          "Chart",
+          "Department",
+          "Library",
+          "PHI",
+          "Patient Chart",
+          "Records",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "oncology",
+        "title": "Oncology",
+        "keywords": [
+          "Cancer",
+          "Chemotherapy",
+          "Department",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "orthopaedics",
+        "title": "Orthopaedics",
+        "keywords": [
+          "Bones",
+          "Department",
+          "Joints",
+          "Ortho",
+          "Spine"
+        ]
+      },
+      {
+        "name": "radiology",
+        "title": "Radiology",
+        "keywords": [
+          "Department",
+          "Radiology",
+          "Specialty",
+          "Xray"
+        ]
+      },
+      {
+        "name": "speech_language_therapy",
+        "title": "Speech Language Therapy",
+        "keywords": [
+          "Department",
+          "Language",
+          "Pathology",
+          "SLP",
+          "Specialty",
+          "Speech",
+          "Therapy"
+        ]
+      },
+      {
+        "name": "gynecology",
+        "title": "Gynecology",
+        "keywords": [
+          "Department",
+          "Female",
+          "Reproduction",
+          "Sex Organs",
+          "Speciality",
+          "Uterus",
+          "Woman Health",
+          "Womens Health"
+        ]
+      },
+      {
+        "name": "gastroenterology",
+        "title": "Gastroenterology",
+        "keywords": [
+          "Department",
+          "GI",
+          "Speciality",
+          "Stomach"
+        ]
+      },
+      {
+        "name": "finance_dept",
+        "title": "Finance",
+        "keywords": [
+          "Accounting",
+          "Cashier",
+          "Department",
+          "Finance",
+          "Heart",
+          "Payments",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "hematology_laboratory",
+        "title": "Hematology Lab",
+        "keywords": [
+          "Blood",
+          "Department",
+          "Lab",
+          "Laboratory",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "human_resoruces",
+        "title": "Human Resources",
+        "keywords": [
+          "Department",
+          "Group",
+          "HR",
+          "Hiring",
+          "People",
+          "Speciality",
+          "Team"
+        ]
+      },
+      {
+        "name": "endocrinology",
+        "title": "Endocrinology",
+        "keywords": [
+          "Department",
+          "Endocrine glands",
+          "Hormones"
+        ]
+      },
+      {
+        "name": "hepatology",
+        "title": "Hepatology",
+        "keywords": [
+          "Department",
+          "Liver"
+        ]
+      },
+      {
+        "name": "pharmacy",
+        "title": "Pharmacy",
+        "keywords": [
+          "Department",
+          "Drugs",
+          "Medication",
+          "Medicines",
+          "Pharmacy"
+        ]
+      },
+      {
+        "name": "rheumatology",
+        "title": "Rheumatology",
+        "keywords": [
+          "Bones",
+          "Department",
+          "Joints",
+          "Ortho",
+          "Spine"
+        ]
+      },
+      {
+        "name": "outpatient_department",
+        "title": "Outpatient",
+        "keywords": [
+          "Department",
+          "Diagnosis",
+          "Doctor",
+          "Exam",
+          "Examination",
+          "OPD",
+          "Outpatient Department",
+          "Triage",
+          "Triage"
+        ]
+      },
+      {
+        "name": "social_work",
+        "title": "Social Work",
+        "keywords": [
+          "Care",
+          "Department",
+          "Hands",
+          "Heart",
+          "Social Worker",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "intensive_care_unit",
+        "title": "Intensive Care Unit",
+        "keywords": [
+          "Department",
+          "ICU",
+          "NICU",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "pediatrics",
+        "title": "Pediatrics",
+        "keywords": [
+          "Baby",
+          "Child",
+          "Department",
+          "Pediatrician",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "gym",
+        "title": "Gym",
+        "keywords": [
+          "Department",
+          "Exercise",
+          "Gymnasium",
+          "Speciality",
+          "Weights"
+        ]
+      },
+      {
+        "name": "physical_therapy",
+        "title": "Physical Therapy",
+        "keywords": [
+          "Assisted Walking",
+          "Department",
+          "PT",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "geriatrics",
+        "title": "Geriatrics",
+        "keywords": [
+          "Cane",
+          "Department",
+          "Elderly",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "chaplaincy",
+        "title": "Chaplaincy",
+        "keywords": [
+          "Department",
+          "Prayer",
+          "Religion",
+          "Speciality",
+          "Spirituality"
+        ]
+      },
+      {
+        "name": "biochemistry_laboratory",
+        "title": "Biochemistry Lab",
+        "keywords": [
+          "DNA",
+          "Laboratory",
+          "Science"
+        ]
+      },
+      {
+        "name": "ears_nose_and_throat",
+        "title": "Ear Nose and Throat",
+        "keywords": [
+          "Ear",
+          "Nose",
+          "Throat"
+        ]
+      },
+      {
+        "name": "urology",
+        "title": "Urology",
+        "keywords": [
+          "Specialty"
+        ]
+      },
+      {
+        "name": "sonography",
+        "title": "Sonography",
+        "keywords": [
+          "Antenatal",
+          "Baby",
+          "Fetus",
+          "Prenatal",
+          "Scan",
+          "Sonogram",
+          "Sonograph",
+          "Specialty",
+          "Test",
+          "Testing"
+        ]
+      },
+      {
+        "name": "general_surgery",
+        "title": "Surgical Department",
+        "keywords": [
+          "Department",
+          "Group",
+          "Knife",
+          "Room",
+          "Scalpel",
+          "Speciality",
+          "Surgery",
+          "Surgical"
+        ]
+      },
+      {
+        "name": "pain_managment",
+        "title": "Pain Management",
+        "keywords": [
+          "Ache",
+          "Department",
+          "Hurt",
+          "Lightning",
+          "Pain",
+          "Speciality"
+        ]
+      },
+      {
+        "name": "burn_unit",
+        "title": "Burn Unit",
+        "keywords": [
+          "Burn",
+          "Emergency",
+          "Fire",
+          "Flame",
+          "Hand",
+          "Hospital",
+          "Injury",
+          "Speciality",
+          "Unit"
+        ]
+      },
+      {
+        "name": "vascular_surgery",
+        "title": "Vascular Surgery",
+        "keywords": [
+          "Blood vessel",
+          "Department",
+          "Scalpel",
+          "Specialty",
+          "Surgery",
+          "Vascular system"
+        ]
+      },
+      {
+        "name": "occupational_therapy",
+        "title": "Occupational Therapy",
+        "keywords": [
+          "Department",
+          "Hospital",
+          "Occupational",
+          "Specialty",
+          "Therapy"
+        ]
+      }
+    ],
+    "symbols": [
+      {
+        "name": "virus",
+        "title": "Virus",
+        "keywords": [
+          "Infection",
+          "Infectious Disease",
+          "dhis2:virus"
+        ]
+      },
+      {
+        "name": "smoking_cessation",
+        "title": "No Smoking ALT",
+        "keywords": [
+          "Banned",
+          "Cessation",
+          "Smoking",
+          "Tobacco"
+        ]
+      },
+      {
+        "name": "smoking",
+        "title": "Smoking",
+        "keywords": [
+          "Smoking",
+          "Tobacco"
+        ]
+      },
+      {
+        "name": "rx",
+        "title": "Prescription Alt",
+        "keywords": [
+          "Medication",
+          "Pharmacy",
+          "Rx",
+          "Script"
+        ]
+      },
+      {
+        "name": "running_water_alt",
+        "title": "Water Tap",
+        "keywords": [
+          "Appliance",
+          "Plumbing",
+          "Running Water",
+          "Water"
+        ]
+      },
+      {
+        "name": "question_triangle",
+        "title": "Question Triangle",
+        "keywords": [
+          "Alert",
+          "FAQ",
+          "Question Mark",
+          "Triangle",
+          "dhis2:question_triangle"
+        ]
+      },
+      {
+        "name": "question_circle",
+        "title": "Question Circle",
+        "keywords": [
+          "Alert",
+          "Ask",
+          "FAQ",
+          "Help",
+          "Question",
+          "dhis2:question_circle"
+        ]
+      },
+      {
+        "name": "question",
+        "title": "Question",
+        "keywords": [
+          "FAQ",
+          "Help",
+          "Question Mark",
+          "dhis2:question"
+        ]
+      },
+      {
+        "name": "provider_fst",
+        "title": "Referral Alt",
+        "keywords": [
+          "Admission",
+          "Connect",
+          "Hospital",
+          "Transfer",
+          "dhis2:provider_fst"
+        ]
+      },
+      {
+        "name": "positive",
+        "title": "Plus",
+        "keywords": [
+          "Add",
+          "Circle",
+          "Create",
+          "Positive",
+          "dhis2:positive"
+        ]
+      },
+      {
+        "name": "polygon",
+        "title": "Polygon",
+        "keywords": [
+          "Design",
+          "Nodes",
+          "Pentagon",
+          "Shape",
+          "dhis2:polygon"
+        ]
+      },
+      {
+        "name": "poison",
+        "title": "Poison",
+        "keywords": [
+          "Bottle",
+          "Toxic",
+          "Toxin",
+          "dhis2:poison"
+        ]
+      },
+      {
+        "name": "peace",
+        "title": "Peace",
+        "keywords": [
+          "Symbol",
+          "dhis2:peace"
+        ]
+      },
+      {
+        "name": "paved_road_alt",
+        "title": "Paved Road Alt",
+        "keywords": [
+          "Curve",
+          "Road",
+          "dhis2:paved_road_alt"
+        ]
+      },
+      {
+        "name": "paved_road",
+        "title": "Paved Road",
+        "keywords": [
+          "Curve",
+          "Road",
+          "dhis2:paved_road"
+        ]
+      },
+      {
+        "name": "outbreak",
+        "title": "Outbreak",
+        "keywords": [
+          "Disease",
+          "Infectious",
+          "Outbreak",
+          "Toxic",
+          "dhis2:outbreak"
+        ]
+      },
+      {
+        "name": "no",
+        "title": "No",
+        "keywords": [
+          "Cancel",
+          "Circle",
+          "Delete",
+          "Denied",
+          "Stop",
+          "X",
+          "dhis2:no"
+        ]
+      },
+      {
+        "name": "negative",
+        "title": "Minus",
+        "keywords": [
+          "Circle",
+          "Delete",
+          "Negative",
+          "No Entry",
+          "Remove",
+          "Subtract",
+          "dhis2:negative"
+        ]
+      },
+      {
+        "name": "medium_level",
+        "title": "Medium Level",
+        "keywords": [
+          "Gauge",
+          "Half",
+          "Measure",
+          "Meter",
+          "Mid",
+          "Speedometer",
+          "dhis2:medium_level"
+        ]
+      },
+      {
+        "name": "medical_advice",
+        "title": "Medical Advice Hotline",
+        "keywords": [
+          "Advice",
+          "Call Center",
+          "Information",
+          "Phone",
+          "Phone line",
+          "dhis2:medical_advice"
+        ]
+      },
+      {
+        "name": "magnifying_glass",
+        "title": "Magnifying Glass",
+        "keywords": [
+          "Detective",
+          "Research",
+          "Search",
+          "Zoom",
+          "dhis2:magnifying_glass"
+        ]
+      },
+      {
+        "name": "low_level",
+        "title": "Low Level",
+        "keywords": [
+          "Empty",
+          "Gauge",
+          "Measure",
+          "Meter",
+          "Slow",
+          "Speedometer",
+          "dhis2:low_level"
+        ]
+      },
+      {
+        "name": "info",
+        "title": "Info",
+        "keywords": [
+          "About",
+          "Circle",
+          "Information",
+          "dhis2:info"
+        ]
+      },
+      {
+        "name": "imm",
+        "title": "IMM",
+        "keywords": [
+          "IMM",
+          "dhis2:imm"
+        ]
+      },
+      {
+        "name": "i_exam_qualification",
+        "title": "Exam",
+        "keywords": [
+          "A",
+          "Class",
+          "Mark",
+          "Test",
+          "dhis2:I_exam_qualification"
+        ]
+      },
+      {
+        "name": "i_documents_denied",
+        "title": "Denied Document",
+        "keywords": [
+          "Document",
+          "Paper",
+          "Test",
+          "dhis2:i_documents_denied"
+        ]
+      },
+      {
+        "name": "i_documents_accepted",
+        "title": "Approved Document",
+        "keywords": [
+          "Document",
+          "Paper",
+          "Test",
+          "dhis2:i_documents_accepted"
+        ]
+      },
+      {
+        "name": "hospital_symbol",
+        "title": "Hospital Symbol",
+        "keywords": [
+          "Building",
+          "Clinic",
+          "H",
+          "Hospital",
+          "Sign",
+          "Symbol"
+        ]
+      },
+      {
+        "name": "high_level",
+        "title": "High Level",
+        "keywords": [
+          "Fast",
+          "Full",
+          "Gauge",
+          "Measure",
+          "Meter",
+          "Speedometer",
+          "dhis2:high_level"
+        ]
+      },
+      {
+        "name": "heart_cardiogram",
+        "title": "Cardiogram",
+        "keywords": [
+          "Cardiology",
+          "ECG",
+          "EKG",
+          "Electrocardiogram",
+          "Heart",
+          "Monitor",
+          "dhis2:heart_cardiogram"
+        ]
+      },
+      {
+        "name": "heart",
+        "title": "Heart",
+        "keywords": [
+          "Cardiology",
+          "Favorite",
+          "Like",
+          "Love",
+          "dhis2:heart"
+        ]
+      },
+      {
+        "name": "health_data_sync",
+        "title": "Health Data Sync",
+        "keywords": [
+          "Data flow",
+          "Flow",
+          "Synchronization",
+          "dhis2:health_data_sync"
+        ]
+      },
+      {
+        "name": "health_data_security",
+        "title": "Health Data Security",
+        "keywords": [
+          "Locked",
+          "Operations",
+          "Secops",
+          "Secure",
+          "dhis2:health_data_security"
+        ]
+      },
+      {
+        "name": "hazardous",
+        "title": "Hazardous",
+        "keywords": [
+          "Alert",
+          "Danger",
+          "Radiation",
+          "Radioactive",
+          "Warning",
+          "dhis2:hazardous"
+        ]
+      },
+      {
+        "name": "geo_location",
+        "title": "Location",
+        "keywords": [
+          "GIS",
+          "Geo",
+          "Location",
+          "Map",
+          "Pin",
+          "dhis2:geo_location"
+        ]
+      },
+      {
+        "name": "electricity",
+        "title": "Electricity",
+        "keywords": [
+          "Bulb",
+          "Light bulb",
+          "Lightning",
+          "Zap",
+          "dhis2:electricity"
+        ]
+      },
+      {
+        "name": "eco_care",
+        "title": "Ecology",
+        "keywords": [
+          "Earth",
+          "Environment",
+          "Environmentalism",
+          "Heart",
+          "Plant",
+          "dhis2:eco_care"
+        ]
+      },
+      {
+        "name": "diabetes",
+        "title": "Diabetes",
+        "keywords": [
+          "DM",
+          "Endocrine",
+          "Endocrinology",
+          "Glucose",
+          "Sugar",
+          "dhis2:diabetes"
+        ]
+      },
+      {
+        "name": "dhis2_logo",
+        "title": "DHIS2 Logo",
+        "keywords": [
+          "Layers",
+          "Squares",
+          "dhis2:dhis2_logo"
+        ]
+      },
+      {
+        "name": "death_alt2",
+        "title": "Death Alt 2",
+        "keywords": [
+          "Casket",
+          "Dead",
+          "Death",
+          "Died"
+        ]
+      },
+      {
+        "name": "death_alt",
+        "title": "Death Alt",
+        "keywords": [
+          "Casket",
+          "Dead",
+          "Death",
+          "Died",
+          "Skull"
+        ]
+      },
+      {
+        "name": "death",
+        "title": "Death",
+        "keywords": [
+          "Casket",
+          "Dead",
+          "Death",
+          "Died",
+          "Skull"
+        ]
+      },
+      {
+        "name": "community_meeting",
+        "title": "Outdoor Meeting",
+        "keywords": [
+          "Group",
+          "Meditation",
+          "Tree",
+          "dhis2:community_meeting"
+        ]
+      },
+      {
+        "name": "communication",
+        "title": "Chat",
+        "keywords": [
+          "Communication",
+          "Message",
+          "Speech Bubble",
+          "dhis2:communication"
+        ]
+      },
+      {
+        "name": "clinical_fe",
+        "title": "Clinical Record",
+        "keywords": [
+          "Chart",
+          "Clinical Note",
+          "Doctor Note",
+          "Document",
+          "Note",
+          "Paper",
+          "dhis2:clinical_fe"
+        ]
+      },
+      {
+        "name": "clinical_f",
+        "title": "Clinical Document",
+        "keywords": [
+          "Chart",
+          "Clinical Note",
+          "Doctor Note",
+          "Document",
+          "Note",
+          "Paper",
+          "dhis2:clinical_f"
+        ]
+      },
+      {
+        "name": "cholera",
+        "title": "Cholera",
+        "keywords": [
+          "Disease",
+          "Tap",
+          "Water",
+          "Water Borne Disease",
+          "dhis2:cholera"
+        ]
+      },
+      {
+        "name": "cardiogram_e",
+        "title": "Cardiogram Edit",
+        "keywords": [
+          "Cardiology",
+          "Chart",
+          "Heart",
+          "Heartbeat",
+          "dhis2:cardiogram_e"
+        ]
+      },
+      {
+        "name": "cardiogram",
+        "title": "Cardiogram",
+        "keywords": [
+          "Cardiology",
+          "Heart",
+          "Heartbeat",
+          "dhis2:cardiogram"
+        ]
+      },
+      {
+        "name": "cannabis",
+        "title": "Cannabis",
+        "keywords": [
+          "CDB",
+          "Hemp",
+          "Marijuana",
+          "Wacky Tobaccy",
+          "Weed"
+        ]
+      },
+      {
+        "name": "award_ribbon",
+        "title": "Award",
+        "keywords": [
+          "Prize",
+          "Ribbon",
+          "Success",
+          "Trophy",
+          "dhis2:award_ribbon"
+        ]
+      },
+      {
+        "name": "alert_triangle",
+        "title": "Warning Triangle",
+        "keywords": [
+          "Alert",
+          "Exclamation Mark",
+          "Exclamation Point",
+          "Triangle",
+          "dhis2:alert_triangle"
+        ]
+      },
+      {
+        "name": "alert_circle",
+        "title": "Alert Circle",
+        "keywords": [
+          "Exclamation Point",
+          "Warning",
+          "dhis2:alert_circle"
+        ]
+      },
+      {
+        "name": "alert",
+        "title": "Warning",
+        "keywords": [
+          "Alert",
+          "Exclamation Mark",
+          "Exclamation Point",
+          "dhis2:alert"
+        ]
+      },
+      {
+        "name": "forum",
+        "title": "Chat",
+        "keywords": [
+          "Chat",
+          "Discussion",
+          "Forum",
+          "Meeting",
+          "People",
+          "Speech",
+          "dhis2:forum"
+        ]
+      },
+      {
+        "name": "entry",
+        "title": "Entry",
+        "keywords": [
+          "Doorway",
+          "Entrance",
+          "Login",
+          "Open",
+          "Open Door",
+          "Sign in"
+        ]
+      },
+      {
+        "name": "health",
+        "title": "Health Shield",
+        "keywords": [
+          "Cross",
+          "Hospital",
+          "Medicine",
+          "Protect",
+          "Symbol"
+        ]
+      },
+      {
+        "name": "health_alt",
+        "title": "Health ALT",
+        "keywords": [
+          "Cross",
+          "Hospital",
+          "Medicine",
+          "Symbol"
+        ]
+      },
+      {
+        "name": "health_literacy",
+        "title": "Health Literacy",
+        "keywords": [
+          "Book",
+          "Document",
+          "Library",
+          "Medicine",
+          "Symbol"
+        ]
+      },
+      {
+        "name": "contact_support",
+        "title": "Support",
+        "keywords": [
+          "Chat",
+          "Contact",
+          "FAQ",
+          "Help",
+          "Question Mark",
+          "Speech Bubble",
+          "dhis2:contact_support"
+        ]
+      },
+      {
+        "name": "i_note_action",
+        "title": "Notes",
+        "keywords": [
+          "Class",
+          "Paper",
+          "Test",
+          "dhis2:i_note_action"
+        ]
+      },
+      {
+        "name": "breeding_sites",
+        "title": "Breeding Sites",
+        "keywords": [
+          "Disease",
+          "Eggs",
+          "Larva",
+          "dhis2:breeding_sites"
+        ]
+      },
+      {
+        "name": "sexual_reproductive_health",
+        "title": "Gender Symbols",
+        "keywords": [
+          "Female",
+          "Gender",
+          "Male",
+          "Sex",
+          "Symbols",
+          "dhis2:sexual_reproductive_health"
+        ]
+      },
+      {
+        "name": "default",
+        "title": "Document Edit",
+        "keywords": [
+          "Chart",
+          "Document",
+          "Paper",
+          "Test",
+          "dhis2:default"
+        ]
+      },
+      {
+        "name": "i_exam_multiple_choice",
+        "title": "Exam Multiple-Choice",
+        "keywords": [
+          "Document",
+          "Exam",
+          "Note",
+          "Paper",
+          "Test",
+          "dhis2:i_exam_multiple_choice"
+        ]
+      },
+      {
+        "name": "i_schedule_school_date_time",
+        "title": "Calendar Schedule",
+        "keywords": [
+          "Appointment",
+          "Cal",
+          "Event",
+          "Time",
+          "dhis2:i_schedule_school_date_time"
+        ]
+      },
+      {
+        "name": "insecticide_resistance",
+        "title": "Insecticide Resistant",
+        "keywords": [
+          "Mosquito",
+          "dhis2:insecticide_resistance"
+        ]
+      },
+      {
+        "name": "referral",
+        "title": "Referral",
+        "keywords": [
+          "Admission",
+          "Entrance",
+          "Hospital",
+          "Transfer",
+          "dhis2:referral"
+        ]
+      },
+      {
+        "name": "virus-research",
+        "title": "Virus Research ALT",
+        "keywords": [
+          "Covid",
+          "Diagnostic",
+          "Lab",
+          "Magnify",
+          "Viral",
+          "Virus"
+        ]
+      },
+      {
+        "name": "virus_research_alt",
+        "title": "Virus Research",
+        "keywords": [
+          "Covid",
+          "Diagnostic",
+          "Lab",
+          "Magnify",
+          "Microscope",
+          "Viral",
+          "Virus"
+        ]
+      },
+      {
+        "name": "low_income_level",
+        "title": "Low income",
+        "keywords": [
+          "Arrow",
+          "Finance",
+          "Financial",
+          "Income",
+          "Low income",
+          "Money",
+          "Poor",
+          "Poverty"
+        ]
+      },
+      {
+        "name": "yes",
+        "title": "Checkmark",
+        "keywords": [
+          "Approved",
+          "Circle",
+          "Success",
+          "Yes",
+          "dhis2:yes"
+        ]
+      },
+      {
+        "name": "un_paved_road",
+        "title": "Unpaved Road",
+        "keywords": [
+          "Curve",
+          "Dirt",
+          "Road",
+          "dhis2:unpaved_road"
+        ]
+      },
+      {
+        "name": "tally",
+        "title": "Tally",
+        "keywords": [
+          "Add",
+          "Addition",
+          "Count",
+          "Math",
+          "Register"
+        ]
+      },
+      {
+        "name": "stop",
+        "title": "Stop",
+        "keywords": [
+          "Fingers",
+          "Halt",
+          "Hand",
+          "Warning",
+          "dhis2:stop"
+        ]
+      },
+      {
+        "name": "excel_logo",
+        "title": "Excel",
+        "keywords": [
+          "Document",
+          "Logo",
+          "Spreadsheet"
+        ]
+      },
+      {
+        "name": "openMRS_logo",
+        "title": "OpenMRS",
+        "keywords": [
+          "EHR",
+          "EMR",
+          "Logo",
+          "Open Medical Records System"
+        ]
+      },
+      {
+        "name": "water_treatment",
+        "title": "Water Treatment",
+        "keywords": [
+          "Arrows",
+          "Drop",
+          "Water",
+          "dhis2:water_treatment"
+        ]
+      },
+      {
+        "name": "social_distancing",
+        "title": "Social Distancing",
+        "keywords": [
+          "Apart",
+          "Arrows",
+          "Between",
+          "Social Distance",
+          "Space",
+          "dhis2:social_distancing"
+        ]
+      },
+      {
+        "name": "discharge",
+        "title": "Discharge",
+        "keywords": [
+          "Chair",
+          "Department",
+          "Exit",
+          "Hospital"
+        ]
+      },
+      {
+        "name": "pharmacy",
+        "title": "Pharmacy",
+        "keywords": [
+          "Department",
+          "Drugs",
+          "Medications",
+          "Pharmacist",
+          "Pharmacy",
+          "Pills"
+        ]
+      },
+      {
+        "name": "pharmacy_alt",
+        "title": "Pharmacy",
+        "keywords": [
+          "Department",
+          "Drugs",
+          "Medications",
+          "Pharmacist",
+          "Pharmacy",
+          "Pills"
+        ]
+      },
+      {
+        "name": "simple_logo",
+        "title": "Simple.org",
+        "keywords": [
+          "App",
+          "HIT",
+          "Health IT",
+          "Open Source"
+        ]
+      },
+      {
+        "name": "transgender",
+        "title": "Transgender",
+        "keywords": [
+          "Gender",
+          "Sex",
+          "Symbol",
+          "Trans",
+          "Transgender",
+          "dhis2:transgender"
+        ]
+      },
+      {
+        "name": "assembly_point",
+        "title": "Assembly Point",
+        "keywords": [
+          "Emergency",
+          "Navigation",
+          "Wayfinding"
+        ]
+      },
+      {
+        "name": "guide_dog",
+        "title": "Guide Dog",
+        "keywords": [
+          "Animal",
+          "Blind",
+          "Service Animal",
+          "Sight"
+        ]
+      },
+      {
+        "name": "ui_zoom_in",
+        "title": "UI Zoom In",
+        "keywords": [
+          "Magnifying Glass",
+          "Navigation",
+          "User Interface"
+        ]
+      },
+      {
+        "name": "ui_zoom_out",
+        "title": "UI Zoom Out",
+        "keywords": [
+          "Magnifying Glass",
+          "Navigation",
+          "User Interface"
+        ]
+      },
+      {
+        "name": "ui_zoom",
+        "title": "UI Zoom",
+        "keywords": [
+          "Find",
+          "Magnifying Glass",
+          "Navigation",
+          "Search",
+          "User Interface"
+        ]
+      },
+      {
+        "name": "ui_settings",
+        "title": "Settings",
+        "keywords": [
+          "Navigation",
+          "Preferences",
+          "User Interface"
+        ]
+      },
+      {
+        "name": "ui_secure",
+        "title": "Secure",
+        "keywords": [
+          "Lock",
+          "Navigation",
+          "Security",
+          "User Interface"
+        ]
+      },
+      {
+        "name": "ui_preferences",
+        "title": "Preferences",
+        "keywords": [
+          "Navigation",
+          "Settings",
+          "User Interface"
+        ]
+      },
+      {
+        "name": "ui_folder_family",
+        "title": "UI Family Folder",
+        "keywords": [
+          "Data",
+          "Folder",
+          "Navigation",
+          "User Interface"
+        ]
+      },
+      {
+        "name": "ui_folder",
+        "title": "UI Folder",
+        "keywords": [
+          "Data",
+          "Folder",
+          "Navigation",
+          "User Interface"
+        ]
+      },
+      {
+        "name": "ui_menu",
+        "title": "UI Menu",
+        "keywords": [
+          "Navigation",
+          "User Interface"
+        ]
+      },
+      {
+        "name": "ui_menu_grid",
+        "title": "UI Menu Grid",
+        "keywords": [
+          "Navigation",
+          "User Interface"
+        ]
+      },
+      {
+        "name": "database",
+        "title": "Database",
+        "keywords": [
+          "DB",
+          "Data",
+          "Database",
+          "Storage"
+        ]
+      },
+      {
+        "name": "ui_user_profile",
+        "title": "UI User Profile",
+        "keywords": [
+          "Navigation",
+          "User Interface"
+        ]
+      },
+      {
+        "name": "network_5g",
+        "title": "Network 5G",
+        "keywords": [
+          "Bandwidth",
+          "Connection",
+          "Network",
+          "Phone",
+          "Speed",
+          "dhis2:5g"
+        ]
+      },
+      {
+        "name": "network_4g",
+        "title": "Network 4G",
+        "keywords": [
+          "Bandwidth",
+          "Connection",
+          "LTE",
+          "Network",
+          "Phone",
+          "Speed",
+          "dhis2:4g"
+        ]
+      },
+      {
+        "name": "medium_bars",
+        "title": "Network Medium Bars",
+        "keywords": [
+          "Connection",
+          "Medium",
+          "Network",
+          "Phone",
+          "Speed",
+          "dhis2:medium_bars"
+        ]
+      },
+      {
+        "name": "low_bars",
+        "title": "Network Low Bars",
+        "keywords": [
+          "Connection",
+          "Network",
+          "Phone",
+          "Slow",
+          "Speed",
+          "dhis2:low_bars"
+        ]
+      },
+      {
+        "name": "high_bars",
+        "title": "Network High Bars",
+        "keywords": [
+          "Connection",
+          "Fast",
+          "Network",
+          "Phone",
+          "Speed",
+          "dhis2:high_bars"
+        ]
+      },
+      {
+        "name": "3g",
+        "title": "Network 3G",
+        "keywords": [
+          "Bandwidth",
+          "Connection",
+          "Network",
+          "Phone",
+          "Speed",
+          "dhis2:3g"
+        ]
+      },
+      {
+        "name": "2g",
+        "title": "Network 2G",
+        "keywords": [
+          "Bandwidth",
+          "Connection",
+          "Network",
+          "Phone",
+          "Speed",
+          "dhis2:2g"
+        ]
+      },
+      {
+        "name": "home-quarantine",
+        "title": "Quarantine Home",
+        "keywords": [
+          "Covid",
+          "Home",
+          "Isolation",
+          "Quarantine",
+          "Virus"
+        ]
+      },
+      {
+        "name": "calendar-quarantine",
+        "title": "Calendar Quarantine",
+        "keywords": [
+          "Calendar",
+          "Covid",
+          "Isolation",
+          "Quarantine",
+          "Virus"
+        ]
+      },
+      {
+        "name": "social_distancing_alt",
+        "title": "Social Distancing ALT",
+        "keywords": [
+          "Apart",
+          "Arrows",
+          "Between",
+          "Social Distance",
+          "Space"
+        ]
+      },
+      {
+        "name": "virus-shield",
+        "title": "Shield Virus",
+        "keywords": [
+          "Covid",
+          "Protection",
+          "Vaccine",
+          "Virus"
+        ]
+      },
+      {
+        "name": "virus_alt",
+        "title": "Virus ALT",
+        "keywords": [
+          "Covid",
+          "Epidemic",
+          "Infection",
+          "Infectious",
+          "Pandemic",
+          "Virology",
+          "Virus"
+        ]
+      },
+      {
+        "name": "virus_patient",
+        "title": "Patient Virus",
+        "keywords": [
+          "Covid",
+          "Epidemic",
+          "Human",
+          "Pandemic",
+          "Patient",
+          "Person",
+          "Virology",
+          "Virus"
+        ]
+      },
+      {
+        "name": "global-pandemic",
+        "title": "Global Pandemic",
+        "keywords": [
+          "Covid",
+          "Epidemic",
+          "Pandemic",
+          "Virology",
+          "Virus"
+        ]
+      },
+      {
+        "name": "globe",
+        "title": "Globe",
+        "keywords": [
+          "Earth",
+          "Globe",
+          "Location",
+          "World"
+        ]
+      },
+      {
+        "name": "virus-mutation",
+        "title": "Virus Mutation",
+        "keywords": [
+          "Adaptation",
+          "Change",
+          "Covid",
+          "Evolution",
+          "Mutation",
+          "Viral",
+          "Virology",
+          "Virus"
+        ]
+      },
+      {
+        "name": "fingerprint",
+        "title": "Fingerprint",
+        "keywords": [
+          "Body",
+          "Finger",
+          "Fingerprint",
+          "Human",
+          "ID",
+          "Scan",
+          "identification"
+        ]
+      },
+      {
+        "name": "palliative-care",
+        "title": "Palliative Care",
+        "keywords": [
+          "Heart",
+          "Hearts",
+          "Palliative Care"
+        ]
+      },
+      {
+        "name": "hospice",
+        "title": "Hospice",
+        "keywords": [
+          "Hospice Care",
+          "Hospital",
+          "Palliative Care"
+        ]
+      },
+      {
+        "name": "FHIR_logo",
+        "title": "FHIR",
+        "keywords": [
+          "FHIR",
+          "HL7",
+          "Informatics",
+          "Interoperability",
+          "Logo",
+          "Standards"
+        ]
+      },
+      {
+        "name": "interoperability",
+        "title": "Interoperability",
+        "keywords": [
+          "FHIR",
+          "IT",
+          "Informatics",
+          "Interoperability",
+          "Standards",
+          "Tech",
+          "Technology",
+          "Terminology"
+        ]
+      },
+      {
+        "name": "medical_search",
+        "title": "Medical Search",
+        "keywords": [
+          "Cross",
+          "Find",
+          "Glass",
+          "Magnifying",
+          "Medical",
+          "Plus",
+          "Search",
+          "Zoom"
+        ]
+      },
+      {
+        "name": "lab_search",
+        "title": "Lab Search",
+        "keywords": [
+          "Find",
+          "Glass",
+          "Lab",
+          "Magnifying",
+          "Medical",
+          "Sample",
+          "Search",
+          "Test tube"
+        ]
+      },
+      {
+        "name": "secure_communication",
+        "title": "Chat Secure",
+        "keywords": [
+          "Bubble",
+          "Chat",
+          "Communication",
+          "Encrypted",
+          "Lock",
+          "Message",
+          "SMS",
+          "Secure",
+          "Speech",
+          "Talk"
+        ]
+      },
+      {
+        "name": "smoking_cessation_alt",
+        "title": "No Smoking",
+        "keywords": [
+          "Banned",
+          "Cessation",
+          "Smoking",
+          "Stop",
+          "Tobacco",
+          "Unhealthy"
+        ]
+      },
+      {
+        "name": "cancel",
+        "title": "Cancel",
+        "keywords": [
+          "Cancel",
+          "Cessation",
+          "No Entry",
+          "None",
+          "Stop",
+          "Symbol"
+        ]
+      },
+      {
+        "name": "telemedicine",
+        "title": "Telemedicine",
+        "keywords": [
+          "Computer",
+          "Consult",
+          "Doctor",
+          "Meeting",
+          "Virtual"
+        ]
+      },
+      {
+        "name": "heartbeat",
+        "title": "Heartbeat",
+        "keywords": [
+          "Cardiology",
+          "Circulatory System",
+          "Device",
+          "Electrical",
+          "Heart",
+          "Heart attack",
+          "Heartbeat",
+          "Stroke",
+          "Symbol"
+        ]
+      },
+      {
+        "name": "qr_code",
+        "title": "QR Code",
+        "keywords": [
+          "Bar code",
+          "Barcode",
+          "Code",
+          "ID",
+          "Identification",
+          "Quick Response Code",
+          "Scan"
+        ]
+      },
+      {
+        "name": "icd",
+        "title": "ICD",
+        "keywords": [
+          "Classification",
+          "Code",
+          "Informatics",
+          "Standard",
+          "Terminology",
+          "WHO"
+        ]
+      },
+      {
+        "name": "icd_11",
+        "title": "ICD 11",
+        "keywords": [
+          "Classification",
+          "Code",
+          "Informatics",
+          "Standard",
+          "Terminology",
+          "WHO"
+        ]
+      },
+      {
+        "name": "icd_10",
+        "title": "ICD 10",
+        "keywords": [
+          "Classification",
+          "Code",
+          "Informatics",
+          "Standard",
+          "Terminology",
+          "WHO"
+        ]
+      },
+      {
+        "name": "icd_9",
+        "title": "ICD 9",
+        "keywords": [
+          "Classification",
+          "Code",
+          "Informatics",
+          "Standard",
+          "Terminology",
+          "WHO"
+        ]
+      },
+      {
+        "name": "height",
+        "title": "Height",
+        "keywords": [
+          "BMI",
+          "Centimeter",
+          "Diagnostic",
+          "Foot",
+          "Height",
+          "Measure",
+          "Patient",
+          "Short",
+          "Tall"
+        ]
+      },
+      {
+        "name": "waist_circumference",
+        "title": "Waist Circumference",
+        "keywords": [
+          "BMI",
+          "Centimeter",
+          "Diagnostic",
+          "Mass",
+          "Measure",
+          "Obese",
+          "Patient",
+          "Thin",
+          "Underweight",
+          "Waist"
+        ]
+      },
+      {
+        "name": "head_circumference",
+        "title": "Head Circumference",
+        "keywords": [
+          "Centimeter",
+          "Diagnostic",
+          "Head",
+          "Measure",
+          "Patient",
+          "Skull"
+        ]
+      },
+      {
+        "name": "arm_circumference",
+        "title": "Arm Circumference",
+        "keywords": [
+          "Arm",
+          "Centimeter",
+          "Diagnostic",
+          "Measure",
+          "Patient"
+        ]
+      },
+      {
+        "name": "healthcare_it",
+        "title": "Health IT",
+        "keywords": [
+          "Computer",
+          "Device",
+          "Health",
+          "IT",
+          "Information technology",
+          "Laptop",
+          "Medicine",
+          "Technology"
+        ]
+      },
+      {
+        "name": "body_mass_index",
+        "title": "Body Mass Index",
+        "keywords": [
+          "BMI",
+          "BMI",
+          "Diagnostic",
+          "Height",
+          "Mass",
+          "Measure",
+          "Obese",
+          "Thin",
+          "Underweight",
+          "Waist"
+        ]
+      },
+      {
+        "name": "loinc",
+        "title": "LOINC",
+        "keywords": [
+          "Classification",
+          "Code",
+          "Informatics",
+          "Lab",
+          "Standard",
+          "Terminology"
+        ]
+      },
+      {
+        "name": "bio_pharma",
+        "title": "Biopharma",
+        "keywords": [
+          "Biology",
+          "Biopharmaceutical",
+          "Cancer",
+          "DNA",
+          "Drug",
+          "Medicine",
+          "Pharmacology"
+        ]
+      },
+      {
+        "name": "female",
+        "title": "Female symbol",
+        "keywords": [
+          "Female",
+          "Gender",
+          "Sex",
+          "Sign",
+          "Symbol",
+          "Woman"
+        ]
+      },
+      {
+        "name": "male",
+        "title": "Male symbol",
+        "keywords": [
+          "Gender",
+          "Male",
+          "Man",
+          "Sex",
+          "Sign",
+          "Symbol"
+        ]
+      },
+      {
+        "name": "artificial_intelligence",
+        "title": "Artificial intelligence",
+        "keywords": [
+          "AI",
+          "Artificial intelligence",
+          "Automation",
+          "Bot",
+          "Improve",
+          "LLM",
+          "Magic",
+          "Optimize",
+          "Sparkle"
+        ]
+      },
+      {
+        "name": "magic_wand",
+        "title": "Magic Wand",
+        "keywords": [
+          "AI",
+          "Artificial intelligence",
+          "Automation",
+          "Bot",
+          "Improve",
+          "LLM",
+          "Magic",
+          "Optimize",
+          "Sparkle"
+        ]
+      },
+      {
+        "name": "life_science",
+        "title": "Life Science",
+        "keywords": [
+          "Biology",
+          "Botany",
+          "Environment",
+          "Green",
+          "Grow",
+          "Lab",
+          "Laboratory",
+          "Life Sciences",
+          "Organism",
+          "Plant",
+          "Test Tube"
+        ]
+      },
+      {
+        "name": "biomarker",
+        "title": "Biomarker",
+        "keywords": [
+          "Biology",
+          "DNA",
+          "Life Sciences",
+          "Magnifying Glass",
+          "Zoom"
+        ]
+      },
+      {
+        "name": "lactation",
+        "title": "Lactation",
+        "keywords": [
+          "Baby",
+          "Breast",
+          "Breastfeed",
+          "Breastmilk",
+          "Feed",
+          "Feed",
+          "Milk",
+          "Mother",
+          "Nurse",
+          "Nursing",
+          "Nutrition",
+          "Postnatal"
+        ]
+      },
+      {
+        "name": "mental_health",
+        "title": "Mental Health",
+        "keywords": [
+          "Brain",
+          "Heart",
+          "Mental Health",
+          "Psychiatry",
+          "Psychology",
+          "Wellness"
+        ]
+      },
+      {
+        "name": "integrated_data_and_research",
+        "title": "Integrated Data and Research",
+        "keywords": [
+          "Chart",
+          "Data",
+          "Data Science",
+          "Graph",
+          "Quality Improvement",
+          "Research",
+          "Science",
+          "Search"
+        ]
+      },
+      {
+        "name": "risk_analysis",
+        "title": "Risk Analysis",
+        "keywords": [
+          "Alert",
+          "CDSS",
+          "Clinical",
+          "Clinical decision support",
+          "Risk",
+          "Warning"
+        ]
+      },
+      {
+        "name": "health_vulnerability_through_social_determinants",
+        "title": "Social Determinants of Health",
+        "keywords": [
+          "Causes",
+          "Community",
+          "Health vulnerability",
+          "Root causes",
+          "Social",
+          "Welfare"
+        ]
+      },
+      {
+        "name": "resilient_and_migration_sensitive_health_system",
+        "title": "Resilient and Migration Sensitive Health System",
+        "keywords": [
+          "Adaptable",
+          "Environment",
+          "Hands",
+          "Health system",
+          "Heart",
+          "Plant",
+          "Resilience"
+        ]
+      },
+      {
+        "name": "close_policy_gaps",
+        "title": "Policy Gaps",
+        "keywords": [
+          "Government",
+          "Health policy",
+          "Interoperability",
+          "Policy",
+          "Puzzle",
+          "System"
+        ]
+      },
+      {
+        "name": "close_policy_gaps_alt",
+        "title": "Policy Gaps ALT",
+        "keywords": [
+          "Government",
+          "Health policy",
+          "Interoperability",
+          "Policy",
+          "Puzzle",
+          "System"
+        ]
+      },
+      {
+        "name": "job_status_level",
+        "title": "Job level",
+        "keywords": [
+          "Career",
+          "Group",
+          "Hierarchy",
+          "Job",
+          "Organization",
+          "Organogram",
+          "Team"
+        ]
+      },
+      {
+        "name": "diagnostics",
+        "title": "Diagnostics",
+        "keywords": [
+          "Charts",
+          "Data",
+          "Diagnose",
+          "Diagnositics",
+          "Dx",
+          "Evaluation",
+          "Exam",
+          "Lab",
+          "Trend",
+          "Triage"
+        ]
+      },
+      {
+        "name": "blood_transfusion",
+        "title": "Blood transfusion",
+        "keywords": [
+          "Arm",
+          "Bag",
+          "Blood",
+          "Fist",
+          "Hand",
+          "IV",
+          "Intravenous",
+          "Liquid",
+          "Saline",
+          "Surgery",
+          "Transfusion"
+        ]
+      },
+      {
+        "name": "HL7v2_logo",
+        "title": "FHIR2",
+        "keywords": [
+          "FHIR",
+          "FHIR2",
+          "HL7",
+          "Informatics",
+          "Interoperability",
+          "Logo",
+          "Standards"
+        ]
+      },
+      {
+        "name": "ear_nose_throat",
+        "title": "Ear Nose and Throat",
+        "keywords": [
+          "Auditory",
+          "Breathing",
+          "Condition",
+          "ENT",
+          "Ear",
+          "Head",
+          "Hearing",
+          "Neck",
+          "Nose",
+          "Respiratory",
+          "Specialty",
+          "Throat"
+        ]
+      },
+      {
+        "name": "nappy_diaper",
+        "title": "Diaper",
+        "keywords": [
+          "Baby",
+          "Child",
+          "Depends",
+          "Diaper",
+          "Incontinence",
+          "Napkin",
+          "Nappy",
+          "Newborn",
+          "Poop",
+          "Undergarment"
+        ]
+      }
+    ],
+    "typography": [
+      {
+        "name": "A",
+        "title": "A",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "B",
+        "title": "B",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "C",
+        "title": "C",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "D",
+        "title": "D",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "E",
+        "title": "E",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "F",
+        "title": "F",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "G",
+        "title": "G",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "H",
+        "title": "H",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "I",
+        "title": "I",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "J",
+        "title": "J",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "K",
+        "title": "K",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "L",
+        "title": "L",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "M",
+        "title": "M",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "N",
+        "title": "N",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "O",
+        "title": "O",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "P",
+        "title": "P",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "Q",
+        "title": "Q",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "R",
+        "title": "R",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "S",
+        "title": "S",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "T",
+        "title": "T",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "U",
+        "title": "U",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "V",
+        "title": "V",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "W",
+        "title": "W",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "X",
+        "title": "X",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "Y",
+        "title": "Y",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "Z",
+        "title": "Z",
+        "keywords": [
+          "Letter"
+        ]
+      },
+      {
+        "name": "!",
+        "title": "Exclamation Point",
+        "keywords": [
+          "Attention",
+          "Letter",
+          "Punctuation"
+        ]
+      },
+      {
+        "name": "question_mark",
+        "title": "Question mark",
+        "keywords": [
+          "Help",
+          "Letter",
+          "Punctuation",
+          "Question"
+        ]
+      },
+      {
+        "name": "dollar",
+        "title": "Dollar sign",
+        "keywords": [
+          "Currency",
+          "Dollar",
+          "Finance",
+          "Letter",
+          "Money"
+        ]
+      },
+      {
+        "name": "ghana",
+        "title": "Cedi",
+        "keywords": [
+          "Currency",
+          "Finance",
+          "Ghana",
+          "Letter",
+          "Money"
+        ]
+      },
+      {
+        "name": "yen",
+        "title": "Yen",
+        "keywords": [
+          "Currency",
+          "Finance",
+          "Japan",
+          "Letter",
+          "Money"
+        ]
+      },
+      {
+        "name": "rupee",
+        "title": "Rupee",
+        "keywords": [
+          "Currency",
+          "Finance",
+          "India",
+          "Letter",
+          "Money"
+        ]
+      },
+      {
+        "name": "0",
+        "title": "0",
+        "keywords": [
+          "Number",
+          "Zero"
+        ]
+      },
+      {
+        "name": "1",
+        "title": "1",
+        "keywords": [
+          "Number",
+          "One"
+        ]
+      },
+      {
+        "name": "2",
+        "title": "2",
+        "keywords": [
+          "Number",
+          "Two"
+        ]
+      },
+      {
+        "name": "3",
+        "title": "3",
+        "keywords": [
+          "Number",
+          "Three"
+        ]
+      },
+      {
+        "name": "4",
+        "title": "4",
+        "keywords": [
+          "Four",
+          "Number"
+        ]
+      },
+      {
+        "name": "5",
+        "title": "5",
+        "keywords": [
+          "Five",
+          "Number"
+        ]
+      },
+      {
+        "name": "6",
+        "title": "6",
+        "keywords": [
+          "Number",
+          "Six"
+        ]
+      },
+      {
+        "name": "7",
+        "title": "7",
+        "keywords": [
+          "Number",
+          "Seven"
+        ]
+      },
+      {
+        "name": "8",
+        "title": "8",
+        "keywords": [
+          "Eight",
+          "Number"
+        ]
+      },
+      {
+        "name": "9",
+        "title": "9",
+        "keywords": [
+          "Nine",
+          "Number"
+        ]
+      }
+    ],
+    "vehicles": [
+      {
+        "name": "war",
+        "title": "Tank",
+        "keywords": [
+          "Armored Vehicle",
+          "Army",
+          "Cannon",
+          "Gun",
+          "Military",
+          "Tank",
+          "dhis2:war"
+        ]
+      },
+      {
+        "name": "vespa_motorcycle",
+        "title": "Motor Scooter",
+        "keywords": [
+          "Motorbike",
+          "Motorcycle",
+          "dhis2:vespa_motorcycle"
+        ]
+      },
+      {
+        "name": "small_plane",
+        "title": "Small Airplane",
+        "keywords": [
+          "Airplane",
+          "Airport",
+          "Plane",
+          "Prop Plane",
+          "Propeller",
+          "Small Plane",
+          "Wings",
+          "dhis2:small_plane"
+        ]
+      },
+      {
+        "name": "mobile_clinic",
+        "title": "Mobile Clinic",
+        "keywords": [
+          "Ambulance",
+          "Cross",
+          "Red Cross",
+          "Truck",
+          "dhis2:mobile_clinic"
+        ]
+      },
+      {
+        "name": "machinery",
+        "title": "Machinery",
+        "keywords": [
+          "Digger",
+          "Equipment",
+          "Front-end Loader",
+          "dhis2:machinery"
+        ]
+      },
+      {
+        "name": "helicopter",
+        "title": "Helicopter",
+        "keywords": [
+          "Chopper",
+          "Medevac",
+          "Medivac",
+          "dhis2:helicopter"
+        ]
+      },
+      {
+        "name": "cross_country_motorcycle",
+        "title": "Off-road Motorcycle",
+        "keywords": [
+          "Cross Country",
+          "Dirt Bike",
+          "Motorbike",
+          "Motorcycle",
+          "dhis2:cross_country_motorcycle"
+        ]
+      },
+      {
+        "name": "bike",
+        "title": "Bicycle",
+        "keywords": [
+          "Bike",
+          "City Bike",
+          "Mountain Bike",
+          "dhis2:bike"
+        ]
+      },
+      {
+        "name": "basic_motorcycle",
+        "title": "Motorcycle",
+        "keywords": [
+          "Dirtbike dhis2:motorcycle",
+          "Motorbike"
+        ]
+      },
+      {
+        "name": "ambulance",
+        "title": "Ambulance",
+        "keywords": [
+          "Cross",
+          "Emergency",
+          "Red Cross",
+          "Siren",
+          "Truck",
+          "dhis2:ambulance"
+        ]
+      },
+      {
+        "name": "4x4",
+        "title": "SUV",
+        "keywords": [
+          "4x4",
+          "4×4",
+          "Jeep",
+          "Off-Road",
+          "Sport Utility Vehicle",
+          "Truck",
+          "dhis2:4x4"
+        ]
+      },
+      {
+        "name": "drone",
+        "title": "Drone",
+        "keywords": [
+          "Aircraft",
+          "Autonomous Flying Vehicle",
+          "Drone",
+          "Flight",
+          "dhis2:drone"
+        ]
+      }
+    ],
+    "zoonoses": [
+      {
+        "name": "animal_donkey",
+        "title": "Donkey",
+        "keywords": [
+          "Animal",
+          "Ass",
+          "Farm",
+          "Mule",
+          "Zoonoses",
+          "Zoonotic",
+          "dhis2:donkey"
+        ]
+      },
+      {
+        "name": "animal_mosquitos",
+        "title": "Mosquitos",
+        "keywords": [
+          "Malaria",
+          "Mosquito",
+          "Outbreak",
+          "Zoonoses",
+          "Zoonotic Disease",
+          "dhis2:malaria_outbreak"
+        ]
+      },
+      {
+        "name": "mosquito",
+        "title": "Mosquito",
+        "keywords": [
+          "Animal",
+          "Disease",
+          "Insect",
+          "Malaria",
+          "Zoonoses",
+          "Zoonotic Disease",
+          "dhis2:mosquito"
+        ]
+      },
+      {
+        "name": "animal_rat",
+        "title": "Rat",
+        "keywords": [
+          "Animal",
+          "Mouse",
+          "Rat",
+          "Rodent",
+          "Zoonoses",
+          "Zoonotic Disease"
+        ]
+      },
+      {
+        "name": "animal_pig",
+        "title": "Pig",
+        "keywords": [
+          "Animal",
+          "Farm",
+          "Mammal",
+          "Pork",
+          "Zoonoses",
+          "Zoonotic Disease"
+        ]
+      },
+      {
+        "name": "animal_bat",
+        "title": "Bat",
+        "keywords": [
+          "Animal",
+          "Mammal",
+          "Zoonoses",
+          "Zoonotic Disease"
+        ]
+      },
+      {
+        "name": "animal_spider",
+        "title": "Spider",
+        "keywords": [
+          "Animal",
+          "Arachnid",
+          "Bite",
+          "Disease",
+          "Insect",
+          "Poison",
+          "Zoonoses",
+          "Zoonotic Diseases"
+        ]
+      },
+      {
+        "name": "animal_tick",
+        "title": "Tick",
+        "keywords": [
+          "Animal",
+          "Disease",
+          "Insect",
+          "Zoonotic Diseases"
+        ]
+      },
+      {
+        "name": "animal_chicken",
+        "title": "Chicken",
+        "keywords": [
+          "Bird Flu",
+          "Chicken",
+          "Chicken Pox",
+          "Farm",
+          "Poultry",
+          "Zoonoses",
+          "Zoonotic Disease"
+        ]
+      },
+      {
+        "name": "animal_snake",
+        "title": "Snake",
+        "keywords": [
+          "Animal",
+          "Poison",
+          "Poisonous",
+          "Python",
+          "Snake",
+          "Venom",
+          "Zoonoses",
+          "Zoonotic Disease"
+        ]
+      },
+      {
+        "name": "animal_cow",
+        "title": "Cow",
+        "keywords": [
+          "Animal",
+          "Beef",
+          "Farm Animal",
+          "Milk",
+          "Zoonoses",
+          "Zoonotic Diseases"
+        ]
+      }
+    ]
+  }
+}

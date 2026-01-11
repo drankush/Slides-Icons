@@ -1,0 +1,8320 @@
+{
+  "version": "1.0.0",
+  "totalIcons": 2078,
+  "icons": {
+    "all": [
+      {
+        "name": "123",
+        "title": "123"
+      },
+      {
+        "name": "alarm-fill",
+        "title": "Alarm Fill"
+      },
+      {
+        "name": "alarm",
+        "title": "Alarm"
+      },
+      {
+        "name": "align-bottom",
+        "title": "Align Bottom"
+      },
+      {
+        "name": "align-center",
+        "title": "Align Center"
+      },
+      {
+        "name": "align-end",
+        "title": "Align End"
+      },
+      {
+        "name": "align-middle",
+        "title": "Align Middle"
+      },
+      {
+        "name": "align-start",
+        "title": "Align Start"
+      },
+      {
+        "name": "align-top",
+        "title": "Align Top"
+      },
+      {
+        "name": "alt",
+        "title": "Alt"
+      },
+      {
+        "name": "app-indicator",
+        "title": "App Indicator"
+      },
+      {
+        "name": "app",
+        "title": "App"
+      },
+      {
+        "name": "archive-fill",
+        "title": "Archive Fill"
+      },
+      {
+        "name": "archive",
+        "title": "Archive"
+      },
+      {
+        "name": "arrow-90deg-down",
+        "title": "Arrow 90deg Down"
+      },
+      {
+        "name": "arrow-90deg-left",
+        "title": "Arrow 90deg Left"
+      },
+      {
+        "name": "arrow-90deg-right",
+        "title": "Arrow 90deg Right"
+      },
+      {
+        "name": "arrow-90deg-up",
+        "title": "Arrow 90deg Up"
+      },
+      {
+        "name": "arrow-bar-down",
+        "title": "Arrow Bar Down"
+      },
+      {
+        "name": "arrow-bar-left",
+        "title": "Arrow Bar Left"
+      },
+      {
+        "name": "arrow-bar-right",
+        "title": "Arrow Bar Right"
+      },
+      {
+        "name": "arrow-bar-up",
+        "title": "Arrow Bar Up"
+      },
+      {
+        "name": "arrow-clockwise",
+        "title": "Arrow Clockwise"
+      },
+      {
+        "name": "arrow-counterclockwise",
+        "title": "Arrow Counterclockwise"
+      },
+      {
+        "name": "arrow-down-circle-fill",
+        "title": "Arrow Down Circle Fill"
+      },
+      {
+        "name": "arrow-down-circle",
+        "title": "Arrow Down Circle"
+      },
+      {
+        "name": "arrow-down-left-circle-fill",
+        "title": "Arrow Down Left Circle Fill"
+      },
+      {
+        "name": "arrow-down-left-circle",
+        "title": "Arrow Down Left Circle"
+      },
+      {
+        "name": "arrow-down-left-square-fill",
+        "title": "Arrow Down Left Square Fill"
+      },
+      {
+        "name": "arrow-down-left-square",
+        "title": "Arrow Down Left Square"
+      },
+      {
+        "name": "arrow-down-left",
+        "title": "Arrow Down Left"
+      },
+      {
+        "name": "arrow-down-right-circle-fill",
+        "title": "Arrow Down Right Circle Fill"
+      },
+      {
+        "name": "arrow-down-right-circle",
+        "title": "Arrow Down Right Circle"
+      },
+      {
+        "name": "arrow-down-right-square-fill",
+        "title": "Arrow Down Right Square Fill"
+      },
+      {
+        "name": "arrow-down-right-square",
+        "title": "Arrow Down Right Square"
+      },
+      {
+        "name": "arrow-down-right",
+        "title": "Arrow Down Right"
+      },
+      {
+        "name": "arrow-down-short",
+        "title": "Arrow Down Short"
+      },
+      {
+        "name": "arrow-down-square-fill",
+        "title": "Arrow Down Square Fill"
+      },
+      {
+        "name": "arrow-down-square",
+        "title": "Arrow Down Square"
+      },
+      {
+        "name": "arrow-down-up",
+        "title": "Arrow Down Up"
+      },
+      {
+        "name": "arrow-down",
+        "title": "Arrow Down"
+      },
+      {
+        "name": "arrow-left-circle-fill",
+        "title": "Arrow Left Circle Fill"
+      },
+      {
+        "name": "arrow-left-circle",
+        "title": "Arrow Left Circle"
+      },
+      {
+        "name": "arrow-left-right",
+        "title": "Arrow Left Right"
+      },
+      {
+        "name": "arrow-left-short",
+        "title": "Arrow Left Short"
+      },
+      {
+        "name": "arrow-left-square-fill",
+        "title": "Arrow Left Square Fill"
+      },
+      {
+        "name": "arrow-left-square",
+        "title": "Arrow Left Square"
+      },
+      {
+        "name": "arrow-left",
+        "title": "Arrow Left"
+      },
+      {
+        "name": "arrow-repeat",
+        "title": "Arrow Repeat"
+      },
+      {
+        "name": "arrow-return-left",
+        "title": "Arrow Return Left"
+      },
+      {
+        "name": "arrow-return-right",
+        "title": "Arrow Return Right"
+      },
+      {
+        "name": "arrow-right-circle-fill",
+        "title": "Arrow Right Circle Fill"
+      },
+      {
+        "name": "arrow-right-circle",
+        "title": "Arrow Right Circle"
+      },
+      {
+        "name": "arrow-right-short",
+        "title": "Arrow Right Short"
+      },
+      {
+        "name": "arrow-right-square-fill",
+        "title": "Arrow Right Square Fill"
+      },
+      {
+        "name": "arrow-right-square",
+        "title": "Arrow Right Square"
+      },
+      {
+        "name": "arrow-right",
+        "title": "Arrow Right"
+      },
+      {
+        "name": "arrow-up-circle-fill",
+        "title": "Arrow Up Circle Fill"
+      },
+      {
+        "name": "arrow-up-circle",
+        "title": "Arrow Up Circle"
+      },
+      {
+        "name": "arrow-up-left-circle-fill",
+        "title": "Arrow Up Left Circle Fill"
+      },
+      {
+        "name": "arrow-up-left-circle",
+        "title": "Arrow Up Left Circle"
+      },
+      {
+        "name": "arrow-up-left-square-fill",
+        "title": "Arrow Up Left Square Fill"
+      },
+      {
+        "name": "arrow-up-left-square",
+        "title": "Arrow Up Left Square"
+      },
+      {
+        "name": "arrow-up-left",
+        "title": "Arrow Up Left"
+      },
+      {
+        "name": "arrow-up-right-circle-fill",
+        "title": "Arrow Up Right Circle Fill"
+      },
+      {
+        "name": "arrow-up-right-circle",
+        "title": "Arrow Up Right Circle"
+      },
+      {
+        "name": "arrow-up-right-square-fill",
+        "title": "Arrow Up Right Square Fill"
+      },
+      {
+        "name": "arrow-up-right-square",
+        "title": "Arrow Up Right Square"
+      },
+      {
+        "name": "arrow-up-right",
+        "title": "Arrow Up Right"
+      },
+      {
+        "name": "arrow-up-short",
+        "title": "Arrow Up Short"
+      },
+      {
+        "name": "arrow-up-square-fill",
+        "title": "Arrow Up Square Fill"
+      },
+      {
+        "name": "arrow-up-square",
+        "title": "Arrow Up Square"
+      },
+      {
+        "name": "arrow-up",
+        "title": "Arrow Up"
+      },
+      {
+        "name": "arrows-angle-contract",
+        "title": "Arrows Angle Contract"
+      },
+      {
+        "name": "arrows-angle-expand",
+        "title": "Arrows Angle Expand"
+      },
+      {
+        "name": "arrows-collapse",
+        "title": "Arrows Collapse"
+      },
+      {
+        "name": "arrows-expand",
+        "title": "Arrows Expand"
+      },
+      {
+        "name": "arrows-fullscreen",
+        "title": "Arrows Fullscreen"
+      },
+      {
+        "name": "arrows-move",
+        "title": "Arrows Move"
+      },
+      {
+        "name": "aspect-ratio-fill",
+        "title": "Aspect Ratio Fill"
+      },
+      {
+        "name": "aspect-ratio",
+        "title": "Aspect Ratio"
+      },
+      {
+        "name": "asterisk",
+        "title": "Asterisk"
+      },
+      {
+        "name": "at",
+        "title": "At"
+      },
+      {
+        "name": "award-fill",
+        "title": "Award Fill"
+      },
+      {
+        "name": "award",
+        "title": "Award"
+      },
+      {
+        "name": "back",
+        "title": "Back"
+      },
+      {
+        "name": "backspace-fill",
+        "title": "Backspace Fill"
+      },
+      {
+        "name": "backspace-reverse-fill",
+        "title": "Backspace Reverse Fill"
+      },
+      {
+        "name": "backspace-reverse",
+        "title": "Backspace Reverse"
+      },
+      {
+        "name": "backspace",
+        "title": "Backspace"
+      },
+      {
+        "name": "badge-3d-fill",
+        "title": "Badge 3d Fill"
+      },
+      {
+        "name": "badge-3d",
+        "title": "Badge 3d"
+      },
+      {
+        "name": "badge-4k-fill",
+        "title": "Badge 4k Fill"
+      },
+      {
+        "name": "badge-4k",
+        "title": "Badge 4k"
+      },
+      {
+        "name": "badge-8k-fill",
+        "title": "Badge 8k Fill"
+      },
+      {
+        "name": "badge-8k",
+        "title": "Badge 8k"
+      },
+      {
+        "name": "badge-ad-fill",
+        "title": "Badge Ad Fill"
+      },
+      {
+        "name": "badge-ad",
+        "title": "Badge Ad"
+      },
+      {
+        "name": "badge-ar-fill",
+        "title": "Badge Ar Fill"
+      },
+      {
+        "name": "badge-ar",
+        "title": "Badge Ar"
+      },
+      {
+        "name": "badge-cc-fill",
+        "title": "Badge Cc Fill"
+      },
+      {
+        "name": "badge-cc",
+        "title": "Badge Cc"
+      },
+      {
+        "name": "badge-hd-fill",
+        "title": "Badge Hd Fill"
+      },
+      {
+        "name": "badge-hd",
+        "title": "Badge Hd"
+      },
+      {
+        "name": "badge-tm-fill",
+        "title": "Badge Tm Fill"
+      },
+      {
+        "name": "badge-tm",
+        "title": "Badge Tm"
+      },
+      {
+        "name": "badge-vo-fill",
+        "title": "Badge Vo Fill"
+      },
+      {
+        "name": "badge-vo",
+        "title": "Badge Vo"
+      },
+      {
+        "name": "badge-vr-fill",
+        "title": "Badge Vr Fill"
+      },
+      {
+        "name": "badge-vr",
+        "title": "Badge Vr"
+      },
+      {
+        "name": "badge-wc-fill",
+        "title": "Badge Wc Fill"
+      },
+      {
+        "name": "badge-wc",
+        "title": "Badge Wc"
+      },
+      {
+        "name": "bag-check-fill",
+        "title": "Bag Check Fill"
+      },
+      {
+        "name": "bag-check",
+        "title": "Bag Check"
+      },
+      {
+        "name": "bag-dash-fill",
+        "title": "Bag Dash Fill"
+      },
+      {
+        "name": "bag-dash",
+        "title": "Bag Dash"
+      },
+      {
+        "name": "bag-fill",
+        "title": "Bag Fill"
+      },
+      {
+        "name": "bag-plus-fill",
+        "title": "Bag Plus Fill"
+      },
+      {
+        "name": "bag-plus",
+        "title": "Bag Plus"
+      },
+      {
+        "name": "bag-x-fill",
+        "title": "Bag X Fill"
+      },
+      {
+        "name": "bag-x",
+        "title": "Bag X"
+      },
+      {
+        "name": "bag",
+        "title": "Bag"
+      },
+      {
+        "name": "bar-chart-fill",
+        "title": "Bar Chart Fill"
+      },
+      {
+        "name": "bar-chart-line-fill",
+        "title": "Bar Chart Line Fill"
+      },
+      {
+        "name": "bar-chart-line",
+        "title": "Bar Chart Line"
+      },
+      {
+        "name": "bar-chart-steps",
+        "title": "Bar Chart Steps"
+      },
+      {
+        "name": "bar-chart",
+        "title": "Bar Chart"
+      },
+      {
+        "name": "basket-fill",
+        "title": "Basket Fill"
+      },
+      {
+        "name": "basket",
+        "title": "Basket"
+      },
+      {
+        "name": "basket2-fill",
+        "title": "Basket2 Fill"
+      },
+      {
+        "name": "basket2",
+        "title": "Basket2"
+      },
+      {
+        "name": "basket3-fill",
+        "title": "Basket3 Fill"
+      },
+      {
+        "name": "basket3",
+        "title": "Basket3"
+      },
+      {
+        "name": "battery-charging",
+        "title": "Battery Charging"
+      },
+      {
+        "name": "battery-full",
+        "title": "Battery Full"
+      },
+      {
+        "name": "battery-half",
+        "title": "Battery Half"
+      },
+      {
+        "name": "battery",
+        "title": "Battery"
+      },
+      {
+        "name": "bell-fill",
+        "title": "Bell Fill"
+      },
+      {
+        "name": "bell",
+        "title": "Bell"
+      },
+      {
+        "name": "bezier",
+        "title": "Bezier"
+      },
+      {
+        "name": "bezier2",
+        "title": "Bezier2"
+      },
+      {
+        "name": "bicycle",
+        "title": "Bicycle"
+      },
+      {
+        "name": "binoculars-fill",
+        "title": "Binoculars Fill"
+      },
+      {
+        "name": "binoculars",
+        "title": "Binoculars"
+      },
+      {
+        "name": "blockquote-left",
+        "title": "Blockquote Left"
+      },
+      {
+        "name": "blockquote-right",
+        "title": "Blockquote Right"
+      },
+      {
+        "name": "book-fill",
+        "title": "Book Fill"
+      },
+      {
+        "name": "book-half",
+        "title": "Book Half"
+      },
+      {
+        "name": "book",
+        "title": "Book"
+      },
+      {
+        "name": "bookmark-check-fill",
+        "title": "Bookmark Check Fill"
+      },
+      {
+        "name": "bookmark-check",
+        "title": "Bookmark Check"
+      },
+      {
+        "name": "bookmark-dash-fill",
+        "title": "Bookmark Dash Fill"
+      },
+      {
+        "name": "bookmark-dash",
+        "title": "Bookmark Dash"
+      },
+      {
+        "name": "bookmark-fill",
+        "title": "Bookmark Fill"
+      },
+      {
+        "name": "bookmark-heart-fill",
+        "title": "Bookmark Heart Fill"
+      },
+      {
+        "name": "bookmark-heart",
+        "title": "Bookmark Heart"
+      },
+      {
+        "name": "bookmark-plus-fill",
+        "title": "Bookmark Plus Fill"
+      },
+      {
+        "name": "bookmark-plus",
+        "title": "Bookmark Plus"
+      },
+      {
+        "name": "bookmark-star-fill",
+        "title": "Bookmark Star Fill"
+      },
+      {
+        "name": "bookmark-star",
+        "title": "Bookmark Star"
+      },
+      {
+        "name": "bookmark-x-fill",
+        "title": "Bookmark X Fill"
+      },
+      {
+        "name": "bookmark-x",
+        "title": "Bookmark X"
+      },
+      {
+        "name": "bookmark",
+        "title": "Bookmark"
+      },
+      {
+        "name": "bookmarks-fill",
+        "title": "Bookmarks Fill"
+      },
+      {
+        "name": "bookmarks",
+        "title": "Bookmarks"
+      },
+      {
+        "name": "bookshelf",
+        "title": "Bookshelf"
+      },
+      {
+        "name": "bootstrap-fill",
+        "title": "Bootstrap Fill"
+      },
+      {
+        "name": "bootstrap-reboot",
+        "title": "Bootstrap Reboot"
+      },
+      {
+        "name": "bootstrap",
+        "title": "Bootstrap"
+      },
+      {
+        "name": "border-all",
+        "title": "Border All"
+      },
+      {
+        "name": "border-bottom",
+        "title": "Border Bottom"
+      },
+      {
+        "name": "border-center",
+        "title": "Border Center"
+      },
+      {
+        "name": "border-inner",
+        "title": "Border Inner"
+      },
+      {
+        "name": "border-left",
+        "title": "Border Left"
+      },
+      {
+        "name": "border-middle",
+        "title": "Border Middle"
+      },
+      {
+        "name": "border-outer",
+        "title": "Border Outer"
+      },
+      {
+        "name": "border-right",
+        "title": "Border Right"
+      },
+      {
+        "name": "border-style",
+        "title": "Border Style"
+      },
+      {
+        "name": "border-top",
+        "title": "Border Top"
+      },
+      {
+        "name": "border-width",
+        "title": "Border Width"
+      },
+      {
+        "name": "border",
+        "title": "Border"
+      },
+      {
+        "name": "bounding-box-circles",
+        "title": "Bounding Box Circles"
+      },
+      {
+        "name": "bounding-box",
+        "title": "Bounding Box"
+      },
+      {
+        "name": "box-arrow-down-left",
+        "title": "Box Arrow Down Left"
+      },
+      {
+        "name": "box-arrow-down-right",
+        "title": "Box Arrow Down Right"
+      },
+      {
+        "name": "box-arrow-down",
+        "title": "Box Arrow Down"
+      },
+      {
+        "name": "box-arrow-in-down-left",
+        "title": "Box Arrow In Down Left"
+      },
+      {
+        "name": "box-arrow-in-down-right",
+        "title": "Box Arrow In Down Right"
+      },
+      {
+        "name": "box-arrow-in-down",
+        "title": "Box Arrow In Down"
+      },
+      {
+        "name": "box-arrow-in-left",
+        "title": "Box Arrow In Left"
+      },
+      {
+        "name": "box-arrow-in-right",
+        "title": "Box Arrow In Right"
+      },
+      {
+        "name": "box-arrow-in-up-left",
+        "title": "Box Arrow In Up Left"
+      },
+      {
+        "name": "box-arrow-in-up-right",
+        "title": "Box Arrow In Up Right"
+      },
+      {
+        "name": "box-arrow-in-up",
+        "title": "Box Arrow In Up"
+      },
+      {
+        "name": "box-arrow-left",
+        "title": "Box Arrow Left"
+      },
+      {
+        "name": "box-arrow-right",
+        "title": "Box Arrow Right"
+      },
+      {
+        "name": "box-arrow-up-left",
+        "title": "Box Arrow Up Left"
+      },
+      {
+        "name": "box-arrow-up-right",
+        "title": "Box Arrow Up Right"
+      },
+      {
+        "name": "box-arrow-up",
+        "title": "Box Arrow Up"
+      },
+      {
+        "name": "box-seam",
+        "title": "Box Seam"
+      },
+      {
+        "name": "box",
+        "title": "Box"
+      },
+      {
+        "name": "braces",
+        "title": "Braces"
+      },
+      {
+        "name": "bricks",
+        "title": "Bricks"
+      },
+      {
+        "name": "briefcase-fill",
+        "title": "Briefcase Fill"
+      },
+      {
+        "name": "briefcase",
+        "title": "Briefcase"
+      },
+      {
+        "name": "brightness-alt-high-fill",
+        "title": "Brightness Alt High Fill"
+      },
+      {
+        "name": "brightness-alt-high",
+        "title": "Brightness Alt High"
+      },
+      {
+        "name": "brightness-alt-low-fill",
+        "title": "Brightness Alt Low Fill"
+      },
+      {
+        "name": "brightness-alt-low",
+        "title": "Brightness Alt Low"
+      },
+      {
+        "name": "brightness-high-fill",
+        "title": "Brightness High Fill"
+      },
+      {
+        "name": "brightness-high",
+        "title": "Brightness High"
+      },
+      {
+        "name": "brightness-low-fill",
+        "title": "Brightness Low Fill"
+      },
+      {
+        "name": "brightness-low",
+        "title": "Brightness Low"
+      },
+      {
+        "name": "broadcast-pin",
+        "title": "Broadcast Pin"
+      },
+      {
+        "name": "broadcast",
+        "title": "Broadcast"
+      },
+      {
+        "name": "brush-fill",
+        "title": "Brush Fill"
+      },
+      {
+        "name": "brush",
+        "title": "Brush"
+      },
+      {
+        "name": "bucket-fill",
+        "title": "Bucket Fill"
+      },
+      {
+        "name": "bucket",
+        "title": "Bucket"
+      },
+      {
+        "name": "bug-fill",
+        "title": "Bug Fill"
+      },
+      {
+        "name": "bug",
+        "title": "Bug"
+      },
+      {
+        "name": "building",
+        "title": "Building"
+      },
+      {
+        "name": "bullseye",
+        "title": "Bullseye"
+      },
+      {
+        "name": "calculator-fill",
+        "title": "Calculator Fill"
+      },
+      {
+        "name": "calculator",
+        "title": "Calculator"
+      },
+      {
+        "name": "calendar-check-fill",
+        "title": "Calendar Check Fill"
+      },
+      {
+        "name": "calendar-check",
+        "title": "Calendar Check"
+      },
+      {
+        "name": "calendar-date-fill",
+        "title": "Calendar Date Fill"
+      },
+      {
+        "name": "calendar-date",
+        "title": "Calendar Date"
+      },
+      {
+        "name": "calendar-day-fill",
+        "title": "Calendar Day Fill"
+      },
+      {
+        "name": "calendar-day",
+        "title": "Calendar Day"
+      },
+      {
+        "name": "calendar-event-fill",
+        "title": "Calendar Event Fill"
+      },
+      {
+        "name": "calendar-event",
+        "title": "Calendar Event"
+      },
+      {
+        "name": "calendar-fill",
+        "title": "Calendar Fill"
+      },
+      {
+        "name": "calendar-minus-fill",
+        "title": "Calendar Minus Fill"
+      },
+      {
+        "name": "calendar-minus",
+        "title": "Calendar Minus"
+      },
+      {
+        "name": "calendar-month-fill",
+        "title": "Calendar Month Fill"
+      },
+      {
+        "name": "calendar-month",
+        "title": "Calendar Month"
+      },
+      {
+        "name": "calendar-plus-fill",
+        "title": "Calendar Plus Fill"
+      },
+      {
+        "name": "calendar-plus",
+        "title": "Calendar Plus"
+      },
+      {
+        "name": "calendar-range-fill",
+        "title": "Calendar Range Fill"
+      },
+      {
+        "name": "calendar-range",
+        "title": "Calendar Range"
+      },
+      {
+        "name": "calendar-week-fill",
+        "title": "Calendar Week Fill"
+      },
+      {
+        "name": "calendar-week",
+        "title": "Calendar Week"
+      },
+      {
+        "name": "calendar-x-fill",
+        "title": "Calendar X Fill"
+      },
+      {
+        "name": "calendar-x",
+        "title": "Calendar X"
+      },
+      {
+        "name": "calendar",
+        "title": "Calendar"
+      },
+      {
+        "name": "calendar2-check-fill",
+        "title": "Calendar2 Check Fill"
+      },
+      {
+        "name": "calendar2-check",
+        "title": "Calendar2 Check"
+      },
+      {
+        "name": "calendar2-date-fill",
+        "title": "Calendar2 Date Fill"
+      },
+      {
+        "name": "calendar2-date",
+        "title": "Calendar2 Date"
+      },
+      {
+        "name": "calendar2-day-fill",
+        "title": "Calendar2 Day Fill"
+      },
+      {
+        "name": "calendar2-day",
+        "title": "Calendar2 Day"
+      },
+      {
+        "name": "calendar2-event-fill",
+        "title": "Calendar2 Event Fill"
+      },
+      {
+        "name": "calendar2-event",
+        "title": "Calendar2 Event"
+      },
+      {
+        "name": "calendar2-fill",
+        "title": "Calendar2 Fill"
+      },
+      {
+        "name": "calendar2-minus-fill",
+        "title": "Calendar2 Minus Fill"
+      },
+      {
+        "name": "calendar2-minus",
+        "title": "Calendar2 Minus"
+      },
+      {
+        "name": "calendar2-month-fill",
+        "title": "Calendar2 Month Fill"
+      },
+      {
+        "name": "calendar2-month",
+        "title": "Calendar2 Month"
+      },
+      {
+        "name": "calendar2-plus-fill",
+        "title": "Calendar2 Plus Fill"
+      },
+      {
+        "name": "calendar2-plus",
+        "title": "Calendar2 Plus"
+      },
+      {
+        "name": "calendar2-range-fill",
+        "title": "Calendar2 Range Fill"
+      },
+      {
+        "name": "calendar2-range",
+        "title": "Calendar2 Range"
+      },
+      {
+        "name": "calendar2-week-fill",
+        "title": "Calendar2 Week Fill"
+      },
+      {
+        "name": "calendar2-week",
+        "title": "Calendar2 Week"
+      },
+      {
+        "name": "calendar2-x-fill",
+        "title": "Calendar2 X Fill"
+      },
+      {
+        "name": "calendar2-x",
+        "title": "Calendar2 X"
+      },
+      {
+        "name": "calendar2",
+        "title": "Calendar2"
+      },
+      {
+        "name": "calendar3-event-fill",
+        "title": "Calendar3 Event Fill"
+      },
+      {
+        "name": "calendar3-event",
+        "title": "Calendar3 Event"
+      },
+      {
+        "name": "calendar3-fill",
+        "title": "Calendar3 Fill"
+      },
+      {
+        "name": "calendar3-range-fill",
+        "title": "Calendar3 Range Fill"
+      },
+      {
+        "name": "calendar3-range",
+        "title": "Calendar3 Range"
+      },
+      {
+        "name": "calendar3-week-fill",
+        "title": "Calendar3 Week Fill"
+      },
+      {
+        "name": "calendar3-week",
+        "title": "Calendar3 Week"
+      },
+      {
+        "name": "calendar3",
+        "title": "Calendar3"
+      },
+      {
+        "name": "calendar4-event",
+        "title": "Calendar4 Event"
+      },
+      {
+        "name": "calendar4-range",
+        "title": "Calendar4 Range"
+      },
+      {
+        "name": "calendar4-week",
+        "title": "Calendar4 Week"
+      },
+      {
+        "name": "calendar4",
+        "title": "Calendar4"
+      },
+      {
+        "name": "camera-fill",
+        "title": "Camera Fill"
+      },
+      {
+        "name": "camera-reels-fill",
+        "title": "Camera Reels Fill"
+      },
+      {
+        "name": "camera-reels",
+        "title": "Camera Reels"
+      },
+      {
+        "name": "camera-video-fill",
+        "title": "Camera Video Fill"
+      },
+      {
+        "name": "camera-video-off-fill",
+        "title": "Camera Video Off Fill"
+      },
+      {
+        "name": "camera-video-off",
+        "title": "Camera Video Off"
+      },
+      {
+        "name": "camera-video",
+        "title": "Camera Video"
+      },
+      {
+        "name": "camera",
+        "title": "Camera"
+      },
+      {
+        "name": "camera2",
+        "title": "Camera2"
+      },
+      {
+        "name": "capslock-fill",
+        "title": "Capslock Fill"
+      },
+      {
+        "name": "capslock",
+        "title": "Capslock"
+      },
+      {
+        "name": "card-checklist",
+        "title": "Card Checklist"
+      },
+      {
+        "name": "card-heading",
+        "title": "Card Heading"
+      },
+      {
+        "name": "card-image",
+        "title": "Card Image"
+      },
+      {
+        "name": "card-list",
+        "title": "Card List"
+      },
+      {
+        "name": "card-text",
+        "title": "Card Text"
+      },
+      {
+        "name": "caret-down-fill",
+        "title": "Caret Down Fill"
+      },
+      {
+        "name": "caret-down-square-fill",
+        "title": "Caret Down Square Fill"
+      },
+      {
+        "name": "caret-down-square",
+        "title": "Caret Down Square"
+      },
+      {
+        "name": "caret-down",
+        "title": "Caret Down"
+      },
+      {
+        "name": "caret-left-fill",
+        "title": "Caret Left Fill"
+      },
+      {
+        "name": "caret-left-square-fill",
+        "title": "Caret Left Square Fill"
+      },
+      {
+        "name": "caret-left-square",
+        "title": "Caret Left Square"
+      },
+      {
+        "name": "caret-left",
+        "title": "Caret Left"
+      },
+      {
+        "name": "caret-right-fill",
+        "title": "Caret Right Fill"
+      },
+      {
+        "name": "caret-right-square-fill",
+        "title": "Caret Right Square Fill"
+      },
+      {
+        "name": "caret-right-square",
+        "title": "Caret Right Square"
+      },
+      {
+        "name": "caret-right",
+        "title": "Caret Right"
+      },
+      {
+        "name": "caret-up-fill",
+        "title": "Caret Up Fill"
+      },
+      {
+        "name": "caret-up-square-fill",
+        "title": "Caret Up Square Fill"
+      },
+      {
+        "name": "caret-up-square",
+        "title": "Caret Up Square"
+      },
+      {
+        "name": "caret-up",
+        "title": "Caret Up"
+      },
+      {
+        "name": "cart-check-fill",
+        "title": "Cart Check Fill"
+      },
+      {
+        "name": "cart-check",
+        "title": "Cart Check"
+      },
+      {
+        "name": "cart-dash-fill",
+        "title": "Cart Dash Fill"
+      },
+      {
+        "name": "cart-dash",
+        "title": "Cart Dash"
+      },
+      {
+        "name": "cart-fill",
+        "title": "Cart Fill"
+      },
+      {
+        "name": "cart-plus-fill",
+        "title": "Cart Plus Fill"
+      },
+      {
+        "name": "cart-plus",
+        "title": "Cart Plus"
+      },
+      {
+        "name": "cart-x-fill",
+        "title": "Cart X Fill"
+      },
+      {
+        "name": "cart-x",
+        "title": "Cart X"
+      },
+      {
+        "name": "cart",
+        "title": "Cart"
+      },
+      {
+        "name": "cart2",
+        "title": "Cart2"
+      },
+      {
+        "name": "cart3",
+        "title": "Cart3"
+      },
+      {
+        "name": "cart4",
+        "title": "Cart4"
+      },
+      {
+        "name": "cash-stack",
+        "title": "Cash Stack"
+      },
+      {
+        "name": "cash",
+        "title": "Cash"
+      },
+      {
+        "name": "cast",
+        "title": "Cast"
+      },
+      {
+        "name": "chat-dots-fill",
+        "title": "Chat Dots Fill"
+      },
+      {
+        "name": "chat-dots",
+        "title": "Chat Dots"
+      },
+      {
+        "name": "chat-fill",
+        "title": "Chat Fill"
+      },
+      {
+        "name": "chat-left-dots-fill",
+        "title": "Chat Left Dots Fill"
+      },
+      {
+        "name": "chat-left-dots",
+        "title": "Chat Left Dots"
+      },
+      {
+        "name": "chat-left-fill",
+        "title": "Chat Left Fill"
+      },
+      {
+        "name": "chat-left-quote-fill",
+        "title": "Chat Left Quote Fill"
+      },
+      {
+        "name": "chat-left-quote",
+        "title": "Chat Left Quote"
+      },
+      {
+        "name": "chat-left-text-fill",
+        "title": "Chat Left Text Fill"
+      },
+      {
+        "name": "chat-left-text",
+        "title": "Chat Left Text"
+      },
+      {
+        "name": "chat-left",
+        "title": "Chat Left"
+      },
+      {
+        "name": "chat-quote-fill",
+        "title": "Chat Quote Fill"
+      },
+      {
+        "name": "chat-quote",
+        "title": "Chat Quote"
+      },
+      {
+        "name": "chat-right-dots-fill",
+        "title": "Chat Right Dots Fill"
+      },
+      {
+        "name": "chat-right-dots",
+        "title": "Chat Right Dots"
+      },
+      {
+        "name": "chat-right-fill",
+        "title": "Chat Right Fill"
+      },
+      {
+        "name": "chat-right-quote-fill",
+        "title": "Chat Right Quote Fill"
+      },
+      {
+        "name": "chat-right-quote",
+        "title": "Chat Right Quote"
+      },
+      {
+        "name": "chat-right-text-fill",
+        "title": "Chat Right Text Fill"
+      },
+      {
+        "name": "chat-right-text",
+        "title": "Chat Right Text"
+      },
+      {
+        "name": "chat-right",
+        "title": "Chat Right"
+      },
+      {
+        "name": "chat-square-dots-fill",
+        "title": "Chat Square Dots Fill"
+      },
+      {
+        "name": "chat-square-dots",
+        "title": "Chat Square Dots"
+      },
+      {
+        "name": "chat-square-fill",
+        "title": "Chat Square Fill"
+      },
+      {
+        "name": "chat-square-quote-fill",
+        "title": "Chat Square Quote Fill"
+      },
+      {
+        "name": "chat-square-quote",
+        "title": "Chat Square Quote"
+      },
+      {
+        "name": "chat-square-text-fill",
+        "title": "Chat Square Text Fill"
+      },
+      {
+        "name": "chat-square-text",
+        "title": "Chat Square Text"
+      },
+      {
+        "name": "chat-square",
+        "title": "Chat Square"
+      },
+      {
+        "name": "chat-text-fill",
+        "title": "Chat Text Fill"
+      },
+      {
+        "name": "chat-text",
+        "title": "Chat Text"
+      },
+      {
+        "name": "chat",
+        "title": "Chat"
+      },
+      {
+        "name": "check-all",
+        "title": "Check All"
+      },
+      {
+        "name": "check-circle-fill",
+        "title": "Check Circle Fill"
+      },
+      {
+        "name": "check-circle",
+        "title": "Check Circle"
+      },
+      {
+        "name": "check-square-fill",
+        "title": "Check Square Fill"
+      },
+      {
+        "name": "check-square",
+        "title": "Check Square"
+      },
+      {
+        "name": "check",
+        "title": "Check"
+      },
+      {
+        "name": "check2-all",
+        "title": "Check2 All"
+      },
+      {
+        "name": "check2-circle",
+        "title": "Check2 Circle"
+      },
+      {
+        "name": "check2-square",
+        "title": "Check2 Square"
+      },
+      {
+        "name": "check2",
+        "title": "Check2"
+      },
+      {
+        "name": "chevron-bar-contract",
+        "title": "Chevron Bar Contract"
+      },
+      {
+        "name": "chevron-bar-down",
+        "title": "Chevron Bar Down"
+      },
+      {
+        "name": "chevron-bar-expand",
+        "title": "Chevron Bar Expand"
+      },
+      {
+        "name": "chevron-bar-left",
+        "title": "Chevron Bar Left"
+      },
+      {
+        "name": "chevron-bar-right",
+        "title": "Chevron Bar Right"
+      },
+      {
+        "name": "chevron-bar-up",
+        "title": "Chevron Bar Up"
+      },
+      {
+        "name": "chevron-compact-down",
+        "title": "Chevron Compact Down"
+      },
+      {
+        "name": "chevron-compact-left",
+        "title": "Chevron Compact Left"
+      },
+      {
+        "name": "chevron-compact-right",
+        "title": "Chevron Compact Right"
+      },
+      {
+        "name": "chevron-compact-up",
+        "title": "Chevron Compact Up"
+      },
+      {
+        "name": "chevron-contract",
+        "title": "Chevron Contract"
+      },
+      {
+        "name": "chevron-double-down",
+        "title": "Chevron Double Down"
+      },
+      {
+        "name": "chevron-double-left",
+        "title": "Chevron Double Left"
+      },
+      {
+        "name": "chevron-double-right",
+        "title": "Chevron Double Right"
+      },
+      {
+        "name": "chevron-double-up",
+        "title": "Chevron Double Up"
+      },
+      {
+        "name": "chevron-down",
+        "title": "Chevron Down"
+      },
+      {
+        "name": "chevron-expand",
+        "title": "Chevron Expand"
+      },
+      {
+        "name": "chevron-left",
+        "title": "Chevron Left"
+      },
+      {
+        "name": "chevron-right",
+        "title": "Chevron Right"
+      },
+      {
+        "name": "chevron-up",
+        "title": "Chevron Up"
+      },
+      {
+        "name": "circle-fill",
+        "title": "Circle Fill"
+      },
+      {
+        "name": "circle-half",
+        "title": "Circle Half"
+      },
+      {
+        "name": "circle-square",
+        "title": "Circle Square"
+      },
+      {
+        "name": "circle",
+        "title": "Circle"
+      },
+      {
+        "name": "clipboard-check",
+        "title": "Clipboard Check"
+      },
+      {
+        "name": "clipboard-data",
+        "title": "Clipboard Data"
+      },
+      {
+        "name": "clipboard-minus",
+        "title": "Clipboard Minus"
+      },
+      {
+        "name": "clipboard-plus",
+        "title": "Clipboard Plus"
+      },
+      {
+        "name": "clipboard-x",
+        "title": "Clipboard X"
+      },
+      {
+        "name": "clipboard",
+        "title": "Clipboard"
+      },
+      {
+        "name": "clock-fill",
+        "title": "Clock Fill"
+      },
+      {
+        "name": "clock-history",
+        "title": "Clock History"
+      },
+      {
+        "name": "clock",
+        "title": "Clock"
+      },
+      {
+        "name": "cloud-arrow-down-fill",
+        "title": "Cloud Arrow Down Fill"
+      },
+      {
+        "name": "cloud-arrow-down",
+        "title": "Cloud Arrow Down"
+      },
+      {
+        "name": "cloud-arrow-up-fill",
+        "title": "Cloud Arrow Up Fill"
+      },
+      {
+        "name": "cloud-arrow-up",
+        "title": "Cloud Arrow Up"
+      },
+      {
+        "name": "cloud-check-fill",
+        "title": "Cloud Check Fill"
+      },
+      {
+        "name": "cloud-check",
+        "title": "Cloud Check"
+      },
+      {
+        "name": "cloud-download-fill",
+        "title": "Cloud Download Fill"
+      },
+      {
+        "name": "cloud-download",
+        "title": "Cloud Download"
+      },
+      {
+        "name": "cloud-drizzle-fill",
+        "title": "Cloud Drizzle Fill"
+      },
+      {
+        "name": "cloud-drizzle",
+        "title": "Cloud Drizzle"
+      },
+      {
+        "name": "cloud-fill",
+        "title": "Cloud Fill"
+      },
+      {
+        "name": "cloud-fog-fill",
+        "title": "Cloud Fog Fill"
+      },
+      {
+        "name": "cloud-fog",
+        "title": "Cloud Fog"
+      },
+      {
+        "name": "cloud-fog2-fill",
+        "title": "Cloud Fog2 Fill"
+      },
+      {
+        "name": "cloud-fog2",
+        "title": "Cloud Fog2"
+      },
+      {
+        "name": "cloud-hail-fill",
+        "title": "Cloud Hail Fill"
+      },
+      {
+        "name": "cloud-hail",
+        "title": "Cloud Hail"
+      },
+      {
+        "name": "cloud-haze-fill",
+        "title": "Cloud Haze Fill"
+      },
+      {
+        "name": "cloud-haze",
+        "title": "Cloud Haze"
+      },
+      {
+        "name": "cloud-haze2-fill",
+        "title": "Cloud Haze2 Fill"
+      },
+      {
+        "name": "cloud-lightning-fill",
+        "title": "Cloud Lightning Fill"
+      },
+      {
+        "name": "cloud-lightning-rain-fill",
+        "title": "Cloud Lightning Rain Fill"
+      },
+      {
+        "name": "cloud-lightning-rain",
+        "title": "Cloud Lightning Rain"
+      },
+      {
+        "name": "cloud-lightning",
+        "title": "Cloud Lightning"
+      },
+      {
+        "name": "cloud-minus-fill",
+        "title": "Cloud Minus Fill"
+      },
+      {
+        "name": "cloud-minus",
+        "title": "Cloud Minus"
+      },
+      {
+        "name": "cloud-moon-fill",
+        "title": "Cloud Moon Fill"
+      },
+      {
+        "name": "cloud-moon",
+        "title": "Cloud Moon"
+      },
+      {
+        "name": "cloud-plus-fill",
+        "title": "Cloud Plus Fill"
+      },
+      {
+        "name": "cloud-plus",
+        "title": "Cloud Plus"
+      },
+      {
+        "name": "cloud-rain-fill",
+        "title": "Cloud Rain Fill"
+      },
+      {
+        "name": "cloud-rain-heavy-fill",
+        "title": "Cloud Rain Heavy Fill"
+      },
+      {
+        "name": "cloud-rain-heavy",
+        "title": "Cloud Rain Heavy"
+      },
+      {
+        "name": "cloud-rain",
+        "title": "Cloud Rain"
+      },
+      {
+        "name": "cloud-slash-fill",
+        "title": "Cloud Slash Fill"
+      },
+      {
+        "name": "cloud-slash",
+        "title": "Cloud Slash"
+      },
+      {
+        "name": "cloud-sleet-fill",
+        "title": "Cloud Sleet Fill"
+      },
+      {
+        "name": "cloud-sleet",
+        "title": "Cloud Sleet"
+      },
+      {
+        "name": "cloud-snow-fill",
+        "title": "Cloud Snow Fill"
+      },
+      {
+        "name": "cloud-snow",
+        "title": "Cloud Snow"
+      },
+      {
+        "name": "cloud-sun-fill",
+        "title": "Cloud Sun Fill"
+      },
+      {
+        "name": "cloud-sun",
+        "title": "Cloud Sun"
+      },
+      {
+        "name": "cloud-upload-fill",
+        "title": "Cloud Upload Fill"
+      },
+      {
+        "name": "cloud-upload",
+        "title": "Cloud Upload"
+      },
+      {
+        "name": "cloud",
+        "title": "Cloud"
+      },
+      {
+        "name": "clouds-fill",
+        "title": "Clouds Fill"
+      },
+      {
+        "name": "clouds",
+        "title": "Clouds"
+      },
+      {
+        "name": "cloudy-fill",
+        "title": "Cloudy Fill"
+      },
+      {
+        "name": "cloudy",
+        "title": "Cloudy"
+      },
+      {
+        "name": "code-slash",
+        "title": "Code Slash"
+      },
+      {
+        "name": "code-square",
+        "title": "Code Square"
+      },
+      {
+        "name": "code",
+        "title": "Code"
+      },
+      {
+        "name": "collection-fill",
+        "title": "Collection Fill"
+      },
+      {
+        "name": "collection-play-fill",
+        "title": "Collection Play Fill"
+      },
+      {
+        "name": "collection-play",
+        "title": "Collection Play"
+      },
+      {
+        "name": "collection",
+        "title": "Collection"
+      },
+      {
+        "name": "columns-gap",
+        "title": "Columns Gap"
+      },
+      {
+        "name": "columns",
+        "title": "Columns"
+      },
+      {
+        "name": "command",
+        "title": "Command"
+      },
+      {
+        "name": "compass-fill",
+        "title": "Compass Fill"
+      },
+      {
+        "name": "compass",
+        "title": "Compass"
+      },
+      {
+        "name": "cone-striped",
+        "title": "Cone Striped"
+      },
+      {
+        "name": "cone",
+        "title": "Cone"
+      },
+      {
+        "name": "controller",
+        "title": "Controller"
+      },
+      {
+        "name": "cpu-fill",
+        "title": "Cpu Fill"
+      },
+      {
+        "name": "cpu",
+        "title": "Cpu"
+      },
+      {
+        "name": "credit-card-2-back-fill",
+        "title": "Credit Card 2 Back Fill"
+      },
+      {
+        "name": "credit-card-2-back",
+        "title": "Credit Card 2 Back"
+      },
+      {
+        "name": "credit-card-2-front-fill",
+        "title": "Credit Card 2 Front Fill"
+      },
+      {
+        "name": "credit-card-2-front",
+        "title": "Credit Card 2 Front"
+      },
+      {
+        "name": "credit-card-fill",
+        "title": "Credit Card Fill"
+      },
+      {
+        "name": "credit-card",
+        "title": "Credit Card"
+      },
+      {
+        "name": "crop",
+        "title": "Crop"
+      },
+      {
+        "name": "cup-fill",
+        "title": "Cup Fill"
+      },
+      {
+        "name": "cup-straw",
+        "title": "Cup Straw"
+      },
+      {
+        "name": "cup",
+        "title": "Cup"
+      },
+      {
+        "name": "cursor-fill",
+        "title": "Cursor Fill"
+      },
+      {
+        "name": "cursor-text",
+        "title": "Cursor Text"
+      },
+      {
+        "name": "cursor",
+        "title": "Cursor"
+      },
+      {
+        "name": "dash-circle-dotted",
+        "title": "Dash Circle Dotted"
+      },
+      {
+        "name": "dash-circle-fill",
+        "title": "Dash Circle Fill"
+      },
+      {
+        "name": "dash-circle",
+        "title": "Dash Circle"
+      },
+      {
+        "name": "dash-square-dotted",
+        "title": "Dash Square Dotted"
+      },
+      {
+        "name": "dash-square-fill",
+        "title": "Dash Square Fill"
+      },
+      {
+        "name": "dash-square",
+        "title": "Dash Square"
+      },
+      {
+        "name": "dash",
+        "title": "Dash"
+      },
+      {
+        "name": "diagram-2-fill",
+        "title": "Diagram 2 Fill"
+      },
+      {
+        "name": "diagram-2",
+        "title": "Diagram 2"
+      },
+      {
+        "name": "diagram-3-fill",
+        "title": "Diagram 3 Fill"
+      },
+      {
+        "name": "diagram-3",
+        "title": "Diagram 3"
+      },
+      {
+        "name": "diamond-fill",
+        "title": "Diamond Fill"
+      },
+      {
+        "name": "diamond-half",
+        "title": "Diamond Half"
+      },
+      {
+        "name": "diamond",
+        "title": "Diamond"
+      },
+      {
+        "name": "dice-1-fill",
+        "title": "Dice 1 Fill"
+      },
+      {
+        "name": "dice-1",
+        "title": "Dice 1"
+      },
+      {
+        "name": "dice-2-fill",
+        "title": "Dice 2 Fill"
+      },
+      {
+        "name": "dice-2",
+        "title": "Dice 2"
+      },
+      {
+        "name": "dice-3-fill",
+        "title": "Dice 3 Fill"
+      },
+      {
+        "name": "dice-3",
+        "title": "Dice 3"
+      },
+      {
+        "name": "dice-4-fill",
+        "title": "Dice 4 Fill"
+      },
+      {
+        "name": "dice-4",
+        "title": "Dice 4"
+      },
+      {
+        "name": "dice-5-fill",
+        "title": "Dice 5 Fill"
+      },
+      {
+        "name": "dice-5",
+        "title": "Dice 5"
+      },
+      {
+        "name": "dice-6-fill",
+        "title": "Dice 6 Fill"
+      },
+      {
+        "name": "dice-6",
+        "title": "Dice 6"
+      },
+      {
+        "name": "disc-fill",
+        "title": "Disc Fill"
+      },
+      {
+        "name": "disc",
+        "title": "Disc"
+      },
+      {
+        "name": "discord",
+        "title": "Discord"
+      },
+      {
+        "name": "display-fill",
+        "title": "Display Fill"
+      },
+      {
+        "name": "display",
+        "title": "Display"
+      },
+      {
+        "name": "distribute-horizontal",
+        "title": "Distribute Horizontal"
+      },
+      {
+        "name": "distribute-vertical",
+        "title": "Distribute Vertical"
+      },
+      {
+        "name": "door-closed-fill",
+        "title": "Door Closed Fill"
+      },
+      {
+        "name": "door-closed",
+        "title": "Door Closed"
+      },
+      {
+        "name": "door-open-fill",
+        "title": "Door Open Fill"
+      },
+      {
+        "name": "door-open",
+        "title": "Door Open"
+      },
+      {
+        "name": "dot",
+        "title": "Dot"
+      },
+      {
+        "name": "download",
+        "title": "Download"
+      },
+      {
+        "name": "droplet-fill",
+        "title": "Droplet Fill"
+      },
+      {
+        "name": "droplet-half",
+        "title": "Droplet Half"
+      },
+      {
+        "name": "droplet",
+        "title": "Droplet"
+      },
+      {
+        "name": "earbuds",
+        "title": "Earbuds"
+      },
+      {
+        "name": "easel-fill",
+        "title": "Easel Fill"
+      },
+      {
+        "name": "easel",
+        "title": "Easel"
+      },
+      {
+        "name": "egg-fill",
+        "title": "Egg Fill"
+      },
+      {
+        "name": "egg-fried",
+        "title": "Egg Fried"
+      },
+      {
+        "name": "egg",
+        "title": "Egg"
+      },
+      {
+        "name": "eject-fill",
+        "title": "Eject Fill"
+      },
+      {
+        "name": "eject",
+        "title": "Eject"
+      },
+      {
+        "name": "emoji-angry-fill",
+        "title": "Emoji Angry Fill"
+      },
+      {
+        "name": "emoji-angry",
+        "title": "Emoji Angry"
+      },
+      {
+        "name": "emoji-dizzy-fill",
+        "title": "Emoji Dizzy Fill"
+      },
+      {
+        "name": "emoji-dizzy",
+        "title": "Emoji Dizzy"
+      },
+      {
+        "name": "emoji-expressionless-fill",
+        "title": "Emoji Expressionless Fill"
+      },
+      {
+        "name": "emoji-expressionless",
+        "title": "Emoji Expressionless"
+      },
+      {
+        "name": "emoji-frown-fill",
+        "title": "Emoji Frown Fill"
+      },
+      {
+        "name": "emoji-frown",
+        "title": "Emoji Frown"
+      },
+      {
+        "name": "emoji-heart-eyes-fill",
+        "title": "Emoji Heart Eyes Fill"
+      },
+      {
+        "name": "emoji-heart-eyes",
+        "title": "Emoji Heart Eyes"
+      },
+      {
+        "name": "emoji-laughing-fill",
+        "title": "Emoji Laughing Fill"
+      },
+      {
+        "name": "emoji-laughing",
+        "title": "Emoji Laughing"
+      },
+      {
+        "name": "emoji-neutral-fill",
+        "title": "Emoji Neutral Fill"
+      },
+      {
+        "name": "emoji-neutral",
+        "title": "Emoji Neutral"
+      },
+      {
+        "name": "emoji-smile-fill",
+        "title": "Emoji Smile Fill"
+      },
+      {
+        "name": "emoji-smile-upside-down-fill",
+        "title": "Emoji Smile Upside Down Fill"
+      },
+      {
+        "name": "emoji-smile-upside-down",
+        "title": "Emoji Smile Upside Down"
+      },
+      {
+        "name": "emoji-smile",
+        "title": "Emoji Smile"
+      },
+      {
+        "name": "emoji-sunglasses-fill",
+        "title": "Emoji Sunglasses Fill"
+      },
+      {
+        "name": "emoji-sunglasses",
+        "title": "Emoji Sunglasses"
+      },
+      {
+        "name": "emoji-wink-fill",
+        "title": "Emoji Wink Fill"
+      },
+      {
+        "name": "emoji-wink",
+        "title": "Emoji Wink"
+      },
+      {
+        "name": "envelope-fill",
+        "title": "Envelope Fill"
+      },
+      {
+        "name": "envelope-open-fill",
+        "title": "Envelope Open Fill"
+      },
+      {
+        "name": "envelope-open",
+        "title": "Envelope Open"
+      },
+      {
+        "name": "envelope",
+        "title": "Envelope"
+      },
+      {
+        "name": "eraser-fill",
+        "title": "Eraser Fill"
+      },
+      {
+        "name": "eraser",
+        "title": "Eraser"
+      },
+      {
+        "name": "exclamation-circle-fill",
+        "title": "Exclamation Circle Fill"
+      },
+      {
+        "name": "exclamation-circle",
+        "title": "Exclamation Circle"
+      },
+      {
+        "name": "exclamation-diamond-fill",
+        "title": "Exclamation Diamond Fill"
+      },
+      {
+        "name": "exclamation-diamond",
+        "title": "Exclamation Diamond"
+      },
+      {
+        "name": "exclamation-octagon-fill",
+        "title": "Exclamation Octagon Fill"
+      },
+      {
+        "name": "exclamation-octagon",
+        "title": "Exclamation Octagon"
+      },
+      {
+        "name": "exclamation-square-fill",
+        "title": "Exclamation Square Fill"
+      },
+      {
+        "name": "exclamation-square",
+        "title": "Exclamation Square"
+      },
+      {
+        "name": "exclamation-triangle-fill",
+        "title": "Exclamation Triangle Fill"
+      },
+      {
+        "name": "exclamation-triangle",
+        "title": "Exclamation Triangle"
+      },
+      {
+        "name": "exclamation",
+        "title": "Exclamation"
+      },
+      {
+        "name": "exclude",
+        "title": "Exclude"
+      },
+      {
+        "name": "eye-fill",
+        "title": "Eye Fill"
+      },
+      {
+        "name": "eye-slash-fill",
+        "title": "Eye Slash Fill"
+      },
+      {
+        "name": "eye-slash",
+        "title": "Eye Slash"
+      },
+      {
+        "name": "eye",
+        "title": "Eye"
+      },
+      {
+        "name": "eyedropper",
+        "title": "Eyedropper"
+      },
+      {
+        "name": "eyeglasses",
+        "title": "Eyeglasses"
+      },
+      {
+        "name": "facebook",
+        "title": "Facebook"
+      },
+      {
+        "name": "file-arrow-down-fill",
+        "title": "File Arrow Down Fill"
+      },
+      {
+        "name": "file-arrow-down",
+        "title": "File Arrow Down"
+      },
+      {
+        "name": "file-arrow-up-fill",
+        "title": "File Arrow Up Fill"
+      },
+      {
+        "name": "file-arrow-up",
+        "title": "File Arrow Up"
+      },
+      {
+        "name": "file-bar-graph-fill",
+        "title": "File Bar Graph Fill"
+      },
+      {
+        "name": "file-bar-graph",
+        "title": "File Bar Graph"
+      },
+      {
+        "name": "file-binary-fill",
+        "title": "File Binary Fill"
+      },
+      {
+        "name": "file-binary",
+        "title": "File Binary"
+      },
+      {
+        "name": "file-break-fill",
+        "title": "File Break Fill"
+      },
+      {
+        "name": "file-break",
+        "title": "File Break"
+      },
+      {
+        "name": "file-check-fill",
+        "title": "File Check Fill"
+      },
+      {
+        "name": "file-check",
+        "title": "File Check"
+      },
+      {
+        "name": "file-code-fill",
+        "title": "File Code Fill"
+      },
+      {
+        "name": "file-code",
+        "title": "File Code"
+      },
+      {
+        "name": "file-diff-fill",
+        "title": "File Diff Fill"
+      },
+      {
+        "name": "file-diff",
+        "title": "File Diff"
+      },
+      {
+        "name": "file-earmark-arrow-down-fill",
+        "title": "File Earmark Arrow Down Fill"
+      },
+      {
+        "name": "file-earmark-arrow-down",
+        "title": "File Earmark Arrow Down"
+      },
+      {
+        "name": "file-earmark-arrow-up-fill",
+        "title": "File Earmark Arrow Up Fill"
+      },
+      {
+        "name": "file-earmark-arrow-up",
+        "title": "File Earmark Arrow Up"
+      },
+      {
+        "name": "file-earmark-bar-graph-fill",
+        "title": "File Earmark Bar Graph Fill"
+      },
+      {
+        "name": "file-earmark-bar-graph",
+        "title": "File Earmark Bar Graph"
+      },
+      {
+        "name": "file-earmark-binary-fill",
+        "title": "File Earmark Binary Fill"
+      },
+      {
+        "name": "file-earmark-binary",
+        "title": "File Earmark Binary"
+      },
+      {
+        "name": "file-earmark-break-fill",
+        "title": "File Earmark Break Fill"
+      },
+      {
+        "name": "file-earmark-break",
+        "title": "File Earmark Break"
+      },
+      {
+        "name": "file-earmark-check-fill",
+        "title": "File Earmark Check Fill"
+      },
+      {
+        "name": "file-earmark-check",
+        "title": "File Earmark Check"
+      },
+      {
+        "name": "file-earmark-code-fill",
+        "title": "File Earmark Code Fill"
+      },
+      {
+        "name": "file-earmark-code",
+        "title": "File Earmark Code"
+      },
+      {
+        "name": "file-earmark-diff-fill",
+        "title": "File Earmark Diff Fill"
+      },
+      {
+        "name": "file-earmark-diff",
+        "title": "File Earmark Diff"
+      },
+      {
+        "name": "file-earmark-easel-fill",
+        "title": "File Earmark Easel Fill"
+      },
+      {
+        "name": "file-earmark-easel",
+        "title": "File Earmark Easel"
+      },
+      {
+        "name": "file-earmark-excel-fill",
+        "title": "File Earmark Excel Fill"
+      },
+      {
+        "name": "file-earmark-excel",
+        "title": "File Earmark Excel"
+      },
+      {
+        "name": "file-earmark-fill",
+        "title": "File Earmark Fill"
+      },
+      {
+        "name": "file-earmark-font-fill",
+        "title": "File Earmark Font Fill"
+      },
+      {
+        "name": "file-earmark-font",
+        "title": "File Earmark Font"
+      },
+      {
+        "name": "file-earmark-image-fill",
+        "title": "File Earmark Image Fill"
+      },
+      {
+        "name": "file-earmark-image",
+        "title": "File Earmark Image"
+      },
+      {
+        "name": "file-earmark-lock-fill",
+        "title": "File Earmark Lock Fill"
+      },
+      {
+        "name": "file-earmark-lock",
+        "title": "File Earmark Lock"
+      },
+      {
+        "name": "file-earmark-lock2-fill",
+        "title": "File Earmark Lock2 Fill"
+      },
+      {
+        "name": "file-earmark-lock2",
+        "title": "File Earmark Lock2"
+      },
+      {
+        "name": "file-earmark-medical-fill",
+        "title": "File Earmark Medical Fill"
+      },
+      {
+        "name": "file-earmark-medical",
+        "title": "File Earmark Medical"
+      },
+      {
+        "name": "file-earmark-minus-fill",
+        "title": "File Earmark Minus Fill"
+      },
+      {
+        "name": "file-earmark-minus",
+        "title": "File Earmark Minus"
+      },
+      {
+        "name": "file-earmark-music-fill",
+        "title": "File Earmark Music Fill"
+      },
+      {
+        "name": "file-earmark-music",
+        "title": "File Earmark Music"
+      },
+      {
+        "name": "file-earmark-person-fill",
+        "title": "File Earmark Person Fill"
+      },
+      {
+        "name": "file-earmark-person",
+        "title": "File Earmark Person"
+      },
+      {
+        "name": "file-earmark-play-fill",
+        "title": "File Earmark Play Fill"
+      },
+      {
+        "name": "file-earmark-play",
+        "title": "File Earmark Play"
+      },
+      {
+        "name": "file-earmark-plus-fill",
+        "title": "File Earmark Plus Fill"
+      },
+      {
+        "name": "file-earmark-plus",
+        "title": "File Earmark Plus"
+      },
+      {
+        "name": "file-earmark-post-fill",
+        "title": "File Earmark Post Fill"
+      },
+      {
+        "name": "file-earmark-post",
+        "title": "File Earmark Post"
+      },
+      {
+        "name": "file-earmark-ppt-fill",
+        "title": "File Earmark Ppt Fill"
+      },
+      {
+        "name": "file-earmark-ppt",
+        "title": "File Earmark Ppt"
+      },
+      {
+        "name": "file-earmark-richtext-fill",
+        "title": "File Earmark Richtext Fill"
+      },
+      {
+        "name": "file-earmark-richtext",
+        "title": "File Earmark Richtext"
+      },
+      {
+        "name": "file-earmark-ruled-fill",
+        "title": "File Earmark Ruled Fill"
+      },
+      {
+        "name": "file-earmark-ruled",
+        "title": "File Earmark Ruled"
+      },
+      {
+        "name": "file-earmark-slides-fill",
+        "title": "File Earmark Slides Fill"
+      },
+      {
+        "name": "file-earmark-slides",
+        "title": "File Earmark Slides"
+      },
+      {
+        "name": "file-earmark-spreadsheet-fill",
+        "title": "File Earmark Spreadsheet Fill"
+      },
+      {
+        "name": "file-earmark-spreadsheet",
+        "title": "File Earmark Spreadsheet"
+      },
+      {
+        "name": "file-earmark-text-fill",
+        "title": "File Earmark Text Fill"
+      },
+      {
+        "name": "file-earmark-text",
+        "title": "File Earmark Text"
+      },
+      {
+        "name": "file-earmark-word-fill",
+        "title": "File Earmark Word Fill"
+      },
+      {
+        "name": "file-earmark-word",
+        "title": "File Earmark Word"
+      },
+      {
+        "name": "file-earmark-x-fill",
+        "title": "File Earmark X Fill"
+      },
+      {
+        "name": "file-earmark-x",
+        "title": "File Earmark X"
+      },
+      {
+        "name": "file-earmark-zip-fill",
+        "title": "File Earmark Zip Fill"
+      },
+      {
+        "name": "file-earmark-zip",
+        "title": "File Earmark Zip"
+      },
+      {
+        "name": "file-earmark",
+        "title": "File Earmark"
+      },
+      {
+        "name": "file-easel-fill",
+        "title": "File Easel Fill"
+      },
+      {
+        "name": "file-easel",
+        "title": "File Easel"
+      },
+      {
+        "name": "file-excel-fill",
+        "title": "File Excel Fill"
+      },
+      {
+        "name": "file-excel",
+        "title": "File Excel"
+      },
+      {
+        "name": "file-fill",
+        "title": "File Fill"
+      },
+      {
+        "name": "file-font-fill",
+        "title": "File Font Fill"
+      },
+      {
+        "name": "file-font",
+        "title": "File Font"
+      },
+      {
+        "name": "file-image-fill",
+        "title": "File Image Fill"
+      },
+      {
+        "name": "file-image",
+        "title": "File Image"
+      },
+      {
+        "name": "file-lock-fill",
+        "title": "File Lock Fill"
+      },
+      {
+        "name": "file-lock",
+        "title": "File Lock"
+      },
+      {
+        "name": "file-lock2-fill",
+        "title": "File Lock2 Fill"
+      },
+      {
+        "name": "file-lock2",
+        "title": "File Lock2"
+      },
+      {
+        "name": "file-medical-fill",
+        "title": "File Medical Fill"
+      },
+      {
+        "name": "file-medical",
+        "title": "File Medical"
+      },
+      {
+        "name": "file-minus-fill",
+        "title": "File Minus Fill"
+      },
+      {
+        "name": "file-minus",
+        "title": "File Minus"
+      },
+      {
+        "name": "file-music-fill",
+        "title": "File Music Fill"
+      },
+      {
+        "name": "file-music",
+        "title": "File Music"
+      },
+      {
+        "name": "file-person-fill",
+        "title": "File Person Fill"
+      },
+      {
+        "name": "file-person",
+        "title": "File Person"
+      },
+      {
+        "name": "file-play-fill",
+        "title": "File Play Fill"
+      },
+      {
+        "name": "file-play",
+        "title": "File Play"
+      },
+      {
+        "name": "file-plus-fill",
+        "title": "File Plus Fill"
+      },
+      {
+        "name": "file-plus",
+        "title": "File Plus"
+      },
+      {
+        "name": "file-post-fill",
+        "title": "File Post Fill"
+      },
+      {
+        "name": "file-post",
+        "title": "File Post"
+      },
+      {
+        "name": "file-ppt-fill",
+        "title": "File Ppt Fill"
+      },
+      {
+        "name": "file-ppt",
+        "title": "File Ppt"
+      },
+      {
+        "name": "file-richtext-fill",
+        "title": "File Richtext Fill"
+      },
+      {
+        "name": "file-richtext",
+        "title": "File Richtext"
+      },
+      {
+        "name": "file-ruled-fill",
+        "title": "File Ruled Fill"
+      },
+      {
+        "name": "file-ruled",
+        "title": "File Ruled"
+      },
+      {
+        "name": "file-slides-fill",
+        "title": "File Slides Fill"
+      },
+      {
+        "name": "file-slides",
+        "title": "File Slides"
+      },
+      {
+        "name": "file-spreadsheet-fill",
+        "title": "File Spreadsheet Fill"
+      },
+      {
+        "name": "file-spreadsheet",
+        "title": "File Spreadsheet"
+      },
+      {
+        "name": "file-text-fill",
+        "title": "File Text Fill"
+      },
+      {
+        "name": "file-text",
+        "title": "File Text"
+      },
+      {
+        "name": "file-word-fill",
+        "title": "File Word Fill"
+      },
+      {
+        "name": "file-word",
+        "title": "File Word"
+      },
+      {
+        "name": "file-x-fill",
+        "title": "File X Fill"
+      },
+      {
+        "name": "file-x",
+        "title": "File X"
+      },
+      {
+        "name": "file-zip-fill",
+        "title": "File Zip Fill"
+      },
+      {
+        "name": "file-zip",
+        "title": "File Zip"
+      },
+      {
+        "name": "file",
+        "title": "File"
+      },
+      {
+        "name": "files-alt",
+        "title": "Files Alt"
+      },
+      {
+        "name": "files",
+        "title": "Files"
+      },
+      {
+        "name": "film",
+        "title": "Film"
+      },
+      {
+        "name": "filter-circle-fill",
+        "title": "Filter Circle Fill"
+      },
+      {
+        "name": "filter-circle",
+        "title": "Filter Circle"
+      },
+      {
+        "name": "filter-left",
+        "title": "Filter Left"
+      },
+      {
+        "name": "filter-right",
+        "title": "Filter Right"
+      },
+      {
+        "name": "filter-square-fill",
+        "title": "Filter Square Fill"
+      },
+      {
+        "name": "filter-square",
+        "title": "Filter Square"
+      },
+      {
+        "name": "filter",
+        "title": "Filter"
+      },
+      {
+        "name": "flag-fill",
+        "title": "Flag Fill"
+      },
+      {
+        "name": "flag",
+        "title": "Flag"
+      },
+      {
+        "name": "flower1",
+        "title": "Flower1"
+      },
+      {
+        "name": "flower2",
+        "title": "Flower2"
+      },
+      {
+        "name": "flower3",
+        "title": "Flower3"
+      },
+      {
+        "name": "folder-check",
+        "title": "Folder Check"
+      },
+      {
+        "name": "folder-fill",
+        "title": "Folder Fill"
+      },
+      {
+        "name": "folder-minus",
+        "title": "Folder Minus"
+      },
+      {
+        "name": "folder-plus",
+        "title": "Folder Plus"
+      },
+      {
+        "name": "folder-symlink-fill",
+        "title": "Folder Symlink Fill"
+      },
+      {
+        "name": "folder-symlink",
+        "title": "Folder Symlink"
+      },
+      {
+        "name": "folder-x",
+        "title": "Folder X"
+      },
+      {
+        "name": "folder",
+        "title": "Folder"
+      },
+      {
+        "name": "folder2-open",
+        "title": "Folder2 Open"
+      },
+      {
+        "name": "folder2",
+        "title": "Folder2"
+      },
+      {
+        "name": "fonts",
+        "title": "Fonts"
+      },
+      {
+        "name": "forward-fill",
+        "title": "Forward Fill"
+      },
+      {
+        "name": "forward",
+        "title": "Forward"
+      },
+      {
+        "name": "front",
+        "title": "Front"
+      },
+      {
+        "name": "fullscreen-exit",
+        "title": "Fullscreen Exit"
+      },
+      {
+        "name": "fullscreen",
+        "title": "Fullscreen"
+      },
+      {
+        "name": "funnel-fill",
+        "title": "Funnel Fill"
+      },
+      {
+        "name": "funnel",
+        "title": "Funnel"
+      },
+      {
+        "name": "gear-fill",
+        "title": "Gear Fill"
+      },
+      {
+        "name": "gear-wide-connected",
+        "title": "Gear Wide Connected"
+      },
+      {
+        "name": "gear-wide",
+        "title": "Gear Wide"
+      },
+      {
+        "name": "gear",
+        "title": "Gear"
+      },
+      {
+        "name": "gem",
+        "title": "Gem"
+      },
+      {
+        "name": "geo-alt-fill",
+        "title": "Geo Alt Fill"
+      },
+      {
+        "name": "geo-alt",
+        "title": "Geo Alt"
+      },
+      {
+        "name": "geo-fill",
+        "title": "Geo Fill"
+      },
+      {
+        "name": "geo",
+        "title": "Geo"
+      },
+      {
+        "name": "gift-fill",
+        "title": "Gift Fill"
+      },
+      {
+        "name": "gift",
+        "title": "Gift"
+      },
+      {
+        "name": "github",
+        "title": "Github"
+      },
+      {
+        "name": "globe",
+        "title": "Globe"
+      },
+      {
+        "name": "globe2",
+        "title": "Globe2"
+      },
+      {
+        "name": "google",
+        "title": "Google"
+      },
+      {
+        "name": "graph-down",
+        "title": "Graph Down"
+      },
+      {
+        "name": "graph-up",
+        "title": "Graph Up"
+      },
+      {
+        "name": "grid-1x2-fill",
+        "title": "Grid 1x2 Fill"
+      },
+      {
+        "name": "grid-1x2",
+        "title": "Grid 1x2"
+      },
+      {
+        "name": "grid-3x2-gap-fill",
+        "title": "Grid 3x2 Gap Fill"
+      },
+      {
+        "name": "grid-3x2-gap",
+        "title": "Grid 3x2 Gap"
+      },
+      {
+        "name": "grid-3x2",
+        "title": "Grid 3x2"
+      },
+      {
+        "name": "grid-3x3-gap-fill",
+        "title": "Grid 3x3 Gap Fill"
+      },
+      {
+        "name": "grid-3x3-gap",
+        "title": "Grid 3x3 Gap"
+      },
+      {
+        "name": "grid-3x3",
+        "title": "Grid 3x3"
+      },
+      {
+        "name": "grid-fill",
+        "title": "Grid Fill"
+      },
+      {
+        "name": "grid",
+        "title": "Grid"
+      },
+      {
+        "name": "grip-horizontal",
+        "title": "Grip Horizontal"
+      },
+      {
+        "name": "grip-vertical",
+        "title": "Grip Vertical"
+      },
+      {
+        "name": "hammer",
+        "title": "Hammer"
+      },
+      {
+        "name": "hand-index-fill",
+        "title": "Hand Index Fill"
+      },
+      {
+        "name": "hand-index-thumb-fill",
+        "title": "Hand Index Thumb Fill"
+      },
+      {
+        "name": "hand-index-thumb",
+        "title": "Hand Index Thumb"
+      },
+      {
+        "name": "hand-index",
+        "title": "Hand Index"
+      },
+      {
+        "name": "hand-thumbs-down-fill",
+        "title": "Hand Thumbs Down Fill"
+      },
+      {
+        "name": "hand-thumbs-down",
+        "title": "Hand Thumbs Down"
+      },
+      {
+        "name": "hand-thumbs-up-fill",
+        "title": "Hand Thumbs Up Fill"
+      },
+      {
+        "name": "hand-thumbs-up",
+        "title": "Hand Thumbs Up"
+      },
+      {
+        "name": "handbag-fill",
+        "title": "Handbag Fill"
+      },
+      {
+        "name": "handbag",
+        "title": "Handbag"
+      },
+      {
+        "name": "hash",
+        "title": "Hash"
+      },
+      {
+        "name": "hdd-fill",
+        "title": "Hdd Fill"
+      },
+      {
+        "name": "hdd-network-fill",
+        "title": "Hdd Network Fill"
+      },
+      {
+        "name": "hdd-network",
+        "title": "Hdd Network"
+      },
+      {
+        "name": "hdd-rack-fill",
+        "title": "Hdd Rack Fill"
+      },
+      {
+        "name": "hdd-rack",
+        "title": "Hdd Rack"
+      },
+      {
+        "name": "hdd-stack-fill",
+        "title": "Hdd Stack Fill"
+      },
+      {
+        "name": "hdd-stack",
+        "title": "Hdd Stack"
+      },
+      {
+        "name": "hdd",
+        "title": "Hdd"
+      },
+      {
+        "name": "headphones",
+        "title": "Headphones"
+      },
+      {
+        "name": "headset",
+        "title": "Headset"
+      },
+      {
+        "name": "heart-fill",
+        "title": "Heart Fill"
+      },
+      {
+        "name": "heart-half",
+        "title": "Heart Half"
+      },
+      {
+        "name": "heart",
+        "title": "Heart"
+      },
+      {
+        "name": "heptagon-fill",
+        "title": "Heptagon Fill"
+      },
+      {
+        "name": "heptagon-half",
+        "title": "Heptagon Half"
+      },
+      {
+        "name": "heptagon",
+        "title": "Heptagon"
+      },
+      {
+        "name": "hexagon-fill",
+        "title": "Hexagon Fill"
+      },
+      {
+        "name": "hexagon-half",
+        "title": "Hexagon Half"
+      },
+      {
+        "name": "hexagon",
+        "title": "Hexagon"
+      },
+      {
+        "name": "hourglass-bottom",
+        "title": "Hourglass Bottom"
+      },
+      {
+        "name": "hourglass-split",
+        "title": "Hourglass Split"
+      },
+      {
+        "name": "hourglass-top",
+        "title": "Hourglass Top"
+      },
+      {
+        "name": "hourglass",
+        "title": "Hourglass"
+      },
+      {
+        "name": "house-door-fill",
+        "title": "House Door Fill"
+      },
+      {
+        "name": "house-door",
+        "title": "House Door"
+      },
+      {
+        "name": "house-fill",
+        "title": "House Fill"
+      },
+      {
+        "name": "house",
+        "title": "House"
+      },
+      {
+        "name": "hr",
+        "title": "Hr"
+      },
+      {
+        "name": "hurricane",
+        "title": "Hurricane"
+      },
+      {
+        "name": "image-alt",
+        "title": "Image Alt"
+      },
+      {
+        "name": "image-fill",
+        "title": "Image Fill"
+      },
+      {
+        "name": "image",
+        "title": "Image"
+      },
+      {
+        "name": "images",
+        "title": "Images"
+      },
+      {
+        "name": "inbox-fill",
+        "title": "Inbox Fill"
+      },
+      {
+        "name": "inbox",
+        "title": "Inbox"
+      },
+      {
+        "name": "inboxes-fill",
+        "title": "Inboxes Fill"
+      },
+      {
+        "name": "inboxes",
+        "title": "Inboxes"
+      },
+      {
+        "name": "info-circle-fill",
+        "title": "Info Circle Fill"
+      },
+      {
+        "name": "info-circle",
+        "title": "Info Circle"
+      },
+      {
+        "name": "info-square-fill",
+        "title": "Info Square Fill"
+      },
+      {
+        "name": "info-square",
+        "title": "Info Square"
+      },
+      {
+        "name": "info",
+        "title": "Info"
+      },
+      {
+        "name": "input-cursor-text",
+        "title": "Input Cursor Text"
+      },
+      {
+        "name": "input-cursor",
+        "title": "Input Cursor"
+      },
+      {
+        "name": "instagram",
+        "title": "Instagram"
+      },
+      {
+        "name": "intersect",
+        "title": "Intersect"
+      },
+      {
+        "name": "journal-album",
+        "title": "Journal Album"
+      },
+      {
+        "name": "journal-arrow-down",
+        "title": "Journal Arrow Down"
+      },
+      {
+        "name": "journal-arrow-up",
+        "title": "Journal Arrow Up"
+      },
+      {
+        "name": "journal-bookmark-fill",
+        "title": "Journal Bookmark Fill"
+      },
+      {
+        "name": "journal-bookmark",
+        "title": "Journal Bookmark"
+      },
+      {
+        "name": "journal-check",
+        "title": "Journal Check"
+      },
+      {
+        "name": "journal-code",
+        "title": "Journal Code"
+      },
+      {
+        "name": "journal-medical",
+        "title": "Journal Medical"
+      },
+      {
+        "name": "journal-minus",
+        "title": "Journal Minus"
+      },
+      {
+        "name": "journal-plus",
+        "title": "Journal Plus"
+      },
+      {
+        "name": "journal-richtext",
+        "title": "Journal Richtext"
+      },
+      {
+        "name": "journal-text",
+        "title": "Journal Text"
+      },
+      {
+        "name": "journal-x",
+        "title": "Journal X"
+      },
+      {
+        "name": "journal",
+        "title": "Journal"
+      },
+      {
+        "name": "journals",
+        "title": "Journals"
+      },
+      {
+        "name": "joystick",
+        "title": "Joystick"
+      },
+      {
+        "name": "justify-left",
+        "title": "Justify Left"
+      },
+      {
+        "name": "justify-right",
+        "title": "Justify Right"
+      },
+      {
+        "name": "justify",
+        "title": "Justify"
+      },
+      {
+        "name": "kanban-fill",
+        "title": "Kanban Fill"
+      },
+      {
+        "name": "kanban",
+        "title": "Kanban"
+      },
+      {
+        "name": "key-fill",
+        "title": "Key Fill"
+      },
+      {
+        "name": "key",
+        "title": "Key"
+      },
+      {
+        "name": "keyboard-fill",
+        "title": "Keyboard Fill"
+      },
+      {
+        "name": "keyboard",
+        "title": "Keyboard"
+      },
+      {
+        "name": "ladder",
+        "title": "Ladder"
+      },
+      {
+        "name": "lamp-fill",
+        "title": "Lamp Fill"
+      },
+      {
+        "name": "lamp",
+        "title": "Lamp"
+      },
+      {
+        "name": "laptop-fill",
+        "title": "Laptop Fill"
+      },
+      {
+        "name": "laptop",
+        "title": "Laptop"
+      },
+      {
+        "name": "layer-backward",
+        "title": "Layer Backward"
+      },
+      {
+        "name": "layer-forward",
+        "title": "Layer Forward"
+      },
+      {
+        "name": "layers-fill",
+        "title": "Layers Fill"
+      },
+      {
+        "name": "layers-half",
+        "title": "Layers Half"
+      },
+      {
+        "name": "layers",
+        "title": "Layers"
+      },
+      {
+        "name": "layout-sidebar-inset-reverse",
+        "title": "Layout Sidebar Inset Reverse"
+      },
+      {
+        "name": "layout-sidebar-inset",
+        "title": "Layout Sidebar Inset"
+      },
+      {
+        "name": "layout-sidebar-reverse",
+        "title": "Layout Sidebar Reverse"
+      },
+      {
+        "name": "layout-sidebar",
+        "title": "Layout Sidebar"
+      },
+      {
+        "name": "layout-split",
+        "title": "Layout Split"
+      },
+      {
+        "name": "layout-text-sidebar-reverse",
+        "title": "Layout Text Sidebar Reverse"
+      },
+      {
+        "name": "layout-text-sidebar",
+        "title": "Layout Text Sidebar"
+      },
+      {
+        "name": "layout-text-window-reverse",
+        "title": "Layout Text Window Reverse"
+      },
+      {
+        "name": "layout-text-window",
+        "title": "Layout Text Window"
+      },
+      {
+        "name": "layout-three-columns",
+        "title": "Layout Three Columns"
+      },
+      {
+        "name": "layout-wtf",
+        "title": "Layout Wtf"
+      },
+      {
+        "name": "life-preserver",
+        "title": "Life Preserver"
+      },
+      {
+        "name": "lightbulb-fill",
+        "title": "Lightbulb Fill"
+      },
+      {
+        "name": "lightbulb-off-fill",
+        "title": "Lightbulb Off Fill"
+      },
+      {
+        "name": "lightbulb-off",
+        "title": "Lightbulb Off"
+      },
+      {
+        "name": "lightbulb",
+        "title": "Lightbulb"
+      },
+      {
+        "name": "lightning-charge-fill",
+        "title": "Lightning Charge Fill"
+      },
+      {
+        "name": "lightning-charge",
+        "title": "Lightning Charge"
+      },
+      {
+        "name": "lightning-fill",
+        "title": "Lightning Fill"
+      },
+      {
+        "name": "lightning",
+        "title": "Lightning"
+      },
+      {
+        "name": "link-45deg",
+        "title": "Link 45deg"
+      },
+      {
+        "name": "link",
+        "title": "Link"
+      },
+      {
+        "name": "linkedin",
+        "title": "Linkedin"
+      },
+      {
+        "name": "list-check",
+        "title": "List Check"
+      },
+      {
+        "name": "list-nested",
+        "title": "List Nested"
+      },
+      {
+        "name": "list-ol",
+        "title": "List Ol"
+      },
+      {
+        "name": "list-stars",
+        "title": "List Stars"
+      },
+      {
+        "name": "list-task",
+        "title": "List Task"
+      },
+      {
+        "name": "list-ul",
+        "title": "List Ul"
+      },
+      {
+        "name": "list",
+        "title": "List"
+      },
+      {
+        "name": "lock-fill",
+        "title": "Lock Fill"
+      },
+      {
+        "name": "lock",
+        "title": "Lock"
+      },
+      {
+        "name": "mailbox",
+        "title": "Mailbox"
+      },
+      {
+        "name": "mailbox2",
+        "title": "Mailbox2"
+      },
+      {
+        "name": "map-fill",
+        "title": "Map Fill"
+      },
+      {
+        "name": "map",
+        "title": "Map"
+      },
+      {
+        "name": "markdown-fill",
+        "title": "Markdown Fill"
+      },
+      {
+        "name": "markdown",
+        "title": "Markdown"
+      },
+      {
+        "name": "mask",
+        "title": "Mask"
+      },
+      {
+        "name": "megaphone-fill",
+        "title": "Megaphone Fill"
+      },
+      {
+        "name": "megaphone",
+        "title": "Megaphone"
+      },
+      {
+        "name": "menu-app-fill",
+        "title": "Menu App Fill"
+      },
+      {
+        "name": "menu-app",
+        "title": "Menu App"
+      },
+      {
+        "name": "menu-button-fill",
+        "title": "Menu Button Fill"
+      },
+      {
+        "name": "menu-button-wide-fill",
+        "title": "Menu Button Wide Fill"
+      },
+      {
+        "name": "menu-button-wide",
+        "title": "Menu Button Wide"
+      },
+      {
+        "name": "menu-button",
+        "title": "Menu Button"
+      },
+      {
+        "name": "menu-down",
+        "title": "Menu Down"
+      },
+      {
+        "name": "menu-up",
+        "title": "Menu Up"
+      },
+      {
+        "name": "mic-fill",
+        "title": "Mic Fill"
+      },
+      {
+        "name": "mic-mute-fill",
+        "title": "Mic Mute Fill"
+      },
+      {
+        "name": "mic-mute",
+        "title": "Mic Mute"
+      },
+      {
+        "name": "mic",
+        "title": "Mic"
+      },
+      {
+        "name": "minecart-loaded",
+        "title": "Minecart Loaded"
+      },
+      {
+        "name": "minecart",
+        "title": "Minecart"
+      },
+      {
+        "name": "moisture",
+        "title": "Moisture"
+      },
+      {
+        "name": "moon-fill",
+        "title": "Moon Fill"
+      },
+      {
+        "name": "moon-stars-fill",
+        "title": "Moon Stars Fill"
+      },
+      {
+        "name": "moon-stars",
+        "title": "Moon Stars"
+      },
+      {
+        "name": "moon",
+        "title": "Moon"
+      },
+      {
+        "name": "mouse-fill",
+        "title": "Mouse Fill"
+      },
+      {
+        "name": "mouse",
+        "title": "Mouse"
+      },
+      {
+        "name": "mouse2-fill",
+        "title": "Mouse2 Fill"
+      },
+      {
+        "name": "mouse2",
+        "title": "Mouse2"
+      },
+      {
+        "name": "mouse3-fill",
+        "title": "Mouse3 Fill"
+      },
+      {
+        "name": "mouse3",
+        "title": "Mouse3"
+      },
+      {
+        "name": "music-note-beamed",
+        "title": "Music Note Beamed"
+      },
+      {
+        "name": "music-note-list",
+        "title": "Music Note List"
+      },
+      {
+        "name": "music-note",
+        "title": "Music Note"
+      },
+      {
+        "name": "music-player-fill",
+        "title": "Music Player Fill"
+      },
+      {
+        "name": "music-player",
+        "title": "Music Player"
+      },
+      {
+        "name": "newspaper",
+        "title": "Newspaper"
+      },
+      {
+        "name": "node-minus-fill",
+        "title": "Node Minus Fill"
+      },
+      {
+        "name": "node-minus",
+        "title": "Node Minus"
+      },
+      {
+        "name": "node-plus-fill",
+        "title": "Node Plus Fill"
+      },
+      {
+        "name": "node-plus",
+        "title": "Node Plus"
+      },
+      {
+        "name": "nut-fill",
+        "title": "Nut Fill"
+      },
+      {
+        "name": "nut",
+        "title": "Nut"
+      },
+      {
+        "name": "octagon-fill",
+        "title": "Octagon Fill"
+      },
+      {
+        "name": "octagon-half",
+        "title": "Octagon Half"
+      },
+      {
+        "name": "octagon",
+        "title": "Octagon"
+      },
+      {
+        "name": "option",
+        "title": "Option"
+      },
+      {
+        "name": "outlet",
+        "title": "Outlet"
+      },
+      {
+        "name": "paint-bucket",
+        "title": "Paint Bucket"
+      },
+      {
+        "name": "palette-fill",
+        "title": "Palette Fill"
+      },
+      {
+        "name": "palette",
+        "title": "Palette"
+      },
+      {
+        "name": "palette2",
+        "title": "Palette2"
+      },
+      {
+        "name": "paperclip",
+        "title": "Paperclip"
+      },
+      {
+        "name": "paragraph",
+        "title": "Paragraph"
+      },
+      {
+        "name": "patch-check-fill",
+        "title": "Patch Check Fill"
+      },
+      {
+        "name": "patch-check",
+        "title": "Patch Check"
+      },
+      {
+        "name": "patch-exclamation-fill",
+        "title": "Patch Exclamation Fill"
+      },
+      {
+        "name": "patch-exclamation",
+        "title": "Patch Exclamation"
+      },
+      {
+        "name": "patch-minus-fill",
+        "title": "Patch Minus Fill"
+      },
+      {
+        "name": "patch-minus",
+        "title": "Patch Minus"
+      },
+      {
+        "name": "patch-plus-fill",
+        "title": "Patch Plus Fill"
+      },
+      {
+        "name": "patch-plus",
+        "title": "Patch Plus"
+      },
+      {
+        "name": "patch-question-fill",
+        "title": "Patch Question Fill"
+      },
+      {
+        "name": "patch-question",
+        "title": "Patch Question"
+      },
+      {
+        "name": "pause-btn-fill",
+        "title": "Pause Btn Fill"
+      },
+      {
+        "name": "pause-btn",
+        "title": "Pause Btn"
+      },
+      {
+        "name": "pause-circle-fill",
+        "title": "Pause Circle Fill"
+      },
+      {
+        "name": "pause-circle",
+        "title": "Pause Circle"
+      },
+      {
+        "name": "pause-fill",
+        "title": "Pause Fill"
+      },
+      {
+        "name": "pause",
+        "title": "Pause"
+      },
+      {
+        "name": "peace-fill",
+        "title": "Peace Fill"
+      },
+      {
+        "name": "peace",
+        "title": "Peace"
+      },
+      {
+        "name": "pen-fill",
+        "title": "Pen Fill"
+      },
+      {
+        "name": "pen",
+        "title": "Pen"
+      },
+      {
+        "name": "pencil-fill",
+        "title": "Pencil Fill"
+      },
+      {
+        "name": "pencil-square",
+        "title": "Pencil Square"
+      },
+      {
+        "name": "pencil",
+        "title": "Pencil"
+      },
+      {
+        "name": "pentagon-fill",
+        "title": "Pentagon Fill"
+      },
+      {
+        "name": "pentagon-half",
+        "title": "Pentagon Half"
+      },
+      {
+        "name": "pentagon",
+        "title": "Pentagon"
+      },
+      {
+        "name": "people-fill",
+        "title": "People Fill"
+      },
+      {
+        "name": "people",
+        "title": "People"
+      },
+      {
+        "name": "percent",
+        "title": "Percent"
+      },
+      {
+        "name": "person-badge-fill",
+        "title": "Person Badge Fill"
+      },
+      {
+        "name": "person-badge",
+        "title": "Person Badge"
+      },
+      {
+        "name": "person-bounding-box",
+        "title": "Person Bounding Box"
+      },
+      {
+        "name": "person-check-fill",
+        "title": "Person Check Fill"
+      },
+      {
+        "name": "person-check",
+        "title": "Person Check"
+      },
+      {
+        "name": "person-circle",
+        "title": "Person Circle"
+      },
+      {
+        "name": "person-dash-fill",
+        "title": "Person Dash Fill"
+      },
+      {
+        "name": "person-dash",
+        "title": "Person Dash"
+      },
+      {
+        "name": "person-fill",
+        "title": "Person Fill"
+      },
+      {
+        "name": "person-lines-fill",
+        "title": "Person Lines Fill"
+      },
+      {
+        "name": "person-plus-fill",
+        "title": "Person Plus Fill"
+      },
+      {
+        "name": "person-plus",
+        "title": "Person Plus"
+      },
+      {
+        "name": "person-square",
+        "title": "Person Square"
+      },
+      {
+        "name": "person-x-fill",
+        "title": "Person X Fill"
+      },
+      {
+        "name": "person-x",
+        "title": "Person X"
+      },
+      {
+        "name": "person",
+        "title": "Person"
+      },
+      {
+        "name": "phone-fill",
+        "title": "Phone Fill"
+      },
+      {
+        "name": "phone-landscape-fill",
+        "title": "Phone Landscape Fill"
+      },
+      {
+        "name": "phone-landscape",
+        "title": "Phone Landscape"
+      },
+      {
+        "name": "phone-vibrate-fill",
+        "title": "Phone Vibrate Fill"
+      },
+      {
+        "name": "phone-vibrate",
+        "title": "Phone Vibrate"
+      },
+      {
+        "name": "phone",
+        "title": "Phone"
+      },
+      {
+        "name": "pie-chart-fill",
+        "title": "Pie Chart Fill"
+      },
+      {
+        "name": "pie-chart",
+        "title": "Pie Chart"
+      },
+      {
+        "name": "pin-angle-fill",
+        "title": "Pin Angle Fill"
+      },
+      {
+        "name": "pin-angle",
+        "title": "Pin Angle"
+      },
+      {
+        "name": "pin-fill",
+        "title": "Pin Fill"
+      },
+      {
+        "name": "pin",
+        "title": "Pin"
+      },
+      {
+        "name": "pip-fill",
+        "title": "Pip Fill"
+      },
+      {
+        "name": "pip",
+        "title": "Pip"
+      },
+      {
+        "name": "play-btn-fill",
+        "title": "Play Btn Fill"
+      },
+      {
+        "name": "play-btn",
+        "title": "Play Btn"
+      },
+      {
+        "name": "play-circle-fill",
+        "title": "Play Circle Fill"
+      },
+      {
+        "name": "play-circle",
+        "title": "Play Circle"
+      },
+      {
+        "name": "play-fill",
+        "title": "Play Fill"
+      },
+      {
+        "name": "play",
+        "title": "Play"
+      },
+      {
+        "name": "plug-fill",
+        "title": "Plug Fill"
+      },
+      {
+        "name": "plug",
+        "title": "Plug"
+      },
+      {
+        "name": "plus-circle-dotted",
+        "title": "Plus Circle Dotted"
+      },
+      {
+        "name": "plus-circle-fill",
+        "title": "Plus Circle Fill"
+      },
+      {
+        "name": "plus-circle",
+        "title": "Plus Circle"
+      },
+      {
+        "name": "plus-square-dotted",
+        "title": "Plus Square Dotted"
+      },
+      {
+        "name": "plus-square-fill",
+        "title": "Plus Square Fill"
+      },
+      {
+        "name": "plus-square",
+        "title": "Plus Square"
+      },
+      {
+        "name": "plus",
+        "title": "Plus"
+      },
+      {
+        "name": "power",
+        "title": "Power"
+      },
+      {
+        "name": "printer-fill",
+        "title": "Printer Fill"
+      },
+      {
+        "name": "printer",
+        "title": "Printer"
+      },
+      {
+        "name": "puzzle-fill",
+        "title": "Puzzle Fill"
+      },
+      {
+        "name": "puzzle",
+        "title": "Puzzle"
+      },
+      {
+        "name": "question-circle-fill",
+        "title": "Question Circle Fill"
+      },
+      {
+        "name": "question-circle",
+        "title": "Question Circle"
+      },
+      {
+        "name": "question-diamond-fill",
+        "title": "Question Diamond Fill"
+      },
+      {
+        "name": "question-diamond",
+        "title": "Question Diamond"
+      },
+      {
+        "name": "question-octagon-fill",
+        "title": "Question Octagon Fill"
+      },
+      {
+        "name": "question-octagon",
+        "title": "Question Octagon"
+      },
+      {
+        "name": "question-square-fill",
+        "title": "Question Square Fill"
+      },
+      {
+        "name": "question-square",
+        "title": "Question Square"
+      },
+      {
+        "name": "question",
+        "title": "Question"
+      },
+      {
+        "name": "rainbow",
+        "title": "Rainbow"
+      },
+      {
+        "name": "receipt-cutoff",
+        "title": "Receipt Cutoff"
+      },
+      {
+        "name": "receipt",
+        "title": "Receipt"
+      },
+      {
+        "name": "reception-0",
+        "title": "Reception 0"
+      },
+      {
+        "name": "reception-1",
+        "title": "Reception 1"
+      },
+      {
+        "name": "reception-2",
+        "title": "Reception 2"
+      },
+      {
+        "name": "reception-3",
+        "title": "Reception 3"
+      },
+      {
+        "name": "reception-4",
+        "title": "Reception 4"
+      },
+      {
+        "name": "record-btn-fill",
+        "title": "Record Btn Fill"
+      },
+      {
+        "name": "record-btn",
+        "title": "Record Btn"
+      },
+      {
+        "name": "record-circle-fill",
+        "title": "Record Circle Fill"
+      },
+      {
+        "name": "record-circle",
+        "title": "Record Circle"
+      },
+      {
+        "name": "record-fill",
+        "title": "Record Fill"
+      },
+      {
+        "name": "record",
+        "title": "Record"
+      },
+      {
+        "name": "record2-fill",
+        "title": "Record2 Fill"
+      },
+      {
+        "name": "record2",
+        "title": "Record2"
+      },
+      {
+        "name": "reply-all-fill",
+        "title": "Reply All Fill"
+      },
+      {
+        "name": "reply-all",
+        "title": "Reply All"
+      },
+      {
+        "name": "reply-fill",
+        "title": "Reply Fill"
+      },
+      {
+        "name": "reply",
+        "title": "Reply"
+      },
+      {
+        "name": "rss-fill",
+        "title": "Rss Fill"
+      },
+      {
+        "name": "rss",
+        "title": "Rss"
+      },
+      {
+        "name": "rulers",
+        "title": "Rulers"
+      },
+      {
+        "name": "save-fill",
+        "title": "Save Fill"
+      },
+      {
+        "name": "save",
+        "title": "Save"
+      },
+      {
+        "name": "save2-fill",
+        "title": "Save2 Fill"
+      },
+      {
+        "name": "save2",
+        "title": "Save2"
+      },
+      {
+        "name": "scissors",
+        "title": "Scissors"
+      },
+      {
+        "name": "screwdriver",
+        "title": "Screwdriver"
+      },
+      {
+        "name": "search",
+        "title": "Search"
+      },
+      {
+        "name": "segmented-nav",
+        "title": "Segmented Nav"
+      },
+      {
+        "name": "server",
+        "title": "Server"
+      },
+      {
+        "name": "share-fill",
+        "title": "Share Fill"
+      },
+      {
+        "name": "share",
+        "title": "Share"
+      },
+      {
+        "name": "shield-check",
+        "title": "Shield Check"
+      },
+      {
+        "name": "shield-exclamation",
+        "title": "Shield Exclamation"
+      },
+      {
+        "name": "shield-fill-check",
+        "title": "Shield Fill Check"
+      },
+      {
+        "name": "shield-fill-exclamation",
+        "title": "Shield Fill Exclamation"
+      },
+      {
+        "name": "shield-fill-minus",
+        "title": "Shield Fill Minus"
+      },
+      {
+        "name": "shield-fill-plus",
+        "title": "Shield Fill Plus"
+      },
+      {
+        "name": "shield-fill-x",
+        "title": "Shield Fill X"
+      },
+      {
+        "name": "shield-fill",
+        "title": "Shield Fill"
+      },
+      {
+        "name": "shield-lock-fill",
+        "title": "Shield Lock Fill"
+      },
+      {
+        "name": "shield-lock",
+        "title": "Shield Lock"
+      },
+      {
+        "name": "shield-minus",
+        "title": "Shield Minus"
+      },
+      {
+        "name": "shield-plus",
+        "title": "Shield Plus"
+      },
+      {
+        "name": "shield-shaded",
+        "title": "Shield Shaded"
+      },
+      {
+        "name": "shield-slash-fill",
+        "title": "Shield Slash Fill"
+      },
+      {
+        "name": "shield-slash",
+        "title": "Shield Slash"
+      },
+      {
+        "name": "shield-x",
+        "title": "Shield X"
+      },
+      {
+        "name": "shield",
+        "title": "Shield"
+      },
+      {
+        "name": "shift-fill",
+        "title": "Shift Fill"
+      },
+      {
+        "name": "shift",
+        "title": "Shift"
+      },
+      {
+        "name": "shop-window",
+        "title": "Shop Window"
+      },
+      {
+        "name": "shop",
+        "title": "Shop"
+      },
+      {
+        "name": "shuffle",
+        "title": "Shuffle"
+      },
+      {
+        "name": "signpost-2-fill",
+        "title": "Signpost 2 Fill"
+      },
+      {
+        "name": "signpost-2",
+        "title": "Signpost 2"
+      },
+      {
+        "name": "signpost-fill",
+        "title": "Signpost Fill"
+      },
+      {
+        "name": "signpost-split-fill",
+        "title": "Signpost Split Fill"
+      },
+      {
+        "name": "signpost-split",
+        "title": "Signpost Split"
+      },
+      {
+        "name": "signpost",
+        "title": "Signpost"
+      },
+      {
+        "name": "sim-fill",
+        "title": "Sim Fill"
+      },
+      {
+        "name": "sim",
+        "title": "Sim"
+      },
+      {
+        "name": "skip-backward-btn-fill",
+        "title": "Skip Backward Btn Fill"
+      },
+      {
+        "name": "skip-backward-btn",
+        "title": "Skip Backward Btn"
+      },
+      {
+        "name": "skip-backward-circle-fill",
+        "title": "Skip Backward Circle Fill"
+      },
+      {
+        "name": "skip-backward-circle",
+        "title": "Skip Backward Circle"
+      },
+      {
+        "name": "skip-backward-fill",
+        "title": "Skip Backward Fill"
+      },
+      {
+        "name": "skip-backward",
+        "title": "Skip Backward"
+      },
+      {
+        "name": "skip-end-btn-fill",
+        "title": "Skip End Btn Fill"
+      },
+      {
+        "name": "skip-end-btn",
+        "title": "Skip End Btn"
+      },
+      {
+        "name": "skip-end-circle-fill",
+        "title": "Skip End Circle Fill"
+      },
+      {
+        "name": "skip-end-circle",
+        "title": "Skip End Circle"
+      },
+      {
+        "name": "skip-end-fill",
+        "title": "Skip End Fill"
+      },
+      {
+        "name": "skip-end",
+        "title": "Skip End"
+      },
+      {
+        "name": "skip-forward-btn-fill",
+        "title": "Skip Forward Btn Fill"
+      },
+      {
+        "name": "skip-forward-btn",
+        "title": "Skip Forward Btn"
+      },
+      {
+        "name": "skip-forward-circle-fill",
+        "title": "Skip Forward Circle Fill"
+      },
+      {
+        "name": "skip-forward-circle",
+        "title": "Skip Forward Circle"
+      },
+      {
+        "name": "skip-forward-fill",
+        "title": "Skip Forward Fill"
+      },
+      {
+        "name": "skip-forward",
+        "title": "Skip Forward"
+      },
+      {
+        "name": "skip-start-btn-fill",
+        "title": "Skip Start Btn Fill"
+      },
+      {
+        "name": "skip-start-btn",
+        "title": "Skip Start Btn"
+      },
+      {
+        "name": "skip-start-circle-fill",
+        "title": "Skip Start Circle Fill"
+      },
+      {
+        "name": "skip-start-circle",
+        "title": "Skip Start Circle"
+      },
+      {
+        "name": "skip-start-fill",
+        "title": "Skip Start Fill"
+      },
+      {
+        "name": "skip-start",
+        "title": "Skip Start"
+      },
+      {
+        "name": "slack",
+        "title": "Slack"
+      },
+      {
+        "name": "slash-circle-fill",
+        "title": "Slash Circle Fill"
+      },
+      {
+        "name": "slash-circle",
+        "title": "Slash Circle"
+      },
+      {
+        "name": "slash-square-fill",
+        "title": "Slash Square Fill"
+      },
+      {
+        "name": "slash-square",
+        "title": "Slash Square"
+      },
+      {
+        "name": "slash",
+        "title": "Slash"
+      },
+      {
+        "name": "sliders",
+        "title": "Sliders"
+      },
+      {
+        "name": "smartwatch",
+        "title": "Smartwatch"
+      },
+      {
+        "name": "snow",
+        "title": "Snow"
+      },
+      {
+        "name": "snow2",
+        "title": "Snow2"
+      },
+      {
+        "name": "snow3",
+        "title": "Snow3"
+      },
+      {
+        "name": "sort-alpha-down-alt",
+        "title": "Sort Alpha Down Alt"
+      },
+      {
+        "name": "sort-alpha-down",
+        "title": "Sort Alpha Down"
+      },
+      {
+        "name": "sort-alpha-up-alt",
+        "title": "Sort Alpha Up Alt"
+      },
+      {
+        "name": "sort-alpha-up",
+        "title": "Sort Alpha Up"
+      },
+      {
+        "name": "sort-down-alt",
+        "title": "Sort Down Alt"
+      },
+      {
+        "name": "sort-down",
+        "title": "Sort Down"
+      },
+      {
+        "name": "sort-numeric-down-alt",
+        "title": "Sort Numeric Down Alt"
+      },
+      {
+        "name": "sort-numeric-down",
+        "title": "Sort Numeric Down"
+      },
+      {
+        "name": "sort-numeric-up-alt",
+        "title": "Sort Numeric Up Alt"
+      },
+      {
+        "name": "sort-numeric-up",
+        "title": "Sort Numeric Up"
+      },
+      {
+        "name": "sort-up-alt",
+        "title": "Sort Up Alt"
+      },
+      {
+        "name": "sort-up",
+        "title": "Sort Up"
+      },
+      {
+        "name": "soundwave",
+        "title": "Soundwave"
+      },
+      {
+        "name": "speaker-fill",
+        "title": "Speaker Fill"
+      },
+      {
+        "name": "speaker",
+        "title": "Speaker"
+      },
+      {
+        "name": "speedometer",
+        "title": "Speedometer"
+      },
+      {
+        "name": "speedometer2",
+        "title": "Speedometer2"
+      },
+      {
+        "name": "spellcheck",
+        "title": "Spellcheck"
+      },
+      {
+        "name": "square-fill",
+        "title": "Square Fill"
+      },
+      {
+        "name": "square-half",
+        "title": "Square Half"
+      },
+      {
+        "name": "square",
+        "title": "Square"
+      },
+      {
+        "name": "stack",
+        "title": "Stack"
+      },
+      {
+        "name": "star-fill",
+        "title": "Star Fill"
+      },
+      {
+        "name": "star-half",
+        "title": "Star Half"
+      },
+      {
+        "name": "star",
+        "title": "Star"
+      },
+      {
+        "name": "stars",
+        "title": "Stars"
+      },
+      {
+        "name": "stickies-fill",
+        "title": "Stickies Fill"
+      },
+      {
+        "name": "stickies",
+        "title": "Stickies"
+      },
+      {
+        "name": "sticky-fill",
+        "title": "Sticky Fill"
+      },
+      {
+        "name": "sticky",
+        "title": "Sticky"
+      },
+      {
+        "name": "stop-btn-fill",
+        "title": "Stop Btn Fill"
+      },
+      {
+        "name": "stop-btn",
+        "title": "Stop Btn"
+      },
+      {
+        "name": "stop-circle-fill",
+        "title": "Stop Circle Fill"
+      },
+      {
+        "name": "stop-circle",
+        "title": "Stop Circle"
+      },
+      {
+        "name": "stop-fill",
+        "title": "Stop Fill"
+      },
+      {
+        "name": "stop",
+        "title": "Stop"
+      },
+      {
+        "name": "stoplights-fill",
+        "title": "Stoplights Fill"
+      },
+      {
+        "name": "stoplights",
+        "title": "Stoplights"
+      },
+      {
+        "name": "stopwatch-fill",
+        "title": "Stopwatch Fill"
+      },
+      {
+        "name": "stopwatch",
+        "title": "Stopwatch"
+      },
+      {
+        "name": "subtract",
+        "title": "Subtract"
+      },
+      {
+        "name": "suit-club-fill",
+        "title": "Suit Club Fill"
+      },
+      {
+        "name": "suit-club",
+        "title": "Suit Club"
+      },
+      {
+        "name": "suit-diamond-fill",
+        "title": "Suit Diamond Fill"
+      },
+      {
+        "name": "suit-diamond",
+        "title": "Suit Diamond"
+      },
+      {
+        "name": "suit-heart-fill",
+        "title": "Suit Heart Fill"
+      },
+      {
+        "name": "suit-heart",
+        "title": "Suit Heart"
+      },
+      {
+        "name": "suit-spade-fill",
+        "title": "Suit Spade Fill"
+      },
+      {
+        "name": "suit-spade",
+        "title": "Suit Spade"
+      },
+      {
+        "name": "sun-fill",
+        "title": "Sun Fill"
+      },
+      {
+        "name": "sun",
+        "title": "Sun"
+      },
+      {
+        "name": "sunglasses",
+        "title": "Sunglasses"
+      },
+      {
+        "name": "sunrise-fill",
+        "title": "Sunrise Fill"
+      },
+      {
+        "name": "sunrise",
+        "title": "Sunrise"
+      },
+      {
+        "name": "sunset-fill",
+        "title": "Sunset Fill"
+      },
+      {
+        "name": "sunset",
+        "title": "Sunset"
+      },
+      {
+        "name": "symmetry-horizontal",
+        "title": "Symmetry Horizontal"
+      },
+      {
+        "name": "symmetry-vertical",
+        "title": "Symmetry Vertical"
+      },
+      {
+        "name": "table",
+        "title": "Table"
+      },
+      {
+        "name": "tablet-fill",
+        "title": "Tablet Fill"
+      },
+      {
+        "name": "tablet-landscape-fill",
+        "title": "Tablet Landscape Fill"
+      },
+      {
+        "name": "tablet-landscape",
+        "title": "Tablet Landscape"
+      },
+      {
+        "name": "tablet",
+        "title": "Tablet"
+      },
+      {
+        "name": "tag-fill",
+        "title": "Tag Fill"
+      },
+      {
+        "name": "tag",
+        "title": "Tag"
+      },
+      {
+        "name": "tags-fill",
+        "title": "Tags Fill"
+      },
+      {
+        "name": "tags",
+        "title": "Tags"
+      },
+      {
+        "name": "telegram",
+        "title": "Telegram"
+      },
+      {
+        "name": "telephone-fill",
+        "title": "Telephone Fill"
+      },
+      {
+        "name": "telephone-forward-fill",
+        "title": "Telephone Forward Fill"
+      },
+      {
+        "name": "telephone-forward",
+        "title": "Telephone Forward"
+      },
+      {
+        "name": "telephone-inbound-fill",
+        "title": "Telephone Inbound Fill"
+      },
+      {
+        "name": "telephone-inbound",
+        "title": "Telephone Inbound"
+      },
+      {
+        "name": "telephone-minus-fill",
+        "title": "Telephone Minus Fill"
+      },
+      {
+        "name": "telephone-minus",
+        "title": "Telephone Minus"
+      },
+      {
+        "name": "telephone-outbound-fill",
+        "title": "Telephone Outbound Fill"
+      },
+      {
+        "name": "telephone-outbound",
+        "title": "Telephone Outbound"
+      },
+      {
+        "name": "telephone-plus-fill",
+        "title": "Telephone Plus Fill"
+      },
+      {
+        "name": "telephone-plus",
+        "title": "Telephone Plus"
+      },
+      {
+        "name": "telephone-x-fill",
+        "title": "Telephone X Fill"
+      },
+      {
+        "name": "telephone-x",
+        "title": "Telephone X"
+      },
+      {
+        "name": "telephone",
+        "title": "Telephone"
+      },
+      {
+        "name": "terminal-fill",
+        "title": "Terminal Fill"
+      },
+      {
+        "name": "terminal",
+        "title": "Terminal"
+      },
+      {
+        "name": "text-center",
+        "title": "Text Center"
+      },
+      {
+        "name": "text-indent-left",
+        "title": "Text Indent Left"
+      },
+      {
+        "name": "text-indent-right",
+        "title": "Text Indent Right"
+      },
+      {
+        "name": "text-left",
+        "title": "Text Left"
+      },
+      {
+        "name": "text-paragraph",
+        "title": "Text Paragraph"
+      },
+      {
+        "name": "text-right",
+        "title": "Text Right"
+      },
+      {
+        "name": "textarea-resize",
+        "title": "Textarea Resize"
+      },
+      {
+        "name": "textarea-t",
+        "title": "Textarea T"
+      },
+      {
+        "name": "textarea",
+        "title": "Textarea"
+      },
+      {
+        "name": "thermometer-half",
+        "title": "Thermometer Half"
+      },
+      {
+        "name": "thermometer-high",
+        "title": "Thermometer High"
+      },
+      {
+        "name": "thermometer-low",
+        "title": "Thermometer Low"
+      },
+      {
+        "name": "thermometer-snow",
+        "title": "Thermometer Snow"
+      },
+      {
+        "name": "thermometer-sun",
+        "title": "Thermometer Sun"
+      },
+      {
+        "name": "thermometer",
+        "title": "Thermometer"
+      },
+      {
+        "name": "three-dots-vertical",
+        "title": "Three Dots Vertical"
+      },
+      {
+        "name": "three-dots",
+        "title": "Three Dots"
+      },
+      {
+        "name": "toggle-off",
+        "title": "Toggle Off"
+      },
+      {
+        "name": "toggle-on",
+        "title": "Toggle On"
+      },
+      {
+        "name": "toggle2-off",
+        "title": "Toggle2 Off"
+      },
+      {
+        "name": "toggle2-on",
+        "title": "Toggle2 On"
+      },
+      {
+        "name": "toggles",
+        "title": "Toggles"
+      },
+      {
+        "name": "toggles2",
+        "title": "Toggles2"
+      },
+      {
+        "name": "tools",
+        "title": "Tools"
+      },
+      {
+        "name": "tornado",
+        "title": "Tornado"
+      },
+      {
+        "name": "trash-fill",
+        "title": "Trash Fill"
+      },
+      {
+        "name": "trash",
+        "title": "Trash"
+      },
+      {
+        "name": "trash2-fill",
+        "title": "Trash2 Fill"
+      },
+      {
+        "name": "trash2",
+        "title": "Trash2"
+      },
+      {
+        "name": "tree-fill",
+        "title": "Tree Fill"
+      },
+      {
+        "name": "tree",
+        "title": "Tree"
+      },
+      {
+        "name": "triangle-fill",
+        "title": "Triangle Fill"
+      },
+      {
+        "name": "triangle-half",
+        "title": "Triangle Half"
+      },
+      {
+        "name": "triangle",
+        "title": "Triangle"
+      },
+      {
+        "name": "trophy-fill",
+        "title": "Trophy Fill"
+      },
+      {
+        "name": "trophy",
+        "title": "Trophy"
+      },
+      {
+        "name": "tropical-storm",
+        "title": "Tropical Storm"
+      },
+      {
+        "name": "truck-flatbed",
+        "title": "Truck Flatbed"
+      },
+      {
+        "name": "truck",
+        "title": "Truck"
+      },
+      {
+        "name": "tsunami",
+        "title": "Tsunami"
+      },
+      {
+        "name": "tv-fill",
+        "title": "Tv Fill"
+      },
+      {
+        "name": "tv",
+        "title": "Tv"
+      },
+      {
+        "name": "twitch",
+        "title": "Twitch"
+      },
+      {
+        "name": "twitter",
+        "title": "Twitter"
+      },
+      {
+        "name": "type-bold",
+        "title": "Type Bold"
+      },
+      {
+        "name": "type-h1",
+        "title": "Type H1"
+      },
+      {
+        "name": "type-h2",
+        "title": "Type H2"
+      },
+      {
+        "name": "type-h3",
+        "title": "Type H3"
+      },
+      {
+        "name": "type-italic",
+        "title": "Type Italic"
+      },
+      {
+        "name": "type-strikethrough",
+        "title": "Type Strikethrough"
+      },
+      {
+        "name": "type-underline",
+        "title": "Type Underline"
+      },
+      {
+        "name": "type",
+        "title": "Type"
+      },
+      {
+        "name": "ui-checks-grid",
+        "title": "Ui Checks Grid"
+      },
+      {
+        "name": "ui-checks",
+        "title": "Ui Checks"
+      },
+      {
+        "name": "ui-radios-grid",
+        "title": "Ui Radios Grid"
+      },
+      {
+        "name": "ui-radios",
+        "title": "Ui Radios"
+      },
+      {
+        "name": "umbrella-fill",
+        "title": "Umbrella Fill"
+      },
+      {
+        "name": "umbrella",
+        "title": "Umbrella"
+      },
+      {
+        "name": "union",
+        "title": "Union"
+      },
+      {
+        "name": "unlock-fill",
+        "title": "Unlock Fill"
+      },
+      {
+        "name": "unlock",
+        "title": "Unlock"
+      },
+      {
+        "name": "upc-scan",
+        "title": "Upc Scan"
+      },
+      {
+        "name": "upc",
+        "title": "Upc"
+      },
+      {
+        "name": "upload",
+        "title": "Upload"
+      },
+      {
+        "name": "vector-pen",
+        "title": "Vector Pen"
+      },
+      {
+        "name": "view-list",
+        "title": "View List"
+      },
+      {
+        "name": "view-stacked",
+        "title": "View Stacked"
+      },
+      {
+        "name": "vinyl-fill",
+        "title": "Vinyl Fill"
+      },
+      {
+        "name": "vinyl",
+        "title": "Vinyl"
+      },
+      {
+        "name": "voicemail",
+        "title": "Voicemail"
+      },
+      {
+        "name": "volume-down-fill",
+        "title": "Volume Down Fill"
+      },
+      {
+        "name": "volume-down",
+        "title": "Volume Down"
+      },
+      {
+        "name": "volume-mute-fill",
+        "title": "Volume Mute Fill"
+      },
+      {
+        "name": "volume-mute",
+        "title": "Volume Mute"
+      },
+      {
+        "name": "volume-off-fill",
+        "title": "Volume Off Fill"
+      },
+      {
+        "name": "volume-off",
+        "title": "Volume Off"
+      },
+      {
+        "name": "volume-up-fill",
+        "title": "Volume Up Fill"
+      },
+      {
+        "name": "volume-up",
+        "title": "Volume Up"
+      },
+      {
+        "name": "vr",
+        "title": "Vr"
+      },
+      {
+        "name": "wallet-fill",
+        "title": "Wallet Fill"
+      },
+      {
+        "name": "wallet",
+        "title": "Wallet"
+      },
+      {
+        "name": "wallet2",
+        "title": "Wallet2"
+      },
+      {
+        "name": "watch",
+        "title": "Watch"
+      },
+      {
+        "name": "water",
+        "title": "Water"
+      },
+      {
+        "name": "whatsapp",
+        "title": "Whatsapp"
+      },
+      {
+        "name": "wifi-1",
+        "title": "Wifi 1"
+      },
+      {
+        "name": "wifi-2",
+        "title": "Wifi 2"
+      },
+      {
+        "name": "wifi-off",
+        "title": "Wifi Off"
+      },
+      {
+        "name": "wifi",
+        "title": "Wifi"
+      },
+      {
+        "name": "wind",
+        "title": "Wind"
+      },
+      {
+        "name": "window-dock",
+        "title": "Window Dock"
+      },
+      {
+        "name": "window-sidebar",
+        "title": "Window Sidebar"
+      },
+      {
+        "name": "window",
+        "title": "Window"
+      },
+      {
+        "name": "wrench",
+        "title": "Wrench"
+      },
+      {
+        "name": "x-circle-fill",
+        "title": "X Circle Fill"
+      },
+      {
+        "name": "x-circle",
+        "title": "X Circle"
+      },
+      {
+        "name": "x-diamond-fill",
+        "title": "X Diamond Fill"
+      },
+      {
+        "name": "x-diamond",
+        "title": "X Diamond"
+      },
+      {
+        "name": "x-octagon-fill",
+        "title": "X Octagon Fill"
+      },
+      {
+        "name": "x-octagon",
+        "title": "X Octagon"
+      },
+      {
+        "name": "x-square-fill",
+        "title": "X Square Fill"
+      },
+      {
+        "name": "x-square",
+        "title": "X Square"
+      },
+      {
+        "name": "x",
+        "title": "X"
+      },
+      {
+        "name": "youtube",
+        "title": "Youtube"
+      },
+      {
+        "name": "zoom-in",
+        "title": "Zoom In"
+      },
+      {
+        "name": "zoom-out",
+        "title": "Zoom Out"
+      },
+      {
+        "name": "bank",
+        "title": "Bank"
+      },
+      {
+        "name": "bank2",
+        "title": "Bank2"
+      },
+      {
+        "name": "bell-slash-fill",
+        "title": "Bell Slash Fill"
+      },
+      {
+        "name": "bell-slash",
+        "title": "Bell Slash"
+      },
+      {
+        "name": "cash-coin",
+        "title": "Cash Coin"
+      },
+      {
+        "name": "check-lg",
+        "title": "Check Lg"
+      },
+      {
+        "name": "coin",
+        "title": "Coin"
+      },
+      {
+        "name": "currency-bitcoin",
+        "title": "Currency Bitcoin"
+      },
+      {
+        "name": "currency-dollar",
+        "title": "Currency Dollar"
+      },
+      {
+        "name": "currency-euro",
+        "title": "Currency Euro"
+      },
+      {
+        "name": "currency-exchange",
+        "title": "Currency Exchange"
+      },
+      {
+        "name": "currency-pound",
+        "title": "Currency Pound"
+      },
+      {
+        "name": "currency-yen",
+        "title": "Currency Yen"
+      },
+      {
+        "name": "dash-lg",
+        "title": "Dash Lg"
+      },
+      {
+        "name": "exclamation-lg",
+        "title": "Exclamation Lg"
+      },
+      {
+        "name": "file-earmark-pdf-fill",
+        "title": "File Earmark Pdf Fill"
+      },
+      {
+        "name": "file-earmark-pdf",
+        "title": "File Earmark Pdf"
+      },
+      {
+        "name": "file-pdf-fill",
+        "title": "File Pdf Fill"
+      },
+      {
+        "name": "file-pdf",
+        "title": "File Pdf"
+      },
+      {
+        "name": "gender-ambiguous",
+        "title": "Gender Ambiguous"
+      },
+      {
+        "name": "gender-female",
+        "title": "Gender Female"
+      },
+      {
+        "name": "gender-male",
+        "title": "Gender Male"
+      },
+      {
+        "name": "gender-trans",
+        "title": "Gender Trans"
+      },
+      {
+        "name": "headset-vr",
+        "title": "Headset Vr"
+      },
+      {
+        "name": "info-lg",
+        "title": "Info Lg"
+      },
+      {
+        "name": "mastodon",
+        "title": "Mastodon"
+      },
+      {
+        "name": "messenger",
+        "title": "Messenger"
+      },
+      {
+        "name": "piggy-bank-fill",
+        "title": "Piggy Bank Fill"
+      },
+      {
+        "name": "piggy-bank",
+        "title": "Piggy Bank"
+      },
+      {
+        "name": "pin-map-fill",
+        "title": "Pin Map Fill"
+      },
+      {
+        "name": "pin-map",
+        "title": "Pin Map"
+      },
+      {
+        "name": "plus-lg",
+        "title": "Plus Lg"
+      },
+      {
+        "name": "question-lg",
+        "title": "Question Lg"
+      },
+      {
+        "name": "recycle",
+        "title": "Recycle"
+      },
+      {
+        "name": "reddit",
+        "title": "Reddit"
+      },
+      {
+        "name": "safe-fill",
+        "title": "Safe Fill"
+      },
+      {
+        "name": "safe2-fill",
+        "title": "Safe2 Fill"
+      },
+      {
+        "name": "safe2",
+        "title": "Safe2"
+      },
+      {
+        "name": "sd-card-fill",
+        "title": "Sd Card Fill"
+      },
+      {
+        "name": "sd-card",
+        "title": "Sd Card"
+      },
+      {
+        "name": "skype",
+        "title": "Skype"
+      },
+      {
+        "name": "slash-lg",
+        "title": "Slash Lg"
+      },
+      {
+        "name": "translate",
+        "title": "Translate"
+      },
+      {
+        "name": "x-lg",
+        "title": "X Lg"
+      },
+      {
+        "name": "safe",
+        "title": "Safe"
+      },
+      {
+        "name": "apple",
+        "title": "Apple"
+      },
+      {
+        "name": "microsoft",
+        "title": "Microsoft"
+      },
+      {
+        "name": "windows",
+        "title": "Windows"
+      },
+      {
+        "name": "behance",
+        "title": "Behance"
+      },
+      {
+        "name": "dribbble",
+        "title": "Dribbble"
+      },
+      {
+        "name": "line",
+        "title": "Line"
+      },
+      {
+        "name": "medium",
+        "title": "Medium"
+      },
+      {
+        "name": "paypal",
+        "title": "Paypal"
+      },
+      {
+        "name": "pinterest",
+        "title": "Pinterest"
+      },
+      {
+        "name": "signal",
+        "title": "Signal"
+      },
+      {
+        "name": "snapchat",
+        "title": "Snapchat"
+      },
+      {
+        "name": "spotify",
+        "title": "Spotify"
+      },
+      {
+        "name": "stack-overflow",
+        "title": "Stack Overflow"
+      },
+      {
+        "name": "strava",
+        "title": "Strava"
+      },
+      {
+        "name": "wordpress",
+        "title": "Wordpress"
+      },
+      {
+        "name": "vimeo",
+        "title": "Vimeo"
+      },
+      {
+        "name": "activity",
+        "title": "Activity"
+      },
+      {
+        "name": "easel2-fill",
+        "title": "Easel2 Fill"
+      },
+      {
+        "name": "easel2",
+        "title": "Easel2"
+      },
+      {
+        "name": "easel3-fill",
+        "title": "Easel3 Fill"
+      },
+      {
+        "name": "easel3",
+        "title": "Easel3"
+      },
+      {
+        "name": "fan",
+        "title": "Fan"
+      },
+      {
+        "name": "fingerprint",
+        "title": "Fingerprint"
+      },
+      {
+        "name": "graph-down-arrow",
+        "title": "Graph Down Arrow"
+      },
+      {
+        "name": "graph-up-arrow",
+        "title": "Graph Up Arrow"
+      },
+      {
+        "name": "hypnotize",
+        "title": "Hypnotize"
+      },
+      {
+        "name": "magic",
+        "title": "Magic"
+      },
+      {
+        "name": "person-rolodex",
+        "title": "Person Rolodex"
+      },
+      {
+        "name": "person-video",
+        "title": "Person Video"
+      },
+      {
+        "name": "person-video2",
+        "title": "Person Video2"
+      },
+      {
+        "name": "person-video3",
+        "title": "Person Video3"
+      },
+      {
+        "name": "person-workspace",
+        "title": "Person Workspace"
+      },
+      {
+        "name": "radioactive",
+        "title": "Radioactive"
+      },
+      {
+        "name": "webcam-fill",
+        "title": "Webcam Fill"
+      },
+      {
+        "name": "webcam",
+        "title": "Webcam"
+      },
+      {
+        "name": "yin-yang",
+        "title": "Yin Yang"
+      },
+      {
+        "name": "bandaid-fill",
+        "title": "Bandaid Fill"
+      },
+      {
+        "name": "bandaid",
+        "title": "Bandaid"
+      },
+      {
+        "name": "bluetooth",
+        "title": "Bluetooth"
+      },
+      {
+        "name": "body-text",
+        "title": "Body Text"
+      },
+      {
+        "name": "boombox",
+        "title": "Boombox"
+      },
+      {
+        "name": "boxes",
+        "title": "Boxes"
+      },
+      {
+        "name": "dpad-fill",
+        "title": "Dpad Fill"
+      },
+      {
+        "name": "dpad",
+        "title": "Dpad"
+      },
+      {
+        "name": "ear-fill",
+        "title": "Ear Fill"
+      },
+      {
+        "name": "ear",
+        "title": "Ear"
+      },
+      {
+        "name": "envelope-check-fill",
+        "title": "Envelope Check Fill"
+      },
+      {
+        "name": "envelope-check",
+        "title": "Envelope Check"
+      },
+      {
+        "name": "envelope-dash-fill",
+        "title": "Envelope Dash Fill"
+      },
+      {
+        "name": "envelope-dash",
+        "title": "Envelope Dash"
+      },
+      {
+        "name": "envelope-exclamation-fill",
+        "title": "Envelope Exclamation Fill"
+      },
+      {
+        "name": "envelope-exclamation",
+        "title": "Envelope Exclamation"
+      },
+      {
+        "name": "envelope-plus-fill",
+        "title": "Envelope Plus Fill"
+      },
+      {
+        "name": "envelope-plus",
+        "title": "Envelope Plus"
+      },
+      {
+        "name": "envelope-slash-fill",
+        "title": "Envelope Slash Fill"
+      },
+      {
+        "name": "envelope-slash",
+        "title": "Envelope Slash"
+      },
+      {
+        "name": "envelope-x-fill",
+        "title": "Envelope X Fill"
+      },
+      {
+        "name": "envelope-x",
+        "title": "Envelope X"
+      },
+      {
+        "name": "explicit-fill",
+        "title": "Explicit Fill"
+      },
+      {
+        "name": "explicit",
+        "title": "Explicit"
+      },
+      {
+        "name": "git",
+        "title": "Git"
+      },
+      {
+        "name": "infinity",
+        "title": "Infinity"
+      },
+      {
+        "name": "list-columns-reverse",
+        "title": "List Columns Reverse"
+      },
+      {
+        "name": "list-columns",
+        "title": "List Columns"
+      },
+      {
+        "name": "meta",
+        "title": "Meta"
+      },
+      {
+        "name": "nintendo-switch",
+        "title": "Nintendo Switch"
+      },
+      {
+        "name": "pc-display-horizontal",
+        "title": "Pc Display Horizontal"
+      },
+      {
+        "name": "pc-display",
+        "title": "Pc Display"
+      },
+      {
+        "name": "pc-horizontal",
+        "title": "Pc Horizontal"
+      },
+      {
+        "name": "pc",
+        "title": "Pc"
+      },
+      {
+        "name": "playstation",
+        "title": "Playstation"
+      },
+      {
+        "name": "plus-slash-minus",
+        "title": "Plus Slash Minus"
+      },
+      {
+        "name": "projector-fill",
+        "title": "Projector Fill"
+      },
+      {
+        "name": "projector",
+        "title": "Projector"
+      },
+      {
+        "name": "qr-code-scan",
+        "title": "Qr Code Scan"
+      },
+      {
+        "name": "qr-code",
+        "title": "Qr Code"
+      },
+      {
+        "name": "quora",
+        "title": "Quora"
+      },
+      {
+        "name": "quote",
+        "title": "Quote"
+      },
+      {
+        "name": "robot",
+        "title": "Robot"
+      },
+      {
+        "name": "send-check-fill",
+        "title": "Send Check Fill"
+      },
+      {
+        "name": "send-check",
+        "title": "Send Check"
+      },
+      {
+        "name": "send-dash-fill",
+        "title": "Send Dash Fill"
+      },
+      {
+        "name": "send-dash",
+        "title": "Send Dash"
+      },
+      {
+        "name": "send-exclamation-fill",
+        "title": "Send Exclamation Fill"
+      },
+      {
+        "name": "send-exclamation",
+        "title": "Send Exclamation"
+      },
+      {
+        "name": "send-fill",
+        "title": "Send Fill"
+      },
+      {
+        "name": "send-plus-fill",
+        "title": "Send Plus Fill"
+      },
+      {
+        "name": "send-plus",
+        "title": "Send Plus"
+      },
+      {
+        "name": "send-slash-fill",
+        "title": "Send Slash Fill"
+      },
+      {
+        "name": "send-slash",
+        "title": "Send Slash"
+      },
+      {
+        "name": "send-x-fill",
+        "title": "Send X Fill"
+      },
+      {
+        "name": "send-x",
+        "title": "Send X"
+      },
+      {
+        "name": "send",
+        "title": "Send"
+      },
+      {
+        "name": "steam",
+        "title": "Steam"
+      },
+      {
+        "name": "terminal-dash",
+        "title": "Terminal Dash"
+      },
+      {
+        "name": "terminal-plus",
+        "title": "Terminal Plus"
+      },
+      {
+        "name": "terminal-split",
+        "title": "Terminal Split"
+      },
+      {
+        "name": "ticket-detailed-fill",
+        "title": "Ticket Detailed Fill"
+      },
+      {
+        "name": "ticket-detailed",
+        "title": "Ticket Detailed"
+      },
+      {
+        "name": "ticket-fill",
+        "title": "Ticket Fill"
+      },
+      {
+        "name": "ticket-perforated-fill",
+        "title": "Ticket Perforated Fill"
+      },
+      {
+        "name": "ticket-perforated",
+        "title": "Ticket Perforated"
+      },
+      {
+        "name": "ticket",
+        "title": "Ticket"
+      },
+      {
+        "name": "tiktok",
+        "title": "Tiktok"
+      },
+      {
+        "name": "window-dash",
+        "title": "Window Dash"
+      },
+      {
+        "name": "window-desktop",
+        "title": "Window Desktop"
+      },
+      {
+        "name": "window-fullscreen",
+        "title": "Window Fullscreen"
+      },
+      {
+        "name": "window-plus",
+        "title": "Window Plus"
+      },
+      {
+        "name": "window-split",
+        "title": "Window Split"
+      },
+      {
+        "name": "window-stack",
+        "title": "Window Stack"
+      },
+      {
+        "name": "window-x",
+        "title": "Window X"
+      },
+      {
+        "name": "xbox",
+        "title": "Xbox"
+      },
+      {
+        "name": "ethernet",
+        "title": "Ethernet"
+      },
+      {
+        "name": "hdmi-fill",
+        "title": "Hdmi Fill"
+      },
+      {
+        "name": "hdmi",
+        "title": "Hdmi"
+      },
+      {
+        "name": "usb-c-fill",
+        "title": "Usb C Fill"
+      },
+      {
+        "name": "usb-c",
+        "title": "Usb C"
+      },
+      {
+        "name": "usb-fill",
+        "title": "Usb Fill"
+      },
+      {
+        "name": "usb-plug-fill",
+        "title": "Usb Plug Fill"
+      },
+      {
+        "name": "usb-plug",
+        "title": "Usb Plug"
+      },
+      {
+        "name": "usb-symbol",
+        "title": "Usb Symbol"
+      },
+      {
+        "name": "usb",
+        "title": "Usb"
+      },
+      {
+        "name": "boombox-fill",
+        "title": "Boombox Fill"
+      },
+      {
+        "name": "displayport",
+        "title": "Displayport"
+      },
+      {
+        "name": "gpu-card",
+        "title": "Gpu Card"
+      },
+      {
+        "name": "memory",
+        "title": "Memory"
+      },
+      {
+        "name": "modem-fill",
+        "title": "Modem Fill"
+      },
+      {
+        "name": "modem",
+        "title": "Modem"
+      },
+      {
+        "name": "motherboard-fill",
+        "title": "Motherboard Fill"
+      },
+      {
+        "name": "motherboard",
+        "title": "Motherboard"
+      },
+      {
+        "name": "optical-audio-fill",
+        "title": "Optical Audio Fill"
+      },
+      {
+        "name": "optical-audio",
+        "title": "Optical Audio"
+      },
+      {
+        "name": "pci-card",
+        "title": "Pci Card"
+      },
+      {
+        "name": "router-fill",
+        "title": "Router Fill"
+      },
+      {
+        "name": "router",
+        "title": "Router"
+      },
+      {
+        "name": "thunderbolt-fill",
+        "title": "Thunderbolt Fill"
+      },
+      {
+        "name": "thunderbolt",
+        "title": "Thunderbolt"
+      },
+      {
+        "name": "usb-drive-fill",
+        "title": "Usb Drive Fill"
+      },
+      {
+        "name": "usb-drive",
+        "title": "Usb Drive"
+      },
+      {
+        "name": "usb-micro-fill",
+        "title": "Usb Micro Fill"
+      },
+      {
+        "name": "usb-micro",
+        "title": "Usb Micro"
+      },
+      {
+        "name": "usb-mini-fill",
+        "title": "Usb Mini Fill"
+      },
+      {
+        "name": "usb-mini",
+        "title": "Usb Mini"
+      },
+      {
+        "name": "cloud-haze2",
+        "title": "Cloud Haze2"
+      },
+      {
+        "name": "device-hdd-fill",
+        "title": "Device Hdd Fill"
+      },
+      {
+        "name": "device-hdd",
+        "title": "Device Hdd"
+      },
+      {
+        "name": "device-ssd-fill",
+        "title": "Device Ssd Fill"
+      },
+      {
+        "name": "device-ssd",
+        "title": "Device Ssd"
+      },
+      {
+        "name": "displayport-fill",
+        "title": "Displayport Fill"
+      },
+      {
+        "name": "mortarboard-fill",
+        "title": "Mortarboard Fill"
+      },
+      {
+        "name": "mortarboard",
+        "title": "Mortarboard"
+      },
+      {
+        "name": "terminal-x",
+        "title": "Terminal X"
+      },
+      {
+        "name": "arrow-through-heart-fill",
+        "title": "Arrow Through Heart Fill"
+      },
+      {
+        "name": "arrow-through-heart",
+        "title": "Arrow Through Heart"
+      },
+      {
+        "name": "badge-sd-fill",
+        "title": "Badge Sd Fill"
+      },
+      {
+        "name": "badge-sd",
+        "title": "Badge Sd"
+      },
+      {
+        "name": "bag-heart-fill",
+        "title": "Bag Heart Fill"
+      },
+      {
+        "name": "bag-heart",
+        "title": "Bag Heart"
+      },
+      {
+        "name": "balloon-fill",
+        "title": "Balloon Fill"
+      },
+      {
+        "name": "balloon-heart-fill",
+        "title": "Balloon Heart Fill"
+      },
+      {
+        "name": "balloon-heart",
+        "title": "Balloon Heart"
+      },
+      {
+        "name": "balloon",
+        "title": "Balloon"
+      },
+      {
+        "name": "box2-fill",
+        "title": "Box2 Fill"
+      },
+      {
+        "name": "box2-heart-fill",
+        "title": "Box2 Heart Fill"
+      },
+      {
+        "name": "box2-heart",
+        "title": "Box2 Heart"
+      },
+      {
+        "name": "box2",
+        "title": "Box2"
+      },
+      {
+        "name": "braces-asterisk",
+        "title": "Braces Asterisk"
+      },
+      {
+        "name": "calendar-heart-fill",
+        "title": "Calendar Heart Fill"
+      },
+      {
+        "name": "calendar-heart",
+        "title": "Calendar Heart"
+      },
+      {
+        "name": "calendar2-heart-fill",
+        "title": "Calendar2 Heart Fill"
+      },
+      {
+        "name": "calendar2-heart",
+        "title": "Calendar2 Heart"
+      },
+      {
+        "name": "chat-heart-fill",
+        "title": "Chat Heart Fill"
+      },
+      {
+        "name": "chat-heart",
+        "title": "Chat Heart"
+      },
+      {
+        "name": "chat-left-heart-fill",
+        "title": "Chat Left Heart Fill"
+      },
+      {
+        "name": "chat-left-heart",
+        "title": "Chat Left Heart"
+      },
+      {
+        "name": "chat-right-heart-fill",
+        "title": "Chat Right Heart Fill"
+      },
+      {
+        "name": "chat-right-heart",
+        "title": "Chat Right Heart"
+      },
+      {
+        "name": "chat-square-heart-fill",
+        "title": "Chat Square Heart Fill"
+      },
+      {
+        "name": "chat-square-heart",
+        "title": "Chat Square Heart"
+      },
+      {
+        "name": "clipboard-check-fill",
+        "title": "Clipboard Check Fill"
+      },
+      {
+        "name": "clipboard-data-fill",
+        "title": "Clipboard Data Fill"
+      },
+      {
+        "name": "clipboard-fill",
+        "title": "Clipboard Fill"
+      },
+      {
+        "name": "clipboard-heart-fill",
+        "title": "Clipboard Heart Fill"
+      },
+      {
+        "name": "clipboard-heart",
+        "title": "Clipboard Heart"
+      },
+      {
+        "name": "clipboard-minus-fill",
+        "title": "Clipboard Minus Fill"
+      },
+      {
+        "name": "clipboard-plus-fill",
+        "title": "Clipboard Plus Fill"
+      },
+      {
+        "name": "clipboard-pulse",
+        "title": "Clipboard Pulse"
+      },
+      {
+        "name": "clipboard-x-fill",
+        "title": "Clipboard X Fill"
+      },
+      {
+        "name": "clipboard2-check-fill",
+        "title": "Clipboard2 Check Fill"
+      },
+      {
+        "name": "clipboard2-check",
+        "title": "Clipboard2 Check"
+      },
+      {
+        "name": "clipboard2-data-fill",
+        "title": "Clipboard2 Data Fill"
+      },
+      {
+        "name": "clipboard2-data",
+        "title": "Clipboard2 Data"
+      },
+      {
+        "name": "clipboard2-fill",
+        "title": "Clipboard2 Fill"
+      },
+      {
+        "name": "clipboard2-heart-fill",
+        "title": "Clipboard2 Heart Fill"
+      },
+      {
+        "name": "clipboard2-heart",
+        "title": "Clipboard2 Heart"
+      },
+      {
+        "name": "clipboard2-minus-fill",
+        "title": "Clipboard2 Minus Fill"
+      },
+      {
+        "name": "clipboard2-minus",
+        "title": "Clipboard2 Minus"
+      },
+      {
+        "name": "clipboard2-plus-fill",
+        "title": "Clipboard2 Plus Fill"
+      },
+      {
+        "name": "clipboard2-plus",
+        "title": "Clipboard2 Plus"
+      },
+      {
+        "name": "clipboard2-pulse-fill",
+        "title": "Clipboard2 Pulse Fill"
+      },
+      {
+        "name": "clipboard2-pulse",
+        "title": "Clipboard2 Pulse"
+      },
+      {
+        "name": "clipboard2-x-fill",
+        "title": "Clipboard2 X Fill"
+      },
+      {
+        "name": "clipboard2-x",
+        "title": "Clipboard2 X"
+      },
+      {
+        "name": "clipboard2",
+        "title": "Clipboard2"
+      },
+      {
+        "name": "emoji-kiss-fill",
+        "title": "Emoji Kiss Fill"
+      },
+      {
+        "name": "emoji-kiss",
+        "title": "Emoji Kiss"
+      },
+      {
+        "name": "envelope-heart-fill",
+        "title": "Envelope Heart Fill"
+      },
+      {
+        "name": "envelope-heart",
+        "title": "Envelope Heart"
+      },
+      {
+        "name": "envelope-open-heart-fill",
+        "title": "Envelope Open Heart Fill"
+      },
+      {
+        "name": "envelope-open-heart",
+        "title": "Envelope Open Heart"
+      },
+      {
+        "name": "envelope-paper-fill",
+        "title": "Envelope Paper Fill"
+      },
+      {
+        "name": "envelope-paper-heart-fill",
+        "title": "Envelope Paper Heart Fill"
+      },
+      {
+        "name": "envelope-paper-heart",
+        "title": "Envelope Paper Heart"
+      },
+      {
+        "name": "envelope-paper",
+        "title": "Envelope Paper"
+      },
+      {
+        "name": "filetype-aac",
+        "title": "Filetype Aac"
+      },
+      {
+        "name": "filetype-ai",
+        "title": "Filetype Ai"
+      },
+      {
+        "name": "filetype-bmp",
+        "title": "Filetype Bmp"
+      },
+      {
+        "name": "filetype-cs",
+        "title": "Filetype Cs"
+      },
+      {
+        "name": "filetype-css",
+        "title": "Filetype Css"
+      },
+      {
+        "name": "filetype-csv",
+        "title": "Filetype Csv"
+      },
+      {
+        "name": "filetype-doc",
+        "title": "Filetype Doc"
+      },
+      {
+        "name": "filetype-docx",
+        "title": "Filetype Docx"
+      },
+      {
+        "name": "filetype-exe",
+        "title": "Filetype Exe"
+      },
+      {
+        "name": "filetype-gif",
+        "title": "Filetype Gif"
+      },
+      {
+        "name": "filetype-heic",
+        "title": "Filetype Heic"
+      },
+      {
+        "name": "filetype-html",
+        "title": "Filetype Html"
+      },
+      {
+        "name": "filetype-java",
+        "title": "Filetype Java"
+      },
+      {
+        "name": "filetype-jpg",
+        "title": "Filetype Jpg"
+      },
+      {
+        "name": "filetype-js",
+        "title": "Filetype Js"
+      },
+      {
+        "name": "filetype-jsx",
+        "title": "Filetype Jsx"
+      },
+      {
+        "name": "filetype-key",
+        "title": "Filetype Key"
+      },
+      {
+        "name": "filetype-m4p",
+        "title": "Filetype M4p"
+      },
+      {
+        "name": "filetype-md",
+        "title": "Filetype Md"
+      },
+      {
+        "name": "filetype-mdx",
+        "title": "Filetype Mdx"
+      },
+      {
+        "name": "filetype-mov",
+        "title": "Filetype Mov"
+      },
+      {
+        "name": "filetype-mp3",
+        "title": "Filetype Mp3"
+      },
+      {
+        "name": "filetype-mp4",
+        "title": "Filetype Mp4"
+      },
+      {
+        "name": "filetype-otf",
+        "title": "Filetype Otf"
+      },
+      {
+        "name": "filetype-pdf",
+        "title": "Filetype Pdf"
+      },
+      {
+        "name": "filetype-php",
+        "title": "Filetype Php"
+      },
+      {
+        "name": "filetype-png",
+        "title": "Filetype Png"
+      },
+      {
+        "name": "filetype-ppt",
+        "title": "Filetype Ppt"
+      },
+      {
+        "name": "filetype-psd",
+        "title": "Filetype Psd"
+      },
+      {
+        "name": "filetype-py",
+        "title": "Filetype Py"
+      },
+      {
+        "name": "filetype-raw",
+        "title": "Filetype Raw"
+      },
+      {
+        "name": "filetype-rb",
+        "title": "Filetype Rb"
+      },
+      {
+        "name": "filetype-sass",
+        "title": "Filetype Sass"
+      },
+      {
+        "name": "filetype-scss",
+        "title": "Filetype Scss"
+      },
+      {
+        "name": "filetype-sh",
+        "title": "Filetype Sh"
+      },
+      {
+        "name": "filetype-svg",
+        "title": "Filetype Svg"
+      },
+      {
+        "name": "filetype-tiff",
+        "title": "Filetype Tiff"
+      },
+      {
+        "name": "filetype-tsx",
+        "title": "Filetype Tsx"
+      },
+      {
+        "name": "filetype-ttf",
+        "title": "Filetype Ttf"
+      },
+      {
+        "name": "filetype-txt",
+        "title": "Filetype Txt"
+      },
+      {
+        "name": "filetype-wav",
+        "title": "Filetype Wav"
+      },
+      {
+        "name": "filetype-woff",
+        "title": "Filetype Woff"
+      },
+      {
+        "name": "filetype-xls",
+        "title": "Filetype Xls"
+      },
+      {
+        "name": "filetype-xml",
+        "title": "Filetype Xml"
+      },
+      {
+        "name": "filetype-yml",
+        "title": "Filetype Yml"
+      },
+      {
+        "name": "heart-arrow",
+        "title": "Heart Arrow"
+      },
+      {
+        "name": "heart-pulse-fill",
+        "title": "Heart Pulse Fill"
+      },
+      {
+        "name": "heart-pulse",
+        "title": "Heart Pulse"
+      },
+      {
+        "name": "heartbreak-fill",
+        "title": "Heartbreak Fill"
+      },
+      {
+        "name": "heartbreak",
+        "title": "Heartbreak"
+      },
+      {
+        "name": "hearts",
+        "title": "Hearts"
+      },
+      {
+        "name": "hospital-fill",
+        "title": "Hospital Fill"
+      },
+      {
+        "name": "hospital",
+        "title": "Hospital"
+      },
+      {
+        "name": "house-heart-fill",
+        "title": "House Heart Fill"
+      },
+      {
+        "name": "house-heart",
+        "title": "House Heart"
+      },
+      {
+        "name": "incognito",
+        "title": "Incognito"
+      },
+      {
+        "name": "magnet-fill",
+        "title": "Magnet Fill"
+      },
+      {
+        "name": "magnet",
+        "title": "Magnet"
+      },
+      {
+        "name": "person-heart",
+        "title": "Person Heart"
+      },
+      {
+        "name": "person-hearts",
+        "title": "Person Hearts"
+      },
+      {
+        "name": "phone-flip",
+        "title": "Phone Flip"
+      },
+      {
+        "name": "plugin",
+        "title": "Plugin"
+      },
+      {
+        "name": "postage-fill",
+        "title": "Postage Fill"
+      },
+      {
+        "name": "postage-heart-fill",
+        "title": "Postage Heart Fill"
+      },
+      {
+        "name": "postage-heart",
+        "title": "Postage Heart"
+      },
+      {
+        "name": "postage",
+        "title": "Postage"
+      },
+      {
+        "name": "postcard-fill",
+        "title": "Postcard Fill"
+      },
+      {
+        "name": "postcard-heart-fill",
+        "title": "Postcard Heart Fill"
+      },
+      {
+        "name": "postcard-heart",
+        "title": "Postcard Heart"
+      },
+      {
+        "name": "postcard",
+        "title": "Postcard"
+      },
+      {
+        "name": "search-heart-fill",
+        "title": "Search Heart Fill"
+      },
+      {
+        "name": "search-heart",
+        "title": "Search Heart"
+      },
+      {
+        "name": "sliders2-vertical",
+        "title": "Sliders2 Vertical"
+      },
+      {
+        "name": "sliders2",
+        "title": "Sliders2"
+      },
+      {
+        "name": "trash3-fill",
+        "title": "Trash3 Fill"
+      },
+      {
+        "name": "trash3",
+        "title": "Trash3"
+      },
+      {
+        "name": "valentine",
+        "title": "Valentine"
+      },
+      {
+        "name": "valentine2",
+        "title": "Valentine2"
+      },
+      {
+        "name": "wrench-adjustable-circle-fill",
+        "title": "Wrench Adjustable Circle Fill"
+      },
+      {
+        "name": "wrench-adjustable-circle",
+        "title": "Wrench Adjustable Circle"
+      },
+      {
+        "name": "wrench-adjustable",
+        "title": "Wrench Adjustable"
+      },
+      {
+        "name": "filetype-json",
+        "title": "Filetype Json"
+      },
+      {
+        "name": "filetype-pptx",
+        "title": "Filetype Pptx"
+      },
+      {
+        "name": "filetype-xlsx",
+        "title": "Filetype Xlsx"
+      },
+      {
+        "name": "1-circle-fill",
+        "title": "1 Circle Fill"
+      },
+      {
+        "name": "1-circle",
+        "title": "1 Circle"
+      },
+      {
+        "name": "1-square-fill",
+        "title": "1 Square Fill"
+      },
+      {
+        "name": "1-square",
+        "title": "1 Square"
+      },
+      {
+        "name": "2-circle-fill",
+        "title": "2 Circle Fill"
+      },
+      {
+        "name": "2-circle",
+        "title": "2 Circle"
+      },
+      {
+        "name": "2-square-fill",
+        "title": "2 Square Fill"
+      },
+      {
+        "name": "2-square",
+        "title": "2 Square"
+      },
+      {
+        "name": "3-circle-fill",
+        "title": "3 Circle Fill"
+      },
+      {
+        "name": "3-circle",
+        "title": "3 Circle"
+      },
+      {
+        "name": "3-square-fill",
+        "title": "3 Square Fill"
+      },
+      {
+        "name": "3-square",
+        "title": "3 Square"
+      },
+      {
+        "name": "4-circle-fill",
+        "title": "4 Circle Fill"
+      },
+      {
+        "name": "4-circle",
+        "title": "4 Circle"
+      },
+      {
+        "name": "4-square-fill",
+        "title": "4 Square Fill"
+      },
+      {
+        "name": "4-square",
+        "title": "4 Square"
+      },
+      {
+        "name": "5-circle-fill",
+        "title": "5 Circle Fill"
+      },
+      {
+        "name": "5-circle",
+        "title": "5 Circle"
+      },
+      {
+        "name": "5-square-fill",
+        "title": "5 Square Fill"
+      },
+      {
+        "name": "5-square",
+        "title": "5 Square"
+      },
+      {
+        "name": "6-circle-fill",
+        "title": "6 Circle Fill"
+      },
+      {
+        "name": "6-circle",
+        "title": "6 Circle"
+      },
+      {
+        "name": "6-square-fill",
+        "title": "6 Square Fill"
+      },
+      {
+        "name": "6-square",
+        "title": "6 Square"
+      },
+      {
+        "name": "7-circle-fill",
+        "title": "7 Circle Fill"
+      },
+      {
+        "name": "7-circle",
+        "title": "7 Circle"
+      },
+      {
+        "name": "7-square-fill",
+        "title": "7 Square Fill"
+      },
+      {
+        "name": "7-square",
+        "title": "7 Square"
+      },
+      {
+        "name": "8-circle-fill",
+        "title": "8 Circle Fill"
+      },
+      {
+        "name": "8-circle",
+        "title": "8 Circle"
+      },
+      {
+        "name": "8-square-fill",
+        "title": "8 Square Fill"
+      },
+      {
+        "name": "8-square",
+        "title": "8 Square"
+      },
+      {
+        "name": "9-circle-fill",
+        "title": "9 Circle Fill"
+      },
+      {
+        "name": "9-circle",
+        "title": "9 Circle"
+      },
+      {
+        "name": "9-square-fill",
+        "title": "9 Square Fill"
+      },
+      {
+        "name": "9-square",
+        "title": "9 Square"
+      },
+      {
+        "name": "airplane-engines-fill",
+        "title": "Airplane Engines Fill"
+      },
+      {
+        "name": "airplane-engines",
+        "title": "Airplane Engines"
+      },
+      {
+        "name": "airplane-fill",
+        "title": "Airplane Fill"
+      },
+      {
+        "name": "airplane",
+        "title": "Airplane"
+      },
+      {
+        "name": "alexa",
+        "title": "Alexa"
+      },
+      {
+        "name": "alipay",
+        "title": "Alipay"
+      },
+      {
+        "name": "android",
+        "title": "Android"
+      },
+      {
+        "name": "android2",
+        "title": "Android2"
+      },
+      {
+        "name": "box-fill",
+        "title": "Box Fill"
+      },
+      {
+        "name": "box-seam-fill",
+        "title": "Box Seam Fill"
+      },
+      {
+        "name": "browser-chrome",
+        "title": "Browser Chrome"
+      },
+      {
+        "name": "browser-edge",
+        "title": "Browser Edge"
+      },
+      {
+        "name": "browser-firefox",
+        "title": "Browser Firefox"
+      },
+      {
+        "name": "browser-safari",
+        "title": "Browser Safari"
+      },
+      {
+        "name": "c-circle-fill",
+        "title": "C Circle Fill"
+      },
+      {
+        "name": "c-circle",
+        "title": "C Circle"
+      },
+      {
+        "name": "c-square-fill",
+        "title": "C Square Fill"
+      },
+      {
+        "name": "c-square",
+        "title": "C Square"
+      },
+      {
+        "name": "capsule-pill",
+        "title": "Capsule Pill"
+      },
+      {
+        "name": "capsule",
+        "title": "Capsule"
+      },
+      {
+        "name": "car-front-fill",
+        "title": "Car Front Fill"
+      },
+      {
+        "name": "car-front",
+        "title": "Car Front"
+      },
+      {
+        "name": "cassette-fill",
+        "title": "Cassette Fill"
+      },
+      {
+        "name": "cassette",
+        "title": "Cassette"
+      },
+      {
+        "name": "cc-circle-fill",
+        "title": "Cc Circle Fill"
+      },
+      {
+        "name": "cc-circle",
+        "title": "Cc Circle"
+      },
+      {
+        "name": "cc-square-fill",
+        "title": "Cc Square Fill"
+      },
+      {
+        "name": "cc-square",
+        "title": "Cc Square"
+      },
+      {
+        "name": "cup-hot-fill",
+        "title": "Cup Hot Fill"
+      },
+      {
+        "name": "cup-hot",
+        "title": "Cup Hot"
+      },
+      {
+        "name": "currency-rupee",
+        "title": "Currency Rupee"
+      },
+      {
+        "name": "dropbox",
+        "title": "Dropbox"
+      },
+      {
+        "name": "escape",
+        "title": "Escape"
+      },
+      {
+        "name": "fast-forward-btn-fill",
+        "title": "Fast Forward Btn Fill"
+      },
+      {
+        "name": "fast-forward-btn",
+        "title": "Fast Forward Btn"
+      },
+      {
+        "name": "fast-forward-circle-fill",
+        "title": "Fast Forward Circle Fill"
+      },
+      {
+        "name": "fast-forward-circle",
+        "title": "Fast Forward Circle"
+      },
+      {
+        "name": "fast-forward-fill",
+        "title": "Fast Forward Fill"
+      },
+      {
+        "name": "fast-forward",
+        "title": "Fast Forward"
+      },
+      {
+        "name": "filetype-sql",
+        "title": "Filetype Sql"
+      },
+      {
+        "name": "fire",
+        "title": "Fire"
+      },
+      {
+        "name": "google-play",
+        "title": "Google Play"
+      },
+      {
+        "name": "h-circle-fill",
+        "title": "H Circle Fill"
+      },
+      {
+        "name": "h-circle",
+        "title": "H Circle"
+      },
+      {
+        "name": "h-square-fill",
+        "title": "H Square Fill"
+      },
+      {
+        "name": "h-square",
+        "title": "H Square"
+      },
+      {
+        "name": "indent",
+        "title": "Indent"
+      },
+      {
+        "name": "lungs-fill",
+        "title": "Lungs Fill"
+      },
+      {
+        "name": "lungs",
+        "title": "Lungs"
+      },
+      {
+        "name": "microsoft-teams",
+        "title": "Microsoft Teams"
+      },
+      {
+        "name": "p-circle-fill",
+        "title": "P Circle Fill"
+      },
+      {
+        "name": "p-circle",
+        "title": "P Circle"
+      },
+      {
+        "name": "p-square-fill",
+        "title": "P Square Fill"
+      },
+      {
+        "name": "p-square",
+        "title": "P Square"
+      },
+      {
+        "name": "pass-fill",
+        "title": "Pass Fill"
+      },
+      {
+        "name": "pass",
+        "title": "Pass"
+      },
+      {
+        "name": "prescription",
+        "title": "Prescription"
+      },
+      {
+        "name": "prescription2",
+        "title": "Prescription2"
+      },
+      {
+        "name": "r-circle-fill",
+        "title": "R Circle Fill"
+      },
+      {
+        "name": "r-circle",
+        "title": "R Circle"
+      },
+      {
+        "name": "r-square-fill",
+        "title": "R Square Fill"
+      },
+      {
+        "name": "r-square",
+        "title": "R Square"
+      },
+      {
+        "name": "repeat-1",
+        "title": "Repeat 1"
+      },
+      {
+        "name": "repeat",
+        "title": "Repeat"
+      },
+      {
+        "name": "rewind-btn-fill",
+        "title": "Rewind Btn Fill"
+      },
+      {
+        "name": "rewind-btn",
+        "title": "Rewind Btn"
+      },
+      {
+        "name": "rewind-circle-fill",
+        "title": "Rewind Circle Fill"
+      },
+      {
+        "name": "rewind-circle",
+        "title": "Rewind Circle"
+      },
+      {
+        "name": "rewind-fill",
+        "title": "Rewind Fill"
+      },
+      {
+        "name": "rewind",
+        "title": "Rewind"
+      },
+      {
+        "name": "train-freight-front-fill",
+        "title": "Train Freight Front Fill"
+      },
+      {
+        "name": "train-freight-front",
+        "title": "Train Freight Front"
+      },
+      {
+        "name": "train-front-fill",
+        "title": "Train Front Fill"
+      },
+      {
+        "name": "train-front",
+        "title": "Train Front"
+      },
+      {
+        "name": "train-lightrail-front-fill",
+        "title": "Train Lightrail Front Fill"
+      },
+      {
+        "name": "train-lightrail-front",
+        "title": "Train Lightrail Front"
+      },
+      {
+        "name": "truck-front-fill",
+        "title": "Truck Front Fill"
+      },
+      {
+        "name": "truck-front",
+        "title": "Truck Front"
+      },
+      {
+        "name": "ubuntu",
+        "title": "Ubuntu"
+      },
+      {
+        "name": "unindent",
+        "title": "Unindent"
+      },
+      {
+        "name": "unity",
+        "title": "Unity"
+      },
+      {
+        "name": "universal-access-circle",
+        "title": "Universal Access Circle"
+      },
+      {
+        "name": "universal-access",
+        "title": "Universal Access"
+      },
+      {
+        "name": "virus",
+        "title": "Virus"
+      },
+      {
+        "name": "virus2",
+        "title": "Virus2"
+      },
+      {
+        "name": "wechat",
+        "title": "Wechat"
+      },
+      {
+        "name": "yelp",
+        "title": "Yelp"
+      },
+      {
+        "name": "sign-stop-fill",
+        "title": "Sign Stop Fill"
+      },
+      {
+        "name": "sign-stop-lights-fill",
+        "title": "Sign Stop Lights Fill"
+      },
+      {
+        "name": "sign-stop-lights",
+        "title": "Sign Stop Lights"
+      },
+      {
+        "name": "sign-stop",
+        "title": "Sign Stop"
+      },
+      {
+        "name": "sign-turn-left-fill",
+        "title": "Sign Turn Left Fill"
+      },
+      {
+        "name": "sign-turn-left",
+        "title": "Sign Turn Left"
+      },
+      {
+        "name": "sign-turn-right-fill",
+        "title": "Sign Turn Right Fill"
+      },
+      {
+        "name": "sign-turn-right",
+        "title": "Sign Turn Right"
+      },
+      {
+        "name": "sign-turn-slight-left-fill",
+        "title": "Sign Turn Slight Left Fill"
+      },
+      {
+        "name": "sign-turn-slight-left",
+        "title": "Sign Turn Slight Left"
+      },
+      {
+        "name": "sign-turn-slight-right-fill",
+        "title": "Sign Turn Slight Right Fill"
+      },
+      {
+        "name": "sign-turn-slight-right",
+        "title": "Sign Turn Slight Right"
+      },
+      {
+        "name": "sign-yield-fill",
+        "title": "Sign Yield Fill"
+      },
+      {
+        "name": "sign-yield",
+        "title": "Sign Yield"
+      },
+      {
+        "name": "ev-station-fill",
+        "title": "Ev Station Fill"
+      },
+      {
+        "name": "ev-station",
+        "title": "Ev Station"
+      },
+      {
+        "name": "fuel-pump-diesel-fill",
+        "title": "Fuel Pump Diesel Fill"
+      },
+      {
+        "name": "fuel-pump-diesel",
+        "title": "Fuel Pump Diesel"
+      },
+      {
+        "name": "fuel-pump-fill",
+        "title": "Fuel Pump Fill"
+      },
+      {
+        "name": "fuel-pump",
+        "title": "Fuel Pump"
+      },
+      {
+        "name": "0-circle-fill",
+        "title": "0 Circle Fill"
+      },
+      {
+        "name": "0-circle",
+        "title": "0 Circle"
+      },
+      {
+        "name": "0-square-fill",
+        "title": "0 Square Fill"
+      },
+      {
+        "name": "0-square",
+        "title": "0 Square"
+      },
+      {
+        "name": "rocket-fill",
+        "title": "Rocket Fill"
+      },
+      {
+        "name": "rocket-takeoff-fill",
+        "title": "Rocket Takeoff Fill"
+      },
+      {
+        "name": "rocket-takeoff",
+        "title": "Rocket Takeoff"
+      },
+      {
+        "name": "rocket",
+        "title": "Rocket"
+      },
+      {
+        "name": "stripe",
+        "title": "Stripe"
+      },
+      {
+        "name": "subscript",
+        "title": "Subscript"
+      },
+      {
+        "name": "superscript",
+        "title": "Superscript"
+      },
+      {
+        "name": "trello",
+        "title": "Trello"
+      },
+      {
+        "name": "envelope-at-fill",
+        "title": "Envelope At Fill"
+      },
+      {
+        "name": "envelope-at",
+        "title": "Envelope At"
+      },
+      {
+        "name": "regex",
+        "title": "Regex"
+      },
+      {
+        "name": "text-wrap",
+        "title": "Text Wrap"
+      },
+      {
+        "name": "sign-dead-end-fill",
+        "title": "Sign Dead End Fill"
+      },
+      {
+        "name": "sign-dead-end",
+        "title": "Sign Dead End"
+      },
+      {
+        "name": "sign-do-not-enter-fill",
+        "title": "Sign Do Not Enter Fill"
+      },
+      {
+        "name": "sign-do-not-enter",
+        "title": "Sign Do Not Enter"
+      },
+      {
+        "name": "sign-intersection-fill",
+        "title": "Sign Intersection Fill"
+      },
+      {
+        "name": "sign-intersection-side-fill",
+        "title": "Sign Intersection Side Fill"
+      },
+      {
+        "name": "sign-intersection-side",
+        "title": "Sign Intersection Side"
+      },
+      {
+        "name": "sign-intersection-t-fill",
+        "title": "Sign Intersection T Fill"
+      },
+      {
+        "name": "sign-intersection-t",
+        "title": "Sign Intersection T"
+      },
+      {
+        "name": "sign-intersection-y-fill",
+        "title": "Sign Intersection Y Fill"
+      },
+      {
+        "name": "sign-intersection-y",
+        "title": "Sign Intersection Y"
+      },
+      {
+        "name": "sign-intersection",
+        "title": "Sign Intersection"
+      },
+      {
+        "name": "sign-merge-left-fill",
+        "title": "Sign Merge Left Fill"
+      },
+      {
+        "name": "sign-merge-left",
+        "title": "Sign Merge Left"
+      },
+      {
+        "name": "sign-merge-right-fill",
+        "title": "Sign Merge Right Fill"
+      },
+      {
+        "name": "sign-merge-right",
+        "title": "Sign Merge Right"
+      },
+      {
+        "name": "sign-no-left-turn-fill",
+        "title": "Sign No Left Turn Fill"
+      },
+      {
+        "name": "sign-no-left-turn",
+        "title": "Sign No Left Turn"
+      },
+      {
+        "name": "sign-no-parking-fill",
+        "title": "Sign No Parking Fill"
+      },
+      {
+        "name": "sign-no-parking",
+        "title": "Sign No Parking"
+      },
+      {
+        "name": "sign-no-right-turn-fill",
+        "title": "Sign No Right Turn Fill"
+      },
+      {
+        "name": "sign-no-right-turn",
+        "title": "Sign No Right Turn"
+      },
+      {
+        "name": "sign-railroad-fill",
+        "title": "Sign Railroad Fill"
+      },
+      {
+        "name": "sign-railroad",
+        "title": "Sign Railroad"
+      },
+      {
+        "name": "building-add",
+        "title": "Building Add"
+      },
+      {
+        "name": "building-check",
+        "title": "Building Check"
+      },
+      {
+        "name": "building-dash",
+        "title": "Building Dash"
+      },
+      {
+        "name": "building-down",
+        "title": "Building Down"
+      },
+      {
+        "name": "building-exclamation",
+        "title": "Building Exclamation"
+      },
+      {
+        "name": "building-fill-add",
+        "title": "Building Fill Add"
+      },
+      {
+        "name": "building-fill-check",
+        "title": "Building Fill Check"
+      },
+      {
+        "name": "building-fill-dash",
+        "title": "Building Fill Dash"
+      },
+      {
+        "name": "building-fill-down",
+        "title": "Building Fill Down"
+      },
+      {
+        "name": "building-fill-exclamation",
+        "title": "Building Fill Exclamation"
+      },
+      {
+        "name": "building-fill-gear",
+        "title": "Building Fill Gear"
+      },
+      {
+        "name": "building-fill-lock",
+        "title": "Building Fill Lock"
+      },
+      {
+        "name": "building-fill-slash",
+        "title": "Building Fill Slash"
+      },
+      {
+        "name": "building-fill-up",
+        "title": "Building Fill Up"
+      },
+      {
+        "name": "building-fill-x",
+        "title": "Building Fill X"
+      },
+      {
+        "name": "building-fill",
+        "title": "Building Fill"
+      },
+      {
+        "name": "building-gear",
+        "title": "Building Gear"
+      },
+      {
+        "name": "building-lock",
+        "title": "Building Lock"
+      },
+      {
+        "name": "building-slash",
+        "title": "Building Slash"
+      },
+      {
+        "name": "building-up",
+        "title": "Building Up"
+      },
+      {
+        "name": "building-x",
+        "title": "Building X"
+      },
+      {
+        "name": "buildings-fill",
+        "title": "Buildings Fill"
+      },
+      {
+        "name": "buildings",
+        "title": "Buildings"
+      },
+      {
+        "name": "bus-front-fill",
+        "title": "Bus Front Fill"
+      },
+      {
+        "name": "bus-front",
+        "title": "Bus Front"
+      },
+      {
+        "name": "ev-front-fill",
+        "title": "Ev Front Fill"
+      },
+      {
+        "name": "ev-front",
+        "title": "Ev Front"
+      },
+      {
+        "name": "globe-americas",
+        "title": "Globe Americas"
+      },
+      {
+        "name": "globe-asia-australia",
+        "title": "Globe Asia Australia"
+      },
+      {
+        "name": "globe-central-south-asia",
+        "title": "Globe Central South Asia"
+      },
+      {
+        "name": "globe-europe-africa",
+        "title": "Globe Europe Africa"
+      },
+      {
+        "name": "house-add-fill",
+        "title": "House Add Fill"
+      },
+      {
+        "name": "house-add",
+        "title": "House Add"
+      },
+      {
+        "name": "house-check-fill",
+        "title": "House Check Fill"
+      },
+      {
+        "name": "house-check",
+        "title": "House Check"
+      },
+      {
+        "name": "house-dash-fill",
+        "title": "House Dash Fill"
+      },
+      {
+        "name": "house-dash",
+        "title": "House Dash"
+      },
+      {
+        "name": "house-down-fill",
+        "title": "House Down Fill"
+      },
+      {
+        "name": "house-down",
+        "title": "House Down"
+      },
+      {
+        "name": "house-exclamation-fill",
+        "title": "House Exclamation Fill"
+      },
+      {
+        "name": "house-exclamation",
+        "title": "House Exclamation"
+      },
+      {
+        "name": "house-gear-fill",
+        "title": "House Gear Fill"
+      },
+      {
+        "name": "house-gear",
+        "title": "House Gear"
+      },
+      {
+        "name": "house-lock-fill",
+        "title": "House Lock Fill"
+      },
+      {
+        "name": "house-lock",
+        "title": "House Lock"
+      },
+      {
+        "name": "house-slash-fill",
+        "title": "House Slash Fill"
+      },
+      {
+        "name": "house-slash",
+        "title": "House Slash"
+      },
+      {
+        "name": "house-up-fill",
+        "title": "House Up Fill"
+      },
+      {
+        "name": "house-up",
+        "title": "House Up"
+      },
+      {
+        "name": "house-x-fill",
+        "title": "House X Fill"
+      },
+      {
+        "name": "house-x",
+        "title": "House X"
+      },
+      {
+        "name": "person-add",
+        "title": "Person Add"
+      },
+      {
+        "name": "person-down",
+        "title": "Person Down"
+      },
+      {
+        "name": "person-exclamation",
+        "title": "Person Exclamation"
+      },
+      {
+        "name": "person-fill-add",
+        "title": "Person Fill Add"
+      },
+      {
+        "name": "person-fill-check",
+        "title": "Person Fill Check"
+      },
+      {
+        "name": "person-fill-dash",
+        "title": "Person Fill Dash"
+      },
+      {
+        "name": "person-fill-down",
+        "title": "Person Fill Down"
+      },
+      {
+        "name": "person-fill-exclamation",
+        "title": "Person Fill Exclamation"
+      },
+      {
+        "name": "person-fill-gear",
+        "title": "Person Fill Gear"
+      },
+      {
+        "name": "person-fill-lock",
+        "title": "Person Fill Lock"
+      },
+      {
+        "name": "person-fill-slash",
+        "title": "Person Fill Slash"
+      },
+      {
+        "name": "person-fill-up",
+        "title": "Person Fill Up"
+      },
+      {
+        "name": "person-fill-x",
+        "title": "Person Fill X"
+      },
+      {
+        "name": "person-gear",
+        "title": "Person Gear"
+      },
+      {
+        "name": "person-lock",
+        "title": "Person Lock"
+      },
+      {
+        "name": "person-slash",
+        "title": "Person Slash"
+      },
+      {
+        "name": "person-up",
+        "title": "Person Up"
+      },
+      {
+        "name": "scooter",
+        "title": "Scooter"
+      },
+      {
+        "name": "taxi-front-fill",
+        "title": "Taxi Front Fill"
+      },
+      {
+        "name": "taxi-front",
+        "title": "Taxi Front"
+      },
+      {
+        "name": "amd",
+        "title": "Amd"
+      },
+      {
+        "name": "database-add",
+        "title": "Database Add"
+      },
+      {
+        "name": "database-check",
+        "title": "Database Check"
+      },
+      {
+        "name": "database-dash",
+        "title": "Database Dash"
+      },
+      {
+        "name": "database-down",
+        "title": "Database Down"
+      },
+      {
+        "name": "database-exclamation",
+        "title": "Database Exclamation"
+      },
+      {
+        "name": "database-fill-add",
+        "title": "Database Fill Add"
+      },
+      {
+        "name": "database-fill-check",
+        "title": "Database Fill Check"
+      },
+      {
+        "name": "database-fill-dash",
+        "title": "Database Fill Dash"
+      },
+      {
+        "name": "database-fill-down",
+        "title": "Database Fill Down"
+      },
+      {
+        "name": "database-fill-exclamation",
+        "title": "Database Fill Exclamation"
+      },
+      {
+        "name": "database-fill-gear",
+        "title": "Database Fill Gear"
+      },
+      {
+        "name": "database-fill-lock",
+        "title": "Database Fill Lock"
+      },
+      {
+        "name": "database-fill-slash",
+        "title": "Database Fill Slash"
+      },
+      {
+        "name": "database-fill-up",
+        "title": "Database Fill Up"
+      },
+      {
+        "name": "database-fill-x",
+        "title": "Database Fill X"
+      },
+      {
+        "name": "database-fill",
+        "title": "Database Fill"
+      },
+      {
+        "name": "database-gear",
+        "title": "Database Gear"
+      },
+      {
+        "name": "database-lock",
+        "title": "Database Lock"
+      },
+      {
+        "name": "database-slash",
+        "title": "Database Slash"
+      },
+      {
+        "name": "database-up",
+        "title": "Database Up"
+      },
+      {
+        "name": "database-x",
+        "title": "Database X"
+      },
+      {
+        "name": "database",
+        "title": "Database"
+      },
+      {
+        "name": "houses-fill",
+        "title": "Houses Fill"
+      },
+      {
+        "name": "houses",
+        "title": "Houses"
+      },
+      {
+        "name": "nvidia",
+        "title": "Nvidia"
+      },
+      {
+        "name": "person-vcard-fill",
+        "title": "Person Vcard Fill"
+      },
+      {
+        "name": "person-vcard",
+        "title": "Person Vcard"
+      },
+      {
+        "name": "sina-weibo",
+        "title": "Sina Weibo"
+      },
+      {
+        "name": "tencent-qq",
+        "title": "Tencent Qq"
+      },
+      {
+        "name": "wikipedia",
+        "title": "Wikipedia"
+      },
+      {
+        "name": "alphabet-uppercase",
+        "title": "Alphabet Uppercase"
+      },
+      {
+        "name": "alphabet",
+        "title": "Alphabet"
+      },
+      {
+        "name": "amazon",
+        "title": "Amazon"
+      },
+      {
+        "name": "arrows-collapse-vertical",
+        "title": "Arrows Collapse Vertical"
+      },
+      {
+        "name": "arrows-expand-vertical",
+        "title": "Arrows Expand Vertical"
+      },
+      {
+        "name": "arrows-vertical",
+        "title": "Arrows Vertical"
+      },
+      {
+        "name": "arrows",
+        "title": "Arrows"
+      },
+      {
+        "name": "ban-fill",
+        "title": "Ban Fill"
+      },
+      {
+        "name": "ban",
+        "title": "Ban"
+      },
+      {
+        "name": "bing",
+        "title": "Bing"
+      },
+      {
+        "name": "cake",
+        "title": "Cake"
+      },
+      {
+        "name": "cake2",
+        "title": "Cake2"
+      },
+      {
+        "name": "cookie",
+        "title": "Cookie"
+      },
+      {
+        "name": "copy",
+        "title": "Copy"
+      },
+      {
+        "name": "crosshair",
+        "title": "Crosshair"
+      },
+      {
+        "name": "crosshair2",
+        "title": "Crosshair2"
+      },
+      {
+        "name": "emoji-astonished-fill",
+        "title": "Emoji Astonished Fill"
+      },
+      {
+        "name": "emoji-astonished",
+        "title": "Emoji Astonished"
+      },
+      {
+        "name": "emoji-grimace-fill",
+        "title": "Emoji Grimace Fill"
+      },
+      {
+        "name": "emoji-grimace",
+        "title": "Emoji Grimace"
+      },
+      {
+        "name": "emoji-grin-fill",
+        "title": "Emoji Grin Fill"
+      },
+      {
+        "name": "emoji-grin",
+        "title": "Emoji Grin"
+      },
+      {
+        "name": "emoji-surprise-fill",
+        "title": "Emoji Surprise Fill"
+      },
+      {
+        "name": "emoji-surprise",
+        "title": "Emoji Surprise"
+      },
+      {
+        "name": "emoji-tear-fill",
+        "title": "Emoji Tear Fill"
+      },
+      {
+        "name": "emoji-tear",
+        "title": "Emoji Tear"
+      },
+      {
+        "name": "envelope-arrow-down-fill",
+        "title": "Envelope Arrow Down Fill"
+      },
+      {
+        "name": "envelope-arrow-down",
+        "title": "Envelope Arrow Down"
+      },
+      {
+        "name": "envelope-arrow-up-fill",
+        "title": "Envelope Arrow Up Fill"
+      },
+      {
+        "name": "envelope-arrow-up",
+        "title": "Envelope Arrow Up"
+      },
+      {
+        "name": "feather",
+        "title": "Feather"
+      },
+      {
+        "name": "feather2",
+        "title": "Feather2"
+      },
+      {
+        "name": "floppy-fill",
+        "title": "Floppy Fill"
+      },
+      {
+        "name": "floppy",
+        "title": "Floppy"
+      },
+      {
+        "name": "floppy2-fill",
+        "title": "Floppy2 Fill"
+      },
+      {
+        "name": "floppy2",
+        "title": "Floppy2"
+      },
+      {
+        "name": "gitlab",
+        "title": "Gitlab"
+      },
+      {
+        "name": "highlighter",
+        "title": "Highlighter"
+      },
+      {
+        "name": "marker-tip",
+        "title": "Marker Tip"
+      },
+      {
+        "name": "nvme-fill",
+        "title": "Nvme Fill"
+      },
+      {
+        "name": "nvme",
+        "title": "Nvme"
+      },
+      {
+        "name": "opencollective",
+        "title": "Opencollective"
+      },
+      {
+        "name": "pci-card-network",
+        "title": "Pci Card Network"
+      },
+      {
+        "name": "pci-card-sound",
+        "title": "Pci Card Sound"
+      },
+      {
+        "name": "radar",
+        "title": "Radar"
+      },
+      {
+        "name": "send-arrow-down-fill",
+        "title": "Send Arrow Down Fill"
+      },
+      {
+        "name": "send-arrow-down",
+        "title": "Send Arrow Down"
+      },
+      {
+        "name": "send-arrow-up-fill",
+        "title": "Send Arrow Up Fill"
+      },
+      {
+        "name": "send-arrow-up",
+        "title": "Send Arrow Up"
+      },
+      {
+        "name": "sim-slash-fill",
+        "title": "Sim Slash Fill"
+      },
+      {
+        "name": "sim-slash",
+        "title": "Sim Slash"
+      },
+      {
+        "name": "sourceforge",
+        "title": "Sourceforge"
+      },
+      {
+        "name": "substack",
+        "title": "Substack"
+      },
+      {
+        "name": "threads-fill",
+        "title": "Threads Fill"
+      },
+      {
+        "name": "threads",
+        "title": "Threads"
+      },
+      {
+        "name": "transparency",
+        "title": "Transparency"
+      },
+      {
+        "name": "twitter-x",
+        "title": "Twitter X"
+      },
+      {
+        "name": "type-h4",
+        "title": "Type H4"
+      },
+      {
+        "name": "type-h5",
+        "title": "Type H5"
+      },
+      {
+        "name": "type-h6",
+        "title": "Type H6"
+      },
+      {
+        "name": "backpack-fill",
+        "title": "Backpack Fill"
+      },
+      {
+        "name": "backpack",
+        "title": "Backpack"
+      },
+      {
+        "name": "backpack2-fill",
+        "title": "Backpack2 Fill"
+      },
+      {
+        "name": "backpack2",
+        "title": "Backpack2"
+      },
+      {
+        "name": "backpack3-fill",
+        "title": "Backpack3 Fill"
+      },
+      {
+        "name": "backpack3",
+        "title": "Backpack3"
+      },
+      {
+        "name": "backpack4-fill",
+        "title": "Backpack4 Fill"
+      },
+      {
+        "name": "backpack4",
+        "title": "Backpack4"
+      },
+      {
+        "name": "brilliance",
+        "title": "Brilliance"
+      },
+      {
+        "name": "cake-fill",
+        "title": "Cake Fill"
+      },
+      {
+        "name": "cake2-fill",
+        "title": "Cake2 Fill"
+      },
+      {
+        "name": "duffle-fill",
+        "title": "Duffle Fill"
+      },
+      {
+        "name": "duffle",
+        "title": "Duffle"
+      },
+      {
+        "name": "exposure",
+        "title": "Exposure"
+      },
+      {
+        "name": "gender-neuter",
+        "title": "Gender Neuter"
+      },
+      {
+        "name": "highlights",
+        "title": "Highlights"
+      },
+      {
+        "name": "luggage-fill",
+        "title": "Luggage Fill"
+      },
+      {
+        "name": "luggage",
+        "title": "Luggage"
+      },
+      {
+        "name": "mailbox-flag",
+        "title": "Mailbox Flag"
+      },
+      {
+        "name": "mailbox2-flag",
+        "title": "Mailbox2 Flag"
+      },
+      {
+        "name": "noise-reduction",
+        "title": "Noise Reduction"
+      },
+      {
+        "name": "passport-fill",
+        "title": "Passport Fill"
+      },
+      {
+        "name": "passport",
+        "title": "Passport"
+      },
+      {
+        "name": "person-arms-up",
+        "title": "Person Arms Up"
+      },
+      {
+        "name": "person-raised-hand",
+        "title": "Person Raised Hand"
+      },
+      {
+        "name": "person-standing-dress",
+        "title": "Person Standing Dress"
+      },
+      {
+        "name": "person-standing",
+        "title": "Person Standing"
+      },
+      {
+        "name": "person-walking",
+        "title": "Person Walking"
+      },
+      {
+        "name": "person-wheelchair",
+        "title": "Person Wheelchair"
+      },
+      {
+        "name": "shadows",
+        "title": "Shadows"
+      },
+      {
+        "name": "suitcase-fill",
+        "title": "Suitcase Fill"
+      },
+      {
+        "name": "suitcase-lg-fill",
+        "title": "Suitcase Lg Fill"
+      },
+      {
+        "name": "suitcase-lg",
+        "title": "Suitcase Lg"
+      },
+      {
+        "name": "suitcase",
+        "title": "Suitcase"
+      },
+      {
+        "name": "suitcase2-fill",
+        "title": "Suitcase2 Fill"
+      },
+      {
+        "name": "suitcase2",
+        "title": "Suitcase2"
+      },
+      {
+        "name": "vignette",
+        "title": "Vignette"
+      },
+      {
+        "name": "bluesky",
+        "title": "Bluesky"
+      },
+      {
+        "name": "tux",
+        "title": "Tux"
+      },
+      {
+        "name": "beaker-fill",
+        "title": "Beaker Fill"
+      },
+      {
+        "name": "beaker",
+        "title": "Beaker"
+      },
+      {
+        "name": "flask-fill",
+        "title": "Flask Fill"
+      },
+      {
+        "name": "flask-florence-fill",
+        "title": "Flask Florence Fill"
+      },
+      {
+        "name": "flask-florence",
+        "title": "Flask Florence"
+      },
+      {
+        "name": "flask",
+        "title": "Flask"
+      },
+      {
+        "name": "leaf-fill",
+        "title": "Leaf Fill"
+      },
+      {
+        "name": "leaf",
+        "title": "Leaf"
+      },
+      {
+        "name": "measuring-cup-fill",
+        "title": "Measuring Cup Fill"
+      },
+      {
+        "name": "measuring-cup",
+        "title": "Measuring Cup"
+      },
+      {
+        "name": "unlock2-fill",
+        "title": "Unlock2 Fill"
+      },
+      {
+        "name": "unlock2",
+        "title": "Unlock2"
+      },
+      {
+        "name": "battery-low",
+        "title": "Battery Low"
+      },
+      {
+        "name": "anthropic",
+        "title": "Anthropic"
+      },
+      {
+        "name": "apple-music",
+        "title": "Apple Music"
+      },
+      {
+        "name": "claude",
+        "title": "Claude"
+      },
+      {
+        "name": "openai",
+        "title": "Openai"
+      },
+      {
+        "name": "perplexity",
+        "title": "Perplexity"
+      },
+      {
+        "name": "css",
+        "title": "Css"
+      },
+      {
+        "name": "javascript",
+        "title": "Javascript"
+      },
+      {
+        "name": "typescript",
+        "title": "Typescript"
+      },
+      {
+        "name": "fork-knife",
+        "title": "Fork Knife"
+      },
+      {
+        "name": "globe-americas-fill",
+        "title": "Globe Americas Fill"
+      },
+      {
+        "name": "globe-asia-australia-fill",
+        "title": "Globe Asia Australia Fill"
+      },
+      {
+        "name": "globe-central-south-asia-fill",
+        "title": "Globe Central South Asia Fill"
+      },
+      {
+        "name": "globe-europe-africa-fill",
+        "title": "Globe Europe Africa Fill"
+      }
+    ]
+  }
+}
