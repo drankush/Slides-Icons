@@ -23,15 +23,34 @@
                 <input type="text" id="searchInput" placeholder="Search icons..." autocomplete="off">
                 <span class="search-icon">🔍</span>
             </div>
+
             <div class="controls-row">
-                <select id="sizeSelect" class="control-select">
+                <!-- Size -->
+                <select id="sizeSelect" class="control-select" title="Icon size">
                     <option value="24">24px</option>
                     <option value="48" selected>48px</option>
                     <option value="64">64px</option>
                     <option value="96">96px</option>
                     <option value="128">128px</option>
                 </select>
-                <input type="color" id="colorPicker" value="#000000" class="color-picker" title="Icon color">
+
+                <div class="divider"></div>
+
+                <!-- Icon Color -->
+                <div class="control-item" title="Icon color">
+                    <input type="color" id="colorPicker" value="#000000">
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Background Color -->
+                <div class="control-item bg-control">
+                    <label class="checkbox-label" title="Enable background">
+                        <input type="checkbox" id="bgEnabled">
+                        <span>BG</span>
+                    </label>
+                    <input type="color" id="bgColorPicker" value="#ffffff" disabled title="Background color">
+                </div>
             </div>
         </div>
 
@@ -41,7 +60,7 @@
             <aside class="sidebar" id="sidebar">
                 <div class="sidebar-header">
                     <span>Libraries</span>
-                    <span id="totalCount" class="total-count">94,405</span>
+                    <span id="totalCount" class="total-count">...</span>
                 </div>
                 <div id="libraryList" class="library-list">
                     <!-- Libraries populated by JS -->
@@ -51,14 +70,17 @@
             <!-- Icons Grid -->
             <main class="icons-panel">
                 <div class="icons-header">
-                    <span id="currentLibrary">All Icons</span>
+                    <span id="currentLibrary">Loading...</span>
                     <span id="iconCount" class="icon-count"></span>
                 </div>
+
                 <div id="iconsGrid" class="icons-grid">
-                    <div class="loading-state">
-                        <div class="spinner"></div>
-                        <p>Loading icons...</p>
-                    </div>
+                    <!-- Icons populated by JS -->
+                </div>
+
+                <div class="loading-state hidden">
+                    <div class="spinner"></div>
+                    <p>Loading icons...</p>
                 </div>
             </main>
         </div>

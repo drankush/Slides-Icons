@@ -4,22 +4,33 @@
    ============================================ */
 
 :root {
-    --primary: #6366f1;
-    --primary-dark: #4f46e5;
-    --primary-light: #eef2ff;
-    --accent: #10b981;
+    /* Colors - Light Theme */
+    --primary: #4f46e5;
+    --primary-dark: #4338ca;
+    --primary-light: #e0e7ff;
 
-    --bg-dark: #1a1a2e;
-    --bg-sidebar: #16213e;
-    --bg-main: #0f0f23;
-    --bg-card: #1e1e3f;
+    --bg-app: #ffffff;
+    --bg-sidebar: #f8fafc;
+    --bg-header: #ffffff;
+    --bg-card: #ffffff;
+    --bg-hover: #f1f5f9;
+    --bg-active: #e2e8f0;
 
-    --text-primary: #ffffff;
-    --text-secondary: #a0aec0;
-    --text-muted: #64748b;
+    --text-primary: #1e293b;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
 
-    --border: #2d2d5a;
+    --border: #e2e8f0;
+    --divider: #f1f5f9;
+
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+
     --radius: 8px;
+    --radius-sm: 4px;
+
+    --header-height: 60px;
+    --sidebar-width: 240px;
 }
 
 * {
@@ -29,12 +40,32 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: var(--bg-main);
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--bg-app);
     color: var(--text-primary);
-    font-size: 13px;
-    line-height: 1.4;
     overflow: hidden;
+    height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
 }
 
 .app {
@@ -366,4 +397,70 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--text-muted);
+}/* Checkbox wrapper */
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    height: 32px;
 }
+#bgColorPicker {
+    cursor: pointer;
+}
+#bgColorPicker:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* New Control Styles */
+.controls-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.divider {
+    width: 1px;
+    height: 24px;
+    background: var(--divider);
+}
+.control-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.bg-control {
+    background: var(--bg-hover);
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+}
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+input[type='color'] {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    cursor: pointer;
+    background: none;
+}
+input[type='color']:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.control-select {
+    height: 32px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 0 8px;
+    background: var(--bg-card);
+    color: var(--text-primary);
+}
+

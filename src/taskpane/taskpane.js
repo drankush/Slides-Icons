@@ -1,300 +1,229 @@
 /**
  * Slides Icons - PowerPoint Add-in
- * Hybrid CDN approach: Load manifests, fetch SVGs on-demand
+ * Local JSON Manifests + Light Theme + BG Color
  */
 
-// Available icon libraries
-const ICON_LIBRARIES = [
-    { id: 'bootstrap', name: 'Bootstrap Icons' },
-    { id: 'heroicons', name: 'Heroicons' },
-    { id: 'feather', name: 'Feather Icons' },
-    { id: 'lucide', name: 'Lucide Icons' },
-    { id: 'tabler', name: 'Tabler Icons' },
-    { id: 'ionicons', name: 'Ionicons' },
-    { id: 'iconoir', name: 'Iconoir' },
-    { id: 'phosphor', name: 'Phosphor Icons' },
-    { id: 'boxicons', name: 'Boxicons' },
-    { id: 'octicons', name: 'GitHub Octicons' },
-    { id: 'radix', name: 'Radix Icons' },
-    { id: 'eva', name: 'Eva Icons' }
-];
-
 // State
-let currentLibrary = 'bootstrap';
+let allLibraries = [];
+let currentLibrary = '';
 let currentManifest = null;
 let iconSize = 48;
 let iconColor = '#000000';
-let svgCache = {};
+let bgColor = '#ffffff';
+let bgEnabled = false;
 
-// Initialize on Office ready or browser mode
+// Initialize
 Office.onReady((info) => {
     console.log('Office ready:', info.host || 'browser');
     initializeApp();
 });
 
-/**
- * Initialize the app
- */
 async function initializeApp() {
     console.log('Initializing Slides Icons...');
 
-    // Render library sidebar
-    renderLibraryList();
-
-    // Set up event listeners
     setupEventListeners();
-
-    // Load first library
-    await loadLibrary('bootstrap');
+    await loadLibraryIndex();
 }
 
-/**
- * Render the library sidebar
- */
-function renderLibraryList() {
-    const list = document.getElementById('libraryList');
-
-    list.innerHTML = ICON_LIBRARIES.map(lib => `
-        <div class="library-item" data-id="${lib.id}">
-            <span>${lib.name}</span>
-            <span class="count">...</span>
-        </div>
-    `).join('');
-
-    // Add click handlers
-    list.querySelectorAll('.library-item').forEach(item => {
-        item.addEventListener('click', () => loadLibrary(item.dataset.id));
-    });
-}
-
-/**
- * Set up event listeners
- */
 function setupEventListeners() {
     // Search
     const searchInput = document.getElementById('searchInput');
-    searchInput.addEventListener('input', debounce(handleSearch, 200));
+    searchInput.addEventListener('input', debounce(renderIcons, 200));
 
     // Size
     document.getElementById('sizeSelect').addEventListener('change', (e) => {
         iconSize = parseInt(e.target.value);
     });
 
-    // Color
-    document.getElementById('colorPicker').addEventListener('input', (e) => {
+    // Icon Color
+    const colorPicker = document.getElementById('colorPicker');
+    const colorValue = document.getElementById('colorValue');
+    colorPicker.addEventListener('input', (e) => {
         iconColor = e.target.value;
-        applyColorToGrid();
+        colorValue.textContent = iconColor;
+        applyStylesToGrid();
+    });
+
+    // BG Color
+    const bgPicker = document.getElementById('bgColorPicker');
+    const bgCheckbox = document.getElementById('bgEnabled');
+
+    bgCheckbox.addEventListener('change', (e) => {
+        bgEnabled = e.target.checked;
+        bgPicker.disabled = !bgEnabled;
+        applyStylesToGrid();
+    });
+
+    bgPicker.addEventListener('input', (e) => {
+        bgColor = e.target.value;
+        applyStylesToGrid();
     });
 }
 
 /**
- * Load a library manifest
+ * Load list of available libraries from index.json
  */
-async function loadLibrary(libraryId) {
-    // Update UI
-    document.querySelectorAll('.library-item').forEach(item => {
-        item.classList.toggle('active', item.dataset.id === libraryId);
+async function loadLibraryIndex() {
+    try {
+        const response = await fetch('manifests/index.json');
+        if (!response.ok) throw new Error('Failed to load library index');
+
+        allLibraries = await response.json();
+        renderLibraryList();
+
+        // precise initial load: Bootstrap or first available
+        const initialLib = allLibraries.find(l => l.id === 'bootstrap') || allLibraries[0];
+        if (initialLib) {
+            loadLibrary(initialLib.id);
+        }
+    } catch (error) {
+        console.error('Index load failed:', error);
+        document.getElementById('libraryList').innerHTML = '<div class="error">Failed to load libraries.</div>';
+    }
+}
+
+function renderLibraryList() {
+    const list = document.getElementById('libraryList');
+    list.innerHTML = allLibraries.map(lib => `
+        <div class="library-item" data-id="${lib.id}">
+            <span class="name">${lib.name}</span>
+            <span class="count">${lib.totalIcons}</span>
+        </div>
+    `).join('');
+
+    list.querySelectorAll('.library-item').forEach(item => {
+        item.addEventListener('click', () => loadLibrary(item.dataset.id));
+    });
+}
+
+async function loadLibrary(id) {
+    // Update active state in sidebar
+    document.querySelectorAll('.library-item').forEach(el => {
+        el.classList.toggle('active', el.dataset.id === id);
     });
 
-    const lib = ICON_LIBRARIES.find(l => l.id === libraryId);
-    document.getElementById('currentLibrary').textContent = lib?.name || libraryId;
-    currentLibrary = libraryId;
-
-    // Show loading
+    currentLibrary = id;
     showLoading(true);
 
     try {
-        // Load manifest
-        const response = await fetch(`manifests/${libraryId}.json`);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const response = await fetch(`manifests/${id}.json`);
+        if (!response.ok) throw new Error(`Failed to load ${id}`);
 
         currentManifest = await response.json();
 
-        // Update count in sidebar
-        const item = document.querySelector(`.library-item[data-id="${libraryId}"]`);
-        if (item) {
-            item.querySelector('.count').textContent = currentManifest.totalIcons;
+        // Update header info
+        const libInfo = allLibraries.find(l => l.id === id);
+        if (libInfo) {
+            document.getElementById('currentLibrary').textContent = libInfo.name;
+            document.getElementById('totalCount').textContent = currentManifest.totalIcons;
         }
 
-        // Update total count
-        updateTotalCount();
-
-        // Render icons
-        renderIcons();
-
-        console.log(`Loaded ${libraryId}: ${currentManifest.totalIcons} icons`);
+        renderIcons(); // Initial render
 
     } catch (error) {
-        console.error('Failed to load library:', error);
-        showToast('Failed to load library', 'error');
+        console.error(`Load library ${id} failed:`, error);
+        showToast(`Failed to load ${id}`, 'error');
     } finally {
         showLoading(false);
     }
 }
 
-/**
- * Update total icon count
- */
-function updateTotalCount() {
-    // For now, show current library count
-    document.getElementById('totalCount').textContent = currentManifest?.totalIcons || 0;
-}
-
-/**
- * Render icons grid
- */
-function renderIcons(filter = '') {
+function renderIcons() {
     const grid = document.getElementById('iconsGrid');
-    const countEl = document.getElementById('iconCount');
+    const searchVal = document.getElementById('searchInput').value.toLowerCase();
 
-    if (!currentManifest || !currentManifest.icons) {
-        grid.innerHTML = '<div class="empty-state">No icons loaded</div>';
-        return;
-    }
+    if (!currentManifest || !currentManifest.icons) return;
 
     let icons = currentManifest.icons;
 
-    // Filter by search
-    if (filter) {
-        const q = filter.toLowerCase();
-        icons = icons.filter(icon =>
-            icon.name.toLowerCase().includes(q) ||
-            icon.title.toLowerCase().includes(q)
-        );
+    // Filter
+    if (searchVal) {
+        icons = icons.filter(i => i.name.toLowerCase().includes(searchVal) ||
+            (i.title && i.title.toLowerCase().includes(searchVal)));
     }
 
-    countEl.textContent = `${icons.length} icons`;
+    document.getElementById('iconCount').textContent = `${icons.length} icons`;
 
-    if (icons.length === 0) {
+    // Performance limit
+    const displayIcons = icons.slice(0, 300);
+
+    if (displayIcons.length === 0) {
         grid.innerHTML = '<div class="empty-state">No icons found</div>';
         return;
     }
 
-    // Limit for performance
-    const displayIcons = icons.slice(0, 200);
+    grid.innerHTML = displayIcons.map(icon => {
+        // SVG content is in icon.svg (if from our extractor)
+        // Format: { name, viewBox, content } OR string
+        let svgHtml = '';
 
-    grid.innerHTML = displayIcons.map(icon => `
-        <div class="icon-item" data-name="${icon.name}" title="${icon.title}">
-            <div class="icon-placeholder" data-name="${icon.name}">
-                <div class="mini-spinner"></div>
+        if (typeof icon.svg === 'string') {
+            svgHtml = icon.svg; // Full SVG string
+        } else if (icon.svg && icon.svg.content) {
+            // Construct SVG
+            svgHtml = `<svg viewBox="${icon.svg.viewBox || '0 0 24 24'}" xmlns="http://www.w3.org/2000/svg">${icon.svg.content}</svg>`;
+        }
+
+        // Strip existing fill/stroke to allow coloring
+        // We do this via CSS 'currentColor' mostly, but for PNG generation we parse it.
+        // For grid display, we rely on CSS.
+
+        return `
+            <div class="icon-item" data-name="${icon.name}">
+                <div class="icon-preview">
+                    ${svgHtml}
+                </div>
             </div>
-        </div>
-    `).join('');
+        `;
+    }).join('');
 
-    if (icons.length > 200) {
-        grid.innerHTML += `<div class="icon-limit-message">Showing 200 of ${icons.length}. Use search to filter.</div>`;
+    if (icons.length > 300) {
+        grid.innerHTML += `<div class="icon-limit-message">Showing 300 of ${icons.length}</div>`;
     }
 
-    // Load SVGs lazily
-    loadVisibleIcons();
+    // Apply initial colors
+    applyStylesToGrid();
 
-    // Add click handlers
+    // Click listeners
     grid.querySelectorAll('.icon-item').forEach(item => {
         item.addEventListener('click', () => insertIcon(item));
     });
 }
 
-/**
- * Load visible icons
- */
-async function loadVisibleIcons() {
-    const placeholders = document.querySelectorAll('.icon-placeholder');
+function applyStylesToGrid() {
+    const grid = document.getElementById('iconsGrid');
 
-    for (const placeholder of placeholders) {
-        const iconName = placeholder.dataset.name;
+    // Apply icon color
+    grid.style.color = iconColor;
+    grid.querySelectorAll('svg').forEach(svg => {
+        svg.style.fill = 'currentColor';
+    });
 
-        try {
-            const svg = await fetchSvg(iconName);
-            if (svg && placeholder.isConnected) {
-                placeholder.innerHTML = svg;
-                applyColorToElement(placeholder);
-            }
-        } catch (error) {
-            placeholder.innerHTML = '⚠';
+    // Apply BG color to previews
+    const previewBg = bgEnabled ? bgColor : 'transparent';
+    grid.querySelectorAll('.icon-item').forEach(item => {
+        item.style.backgroundColor = previewBg;
+        // If dark BG, add light border?
+        if (bgEnabled) {
+            item.style.borderColor = 'transparent';
+        } else {
+            item.style.borderColor = ''; // reset to CSS default
         }
-    }
+    });
 }
 
-/**
- * Fetch SVG from CDN
- */
-async function fetchSvg(iconName) {
-    if (!currentManifest || !currentManifest.cdnPattern) {
-        return null;
-    }
-
-    const cacheKey = `${currentLibrary}:${iconName}`;
-
-    // Check cache
-    if (svgCache[cacheKey]) {
-        return svgCache[cacheKey];
-    }
-
-    // Build URL from pattern
-    const url = currentManifest.cdnPattern.replace('{name}', iconName);
-
-    try {
-        const response = await fetch(url);
-        if (!response.ok) return null;
-
-        const svg = await response.text();
-        svgCache[cacheKey] = svg;
-        return svg;
-    } catch (error) {
-        console.error(`Failed to fetch ${iconName}:`, error);
-        return null;
-    }
-}
-
-/**
- * Apply color to all icons
- */
-function applyColorToGrid() {
-    document.querySelectorAll('.icon-placeholder').forEach(applyColorToElement);
-}
-
-/**
- * Apply color to a single element
- */
-function applyColorToElement(el) {
-    const svg = el.querySelector('svg');
-    if (svg) {
-        svg.style.fill = iconColor;
-        svg.style.color = iconColor;
-        svg.setAttribute('fill', 'currentColor');
-    }
-}
-
-/**
- * Handle search input
- */
-function handleSearch(e) {
-    renderIcons(e.target.value);
-}
-
-/**
- * Insert icon into PowerPoint
- */
 async function insertIcon(element) {
-    const iconName = element.dataset.name;
-    const placeholder = element.querySelector('.icon-placeholder');
-    const svgContent = placeholder?.innerHTML;
-
-    if (!svgContent || svgContent.includes('spinner')) {
-        showToast('Icon still loading...', 'error');
-        return;
-    }
+    const svgEl = element.querySelector('svg');
+    if (!svgEl) return;
 
     element.classList.add('inserting');
 
     try {
-        // Convert SVG to PNG
-        const base64 = await svgToBase64PNG(svgContent, iconSize, iconColor);
+        const svgString = new XMLSerializer().serializeToString(svgEl);
+        const base64 = await svgToBase64PNG(svgString, iconSize, iconColor, bgEnabled ? bgColor : null);
 
-        // Insert into PowerPoint
         await insertImageAsync(base64);
-
-        showToast(`Inserted: ${iconName}`, 'success');
+        showToast('Inserted!', 'success');
     } catch (error) {
         console.error('Insert failed:', error);
         showToast('Insert failed', 'error');
@@ -303,25 +232,33 @@ async function insertIcon(element) {
     }
 }
 
-/**
- * Convert SVG to PNG base64
- */
-function svgToBase64PNG(svgContent, size, color) {
+function svgToBase64PNG(svgContent, size, color, backgroundColor) {
     return new Promise((resolve, reject) => {
-        // Apply color to SVG
-        let coloredSvg = svgContent
-            .replace(/fill="[^"]*"/g, `fill="${color}"`)
-            .replace(/stroke="[^"]*"/g, `stroke="${color}"`);
+        // Inject color
+        let coloredSvg = svgContent.replace(/currentColor/g, color);
 
-        // Ensure SVG has proper attributes
-        if (!coloredSvg.includes('xmlns')) {
-            coloredSvg = coloredSvg.replace('<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
+        // Force fill if not present (simple heuristic)
+        if (!coloredSvg.includes('fill=')) {
+            // This is risky, open-icons usually have fill/stroke. 
+            // We trust existing attributes + currentColor replacement.
+        }
+
+        // Fix dimensions
+        coloredSvg = coloredSvg.replace(/width="[^"]*"/, `width="${size}"`).replace(/height="[^"]*"/, `height="${size}"`);
+        if (!coloredSvg.includes('width=')) {
+            coloredSvg = coloredSvg.replace('<svg', `<svg width="${size}" height="${size}"`);
         }
 
         const canvas = document.createElement('canvas');
         canvas.width = size;
         canvas.height = size;
         const ctx = canvas.getContext('2d');
+
+        // Draw background
+        if (backgroundColor) {
+            ctx.fillStyle = backgroundColor;
+            ctx.fillRect(0, 0, size, size);
+        }
 
         const img = new Image();
         const blob = new Blob([coloredSvg], { type: 'image/svg+xml;charset=utf-8' });
@@ -330,27 +267,18 @@ function svgToBase64PNG(svgContent, size, color) {
         img.onload = () => {
             ctx.drawImage(img, 0, 0, size, size);
             URL.revokeObjectURL(url);
-            const dataUrl = canvas.toDataURL('image/png');
-            resolve(dataUrl.split(',')[1]);
+            resolve(canvas.toDataURL('image/png').split(',')[1]);
         };
 
-        img.onerror = (error) => {
-            URL.revokeObjectURL(url);
-            reject(error);
-        };
-
+        img.onerror = reject;
         img.src = url;
     });
 }
 
-/**
- * Insert image into PowerPoint
- */
 function insertImageAsync(base64) {
     return new Promise((resolve, reject) => {
-        if (!Office.context?.document) {
-            // Browser mode - just log
-            console.log('Would insert image (browser mode)');
+        if (!Office.context || !Office.context.document) {
+            console.log('Browser mode: Image generated (would insert)');
             resolve();
             return;
         }
@@ -359,52 +287,33 @@ function insertImageAsync(base64) {
             base64,
             {
                 coercionType: Office.CoercionType.Image,
-                imageLeft: 100,
-                imageTop: 100,
-                imageWidth: iconSize,
-                imageHeight: iconSize
+                imageLeft: 100, imageTop: 100,
+                imageWidth: iconSize, imageHeight: iconSize
             },
-            (result) => {
-                if (result.status === Office.AsyncResultStatus.Succeeded) {
-                    resolve();
-                } else {
-                    reject(new Error(result.error?.message || 'Insert failed'));
-                }
+            (res) => {
+                if (res.status === Office.AsyncResultStatus.Succeeded) resolve();
+                else reject(new Error(res.error.message));
             }
         );
     });
 }
 
-/**
- * Show/hide loading state
- */
 function showLoading(show) {
     const grid = document.getElementById('iconsGrid');
-    if (show) {
-        grid.innerHTML = '<div class="loading-state"><div class="spinner"></div><p>Loading icons...</p></div>';
-    }
+    if (show) grid.innerHTML = '<div class="loading-state"><div class="spinner"></div><p>Loading...</p></div>';
 }
 
-/**
- * Show toast notification
- */
-function showToast(message, type = 'info') {
+function showToast(msg, type) {
     const toast = document.getElementById('toast');
-    toast.textContent = message;
+    toast.textContent = msg;
     toast.className = `toast visible ${type}`;
-
-    setTimeout(() => {
-        toast.classList.remove('visible');
-    }, 2000);
+    setTimeout(() => toast.classList.remove('visible'), 2000);
 }
 
-/**
- * Debounce utility
- */
-function debounce(fn, delay) {
-    let timeout;
+function debounce(fn, ms) {
+    let t;
     return (...args) => {
-        clearTimeout(timeout);
-        timeout = setTimeout(() => fn(...args), delay);
-    };
+        clearTimeout(t);
+        t = setTimeout(() => fn(...args), ms);
+    }
 }

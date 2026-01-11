@@ -1,79 +1,64 @@
 # Slides Icons
 
-**A PowerPoint Add-in with 9,000+ free icons from 12 popular open-source libraries.**
+**A PowerPoint Add-in with 94,000+ free icons from 100+ open-source libraries.**
 
 ![Slides Icons Screenshot](https://raw.githubusercontent.com/drankush/Slides-Icons/main/docs/screenshot.png)
 
 ## Features
 
-- 🎨 **12 Icon Libraries** with 9,000+ icons
-- 🔍 **Fast Search** - filter icons instantly by name
-- 🎯 **One-Click Insert** - add icons directly to slides
-- 🌈 **Color Picker** - customize icon color before inserting
-- 📐 **Size Options** - 24px to 128px
-- ⚡ **On-Demand Loading** - icons load from CDN as needed
+- 🎨 **100+ Icon Libraries** (Bootstrap, FontAwesome, Material, Octicons, etc.)
+- 🖼️ **94,000+ Total Icons**
+- ☀️ **Light Mode UI** for better visibility
+- 🔍 **Fast Search** & Filtering
+- 🌈 **Custom Color & Size**
+- 🔲 **Background Color** support for icons
+- ⚡ **Local JSON Architecture** - loads fast without external API limits
 
 ## Supported Libraries
 
-| Library | Icons |
-|---------|-------|
-| Bootstrap Icons | 1,000 |
-| Heroicons | 324 |
-| Feather Icons | 287 |
-| Lucide Icons | 500 |
-| Tabler Icons | 1,000 |
-| Ionicons | 1,000 |
-| Iconoir | 1,000 |
-| Phosphor Icons | 1,000 |
-| Boxicons | 814 |
-| GitHub Octicons | 720 |
-| Radix Icons | 332 |
-| Eva Icons | 244 |
+Includes all libraries from [Open-Icons](https://cenfun.github.io/open-icons/):
+- Bootstrap Icons (2000+)
+- Material Design Icons (7000+)
+- FontAwesome (1400+)
+- GitHub Octicons
+- Radix Icons
+- Feather, Lucide, Ionicons, Tabler, and 90+ more.
 
-## Quick Start
+## Architecture
 
-### 1. Install & Build
+**Server-Side Extraction (Build Time):**
+We leverage the `open-icons` npm package but solve the browser decompression issue by extracting all icons at build time.
+- `scripts/extract-open-icons.js`: Runs in Node.js (JSDOM), loads the UMD bundles, decompresses using the library's native logic, and saves static JSON manifests.
+- **Frontend**: Loads these lightweight JSON files on-demand. No heavy decompression in browser!
+
+## development
+
+### 1. Install & Extract Icons
 ```bash
 npm install
-npm run dev
+# Extracts all 100+ libraries to src/manifests/ (takes ~1 min)
+npm run extract-icons
+# Generate index
+npm run generate-index
 ```
 
-### 2. Sideload in PowerPoint (Mac)
+### 2. Build & Run
 ```bash
+npm run build
+npm start
+```
+
+### 3. Sideload in PowerPoint (Mac)
+```bash
+# Copy manifest
 mkdir -p ~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef
 cp manifest.xml ~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef/
 ```
 
-### 3. Use in PowerPoint
-1. Open PowerPoint
-2. Go to **Insert** → **Add-ins** → **Slides Icons**
-3. Browse libraries, search icons, click to insert!
-
-## Architecture
-
-**Hybrid CDN Approach:**
-1. Lightweight JSON manifests contain icon names (~50KB per library)
-2. Individual SVGs are fetched on-demand from jsDelivr CDN
-3. Icons are cached in-memory for fast re-access
-
-This approach provides fast initial load while supporting 9,000+ icons without bundling large files.
-
-## Development
-
-```bash
-# Generate manifests from GitHub API
-npm run generate-manifests
-
-# Build for production
-npm run build
-
-# Start dev server
-npm start
-```
-
 ## Credits
 
-Icons are sourced from their respective open-source projects. All icons are MIT or similarly licensed.
+Powered by [Open-Icons](https://github.com/cenfun/open-icons) by Cenfun.
+All icons are licensed under their respective open-source licenses.
 
 ## License
 
