@@ -1,112 +1,6187 @@
 {
   "version": "1.0.0",
-  "totalIcons": 21,
+  "totalIcons": 1537,
   "icons": {
-    "Other": [
+    "Arrows": [
       {
-        "name": "_comment",
-        "title": "_comment",
-        "keywords": []
+        "name": "arrow-down-box",
+        "title": "Arrow Down Box"
       },
       {
-        "name": "Arrows",
-        "title": "Arrows",
-        "keywords": []
+        "name": "arrow-down-circle",
+        "title": "Arrow Down Circle"
       },
       {
-        "name": "Buildings",
-        "title": "Buildings",
-        "keywords": []
+        "name": "arrow-down-double",
+        "title": "Arrow Down Double"
       },
       {
-        "name": "Business",
-        "title": "Business",
-        "keywords": []
+        "name": "arrow-down",
+        "title": "Arrow Down"
       },
       {
-        "name": "Communication",
-        "title": "Communication",
-        "keywords": []
+        "name": "arrow-down-long",
+        "title": "Arrow Down Long"
       },
       {
-        "name": "Design",
-        "title": "Design",
-        "keywords": []
+        "name": "arrow-down-s",
+        "title": "Arrow Down S"
       },
       {
-        "name": "Development",
-        "title": "Development",
-        "keywords": []
+        "name": "arrow-down-wide",
+        "title": "Arrow Down Wide"
       },
       {
-        "name": "Device",
-        "title": "Device",
-        "keywords": []
+        "name": "arrow-drop-down",
+        "title": "Arrow Drop Down"
       },
       {
-        "name": "Document",
-        "title": "Document",
-        "keywords": []
+        "name": "arrow-drop-left",
+        "title": "Arrow Drop Left"
       },
       {
-        "name": "Editor",
-        "title": "Editor",
-        "keywords": []
+        "name": "arrow-drop-right",
+        "title": "Arrow Drop Right"
       },
       {
-        "name": "Finance",
-        "title": "Finance",
-        "keywords": []
+        "name": "arrow-drop-up",
+        "title": "Arrow Drop Up"
       },
       {
-        "name": "Food",
-        "title": "Food",
-        "keywords": []
+        "name": "arrow-go-back",
+        "title": "Arrow Go Back"
       },
       {
-        "name": "Game & Sports",
-        "title": "Game & Sports",
-        "keywords": []
+        "name": "arrow-go-forward",
+        "title": "Arrow Go Forward"
       },
       {
-        "name": "Health & Medical",
-        "title": "Health & Medical",
-        "keywords": []
+        "name": "arrow-left-box",
+        "title": "Arrow Left Box"
       },
       {
-        "name": "Logos",
-        "title": "Logos",
-        "keywords": []
+        "name": "arrow-left-circle",
+        "title": "Arrow Left Circle"
       },
       {
-        "name": "Map",
-        "title": "Map",
-        "keywords": []
+        "name": "arrow-left-double",
+        "title": "Arrow Left Double"
       },
       {
-        "name": "Media",
-        "title": "Media",
-        "keywords": []
+        "name": "arrow-left-down-box",
+        "title": "Arrow Left Down Box"
       },
       {
-        "name": "System",
-        "title": "System",
-        "keywords": []
+        "name": "arrow-left-down",
+        "title": "Arrow Left Down"
       },
       {
-        "name": "User & Faces",
-        "title": "User & Faces",
-        "keywords": []
+        "name": "arrow-left-down-long",
+        "title": "Arrow Left Down Long"
       },
       {
-        "name": "Weather",
-        "title": "Weather",
-        "keywords": []
+        "name": "arrow-left",
+        "title": "Arrow Left"
       },
       {
-        "name": "Others",
-        "title": "Others",
-        "keywords": []
+        "name": "arrow-left-long",
+        "title": "Arrow Left Long"
+      },
+      {
+        "name": "arrow-left-right",
+        "title": "Arrow Left Right"
+      },
+      {
+        "name": "arrow-left-s",
+        "title": "Arrow Left S"
+      },
+      {
+        "name": "arrow-left-up-box",
+        "title": "Arrow Left Up Box"
+      },
+      {
+        "name": "arrow-left-up",
+        "title": "Arrow Left Up"
+      },
+      {
+        "name": "arrow-left-up-long",
+        "title": "Arrow Left Up Long"
+      },
+      {
+        "name": "arrow-left-wide",
+        "title": "Arrow Left Wide"
+      },
+      {
+        "name": "arrow-right-box",
+        "title": "Arrow Right Box"
+      },
+      {
+        "name": "arrow-right-circle",
+        "title": "Arrow Right Circle"
+      },
+      {
+        "name": "arrow-right-double",
+        "title": "Arrow Right Double"
+      },
+      {
+        "name": "arrow-right-down-box",
+        "title": "Arrow Right Down Box"
+      },
+      {
+        "name": "arrow-right-down",
+        "title": "Arrow Right Down"
+      },
+      {
+        "name": "arrow-right-down-long",
+        "title": "Arrow Right Down Long"
+      },
+      {
+        "name": "arrow-right",
+        "title": "Arrow Right"
+      },
+      {
+        "name": "arrow-right-long",
+        "title": "Arrow Right Long"
+      },
+      {
+        "name": "arrow-right-s",
+        "title": "Arrow Right S"
+      },
+      {
+        "name": "arrow-right-up-box",
+        "title": "Arrow Right Up Box"
+      },
+      {
+        "name": "arrow-right-up",
+        "title": "Arrow Right Up"
+      },
+      {
+        "name": "arrow-right-up-long",
+        "title": "Arrow Right Up Long"
+      },
+      {
+        "name": "arrow-right-wide",
+        "title": "Arrow Right Wide"
+      },
+      {
+        "name": "arrow-turn-back",
+        "title": "Arrow Turn Back"
+      },
+      {
+        "name": "arrow-turn-forward",
+        "title": "Arrow Turn Forward"
+      },
+      {
+        "name": "arrow-up-box",
+        "title": "Arrow Up Box"
+      },
+      {
+        "name": "arrow-up-circle",
+        "title": "Arrow Up Circle"
+      },
+      {
+        "name": "arrow-up-double",
+        "title": "Arrow Up Double"
+      },
+      {
+        "name": "arrow-up-down",
+        "title": "Arrow Up Down"
+      },
+      {
+        "name": "arrow-up",
+        "title": "Arrow Up"
+      },
+      {
+        "name": "arrow-up-long",
+        "title": "Arrow Up Long"
+      },
+      {
+        "name": "arrow-up-s",
+        "title": "Arrow Up S"
+      },
+      {
+        "name": "arrow-up-wide",
+        "title": "Arrow Up Wide"
+      },
+      {
+        "name": "collapse-diagonal-2",
+        "title": "Collapse Diagonal 2"
+      },
+      {
+        "name": "collapse-diagonal",
+        "title": "Collapse Diagonal"
+      },
+      {
+        "name": "collapse-horizontal",
+        "title": "Collapse Horizontal"
+      },
+      {
+        "name": "collapse-vertical",
+        "title": "Collapse Vertical"
+      },
+      {
+        "name": "contract-left",
+        "title": "Contract Left"
+      },
+      {
+        "name": "contract-left-right",
+        "title": "Contract Left Right"
+      },
+      {
+        "name": "contract-right",
+        "title": "Contract Right"
+      },
+      {
+        "name": "contract-up-down",
+        "title": "Contract Up Down"
+      },
+      {
+        "name": "corner-down-left",
+        "title": "Corner Down Left"
+      },
+      {
+        "name": "corner-down-right",
+        "title": "Corner Down Right"
+      },
+      {
+        "name": "corner-left-down",
+        "title": "Corner Left Down"
+      },
+      {
+        "name": "corner-left-up",
+        "title": "Corner Left Up"
+      },
+      {
+        "name": "corner-right-down",
+        "title": "Corner Right Down"
+      },
+      {
+        "name": "corner-right-up",
+        "title": "Corner Right Up"
+      },
+      {
+        "name": "corner-up-left-double",
+        "title": "Corner Up Left Double"
+      },
+      {
+        "name": "corner-up-left",
+        "title": "Corner Up Left"
+      },
+      {
+        "name": "corner-up-right-double",
+        "title": "Corner Up Right Double"
+      },
+      {
+        "name": "corner-up-right",
+        "title": "Corner Up Right"
+      },
+      {
+        "name": "drag-move-2",
+        "title": "Drag Move 2"
+      },
+      {
+        "name": "drag-move",
+        "title": "Drag Move"
+      },
+      {
+        "name": "expand-diagonal-2",
+        "title": "Expand Diagonal 2"
+      },
+      {
+        "name": "expand-diagonal",
+        "title": "Expand Diagonal"
+      },
+      {
+        "name": "expand-diagonal-s-2",
+        "title": "Expand Diagonal S 2"
+      },
+      {
+        "name": "expand-diagonal-s",
+        "title": "Expand Diagonal S"
+      },
+      {
+        "name": "expand-height",
+        "title": "Expand Height"
+      },
+      {
+        "name": "expand-horizontal",
+        "title": "Expand Horizontal"
+      },
+      {
+        "name": "expand-horizontal-s",
+        "title": "Expand Horizontal S"
+      },
+      {
+        "name": "expand-left",
+        "title": "Expand Left"
+      },
+      {
+        "name": "expand-left-right",
+        "title": "Expand Left Right"
+      },
+      {
+        "name": "expand-right",
+        "title": "Expand Right"
+      },
+      {
+        "name": "expand-up-down",
+        "title": "Expand Up Down"
+      },
+      {
+        "name": "expand-vertical",
+        "title": "Expand Vertical"
+      },
+      {
+        "name": "expand-vertical-s",
+        "title": "Expand Vertical S"
+      },
+      {
+        "name": "expand-width",
+        "title": "Expand Width"
+      },
+      {
+        "name": "scroll-to-bottom",
+        "title": "Scroll To Bottom"
+      },
+      {
+        "name": "skip-down",
+        "title": "Skip Down"
+      },
+      {
+        "name": "skip-left",
+        "title": "Skip Left"
+      },
+      {
+        "name": "skip-right",
+        "title": "Skip Right"
+      },
+      {
+        "name": "skip-up",
+        "title": "Skip Up"
+      }
+    ],
+    "Buildings": [
+      {
+        "name": "ancient-gate",
+        "title": "Ancient Gate"
+      },
+      {
+        "name": "ancient-pavilion",
+        "title": "Ancient Pavilion"
+      },
+      {
+        "name": "bank",
+        "title": "Bank"
+      },
+      {
+        "name": "building-2",
+        "title": "Building 2"
+      },
+      {
+        "name": "building-3",
+        "title": "Building 3"
+      },
+      {
+        "name": "building-4",
+        "title": "Building 4"
+      },
+      {
+        "name": "building",
+        "title": "Building"
+      },
+      {
+        "name": "community",
+        "title": "Community"
+      },
+      {
+        "name": "government",
+        "title": "Government"
+      },
+      {
+        "name": "home-2",
+        "title": "Home 2"
+      },
+      {
+        "name": "home-3",
+        "title": "Home 3"
+      },
+      {
+        "name": "home-4",
+        "title": "Home 4"
+      },
+      {
+        "name": "home-5",
+        "title": "Home 5"
+      },
+      {
+        "name": "home-6",
+        "title": "Home 6"
+      },
+      {
+        "name": "home-7",
+        "title": "Home 7"
+      },
+      {
+        "name": "home-8",
+        "title": "Home 8"
+      },
+      {
+        "name": "home-9",
+        "title": "Home 9"
+      },
+      {
+        "name": "home",
+        "title": "Home"
+      },
+      {
+        "name": "home-gear",
+        "title": "Home Gear"
+      },
+      {
+        "name": "home-heart",
+        "title": "Home Heart"
+      },
+      {
+        "name": "home-office",
+        "title": "Home Office"
+      },
+      {
+        "name": "home-smile-2",
+        "title": "Home Smile 2"
+      },
+      {
+        "name": "home-smile",
+        "title": "Home Smile"
+      },
+      {
+        "name": "home-wifi",
+        "title": "Home Wifi"
+      },
+      {
+        "name": "hospital",
+        "title": "Hospital"
+      },
+      {
+        "name": "hotel",
+        "title": "Hotel"
+      },
+      {
+        "name": "school",
+        "title": "School"
+      },
+      {
+        "name": "store-2",
+        "title": "Store 2"
+      },
+      {
+        "name": "store-3",
+        "title": "Store 3"
+      },
+      {
+        "name": "store",
+        "title": "Store"
+      },
+      {
+        "name": "tent",
+        "title": "Tent"
+      }
+    ],
+    "Business": [
+      {
+        "name": "advertisement",
+        "title": "Advertisement"
+      },
+      {
+        "name": "archive-2",
+        "title": "Archive 2"
+      },
+      {
+        "name": "archive-drawer",
+        "title": "Archive Drawer"
+      },
+      {
+        "name": "archive",
+        "title": "Archive"
+      },
+      {
+        "name": "archive-stack",
+        "title": "Archive Stack"
+      },
+      {
+        "name": "area-chart",
+        "title": "Area Chart"
+      },
+      {
+        "name": "at",
+        "title": "At"
+      },
+      {
+        "name": "attachment",
+        "title": "Attachment"
+      },
+      {
+        "name": "award",
+        "title": "Award"
+      },
+      {
+        "name": "bar-chart-2",
+        "title": "Bar Chart 2"
+      },
+      {
+        "name": "bar-chart-box-ai",
+        "title": "Bar Chart Box Ai"
+      },
+      {
+        "name": "bar-chart-box",
+        "title": "Bar Chart Box"
+      },
+      {
+        "name": "bar-chart",
+        "title": "Bar Chart"
+      },
+      {
+        "name": "bar-chart-grouped",
+        "title": "Bar Chart Grouped"
+      },
+      {
+        "name": "bar-chart-horizontal",
+        "title": "Bar Chart Horizontal"
+      },
+      {
+        "name": "bookmark-2",
+        "title": "Bookmark 2"
+      },
+      {
+        "name": "bookmark-3",
+        "title": "Bookmark 3"
+      },
+      {
+        "name": "bookmark",
+        "title": "Bookmark"
+      },
+      {
+        "name": "briefcase-2",
+        "title": "Briefcase 2"
+      },
+      {
+        "name": "briefcase-3",
+        "title": "Briefcase 3"
+      },
+      {
+        "name": "briefcase-4",
+        "title": "Briefcase 4"
+      },
+      {
+        "name": "briefcase-5",
+        "title": "Briefcase 5"
+      },
+      {
+        "name": "briefcase",
+        "title": "Briefcase"
+      },
+      {
+        "name": "bubble-chart",
+        "title": "Bubble Chart"
+      },
+      {
+        "name": "calculator",
+        "title": "Calculator"
+      },
+      {
+        "name": "calendar-2",
+        "title": "Calendar 2"
+      },
+      {
+        "name": "calendar-check",
+        "title": "Calendar Check"
+      },
+      {
+        "name": "calendar-close",
+        "title": "Calendar Close"
+      },
+      {
+        "name": "calendar-event",
+        "title": "Calendar Event"
+      },
+      {
+        "name": "calendar",
+        "title": "Calendar"
+      },
+      {
+        "name": "calendar-schedule",
+        "title": "Calendar Schedule"
+      },
+      {
+        "name": "calendar-todo",
+        "title": "Calendar Todo"
+      },
+      {
+        "name": "cloud",
+        "title": "Cloud"
+      },
+      {
+        "name": "cloud-off",
+        "title": "Cloud Off"
+      },
+      {
+        "name": "copyleft",
+        "title": "Copyleft"
+      },
+      {
+        "name": "copyright",
+        "title": "Copyright"
+      },
+      {
+        "name": "creative-commons-by",
+        "title": "Creative Commons By"
+      },
+      {
+        "name": "creative-commons",
+        "title": "Creative Commons"
+      },
+      {
+        "name": "creative-commons-nc",
+        "title": "Creative Commons Nc"
+      },
+      {
+        "name": "creative-commons-nd",
+        "title": "Creative Commons Nd"
+      },
+      {
+        "name": "creative-commons-sa",
+        "title": "Creative Commons Sa"
+      },
+      {
+        "name": "creative-commons-zero",
+        "title": "Creative Commons Zero"
+      },
+      {
+        "name": "customer-service-2",
+        "title": "Customer Service 2"
+      },
+      {
+        "name": "customer-service",
+        "title": "Customer Service"
+      },
+      {
+        "name": "donut-chart",
+        "title": "Donut Chart"
+      },
+      {
+        "name": "flag-2",
+        "title": "Flag 2"
+      },
+      {
+        "name": "flag",
+        "title": "Flag"
+      },
+      {
+        "name": "flag-off",
+        "title": "Flag Off"
+      },
+      {
+        "name": "global",
+        "title": "Global"
+      },
+      {
+        "name": "global-off",
+        "title": "Global Off"
+      },
+      {
+        "name": "honour",
+        "title": "Honour"
+      },
+      {
+        "name": "id-card",
+        "title": "Id Card"
+      },
+      {
+        "name": "inbox-2",
+        "title": "Inbox 2"
+      },
+      {
+        "name": "inbox-archive",
+        "title": "Inbox Archive"
+      },
+      {
+        "name": "inbox",
+        "title": "Inbox"
+      },
+      {
+        "name": "inbox-unarchive",
+        "title": "Inbox Unarchive"
+      },
+      {
+        "name": "info-card",
+        "title": "Info Card"
+      },
+      {
+        "name": "line-chart",
+        "title": "Line Chart"
+      },
+      {
+        "name": "links",
+        "title": "Links"
+      },
+      {
+        "name": "mail-add",
+        "title": "Mail Add"
+      },
+      {
+        "name": "mail-ai",
+        "title": "Mail Ai"
+      },
+      {
+        "name": "mail-check",
+        "title": "Mail Check"
+      },
+      {
+        "name": "mail-close",
+        "title": "Mail Close"
+      },
+      {
+        "name": "mail-download",
+        "title": "Mail Download"
+      },
+      {
+        "name": "mail",
+        "title": "Mail"
+      },
+      {
+        "name": "mail-forbid",
+        "title": "Mail Forbid"
+      },
+      {
+        "name": "mail-lock",
+        "title": "Mail Lock"
+      },
+      {
+        "name": "mail-open",
+        "title": "Mail Open"
+      },
+      {
+        "name": "mail-send",
+        "title": "Mail Send"
+      },
+      {
+        "name": "mail-settings",
+        "title": "Mail Settings"
+      },
+      {
+        "name": "mail-star",
+        "title": "Mail Star"
+      },
+      {
+        "name": "mail-unread",
+        "title": "Mail Unread"
+      },
+      {
+        "name": "mail-volume",
+        "title": "Mail Volume"
+      },
+      {
+        "name": "medal-2",
+        "title": "Medal 2"
+      },
+      {
+        "name": "medal",
+        "title": "Medal"
+      },
+      {
+        "name": "megaphone",
+        "title": "Megaphone"
+      },
+      {
+        "name": "pass-expired",
+        "title": "Pass Expired"
+      },
+      {
+        "name": "pass-pending",
+        "title": "Pass Pending"
+      },
+      {
+        "name": "pass-valid",
+        "title": "Pass Valid"
+      },
+      {
+        "name": "pie-chart-2",
+        "title": "Pie Chart 2"
+      },
+      {
+        "name": "pie-chart-box",
+        "title": "Pie Chart Box"
+      },
+      {
+        "name": "pie-chart",
+        "title": "Pie Chart"
+      },
+      {
+        "name": "presentation",
+        "title": "Presentation"
+      },
+      {
+        "name": "printer-cloud",
+        "title": "Printer Cloud"
+      },
+      {
+        "name": "printer",
+        "title": "Printer"
+      },
+      {
+        "name": "profile",
+        "title": "Profile"
+      },
+      {
+        "name": "projector-2",
+        "title": "Projector 2"
+      },
+      {
+        "name": "projector",
+        "title": "Projector"
+      },
+      {
+        "name": "record-mail",
+        "title": "Record Mail"
+      },
+      {
+        "name": "registered",
+        "title": "Registered"
+      },
+      {
+        "name": "reply-all",
+        "title": "Reply All"
+      },
+      {
+        "name": "reply",
+        "title": "Reply"
+      },
+      {
+        "name": "send-ins",
+        "title": "Send Ins"
+      },
+      {
+        "name": "send-plane-2",
+        "title": "Send Plane 2"
+      },
+      {
+        "name": "send-plane",
+        "title": "Send Plane"
+      },
+      {
+        "name": "seo",
+        "title": "Seo"
+      },
+      {
+        "name": "service",
+        "title": "Service"
+      },
+      {
+        "name": "shake-hands",
+        "title": "Shake Hands"
+      },
+      {
+        "name": "slideshow-2",
+        "title": "Slideshow 2"
+      },
+      {
+        "name": "slideshow-3",
+        "title": "Slideshow 3"
+      },
+      {
+        "name": "slideshow-4",
+        "title": "Slideshow 4"
+      },
+      {
+        "name": "slideshow",
+        "title": "Slideshow"
+      },
+      {
+        "name": "stack",
+        "title": "Stack"
+      },
+      {
+        "name": "stacked-chart",
+        "title": "Stacked Chart"
+      },
+      {
+        "name": "trademark",
+        "title": "Trademark"
+      },
+      {
+        "name": "triangular-flag",
+        "title": "Triangular Flag"
+      },
+      {
+        "name": "verified-badge",
+        "title": "Verified Badge"
+      },
+      {
+        "name": "window-2",
+        "title": "Window 2"
+      },
+      {
+        "name": "window",
+        "title": "Window"
+      }
+    ],
+    "Communication": [
+      {
+        "name": "chat-1",
+        "title": "Chat 1"
+      },
+      {
+        "name": "chat-2",
+        "title": "Chat 2"
+      },
+      {
+        "name": "chat-3",
+        "title": "Chat 3"
+      },
+      {
+        "name": "chat-4",
+        "title": "Chat 4"
+      },
+      {
+        "name": "chat-ai-2",
+        "title": "Chat Ai 2"
+      },
+      {
+        "name": "chat-ai-3",
+        "title": "Chat Ai 3"
+      },
+      {
+        "name": "chat-ai-4",
+        "title": "Chat Ai 4"
+      },
+      {
+        "name": "chat-ai",
+        "title": "Chat Ai"
+      },
+      {
+        "name": "chat-check",
+        "title": "Chat Check"
+      },
+      {
+        "name": "chat-delete",
+        "title": "Chat Delete"
+      },
+      {
+        "name": "chat-download",
+        "title": "Chat Download"
+      },
+      {
+        "name": "chat-follow-up",
+        "title": "Chat Follow Up"
+      },
+      {
+        "name": "chat-forward",
+        "title": "Chat Forward"
+      },
+      {
+        "name": "chat-heart",
+        "title": "Chat Heart"
+      },
+      {
+        "name": "chat-history",
+        "title": "Chat History"
+      },
+      {
+        "name": "chat-new",
+        "title": "Chat New"
+      },
+      {
+        "name": "chat-off",
+        "title": "Chat Off"
+      },
+      {
+        "name": "chat-poll",
+        "title": "Chat Poll"
+      },
+      {
+        "name": "chat-private",
+        "title": "Chat Private"
+      },
+      {
+        "name": "chat-quote",
+        "title": "Chat Quote"
+      },
+      {
+        "name": "chat-search",
+        "title": "Chat Search"
+      },
+      {
+        "name": "chat-settings",
+        "title": "Chat Settings"
+      },
+      {
+        "name": "chat-smile-2",
+        "title": "Chat Smile 2"
+      },
+      {
+        "name": "chat-smile-3",
+        "title": "Chat Smile 3"
+      },
+      {
+        "name": "chat-smile-ai-3",
+        "title": "Chat Smile Ai 3"
+      },
+      {
+        "name": "chat-smile-ai",
+        "title": "Chat Smile Ai"
+      },
+      {
+        "name": "chat-smile",
+        "title": "Chat Smile"
+      },
+      {
+        "name": "chat-thread",
+        "title": "Chat Thread"
+      },
+      {
+        "name": "chat-unread",
+        "title": "Chat Unread"
+      },
+      {
+        "name": "chat-upload",
+        "title": "Chat Upload"
+      },
+      {
+        "name": "chat-voice-ai",
+        "title": "Chat Voice Ai"
+      },
+      {
+        "name": "chat-voice",
+        "title": "Chat Voice"
+      },
+      {
+        "name": "discuss",
+        "title": "Discuss"
+      },
+      {
+        "name": "emoji-sticker",
+        "title": "Emoji Sticker"
+      },
+      {
+        "name": "feedback",
+        "title": "Feedback"
+      },
+      {
+        "name": "message-2",
+        "title": "Message 2"
+      },
+      {
+        "name": "message-3",
+        "title": "Message 3"
+      },
+      {
+        "name": "message-ai-3",
+        "title": "Message Ai 3"
+      },
+      {
+        "name": "message",
+        "title": "Message"
+      },
+      {
+        "name": "question-answer",
+        "title": "Question Answer"
+      },
+      {
+        "name": "questionnaire",
+        "title": "Questionnaire"
+      },
+      {
+        "name": "speak-ai",
+        "title": "Speak Ai"
+      },
+      {
+        "name": "speak",
+        "title": "Speak"
+      },
+      {
+        "name": "speech-to-text",
+        "title": "Speech To Text"
+      },
+      {
+        "name": "text-to-speech",
+        "title": "Text To Speech"
+      },
+      {
+        "name": "video-chat",
+        "title": "Video Chat"
+      }
+    ],
+    "Design": [
+      {
+        "name": "ai-generate-2",
+        "title": "Ai Generate 2"
+      },
+      {
+        "name": "align-item-bottom",
+        "title": "Align Item Bottom"
+      },
+      {
+        "name": "align-item-horizontal-center",
+        "title": "Align Item Horizontal Center"
+      },
+      {
+        "name": "align-item-left",
+        "title": "Align Item Left"
+      },
+      {
+        "name": "align-item-right",
+        "title": "Align Item Right"
+      },
+      {
+        "name": "align-item-top",
+        "title": "Align Item Top"
+      },
+      {
+        "name": "align-item-vertical-center",
+        "title": "Align Item Vertical Center"
+      },
+      {
+        "name": "anticlockwise-2",
+        "title": "Anticlockwise 2"
+      },
+      {
+        "name": "anticlockwise",
+        "title": "Anticlockwise"
+      },
+      {
+        "name": "artboard-2",
+        "title": "Artboard 2"
+      },
+      {
+        "name": "artboard",
+        "title": "Artboard"
+      },
+      {
+        "name": "ball-pen",
+        "title": "Ball Pen"
+      },
+      {
+        "name": "blur-off",
+        "title": "Blur Off"
+      },
+      {
+        "name": "brush-2",
+        "title": "Brush 2"
+      },
+      {
+        "name": "brush-3",
+        "title": "Brush 3"
+      },
+      {
+        "name": "brush-4",
+        "title": "Brush 4"
+      },
+      {
+        "name": "brush-ai-3",
+        "title": "Brush Ai 3"
+      },
+      {
+        "name": "brush-ai",
+        "title": "Brush Ai"
+      },
+      {
+        "name": "brush",
+        "title": "Brush"
+      },
+      {
+        "name": "circle",
+        "title": "Circle"
+      },
+      {
+        "name": "clockwise-2",
+        "title": "Clockwise 2"
+      },
+      {
+        "name": "clockwise",
+        "title": "Clockwise"
+      },
+      {
+        "name": "collage",
+        "title": "Collage"
+      },
+      {
+        "name": "color-filter-ai",
+        "title": "Color Filter Ai"
+      },
+      {
+        "name": "color-filter",
+        "title": "Color Filter"
+      },
+      {
+        "name": "compasses-2",
+        "title": "Compasses 2"
+      },
+      {
+        "name": "compasses",
+        "title": "Compasses"
+      },
+      {
+        "name": "contrast-2",
+        "title": "Contrast 2"
+      },
+      {
+        "name": "contrast-drop-2",
+        "title": "Contrast Drop 2"
+      },
+      {
+        "name": "contrast-drop",
+        "title": "Contrast Drop"
+      },
+      {
+        "name": "contrast",
+        "title": "Contrast"
+      },
+      {
+        "name": "crop-2",
+        "title": "Crop 2"
+      },
+      {
+        "name": "crop",
+        "title": "Crop"
+      },
+      {
+        "name": "crosshair-2",
+        "title": "Crosshair 2"
+      },
+      {
+        "name": "crosshair",
+        "title": "Crosshair"
+      },
+      {
+        "name": "drag-drop",
+        "title": "Drag Drop"
+      },
+      {
+        "name": "drop",
+        "title": "Drop"
+      },
+      {
+        "name": "edit-2",
+        "title": "Edit 2"
+      },
+      {
+        "name": "edit-box",
+        "title": "Edit Box"
+      },
+      {
+        "name": "edit-circle",
+        "title": "Edit Circle"
+      },
+      {
+        "name": "edit",
+        "title": "Edit"
+      },
+      {
+        "name": "eraser",
+        "title": "Eraser"
+      },
+      {
+        "name": "flip-horizontal-2",
+        "title": "Flip Horizontal 2"
+      },
+      {
+        "name": "flip-horizontal",
+        "title": "Flip Horizontal"
+      },
+      {
+        "name": "flip-vertical-2",
+        "title": "Flip Vertical 2"
+      },
+      {
+        "name": "flip-vertical",
+        "title": "Flip Vertical"
+      },
+      {
+        "name": "focus-2",
+        "title": "Focus 2"
+      },
+      {
+        "name": "focus-3",
+        "title": "Focus 3"
+      },
+      {
+        "name": "focus",
+        "title": "Focus"
+      },
+      {
+        "name": "grid",
+        "title": "Grid"
+      },
+      {
+        "name": "hammer",
+        "title": "Hammer"
+      },
+      {
+        "name": "hexagon",
+        "title": "Hexagon"
+      },
+      {
+        "name": "ink-bottle",
+        "title": "Ink Bottle"
+      },
+      {
+        "name": "input-method",
+        "title": "Input Method"
+      },
+      {
+        "name": "layout-2",
+        "title": "Layout 2"
+      },
+      {
+        "name": "layout-3",
+        "title": "Layout 3"
+      },
+      {
+        "name": "layout-4",
+        "title": "Layout 4"
+      },
+      {
+        "name": "layout-5",
+        "title": "Layout 5"
+      },
+      {
+        "name": "layout-6",
+        "title": "Layout 6"
+      },
+      {
+        "name": "layout-bottom-2",
+        "title": "Layout Bottom 2"
+      },
+      {
+        "name": "layout-bottom",
+        "title": "Layout Bottom"
+      },
+      {
+        "name": "layout-column",
+        "title": "Layout Column"
+      },
+      {
+        "name": "layout",
+        "title": "Layout"
+      },
+      {
+        "name": "layout-grid-2",
+        "title": "Layout Grid 2"
+      },
+      {
+        "name": "layout-grid",
+        "title": "Layout Grid"
+      },
+      {
+        "name": "layout-horizontal",
+        "title": "Layout Horizontal"
+      },
+      {
+        "name": "layout-left-2",
+        "title": "Layout Left 2"
+      },
+      {
+        "name": "layout-left",
+        "title": "Layout Left"
+      },
+      {
+        "name": "layout-masonry",
+        "title": "Layout Masonry"
+      },
+      {
+        "name": "layout-right-2",
+        "title": "Layout Right 2"
+      },
+      {
+        "name": "layout-right",
+        "title": "Layout Right"
+      },
+      {
+        "name": "layout-row",
+        "title": "Layout Row"
+      },
+      {
+        "name": "layout-top-2",
+        "title": "Layout Top 2"
+      },
+      {
+        "name": "layout-top",
+        "title": "Layout Top"
+      },
+      {
+        "name": "layout-vertical",
+        "title": "Layout Vertical"
+      },
+      {
+        "name": "magic",
+        "title": "Magic"
+      },
+      {
+        "name": "mark-pen",
+        "title": "Mark Pen"
+      },
+      {
+        "name": "markup",
+        "title": "Markup"
+      },
+      {
+        "name": "octagon",
+        "title": "Octagon"
+      },
+      {
+        "name": "paint-brush",
+        "title": "Paint Brush"
+      },
+      {
+        "name": "paint",
+        "title": "Paint"
+      },
+      {
+        "name": "painting-ai",
+        "title": "Painting Ai"
+      },
+      {
+        "name": "painting",
+        "title": "Painting"
+      },
+      {
+        "name": "palette",
+        "title": "Palette"
+      },
+      {
+        "name": "pantone",
+        "title": "Pantone"
+      },
+      {
+        "name": "pen-nib",
+        "title": "Pen Nib"
+      },
+      {
+        "name": "pencil-ai-2",
+        "title": "Pencil Ai 2"
+      },
+      {
+        "name": "pencil-ai",
+        "title": "Pencil Ai"
+      },
+      {
+        "name": "pencil",
+        "title": "Pencil"
+      },
+      {
+        "name": "pencil-ruler-2",
+        "title": "Pencil Ruler 2"
+      },
+      {
+        "name": "pencil-ruler",
+        "title": "Pencil Ruler"
+      },
+      {
+        "name": "pentagon",
+        "title": "Pentagon"
+      },
+      {
+        "name": "quill-pen-ai",
+        "title": "Quill Pen Ai"
+      },
+      {
+        "name": "quill-pen",
+        "title": "Quill Pen"
+      },
+      {
+        "name": "rectangle",
+        "title": "Rectangle"
+      },
+      {
+        "name": "remix",
+        "title": "Remix"
+      },
+      {
+        "name": "ruler-2",
+        "title": "Ruler 2"
+      },
+      {
+        "name": "ruler",
+        "title": "Ruler"
+      },
+      {
+        "name": "scissors-2",
+        "title": "Scissors 2"
+      },
+      {
+        "name": "scissors-cut",
+        "title": "Scissors Cut"
+      },
+      {
+        "name": "scissors",
+        "title": "Scissors"
+      },
+      {
+        "name": "screenshot-2",
+        "title": "Screenshot 2"
+      },
+      {
+        "name": "screenshot",
+        "title": "Screenshot"
+      },
+      {
+        "name": "shadow",
+        "title": "Shadow"
+      },
+      {
+        "name": "shape-2",
+        "title": "Shape 2"
+      },
+      {
+        "name": "shape",
+        "title": "Shape"
+      },
+      {
+        "name": "shapes",
+        "title": "Shapes"
+      },
+      {
+        "name": "sip",
+        "title": "Sip"
+      },
+      {
+        "name": "slice",
+        "title": "Slice"
+      },
+      {
+        "name": "square",
+        "title": "Square"
+      },
+      {
+        "name": "t-box",
+        "title": "T Box"
+      },
+      {
+        "name": "table-alt",
+        "title": "Table Alt"
+      },
+      {
+        "name": "table",
+        "title": "Table"
+      },
+      {
+        "name": "tools",
+        "title": "Tools"
+      },
+      {
+        "name": "triangle",
+        "title": "Triangle"
+      },
+      {
+        "name": "wrench",
+        "title": "Wrench"
+      }
+    ],
+    "Development": [
+      {
+        "name": "braces",
+        "title": "Braces"
+      },
+      {
+        "name": "brackets",
+        "title": "Brackets"
+      },
+      {
+        "name": "bug-2",
+        "title": "Bug 2"
+      },
+      {
+        "name": "bug",
+        "title": "Bug"
+      },
+      {
+        "name": "code-ai",
+        "title": "Code Ai"
+      },
+      {
+        "name": "code-box",
+        "title": "Code Box"
+      },
+      {
+        "name": "code",
+        "title": "Code"
+      },
+      {
+        "name": "code-s",
+        "title": "Code S"
+      },
+      {
+        "name": "code-s-slash",
+        "title": "Code S Slash"
+      },
+      {
+        "name": "command",
+        "title": "Command"
+      },
+      {
+        "name": "css3",
+        "title": "Css3"
+      },
+      {
+        "name": "cursor",
+        "title": "Cursor"
+      },
+      {
+        "name": "git-branch",
+        "title": "Git Branch"
+      },
+      {
+        "name": "git-close-pull-request",
+        "title": "Git Close Pull Request"
+      },
+      {
+        "name": "git-commit",
+        "title": "Git Commit"
+      },
+      {
+        "name": "git-fork",
+        "title": "Git Fork"
+      },
+      {
+        "name": "git-merge",
+        "title": "Git Merge"
+      },
+      {
+        "name": "git-pr-draft",
+        "title": "Git Pr Draft"
+      },
+      {
+        "name": "git-pull-request",
+        "title": "Git Pull Request"
+      },
+      {
+        "name": "git-repository-commits",
+        "title": "Git Repository Commits"
+      },
+      {
+        "name": "git-repository",
+        "title": "Git Repository"
+      },
+      {
+        "name": "git-repository-private",
+        "title": "Git Repository Private"
+      },
+      {
+        "name": "html5",
+        "title": "Html5"
+      },
+      {
+        "name": "issues",
+        "title": "Issues"
+      },
+      {
+        "name": "issues-reopen",
+        "title": "Issues Reopen"
+      },
+      {
+        "name": "javascript",
+        "title": "Javascript"
+      },
+      {
+        "name": "parentheses",
+        "title": "Parentheses"
+      },
+      {
+        "name": "php",
+        "title": "Php"
+      },
+      {
+        "name": "puzzle-2",
+        "title": "Puzzle 2"
+      },
+      {
+        "name": "puzzle",
+        "title": "Puzzle"
+      },
+      {
+        "name": "terminal-box",
+        "title": "Terminal Box"
+      },
+      {
+        "name": "terminal",
+        "title": "Terminal"
+      },
+      {
+        "name": "terminal-window",
+        "title": "Terminal Window"
+      }
+    ],
+    "Device": [
+      {
+        "name": "airplay",
+        "title": "Airplay"
+      },
+      {
+        "name": "barcode-box",
+        "title": "Barcode Box"
+      },
+      {
+        "name": "barcode",
+        "title": "Barcode"
+      },
+      {
+        "name": "base-station",
+        "title": "Base Station"
+      },
+      {
+        "name": "battery-2-charge",
+        "title": "Battery 2 Charge"
+      },
+      {
+        "name": "battery-2",
+        "title": "Battery 2"
+      },
+      {
+        "name": "battery-charge",
+        "title": "Battery Charge"
+      },
+      {
+        "name": "battery",
+        "title": "Battery"
+      },
+      {
+        "name": "battery-low",
+        "title": "Battery Low"
+      },
+      {
+        "name": "battery-saver",
+        "title": "Battery Saver"
+      },
+      {
+        "name": "battery-share",
+        "title": "Battery Share"
+      },
+      {
+        "name": "bluetooth-connect",
+        "title": "Bluetooth Connect"
+      },
+      {
+        "name": "bluetooth",
+        "title": "Bluetooth"
+      },
+      {
+        "name": "cast",
+        "title": "Cast"
+      },
+      {
+        "name": "cellphone",
+        "title": "Cellphone"
+      },
+      {
+        "name": "computer",
+        "title": "Computer"
+      },
+      {
+        "name": "cpu",
+        "title": "Cpu"
+      },
+      {
+        "name": "dashboard-2",
+        "title": "Dashboard 2"
+      },
+      {
+        "name": "dashboard-3",
+        "title": "Dashboard 3"
+      },
+      {
+        "name": "database-2",
+        "title": "Database 2"
+      },
+      {
+        "name": "database",
+        "title": "Database"
+      },
+      {
+        "name": "device",
+        "title": "Device"
+      },
+      {
+        "name": "device-recover",
+        "title": "Device Recover"
+      },
+      {
+        "name": "dual-sim-1",
+        "title": "Dual Sim 1"
+      },
+      {
+        "name": "dual-sim-2",
+        "title": "Dual Sim 2"
+      },
+      {
+        "name": "fingerprint-2",
+        "title": "Fingerprint 2"
+      },
+      {
+        "name": "fingerprint",
+        "title": "Fingerprint"
+      },
+      {
+        "name": "gamepad",
+        "title": "Gamepad"
+      },
+      {
+        "name": "gps",
+        "title": "Gps"
+      },
+      {
+        "name": "gradienter",
+        "title": "Gradienter"
+      },
+      {
+        "name": "hard-drive-2",
+        "title": "Hard Drive 2"
+      },
+      {
+        "name": "hard-drive-3",
+        "title": "Hard Drive 3"
+      },
+      {
+        "name": "hard-drive",
+        "title": "Hard Drive"
+      },
+      {
+        "name": "hotspot",
+        "title": "Hotspot"
+      },
+      {
+        "name": "install",
+        "title": "Install"
+      },
+      {
+        "name": "instance",
+        "title": "Instance"
+      },
+      {
+        "name": "keyboard-box",
+        "title": "Keyboard Box"
+      },
+      {
+        "name": "keyboard",
+        "title": "Keyboard"
+      },
+      {
+        "name": "mac",
+        "title": "Mac"
+      },
+      {
+        "name": "macbook",
+        "title": "Macbook"
+      },
+      {
+        "name": "mobile-download",
+        "title": "Mobile Download"
+      },
+      {
+        "name": "mouse",
+        "title": "Mouse"
+      },
+      {
+        "name": "network-error",
+        "title": "Network Error"
+      },
+      {
+        "name": "network",
+        "title": "Network"
+      },
+      {
+        "name": "network-off",
+        "title": "Network Off"
+      },
+      {
+        "name": "phone",
+        "title": "Phone"
+      },
+      {
+        "name": "phone-find",
+        "title": "Phone Find"
+      },
+      {
+        "name": "phone-lock",
+        "title": "Phone Lock"
+      },
+      {
+        "name": "qr-code",
+        "title": "Qr Code"
+      },
+      {
+        "name": "qr-scan-2",
+        "title": "Qr Scan 2"
+      },
+      {
+        "name": "qr-scan",
+        "title": "Qr Scan"
+      },
+      {
+        "name": "radar",
+        "title": "Radar"
+      },
+      {
+        "name": "ram-2",
+        "title": "Ram 2"
+      },
+      {
+        "name": "ram",
+        "title": "Ram"
+      },
+      {
+        "name": "remote-control-2",
+        "title": "Remote Control 2"
+      },
+      {
+        "name": "remote-control",
+        "title": "Remote Control"
+      },
+      {
+        "name": "restart",
+        "title": "Restart"
+      },
+      {
+        "name": "rfid",
+        "title": "Rfid"
+      },
+      {
+        "name": "rotate-lock",
+        "title": "Rotate Lock"
+      },
+      {
+        "name": "router",
+        "title": "Router"
+      },
+      {
+        "name": "rss",
+        "title": "Rss"
+      },
+      {
+        "name": "save-2",
+        "title": "Save 2"
+      },
+      {
+        "name": "save-3",
+        "title": "Save 3"
+      },
+      {
+        "name": "save",
+        "title": "Save"
+      },
+      {
+        "name": "scan-2",
+        "title": "Scan 2"
+      },
+      {
+        "name": "scan",
+        "title": "Scan"
+      },
+      {
+        "name": "sd-card",
+        "title": "Sd Card"
+      },
+      {
+        "name": "sd-card-mini",
+        "title": "Sd Card Mini"
+      },
+      {
+        "name": "sensor",
+        "title": "Sensor"
+      },
+      {
+        "name": "server",
+        "title": "Server"
+      },
+      {
+        "name": "shut-down",
+        "title": "Shut Down"
+      },
+      {
+        "name": "signal-cellular-1",
+        "title": "Signal Cellular 1"
+      },
+      {
+        "name": "signal-cellular-2",
+        "title": "Signal Cellular 2"
+      },
+      {
+        "name": "signal-cellular-3",
+        "title": "Signal Cellular 3"
+      },
+      {
+        "name": "signal-cellular-off",
+        "title": "Signal Cellular Off"
+      },
+      {
+        "name": "signal-wifi-1",
+        "title": "Signal Wifi 1"
+      },
+      {
+        "name": "signal-wifi-2",
+        "title": "Signal Wifi 2"
+      },
+      {
+        "name": "signal-wifi-3",
+        "title": "Signal Wifi 3"
+      },
+      {
+        "name": "signal-wifi-error",
+        "title": "Signal Wifi Error"
+      },
+      {
+        "name": "signal-wifi",
+        "title": "Signal Wifi"
+      },
+      {
+        "name": "signal-wifi-off",
+        "title": "Signal Wifi Off"
+      },
+      {
+        "name": "sim-card-2",
+        "title": "Sim Card 2"
+      },
+      {
+        "name": "sim-card",
+        "title": "Sim Card"
+      },
+      {
+        "name": "smartphone",
+        "title": "Smartphone"
+      },
+      {
+        "name": "tablet",
+        "title": "Tablet"
+      },
+      {
+        "name": "tv-2",
+        "title": "Tv 2"
+      },
+      {
+        "name": "tv",
+        "title": "Tv"
+      },
+      {
+        "name": "u-disk",
+        "title": "U Disk"
+      },
+      {
+        "name": "uninstall",
+        "title": "Uninstall"
+      },
+      {
+        "name": "usb",
+        "title": "Usb"
+      },
+      {
+        "name": "wifi",
+        "title": "Wifi"
+      },
+      {
+        "name": "wifi-off",
+        "title": "Wifi Off"
+      },
+      {
+        "name": "wireless-charging",
+        "title": "Wireless Charging"
+      }
+    ],
+    "Document": [
+      {
+        "name": "article",
+        "title": "Article"
+      },
+      {
+        "name": "bill",
+        "title": "Bill"
+      },
+      {
+        "name": "book-2",
+        "title": "Book 2"
+      },
+      {
+        "name": "book-3",
+        "title": "Book 3"
+      },
+      {
+        "name": "book-ai",
+        "title": "Book Ai"
+      },
+      {
+        "name": "book",
+        "title": "Book"
+      },
+      {
+        "name": "book-marked",
+        "title": "Book Marked"
+      },
+      {
+        "name": "book-open",
+        "title": "Book Open"
+      },
+      {
+        "name": "book-read",
+        "title": "Book Read"
+      },
+      {
+        "name": "booklet",
+        "title": "Booklet"
+      },
+      {
+        "name": "clipboard",
+        "title": "Clipboard"
+      },
+      {
+        "name": "contacts-book-2",
+        "title": "Contacts Book 2"
+      },
+      {
+        "name": "contacts-book-3",
+        "title": "Contacts Book 3"
+      },
+      {
+        "name": "contacts-book",
+        "title": "Contacts Book"
+      },
+      {
+        "name": "contacts-book-upload",
+        "title": "Contacts Book Upload"
+      },
+      {
+        "name": "contract",
+        "title": "Contract"
+      },
+      {
+        "name": "draft",
+        "title": "Draft"
+      },
+      {
+        "name": "file-2",
+        "title": "File 2"
+      },
+      {
+        "name": "file-3",
+        "title": "File 3"
+      },
+      {
+        "name": "file-4",
+        "title": "File 4"
+      },
+      {
+        "name": "file-add",
+        "title": "File Add"
+      },
+      {
+        "name": "file-ai-2",
+        "title": "File Ai 2"
+      },
+      {
+        "name": "file-ai",
+        "title": "File Ai"
+      },
+      {
+        "name": "file-chart-2",
+        "title": "File Chart 2"
+      },
+      {
+        "name": "file-chart",
+        "title": "File Chart"
+      },
+      {
+        "name": "file-check",
+        "title": "File Check"
+      },
+      {
+        "name": "file-close",
+        "title": "File Close"
+      },
+      {
+        "name": "file-cloud",
+        "title": "File Cloud"
+      },
+      {
+        "name": "file-code",
+        "title": "File Code"
+      },
+      {
+        "name": "file-copy-2",
+        "title": "File Copy 2"
+      },
+      {
+        "name": "file-copy",
+        "title": "File Copy"
+      },
+      {
+        "name": "file-damage",
+        "title": "File Damage"
+      },
+      {
+        "name": "file-download",
+        "title": "File Download"
+      },
+      {
+        "name": "file-edit",
+        "title": "File Edit"
+      },
+      {
+        "name": "file-excel-2",
+        "title": "File Excel 2"
+      },
+      {
+        "name": "file-excel",
+        "title": "File Excel"
+      },
+      {
+        "name": "file",
+        "title": "File"
+      },
+      {
+        "name": "file-forbid",
+        "title": "File Forbid"
+      },
+      {
+        "name": "file-gif",
+        "title": "File Gif"
+      },
+      {
+        "name": "file-history",
+        "title": "File History"
+      },
+      {
+        "name": "file-hwp",
+        "title": "File Hwp"
+      },
+      {
+        "name": "file-image",
+        "title": "File Image"
+      },
+      {
+        "name": "file-info",
+        "title": "File Info"
+      },
+      {
+        "name": "file-list-2",
+        "title": "File List 2"
+      },
+      {
+        "name": "file-list-3",
+        "title": "File List 3"
+      },
+      {
+        "name": "file-list",
+        "title": "File List"
+      },
+      {
+        "name": "file-lock",
+        "title": "File Lock"
+      },
+      {
+        "name": "file-marked",
+        "title": "File Marked"
+      },
+      {
+        "name": "file-music",
+        "title": "File Music"
+      },
+      {
+        "name": "file-paper-2",
+        "title": "File Paper 2"
+      },
+      {
+        "name": "file-paper",
+        "title": "File Paper"
+      },
+      {
+        "name": "file-pdf-2",
+        "title": "File Pdf 2"
+      },
+      {
+        "name": "file-pdf",
+        "title": "File Pdf"
+      },
+      {
+        "name": "file-ppt-2",
+        "title": "File Ppt 2"
+      },
+      {
+        "name": "file-ppt",
+        "title": "File Ppt"
+      },
+      {
+        "name": "file-reduce",
+        "title": "File Reduce"
+      },
+      {
+        "name": "file-scan",
+        "title": "File Scan"
+      },
+      {
+        "name": "file-search",
+        "title": "File Search"
+      },
+      {
+        "name": "file-settings",
+        "title": "File Settings"
+      },
+      {
+        "name": "file-shield-2",
+        "title": "File Shield 2"
+      },
+      {
+        "name": "file-shield",
+        "title": "File Shield"
+      },
+      {
+        "name": "file-shred",
+        "title": "File Shred"
+      },
+      {
+        "name": "file-text",
+        "title": "File Text"
+      },
+      {
+        "name": "file-transfer",
+        "title": "File Transfer"
+      },
+      {
+        "name": "file-unknow",
+        "title": "File Unknow"
+      },
+      {
+        "name": "file-upload",
+        "title": "File Upload"
+      },
+      {
+        "name": "file-user",
+        "title": "File User"
+      },
+      {
+        "name": "file-video",
+        "title": "File Video"
+      },
+      {
+        "name": "file-warning",
+        "title": "File Warning"
+      },
+      {
+        "name": "file-word-2",
+        "title": "File Word 2"
+      },
+      {
+        "name": "file-word",
+        "title": "File Word"
+      },
+      {
+        "name": "file-zip",
+        "title": "File Zip"
+      },
+      {
+        "name": "folder-2",
+        "title": "Folder 2"
+      },
+      {
+        "name": "folder-3",
+        "title": "Folder 3"
+      },
+      {
+        "name": "folder-4",
+        "title": "Folder 4"
+      },
+      {
+        "name": "folder-5",
+        "title": "Folder 5"
+      },
+      {
+        "name": "folder-6",
+        "title": "Folder 6"
+      },
+      {
+        "name": "folder-add",
+        "title": "Folder Add"
+      },
+      {
+        "name": "folder-chart-2",
+        "title": "Folder Chart 2"
+      },
+      {
+        "name": "folder-chart",
+        "title": "Folder Chart"
+      },
+      {
+        "name": "folder-check",
+        "title": "Folder Check"
+      },
+      {
+        "name": "folder-close",
+        "title": "Folder Close"
+      },
+      {
+        "name": "folder-cloud",
+        "title": "Folder Cloud"
+      },
+      {
+        "name": "folder-download",
+        "title": "Folder Download"
+      },
+      {
+        "name": "folder",
+        "title": "Folder"
+      },
+      {
+        "name": "folder-forbid",
+        "title": "Folder Forbid"
+      },
+      {
+        "name": "folder-history",
+        "title": "Folder History"
+      },
+      {
+        "name": "folder-image",
+        "title": "Folder Image"
+      },
+      {
+        "name": "folder-info",
+        "title": "Folder Info"
+      },
+      {
+        "name": "folder-keyhole",
+        "title": "Folder Keyhole"
+      },
+      {
+        "name": "folder-lock",
+        "title": "Folder Lock"
+      },
+      {
+        "name": "folder-music",
+        "title": "Folder Music"
+      },
+      {
+        "name": "folder-open",
+        "title": "Folder Open"
+      },
+      {
+        "name": "folder-received",
+        "title": "Folder Received"
+      },
+      {
+        "name": "folder-reduce",
+        "title": "Folder Reduce"
+      },
+      {
+        "name": "folder-settings",
+        "title": "Folder Settings"
+      },
+      {
+        "name": "folder-shared",
+        "title": "Folder Shared"
+      },
+      {
+        "name": "folder-shield-2",
+        "title": "Folder Shield 2"
+      },
+      {
+        "name": "folder-shield",
+        "title": "Folder Shield"
+      },
+      {
+        "name": "folder-transfer",
+        "title": "Folder Transfer"
+      },
+      {
+        "name": "folder-unknow",
+        "title": "Folder Unknow"
+      },
+      {
+        "name": "folder-upload",
+        "title": "Folder Upload"
+      },
+      {
+        "name": "folder-user",
+        "title": "Folder User"
+      },
+      {
+        "name": "folder-video",
+        "title": "Folder Video"
+      },
+      {
+        "name": "folder-warning",
+        "title": "Folder Warning"
+      },
+      {
+        "name": "folder-zip",
+        "title": "Folder Zip"
+      },
+      {
+        "name": "folders",
+        "title": "Folders"
+      },
+      {
+        "name": "keynote",
+        "title": "Keynote"
+      },
+      {
+        "name": "markdown",
+        "title": "Markdown"
+      },
+      {
+        "name": "news",
+        "title": "News"
+      },
+      {
+        "name": "newspaper",
+        "title": "Newspaper"
+      },
+      {
+        "name": "numbers",
+        "title": "Numbers"
+      },
+      {
+        "name": "pages",
+        "title": "Pages"
+      },
+      {
+        "name": "receipt",
+        "title": "Receipt"
+      },
+      {
+        "name": "sticky-note-2",
+        "title": "Sticky Note 2"
+      },
+      {
+        "name": "sticky-note-add",
+        "title": "Sticky Note Add"
+      },
+      {
+        "name": "sticky-note",
+        "title": "Sticky Note"
+      },
+      {
+        "name": "survey",
+        "title": "Survey"
+      },
+      {
+        "name": "task",
+        "title": "Task"
+      },
+      {
+        "name": "todo",
+        "title": "Todo"
+      }
+    ],
+    "Editor": [
+      {
+        "name": "a-b",
+        "title": "A B"
+      },
+      {
+        "name": "ai-generate-2",
+        "title": "Ai Generate 2"
+      },
+      {
+        "name": "ai-generate-text",
+        "title": "Ai Generate Text"
+      },
+      {
+        "name": "ai-generate",
+        "title": "Ai Generate"
+      },
+      {
+        "name": "ai",
+        "title": "Ai"
+      },
+      {
+        "name": "align-bottom",
+        "title": "Align Bottom"
+      },
+      {
+        "name": "align-center",
+        "title": "Align Center"
+      },
+      {
+        "name": "align-justify",
+        "title": "Align Justify"
+      },
+      {
+        "name": "align-left",
+        "title": "Align Left"
+      },
+      {
+        "name": "align-right",
+        "title": "Align Right"
+      },
+      {
+        "name": "align-top",
+        "title": "Align Top"
+      },
+      {
+        "name": "align-vertically",
+        "title": "Align Vertically"
+      },
+      {
+        "name": "asterisk",
+        "title": "Asterisk"
+      },
+      {
+        "name": "attachment-2",
+        "title": "Attachment 2"
+      },
+      {
+        "name": "bold",
+        "title": "Bold"
+      },
+      {
+        "name": "bring-forward",
+        "title": "Bring Forward"
+      },
+      {
+        "name": "bring-to-front",
+        "title": "Bring To Front"
+      },
+      {
+        "name": "calendar-view",
+        "title": "Calendar View"
+      },
+      {
+        "name": "carousel-view",
+        "title": "Carousel View"
+      },
+      {
+        "name": "code-block",
+        "title": "Code Block"
+      },
+      {
+        "name": "code-view",
+        "title": "Code View"
+      },
+      {
+        "name": "cursor-hand",
+        "title": "Cursor Hand"
+      },
+      {
+        "name": "custom-size",
+        "title": "Custom Size"
+      },
+      {
+        "name": "delete-column",
+        "title": "Delete Column"
+      },
+      {
+        "name": "delete-row",
+        "title": "Delete Row"
+      },
+      {
+        "name": "double-quotes-l",
+        "title": "Double Quotes L"
+      },
+      {
+        "name": "double-quotes-r",
+        "title": "Double Quotes R"
+      },
+      {
+        "name": "draggable",
+        "title": "Draggable"
+      },
+      {
+        "name": "dropdown-list",
+        "title": "Dropdown List"
+      },
+      {
+        "name": "emphasis-cn",
+        "title": "Emphasis Cn"
+      },
+      {
+        "name": "emphasis",
+        "title": "Emphasis"
+      },
+      {
+        "name": "english-input",
+        "title": "English Input"
+      },
+      {
+        "name": "flow-chart",
+        "title": "Flow Chart"
+      },
+      {
+        "name": "focus-mode",
+        "title": "Focus Mode"
+      },
+      {
+        "name": "font-color",
+        "title": "Font Color"
+      },
+      {
+        "name": "font-family",
+        "title": "Font Family"
+      },
+      {
+        "name": "font-mono",
+        "title": "Font Mono"
+      },
+      {
+        "name": "font-sans-serif",
+        "title": "Font Sans Serif"
+      },
+      {
+        "name": "font-serif",
+        "title": "Font Serif"
+      },
+      {
+        "name": "font-size-2",
+        "title": "Font Size 2"
+      },
+      {
+        "name": "font-size-ai",
+        "title": "Font Size Ai"
+      },
+      {
+        "name": "font-size",
+        "title": "Font Size"
+      },
+      {
+        "name": "format-clear",
+        "title": "Format Clear"
+      },
+      {
+        "name": "formula",
+        "title": "Formula"
+      },
+      {
+        "name": "functions",
+        "title": "Functions"
+      },
+      {
+        "name": "gallery-view-2",
+        "title": "Gallery View 2"
+      },
+      {
+        "name": "gallery-view",
+        "title": "Gallery View"
+      },
+      {
+        "name": "h-1",
+        "title": "H 1"
+      },
+      {
+        "name": "h-2",
+        "title": "H 2"
+      },
+      {
+        "name": "h-3",
+        "title": "H 3"
+      },
+      {
+        "name": "h-4",
+        "title": "H 4"
+      },
+      {
+        "name": "h-5",
+        "title": "H 5"
+      },
+      {
+        "name": "h-6",
+        "title": "H 6"
+      },
+      {
+        "name": "hand",
+        "title": "Hand"
+      },
+      {
+        "name": "hashtag",
+        "title": "Hashtag"
+      },
+      {
+        "name": "heading",
+        "title": "Heading"
+      },
+      {
+        "name": "indent-decrease",
+        "title": "Indent Decrease"
+      },
+      {
+        "name": "indent-increase",
+        "title": "Indent Increase"
+      },
+      {
+        "name": "info-i",
+        "title": "Info I"
+      },
+      {
+        "name": "input-cursor-move",
+        "title": "Input Cursor Move"
+      },
+      {
+        "name": "input-field",
+        "title": "Input Field"
+      },
+      {
+        "name": "insert-column-left",
+        "title": "Insert Column Left"
+      },
+      {
+        "name": "insert-column-right",
+        "title": "Insert Column Right"
+      },
+      {
+        "name": "insert-row-bottom",
+        "title": "Insert Row Bottom"
+      },
+      {
+        "name": "insert-row-top",
+        "title": "Insert Row Top"
+      },
+      {
+        "name": "italic",
+        "title": "Italic"
+      },
+      {
+        "name": "kanban-view-2",
+        "title": "Kanban View 2"
+      },
+      {
+        "name": "kanban-view",
+        "title": "Kanban View"
+      },
+      {
+        "name": "letter-spacing-2",
+        "title": "Letter Spacing 2"
+      },
+      {
+        "name": "line-height-2",
+        "title": "Line Height 2"
+      },
+      {
+        "name": "line-height",
+        "title": "Line Height"
+      },
+      {
+        "name": "link-m",
+        "title": "Link M"
+      },
+      {
+        "name": "link-unlink-m",
+        "title": "Link Unlink M"
+      },
+      {
+        "name": "link-unlink",
+        "title": "Link Unlink"
+      },
+      {
+        "name": "link",
+        "title": "Link"
+      },
+      {
+        "name": "list-check-2",
+        "title": "List Check 2"
+      },
+      {
+        "name": "list-check-3",
+        "title": "List Check 3"
+      },
+      {
+        "name": "list-check",
+        "title": "List Check"
+      },
+      {
+        "name": "list-indefinite",
+        "title": "List Indefinite"
+      },
+      {
+        "name": "list-ordered-2",
+        "title": "List Ordered 2"
+      },
+      {
+        "name": "list-ordered",
+        "title": "List Ordered"
+      },
+      {
+        "name": "list-radio",
+        "title": "List Radio"
+      },
+      {
+        "name": "list-unordered",
+        "title": "List Unordered"
+      },
+      {
+        "name": "list-view",
+        "title": "List View"
+      },
+      {
+        "name": "merge-cells-horizontal",
+        "title": "Merge Cells Horizontal"
+      },
+      {
+        "name": "merge-cells-vertical",
+        "title": "Merge Cells Vertical"
+      },
+      {
+        "name": "mind-map",
+        "title": "Mind Map"
+      },
+      {
+        "name": "node-tree",
+        "title": "Node Tree"
+      },
+      {
+        "name": "number-0",
+        "title": "Number 0"
+      },
+      {
+        "name": "number-1",
+        "title": "Number 1"
+      },
+      {
+        "name": "number-2",
+        "title": "Number 2"
+      },
+      {
+        "name": "number-3",
+        "title": "Number 3"
+      },
+      {
+        "name": "number-4",
+        "title": "Number 4"
+      },
+      {
+        "name": "number-5",
+        "title": "Number 5"
+      },
+      {
+        "name": "number-6",
+        "title": "Number 6"
+      },
+      {
+        "name": "number-7",
+        "title": "Number 7"
+      },
+      {
+        "name": "number-8",
+        "title": "Number 8"
+      },
+      {
+        "name": "number-9",
+        "title": "Number 9"
+      },
+      {
+        "name": "omega",
+        "title": "Omega"
+      },
+      {
+        "name": "organization-chart",
+        "title": "Organization Chart"
+      },
+      {
+        "name": "overline",
+        "title": "Overline"
+      },
+      {
+        "name": "page-separator",
+        "title": "Page Separator"
+      },
+      {
+        "name": "paragraph",
+        "title": "Paragraph"
+      },
+      {
+        "name": "pinyin-input",
+        "title": "Pinyin Input"
+      },
+      {
+        "name": "question-mark",
+        "title": "Question Mark"
+      },
+      {
+        "name": "quote-text",
+        "title": "Quote Text"
+      },
+      {
+        "name": "rounded-corner",
+        "title": "Rounded Corner"
+      },
+      {
+        "name": "send-backward",
+        "title": "Send Backward"
+      },
+      {
+        "name": "send-to-back",
+        "title": "Send To Back"
+      },
+      {
+        "name": "separator",
+        "title": "Separator"
+      },
+      {
+        "name": "single-quotes-l",
+        "title": "Single Quotes L"
+      },
+      {
+        "name": "single-quotes-r",
+        "title": "Single Quotes R"
+      },
+      {
+        "name": "sketching",
+        "title": "Sketching"
+      },
+      {
+        "name": "slash-commands-2",
+        "title": "Slash Commands 2"
+      },
+      {
+        "name": "slash-commands",
+        "title": "Slash Commands"
+      },
+      {
+        "name": "slideshow-view",
+        "title": "Slideshow View"
+      },
+      {
+        "name": "sort-alphabet-asc",
+        "title": "Sort Alphabet Asc"
+      },
+      {
+        "name": "sort-alphabet-desc",
+        "title": "Sort Alphabet Desc"
+      },
+      {
+        "name": "sort-asc",
+        "title": "Sort Asc"
+      },
+      {
+        "name": "sort-desc",
+        "title": "Sort Desc"
+      },
+      {
+        "name": "sort-number-asc",
+        "title": "Sort Number Asc"
+      },
+      {
+        "name": "sort-number-desc",
+        "title": "Sort Number Desc"
+      },
+      {
+        "name": "space",
+        "title": "Space"
+      },
+      {
+        "name": "split-cells-horizontal",
+        "title": "Split Cells Horizontal"
+      },
+      {
+        "name": "split-cells-vertical",
+        "title": "Split Cells Vertical"
+      },
+      {
+        "name": "square-root",
+        "title": "Square Root"
+      },
+      {
+        "name": "stacked-view",
+        "title": "Stacked View"
+      },
+      {
+        "name": "strikethrough-2",
+        "title": "Strikethrough 2"
+      },
+      {
+        "name": "strikethrough",
+        "title": "Strikethrough"
+      },
+      {
+        "name": "subscript-2",
+        "title": "Subscript 2"
+      },
+      {
+        "name": "subscript",
+        "title": "Subscript"
+      },
+      {
+        "name": "superscript-2",
+        "title": "Superscript 2"
+      },
+      {
+        "name": "superscript",
+        "title": "Superscript"
+      },
+      {
+        "name": "table-2",
+        "title": "Table 2"
+      },
+      {
+        "name": "table-3",
+        "title": "Table 3"
+      },
+      {
+        "name": "table-view",
+        "title": "Table View"
+      },
+      {
+        "name": "text-block",
+        "title": "Text Block"
+      },
+      {
+        "name": "text-direction-l",
+        "title": "Text Direction L"
+      },
+      {
+        "name": "text-direction-r",
+        "title": "Text Direction R"
+      },
+      {
+        "name": "text-snippet",
+        "title": "Text Snippet"
+      },
+      {
+        "name": "text-spacing",
+        "title": "Text Spacing"
+      },
+      {
+        "name": "text-wrap",
+        "title": "Text Wrap"
+      },
+      {
+        "name": "text",
+        "title": "Text"
+      },
+      {
+        "name": "timeline-view",
+        "title": "Timeline View"
+      },
+      {
+        "name": "translate-2",
+        "title": "Translate 2"
+      },
+      {
+        "name": "translate-ai-2",
+        "title": "Translate Ai 2"
+      },
+      {
+        "name": "translate-ai",
+        "title": "Translate Ai"
+      },
+      {
+        "name": "translate",
+        "title": "Translate"
+      },
+      {
+        "name": "underline",
+        "title": "Underline"
+      },
+      {
+        "name": "wubi-input",
+        "title": "Wubi Input"
+      }
+    ],
+    "Finance": [
+      {
+        "name": "24-hours",
+        "title": "24 Hours"
+      },
+      {
+        "name": "auction",
+        "title": "Auction"
+      },
+      {
+        "name": "bank-card-2",
+        "title": "Bank Card 2"
+      },
+      {
+        "name": "bank-card",
+        "title": "Bank Card"
+      },
+      {
+        "name": "bit-coin",
+        "title": "Bit Coin"
+      },
+      {
+        "name": "bnb",
+        "title": "Bnb"
+      },
+      {
+        "name": "btc",
+        "title": "Btc"
+      },
+      {
+        "name": "cash",
+        "title": "Cash"
+      },
+      {
+        "name": "coin",
+        "title": "Coin"
+      },
+      {
+        "name": "coins",
+        "title": "Coins"
+      },
+      {
+        "name": "copper-coin",
+        "title": "Copper Coin"
+      },
+      {
+        "name": "copper-diamond",
+        "title": "Copper Diamond"
+      },
+      {
+        "name": "coupon-2",
+        "title": "Coupon 2"
+      },
+      {
+        "name": "coupon-3",
+        "title": "Coupon 3"
+      },
+      {
+        "name": "coupon-4",
+        "title": "Coupon 4"
+      },
+      {
+        "name": "coupon-5",
+        "title": "Coupon 5"
+      },
+      {
+        "name": "coupon",
+        "title": "Coupon"
+      },
+      {
+        "name": "currency",
+        "title": "Currency"
+      },
+      {
+        "name": "diamond",
+        "title": "Diamond"
+      },
+      {
+        "name": "diamond-ring",
+        "title": "Diamond Ring"
+      },
+      {
+        "name": "discount-percent",
+        "title": "Discount Percent"
+      },
+      {
+        "name": "eth",
+        "title": "Eth"
+      },
+      {
+        "name": "exchange-2",
+        "title": "Exchange 2"
+      },
+      {
+        "name": "exchange-box",
+        "title": "Exchange Box"
+      },
+      {
+        "name": "exchange-cny",
+        "title": "Exchange Cny"
+      },
+      {
+        "name": "exchange-dollar",
+        "title": "Exchange Dollar"
+      },
+      {
+        "name": "exchange",
+        "title": "Exchange"
+      },
+      {
+        "name": "exchange-funds",
+        "title": "Exchange Funds"
+      },
+      {
+        "name": "funds-box",
+        "title": "Funds Box"
+      },
+      {
+        "name": "funds",
+        "title": "Funds"
+      },
+      {
+        "name": "gift-2",
+        "title": "Gift 2"
+      },
+      {
+        "name": "gift",
+        "title": "Gift"
+      },
+      {
+        "name": "hand-coin",
+        "title": "Hand Coin"
+      },
+      {
+        "name": "hand-heart",
+        "title": "Hand Heart"
+      },
+      {
+        "name": "increase-decrease",
+        "title": "Increase Decrease"
+      },
+      {
+        "name": "jewelry",
+        "title": "Jewelry"
+      },
+      {
+        "name": "money-cny-box",
+        "title": "Money Cny Box"
+      },
+      {
+        "name": "money-cny-circle",
+        "title": "Money Cny Circle"
+      },
+      {
+        "name": "money-dollar-box",
+        "title": "Money Dollar Box"
+      },
+      {
+        "name": "money-dollar-circle",
+        "title": "Money Dollar Circle"
+      },
+      {
+        "name": "money-euro-box",
+        "title": "Money Euro Box"
+      },
+      {
+        "name": "money-euro-circle",
+        "title": "Money Euro Circle"
+      },
+      {
+        "name": "money-pound-box",
+        "title": "Money Pound Box"
+      },
+      {
+        "name": "money-pound-circle",
+        "title": "Money Pound Circle"
+      },
+      {
+        "name": "money-rupee-circle",
+        "title": "Money Rupee Circle"
+      },
+      {
+        "name": "nft",
+        "title": "Nft"
+      },
+      {
+        "name": "no-credit-card",
+        "title": "No Credit Card"
+      },
+      {
+        "name": "p2p",
+        "title": "P2p"
+      },
+      {
+        "name": "percent",
+        "title": "Percent"
+      },
+      {
+        "name": "price-tag-2",
+        "title": "Price Tag 2"
+      },
+      {
+        "name": "price-tag-3",
+        "title": "Price Tag 3"
+      },
+      {
+        "name": "price-tag",
+        "title": "Price Tag"
+      },
+      {
+        "name": "red-packet",
+        "title": "Red Packet"
+      },
+      {
+        "name": "refund-2",
+        "title": "Refund 2"
+      },
+      {
+        "name": "refund",
+        "title": "Refund"
+      },
+      {
+        "name": "safe-2",
+        "title": "Safe 2"
+      },
+      {
+        "name": "safe-3",
+        "title": "Safe 3"
+      },
+      {
+        "name": "safe",
+        "title": "Safe"
+      },
+      {
+        "name": "secure-payment",
+        "title": "Secure Payment"
+      },
+      {
+        "name": "shopping-bag-2",
+        "title": "Shopping Bag 2"
+      },
+      {
+        "name": "shopping-bag-3",
+        "title": "Shopping Bag 3"
+      },
+      {
+        "name": "shopping-bag-4",
+        "title": "Shopping Bag 4"
+      },
+      {
+        "name": "shopping-bag",
+        "title": "Shopping Bag"
+      },
+      {
+        "name": "shopping-basket-2",
+        "title": "Shopping Basket 2"
+      },
+      {
+        "name": "shopping-basket",
+        "title": "Shopping Basket"
+      },
+      {
+        "name": "shopping-cart-2",
+        "title": "Shopping Cart 2"
+      },
+      {
+        "name": "shopping-cart",
+        "title": "Shopping Cart"
+      },
+      {
+        "name": "stock",
+        "title": "Stock"
+      },
+      {
+        "name": "swap-2",
+        "title": "Swap 2"
+      },
+      {
+        "name": "swap-3",
+        "title": "Swap 3"
+      },
+      {
+        "name": "swap-box",
+        "title": "Swap Box"
+      },
+      {
+        "name": "swap",
+        "title": "Swap"
+      },
+      {
+        "name": "ticket-2",
+        "title": "Ticket 2"
+      },
+      {
+        "name": "ticket",
+        "title": "Ticket"
+      },
+      {
+        "name": "token-swap",
+        "title": "Token Swap"
+      },
+      {
+        "name": "trophy",
+        "title": "Trophy"
+      },
+      {
+        "name": "vip-crown-2",
+        "title": "Vip Crown 2"
+      },
+      {
+        "name": "vip-crown",
+        "title": "Vip Crown"
+      },
+      {
+        "name": "vip-diamond",
+        "title": "Vip Diamond"
+      },
+      {
+        "name": "vip",
+        "title": "Vip"
+      },
+      {
+        "name": "wallet-2",
+        "title": "Wallet 2"
+      },
+      {
+        "name": "wallet-3",
+        "title": "Wallet 3"
+      },
+      {
+        "name": "wallet",
+        "title": "Wallet"
+      },
+      {
+        "name": "water-flash",
+        "title": "Water Flash"
+      },
+      {
+        "name": "xrp",
+        "title": "Xrp"
+      },
+      {
+        "name": "xtz",
+        "title": "Xtz"
+      }
+    ],
+    "Food": [
+      {
+        "name": "beer",
+        "title": "Beer"
+      },
+      {
+        "name": "bowl",
+        "title": "Bowl"
+      },
+      {
+        "name": "bread",
+        "title": "Bread"
+      },
+      {
+        "name": "cake-2",
+        "title": "Cake 2"
+      },
+      {
+        "name": "cake-3",
+        "title": "Cake 3"
+      },
+      {
+        "name": "cake",
+        "title": "Cake"
+      },
+      {
+        "name": "cup",
+        "title": "Cup"
+      },
+      {
+        "name": "drinks-2",
+        "title": "Drinks 2"
+      },
+      {
+        "name": "drinks",
+        "title": "Drinks"
+      },
+      {
+        "name": "goblet-2",
+        "title": "Goblet 2"
+      },
+      {
+        "name": "goblet-broken",
+        "title": "Goblet Broken"
+      },
+      {
+        "name": "goblet",
+        "title": "Goblet"
+      },
+      {
+        "name": "knife-blood",
+        "title": "Knife Blood"
+      },
+      {
+        "name": "knife",
+        "title": "Knife"
+      },
+      {
+        "name": "restaurant-2",
+        "title": "Restaurant 2"
+      },
+      {
+        "name": "restaurant",
+        "title": "Restaurant"
+      }
+    ],
+    "Logos": [
+      {
+        "name": "alibaba-cloud",
+        "title": "Alibaba Cloud"
+      },
+      {
+        "name": "alipay",
+        "title": "Alipay"
+      },
+      {
+        "name": "amazon",
+        "title": "Amazon"
+      },
+      {
+        "name": "android",
+        "title": "Android"
+      },
+      {
+        "name": "angularjs",
+        "title": "Angularjs"
+      },
+      {
+        "name": "anthropic",
+        "title": "Anthropic"
+      },
+      {
+        "name": "app-store",
+        "title": "App Store"
+      },
+      {
+        "name": "apple",
+        "title": "Apple"
+      },
+      {
+        "name": "baidu",
+        "title": "Baidu"
+      },
+      {
+        "name": "bard",
+        "title": "Bard"
+      },
+      {
+        "name": "behance",
+        "title": "Behance"
+      },
+      {
+        "name": "bilibili",
+        "title": "Bilibili"
+      },
+      {
+        "name": "blender",
+        "title": "Blender"
+      },
+      {
+        "name": "blogger",
+        "title": "Blogger"
+      },
+      {
+        "name": "bluesky",
+        "title": "Bluesky"
+      },
+      {
+        "name": "bootstrap",
+        "title": "Bootstrap"
+      },
+      {
+        "name": "centos",
+        "title": "Centos"
+      },
+      {
+        "name": "chrome",
+        "title": "Chrome"
+      },
+      {
+        "name": "claude",
+        "title": "Claude"
+      },
+      {
+        "name": "codepen",
+        "title": "Codepen"
+      },
+      {
+        "name": "copilot",
+        "title": "Copilot"
+      },
+      {
+        "name": "coreos",
+        "title": "Coreos"
+      },
+      {
+        "name": "deepseek",
+        "title": "Deepseek"
+      },
+      {
+        "name": "dingding",
+        "title": "Dingding"
+      },
+      {
+        "name": "discord",
+        "title": "Discord"
+      },
+      {
+        "name": "disqus",
+        "title": "Disqus"
+      },
+      {
+        "name": "douban",
+        "title": "Douban"
+      },
+      {
+        "name": "dribbble",
+        "title": "Dribbble"
+      },
+      {
+        "name": "drive",
+        "title": "Drive"
+      },
+      {
+        "name": "dropbox",
+        "title": "Dropbox"
+      },
+      {
+        "name": "edge",
+        "title": "Edge"
+      },
+      {
+        "name": "edge-new",
+        "title": "Edge New"
+      },
+      {
+        "name": "evernote",
+        "title": "Evernote"
+      },
+      {
+        "name": "facebook-box",
+        "title": "Facebook Box"
+      },
+      {
+        "name": "facebook-circle",
+        "title": "Facebook Circle"
+      },
+      {
+        "name": "facebook",
+        "title": "Facebook"
+      },
+      {
+        "name": "fediverse",
+        "title": "Fediverse"
+      },
+      {
+        "name": "figma",
+        "title": "Figma"
+      },
+      {
+        "name": "finder",
+        "title": "Finder"
+      },
+      {
+        "name": "firebase",
+        "title": "Firebase"
+      },
+      {
+        "name": "firefox-browser",
+        "title": "Firefox Browser"
+      },
+      {
+        "name": "firefox",
+        "title": "Firefox"
+      },
+      {
+        "name": "fiverr",
+        "title": "Fiverr"
+      },
+      {
+        "name": "flickr",
+        "title": "Flickr"
+      },
+      {
+        "name": "flutter",
+        "title": "Flutter"
+      },
+      {
+        "name": "friendica",
+        "title": "Friendica"
+      },
+      {
+        "name": "gatsby",
+        "title": "Gatsby"
+      },
+      {
+        "name": "gemini",
+        "title": "Gemini"
+      },
+      {
+        "name": "gitee",
+        "title": "Gitee"
+      },
+      {
+        "name": "github",
+        "title": "Github"
+      },
+      {
+        "name": "gitlab",
+        "title": "Gitlab"
+      },
+      {
+        "name": "google",
+        "title": "Google"
+      },
+      {
+        "name": "google-play",
+        "title": "Google Play"
+      },
+      {
+        "name": "honor-of-kings",
+        "title": "Honor Of Kings"
+      },
+      {
+        "name": "ie",
+        "title": "Ie"
+      },
+      {
+        "name": "instagram",
+        "title": "Instagram"
+      },
+      {
+        "name": "invision",
+        "title": "Invision"
+      },
+      {
+        "name": "java",
+        "title": "Java"
+      },
+      {
+        "name": "kakao-talk",
+        "title": "Kakao Talk"
+      },
+      {
+        "name": "kick",
+        "title": "Kick"
+      },
+      {
+        "name": "line",
+        "title": "Line"
+      },
+      {
+        "name": "linkedin-box",
+        "title": "Linkedin Box"
+      },
+      {
+        "name": "linkedin",
+        "title": "Linkedin"
+      },
+      {
+        "name": "mastercard",
+        "title": "Mastercard"
+      },
+      {
+        "name": "mastodon",
+        "title": "Mastodon"
+      },
+      {
+        "name": "medium",
+        "title": "Medium"
+      },
+      {
+        "name": "messenger",
+        "title": "Messenger"
+      },
+      {
+        "name": "meta",
+        "title": "Meta"
+      },
+      {
+        "name": "microsoft",
+        "title": "Microsoft"
+      },
+      {
+        "name": "microsoft-loop",
+        "title": "Microsoft Loop"
+      },
+      {
+        "name": "mini-program",
+        "title": "Mini Program"
+      },
+      {
+        "name": "mixtral",
+        "title": "Mixtral"
+      },
+      {
+        "name": "netease-cloud-music",
+        "title": "Netease Cloud Music"
+      },
+      {
+        "name": "netflix",
+        "title": "Netflix"
+      },
+      {
+        "name": "nextjs",
+        "title": "Nextjs"
+      },
+      {
+        "name": "nodejs",
+        "title": "Nodejs"
+      },
+      {
+        "name": "notion",
+        "title": "Notion"
+      },
+      {
+        "name": "npmjs",
+        "title": "Npmjs"
+      },
+      {
+        "name": "open-source",
+        "title": "Open Source"
+      },
+      {
+        "name": "openai",
+        "title": "Openai"
+      },
+      {
+        "name": "openbase",
+        "title": "Openbase"
+      },
+      {
+        "name": "opera",
+        "title": "Opera"
+      },
+      {
+        "name": "patreon",
+        "title": "Patreon"
+      },
+      {
+        "name": "paypal",
+        "title": "Paypal"
+      },
+      {
+        "name": "perplexity",
+        "title": "Perplexity"
+      },
+      {
+        "name": "pinterest",
+        "title": "Pinterest"
+      },
+      {
+        "name": "pix",
+        "title": "Pix"
+      },
+      {
+        "name": "pixelfed",
+        "title": "Pixelfed"
+      },
+      {
+        "name": "playstation",
+        "title": "Playstation"
+      },
+      {
+        "name": "product-hunt",
+        "title": "Product Hunt"
+      },
+      {
+        "name": "qq",
+        "title": "Qq"
+      },
+      {
+        "name": "reactjs",
+        "title": "Reactjs"
+      },
+      {
+        "name": "reddit",
+        "title": "Reddit"
+      },
+      {
+        "name": "remix-run",
+        "title": "Remix Run"
+      },
+      {
+        "name": "remixicon",
+        "title": "Remixicon"
+      },
+      {
+        "name": "safari",
+        "title": "Safari"
+      },
+      {
+        "name": "skype",
+        "title": "Skype"
+      },
+      {
+        "name": "slack",
+        "title": "Slack"
+      },
+      {
+        "name": "snapchat",
+        "title": "Snapchat"
+      },
+      {
+        "name": "soundcloud",
+        "title": "Soundcloud"
+      },
+      {
+        "name": "spectrum",
+        "title": "Spectrum"
+      },
+      {
+        "name": "spotify",
+        "title": "Spotify"
+      },
+      {
+        "name": "stack-overflow",
+        "title": "Stack Overflow"
+      },
+      {
+        "name": "stackshare",
+        "title": "Stackshare"
+      },
+      {
+        "name": "steam",
+        "title": "Steam"
+      },
+      {
+        "name": "supabase",
+        "title": "Supabase"
+      },
+      {
+        "name": "svelte",
+        "title": "Svelte"
+      },
+      {
+        "name": "switch",
+        "title": "Switch"
+      },
+      {
+        "name": "tailwind-css",
+        "title": "Tailwind Css"
+      },
+      {
+        "name": "taobao",
+        "title": "Taobao"
+      },
+      {
+        "name": "telegram-2",
+        "title": "Telegram 2"
+      },
+      {
+        "name": "telegram",
+        "title": "Telegram"
+      },
+      {
+        "name": "threads",
+        "title": "Threads"
+      },
+      {
+        "name": "tiktok",
+        "title": "Tiktok"
+      },
+      {
+        "name": "trello",
+        "title": "Trello"
+      },
+      {
+        "name": "tumblr",
+        "title": "Tumblr"
+      },
+      {
+        "name": "twitch",
+        "title": "Twitch"
+      },
+      {
+        "name": "twitter",
+        "title": "Twitter"
+      },
+      {
+        "name": "twitter-x",
+        "title": "Twitter X"
+      },
+      {
+        "name": "ubuntu",
+        "title": "Ubuntu"
+      },
+      {
+        "name": "unsplash",
+        "title": "Unsplash"
+      },
+      {
+        "name": "upwork",
+        "title": "Upwork"
+      },
+      {
+        "name": "vercel",
+        "title": "Vercel"
+      },
+      {
+        "name": "vimeo",
+        "title": "Vimeo"
+      },
+      {
+        "name": "visa",
+        "title": "Visa"
+      },
+      {
+        "name": "vk",
+        "title": "Vk"
+      },
+      {
+        "name": "vuejs",
+        "title": "Vuejs"
+      },
+      {
+        "name": "webhook",
+        "title": "Webhook"
+      },
+      {
+        "name": "wechat-2",
+        "title": "Wechat 2"
+      },
+      {
+        "name": "wechat-channels",
+        "title": "Wechat Channels"
+      },
+      {
+        "name": "wechat",
+        "title": "Wechat"
+      },
+      {
+        "name": "wechat-pay",
+        "title": "Wechat Pay"
+      },
+      {
+        "name": "weibo",
+        "title": "Weibo"
+      },
+      {
+        "name": "whatsapp",
+        "title": "Whatsapp"
+      },
+      {
+        "name": "windows",
+        "title": "Windows"
+      },
+      {
+        "name": "wordpress",
+        "title": "Wordpress"
+      },
+      {
+        "name": "xbox",
+        "title": "Xbox"
+      },
+      {
+        "name": "xing",
+        "title": "Xing"
+      },
+      {
+        "name": "youtube",
+        "title": "Youtube"
+      },
+      {
+        "name": "yuque",
+        "title": "Yuque"
+      },
+      {
+        "name": "zcool",
+        "title": "Zcool"
+      },
+      {
+        "name": "zhihu",
+        "title": "Zhihu"
+      }
+    ],
+    "Map": [
+      {
+        "name": "anchor",
+        "title": "Anchor"
+      },
+      {
+        "name": "barricade",
+        "title": "Barricade"
+      },
+      {
+        "name": "bike",
+        "title": "Bike"
+      },
+      {
+        "name": "bus-2",
+        "title": "Bus 2"
+      },
+      {
+        "name": "bus",
+        "title": "Bus"
+      },
+      {
+        "name": "bus-wifi",
+        "title": "Bus Wifi"
+      },
+      {
+        "name": "car",
+        "title": "Car"
+      },
+      {
+        "name": "car-washing",
+        "title": "Car Washing"
+      },
+      {
+        "name": "caravan",
+        "title": "Caravan"
+      },
+      {
+        "name": "charging-pile-2",
+        "title": "Charging Pile 2"
+      },
+      {
+        "name": "charging-pile",
+        "title": "Charging Pile"
+      },
+      {
+        "name": "china-railway",
+        "title": "China Railway"
+      },
+      {
+        "name": "compass-2",
+        "title": "Compass 2"
+      },
+      {
+        "name": "compass-3",
+        "title": "Compass 3"
+      },
+      {
+        "name": "compass-4",
+        "title": "Compass 4"
+      },
+      {
+        "name": "compass-discover",
+        "title": "Compass Discover"
+      },
+      {
+        "name": "compass",
+        "title": "Compass"
+      },
+      {
+        "name": "direction",
+        "title": "Direction"
+      },
+      {
+        "name": "e-bike-2",
+        "title": "E Bike 2"
+      },
+      {
+        "name": "e-bike",
+        "title": "E Bike"
+      },
+      {
+        "name": "earth",
+        "title": "Earth"
+      },
+      {
+        "name": "flight-land",
+        "title": "Flight Land"
+      },
+      {
+        "name": "flight-takeoff",
+        "title": "Flight Takeoff"
+      },
+      {
+        "name": "footprint",
+        "title": "Footprint"
+      },
+      {
+        "name": "gas-station",
+        "title": "Gas Station"
+      },
+      {
+        "name": "globe",
+        "title": "Globe"
+      },
+      {
+        "name": "guide",
+        "title": "Guide"
+      },
+      {
+        "name": "hotel-bed",
+        "title": "Hotel Bed"
+      },
+      {
+        "name": "lifebuoy",
+        "title": "Lifebuoy"
+      },
+      {
+        "name": "luggage-cart",
+        "title": "Luggage Cart"
+      },
+      {
+        "name": "luggage-deposit",
+        "title": "Luggage Deposit"
+      },
+      {
+        "name": "map-2",
+        "title": "Map 2"
+      },
+      {
+        "name": "map",
+        "title": "Map"
+      },
+      {
+        "name": "map-pin-2",
+        "title": "Map Pin 2"
+      },
+      {
+        "name": "map-pin-3",
+        "title": "Map Pin 3"
+      },
+      {
+        "name": "map-pin-4",
+        "title": "Map Pin 4"
+      },
+      {
+        "name": "map-pin-5",
+        "title": "Map Pin 5"
+      },
+      {
+        "name": "map-pin-add",
+        "title": "Map Pin Add"
+      },
+      {
+        "name": "map-pin",
+        "title": "Map Pin"
+      },
+      {
+        "name": "map-pin-range",
+        "title": "Map Pin Range"
+      },
+      {
+        "name": "map-pin-time",
+        "title": "Map Pin Time"
+      },
+      {
+        "name": "map-pin-user",
+        "title": "Map Pin User"
+      },
+      {
+        "name": "motorbike",
+        "title": "Motorbike"
+      },
+      {
+        "name": "navigation",
+        "title": "Navigation"
+      },
+      {
+        "name": "oil",
+        "title": "Oil"
+      },
+      {
+        "name": "parking-box",
+        "title": "Parking Box"
+      },
+      {
+        "name": "parking",
+        "title": "Parking"
+      },
+      {
+        "name": "passport",
+        "title": "Passport"
+      },
+      {
+        "name": "pin-distance",
+        "title": "Pin Distance"
+      },
+      {
+        "name": "plane",
+        "title": "Plane"
+      },
+      {
+        "name": "planet",
+        "title": "Planet"
+      },
+      {
+        "name": "police-car",
+        "title": "Police Car"
+      },
+      {
+        "name": "pushpin-2",
+        "title": "Pushpin 2"
+      },
+      {
+        "name": "pushpin",
+        "title": "Pushpin"
+      },
+      {
+        "name": "riding",
+        "title": "Riding"
+      },
+      {
+        "name": "road-map",
+        "title": "Road Map"
+      },
+      {
+        "name": "roadster",
+        "title": "Roadster"
+      },
+      {
+        "name": "rocket-2",
+        "title": "Rocket 2"
+      },
+      {
+        "name": "rocket",
+        "title": "Rocket"
+      },
+      {
+        "name": "route",
+        "title": "Route"
+      },
+      {
+        "name": "run",
+        "title": "Run"
+      },
+      {
+        "name": "sailboat",
+        "title": "Sailboat"
+      },
+      {
+        "name": "ship-2",
+        "title": "Ship 2"
+      },
+      {
+        "name": "ship",
+        "title": "Ship"
+      },
+      {
+        "name": "signal-tower",
+        "title": "Signal Tower"
+      },
+      {
+        "name": "signpost",
+        "title": "Signpost"
+      },
+      {
+        "name": "space-ship",
+        "title": "Space Ship"
+      },
+      {
+        "name": "steering-2",
+        "title": "Steering 2"
+      },
+      {
+        "name": "steering",
+        "title": "Steering"
+      },
+      {
+        "name": "subway",
+        "title": "Subway"
+      },
+      {
+        "name": "subway-wifi",
+        "title": "Subway Wifi"
+      },
+      {
+        "name": "suitcase-2",
+        "title": "Suitcase 2"
+      },
+      {
+        "name": "suitcase-3",
+        "title": "Suitcase 3"
+      },
+      {
+        "name": "suitcase",
+        "title": "Suitcase"
+      },
+      {
+        "name": "takeaway",
+        "title": "Takeaway"
+      },
+      {
+        "name": "taxi",
+        "title": "Taxi"
+      },
+      {
+        "name": "taxi-wifi",
+        "title": "Taxi Wifi"
+      },
+      {
+        "name": "time-zone",
+        "title": "Time Zone"
+      },
+      {
+        "name": "traffic-light",
+        "title": "Traffic Light"
+      },
+      {
+        "name": "train",
+        "title": "Train"
+      },
+      {
+        "name": "train-wifi",
+        "title": "Train Wifi"
+      },
+      {
+        "name": "treasure-map",
+        "title": "Treasure Map"
+      },
+      {
+        "name": "truck",
+        "title": "Truck"
+      },
+      {
+        "name": "unpin",
+        "title": "Unpin"
+      },
+      {
+        "name": "walk",
+        "title": "Walk"
+      }
+    ],
+    "Media": [
+      {
+        "name": "4k",
+        "title": "4k"
+      },
+      {
+        "name": "album",
+        "title": "Album"
+      },
+      {
+        "name": "aspect-ratio",
+        "title": "Aspect Ratio"
+      },
+      {
+        "name": "broadcast",
+        "title": "Broadcast"
+      },
+      {
+        "name": "camera-2",
+        "title": "Camera 2"
+      },
+      {
+        "name": "camera-3",
+        "title": "Camera 3"
+      },
+      {
+        "name": "camera-4",
+        "title": "Camera 4"
+      },
+      {
+        "name": "camera-ai-2",
+        "title": "Camera Ai 2"
+      },
+      {
+        "name": "camera-ai",
+        "title": "Camera Ai"
+      },
+      {
+        "name": "camera",
+        "title": "Camera"
+      },
+      {
+        "name": "camera-lens-ai",
+        "title": "Camera Lens Ai"
+      },
+      {
+        "name": "camera-lens",
+        "title": "Camera Lens"
+      },
+      {
+        "name": "camera-off",
+        "title": "Camera Off"
+      },
+      {
+        "name": "camera-switch",
+        "title": "Camera Switch"
+      },
+      {
+        "name": "clapperboard-ai",
+        "title": "Clapperboard Ai"
+      },
+      {
+        "name": "clapperboard",
+        "title": "Clapperboard"
+      },
+      {
+        "name": "closed-captioning-ai",
+        "title": "Closed Captioning Ai"
+      },
+      {
+        "name": "closed-captioning",
+        "title": "Closed Captioning"
+      },
+      {
+        "name": "disc",
+        "title": "Disc"
+      },
+      {
+        "name": "dv",
+        "title": "Dv"
+      },
+      {
+        "name": "dvd-ai",
+        "title": "Dvd Ai"
+      },
+      {
+        "name": "dvd",
+        "title": "Dvd"
+      },
+      {
+        "name": "eject",
+        "title": "Eject"
+      },
+      {
+        "name": "equalizer-2",
+        "title": "Equalizer 2"
+      },
+      {
+        "name": "equalizer-3",
+        "title": "Equalizer 3"
+      },
+      {
+        "name": "equalizer",
+        "title": "Equalizer"
+      },
+      {
+        "name": "film-ai",
+        "title": "Film Ai"
+      },
+      {
+        "name": "film",
+        "title": "Film"
+      },
+      {
+        "name": "forward-10",
+        "title": "Forward 10"
+      },
+      {
+        "name": "forward-15",
+        "title": "Forward 15"
+      },
+      {
+        "name": "forward-30",
+        "title": "Forward 30"
+      },
+      {
+        "name": "forward-5",
+        "title": "Forward 5"
+      },
+      {
+        "name": "forward-end",
+        "title": "Forward End"
+      },
+      {
+        "name": "forward-end-mini",
+        "title": "Forward End Mini"
+      },
+      {
+        "name": "fullscreen-exit",
+        "title": "Fullscreen Exit"
+      },
+      {
+        "name": "fullscreen",
+        "title": "Fullscreen"
+      },
+      {
+        "name": "gallery",
+        "title": "Gallery"
+      },
+      {
+        "name": "gallery-upload",
+        "title": "Gallery Upload"
+      },
+      {
+        "name": "hd",
+        "title": "Hd"
+      },
+      {
+        "name": "headphone",
+        "title": "Headphone"
+      },
+      {
+        "name": "hq",
+        "title": "Hq"
+      },
+      {
+        "name": "image-2",
+        "title": "Image 2"
+      },
+      {
+        "name": "image-add",
+        "title": "Image Add"
+      },
+      {
+        "name": "image-ai",
+        "title": "Image Ai"
+      },
+      {
+        "name": "image-circle-ai",
+        "title": "Image Circle Ai"
+      },
+      {
+        "name": "image-circle",
+        "title": "Image Circle"
+      },
+      {
+        "name": "image-download",
+        "title": "Image Download"
+      },
+      {
+        "name": "image-edit",
+        "title": "Image Edit"
+      },
+      {
+        "name": "image",
+        "title": "Image"
+      },
+      {
+        "name": "image-upload",
+        "title": "Image Upload"
+      },
+      {
+        "name": "landscape-ai",
+        "title": "Landscape Ai"
+      },
+      {
+        "name": "landscape",
+        "title": "Landscape"
+      },
+      {
+        "name": "live",
+        "title": "Live"
+      },
+      {
+        "name": "memories",
+        "title": "Memories"
+      },
+      {
+        "name": "mic-2-ai",
+        "title": "Mic 2 Ai"
+      },
+      {
+        "name": "mic-2",
+        "title": "Mic 2"
+      },
+      {
+        "name": "mic-ai",
+        "title": "Mic Ai"
+      },
+      {
+        "name": "mic",
+        "title": "Mic"
+      },
+      {
+        "name": "mic-off",
+        "title": "Mic Off"
+      },
+      {
+        "name": "movie-2-ai",
+        "title": "Movie 2 Ai"
+      },
+      {
+        "name": "movie-2",
+        "title": "Movie 2"
+      },
+      {
+        "name": "movie-ai",
+        "title": "Movie Ai"
+      },
+      {
+        "name": "movie",
+        "title": "Movie"
+      },
+      {
+        "name": "multi-image",
+        "title": "Multi Image"
+      },
+      {
+        "name": "music-2",
+        "title": "Music 2"
+      },
+      {
+        "name": "music-ai",
+        "title": "Music Ai"
+      },
+      {
+        "name": "music",
+        "title": "Music"
+      },
+      {
+        "name": "mv-ai",
+        "title": "Mv Ai"
+      },
+      {
+        "name": "mv",
+        "title": "Mv"
+      },
+      {
+        "name": "notification-2",
+        "title": "Notification 2"
+      },
+      {
+        "name": "notification-3",
+        "title": "Notification 3"
+      },
+      {
+        "name": "notification-4",
+        "title": "Notification 4"
+      },
+      {
+        "name": "notification",
+        "title": "Notification"
+      },
+      {
+        "name": "notification-off",
+        "title": "Notification Off"
+      },
+      {
+        "name": "notification-snooze",
+        "title": "Notification Snooze"
+      },
+      {
+        "name": "order-play",
+        "title": "Order Play"
+      },
+      {
+        "name": "pause-circle",
+        "title": "Pause Circle"
+      },
+      {
+        "name": "pause",
+        "title": "Pause"
+      },
+      {
+        "name": "pause-large",
+        "title": "Pause Large"
+      },
+      {
+        "name": "pause-mini",
+        "title": "Pause Mini"
+      },
+      {
+        "name": "phone-camera",
+        "title": "Phone Camera"
+      },
+      {
+        "name": "picture-in-picture-2",
+        "title": "Picture In Picture 2"
+      },
+      {
+        "name": "picture-in-picture-exit",
+        "title": "Picture In Picture Exit"
+      },
+      {
+        "name": "picture-in-picture",
+        "title": "Picture In Picture"
+      },
+      {
+        "name": "play-circle",
+        "title": "Play Circle"
+      },
+      {
+        "name": "play",
+        "title": "Play"
+      },
+      {
+        "name": "play-large",
+        "title": "Play Large"
+      },
+      {
+        "name": "play-list-2",
+        "title": "Play List 2"
+      },
+      {
+        "name": "play-list-add",
+        "title": "Play List Add"
+      },
+      {
+        "name": "play-list",
+        "title": "Play List"
+      },
+      {
+        "name": "play-mini",
+        "title": "Play Mini"
+      },
+      {
+        "name": "play-reverse",
+        "title": "Play Reverse"
+      },
+      {
+        "name": "play-reverse-large",
+        "title": "Play Reverse Large"
+      },
+      {
+        "name": "play-reverse-mini",
+        "title": "Play Reverse Mini"
+      },
+      {
+        "name": "polaroid-2",
+        "title": "Polaroid 2"
+      },
+      {
+        "name": "polaroid",
+        "title": "Polaroid"
+      },
+      {
+        "name": "radio-2",
+        "title": "Radio 2"
+      },
+      {
+        "name": "radio",
+        "title": "Radio"
+      },
+      {
+        "name": "record-circle",
+        "title": "Record Circle"
+      },
+      {
+        "name": "repeat-2",
+        "title": "Repeat 2"
+      },
+      {
+        "name": "repeat",
+        "title": "Repeat"
+      },
+      {
+        "name": "repeat-one",
+        "title": "Repeat One"
+      },
+      {
+        "name": "replay-10",
+        "title": "Replay 10"
+      },
+      {
+        "name": "replay-15",
+        "title": "Replay 15"
+      },
+      {
+        "name": "replay-30",
+        "title": "Replay 30"
+      },
+      {
+        "name": "replay-5",
+        "title": "Replay 5"
+      },
+      {
+        "name": "rewind",
+        "title": "Rewind"
+      },
+      {
+        "name": "rewind-mini",
+        "title": "Rewind Mini"
+      },
+      {
+        "name": "rewind-start",
+        "title": "Rewind Start"
+      },
+      {
+        "name": "rewind-start-mini",
+        "title": "Rewind Start Mini"
+      },
+      {
+        "name": "rhythm",
+        "title": "Rhythm"
+      },
+      {
+        "name": "shuffle",
+        "title": "Shuffle"
+      },
+      {
+        "name": "skip-back",
+        "title": "Skip Back"
+      },
+      {
+        "name": "skip-back-mini",
+        "title": "Skip Back Mini"
+      },
+      {
+        "name": "skip-forward",
+        "title": "Skip Forward"
+      },
+      {
+        "name": "skip-forward-mini",
+        "title": "Skip Forward Mini"
+      },
+      {
+        "name": "slow-down",
+        "title": "Slow Down"
+      },
+      {
+        "name": "sound-module",
+        "title": "Sound Module"
+      },
+      {
+        "name": "speaker-2",
+        "title": "Speaker 2"
+      },
+      {
+        "name": "speaker-3",
+        "title": "Speaker 3"
+      },
+      {
+        "name": "speaker",
+        "title": "Speaker"
+      },
+      {
+        "name": "speed",
+        "title": "Speed"
+      },
+      {
+        "name": "speed-mini",
+        "title": "Speed Mini"
+      },
+      {
+        "name": "speed-up",
+        "title": "Speed Up"
+      },
+      {
+        "name": "stop-circle",
+        "title": "Stop Circle"
+      },
+      {
+        "name": "stop",
+        "title": "Stop"
+      },
+      {
+        "name": "stop-large",
+        "title": "Stop Large"
+      },
+      {
+        "name": "stop-mini",
+        "title": "Stop Mini"
+      },
+      {
+        "name": "surround-sound",
+        "title": "Surround Sound"
+      },
+      {
+        "name": "tape",
+        "title": "Tape"
+      },
+      {
+        "name": "video-add",
+        "title": "Video Add"
+      },
+      {
+        "name": "video-ai",
+        "title": "Video Ai"
+      },
+      {
+        "name": "video-download",
+        "title": "Video Download"
+      },
+      {
+        "name": "video",
+        "title": "Video"
+      },
+      {
+        "name": "video-off",
+        "title": "Video Off"
+      },
+      {
+        "name": "video-on-ai",
+        "title": "Video On Ai"
+      },
+      {
+        "name": "video-on",
+        "title": "Video On"
+      },
+      {
+        "name": "video-upload",
+        "title": "Video Upload"
+      },
+      {
+        "name": "vidicon-2",
+        "title": "Vidicon 2"
+      },
+      {
+        "name": "vidicon",
+        "title": "Vidicon"
+      },
+      {
+        "name": "voice-ai",
+        "title": "Voice Ai"
+      },
+      {
+        "name": "voiceprint",
+        "title": "Voiceprint"
+      },
+      {
+        "name": "volume-down",
+        "title": "Volume Down"
+      },
+      {
+        "name": "volume-mute",
+        "title": "Volume Mute"
+      },
+      {
+        "name": "volume-off-vibrate",
+        "title": "Volume Off Vibrate"
+      },
+      {
+        "name": "volume-up",
+        "title": "Volume Up"
+      },
+      {
+        "name": "volume-vibrate",
+        "title": "Volume Vibrate"
+      },
+      {
+        "name": "webcam",
+        "title": "Webcam"
+      }
+    ],
+    "Others": [
+      {
+        "name": "accessibility",
+        "title": "Accessibility"
+      },
+      {
+        "name": "ai-generate-3d",
+        "title": "Ai Generate 3d"
+      },
+      {
+        "name": "armchair",
+        "title": "Armchair"
+      },
+      {
+        "name": "bell",
+        "title": "Bell"
+      },
+      {
+        "name": "binoculars",
+        "title": "Binoculars"
+      },
+      {
+        "name": "book-shelf",
+        "title": "Book Shelf"
+      },
+      {
+        "name": "box-1",
+        "title": "Box 1"
+      },
+      {
+        "name": "box-2",
+        "title": "Box 2"
+      },
+      {
+        "name": "box-3",
+        "title": "Box 3"
+      },
+      {
+        "name": "cactus",
+        "title": "Cactus"
+      },
+      {
+        "name": "candle",
+        "title": "Candle"
+      },
+      {
+        "name": "character-recognition",
+        "title": "Character Recognition"
+      },
+      {
+        "name": "cross",
+        "title": "Cross"
+      },
+      {
+        "name": "door-closed",
+        "title": "Door Closed"
+      },
+      {
+        "name": "door",
+        "title": "Door"
+      },
+      {
+        "name": "door-lock-box",
+        "title": "Door Lock Box"
+      },
+      {
+        "name": "door-lock",
+        "title": "Door Lock"
+      },
+      {
+        "name": "door-open",
+        "title": "Door Open"
+      },
+      {
+        "name": "flower",
+        "title": "Flower"
+      },
+      {
+        "name": "fridge",
+        "title": "Fridge"
+      },
+      {
+        "name": "glasses-2",
+        "title": "Glasses 2"
+      },
+      {
+        "name": "glasses",
+        "title": "Glasses"
+      },
+      {
+        "name": "goggles",
+        "title": "Goggles"
+      },
+      {
+        "name": "graduation-cap",
+        "title": "Graduation Cap"
+      },
+      {
+        "name": "handbag",
+        "title": "Handbag"
+      },
+      {
+        "name": "infinity",
+        "title": "Infinity"
+      },
+      {
+        "name": "key-2",
+        "title": "Key 2"
+      },
+      {
+        "name": "key",
+        "title": "Key"
+      },
+      {
+        "name": "leaf",
+        "title": "Leaf"
+      },
+      {
+        "name": "lightbulb-ai",
+        "title": "Lightbulb Ai"
+      },
+      {
+        "name": "lightbulb",
+        "title": "Lightbulb"
+      },
+      {
+        "name": "lightbulb-flash",
+        "title": "Lightbulb Flash"
+      },
+      {
+        "name": "outlet-2",
+        "title": "Outlet 2"
+      },
+      {
+        "name": "outlet",
+        "title": "Outlet"
+      },
+      {
+        "name": "plant",
+        "title": "Plant"
+      },
+      {
+        "name": "plug-2",
+        "title": "Plug 2"
+      },
+      {
+        "name": "plug-3",
+        "title": "Plug 3"
+      },
+      {
+        "name": "plug",
+        "title": "Plug"
+      },
+      {
+        "name": "police-badge",
+        "title": "Police Badge"
+      },
+      {
+        "name": "recycle",
+        "title": "Recycle"
+      },
+      {
+        "name": "reserved",
+        "title": "Reserved"
+      },
+      {
+        "name": "scales-2",
+        "title": "Scales 2"
+      },
+      {
+        "name": "scales-3",
+        "title": "Scales 3"
+      },
+      {
+        "name": "scales",
+        "title": "Scales"
+      },
+      {
+        "name": "seedling",
+        "title": "Seedling"
+      },
+      {
+        "name": "service-bell",
+        "title": "Service Bell"
+      },
+      {
+        "name": "shirt",
+        "title": "Shirt"
+      },
+      {
+        "name": "sofa",
+        "title": "Sofa"
+      },
+      {
+        "name": "stairs",
+        "title": "Stairs"
+      },
+      {
+        "name": "t-shirt-2",
+        "title": "T Shirt 2"
+      },
+      {
+        "name": "t-shirt-air",
+        "title": "T Shirt Air"
+      },
+      {
+        "name": "t-shirt",
+        "title": "T Shirt"
+      },
+      {
+        "name": "tooth",
+        "title": "Tooth"
+      },
+      {
+        "name": "tree",
+        "title": "Tree"
+      },
+      {
+        "name": "umbrella",
+        "title": "Umbrella"
+      },
+      {
+        "name": "voice-recognition",
+        "title": "Voice Recognition"
+      },
+      {
+        "name": "weight",
+        "title": "Weight"
+      },
+      {
+        "name": "wheelchair",
+        "title": "Wheelchair"
+      }
+    ],
+    "System": [
+      {
+        "name": "add-box",
+        "title": "Add Box"
+      },
+      {
+        "name": "add-circle",
+        "title": "Add Circle"
+      },
+      {
+        "name": "add",
+        "title": "Add"
+      },
+      {
+        "name": "add-large",
+        "title": "Add Large"
+      },
+      {
+        "name": "alarm-add",
+        "title": "Alarm Add"
+      },
+      {
+        "name": "alarm",
+        "title": "Alarm"
+      },
+      {
+        "name": "alarm-snooze",
+        "title": "Alarm Snooze"
+      },
+      {
+        "name": "alarm-warning",
+        "title": "Alarm Warning"
+      },
+      {
+        "name": "alert",
+        "title": "Alert"
+      },
+      {
+        "name": "apps-2-add",
+        "title": "Apps 2 Add"
+      },
+      {
+        "name": "apps-2-ai",
+        "title": "Apps 2 Ai"
+      },
+      {
+        "name": "apps-2",
+        "title": "Apps 2"
+      },
+      {
+        "name": "apps-ai",
+        "title": "Apps Ai"
+      },
+      {
+        "name": "apps",
+        "title": "Apps"
+      },
+      {
+        "name": "check-double",
+        "title": "Check Double"
+      },
+      {
+        "name": "check",
+        "title": "Check"
+      },
+      {
+        "name": "checkbox-blank-circle",
+        "title": "Checkbox Blank Circle"
+      },
+      {
+        "name": "checkbox-blank",
+        "title": "Checkbox Blank"
+      },
+      {
+        "name": "checkbox-circle",
+        "title": "Checkbox Circle"
+      },
+      {
+        "name": "checkbox",
+        "title": "Checkbox"
+      },
+      {
+        "name": "checkbox-indeterminate",
+        "title": "Checkbox Indeterminate"
+      },
+      {
+        "name": "checkbox-multiple-blank",
+        "title": "Checkbox Multiple Blank"
+      },
+      {
+        "name": "checkbox-multiple",
+        "title": "Checkbox Multiple"
+      },
+      {
+        "name": "close-circle",
+        "title": "Close Circle"
+      },
+      {
+        "name": "close",
+        "title": "Close"
+      },
+      {
+        "name": "close-large",
+        "title": "Close Large"
+      },
+      {
+        "name": "dashboard",
+        "title": "Dashboard"
+      },
+      {
+        "name": "dashboard-horizontal",
+        "title": "Dashboard Horizontal"
+      },
+      {
+        "name": "delete-back-2",
+        "title": "Delete Back 2"
+      },
+      {
+        "name": "delete-back",
+        "title": "Delete Back"
+      },
+      {
+        "name": "delete-bin-2",
+        "title": "Delete Bin 2"
+      },
+      {
+        "name": "delete-bin-3",
+        "title": "Delete Bin 3"
+      },
+      {
+        "name": "delete-bin-4",
+        "title": "Delete Bin 4"
+      },
+      {
+        "name": "delete-bin-5",
+        "title": "Delete Bin 5"
+      },
+      {
+        "name": "delete-bin-6",
+        "title": "Delete Bin 6"
+      },
+      {
+        "name": "delete-bin-7",
+        "title": "Delete Bin 7"
+      },
+      {
+        "name": "delete-bin",
+        "title": "Delete Bin"
+      },
+      {
+        "name": "divide",
+        "title": "Divide"
+      },
+      {
+        "name": "download-2",
+        "title": "Download 2"
+      },
+      {
+        "name": "download-cloud-2",
+        "title": "Download Cloud 2"
+      },
+      {
+        "name": "download-cloud",
+        "title": "Download Cloud"
+      },
+      {
+        "name": "download",
+        "title": "Download"
+      },
+      {
+        "name": "equal",
+        "title": "Equal"
+      },
+      {
+        "name": "error-warning",
+        "title": "Error Warning"
+      },
+      {
+        "name": "export",
+        "title": "Export"
+      },
+      {
+        "name": "external-link",
+        "title": "External Link"
+      },
+      {
+        "name": "eye-2",
+        "title": "Eye 2"
+      },
+      {
+        "name": "eye-close",
+        "title": "Eye Close"
+      },
+      {
+        "name": "eye",
+        "title": "Eye"
+      },
+      {
+        "name": "eye-off",
+        "title": "Eye Off"
+      },
+      {
+        "name": "filter-2",
+        "title": "Filter 2"
+      },
+      {
+        "name": "filter-3",
+        "title": "Filter 3"
+      },
+      {
+        "name": "filter",
+        "title": "Filter"
+      },
+      {
+        "name": "filter-off",
+        "title": "Filter Off"
+      },
+      {
+        "name": "find-replace",
+        "title": "Find Replace"
+      },
+      {
+        "name": "forbid-2",
+        "title": "Forbid 2"
+      },
+      {
+        "name": "forbid",
+        "title": "Forbid"
+      },
+      {
+        "name": "function-add",
+        "title": "Function Add"
+      },
+      {
+        "name": "function-ai",
+        "title": "Function Ai"
+      },
+      {
+        "name": "function",
+        "title": "Function"
+      },
+      {
+        "name": "history",
+        "title": "History"
+      },
+      {
+        "name": "hourglass-2",
+        "title": "Hourglass 2"
+      },
+      {
+        "name": "hourglass",
+        "title": "Hourglass"
+      },
+      {
+        "name": "import",
+        "title": "Import"
+      },
+      {
+        "name": "indeterminate-circle",
+        "title": "Indeterminate Circle"
+      },
+      {
+        "name": "information-2",
+        "title": "Information 2"
+      },
+      {
+        "name": "information",
+        "title": "Information"
+      },
+      {
+        "name": "information-off",
+        "title": "Information Off"
+      },
+      {
+        "name": "list-settings",
+        "title": "List Settings"
+      },
+      {
+        "name": "loader-2",
+        "title": "Loader 2"
+      },
+      {
+        "name": "loader-3",
+        "title": "Loader 3"
+      },
+      {
+        "name": "loader-4",
+        "title": "Loader 4"
+      },
+      {
+        "name": "loader-5",
+        "title": "Loader 5"
+      },
+      {
+        "name": "loader",
+        "title": "Loader"
+      },
+      {
+        "name": "lock-2",
+        "title": "Lock 2"
+      },
+      {
+        "name": "lock",
+        "title": "Lock"
+      },
+      {
+        "name": "lock-password",
+        "title": "Lock Password"
+      },
+      {
+        "name": "lock-star",
+        "title": "Lock Star"
+      },
+      {
+        "name": "lock-unlock",
+        "title": "Lock Unlock"
+      },
+      {
+        "name": "login-box",
+        "title": "Login Box"
+      },
+      {
+        "name": "login-circle",
+        "title": "Login Circle"
+      },
+      {
+        "name": "logout-box",
+        "title": "Logout Box"
+      },
+      {
+        "name": "logout-box-r",
+        "title": "Logout Box R"
+      },
+      {
+        "name": "logout-circle",
+        "title": "Logout Circle"
+      },
+      {
+        "name": "logout-circle-r",
+        "title": "Logout Circle R"
+      },
+      {
+        "name": "loop-left-ai",
+        "title": "Loop Left Ai"
+      },
+      {
+        "name": "loop-left",
+        "title": "Loop Left"
+      },
+      {
+        "name": "loop-right-ai",
+        "title": "Loop Right Ai"
+      },
+      {
+        "name": "loop-right",
+        "title": "Loop Right"
+      },
+      {
+        "name": "menu-2",
+        "title": "Menu 2"
+      },
+      {
+        "name": "menu-3",
+        "title": "Menu 3"
+      },
+      {
+        "name": "menu-4",
+        "title": "Menu 4"
+      },
+      {
+        "name": "menu-5",
+        "title": "Menu 5"
+      },
+      {
+        "name": "menu-add",
+        "title": "Menu Add"
+      },
+      {
+        "name": "menu",
+        "title": "Menu"
+      },
+      {
+        "name": "menu-fold-2",
+        "title": "Menu Fold 2"
+      },
+      {
+        "name": "menu-fold-3",
+        "title": "Menu Fold 3"
+      },
+      {
+        "name": "menu-fold-4",
+        "title": "Menu Fold 4"
+      },
+      {
+        "name": "menu-fold",
+        "title": "Menu Fold"
+      },
+      {
+        "name": "menu-search",
+        "title": "Menu Search"
+      },
+      {
+        "name": "menu-unfold-2",
+        "title": "Menu Unfold 2"
+      },
+      {
+        "name": "menu-unfold-3",
+        "title": "Menu Unfold 3"
+      },
+      {
+        "name": "menu-unfold-4",
+        "title": "Menu Unfold 4"
+      },
+      {
+        "name": "menu-unfold",
+        "title": "Menu Unfold"
+      },
+      {
+        "name": "more-2",
+        "title": "More 2"
+      },
+      {
+        "name": "more",
+        "title": "More"
+      },
+      {
+        "name": "notification-badge",
+        "title": "Notification Badge"
+      },
+      {
+        "name": "progress-1",
+        "title": "Progress 1"
+      },
+      {
+        "name": "progress-2",
+        "title": "Progress 2"
+      },
+      {
+        "name": "progress-3",
+        "title": "Progress 3"
+      },
+      {
+        "name": "progress-4",
+        "title": "Progress 4"
+      },
+      {
+        "name": "progress-5",
+        "title": "Progress 5"
+      },
+      {
+        "name": "progress-6",
+        "title": "Progress 6"
+      },
+      {
+        "name": "progress-7",
+        "title": "Progress 7"
+      },
+      {
+        "name": "progress-8",
+        "title": "Progress 8"
+      },
+      {
+        "name": "prohibited-2",
+        "title": "Prohibited 2"
+      },
+      {
+        "name": "prohibited",
+        "title": "Prohibited"
+      },
+      {
+        "name": "question",
+        "title": "Question"
+      },
+      {
+        "name": "radio-button",
+        "title": "Radio Button"
+      },
+      {
+        "name": "refresh",
+        "title": "Refresh"
+      },
+      {
+        "name": "reset-left",
+        "title": "Reset Left"
+      },
+      {
+        "name": "reset-right",
+        "title": "Reset Right"
+      },
+      {
+        "name": "search-2",
+        "title": "Search 2"
+      },
+      {
+        "name": "search-ai-2",
+        "title": "Search Ai 2"
+      },
+      {
+        "name": "search-ai-3",
+        "title": "Search Ai 3"
+      },
+      {
+        "name": "search-ai-4",
+        "title": "Search Ai 4"
+      },
+      {
+        "name": "search-ai",
+        "title": "Search Ai"
+      },
+      {
+        "name": "search-eye",
+        "title": "Search Eye"
+      },
+      {
+        "name": "search",
+        "title": "Search"
+      },
+      {
+        "name": "settings-2",
+        "title": "Settings 2"
+      },
+      {
+        "name": "settings-3",
+        "title": "Settings 3"
+      },
+      {
+        "name": "settings-4",
+        "title": "Settings 4"
+      },
+      {
+        "name": "settings-5",
+        "title": "Settings 5"
+      },
+      {
+        "name": "settings-6",
+        "title": "Settings 6"
+      },
+      {
+        "name": "settings",
+        "title": "Settings"
+      },
+      {
+        "name": "share-2",
+        "title": "Share 2"
+      },
+      {
+        "name": "share-box",
+        "title": "Share Box"
+      },
+      {
+        "name": "share-circle",
+        "title": "Share Circle"
+      },
+      {
+        "name": "share",
+        "title": "Share"
+      },
+      {
+        "name": "share-forward-2",
+        "title": "Share Forward 2"
+      },
+      {
+        "name": "share-forward-box",
+        "title": "Share Forward Box"
+      },
+      {
+        "name": "share-forward",
+        "title": "Share Forward"
+      },
+      {
+        "name": "shield-check",
+        "title": "Shield Check"
+      },
+      {
+        "name": "shield-cross",
+        "title": "Shield Cross"
+      },
+      {
+        "name": "shield",
+        "title": "Shield"
+      },
+      {
+        "name": "shield-flash",
+        "title": "Shield Flash"
+      },
+      {
+        "name": "shield-keyhole",
+        "title": "Shield Keyhole"
+      },
+      {
+        "name": "shield-star",
+        "title": "Shield Star"
+      },
+      {
+        "name": "shield-user",
+        "title": "Shield User"
+      },
+      {
+        "name": "side-bar",
+        "title": "Side Bar"
+      },
+      {
+        "name": "sidebar-fold",
+        "title": "Sidebar Fold"
+      },
+      {
+        "name": "sidebar-unfold",
+        "title": "Sidebar Unfold"
+      },
+      {
+        "name": "spam-2",
+        "title": "Spam 2"
+      },
+      {
+        "name": "spam-3",
+        "title": "Spam 3"
+      },
+      {
+        "name": "spam",
+        "title": "Spam"
+      },
+      {
+        "name": "star",
+        "title": "Star"
+      },
+      {
+        "name": "star-half",
+        "title": "Star Half"
+      },
+      {
+        "name": "star-half-s",
+        "title": "Star Half S"
+      },
+      {
+        "name": "star-off",
+        "title": "Star Off"
+      },
+      {
+        "name": "star-s",
+        "title": "Star S"
+      },
+      {
+        "name": "subtract",
+        "title": "Subtract"
+      },
+      {
+        "name": "thumb-down",
+        "title": "Thumb Down"
+      },
+      {
+        "name": "thumb-up",
+        "title": "Thumb Up"
+      },
+      {
+        "name": "time",
+        "title": "Time"
+      },
+      {
+        "name": "timer-2",
+        "title": "Timer 2"
+      },
+      {
+        "name": "timer",
+        "title": "Timer"
+      },
+      {
+        "name": "timer-flash",
+        "title": "Timer Flash"
+      },
+      {
+        "name": "toggle",
+        "title": "Toggle"
+      },
+      {
+        "name": "upload-2",
+        "title": "Upload 2"
+      },
+      {
+        "name": "upload-cloud-2",
+        "title": "Upload Cloud 2"
+      },
+      {
+        "name": "upload-cloud",
+        "title": "Upload Cloud"
+      },
+      {
+        "name": "upload",
+        "title": "Upload"
+      },
+      {
+        "name": "zoom-in",
+        "title": "Zoom In"
+      },
+      {
+        "name": "zoom-out",
+        "title": "Zoom Out"
+      }
+    ],
+    "Weather": [
+      {
+        "name": "blaze",
+        "title": "Blaze"
+      },
+      {
+        "name": "celsius",
+        "title": "Celsius"
+      },
+      {
+        "name": "cloud-windy",
+        "title": "Cloud Windy"
+      },
+      {
+        "name": "cloudy-2",
+        "title": "Cloudy 2"
+      },
+      {
+        "name": "cloudy",
+        "title": "Cloudy"
+      },
+      {
+        "name": "drizzle",
+        "title": "Drizzle"
+      },
+      {
+        "name": "earthquake",
+        "title": "Earthquake"
+      },
+      {
+        "name": "fahrenheit",
+        "title": "Fahrenheit"
+      },
+      {
+        "name": "fire",
+        "title": "Fire"
+      },
+      {
+        "name": "flashlight",
+        "title": "Flashlight"
+      },
+      {
+        "name": "flood",
+        "title": "Flood"
+      },
+      {
+        "name": "foggy",
+        "title": "Foggy"
+      },
+      {
+        "name": "hail",
+        "title": "Hail"
+      },
+      {
+        "name": "haze-2",
+        "title": "Haze 2"
+      },
+      {
+        "name": "haze",
+        "title": "Haze"
+      },
+      {
+        "name": "heavy-showers",
+        "title": "Heavy Showers"
+      },
+      {
+        "name": "meteor",
+        "title": "Meteor"
+      },
+      {
+        "name": "mist",
+        "title": "Mist"
+      },
+      {
+        "name": "moon-clear",
+        "title": "Moon Clear"
+      },
+      {
+        "name": "moon-cloudy",
+        "title": "Moon Cloudy"
+      },
+      {
+        "name": "moon",
+        "title": "Moon"
+      },
+      {
+        "name": "moon-foggy",
+        "title": "Moon Foggy"
+      },
+      {
+        "name": "rainbow",
+        "title": "Rainbow"
+      },
+      {
+        "name": "rainy",
+        "title": "Rainy"
+      },
+      {
+        "name": "shining-2",
+        "title": "Shining 2"
+      },
+      {
+        "name": "shining",
+        "title": "Shining"
+      },
+      {
+        "name": "showers",
+        "title": "Showers"
+      },
+      {
+        "name": "snowflake",
+        "title": "Snowflake"
+      },
+      {
+        "name": "snowy",
+        "title": "Snowy"
+      },
+      {
+        "name": "sparkling-2",
+        "title": "Sparkling 2"
+      },
+      {
+        "name": "sparkling",
+        "title": "Sparkling"
+      },
+      {
+        "name": "sun-cloudy",
+        "title": "Sun Cloudy"
+      },
+      {
+        "name": "sun",
+        "title": "Sun"
+      },
+      {
+        "name": "sun-foggy",
+        "title": "Sun Foggy"
+      },
+      {
+        "name": "temp-cold",
+        "title": "Temp Cold"
+      },
+      {
+        "name": "temp-hot",
+        "title": "Temp Hot"
+      },
+      {
+        "name": "thunderstorms",
+        "title": "Thunderstorms"
+      },
+      {
+        "name": "tornado",
+        "title": "Tornado"
+      },
+      {
+        "name": "typhoon",
+        "title": "Typhoon"
+      },
+      {
+        "name": "water-percent",
+        "title": "Water Percent"
+      },
+      {
+        "name": "windy",
+        "title": "Windy"
       }
     ]
   }

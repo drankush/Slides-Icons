@@ -1,7 +1,3264 @@
 {
   "version": "1.0.0",
-  "totalIcons": 0,
+  "totalIcons": 814,
   "icons": {
-    "all": []
+    "all": [
+      {
+        "name": "abacus",
+        "title": "Abacus"
+      },
+      {
+        "name": "accessibility",
+        "title": "Accessibility"
+      },
+      {
+        "name": "add-to-queue",
+        "title": "Add To Queue"
+      },
+      {
+        "name": "adjust",
+        "title": "Adjust"
+      },
+      {
+        "name": "alarm-add",
+        "title": "Alarm Add"
+      },
+      {
+        "name": "alarm-exclamation",
+        "title": "Alarm Exclamation"
+      },
+      {
+        "name": "alarm-off",
+        "title": "Alarm Off"
+      },
+      {
+        "name": "alarm-snooze",
+        "title": "Alarm Snooze"
+      },
+      {
+        "name": "alarm",
+        "title": "Alarm"
+      },
+      {
+        "name": "album",
+        "title": "Album"
+      },
+      {
+        "name": "align-justify",
+        "title": "Align Justify"
+      },
+      {
+        "name": "align-left",
+        "title": "Align Left"
+      },
+      {
+        "name": "align-middle",
+        "title": "Align Middle"
+      },
+      {
+        "name": "align-right",
+        "title": "Align Right"
+      },
+      {
+        "name": "analyse",
+        "title": "Analyse"
+      },
+      {
+        "name": "anchor",
+        "title": "Anchor"
+      },
+      {
+        "name": "angry",
+        "title": "Angry"
+      },
+      {
+        "name": "aperture",
+        "title": "Aperture"
+      },
+      {
+        "name": "arch",
+        "title": "Arch"
+      },
+      {
+        "name": "archive-in",
+        "title": "Archive In"
+      },
+      {
+        "name": "archive-out",
+        "title": "Archive Out"
+      },
+      {
+        "name": "archive",
+        "title": "Archive"
+      },
+      {
+        "name": "area",
+        "title": "Area"
+      },
+      {
+        "name": "arrow-back",
+        "title": "Arrow Back"
+      },
+      {
+        "name": "arrow-from-bottom",
+        "title": "Arrow From Bottom"
+      },
+      {
+        "name": "arrow-from-left",
+        "title": "Arrow From Left"
+      },
+      {
+        "name": "arrow-from-right",
+        "title": "Arrow From Right"
+      },
+      {
+        "name": "arrow-from-top",
+        "title": "Arrow From Top"
+      },
+      {
+        "name": "arrow-to-bottom",
+        "title": "Arrow To Bottom"
+      },
+      {
+        "name": "arrow-to-left",
+        "title": "Arrow To Left"
+      },
+      {
+        "name": "arrow-to-right",
+        "title": "Arrow To Right"
+      },
+      {
+        "name": "arrow-to-top",
+        "title": "Arrow To Top"
+      },
+      {
+        "name": "at",
+        "title": "At"
+      },
+      {
+        "name": "atom",
+        "title": "Atom"
+      },
+      {
+        "name": "award",
+        "title": "Award"
+      },
+      {
+        "name": "badge-check",
+        "title": "Badge Check"
+      },
+      {
+        "name": "badge",
+        "title": "Badge"
+      },
+      {
+        "name": "baguette",
+        "title": "Baguette"
+      },
+      {
+        "name": "ball",
+        "title": "Ball"
+      },
+      {
+        "name": "band-aid",
+        "title": "Band Aid"
+      },
+      {
+        "name": "bar-chart-alt-2",
+        "title": "Bar Chart Alt 2"
+      },
+      {
+        "name": "bar-chart-alt",
+        "title": "Bar Chart Alt"
+      },
+      {
+        "name": "bar-chart-square",
+        "title": "Bar Chart Square"
+      },
+      {
+        "name": "bar-chart",
+        "title": "Bar Chart"
+      },
+      {
+        "name": "barcode-reader",
+        "title": "Barcode Reader"
+      },
+      {
+        "name": "barcode",
+        "title": "Barcode"
+      },
+      {
+        "name": "baseball",
+        "title": "Baseball"
+      },
+      {
+        "name": "basket",
+        "title": "Basket"
+      },
+      {
+        "name": "basketball",
+        "title": "Basketball"
+      },
+      {
+        "name": "bath",
+        "title": "Bath"
+      },
+      {
+        "name": "battery",
+        "title": "Battery"
+      },
+      {
+        "name": "bed",
+        "title": "Bed"
+      },
+      {
+        "name": "been-here",
+        "title": "Been Here"
+      },
+      {
+        "name": "beer",
+        "title": "Beer"
+      },
+      {
+        "name": "bell-minus",
+        "title": "Bell Minus"
+      },
+      {
+        "name": "bell-off",
+        "title": "Bell Off"
+      },
+      {
+        "name": "bell-plus",
+        "title": "Bell Plus"
+      },
+      {
+        "name": "bell",
+        "title": "Bell"
+      },
+      {
+        "name": "bible",
+        "title": "Bible"
+      },
+      {
+        "name": "bitcoin",
+        "title": "Bitcoin"
+      },
+      {
+        "name": "blanket",
+        "title": "Blanket"
+      },
+      {
+        "name": "block",
+        "title": "Block"
+      },
+      {
+        "name": "bluetooth",
+        "title": "Bluetooth"
+      },
+      {
+        "name": "body",
+        "title": "Body"
+      },
+      {
+        "name": "bold",
+        "title": "Bold"
+      },
+      {
+        "name": "bolt-circle",
+        "title": "Bolt Circle"
+      },
+      {
+        "name": "bomb",
+        "title": "Bomb"
+      },
+      {
+        "name": "bone",
+        "title": "Bone"
+      },
+      {
+        "name": "bong",
+        "title": "Bong"
+      },
+      {
+        "name": "book-add",
+        "title": "Book Add"
+      },
+      {
+        "name": "book-alt",
+        "title": "Book Alt"
+      },
+      {
+        "name": "book-bookmark",
+        "title": "Book Bookmark"
+      },
+      {
+        "name": "book-content",
+        "title": "Book Content"
+      },
+      {
+        "name": "book-heart",
+        "title": "Book Heart"
+      },
+      {
+        "name": "book-open",
+        "title": "Book Open"
+      },
+      {
+        "name": "book-reader",
+        "title": "Book Reader"
+      },
+      {
+        "name": "book",
+        "title": "Book"
+      },
+      {
+        "name": "bookmark-alt-minus",
+        "title": "Bookmark Alt Minus"
+      },
+      {
+        "name": "bookmark-alt-plus",
+        "title": "Bookmark Alt Plus"
+      },
+      {
+        "name": "bookmark-alt",
+        "title": "Bookmark Alt"
+      },
+      {
+        "name": "bookmark-heart",
+        "title": "Bookmark Heart"
+      },
+      {
+        "name": "bookmark-minus",
+        "title": "Bookmark Minus"
+      },
+      {
+        "name": "bookmark-plus",
+        "title": "Bookmark Plus"
+      },
+      {
+        "name": "bookmark",
+        "title": "Bookmark"
+      },
+      {
+        "name": "bookmarks",
+        "title": "Bookmarks"
+      },
+      {
+        "name": "border-all",
+        "title": "Border All"
+      },
+      {
+        "name": "border-bottom",
+        "title": "Border Bottom"
+      },
+      {
+        "name": "border-inner",
+        "title": "Border Inner"
+      },
+      {
+        "name": "border-left",
+        "title": "Border Left"
+      },
+      {
+        "name": "border-none",
+        "title": "Border None"
+      },
+      {
+        "name": "border-outer",
+        "title": "Border Outer"
+      },
+      {
+        "name": "border-radius",
+        "title": "Border Radius"
+      },
+      {
+        "name": "border-right",
+        "title": "Border Right"
+      },
+      {
+        "name": "border-top",
+        "title": "Border Top"
+      },
+      {
+        "name": "bot",
+        "title": "Bot"
+      },
+      {
+        "name": "bowl-hot",
+        "title": "Bowl Hot"
+      },
+      {
+        "name": "bowl-rice",
+        "title": "Bowl Rice"
+      },
+      {
+        "name": "bowling-ball",
+        "title": "Bowling Ball"
+      },
+      {
+        "name": "box",
+        "title": "Box"
+      },
+      {
+        "name": "bracket",
+        "title": "Bracket"
+      },
+      {
+        "name": "braille",
+        "title": "Braille"
+      },
+      {
+        "name": "brain",
+        "title": "Brain"
+      },
+      {
+        "name": "briefcase-alt-2",
+        "title": "Briefcase Alt 2"
+      },
+      {
+        "name": "briefcase-alt",
+        "title": "Briefcase Alt"
+      },
+      {
+        "name": "briefcase",
+        "title": "Briefcase"
+      },
+      {
+        "name": "brightness-half",
+        "title": "Brightness Half"
+      },
+      {
+        "name": "brightness",
+        "title": "Brightness"
+      },
+      {
+        "name": "broadcast",
+        "title": "Broadcast"
+      },
+      {
+        "name": "brush-alt",
+        "title": "Brush Alt"
+      },
+      {
+        "name": "brush",
+        "title": "Brush"
+      },
+      {
+        "name": "bug-alt",
+        "title": "Bug Alt"
+      },
+      {
+        "name": "bug",
+        "title": "Bug"
+      },
+      {
+        "name": "building-house",
+        "title": "Building House"
+      },
+      {
+        "name": "building",
+        "title": "Building"
+      },
+      {
+        "name": "buildings",
+        "title": "Buildings"
+      },
+      {
+        "name": "bulb",
+        "title": "Bulb"
+      },
+      {
+        "name": "bullseye",
+        "title": "Bullseye"
+      },
+      {
+        "name": "buoy",
+        "title": "Buoy"
+      },
+      {
+        "name": "bus-school",
+        "title": "Bus School"
+      },
+      {
+        "name": "bus",
+        "title": "Bus"
+      },
+      {
+        "name": "cabinet",
+        "title": "Cabinet"
+      },
+      {
+        "name": "cable-car",
+        "title": "Cable Car"
+      },
+      {
+        "name": "cake",
+        "title": "Cake"
+      },
+      {
+        "name": "calculator",
+        "title": "Calculator"
+      },
+      {
+        "name": "calendar-alt",
+        "title": "Calendar Alt"
+      },
+      {
+        "name": "calendar-check",
+        "title": "Calendar Check"
+      },
+      {
+        "name": "calendar-edit",
+        "title": "Calendar Edit"
+      },
+      {
+        "name": "calendar-event",
+        "title": "Calendar Event"
+      },
+      {
+        "name": "calendar-exclamation",
+        "title": "Calendar Exclamation"
+      },
+      {
+        "name": "calendar-heart",
+        "title": "Calendar Heart"
+      },
+      {
+        "name": "calendar-minus",
+        "title": "Calendar Minus"
+      },
+      {
+        "name": "calendar-plus",
+        "title": "Calendar Plus"
+      },
+      {
+        "name": "calendar-star",
+        "title": "Calendar Star"
+      },
+      {
+        "name": "calendar-week",
+        "title": "Calendar Week"
+      },
+      {
+        "name": "calendar-x",
+        "title": "Calendar X"
+      },
+      {
+        "name": "calendar",
+        "title": "Calendar"
+      },
+      {
+        "name": "camera-home",
+        "title": "Camera Home"
+      },
+      {
+        "name": "camera-movie",
+        "title": "Camera Movie"
+      },
+      {
+        "name": "camera-off",
+        "title": "Camera Off"
+      },
+      {
+        "name": "camera",
+        "title": "Camera"
+      },
+      {
+        "name": "candles",
+        "title": "Candles"
+      },
+      {
+        "name": "capsule",
+        "title": "Capsule"
+      },
+      {
+        "name": "captions",
+        "title": "Captions"
+      },
+      {
+        "name": "car",
+        "title": "Car"
+      },
+      {
+        "name": "card",
+        "title": "Card"
+      },
+      {
+        "name": "caret-down-circle",
+        "title": "Caret Down Circle"
+      },
+      {
+        "name": "caret-down-square",
+        "title": "Caret Down Square"
+      },
+      {
+        "name": "caret-down",
+        "title": "Caret Down"
+      },
+      {
+        "name": "caret-left-circle",
+        "title": "Caret Left Circle"
+      },
+      {
+        "name": "caret-left-square",
+        "title": "Caret Left Square"
+      },
+      {
+        "name": "caret-left",
+        "title": "Caret Left"
+      },
+      {
+        "name": "caret-right-circle",
+        "title": "Caret Right Circle"
+      },
+      {
+        "name": "caret-right-square",
+        "title": "Caret Right Square"
+      },
+      {
+        "name": "caret-right",
+        "title": "Caret Right"
+      },
+      {
+        "name": "caret-up-circle",
+        "title": "Caret Up Circle"
+      },
+      {
+        "name": "caret-up-square",
+        "title": "Caret Up Square"
+      },
+      {
+        "name": "caret-up",
+        "title": "Caret Up"
+      },
+      {
+        "name": "carousel",
+        "title": "Carousel"
+      },
+      {
+        "name": "cart-add",
+        "title": "Cart Add"
+      },
+      {
+        "name": "cart-alt",
+        "title": "Cart Alt"
+      },
+      {
+        "name": "cart-download",
+        "title": "Cart Download"
+      },
+      {
+        "name": "cart",
+        "title": "Cart"
+      },
+      {
+        "name": "cast",
+        "title": "Cast"
+      },
+      {
+        "name": "category-alt",
+        "title": "Category Alt"
+      },
+      {
+        "name": "category",
+        "title": "Category"
+      },
+      {
+        "name": "cctv",
+        "title": "Cctv"
+      },
+      {
+        "name": "certification",
+        "title": "Certification"
+      },
+      {
+        "name": "chair",
+        "title": "Chair"
+      },
+      {
+        "name": "chalkboard",
+        "title": "Chalkboard"
+      },
+      {
+        "name": "chart",
+        "title": "Chart"
+      },
+      {
+        "name": "chat",
+        "title": "Chat"
+      },
+      {
+        "name": "check-circle",
+        "title": "Check Circle"
+      },
+      {
+        "name": "check-double",
+        "title": "Check Double"
+      },
+      {
+        "name": "check-shield",
+        "title": "Check Shield"
+      },
+      {
+        "name": "check-square",
+        "title": "Check Square"
+      },
+      {
+        "name": "check",
+        "title": "Check"
+      },
+      {
+        "name": "checkbox-checked",
+        "title": "Checkbox Checked"
+      },
+      {
+        "name": "checkbox-minus",
+        "title": "Checkbox Minus"
+      },
+      {
+        "name": "checkbox-square",
+        "title": "Checkbox Square"
+      },
+      {
+        "name": "checkbox",
+        "title": "Checkbox"
+      },
+      {
+        "name": "cheese",
+        "title": "Cheese"
+      },
+      {
+        "name": "chevron-down-circle",
+        "title": "Chevron Down Circle"
+      },
+      {
+        "name": "chevron-down-square",
+        "title": "Chevron Down Square"
+      },
+      {
+        "name": "chevron-down",
+        "title": "Chevron Down"
+      },
+      {
+        "name": "chevron-left-circle",
+        "title": "Chevron Left Circle"
+      },
+      {
+        "name": "chevron-left-square",
+        "title": "Chevron Left Square"
+      },
+      {
+        "name": "chevron-left",
+        "title": "Chevron Left"
+      },
+      {
+        "name": "chevron-right-circle",
+        "title": "Chevron Right Circle"
+      },
+      {
+        "name": "chevron-right-square",
+        "title": "Chevron Right Square"
+      },
+      {
+        "name": "chevron-right",
+        "title": "Chevron Right"
+      },
+      {
+        "name": "chevron-up-circle",
+        "title": "Chevron Up Circle"
+      },
+      {
+        "name": "chevron-up-square",
+        "title": "Chevron Up Square"
+      },
+      {
+        "name": "chevron-up",
+        "title": "Chevron Up"
+      },
+      {
+        "name": "chevrons-down",
+        "title": "Chevrons Down"
+      },
+      {
+        "name": "chevrons-left",
+        "title": "Chevrons Left"
+      },
+      {
+        "name": "chevrons-right",
+        "title": "Chevrons Right"
+      },
+      {
+        "name": "chevrons-up",
+        "title": "Chevrons Up"
+      },
+      {
+        "name": "child",
+        "title": "Child"
+      },
+      {
+        "name": "chip",
+        "title": "Chip"
+      },
+      {
+        "name": "church",
+        "title": "Church"
+      },
+      {
+        "name": "circle-half",
+        "title": "Circle Half"
+      },
+      {
+        "name": "circle-quarter",
+        "title": "Circle Quarter"
+      },
+      {
+        "name": "circle-three-quarter",
+        "title": "Circle Three Quarter"
+      },
+      {
+        "name": "circle",
+        "title": "Circle"
+      },
+      {
+        "name": "clinic",
+        "title": "Clinic"
+      },
+      {
+        "name": "clipboard",
+        "title": "Clipboard"
+      },
+      {
+        "name": "closet",
+        "title": "Closet"
+      },
+      {
+        "name": "cloud-download",
+        "title": "Cloud Download"
+      },
+      {
+        "name": "cloud-drizzle",
+        "title": "Cloud Drizzle"
+      },
+      {
+        "name": "cloud-light-rain",
+        "title": "Cloud Light Rain"
+      },
+      {
+        "name": "cloud-lightning",
+        "title": "Cloud Lightning"
+      },
+      {
+        "name": "cloud-rain",
+        "title": "Cloud Rain"
+      },
+      {
+        "name": "cloud-snow",
+        "title": "Cloud Snow"
+      },
+      {
+        "name": "cloud-upload",
+        "title": "Cloud Upload"
+      },
+      {
+        "name": "cloud",
+        "title": "Cloud"
+      },
+      {
+        "name": "code-alt",
+        "title": "Code Alt"
+      },
+      {
+        "name": "code-block",
+        "title": "Code Block"
+      },
+      {
+        "name": "code-curly",
+        "title": "Code Curly"
+      },
+      {
+        "name": "code",
+        "title": "Code"
+      },
+      {
+        "name": "coffee-togo",
+        "title": "Coffee Togo"
+      },
+      {
+        "name": "coffee",
+        "title": "Coffee"
+      },
+      {
+        "name": "cog",
+        "title": "Cog"
+      },
+      {
+        "name": "coin-stack",
+        "title": "Coin Stack"
+      },
+      {
+        "name": "coin",
+        "title": "Coin"
+      },
+      {
+        "name": "collapse-alt",
+        "title": "Collapse Alt"
+      },
+      {
+        "name": "collapse-horizontal",
+        "title": "Collapse Horizontal"
+      },
+      {
+        "name": "collapse-vertical",
+        "title": "Collapse Vertical"
+      },
+      {
+        "name": "collapse",
+        "title": "Collapse"
+      },
+      {
+        "name": "collection",
+        "title": "Collection"
+      },
+      {
+        "name": "color-fill",
+        "title": "Color Fill"
+      },
+      {
+        "name": "color",
+        "title": "Color"
+      },
+      {
+        "name": "columns",
+        "title": "Columns"
+      },
+      {
+        "name": "command",
+        "title": "Command"
+      },
+      {
+        "name": "comment-add",
+        "title": "Comment Add"
+      },
+      {
+        "name": "comment-check",
+        "title": "Comment Check"
+      },
+      {
+        "name": "comment-detail",
+        "title": "Comment Detail"
+      },
+      {
+        "name": "comment-dots",
+        "title": "Comment Dots"
+      },
+      {
+        "name": "comment-edit",
+        "title": "Comment Edit"
+      },
+      {
+        "name": "comment-error",
+        "title": "Comment Error"
+      },
+      {
+        "name": "comment-minus",
+        "title": "Comment Minus"
+      },
+      {
+        "name": "comment-x",
+        "title": "Comment X"
+      },
+      {
+        "name": "comment",
+        "title": "Comment"
+      },
+      {
+        "name": "compass",
+        "title": "Compass"
+      },
+      {
+        "name": "confused",
+        "title": "Confused"
+      },
+      {
+        "name": "conversation",
+        "title": "Conversation"
+      },
+      {
+        "name": "cookie",
+        "title": "Cookie"
+      },
+      {
+        "name": "cool",
+        "title": "Cool"
+      },
+      {
+        "name": "copy-alt",
+        "title": "Copy Alt"
+      },
+      {
+        "name": "copy",
+        "title": "Copy"
+      },
+      {
+        "name": "copyright",
+        "title": "Copyright"
+      },
+      {
+        "name": "credit-card-alt",
+        "title": "Credit Card Alt"
+      },
+      {
+        "name": "credit-card-front",
+        "title": "Credit Card Front"
+      },
+      {
+        "name": "credit-card",
+        "title": "Credit Card"
+      },
+      {
+        "name": "cricket-ball",
+        "title": "Cricket Ball"
+      },
+      {
+        "name": "crop",
+        "title": "Crop"
+      },
+      {
+        "name": "cross",
+        "title": "Cross"
+      },
+      {
+        "name": "crosshair",
+        "title": "Crosshair"
+      },
+      {
+        "name": "crown",
+        "title": "Crown"
+      },
+      {
+        "name": "cube-alt",
+        "title": "Cube Alt"
+      },
+      {
+        "name": "cube",
+        "title": "Cube"
+      },
+      {
+        "name": "cuboid",
+        "title": "Cuboid"
+      },
+      {
+        "name": "current-location",
+        "title": "Current Location"
+      },
+      {
+        "name": "customize",
+        "title": "Customize"
+      },
+      {
+        "name": "cut",
+        "title": "Cut"
+      },
+      {
+        "name": "cycling",
+        "title": "Cycling"
+      },
+      {
+        "name": "cylinder",
+        "title": "Cylinder"
+      },
+      {
+        "name": "data",
+        "title": "Data"
+      },
+      {
+        "name": "desktop",
+        "title": "Desktop"
+      },
+      {
+        "name": "detail",
+        "title": "Detail"
+      },
+      {
+        "name": "devices",
+        "title": "Devices"
+      },
+      {
+        "name": "dialpad-alt",
+        "title": "Dialpad Alt"
+      },
+      {
+        "name": "dialpad",
+        "title": "Dialpad"
+      },
+      {
+        "name": "diamond",
+        "title": "Diamond"
+      },
+      {
+        "name": "dice-1",
+        "title": "Dice 1"
+      },
+      {
+        "name": "dice-2",
+        "title": "Dice 2"
+      },
+      {
+        "name": "dice-3",
+        "title": "Dice 3"
+      },
+      {
+        "name": "dice-4",
+        "title": "Dice 4"
+      },
+      {
+        "name": "dice-5",
+        "title": "Dice 5"
+      },
+      {
+        "name": "dice-6",
+        "title": "Dice 6"
+      },
+      {
+        "name": "directions",
+        "title": "Directions"
+      },
+      {
+        "name": "disc",
+        "title": "Disc"
+      },
+      {
+        "name": "dish",
+        "title": "Dish"
+      },
+      {
+        "name": "dislike",
+        "title": "Dislike"
+      },
+      {
+        "name": "dizzy",
+        "title": "Dizzy"
+      },
+      {
+        "name": "dna",
+        "title": "Dna"
+      },
+      {
+        "name": "dock-bottom",
+        "title": "Dock Bottom"
+      },
+      {
+        "name": "dock-left",
+        "title": "Dock Left"
+      },
+      {
+        "name": "dock-right",
+        "title": "Dock Right"
+      },
+      {
+        "name": "dock-top",
+        "title": "Dock Top"
+      },
+      {
+        "name": "dollar-circle",
+        "title": "Dollar Circle"
+      },
+      {
+        "name": "dollar",
+        "title": "Dollar"
+      },
+      {
+        "name": "donate-blood",
+        "title": "Donate Blood"
+      },
+      {
+        "name": "donate-heart",
+        "title": "Donate Heart"
+      },
+      {
+        "name": "door-open",
+        "title": "Door Open"
+      },
+      {
+        "name": "dots-horizontal-rounded",
+        "title": "Dots Horizontal Rounded"
+      },
+      {
+        "name": "dots-horizontal",
+        "title": "Dots Horizontal"
+      },
+      {
+        "name": "dots-vertical-rounded",
+        "title": "Dots Vertical Rounded"
+      },
+      {
+        "name": "dots-vertical",
+        "title": "Dots Vertical"
+      },
+      {
+        "name": "doughnut-chart",
+        "title": "Doughnut Chart"
+      },
+      {
+        "name": "down-arrow-alt",
+        "title": "Down Arrow Alt"
+      },
+      {
+        "name": "down-arrow-circle",
+        "title": "Down Arrow Circle"
+      },
+      {
+        "name": "down-arrow",
+        "title": "Down Arrow"
+      },
+      {
+        "name": "download",
+        "title": "Download"
+      },
+      {
+        "name": "downvote",
+        "title": "Downvote"
+      },
+      {
+        "name": "drink",
+        "title": "Drink"
+      },
+      {
+        "name": "droplet",
+        "title": "Droplet"
+      },
+      {
+        "name": "dumbbell",
+        "title": "Dumbbell"
+      },
+      {
+        "name": "duplicate",
+        "title": "Duplicate"
+      },
+      {
+        "name": "edit-alt",
+        "title": "Edit Alt"
+      },
+      {
+        "name": "edit",
+        "title": "Edit"
+      },
+      {
+        "name": "envelope-open",
+        "title": "Envelope Open"
+      },
+      {
+        "name": "envelope",
+        "title": "Envelope"
+      },
+      {
+        "name": "equalizer",
+        "title": "Equalizer"
+      },
+      {
+        "name": "eraser",
+        "title": "Eraser"
+      },
+      {
+        "name": "error-alt",
+        "title": "Error Alt"
+      },
+      {
+        "name": "error-circle",
+        "title": "Error Circle"
+      },
+      {
+        "name": "error",
+        "title": "Error"
+      },
+      {
+        "name": "euro",
+        "title": "Euro"
+      },
+      {
+        "name": "exclude",
+        "title": "Exclude"
+      },
+      {
+        "name": "exit-fullscreen",
+        "title": "Exit Fullscreen"
+      },
+      {
+        "name": "exit",
+        "title": "Exit"
+      },
+      {
+        "name": "expand-alt",
+        "title": "Expand Alt"
+      },
+      {
+        "name": "expand-horizontal",
+        "title": "Expand Horizontal"
+      },
+      {
+        "name": "expand-vertical",
+        "title": "Expand Vertical"
+      },
+      {
+        "name": "expand",
+        "title": "Expand"
+      },
+      {
+        "name": "export",
+        "title": "Export"
+      },
+      {
+        "name": "extension",
+        "title": "Extension"
+      },
+      {
+        "name": "face",
+        "title": "Face"
+      },
+      {
+        "name": "fast-forward-circle",
+        "title": "Fast Forward Circle"
+      },
+      {
+        "name": "fast-forward",
+        "title": "Fast Forward"
+      },
+      {
+        "name": "female-sign",
+        "title": "Female Sign"
+      },
+      {
+        "name": "female",
+        "title": "Female"
+      },
+      {
+        "name": "file-blank",
+        "title": "File Blank"
+      },
+      {
+        "name": "file-find",
+        "title": "File Find"
+      },
+      {
+        "name": "file",
+        "title": "File"
+      },
+      {
+        "name": "film",
+        "title": "Film"
+      },
+      {
+        "name": "filter-alt",
+        "title": "Filter Alt"
+      },
+      {
+        "name": "filter",
+        "title": "Filter"
+      },
+      {
+        "name": "fingerprint",
+        "title": "Fingerprint"
+      },
+      {
+        "name": "first-aid",
+        "title": "First Aid"
+      },
+      {
+        "name": "first-page",
+        "title": "First Page"
+      },
+      {
+        "name": "flag",
+        "title": "Flag"
+      },
+      {
+        "name": "folder-minus",
+        "title": "Folder Minus"
+      },
+      {
+        "name": "folder-open",
+        "title": "Folder Open"
+      },
+      {
+        "name": "folder-plus",
+        "title": "Folder Plus"
+      },
+      {
+        "name": "folder",
+        "title": "Folder"
+      },
+      {
+        "name": "font-color",
+        "title": "Font Color"
+      },
+      {
+        "name": "font-family",
+        "title": "Font Family"
+      },
+      {
+        "name": "font-size",
+        "title": "Font Size"
+      },
+      {
+        "name": "font",
+        "title": "Font"
+      },
+      {
+        "name": "food-menu",
+        "title": "Food Menu"
+      },
+      {
+        "name": "food-tag",
+        "title": "Food Tag"
+      },
+      {
+        "name": "football",
+        "title": "Football"
+      },
+      {
+        "name": "fork",
+        "title": "Fork"
+      },
+      {
+        "name": "fridge",
+        "title": "Fridge"
+      },
+      {
+        "name": "fullscreen",
+        "title": "Fullscreen"
+      },
+      {
+        "name": "game",
+        "title": "Game"
+      },
+      {
+        "name": "gas-pump",
+        "title": "Gas Pump"
+      },
+      {
+        "name": "ghost",
+        "title": "Ghost"
+      },
+      {
+        "name": "gift",
+        "title": "Gift"
+      },
+      {
+        "name": "git-branch",
+        "title": "Git Branch"
+      },
+      {
+        "name": "git-commit",
+        "title": "Git Commit"
+      },
+      {
+        "name": "git-compare",
+        "title": "Git Compare"
+      },
+      {
+        "name": "git-merge",
+        "title": "Git Merge"
+      },
+      {
+        "name": "git-pull-request",
+        "title": "Git Pull Request"
+      },
+      {
+        "name": "git-repo-forked",
+        "title": "Git Repo Forked"
+      },
+      {
+        "name": "glasses-alt",
+        "title": "Glasses Alt"
+      },
+      {
+        "name": "glasses",
+        "title": "Glasses"
+      },
+      {
+        "name": "globe-alt",
+        "title": "Globe Alt"
+      },
+      {
+        "name": "globe",
+        "title": "Globe"
+      },
+      {
+        "name": "grid-alt",
+        "title": "Grid Alt"
+      },
+      {
+        "name": "grid-horizontal",
+        "title": "Grid Horizontal"
+      },
+      {
+        "name": "grid-small",
+        "title": "Grid Small"
+      },
+      {
+        "name": "grid-vertical",
+        "title": "Grid Vertical"
+      },
+      {
+        "name": "grid",
+        "title": "Grid"
+      },
+      {
+        "name": "group",
+        "title": "Group"
+      },
+      {
+        "name": "handicap",
+        "title": "Handicap"
+      },
+      {
+        "name": "happy-alt",
+        "title": "Happy Alt"
+      },
+      {
+        "name": "happy-beaming",
+        "title": "Happy Beaming"
+      },
+      {
+        "name": "happy-heart-eyes",
+        "title": "Happy Heart Eyes"
+      },
+      {
+        "name": "happy",
+        "title": "Happy"
+      },
+      {
+        "name": "hard-hat",
+        "title": "Hard Hat"
+      },
+      {
+        "name": "hash",
+        "title": "Hash"
+      },
+      {
+        "name": "hdd",
+        "title": "Hdd"
+      },
+      {
+        "name": "heading",
+        "title": "Heading"
+      },
+      {
+        "name": "headphone",
+        "title": "Headphone"
+      },
+      {
+        "name": "health",
+        "title": "Health"
+      },
+      {
+        "name": "heart-circle",
+        "title": "Heart Circle"
+      },
+      {
+        "name": "heart-square",
+        "title": "Heart Square"
+      },
+      {
+        "name": "heart",
+        "title": "Heart"
+      },
+      {
+        "name": "help-circle",
+        "title": "Help Circle"
+      },
+      {
+        "name": "hide",
+        "title": "Hide"
+      },
+      {
+        "name": "highlight",
+        "title": "Highlight"
+      },
+      {
+        "name": "history",
+        "title": "History"
+      },
+      {
+        "name": "hive",
+        "title": "Hive"
+      },
+      {
+        "name": "home-alt-2",
+        "title": "Home Alt 2"
+      },
+      {
+        "name": "home-alt",
+        "title": "Home Alt"
+      },
+      {
+        "name": "home-circle",
+        "title": "Home Circle"
+      },
+      {
+        "name": "home-heart",
+        "title": "Home Heart"
+      },
+      {
+        "name": "home-smile",
+        "title": "Home Smile"
+      },
+      {
+        "name": "home",
+        "title": "Home"
+      },
+      {
+        "name": "horizontal-center",
+        "title": "Horizontal Center"
+      },
+      {
+        "name": "horizontal-left",
+        "title": "Horizontal Left"
+      },
+      {
+        "name": "horizontal-right",
+        "title": "Horizontal Right"
+      },
+      {
+        "name": "hotel",
+        "title": "Hotel"
+      },
+      {
+        "name": "hourglass",
+        "title": "Hourglass"
+      },
+      {
+        "name": "id-card",
+        "title": "Id Card"
+      },
+      {
+        "name": "image-add",
+        "title": "Image Add"
+      },
+      {
+        "name": "image-alt",
+        "title": "Image Alt"
+      },
+      {
+        "name": "image",
+        "title": "Image"
+      },
+      {
+        "name": "images",
+        "title": "Images"
+      },
+      {
+        "name": "import",
+        "title": "Import"
+      },
+      {
+        "name": "infinite",
+        "title": "Infinite"
+      },
+      {
+        "name": "info-circle",
+        "title": "Info Circle"
+      },
+      {
+        "name": "info-square",
+        "title": "Info Square"
+      },
+      {
+        "name": "injection",
+        "title": "Injection"
+      },
+      {
+        "name": "intersect",
+        "title": "Intersect"
+      },
+      {
+        "name": "italic",
+        "title": "Italic"
+      },
+      {
+        "name": "joystick-alt",
+        "title": "Joystick Alt"
+      },
+      {
+        "name": "joystick-button",
+        "title": "Joystick Button"
+      },
+      {
+        "name": "joystick",
+        "title": "Joystick"
+      },
+      {
+        "name": "key",
+        "title": "Key"
+      },
+      {
+        "name": "knife",
+        "title": "Knife"
+      },
+      {
+        "name": "label",
+        "title": "Label"
+      },
+      {
+        "name": "landscape",
+        "title": "Landscape"
+      },
+      {
+        "name": "laptop",
+        "title": "Laptop"
+      },
+      {
+        "name": "last-page",
+        "title": "Last Page"
+      },
+      {
+        "name": "laugh",
+        "title": "Laugh"
+      },
+      {
+        "name": "layer-minus",
+        "title": "Layer Minus"
+      },
+      {
+        "name": "layer-plus",
+        "title": "Layer Plus"
+      },
+      {
+        "name": "layer",
+        "title": "Layer"
+      },
+      {
+        "name": "layout",
+        "title": "Layout"
+      },
+      {
+        "name": "leaf",
+        "title": "Leaf"
+      },
+      {
+        "name": "left-arrow-alt",
+        "title": "Left Arrow Alt"
+      },
+      {
+        "name": "left-arrow-circle",
+        "title": "Left Arrow Circle"
+      },
+      {
+        "name": "left-arrow",
+        "title": "Left Arrow"
+      },
+      {
+        "name": "left-down-arrow-circle",
+        "title": "Left Down Arrow Circle"
+      },
+      {
+        "name": "left-indent",
+        "title": "Left Indent"
+      },
+      {
+        "name": "left-top-arrow-circle",
+        "title": "Left Top Arrow Circle"
+      },
+      {
+        "name": "lemon",
+        "title": "Lemon"
+      },
+      {
+        "name": "library",
+        "title": "Library"
+      },
+      {
+        "name": "like",
+        "title": "Like"
+      },
+      {
+        "name": "line-chart-down",
+        "title": "Line Chart Down"
+      },
+      {
+        "name": "line-chart",
+        "title": "Line Chart"
+      },
+      {
+        "name": "link-alt",
+        "title": "Link Alt"
+      },
+      {
+        "name": "link-external",
+        "title": "Link External"
+      },
+      {
+        "name": "link",
+        "title": "Link"
+      },
+      {
+        "name": "lira",
+        "title": "Lira"
+      },
+      {
+        "name": "list-check",
+        "title": "List Check"
+      },
+      {
+        "name": "list-minus",
+        "title": "List Minus"
+      },
+      {
+        "name": "list-ol",
+        "title": "List Ol"
+      },
+      {
+        "name": "list-plus",
+        "title": "List Plus"
+      },
+      {
+        "name": "list-ul",
+        "title": "List Ul"
+      },
+      {
+        "name": "loader-alt",
+        "title": "Loader Alt"
+      },
+      {
+        "name": "loader-circle",
+        "title": "Loader Circle"
+      },
+      {
+        "name": "loader",
+        "title": "Loader"
+      },
+      {
+        "name": "location-plus",
+        "title": "Location Plus"
+      },
+      {
+        "name": "lock-alt",
+        "title": "Lock Alt"
+      },
+      {
+        "name": "lock-open-alt",
+        "title": "Lock Open Alt"
+      },
+      {
+        "name": "lock-open",
+        "title": "Lock Open"
+      },
+      {
+        "name": "lock",
+        "title": "Lock"
+      },
+      {
+        "name": "log-in-circle",
+        "title": "Log In Circle"
+      },
+      {
+        "name": "log-in",
+        "title": "Log In"
+      },
+      {
+        "name": "log-out-circle",
+        "title": "Log Out Circle"
+      },
+      {
+        "name": "log-out",
+        "title": "Log Out"
+      },
+      {
+        "name": "low-vision",
+        "title": "Low Vision"
+      },
+      {
+        "name": "magnet",
+        "title": "Magnet"
+      },
+      {
+        "name": "mail-send",
+        "title": "Mail Send"
+      },
+      {
+        "name": "male-female",
+        "title": "Male Female"
+      },
+      {
+        "name": "male-sign",
+        "title": "Male Sign"
+      },
+      {
+        "name": "male",
+        "title": "Male"
+      },
+      {
+        "name": "map-alt",
+        "title": "Map Alt"
+      },
+      {
+        "name": "map-pin",
+        "title": "Map Pin"
+      },
+      {
+        "name": "map",
+        "title": "Map"
+      },
+      {
+        "name": "mask",
+        "title": "Mask"
+      },
+      {
+        "name": "math",
+        "title": "Math"
+      },
+      {
+        "name": "medal",
+        "title": "Medal"
+      },
+      {
+        "name": "meh-alt",
+        "title": "Meh Alt"
+      },
+      {
+        "name": "meh-blank",
+        "title": "Meh Blank"
+      },
+      {
+        "name": "meh",
+        "title": "Meh"
+      },
+      {
+        "name": "memory-card",
+        "title": "Memory Card"
+      },
+      {
+        "name": "menu-alt-left",
+        "title": "Menu Alt Left"
+      },
+      {
+        "name": "menu-alt-right",
+        "title": "Menu Alt Right"
+      },
+      {
+        "name": "menu",
+        "title": "Menu"
+      },
+      {
+        "name": "merge",
+        "title": "Merge"
+      },
+      {
+        "name": "message-add",
+        "title": "Message Add"
+      },
+      {
+        "name": "message-alt-add",
+        "title": "Message Alt Add"
+      },
+      {
+        "name": "message-alt-check",
+        "title": "Message Alt Check"
+      },
+      {
+        "name": "message-alt-detail",
+        "title": "Message Alt Detail"
+      },
+      {
+        "name": "message-alt-dots",
+        "title": "Message Alt Dots"
+      },
+      {
+        "name": "message-alt-edit",
+        "title": "Message Alt Edit"
+      },
+      {
+        "name": "message-alt-error",
+        "title": "Message Alt Error"
+      },
+      {
+        "name": "message-alt-minus",
+        "title": "Message Alt Minus"
+      },
+      {
+        "name": "message-alt-x",
+        "title": "Message Alt X"
+      },
+      {
+        "name": "message-alt",
+        "title": "Message Alt"
+      },
+      {
+        "name": "message-check",
+        "title": "Message Check"
+      },
+      {
+        "name": "message-detail",
+        "title": "Message Detail"
+      },
+      {
+        "name": "message-dots",
+        "title": "Message Dots"
+      },
+      {
+        "name": "message-edit",
+        "title": "Message Edit"
+      },
+      {
+        "name": "message-error",
+        "title": "Message Error"
+      },
+      {
+        "name": "message-minus",
+        "title": "Message Minus"
+      },
+      {
+        "name": "message-rounded-add",
+        "title": "Message Rounded Add"
+      },
+      {
+        "name": "message-rounded-check",
+        "title": "Message Rounded Check"
+      },
+      {
+        "name": "message-rounded-detail",
+        "title": "Message Rounded Detail"
+      },
+      {
+        "name": "message-rounded-dots",
+        "title": "Message Rounded Dots"
+      },
+      {
+        "name": "message-rounded-edit",
+        "title": "Message Rounded Edit"
+      },
+      {
+        "name": "message-rounded-error",
+        "title": "Message Rounded Error"
+      },
+      {
+        "name": "message-rounded-minus",
+        "title": "Message Rounded Minus"
+      },
+      {
+        "name": "message-rounded-x",
+        "title": "Message Rounded X"
+      },
+      {
+        "name": "message-rounded",
+        "title": "Message Rounded"
+      },
+      {
+        "name": "message-square-add",
+        "title": "Message Square Add"
+      },
+      {
+        "name": "message-square-check",
+        "title": "Message Square Check"
+      },
+      {
+        "name": "message-square-detail",
+        "title": "Message Square Detail"
+      },
+      {
+        "name": "message-square-dots",
+        "title": "Message Square Dots"
+      },
+      {
+        "name": "message-square-edit",
+        "title": "Message Square Edit"
+      },
+      {
+        "name": "message-square-error",
+        "title": "Message Square Error"
+      },
+      {
+        "name": "message-square-minus",
+        "title": "Message Square Minus"
+      },
+      {
+        "name": "message-square-x",
+        "title": "Message Square X"
+      },
+      {
+        "name": "message-square",
+        "title": "Message Square"
+      },
+      {
+        "name": "message-x",
+        "title": "Message X"
+      },
+      {
+        "name": "message",
+        "title": "Message"
+      },
+      {
+        "name": "meteor",
+        "title": "Meteor"
+      },
+      {
+        "name": "microchip",
+        "title": "Microchip"
+      },
+      {
+        "name": "microphone-off",
+        "title": "Microphone Off"
+      },
+      {
+        "name": "microphone",
+        "title": "Microphone"
+      },
+      {
+        "name": "minus-back",
+        "title": "Minus Back"
+      },
+      {
+        "name": "minus-circle",
+        "title": "Minus Circle"
+      },
+      {
+        "name": "minus-front",
+        "title": "Minus Front"
+      },
+      {
+        "name": "minus",
+        "title": "Minus"
+      },
+      {
+        "name": "mobile-alt",
+        "title": "Mobile Alt"
+      },
+      {
+        "name": "mobile-landscape",
+        "title": "Mobile Landscape"
+      },
+      {
+        "name": "mobile-vibration",
+        "title": "Mobile Vibration"
+      },
+      {
+        "name": "mobile",
+        "title": "Mobile"
+      },
+      {
+        "name": "money-withdraw",
+        "title": "Money Withdraw"
+      },
+      {
+        "name": "money",
+        "title": "Money"
+      },
+      {
+        "name": "moon",
+        "title": "Moon"
+      },
+      {
+        "name": "mouse-alt",
+        "title": "Mouse Alt"
+      },
+      {
+        "name": "mouse",
+        "title": "Mouse"
+      },
+      {
+        "name": "move-horizontal",
+        "title": "Move Horizontal"
+      },
+      {
+        "name": "move-vertical",
+        "title": "Move Vertical"
+      },
+      {
+        "name": "move",
+        "title": "Move"
+      },
+      {
+        "name": "movie-play",
+        "title": "Movie Play"
+      },
+      {
+        "name": "movie",
+        "title": "Movie"
+      },
+      {
+        "name": "music",
+        "title": "Music"
+      },
+      {
+        "name": "navigation",
+        "title": "Navigation"
+      },
+      {
+        "name": "network-chart",
+        "title": "Network Chart"
+      },
+      {
+        "name": "news",
+        "title": "News"
+      },
+      {
+        "name": "no-entry",
+        "title": "No Entry"
+      },
+      {
+        "name": "no-signal",
+        "title": "No Signal"
+      },
+      {
+        "name": "note",
+        "title": "Note"
+      },
+      {
+        "name": "notepad",
+        "title": "Notepad"
+      },
+      {
+        "name": "notification-off",
+        "title": "Notification Off"
+      },
+      {
+        "name": "notification",
+        "title": "Notification"
+      },
+      {
+        "name": "objects-horizontal-center",
+        "title": "Objects Horizontal Center"
+      },
+      {
+        "name": "objects-horizontal-left",
+        "title": "Objects Horizontal Left"
+      },
+      {
+        "name": "objects-horizontal-right",
+        "title": "Objects Horizontal Right"
+      },
+      {
+        "name": "objects-vertical-bottom",
+        "title": "Objects Vertical Bottom"
+      },
+      {
+        "name": "objects-vertical-center",
+        "title": "Objects Vertical Center"
+      },
+      {
+        "name": "objects-vertical-top",
+        "title": "Objects Vertical Top"
+      },
+      {
+        "name": "outline",
+        "title": "Outline"
+      },
+      {
+        "name": "package",
+        "title": "Package"
+      },
+      {
+        "name": "paint-roll",
+        "title": "Paint Roll"
+      },
+      {
+        "name": "paint",
+        "title": "Paint"
+      },
+      {
+        "name": "palette",
+        "title": "Palette"
+      },
+      {
+        "name": "paper-plane",
+        "title": "Paper Plane"
+      },
+      {
+        "name": "paperclip",
+        "title": "Paperclip"
+      },
+      {
+        "name": "paragraph",
+        "title": "Paragraph"
+      },
+      {
+        "name": "party",
+        "title": "Party"
+      },
+      {
+        "name": "paste",
+        "title": "Paste"
+      },
+      {
+        "name": "pause-circle",
+        "title": "Pause Circle"
+      },
+      {
+        "name": "pause",
+        "title": "Pause"
+      },
+      {
+        "name": "pen",
+        "title": "Pen"
+      },
+      {
+        "name": "pencil",
+        "title": "Pencil"
+      },
+      {
+        "name": "phone-call",
+        "title": "Phone Call"
+      },
+      {
+        "name": "phone-incoming",
+        "title": "Phone Incoming"
+      },
+      {
+        "name": "phone-off",
+        "title": "Phone Off"
+      },
+      {
+        "name": "phone-outgoing",
+        "title": "Phone Outgoing"
+      },
+      {
+        "name": "phone",
+        "title": "Phone"
+      },
+      {
+        "name": "photo-album",
+        "title": "Photo Album"
+      },
+      {
+        "name": "pie-chart-alt-2",
+        "title": "Pie Chart Alt 2"
+      },
+      {
+        "name": "pie-chart-alt",
+        "title": "Pie Chart Alt"
+      },
+      {
+        "name": "pie-chart",
+        "title": "Pie Chart"
+      },
+      {
+        "name": "pin",
+        "title": "Pin"
+      },
+      {
+        "name": "planet",
+        "title": "Planet"
+      },
+      {
+        "name": "play-circle",
+        "title": "Play Circle"
+      },
+      {
+        "name": "play",
+        "title": "Play"
+      },
+      {
+        "name": "plug",
+        "title": "Plug"
+      },
+      {
+        "name": "plus-circle",
+        "title": "Plus Circle"
+      },
+      {
+        "name": "plus-medical",
+        "title": "Plus Medical"
+      },
+      {
+        "name": "plus",
+        "title": "Plus"
+      },
+      {
+        "name": "podcast",
+        "title": "Podcast"
+      },
+      {
+        "name": "pointer",
+        "title": "Pointer"
+      },
+      {
+        "name": "poll",
+        "title": "Poll"
+      },
+      {
+        "name": "polygon",
+        "title": "Polygon"
+      },
+      {
+        "name": "popsicle",
+        "title": "Popsicle"
+      },
+      {
+        "name": "pound",
+        "title": "Pound"
+      },
+      {
+        "name": "power-off",
+        "title": "Power Off"
+      },
+      {
+        "name": "printer",
+        "title": "Printer"
+      },
+      {
+        "name": "pulse",
+        "title": "Pulse"
+      },
+      {
+        "name": "purchase-tag-alt",
+        "title": "Purchase Tag Alt"
+      },
+      {
+        "name": "purchase-tag",
+        "title": "Purchase Tag"
+      },
+      {
+        "name": "pyramid",
+        "title": "Pyramid"
+      },
+      {
+        "name": "qr-scan",
+        "title": "Qr Scan"
+      },
+      {
+        "name": "qr",
+        "title": "Qr"
+      },
+      {
+        "name": "question-mark",
+        "title": "Question Mark"
+      },
+      {
+        "name": "radar",
+        "title": "Radar"
+      },
+      {
+        "name": "radio-circle-marked",
+        "title": "Radio Circle Marked"
+      },
+      {
+        "name": "radio-circle",
+        "title": "Radio Circle"
+      },
+      {
+        "name": "radio",
+        "title": "Radio"
+      },
+      {
+        "name": "receipt",
+        "title": "Receipt"
+      },
+      {
+        "name": "rectangle",
+        "title": "Rectangle"
+      },
+      {
+        "name": "recycle",
+        "title": "Recycle"
+      },
+      {
+        "name": "redo",
+        "title": "Redo"
+      },
+      {
+        "name": "reflect-horizontal",
+        "title": "Reflect Horizontal"
+      },
+      {
+        "name": "reflect-vertical",
+        "title": "Reflect Vertical"
+      },
+      {
+        "name": "refresh",
+        "title": "Refresh"
+      },
+      {
+        "name": "registered",
+        "title": "Registered"
+      },
+      {
+        "name": "rename",
+        "title": "Rename"
+      },
+      {
+        "name": "repeat",
+        "title": "Repeat"
+      },
+      {
+        "name": "reply-all",
+        "title": "Reply All"
+      },
+      {
+        "name": "reply",
+        "title": "Reply"
+      },
+      {
+        "name": "repost",
+        "title": "Repost"
+      },
+      {
+        "name": "reset",
+        "title": "Reset"
+      },
+      {
+        "name": "restaurant",
+        "title": "Restaurant"
+      },
+      {
+        "name": "revision",
+        "title": "Revision"
+      },
+      {
+        "name": "rewind-circle",
+        "title": "Rewind Circle"
+      },
+      {
+        "name": "rewind",
+        "title": "Rewind"
+      },
+      {
+        "name": "rfid",
+        "title": "Rfid"
+      },
+      {
+        "name": "right-arrow-alt",
+        "title": "Right Arrow Alt"
+      },
+      {
+        "name": "right-arrow-circle",
+        "title": "Right Arrow Circle"
+      },
+      {
+        "name": "right-arrow",
+        "title": "Right Arrow"
+      },
+      {
+        "name": "right-down-arrow-circle",
+        "title": "Right Down Arrow Circle"
+      },
+      {
+        "name": "right-indent",
+        "title": "Right Indent"
+      },
+      {
+        "name": "right-top-arrow-circle",
+        "title": "Right Top Arrow Circle"
+      },
+      {
+        "name": "rocket",
+        "title": "Rocket"
+      },
+      {
+        "name": "rotate-left",
+        "title": "Rotate Left"
+      },
+      {
+        "name": "rotate-right",
+        "title": "Rotate Right"
+      },
+      {
+        "name": "rss",
+        "title": "Rss"
+      },
+      {
+        "name": "ruble",
+        "title": "Ruble"
+      },
+      {
+        "name": "ruler",
+        "title": "Ruler"
+      },
+      {
+        "name": "run",
+        "title": "Run"
+      },
+      {
+        "name": "rupee",
+        "title": "Rupee"
+      },
+      {
+        "name": "sad",
+        "title": "Sad"
+      },
+      {
+        "name": "save",
+        "title": "Save"
+      },
+      {
+        "name": "scan",
+        "title": "Scan"
+      },
+      {
+        "name": "scatter-chart",
+        "title": "Scatter Chart"
+      },
+      {
+        "name": "screenshot",
+        "title": "Screenshot"
+      },
+      {
+        "name": "search-alt-2",
+        "title": "Search Alt 2"
+      },
+      {
+        "name": "search-alt",
+        "title": "Search Alt"
+      },
+      {
+        "name": "search",
+        "title": "Search"
+      },
+      {
+        "name": "select-multiple",
+        "title": "Select Multiple"
+      },
+      {
+        "name": "selection",
+        "title": "Selection"
+      },
+      {
+        "name": "send",
+        "title": "Send"
+      },
+      {
+        "name": "server",
+        "title": "Server"
+      },
+      {
+        "name": "shape-circle",
+        "title": "Shape Circle"
+      },
+      {
+        "name": "shape-polygon",
+        "title": "Shape Polygon"
+      },
+      {
+        "name": "shape-square",
+        "title": "Shape Square"
+      },
+      {
+        "name": "shape-triangle",
+        "title": "Shape Triangle"
+      },
+      {
+        "name": "share-alt",
+        "title": "Share Alt"
+      },
+      {
+        "name": "share",
+        "title": "Share"
+      },
+      {
+        "name": "shekel",
+        "title": "Shekel"
+      },
+      {
+        "name": "shield-alt-2",
+        "title": "Shield Alt 2"
+      },
+      {
+        "name": "shield-alt",
+        "title": "Shield Alt"
+      },
+      {
+        "name": "shield-minus",
+        "title": "Shield Minus"
+      },
+      {
+        "name": "shield-plus",
+        "title": "Shield Plus"
+      },
+      {
+        "name": "shield-quarter",
+        "title": "Shield Quarter"
+      },
+      {
+        "name": "shield-x",
+        "title": "Shield X"
+      },
+      {
+        "name": "shield",
+        "title": "Shield"
+      },
+      {
+        "name": "shocked",
+        "title": "Shocked"
+      },
+      {
+        "name": "shopping-bag",
+        "title": "Shopping Bag"
+      },
+      {
+        "name": "show-alt",
+        "title": "Show Alt"
+      },
+      {
+        "name": "show",
+        "title": "Show"
+      },
+      {
+        "name": "shower",
+        "title": "Shower"
+      },
+      {
+        "name": "shuffle",
+        "title": "Shuffle"
+      },
+      {
+        "name": "sidebar",
+        "title": "Sidebar"
+      },
+      {
+        "name": "signal-1",
+        "title": "Signal 1"
+      },
+      {
+        "name": "signal-2",
+        "title": "Signal 2"
+      },
+      {
+        "name": "signal-3",
+        "title": "Signal 3"
+      },
+      {
+        "name": "signal-4",
+        "title": "Signal 4"
+      },
+      {
+        "name": "signal-5",
+        "title": "Signal 5"
+      },
+      {
+        "name": "sitemap",
+        "title": "Sitemap"
+      },
+      {
+        "name": "skip-next-circle",
+        "title": "Skip Next Circle"
+      },
+      {
+        "name": "skip-next",
+        "title": "Skip Next"
+      },
+      {
+        "name": "skip-previous-circle",
+        "title": "Skip Previous Circle"
+      },
+      {
+        "name": "skip-previous",
+        "title": "Skip Previous"
+      },
+      {
+        "name": "sleepy",
+        "title": "Sleepy"
+      },
+      {
+        "name": "slider-alt",
+        "title": "Slider Alt"
+      },
+      {
+        "name": "slider",
+        "title": "Slider"
+      },
+      {
+        "name": "slideshow",
+        "title": "Slideshow"
+      },
+      {
+        "name": "smile",
+        "title": "Smile"
+      },
+      {
+        "name": "sort-a-z",
+        "title": "Sort A Z"
+      },
+      {
+        "name": "sort-alt-2",
+        "title": "Sort Alt 2"
+      },
+      {
+        "name": "sort-down",
+        "title": "Sort Down"
+      },
+      {
+        "name": "sort-up",
+        "title": "Sort Up"
+      },
+      {
+        "name": "sort-z-a",
+        "title": "Sort Z A"
+      },
+      {
+        "name": "sort",
+        "title": "Sort"
+      },
+      {
+        "name": "spa",
+        "title": "Spa"
+      },
+      {
+        "name": "space-bar",
+        "title": "Space Bar"
+      },
+      {
+        "name": "speaker",
+        "title": "Speaker"
+      },
+      {
+        "name": "spray-can",
+        "title": "Spray Can"
+      },
+      {
+        "name": "spreadsheet",
+        "title": "Spreadsheet"
+      },
+      {
+        "name": "square-rounded",
+        "title": "Square Rounded"
+      },
+      {
+        "name": "square",
+        "title": "Square"
+      },
+      {
+        "name": "star",
+        "title": "Star"
+      },
+      {
+        "name": "station",
+        "title": "Station"
+      },
+      {
+        "name": "stats",
+        "title": "Stats"
+      },
+      {
+        "name": "sticker",
+        "title": "Sticker"
+      },
+      {
+        "name": "stop-circle",
+        "title": "Stop Circle"
+      },
+      {
+        "name": "stop",
+        "title": "Stop"
+      },
+      {
+        "name": "stopwatch",
+        "title": "Stopwatch"
+      },
+      {
+        "name": "store-alt",
+        "title": "Store Alt"
+      },
+      {
+        "name": "store",
+        "title": "Store"
+      },
+      {
+        "name": "street-view",
+        "title": "Street View"
+      },
+      {
+        "name": "strikethrough",
+        "title": "Strikethrough"
+      },
+      {
+        "name": "subdirectory-left",
+        "title": "Subdirectory Left"
+      },
+      {
+        "name": "subdirectory-right",
+        "title": "Subdirectory Right"
+      },
+      {
+        "name": "sun",
+        "title": "Sun"
+      },
+      {
+        "name": "support",
+        "title": "Support"
+      },
+      {
+        "name": "sushi",
+        "title": "Sushi"
+      },
+      {
+        "name": "swim",
+        "title": "Swim"
+      },
+      {
+        "name": "sync",
+        "title": "Sync"
+      },
+      {
+        "name": "tab",
+        "title": "Tab"
+      },
+      {
+        "name": "table",
+        "title": "Table"
+      },
+      {
+        "name": "tachometer",
+        "title": "Tachometer"
+      },
+      {
+        "name": "tag-alt",
+        "title": "Tag Alt"
+      },
+      {
+        "name": "tag",
+        "title": "Tag"
+      },
+      {
+        "name": "target-lock",
+        "title": "Target Lock"
+      },
+      {
+        "name": "task-x",
+        "title": "Task X"
+      },
+      {
+        "name": "task",
+        "title": "Task"
+      },
+      {
+        "name": "taxi",
+        "title": "Taxi"
+      },
+      {
+        "name": "tennis-ball",
+        "title": "Tennis Ball"
+      },
+      {
+        "name": "terminal",
+        "title": "Terminal"
+      },
+      {
+        "name": "test-tube",
+        "title": "Test Tube"
+      },
+      {
+        "name": "text",
+        "title": "Text"
+      },
+      {
+        "name": "time-five",
+        "title": "Time Five"
+      },
+      {
+        "name": "time",
+        "title": "Time"
+      },
+      {
+        "name": "timer",
+        "title": "Timer"
+      },
+      {
+        "name": "tired",
+        "title": "Tired"
+      },
+      {
+        "name": "toggle-left",
+        "title": "Toggle Left"
+      },
+      {
+        "name": "toggle-right",
+        "title": "Toggle Right"
+      },
+      {
+        "name": "tone",
+        "title": "Tone"
+      },
+      {
+        "name": "traffic-cone",
+        "title": "Traffic Cone"
+      },
+      {
+        "name": "train",
+        "title": "Train"
+      },
+      {
+        "name": "transfer-alt",
+        "title": "Transfer Alt"
+      },
+      {
+        "name": "transfer",
+        "title": "Transfer"
+      },
+      {
+        "name": "trash-alt",
+        "title": "Trash Alt"
+      },
+      {
+        "name": "trash",
+        "title": "Trash"
+      },
+      {
+        "name": "trending-down",
+        "title": "Trending Down"
+      },
+      {
+        "name": "trending-up",
+        "title": "Trending Up"
+      },
+      {
+        "name": "trim",
+        "title": "Trim"
+      },
+      {
+        "name": "trip",
+        "title": "Trip"
+      },
+      {
+        "name": "trophy",
+        "title": "Trophy"
+      },
+      {
+        "name": "tv",
+        "title": "Tv"
+      },
+      {
+        "name": "underline",
+        "title": "Underline"
+      },
+      {
+        "name": "undo",
+        "title": "Undo"
+      },
+      {
+        "name": "unite",
+        "title": "Unite"
+      },
+      {
+        "name": "universal-access",
+        "title": "Universal Access"
+      },
+      {
+        "name": "unlink",
+        "title": "Unlink"
+      },
+      {
+        "name": "up-arrow-alt",
+        "title": "Up Arrow Alt"
+      },
+      {
+        "name": "up-arrow-circle",
+        "title": "Up Arrow Circle"
+      },
+      {
+        "name": "up-arrow",
+        "title": "Up Arrow"
+      },
+      {
+        "name": "upload",
+        "title": "Upload"
+      },
+      {
+        "name": "upside-down",
+        "title": "Upside Down"
+      },
+      {
+        "name": "upvote",
+        "title": "Upvote"
+      },
+      {
+        "name": "usb",
+        "title": "Usb"
+      },
+      {
+        "name": "user-check",
+        "title": "User Check"
+      },
+      {
+        "name": "user-circle",
+        "title": "User Circle"
+      },
+      {
+        "name": "user-minus",
+        "title": "User Minus"
+      },
+      {
+        "name": "user-pin",
+        "title": "User Pin"
+      },
+      {
+        "name": "user-plus",
+        "title": "User Plus"
+      },
+      {
+        "name": "user-voice",
+        "title": "User Voice"
+      },
+      {
+        "name": "user-x",
+        "title": "User X"
+      },
+      {
+        "name": "user",
+        "title": "User"
+      },
+      {
+        "name": "vector",
+        "title": "Vector"
+      },
+      {
+        "name": "vertical-bottom",
+        "title": "Vertical Bottom"
+      },
+      {
+        "name": "vertical-center",
+        "title": "Vertical Center"
+      },
+      {
+        "name": "vertical-top",
+        "title": "Vertical Top"
+      },
+      {
+        "name": "vial",
+        "title": "Vial"
+      },
+      {
+        "name": "video-off",
+        "title": "Video Off"
+      },
+      {
+        "name": "video-plus",
+        "title": "Video Plus"
+      },
+      {
+        "name": "video-recording",
+        "title": "Video Recording"
+      },
+      {
+        "name": "video",
+        "title": "Video"
+      },
+      {
+        "name": "voicemail",
+        "title": "Voicemail"
+      },
+      {
+        "name": "volume-full",
+        "title": "Volume Full"
+      },
+      {
+        "name": "volume-low",
+        "title": "Volume Low"
+      },
+      {
+        "name": "volume-mute",
+        "title": "Volume Mute"
+      },
+      {
+        "name": "volume",
+        "title": "Volume"
+      },
+      {
+        "name": "walk",
+        "title": "Walk"
+      },
+      {
+        "name": "wallet-alt",
+        "title": "Wallet Alt"
+      },
+      {
+        "name": "wallet",
+        "title": "Wallet"
+      },
+      {
+        "name": "water",
+        "title": "Water"
+      },
+      {
+        "name": "webcam",
+        "title": "Webcam"
+      },
+      {
+        "name": "wifi-0",
+        "title": "Wifi 0"
+      },
+      {
+        "name": "wifi-1",
+        "title": "Wifi 1"
+      },
+      {
+        "name": "wifi-2",
+        "title": "Wifi 2"
+      },
+      {
+        "name": "wifi-off",
+        "title": "Wifi Off"
+      },
+      {
+        "name": "wifi",
+        "title": "Wifi"
+      },
+      {
+        "name": "wind",
+        "title": "Wind"
+      },
+      {
+        "name": "window-alt",
+        "title": "Window Alt"
+      },
+      {
+        "name": "window-close",
+        "title": "Window Close"
+      },
+      {
+        "name": "window-open",
+        "title": "Window Open"
+      },
+      {
+        "name": "window",
+        "title": "Window"
+      },
+      {
+        "name": "windows",
+        "title": "Windows"
+      },
+      {
+        "name": "wine",
+        "title": "Wine"
+      },
+      {
+        "name": "wink-smile",
+        "title": "Wink Smile"
+      },
+      {
+        "name": "wink-tongue",
+        "title": "Wink Tongue"
+      },
+      {
+        "name": "won",
+        "title": "Won"
+      },
+      {
+        "name": "world",
+        "title": "World"
+      },
+      {
+        "name": "wrench",
+        "title": "Wrench"
+      },
+      {
+        "name": "x-circle",
+        "title": "X Circle"
+      },
+      {
+        "name": "x",
+        "title": "X"
+      },
+      {
+        "name": "yen",
+        "title": "Yen"
+      },
+      {
+        "name": "zoom-in",
+        "title": "Zoom In"
+      },
+      {
+        "name": "zoom-out",
+        "title": "Zoom Out"
+      }
+    ]
   }
 }

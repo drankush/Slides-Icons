@@ -8,12 +8,12 @@
         "title": "Accessibility"
       },
       {
-        "name": "add-circle",
-        "title": "Add Circle"
-      },
-      {
         "name": "add",
         "title": "Add"
+      },
+      {
+        "name": "add-circle",
+        "title": "Add Circle"
       },
       {
         "name": "airplane",
@@ -28,12 +28,12 @@
         "title": "Albums"
       },
       {
-        "name": "alert-circle",
-        "title": "Alert Circle"
-      },
-      {
         "name": "alert",
         "title": "Alert"
+      },
+      {
+        "name": "alert-circle",
+        "title": "Alert Circle"
       },
       {
         "name": "american-football",
@@ -56,12 +56,16 @@
         "title": "Archive"
       },
       {
+        "name": "arrow-back",
+        "title": "Arrow Back"
+      },
+      {
         "name": "arrow-back-circle",
         "title": "Arrow Back Circle"
       },
       {
-        "name": "arrow-back",
-        "title": "Arrow Back"
+        "name": "arrow-down",
+        "title": "Arrow Down"
       },
       {
         "name": "arrow-down-circle",
@@ -72,36 +76,36 @@
         "title": "Arrow Down Left Box"
       },
       {
-        "name": "arrow-down",
-        "title": "Arrow Down"
-      },
-      {
         "name": "arrow-down-right-box",
         "title": "Arrow Down Right Box"
-      },
-      {
-        "name": "arrow-forward-circle",
-        "title": "Arrow Forward Circle"
       },
       {
         "name": "arrow-forward",
         "title": "Arrow Forward"
       },
       {
-        "name": "arrow-redo-circle",
-        "title": "Arrow Redo Circle"
+        "name": "arrow-forward-circle",
+        "title": "Arrow Forward Circle"
       },
       {
         "name": "arrow-redo",
         "title": "Arrow Redo"
       },
       {
-        "name": "arrow-undo-circle",
-        "title": "Arrow Undo Circle"
+        "name": "arrow-redo-circle",
+        "title": "Arrow Redo Circle"
       },
       {
         "name": "arrow-undo",
         "title": "Arrow Undo"
+      },
+      {
+        "name": "arrow-undo-circle",
+        "title": "Arrow Undo Circle"
+      },
+      {
+        "name": "arrow-up",
+        "title": "Arrow Up"
       },
       {
         "name": "arrow-up-circle",
@@ -112,20 +116,16 @@
         "title": "Arrow Up Left Box"
       },
       {
-        "name": "arrow-up",
-        "title": "Arrow Up"
-      },
-      {
         "name": "arrow-up-right-box",
         "title": "Arrow Up Right Box"
       },
       {
-        "name": "at-circle",
-        "title": "At Circle"
-      },
-      {
         "name": "at",
         "title": "At"
+      },
+      {
+        "name": "at-circle",
+        "title": "At Circle"
       },
       {
         "name": "attach",
@@ -134,6 +134,10 @@
       {
         "name": "backspace",
         "title": "Backspace"
+      },
+      {
+        "name": "bag",
+        "title": "Bag"
       },
       {
         "name": "bag-add",
@@ -146,10 +150,6 @@
       {
         "name": "bag-handle",
         "title": "Bag Handle"
-      },
-      {
-        "name": "bag",
-        "title": "Bag"
       },
       {
         "name": "bag-remove",
@@ -300,16 +300,16 @@
         "title": "Calculator"
       },
       {
+        "name": "calendar",
+        "title": "Calendar"
+      },
+      {
         "name": "calendar-clear",
         "title": "Calendar Clear"
       },
       {
         "name": "calendar-number",
         "title": "Calendar Number"
-      },
-      {
-        "name": "calendar",
-        "title": "Calendar"
       },
       {
         "name": "call",
@@ -336,36 +336,36 @@
         "title": "Card"
       },
       {
-        "name": "caret-back-circle",
-        "title": "Caret Back Circle"
-      },
-      {
         "name": "caret-back",
         "title": "Caret Back"
       },
       {
-        "name": "caret-down-circle",
-        "title": "Caret Down Circle"
+        "name": "caret-back-circle",
+        "title": "Caret Back Circle"
       },
       {
         "name": "caret-down",
         "title": "Caret Down"
       },
       {
-        "name": "caret-forward-circle",
-        "title": "Caret Forward Circle"
+        "name": "caret-down-circle",
+        "title": "Caret Down Circle"
       },
       {
         "name": "caret-forward",
         "title": "Caret Forward"
       },
       {
-        "name": "caret-up-circle",
-        "title": "Caret Up Circle"
+        "name": "caret-forward-circle",
+        "title": "Caret Forward Circle"
       },
       {
         "name": "caret-up",
         "title": "Caret Up"
+      },
+      {
+        "name": "caret-up-circle",
+        "title": "Caret Up Circle"
       },
       {
         "name": "cart",
@@ -380,20 +380,20 @@
         "title": "Cellular"
       },
       {
-        "name": "chatbox-ellipses",
-        "title": "Chatbox Ellipses"
-      },
-      {
         "name": "chatbox",
         "title": "Chatbox"
       },
       {
-        "name": "chatbubble-ellipses",
-        "title": "Chatbubble Ellipses"
+        "name": "chatbox-ellipses",
+        "title": "Chatbox Ellipses"
       },
       {
         "name": "chatbubble",
         "title": "Chatbubble"
+      },
+      {
+        "name": "chatbubble-ellipses",
+        "title": "Chatbubble Ellipses"
       },
       {
         "name": "chatbubbles",
@@ -404,72 +404,76 @@
         "title": "Checkbox"
       },
       {
-        "name": "checkmark-circle",
-        "title": "Checkmark Circle"
+        "name": "checkmark",
+        "title": "Checkmark"
       },
       {
-        "name": "checkmark-done-circle",
-        "title": "Checkmark Done Circle"
+        "name": "checkmark-circle",
+        "title": "Checkmark Circle"
       },
       {
         "name": "checkmark-done",
         "title": "Checkmark Done"
       },
       {
-        "name": "checkmark",
-        "title": "Checkmark"
-      },
-      {
-        "name": "chevron-back-circle",
-        "title": "Chevron Back Circle"
+        "name": "checkmark-done-circle",
+        "title": "Checkmark Done Circle"
       },
       {
         "name": "chevron-back",
         "title": "Chevron Back"
       },
       {
-        "name": "chevron-collapse",
-        "title": "Chevron Collapse"
+        "name": "chevron-back-circle",
+        "title": "Chevron Back Circle"
       },
       {
-        "name": "chevron-down-circle",
-        "title": "Chevron Down Circle"
+        "name": "chevron-collapse",
+        "title": "Chevron Collapse"
       },
       {
         "name": "chevron-down",
         "title": "Chevron Down"
       },
       {
-        "name": "chevron-expand",
-        "title": "Chevron Expand"
+        "name": "chevron-down-circle",
+        "title": "Chevron Down Circle"
       },
       {
-        "name": "chevron-forward-circle",
-        "title": "Chevron Forward Circle"
+        "name": "chevron-expand",
+        "title": "Chevron Expand"
       },
       {
         "name": "chevron-forward",
         "title": "Chevron Forward"
       },
       {
-        "name": "chevron-up-circle",
-        "title": "Chevron Up Circle"
+        "name": "chevron-forward-circle",
+        "title": "Chevron Forward Circle"
       },
       {
         "name": "chevron-up",
         "title": "Chevron Up"
       },
       {
+        "name": "chevron-up-circle",
+        "title": "Chevron Up Circle"
+      },
+      {
         "name": "clipboard",
         "title": "Clipboard"
+      },
+      {
+        "name": "close",
+        "title": "Close"
       },
       {
         "name": "close-circle",
         "title": "Close Circle"
       },
       {
-        "name": "close",
-        "title": "Close"
+        "name": "cloud",
+        "title": "Cloud"
       },
       {
         "name": "cloud-circle",
@@ -488,28 +492,24 @@
         "title": "Cloud Offline"
       },
       {
-        "name": "cloud",
-        "title": "Cloud"
-      },
-      {
         "name": "cloud-upload",
         "title": "Cloud Upload"
-      },
-      {
-        "name": "cloudy-night",
-        "title": "Cloudy Night"
       },
       {
         "name": "cloudy",
         "title": "Cloudy"
       },
       {
-        "name": "code-download",
-        "title": "Code Download"
+        "name": "cloudy-night",
+        "title": "Cloudy Night"
       },
       {
         "name": "code",
         "title": "Code"
+      },
+      {
+        "name": "code-download",
+        "title": "Code Download"
       },
       {
         "name": "code-slash",
@@ -592,16 +592,16 @@
         "title": "Disc"
       },
       {
+        "name": "document",
+        "title": "Document"
+      },
+      {
         "name": "document-attach",
         "title": "Document Attach"
       },
       {
         "name": "document-lock",
         "title": "Document Lock"
-      },
-      {
-        "name": "document",
-        "title": "Document"
       },
       {
         "name": "document-text",
@@ -640,20 +640,20 @@
         "title": "Ellipse"
       },
       {
-        "name": "ellipsis-horizontal-circle",
-        "title": "Ellipsis Horizontal Circle"
-      },
-      {
         "name": "ellipsis-horizontal",
         "title": "Ellipsis Horizontal"
       },
       {
-        "name": "ellipsis-vertical-circle",
-        "title": "Ellipsis Vertical Circle"
+        "name": "ellipsis-horizontal-circle",
+        "title": "Ellipsis Horizontal Circle"
       },
       {
         "name": "ellipsis-vertical",
         "title": "Ellipsis Vertical"
+      },
+      {
+        "name": "ellipsis-vertical-circle",
+        "title": "Ellipsis Vertical Circle"
       },
       {
         "name": "enter",
@@ -672,12 +672,12 @@
         "title": "Extension Puzzle"
       },
       {
-        "name": "eye-off",
-        "title": "Eye Off"
-      },
-      {
         "name": "eye",
         "title": "Eye"
+      },
+      {
+        "name": "eye-off",
+        "title": "Eye Off"
       },
       {
         "name": "eyedrop",
@@ -692,12 +692,12 @@
         "title": "Female"
       },
       {
-        "name": "file-tray-full",
-        "title": "File Tray Full"
-      },
-      {
         "name": "file-tray",
         "title": "File Tray"
+      },
+      {
+        "name": "file-tray-full",
+        "title": "File Tray Full"
       },
       {
         "name": "file-tray-stacked",
@@ -708,12 +708,12 @@
         "title": "Film"
       },
       {
-        "name": "filter-circle",
-        "title": "Filter Circle"
-      },
-      {
         "name": "filter",
         "title": "Filter"
+      },
+      {
+        "name": "filter-circle",
+        "title": "Filter Circle"
       },
       {
         "name": "finger-print",
@@ -736,12 +736,12 @@
         "title": "Flame"
       },
       {
-        "name": "flash-off",
-        "title": "Flash Off"
-      },
-      {
         "name": "flash",
         "title": "Flash"
+      },
+      {
+        "name": "flash-off",
+        "title": "Flash Off"
       },
       {
         "name": "flashlight",
@@ -756,12 +756,12 @@
         "title": "Flower"
       },
       {
-        "name": "folder-open",
-        "title": "Folder Open"
-      },
-      {
         "name": "folder",
         "title": "Folder"
+      },
+      {
+        "name": "folder-open",
+        "title": "Folder Open"
       },
       {
         "name": "football",
@@ -848,24 +848,28 @@
         "title": "Headset"
       },
       {
-        "name": "heart-circle",
-        "title": "Heart Circle"
+        "name": "heart",
+        "title": "Heart"
       },
       {
-        "name": "heart-dislike-circle",
-        "title": "Heart Dislike Circle"
+        "name": "heart-circle",
+        "title": "Heart Circle"
       },
       {
         "name": "heart-dislike",
         "title": "Heart Dislike"
       },
       {
+        "name": "heart-dislike-circle",
+        "title": "Heart Dislike Circle"
+      },
+      {
         "name": "heart-half",
         "title": "Heart Half"
       },
       {
-        "name": "heart",
-        "title": "Heart"
+        "name": "help",
+        "title": "Help"
       },
       {
         "name": "help-buoy",
@@ -874,10 +878,6 @@
       {
         "name": "help-circle",
         "title": "Help Circle"
-      },
-      {
-        "name": "help",
-        "title": "Help"
       },
       {
         "name": "home",
@@ -908,12 +908,12 @@
         "title": "Infinite"
       },
       {
-        "name": "information-circle",
-        "title": "Information Circle"
-      },
-      {
         "name": "information",
         "title": "Information"
+      },
+      {
+        "name": "information-circle",
+        "title": "Information Circle"
       },
       {
         "name": "invert-mode",
@@ -956,12 +956,12 @@
         "title": "Link"
       },
       {
-        "name": "list-circle",
-        "title": "List Circle"
-      },
-      {
         "name": "list",
         "title": "List"
+      },
+      {
+        "name": "list-circle",
+        "title": "List Circle"
       },
       {
         "name": "locate",
@@ -1012,16 +1012,16 @@
         "title": "Logo Appflow"
       },
       {
+        "name": "logo-apple",
+        "title": "Logo Apple"
+      },
+      {
         "name": "logo-apple-appstore",
         "title": "Logo Apple Appstore"
       },
       {
         "name": "logo-apple-ar",
         "title": "Logo Apple Ar"
-      },
-      {
-        "name": "logo-apple",
-        "title": "Logo Apple"
       },
       {
         "name": "logo-behance",
@@ -1128,12 +1128,12 @@
         "title": "Logo Gitlab"
       },
       {
-        "name": "logo-google-playstore",
-        "title": "Logo Google Playstore"
-      },
-      {
         "name": "logo-google",
         "title": "Logo Google"
+      },
+      {
+        "name": "logo-google-playstore",
+        "title": "Logo Google Playstore"
       },
       {
         "name": "logo-hackernews",
@@ -1368,24 +1368,24 @@
         "title": "Magnet"
       },
       {
-        "name": "mail-open",
-        "title": "Mail Open"
-      },
-      {
         "name": "mail",
         "title": "Mail"
+      },
+      {
+        "name": "mail-open",
+        "title": "Mail Open"
       },
       {
         "name": "mail-unread",
         "title": "Mail Unread"
       },
       {
-        "name": "male-female",
-        "title": "Male Female"
-      },
-      {
         "name": "male",
         "title": "Male"
+      },
+      {
+        "name": "male-female",
+        "title": "Male Female"
       },
       {
         "name": "man",
@@ -1416,20 +1416,20 @@
         "title": "Menu"
       },
       {
-        "name": "mic-circle",
-        "title": "Mic Circle"
+        "name": "mic",
+        "title": "Mic"
       },
       {
-        "name": "mic-off-circle",
-        "title": "Mic Off Circle"
+        "name": "mic-circle",
+        "title": "Mic Circle"
       },
       {
         "name": "mic-off",
         "title": "Mic Off"
       },
       {
-        "name": "mic",
-        "title": "Mic"
+        "name": "mic-off-circle",
+        "title": "Mic Off Circle"
       },
       {
         "name": "moon",
@@ -1448,32 +1448,32 @@
         "title": "Musical Notes"
       },
       {
-        "name": "navigate-circle",
-        "title": "Navigate Circle"
-      },
-      {
         "name": "navigate",
         "title": "Navigate"
+      },
+      {
+        "name": "navigate-circle",
+        "title": "Navigate Circle"
       },
       {
         "name": "newspaper",
         "title": "Newspaper"
       },
       {
-        "name": "notifications-circle",
-        "title": "Notifications Circle"
+        "name": "notifications",
+        "title": "Notifications"
       },
       {
-        "name": "notifications-off-circle",
-        "title": "Notifications Off Circle"
+        "name": "notifications-circle",
+        "title": "Notifications Circle"
       },
       {
         "name": "notifications-off",
         "title": "Notifications Off"
       },
       {
-        "name": "notifications",
-        "title": "Notifications"
+        "name": "notifications-off-circle",
+        "title": "Notifications Off Circle"
       },
       {
         "name": "nuclear",
@@ -1500,12 +1500,12 @@
         "title": "Partly Sunny"
       },
       {
-        "name": "pause-circle",
-        "title": "Pause Circle"
-      },
-      {
         "name": "pause",
         "title": "Pause"
+      },
+      {
+        "name": "pause-circle",
+        "title": "Pause Circle"
       },
       {
         "name": "paw",
@@ -1516,12 +1516,16 @@
         "title": "Pencil"
       },
       {
+        "name": "people",
+        "title": "People"
+      },
+      {
         "name": "people-circle",
         "title": "People Circle"
       },
       {
-        "name": "people",
-        "title": "People"
+        "name": "person",
+        "title": "Person"
       },
       {
         "name": "person-add",
@@ -1530,10 +1534,6 @@
       {
         "name": "person-circle",
         "title": "Person Circle"
-      },
-      {
-        "name": "person",
-        "title": "Person"
       },
       {
         "name": "person-remove",
@@ -1568,24 +1568,24 @@
         "title": "Planet"
       },
       {
-        "name": "play-back-circle",
-        "title": "Play Back Circle"
-      },
-      {
         "name": "play-back",
         "title": "Play Back"
+      },
+      {
+        "name": "play-back-circle",
+        "title": "Play Back Circle"
       },
       {
         "name": "play-circle",
         "title": "Play Circle"
       },
       {
-        "name": "play-forward-circle",
-        "title": "Play Forward Circle"
-      },
-      {
         "name": "play-forward",
         "title": "Play Forward"
+      },
+      {
+        "name": "play-forward-circle",
+        "title": "Play Forward Circle"
       }
     ]
   }

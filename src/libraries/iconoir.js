@@ -15,18 +15,18 @@ export default {
     iconCount: 1600,
     isLocal: false,
 
-    // Single style library
+    // Two styles: regular and solid
     styles: [
-        { id: 'regular', name: 'Regular' }
+        { id: 'regular', name: 'Regular' },
+        { id: 'solid', name: 'Solid' }
     ],
     defaultStyle: 'regular',
 
     // Manifest location
     manifestUrl: 'manifests/iconoir.json',
 
-    // Get icon URL from CDN
+    // Get icon URL from CDN - icons/{style}/{icon-name}.svg
     getIconUrl(iconName, style = 'regular', category = '') {
-        // Iconoir uses flat structure with kebab-case naming
-        return `${CDN_BASE}${iconName}.svg`;
+        return `${CDN_BASE}${style}/${iconName}.svg`;
     }
 };

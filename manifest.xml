@@ -92,7 +92,7 @@
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="GetStarted.Description" DefaultValue="Click the OpenIcons button to browse and insert icons from 6 libraries."/>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Browse and insert 10,000+ free icons from Health Icons, Bootstrap, Ionicons & more"/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Browse and insert 10,000+ free icons from Health Icons, Bootstrap, Ionicons, and more"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>

@@ -92,12 +92,13 @@ const OpenIconsLibraries = {
         iconCount: 1600,
         isLocal: false,
         styles: [
-            { id: 'regular', name: 'Regular' }
+            { id: 'regular', name: 'Regular' },
+            { id: 'solid', name: 'Solid' }
         ],
         defaultStyle: 'regular',
         manifestUrl: 'manifests/iconoir.json',
         getIconUrl(iconName, style, category) {
-            return `https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/icons/${iconName}.svg`;
+            return `https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/icons/${style}/${iconName}.svg`;
         }
     },
 
