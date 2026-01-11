@@ -1,42 +1,52 @@
-# Health Icons PowerPoint Add-in
+# OpenIcons PowerPoint Add-in
 
-Insert 740+ free, open-source health icons directly into your PowerPoint presentations with one click.
+Insert **6,500+ free icons** from 6 open-source libraries directly into your PowerPoint presentations.
+
+## Supported Icon Libraries
+
+| Library | Icons | License |
+|---------|-------|---------|
+| [Health Icons](https://healthicons.org) | 740 | CC0 |
+| [Bootstrap Icons](https://icons.getbootstrap.com) | 2,078 | MIT |
+| [Ionicons](https://ionic.io/ionicons) | 396 | MIT |
+| [Iconoir](https://iconoir.com) | 1,000 | MIT |
+| [Remix Icon](https://remixicon.com) | 1,537 | Apache 2.0 |
+| [Boxicons](https://boxicons.com) | 814 | MIT |
 
 ## Quick Start
 
-### 1. Start the Dev Server
+### 1. Install & Build
 ```bash
+npm install
 npm run dev
 ```
 This builds the project and starts an HTTPS server at `https://localhost:3000`.
 
 ### 2. Sideload in PowerPoint (Mac)
 ```bash
-# Create the add-ins folder if it doesn't exist
 mkdir -p ~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef
-
-# Copy the manifest
 cp manifest.xml ~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef/
 ```
 
-### 3. Open PowerPoint
+### 3. Use in PowerPoint
 1. Open PowerPoint
-2. Go to **Insert** → **My Add-ins** → **Health Icons**
-3. Browse categories, search for icons, and click to insert!
+2. Go to **Insert** → **Add-ins** → **OpenIcons**
+3. Select a library, browse/search icons, and click to insert!
 
 ## Features
-- 🏥 **740+ health icons** in 21 categories
-- 🎨 **Two styles**: Filled and Outline
-- 📐 **Adjustable sizes**: 48px or 96px
+
+- 🎨 **6 icon libraries** with 6,500+ icons
+- 🔄 **Multiple styles** per library (Filled, Outline, Solid, etc.)
+- 📐 **Adjustable sizes**: 48px, 96px, 128px
 - 🔍 **Search**: Find icons by name or keywords
 - ⚡ **One-click insert**: Click any icon to add to your slide
-
-## Categories
-Blood, Body, Conditions, Contraceptives, Devices, Diagnostics, Emotions, Exercise, Graphs, Medications, Nutrition, Objects, People, Places, PPE, Shapes, Specialties, Symbols, Typography, Vehicles, Zoonoses
+- 💾 **CDN caching**: Fast icon loading after first fetch
 
 ## License
+
 - **Add-in code**: MIT License
-- **Health Icons**: CC0 (Public Domain) - Free for any use, no attribution required
+- **Icons**: See individual library licenses above
 
 ---
-Icons sourced from [healthicons.org](https://healthicons.org)
+
+> **Looking for more icons?** Check out [Slides Icons](https://github.com/drankush/Slides-Icons) - our newer add-in with 94,000+ icons!
