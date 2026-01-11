@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Icons</title>
+    <link rel="stylesheet" href="taskpane.css">
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="logo">
+                <span class="logo-icon">🏥</span>
+                Health Icons
+            </h1>
+            <p class="tagline">1,500+ free icons for health projects</p>
+        </header>
+
+        <!-- Search -->
+        <div class="search-container">
+            <input 
+                type="text" 
+                id="searchInput" 
+                class="search-input" 
+                placeholder="Search icons..."
+                autocomplete="off"
+            >
+            <span class="search-icon">🔍</span>
+        </div>
+
+        <!-- Options -->
+        <div class="options-row">
+            <div class="option-group">
+                <label class="option-label">Style:</label>
+                <div class="toggle-group">
+                    <button class="toggle-btn active" data-style="filled">Filled</button>
+                    <button class="toggle-btn" data-style="outline">Outline</button>
+                </div>
+            </div>
+            <div class="option-group">
+                <label class="option-label">Size:</label>
+                <select id="sizeSelect" class="size-select">
+                    <option value="48">48px</option>
+                    <option value="96" selected>96px</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Categories -->
+        <div class="categories-container">
+            <h2 class="section-title">Categories</h2>
+            <div id="categoryList" class="category-list">
+                <!-- Categories will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Icons Grid -->
+        <div class="icons-section">
+            <div class="icons-header">
+                <h2 id="currentCategory" class="section-title">All Icons</h2>
+                <span id="iconCount" class="icon-count"></span>
+            </div>
+            <div id="iconsGrid" class="icons-grid">
+                <!-- Icons will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Status Message -->
+        <div id="statusMessage" class="status-message"></div>
+    </div>
+
+    <script src="taskpane.js"></script>
+</body>
+</html>
