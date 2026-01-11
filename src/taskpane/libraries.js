@@ -112,13 +112,12 @@ const OpenIconsLibraries = {
         isLocal: false,
         styles: [
             { id: 'regular', name: 'Regular' },
-            { id: 'solid', name: 'Solid' },
-            { id: 'logos', name: 'Logos' }
+            { id: 'solid', name: 'Solid' }
         ],
         defaultStyle: 'regular',
         manifestUrl: 'manifests/boxicons.json',
         getIconUrl(iconName, style, category) {
-            const prefix = style === 'solid' ? 'bxs' : style === 'logos' ? 'bxl' : 'bx';
+            const prefix = style === 'solid' ? 'bxs' : 'bx';
             return `https://cdn.jsdelivr.net/npm/boxicons@2.1.4/svg/${style}/${prefix}-${iconName}.svg`;
         }
     }

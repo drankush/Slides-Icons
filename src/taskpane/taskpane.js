@@ -10,10 +10,14 @@ let currentStyle = 'filled';
 let currentSize = 96;
 let currentCategory = 'all';
 
-// Initialize Office.js
+// Initialize Office.js (or standalone mode for browser testing)
 Office.onReady((info) => {
     if (info.host === Office.HostType.PowerPoint) {
-        console.log('Office.js is ready');
+        console.log('Office.js is ready - PowerPoint mode');
+        initializeApp();
+    } else {
+        // Standalone browser mode for development/testing
+        console.log('Running in standalone browser mode');
         initializeApp();
     }
 });
@@ -177,7 +181,9 @@ function renderCategories() {
         return;
     }
 
-    const categories = ['all', ...Object.keys(currentManifest.icons)];
+    // Filter out 'all' from manifest keys to avoid duplicate
+    const manifestCategories = Object.keys(currentManifest.icons).filter(cat => cat !== 'all');
+    const categories = ['all', ...manifestCategories];
 
     categoryList.innerHTML = categories.map(cat => `
         <button class="category-btn ${cat === currentCategory ? 'active' : ''}" data-category="${cat}">
@@ -278,7 +284,7 @@ function renderIcons(searchQuery = '') {
     }).join('');
 
     if (icons.length > 200) {
-        iconsGrid.innerHTML += `<div class="empty-state"><p>Showing 200 of ${icons.length} icons. Use search to filter.</p></div>`;
+        iconsGrid.innerHTML += `<div class="icon-limit-message">Showing 200 of ${icons.length} icons. Use search to filter.</div>`;
     }
 
     // Add click handlers
