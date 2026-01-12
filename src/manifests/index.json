@@ -210,19 +210,9 @@
     "totalIcons": 635
   },
   {
-    "id": "healthicons",
-    "name": "Health Icons",
-    "totalIcons": 741
-  },
-  {
     "id": "hero",
     "name": "hero",
     "totalIcons": 592
-  },
-  {
-    "id": "heroicons",
-    "name": "Heroicons",
-    "totalIcons": 324
   },
   {
     "id": "humble",
@@ -263,11 +253,6 @@
     "id": "ionic",
     "name": "ionic",
     "totalIcons": 934
-  },
-  {
-    "id": "ionicons",
-    "name": "Ionicons",
-    "totalIcons": 1000
   },
   {
     "id": "jam",
@@ -403,11 +388,6 @@
     "id": "remix",
     "name": "remix",
     "totalIcons": 2850
-  },
-  {
-    "id": "remixicon",
-    "name": "remixicon",
-    "totalIcons": 1537
   },
   {
     "id": "rsuite",
