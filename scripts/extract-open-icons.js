@@ -79,11 +79,23 @@ function processPackage(filename) {
         const data = JSON.parse(decompressed);
 
         // Transform to manifest format with SVGs
-        const icons = Object.keys(data.icons || {}).map(name => ({
-            name: name,
-            title: name.replace(/[-_]/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
-            svg: data.icons[name] // The raw SVG path/element
-        }));
+        let icons = [];
+        if (Array.isArray(data.icons)) {
+            icons = data.icons.map(icon => {
+                const name = icon.name || icon.id || 'unnamed';
+                return {
+                    name: name,
+                    title: name.replace(/[-_]/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+                    svg: icon
+                };
+            });
+        } else {
+            icons = Object.keys(data.icons || {}).map(name => ({
+                name: name,
+                title: name.replace(/[-_]/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+                svg: data.icons[name] // The raw SVG path/element
+            }));
+        }
 
         const manifest = {
             id: id,

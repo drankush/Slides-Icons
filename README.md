@@ -1,65 +1,91 @@
 # Slides Icons
 
-**A PowerPoint Add-in with 94,000+ free icons from 100+ open-source libraries.**
+**A PowerPoint Add-in with 94,000+ free icons from 107 open-source libraries.**
 
-![Slides Icons Screenshot](https://raw.githubusercontent.com/drankush/Slides-Icons/main/docs/screenshot.png)
+![Slides Icons](https://raw.githubusercontent.com/drankush/Slides-Icons/main/docs/screenshot.png)
 
-## Features
+## ✨ Features
 
-- 🎨 **100+ Icon Libraries** (Bootstrap, FontAwesome, Material, Octicons, etc.)
-- 🖼️ **94,000+ Total Icons**
-- ☀️ **Light Mode UI** for better visibility
-- 🔍 **Fast Search** & Filtering
-- 🌈 **Custom Color & Size**
-- 🔲 **Background Color** support for icons
-- ⚡ **Local JSON Architecture** - loads fast without external API limits
+- **107 Icon Libraries** - Bootstrap, FontAwesome, Material Design, Tabler, Phosphor, and 100+ more
+- **94,000+ Icons** - Comprehensive coverage for any presentation need
+- **Collapsible Sidebar** - Toggle libraries panel for more icon grid space
+- **Custom Colors** - Apply any color to icons with live preview
+- **Background Support** - Add background colors to icon cards
+- **Multiple Sizes** - Export at 24px, 48px, 64px, 96px, or 128px
+- **Fast Search** - Instantly filter icons by name
+- **Offline-Ready** - All icons embedded locally, no CDN dependencies
 
-## Supported Libraries
+## 📚 Library Categories
 
-Includes all libraries from [Open-Icons](https://cenfun.github.io/open-icons/):
-- Bootstrap Icons (2000+)
-- Material Design Icons (7000+)
-- FontAwesome (1400+)
-- GitHub Octicons
-- Radix Icons
-- Feather, Lucide, Ionicons, Tabler, and 90+ more.
+| Category | Libraries |
+|----------|-----------|
+| **General** | Bootstrap, Feather, Lucide, Tabler, Heroicons, Iconoir |
+| **Material** | Material Design Icons (7000+), Material Symbols |
+| **Brands** | Simple Icons, Logos, Dev Icons |
+| **Specialized** | Crypto (coins), Flag (countries), Weather, Maps |
+| **Multi-color** | Crypto, Flag, Logos, Ant Design Mobile |
 
-## Architecture
+## 🏗 Architecture
 
-**Server-Side Extraction (Build Time):**
-We leverage the `open-icons` npm package but solve the browser decompression issue by extracting all icons at build time.
-- `scripts/extract-open-icons.js`: Runs in Node.js (JSDOM), loads the UMD bundles, decompresses using the library's native logic, and saves static JSON manifests.
-- **Frontend**: Loads these lightweight JSON files on-demand. No heavy decompression in browser!
+This add-in leverages the excellent [open-icons](https://github.com/cenfun/open-icons) npm package:
 
-## development
+1. **Build Time**: Extract compressed icon bundles using Node.js + JSDOM
+2. **Runtime**: Load lightweight JSON manifests on-demand (no heavy decompression in browser)
+3. **Rendering**: Direct SVG embedding with intelligent color handling:
+   - Stroke-based icons (Tabler, Feather) → stroke styling only
+   - Multi-color icons (Crypto, Flag) → preserve original colors
+   - Fill-based icons (Bootstrap, etc.) → currentColor fill
 
-### 1. Install & Extract Icons
+## 🚀 Development
+
+### Prerequisites
+- Node.js 18+
+- npm
+
+### Setup
 ```bash
+# Install dependencies
 npm install
-# Extracts all 100+ libraries to src/manifests/ (takes ~1 min)
-npm run extract-icons
-# Generate index
-npm run generate-index
-```
 
-### 2. Build & Run
-```bash
+# Extract icons from open-icons package (~1 min)
+npm run extract-icons
+
+# Build the add-in
 npm run build
+
+# Start local server
 npm start
 ```
 
-### 3. Sideload in PowerPoint (Mac)
+### Sideload in PowerPoint (macOS)
 ```bash
-# Copy manifest
 mkdir -p ~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef
 cp manifest.xml ~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef/
 ```
 
-## Credits
+### Sideload in PowerPoint (Windows)
+1. Open PowerPoint → Insert → My Add-ins → Shared Folder
+2. Add the network share containing `manifest.xml`
 
-Powered by [Open-Icons](https://github.com/cenfun/open-icons) by Cenfun.
-All icons are licensed under their respective open-source licenses.
+## 📁 Project Structure
 
-## License
+```
+ICON-ADDIN/
+├── src/
+│   ├── taskpane/          # Main UI (HTML, CSS, JS)
+│   └── manifests/         # Extracted icon JSON files (107 libraries)
+├── scripts/
+│   ├── extract-open-icons.js   # Icon extraction script
+│   └── build.js                # Build script
+├── dist/                  # Built output
+└── manifest.xml          # Office Add-in manifest
+```
 
-MIT License
+## 🙏 Credits
+
+- **Icons**: Powered by [Open-Icons](https://github.com/cenfun/open-icons) by Cenfun
+- All icons are licensed under their respective open-source licenses (MIT, Apache, etc.)
+
+## 📄 License
+
+MIT License - Free for personal and commercial use.

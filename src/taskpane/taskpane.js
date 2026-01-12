@@ -28,19 +28,24 @@ async function initializeApp() {
 function setupEventListeners() {
     // Search
     const searchInput = document.getElementById('searchInput');
-    searchInput.addEventListener('input', debounce(renderIcons, 200));
+    searchInput.addEventListener('input', () => {
+        // Simple debounce
+        clearTimeout(searchInput.timeout);
+        searchInput.timeout = setTimeout(() => renderIcons(), 200);
+    });
 
     // Size
-    document.getElementById('sizeSelect').addEventListener('change', (e) => {
+    const sizeSelect = document.getElementById('sizeSelect');
+    sizeSelect.addEventListener('change', (e) => {
         iconSize = parseInt(e.target.value);
+        // Update CSS variable for grid preview
+        document.documentElement.style.setProperty('--icon-size', `${iconSize}px`);
     });
 
     // Icon Color
     const colorPicker = document.getElementById('colorPicker');
-    const colorValue = document.getElementById('colorValue');
     colorPicker.addEventListener('input', (e) => {
         iconColor = e.target.value;
-        colorValue.textContent = iconColor;
         applyStylesToGrid();
     });
 
@@ -58,6 +63,14 @@ function setupEventListeners() {
         bgColor = e.target.value;
         applyStylesToGrid();
     });
+
+    // Sidebar Toggle
+    const toggleBtn = document.getElementById('toggleSidebar');
+    if (toggleBtn) {
+        toggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('sidebar-collapsed');
+        });
+    }
 }
 
 /**
@@ -71,7 +84,6 @@ async function loadLibraryIndex() {
         allLibraries = await response.json();
         renderLibraryList();
 
-        // precise initial load: Bootstrap or first available
         const initialLib = allLibraries.find(l => l.id === 'bootstrap') || allLibraries[0];
         if (initialLib) {
             loadLibrary(initialLib.id);
@@ -97,7 +109,6 @@ function renderLibraryList() {
 }
 
 async function loadLibrary(id) {
-    // Update active state in sidebar
     document.querySelectorAll('.library-item').forEach(el => {
         el.classList.toggle('active', el.dataset.id === id);
     });
@@ -111,14 +122,13 @@ async function loadLibrary(id) {
 
         currentManifest = await response.json();
 
-        // Update header info
         const libInfo = allLibraries.find(l => l.id === id);
         if (libInfo) {
             document.getElementById('currentLibrary').textContent = libInfo.name;
             document.getElementById('totalCount').textContent = currentManifest.totalIcons;
         }
 
-        renderIcons(); // Initial render
+        renderIcons();
 
     } catch (error) {
         console.error(`Load library ${id} failed:`, error);
@@ -136,15 +146,22 @@ function renderIcons() {
 
     let icons = currentManifest.icons;
 
-    // Filter
     if (searchVal) {
         icons = icons.filter(i => i.name.toLowerCase().includes(searchVal) ||
             (i.title && i.title.toLowerCase().includes(searchVal)));
     }
 
-    document.getElementById('iconCount').textContent = `${icons.length} icons`;
+    const footer = document.getElementById('iconCount');
+    if (icons.length > 0) {
+        let msg = `${icons.length} icons`;
+        if (icons.length > 300) {
+            msg += ' • Use search to see more';
+        }
+        footer.textContent = msg;
+    } else {
+        footer.textContent = '0 icons';
+    }
 
-    // Performance limit
     const displayIcons = icons.slice(0, 300);
 
     if (displayIcons.length === 0) {
@@ -152,75 +169,164 @@ function renderIcons() {
         return;
     }
 
+    // Check if manifest uses CDN pattern or embedded SVG
+    const hasCdn = !!currentManifest.cdnPattern;
+
     grid.innerHTML = displayIcons.map(icon => {
-        // SVG content is in icon.svg (if from our extractor)
-        // Format: { name, viewBox, content } OR string
-        let svgHtml = '';
+        if (hasCdn) {
+            const url = getIconUrl(currentManifest, icon.name);
 
-        if (typeof icon.svg === 'string') {
-            svgHtml = icon.svg; // Full SVG string
-        } else if (icon.svg && icon.svg.content) {
-            // Construct SVG
-            svgHtml = `<svg viewBox="${icon.svg.viewBox || '0 0 24 24'}" xmlns="http://www.w3.org/2000/svg">${icon.svg.content}</svg>`;
-        }
-
-        // Strip existing fill/stroke to allow coloring
-        // We do this via CSS 'currentColor' mostly, but for PNG generation we parse it.
-        // For grid display, we rely on CSS.
-
-        return `
-            <div class="icon-item" data-name="${icon.name}">
-                <div class="icon-preview">
-                    ${svgHtml}
+            // Universal robust rendering: Use IMG tag with drop-shadow filter
+            // This bypasses mask-image issues (e.g. Ionicons no-dims) and ensures visibility
+            return `
+                <div class="icon-item" data-name="${icon.name}">
+                    <div class="icon-preview">
+                        <img src="${url}" alt="${icon.title}" loading="lazy" class="icon-img-shadowed">
+                    </div>
                 </div>
-            </div>
-        `;
+            `;
+        } else {
+            // Embedded SVG: render inline (skip if content is not a string)
+            let svgHtml = '';
+            if (typeof icon.svg === 'string') {
+                svgHtml = icon.svg;
+            } else if (icon.svg && typeof icon.svg.content === 'string') {
+                svgHtml = `<svg viewBox="${icon.svg.viewBox || '0 0 24 24'}" xmlns="http://www.w3.org/2000/svg">${icon.svg.content}</svg>`;
+            }
+            // Skip rendering if no valid SVG content
+            if (!svgHtml) return '';
+            return `
+                <div class="icon-item" data-name="${icon.name}">
+                    <div class="icon-preview">
+                        ${svgHtml}
+                    </div>
+                </div>
+            `;
+        }
     }).join('');
 
     if (icons.length > 300) {
         grid.innerHTML += `<div class="icon-limit-message">Showing 300 of ${icons.length}</div>`;
     }
 
-    // Apply initial colors
     applyStylesToGrid();
 
-    // Click listeners
     grid.querySelectorAll('.icon-item').forEach(item => {
         item.addEventListener('click', () => insertIcon(item));
     });
 }
 
+// Get icon URL from CDN pattern
+function getIconUrl(manifest, name) {
+    if (!manifest.cdnPattern) return null;
+    return manifest.cdnPattern.replace('{name}', name);
+}
+
 function applyStylesToGrid() {
     const grid = document.getElementById('iconsGrid');
 
-    // Apply icon color
+    // Multi-color libraries that should NOT have currentColor applied
+    // These have designed color schemes (logos, flags, crypto coins, etc.)
+    const MULTI_COLOR_LIBS = ['crypto', 'flag', 'antdm', 'logos', 'simple', 'dev', 'payment', 'file'];
+
+    // Stroke-based libraries where we should NOT add fill
+    const STROKE_LIBS = ['tabler', 'tiny', 'feather', 'lucide'];
+
+    const isMultiColor = currentManifest && MULTI_COLOR_LIBS.includes(currentManifest.id);
+    const isStrokeBased = currentManifest && STROKE_LIBS.includes(currentManifest.id);
+
+    // Apply icon color to container to cascade to currentColor
     grid.style.color = iconColor;
+
+    // For embedded SVGs, apply currentColor based on library type
     grid.querySelectorAll('svg').forEach(svg => {
-        svg.style.fill = 'currentColor';
+        if (isMultiColor) {
+            // Don't modify multi-color icons - keep original colors
+            return;
+        }
+
+        if (isStrokeBased) {
+            // For stroke-based icons: only set stroke, don't touch fill
+            svg.querySelectorAll('path, circle, rect, polygon, line, polyline, ellipse').forEach(el => {
+                const stroke = el.getAttribute('stroke');
+                if (stroke && stroke !== 'none') {
+                    el.style.stroke = 'currentColor';
+                }
+            });
+            return;
+        }
+
+        // Default: fill-based icons (Bootstrap, Font Awesome, etc.)
+        const rootFill = svg.getAttribute('fill');
+        if (rootFill !== 'none') {
+            svg.style.fill = 'currentColor';
+        }
+
+        svg.querySelectorAll('path, circle, rect, polygon, line, polyline, ellipse, g').forEach(el => {
+            const fill = el.getAttribute('fill');
+            const stroke = el.getAttribute('stroke');
+
+            // Apply fill if not explicitly none
+            if (fill !== 'none') {
+                el.style.fill = 'currentColor';
+            }
+
+            // Apply stroke if specified
+            if (stroke && stroke !== 'none') {
+                el.style.stroke = 'currentColor';
+            }
+        });
     });
 
-    // Apply BG color to previews
+    // Apply BG
     const previewBg = bgEnabled ? bgColor : 'transparent';
     grid.querySelectorAll('.icon-item').forEach(item => {
         item.style.backgroundColor = previewBg;
-        // If dark BG, add light border?
         if (bgEnabled) {
             item.style.borderColor = 'transparent';
         } else {
-            item.style.borderColor = ''; // reset to CSS default
+            item.style.borderColor = '';
         }
     });
 }
 
 async function insertIcon(element) {
-    const svgEl = element.querySelector('svg');
-    if (!svgEl) return;
+    const name = element.dataset.name;
+    if (!name) return;
 
     element.classList.add('inserting');
 
     try {
-        const svgString = new XMLSerializer().serializeToString(svgEl);
-        const base64 = await svgToBase64PNG(svgString, iconSize, iconColor, bgEnabled ? bgColor : null);
+        let svgContent;
+        const hasCdn = !!currentManifest.cdnPattern;
+
+        if (hasCdn) {
+            // Fetch from CDN
+            const url = getIconUrl(currentManifest, name);
+            if (iconCache.has(url)) {
+                svgContent = iconCache.get(url);
+            } else {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error('Failed to fetch icon');
+                svgContent = await response.text();
+                iconCache.set(url, svgContent);
+            }
+        } else {
+            // Use embedded SVG from manifest
+            const icon = currentManifest.icons.find(i => i.name === name);
+            if (!icon) throw new Error('Icon not found');
+
+            if (typeof icon.svg === 'string') {
+                svgContent = icon.svg;
+            } else if (icon.svg && icon.svg.content) {
+                svgContent = `<svg viewBox="${icon.svg.viewBox || '0 0 24 24'}" xmlns="http://www.w3.org/2000/svg">${icon.svg.content}</svg>`;
+            } else {
+                throw new Error('No SVG content available');
+            }
+        }
+
+        // Convert to Base64 PNG
+        const base64 = await svgToBase64PNG(svgContent, iconSize, iconColor, bgEnabled ? bgColor : null);
 
         await insertImageAsync(base64);
         showToast('Inserted!', 'success');
@@ -234,16 +340,12 @@ async function insertIcon(element) {
 
 function svgToBase64PNG(svgContent, size, color, backgroundColor) {
     return new Promise((resolve, reject) => {
-        // Inject color
         let coloredSvg = svgContent.replace(/currentColor/g, color);
 
-        // Force fill if not present (simple heuristic)
-        if (!coloredSvg.includes('fill=')) {
-            // This is risky, open-icons usually have fill/stroke. 
-            // We trust existing attributes + currentColor replacement.
-        }
+        // Risky replacement for hardcoded fills if applyStylesToGrid logic worked visually but inconsistent here
+        // We rely on 'currentColor' mostly.
 
-        // Fix dimensions
+        // Dimensions
         coloredSvg = coloredSvg.replace(/width="[^"]*"/, `width="${size}"`).replace(/height="[^"]*"/, `height="${size}"`);
         if (!coloredSvg.includes('width=')) {
             coloredSvg = coloredSvg.replace('<svg', `<svg width="${size}" height="${size}"`);
@@ -254,7 +356,6 @@ function svgToBase64PNG(svgContent, size, color, backgroundColor) {
         canvas.height = size;
         const ctx = canvas.getContext('2d');
 
-        // Draw background
         if (backgroundColor) {
             ctx.fillStyle = backgroundColor;
             ctx.fillRect(0, 0, size, size);
@@ -278,7 +379,7 @@ function svgToBase64PNG(svgContent, size, color, backgroundColor) {
 function insertImageAsync(base64) {
     return new Promise((resolve, reject) => {
         if (!Office.context || !Office.context.document) {
-            console.log('Browser mode: Image generated (would insert)');
+            console.log('Browser mode: Image generated');
             resolve();
             return;
         }
@@ -299,8 +400,16 @@ function insertImageAsync(base64) {
 }
 
 function showLoading(show) {
+    const loader = document.querySelector('.loading-state');
     const grid = document.getElementById('iconsGrid');
-    if (show) grid.innerHTML = '<div class="loading-state"><div class="spinner"></div><p>Loading...</p></div>';
+
+    if (show) {
+        loader.classList.remove('hidden');
+        grid.style.opacity = '0.5';
+    } else {
+        loader.classList.add('hidden');
+        grid.style.opacity = '1';
+    }
 }
 
 function showToast(msg, type) {
@@ -310,10 +419,5 @@ function showToast(msg, type) {
     setTimeout(() => toast.classList.remove('visible'), 2000);
 }
 
-function debounce(fn, ms) {
-    let t;
-    return (...args) => {
-        clearTimeout(t);
-        t = setTimeout(() => fn(...args), ms);
-    }
-}
+// Global cache
+const iconCache = new Map();
