@@ -474,3 +474,33 @@ body.sidebar-collapsed .sidebar {
     object-fit: contain;
     display: block;
 }
+
+/* Load More Button */
+.load-more-container {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.load-more-btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    padding: 10px 24px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.load-more-btn:hover {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+.load-more-btn:active {
+    transform: translateY(0);
+}

@@ -11,6 +11,7 @@ let iconSize = 48;
 let iconColor = '#000000';
 let bgColor = '#ffffff';
 let bgEnabled = false;
+let displayLimit = 100; // Icons shown at a time
 
 // Initialize
 Office.onReady((info) => {
@@ -82,6 +83,8 @@ async function loadLibraryIndex() {
         if (!response.ok) throw new Error('Failed to load library index');
 
         allLibraries = await response.json();
+        // Show total library count in sidebar header
+        document.getElementById('totalCount').textContent = allLibraries.length;
         renderLibraryList();
 
         const initialLib = allLibraries.find(l => l.id === 'bootstrap') || allLibraries[0];
@@ -125,8 +128,9 @@ async function loadLibrary(id) {
         const libInfo = allLibraries.find(l => l.id === id);
         if (libInfo) {
             document.getElementById('currentLibrary').textContent = libInfo.name;
-            document.getElementById('totalCount').textContent = currentManifest.totalIcons;
         }
+        // Reset display limit when switching libraries
+        displayLimit = 100;
 
         renderIcons();
 
@@ -149,20 +153,30 @@ function renderIcons() {
     if (searchVal) {
         icons = icons.filter(i => i.name.toLowerCase().includes(searchVal) ||
             (i.title && i.title.toLowerCase().includes(searchVal)));
+        // Reset display limit when searching
+        displayLimit = 100;
     }
 
+    // Count valid icons (with actual SVG content)
+    const validIcons = icons.filter(icon => {
+        if (typeof icon.svg === 'string') return true;
+        if (icon.svg && typeof icon.svg.content === 'string') return true;
+        return false;
+    });
+
     const footer = document.getElementById('iconCount');
-    if (icons.length > 0) {
-        let msg = `${icons.length} icons`;
-        if (icons.length > 300) {
-            msg += ' • Use search to see more';
+    const remaining = validIcons.length - displayLimit;
+    if (validIcons.length > 0) {
+        if (validIcons.length > displayLimit) {
+            footer.textContent = `Showing ${displayLimit} of ${validIcons.length} icons`;
+        } else {
+            footer.textContent = `${validIcons.length} icons`;
         }
-        footer.textContent = msg;
     } else {
         footer.textContent = '0 icons';
     }
 
-    const displayIcons = icons.slice(0, 300);
+    const displayIcons = icons.slice(0, displayLimit);
 
     if (displayIcons.length === 0) {
         grid.innerHTML = '<div class="empty-state">No icons found</div>';
@@ -205,8 +219,20 @@ function renderIcons() {
         }
     }).join('');
 
-    if (icons.length > 300) {
-        grid.innerHTML += `<div class="icon-limit-message">Showing 300 of ${icons.length}</div>`;
+    // Add Load More button if there are more icons
+    if (validIcons.length > displayLimit) {
+        grid.innerHTML += `
+            <div class="load-more-container">
+                <button id="loadMoreBtn" class="load-more-btn">
+                    Load 50 more (${remaining} remaining)
+                </button>
+            </div>
+        `;
+        // Add event listener for Load More
+        document.getElementById('loadMoreBtn').addEventListener('click', () => {
+            displayLimit += 50;
+            renderIcons();
+        });
     }
 
     applyStylesToGrid();
