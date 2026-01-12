@@ -26,6 +26,24 @@
 
 </div>
 
+## 🚀 Installation (macOS)
+
+### Easy Install (Recommended)
+1. **[Download the latest release](https://github.com/drankush/Slides-Icons/releases/latest)** (`Slides-Icons-Installer.zip`)
+2. Unzip the downloaded file
+3. **Right-click** `Install-Icons.command` and select **Open**
+   > ⚠️ If you see "unidentified developer" warning, click **Open** again
+4. Restart PowerPoint
+5. Go to **Insert** → **My Add-ins** → **Developer Add-ins** or **Shared Folder**
+6. Click **Slides Icons** to open the panel
+
+### Installation (Windows)
+1. Download `manifest.xml` from [Releases](https://github.com/drankush/Slides-Icons/releases/latest)
+2. Place it in a shared network folder
+3. In PowerPoint: **Insert** → **My Add-ins** → **Shared Folder** → Add the folder path
+
+---
+
 ## ✨ Features
 
 - **107 Icon Libraries** - Bootstrap, FontAwesome, Material Design, Tabler, Phosphor, and 100+ more
@@ -48,18 +66,12 @@
 | **Specialized** | Crypto (coins), Flag (countries), Weather, Maps |
 | **Multi-color** | Crypto, Flag, Logos, Ant Design Mobile |
 
-## 🏗 Architecture
+---
 
-This add-in leverages the excellent [open-icons](https://github.com/cenfun/open-icons) npm package:
+## 🛠 Development
 
-1. **Build Time**: Extract compressed icon bundles using Node.js + JSDOM
-2. **Runtime**: Load lightweight JSON manifests on-demand (no heavy decompression in browser)
-3. **Rendering**: Direct SVG embedding with intelligent color handling:
-   - Stroke-based icons (Tabler, Feather) → stroke styling only
-   - Multi-color icons (Crypto, Flag) → preserve original colors
-   - Fill-based icons (Bootstrap, etc.) → currentColor fill
-
-## 🚀 Development
+<details>
+<summary>Click to expand development setup</summary>
 
 ### Prerequisites
 - Node.js 18+
@@ -76,22 +88,17 @@ npm run extract-icons
 # Build the add-in
 npm run build
 
-# Start local server
+# Start local dev server
 npm start
 ```
 
-### Sideload in PowerPoint (macOS)
+### Sideload for Development (macOS)
 ```bash
 mkdir -p ~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef
 cp manifest.xml ~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef/
 ```
 
-### Sideload in PowerPoint (Windows)
-1. Open PowerPoint → Insert → My Add-ins → Shared Folder
-2. Add the network share containing `manifest.xml`
-
-## 📁 Project Structure
-
+### Project Structure
 ```
 Slides-Icons/
 ├── src/
@@ -101,9 +108,14 @@ Slides-Icons/
 │   ├── extract-open-icons.js   # Icon extraction script
 │   └── build.js                # Build script
 ├── images/                # Screenshots and assets
-├── dist/                  # Built output
-└── manifest.xml          # Office Add-in manifest
+├── dist/                  # Built output (deployed to GitHub Pages)
+├── manifest.xml          # Development manifest (localhost)
+└── manifest-prod.xml     # Production manifest (GitHub Pages)
 ```
+
+</details>
+
+---
 
 ## 🙏 Credits
 

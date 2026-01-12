@@ -90,11 +90,27 @@ function copyDirRecursive(src, dest) {
     }
 }
 
+// Copy production manifest (for GitHub Pages deployment)
+function copyProdManifest() {
+    console.log('Copying production manifest...');
+
+    const srcPath = path.join(__dirname, '..', 'manifest-prod.xml');
+    const destPath = path.join(DIST_DIR, 'manifest.xml');
+
+    if (fs.existsSync(srcPath)) {
+        fs.copyFileSync(srcPath, destPath);
+        console.log('  ✓ Copied manifest-prod.xml → dist/manifest.xml\n');
+    } else {
+        console.log('  ⚠ manifest-prod.xml not found, skipping\n');
+    }
+}
+
 // Main build
 try {
     copyTaskpane();
     copyManifests();
     copyAssets();
+    copyProdManifest();
 
     console.log('✅ Build complete! Output in dist/\n');
     console.log('To run the add-in:');
