@@ -157,8 +157,11 @@ function renderIcons() {
         displayLimit = 100;
     }
 
-    // Count valid icons (with actual SVG content)
-    const validIcons = icons.filter(icon => {
+    // Count valid icons (with actual content)
+    // CDN-based manifests: all icons are valid (fetched from CDN)
+    // Embedded SVG manifests: check for valid svg content
+    const hasCdn = !!currentManifest.cdnPattern;
+    const validIcons = hasCdn ? icons : icons.filter(icon => {
         if (typeof icon.svg === 'string') return true;
         if (icon.svg && typeof icon.svg.content === 'string') return true;
         return false;
@@ -183,8 +186,7 @@ function renderIcons() {
         return;
     }
 
-    // Check if manifest uses CDN pattern or embedded SVG
-    const hasCdn = !!currentManifest.cdnPattern;
+    // hasCdn already declared above
 
     grid.innerHTML = displayIcons.map(icon => {
         if (hasCdn) {

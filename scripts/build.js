@@ -20,7 +20,7 @@ console.log('Building Slides Icons add-in...\n');
 function copyTaskpane() {
     console.log('Copying taskpane files...');
 
-    const files = ['taskpane.html', 'taskpane.css', 'taskpane.js'];
+    const files = ['taskpane.html', 'taskpane.css', 'taskpane.js', 'index.html'];
     const srcDir = path.join(SRC_DIR, 'taskpane');
 
     files.forEach(file => {
