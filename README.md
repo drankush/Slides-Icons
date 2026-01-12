@@ -1,14 +1,21 @@
 # Slides Icons
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Icons](https://img.shields.io/badge/Icons-94%2C000%2B-brightgreen)](https://github.com/drankush/Slides-Icons)
+[![Libraries](https://img.shields.io/badge/Libraries-107-orange)](https://github.com/drankush/Slides-Icons)
+[![PowerPoint](https://img.shields.io/badge/PowerPoint-Add--in-red?logo=microsoft-powerpoint)](https://github.com/drankush/Slides-Icons)
+[![Open Icons](https://img.shields.io/badge/Powered%20by-Open%20Icons-purple)](https://github.com/cenfun/open-icons)
+
 **A PowerPoint Add-in with 94,000+ free icons from 107 open-source libraries.**
 
-![Slides Icons](https://raw.githubusercontent.com/drankush/Slides-Icons/main/docs/screenshot.png)
+![Slides Icons Demo](images/slides-icons-demo.jpg)
 
 ## ✨ Features
 
 - **107 Icon Libraries** - Bootstrap, FontAwesome, Material Design, Tabler, Phosphor, and 100+ more
 - **94,000+ Icons** - Comprehensive coverage for any presentation need
 - **Collapsible Sidebar** - Toggle libraries panel for more icon grid space
+- **Load More** - Browse all icons with incremental loading (50 at a time)
 - **Custom Colors** - Apply any color to icons with live preview
 - **Background Support** - Add background colors to icon cards
 - **Multiple Sizes** - Export at 24px, 48px, 64px, 96px, or 128px
@@ -70,13 +77,14 @@ cp manifest.xml ~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef
 ## 📁 Project Structure
 
 ```
-ICON-ADDIN/
+Slides-Icons/
 ├── src/
 │   ├── taskpane/          # Main UI (HTML, CSS, JS)
 │   └── manifests/         # Extracted icon JSON files (107 libraries)
 ├── scripts/
 │   ├── extract-open-icons.js   # Icon extraction script
 │   └── build.js                # Build script
+├── images/                # Screenshots and assets
 ├── dist/                  # Built output
 └── manifest.xml          # Office Add-in manifest
 ```
