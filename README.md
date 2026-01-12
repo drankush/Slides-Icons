@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Icons-94%2C000%2B-brightgreen" />
 </a>
 <a href="https://github.com/drankush/Slides-Icons">
-  <img src="https://img.shields.io/badge/Libraries-107-orange" />
+  <img src="https://img.shields.io/badge/Libraries-108-orange" />
 </a>
 <a href="https://github.com/drankush/Slides-Icons">
   <img src="https://img.shields.io/badge/PowerPoint-Add--in-red?logo=microsoft-powerpoint" />
@@ -19,7 +19,7 @@
 </a>
 
 <p>
-<b>A PowerPoint Add-in with 94,000+ free icons from 107 open-source libraries.</b>
+<b>A PowerPoint Add-in with 94,000+ free icons from 108 open-source libraries.</b>
 </p>
 
 <img src="images/slides-icons-demo.jpg" alt="Slides Icons Demo" width="900" />
