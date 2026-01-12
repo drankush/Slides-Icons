@@ -38,6 +38,19 @@ echo ""
 # Create the directory if it doesn't exist
 mkdir -p "$TARGET_DIR"
 
+# Remove any existing Slides Icons manifest to avoid caching issues
+if [ -f "$TARGET_DIR/manifest.xml" ]; then
+    echo "🗑  Removing previous installation..."
+    rm -f "$TARGET_DIR/manifest.xml"
+fi
+
+# Also clear PowerPoint's add-in cache if it exists
+CACHE_DIR="$HOME/Library/Containers/com.microsoft.Powerpoint/Data/Library/Caches"
+if [ -d "$CACHE_DIR" ]; then
+    echo "🧹 Clearing PowerPoint cache..."
+    rm -rf "$CACHE_DIR"/* 2>/dev/null
+fi
+
 # Copy the manifest file from the script's folder to the target folder
 if [ -f "$DIR/manifest.xml" ]; then
     cp "$DIR/manifest.xml" "$TARGET_DIR/"
