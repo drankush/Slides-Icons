@@ -33,6 +33,9 @@ jobs:
       - name: Extract icons
         run: npm run extract-icons
 
+      - name: Extract health icons
+        run: npm run extract-health
+
       - name: Build
         run: npm run build
 

@@ -151,8 +151,12 @@ function renderIcons() {
     let icons = currentManifest.icons;
 
     if (searchVal) {
-        icons = icons.filter(i => i.name.toLowerCase().includes(searchVal) ||
-            (i.title && i.title.toLowerCase().includes(searchVal)));
+        icons = icons.filter(i =>
+            i.name.toLowerCase().includes(searchVal) ||
+            (i.title && i.title.toLowerCase().includes(searchVal)) ||
+            (i.tags && i.tags.some(tag => tag.toLowerCase().includes(searchVal))) ||
+            (i.category && i.category.toLowerCase().includes(searchVal))
+        );
         // Reset display limit when searching
         displayLimit = 100;
     }
