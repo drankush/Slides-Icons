@@ -12,6 +12,8 @@ let iconColor = '#000000';
 let bgColor = '#ffffff';
 let bgEnabled = false;
 let displayLimit = 100; // Icons shown at a time
+let isGlobalSearch = false;
+let globalManifests = new Map(); // Cache for global search
 
 // Initialize
 Office.onReady((info) => {
@@ -32,8 +34,31 @@ function setupEventListeners() {
     searchInput.addEventListener('input', () => {
         // Simple debounce
         clearTimeout(searchInput.timeout);
-        searchInput.timeout = setTimeout(() => renderIcons(), 200);
+        searchInput.timeout = setTimeout(() => {
+            if (isGlobalSearch) {
+                searchAllLibraries();
+            } else {
+                renderIcons();
+            }
+        }, 250);
     });
+
+    // Global Search Toggle
+    const globalToggle = document.getElementById('globalSearchToggle');
+    if (globalToggle) {
+        globalToggle.addEventListener('change', (e) => {
+            isGlobalSearch = e.target.checked;
+            const searchVal = searchInput.value.trim();
+
+            if (isGlobalSearch && searchVal) {
+                // Trigger global search immediately if there's a query
+                searchAllLibraries();
+            } else if (!isGlobalSearch) {
+                // Revert to local search
+                renderIcons();
+            }
+        });
+    }
 
     // Size
     const sizeSelect = document.getElementById('sizeSelect');
@@ -322,7 +347,7 @@ function applyStylesToGrid() {
     });
 }
 
-async function insertIcon(element) {
+async function insertIcon(element, libraryIdOverride = null) {
     const name = element.dataset.name;
     if (!name) return;
 
@@ -330,11 +355,16 @@ async function insertIcon(element) {
 
     try {
         let svgContent;
-        const hasCdn = !!currentManifest.cdnPattern;
+        // Determine which manifest to use
+        const manifestToUse = libraryIdOverride ? globalManifests.get(libraryIdOverride) : currentManifest;
+
+        if (!manifestToUse) throw new Error("Manifest not found for insertion");
+
+        const hasCdn = !!manifestToUse.cdnPattern;
 
         if (hasCdn) {
             // Fetch from CDN
-            const url = getIconUrl(currentManifest, name);
+            const url = getIconUrl(manifestToUse, name);
             if (iconCache.has(url)) {
                 svgContent = iconCache.get(url);
             } else {
@@ -345,9 +375,10 @@ async function insertIcon(element) {
             }
         } else {
             // Use embedded SVG from manifest
-            const icon = currentManifest.icons.find(i => i.name === name);
+            const icon = manifestToUse.icons.find(i => i.name === name);
             if (!icon) throw new Error('Icon not found');
 
+            // ... existing svg extraction ...
             if (typeof icon.svg === 'string') {
                 svgContent = icon.svg;
             } else if (icon.svg && icon.svg.content) {
@@ -453,3 +484,143 @@ function showToast(msg, type) {
 
 // Global cache
 const iconCache = new Map();
+
+/**
+ * Global Search Implementation
+ */
+async function searchAllLibraries() {
+    const searchVal = document.getElementById('searchInput').value.toLowerCase();
+    const grid = document.getElementById('iconsGrid');
+    const footer = document.getElementById('iconCount');
+    const loadMoreContainer = document.querySelector('.load-more-container');
+
+    // Hide load more button during search
+    if (loadMoreContainer) loadMoreContainer.style.display = 'none';
+
+    if (!searchVal) {
+        // If query is empty, just render current library or nothing
+        renderIcons();
+        return;
+    }
+
+    showLoading(true);
+    document.getElementById('currentLibrary').textContent = "Global Search";
+
+    try {
+        // 1. Ensure all manifests are loaded
+        await loadAllManifests();
+
+        // 2. Aggregate results
+        let allResults = [];
+        globalManifests.forEach(manifest => {
+            if (!manifest || !Array.isArray(manifest.icons)) return;
+            const matches = manifest.icons.filter(i =>
+                i.name.toLowerCase().includes(searchVal) ||
+                (i.title && i.title.toLowerCase().includes(searchVal)) ||
+                (i.tags && i.tags.some(tag => tag.toLowerCase().includes(searchVal))) ||
+                (i.category && i.category.toLowerCase().includes(searchVal))
+            );
+
+            // Add library info to icons for context
+            matches.forEach(m => {
+                m._libraryId = manifest.id;
+                m._libraryName = manifest.name;
+            });
+
+            allResults = allResults.concat(matches);
+        });
+
+        // 3. Render Mixed Results
+        const validIcons = allResults; // In global search we assume all loaded are valid enough
+
+        if (validIcons.length > 0) {
+            footer.textContent = `Found ${validIcons.length} icons in ${allLibraries.length} libraries`;
+        } else {
+            footer.textContent = '0 icons';
+        }
+
+        // Limit display for performance in global view (e.g. top 200)
+        // For now, let's show top 200 to prevent freezing
+        const displayIcons = validIcons.slice(0, 200);
+
+        if (displayIcons.length === 0) {
+            grid.innerHTML = '<div class="empty-state">No icons found</div>';
+        } else {
+            grid.innerHTML = displayIcons.map(icon => {
+                // We need to handle rendering slightly differently because we stick to the 
+                // robust rendering logic but we need the correct manifest context for each icon
+                // to determine CDN vs SVG.
+                const sourceManifest = globalManifests.get(icon._libraryId);
+                const hasCdn = !!sourceManifest.cdnPattern;
+
+                if (hasCdn) {
+                    const url = getIconUrl(sourceManifest, icon.name);
+                    return `
+                        <div class="icon-item" data-name="${icon.name}" data-library="${icon._libraryId}" title="${icon.title} (${sourceManifest.name})">
+                            <div class="icon-preview">
+                                <img src="${url}" alt="${icon.title}" loading="lazy" class="icon-img-shadowed">
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    let svgHtml = '';
+                    if (typeof icon.svg === 'string') {
+                        svgHtml = icon.svg;
+                    } else if (icon.svg && typeof icon.svg.content === 'string') {
+                        svgHtml = `<svg viewBox="${icon.svg.viewBox || '0 0 24 24'}" xmlns="http://www.w3.org/2000/svg">${icon.svg.content}</svg>`;
+                    }
+                    if (!svgHtml) return '';
+                    return `
+                        <div class="icon-item" data-name="${icon.name}" data-library="${icon._libraryId}" title="${icon.title} (${sourceManifest.name})">
+                            <div class="icon-preview">
+                                ${svgHtml}
+                            </div>
+                        </div>
+                    `;
+                }
+            }).join('');
+
+            // Add click listeners
+            grid.querySelectorAll('.icon-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    // Update currentManifest to the icon's library so insertKey logic works
+                    // OR pass the library ID to insertIcon?
+                    // Let's modify insertIcon to accept libraryId optionally
+                    insertIcon(item, item.dataset.library);
+                });
+            });
+
+            applyStylesToGrid();
+        }
+
+    } catch (error) {
+        console.error("Global search failed:", error);
+        showToast("Global search error", "error");
+    } finally {
+        showLoading(false);
+    }
+}
+
+async function loadAllManifests() {
+    // Check which ones are missing
+    const missing = allLibraries.filter(lib => !globalManifests.has(lib.id));
+
+    if (missing.length === 0) return;
+
+    // Fetch in batches to be nice
+    const BATCH_SIZE = 10;
+    for (let i = 0; i < missing.length; i += BATCH_SIZE) {
+        const batch = missing.slice(i, i + BATCH_SIZE);
+        await Promise.all(batch.map(async (lib) => {
+            try {
+                const response = await fetch(`manifests/${lib.id}.json`);
+                if (response.ok) {
+                    const data = await response.json();
+                    globalManifests.set(lib.id, data);
+                }
+            } catch (e) {
+                console.warn(`Failed to preload ${lib.id}`, e);
+            }
+        }));
+    }
+}

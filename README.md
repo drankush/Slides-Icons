@@ -33,8 +33,9 @@
 2. Unzip the downloaded file
 3. **Right-click** `Install-Icons.command` and select **Open**
    > ⚠️ If you see "unidentified developer" warning, click **Open** again
+   > The script will automatically copy `manifest.xml` to the correct location for PowerPoint.
 4. Restart PowerPoint
-5. Go to **Insert** → **My Add-ins** → **Developer Add-ins** or **Shared Folder**
+5. Go to **Insert** → **My Add-ins** → **Developer Add-ins** (or **Shared Folder**)
 6. Click **Slides Icons** to open the panel
 
 ### Installation (Windows)
@@ -46,7 +47,8 @@
 
 ## ✨ Features
 
-- **107 Icon Libraries** - Bootstrap, FontAwesome, Material Design, Tabler, Phosphor, and 100+ more
+- **global Search** - **NEW!** Toggle "Global" search to find icons across ALL 108 libraries simultaneously.
+- **108 Icon Libraries** - Bootstrap, FontAwesome, Material Design, Tabler, Phosphor, and now including **Health Icons**!
 - **94,000+ Icons** - Comprehensive coverage for any presentation need
 - **Collapsible Sidebar** - Toggle libraries panel for more icon grid space
 - **Load More** - Browse all icons with incremental loading (50 at a time)
@@ -63,6 +65,7 @@
 | **General** | Bootstrap, Feather, Lucide, Tabler, Heroicons, Iconoir |
 | **Material** | Material Design Icons (7000+), Material Symbols |
 | **Brands** | Simple Icons, Logos, Dev Icons |
+| **Medical** | **Health Icons** (New!) - Specialized medical and health-related icons |
 | **Specialized** | Crypto (coins), Flag (countries), Weather, Maps |
 | **Multi-color** | Crypto, Flag, Logos, Ant Design Mobile |
 

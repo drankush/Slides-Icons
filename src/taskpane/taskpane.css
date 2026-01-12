@@ -135,10 +135,36 @@ body {
     border-bottom: 1px solid var(--border);
 }
 
-.search-box {
-    position: relative;
+.search-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
     margin-bottom: 8px;
 }
+
+.search-box {
+    position: relative;
+    flex: 1;
+}
+
+.toggle-control {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    user-select: none;
+    color: var(--text-secondary);
+}
+
+.toggle-control input {
+    cursor: pointer;
+}
+
+.toggle-control:hover {
+    color: var(--text-primary);
+}
+
 
 .search-box input {
     width: 100%;
