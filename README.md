@@ -1,14 +1,30 @@
-# Slides Icons
+<div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Icons](https://img.shields.io/badge/Icons-94%2C000%2B-brightgreen)](https://github.com/drankush/Slides-Icons)
-[![Libraries](https://img.shields.io/badge/Libraries-107-orange)](https://github.com/drankush/Slides-Icons)
-[![PowerPoint](https://img.shields.io/badge/PowerPoint-Add--in-red?logo=microsoft-powerpoint)](https://github.com/drankush/Slides-Icons)
-[![Open Icons](https://img.shields.io/badge/Powered%20by-Open%20Icons-purple)](https://github.com/cenfun/open-icons)
+<h1>✦ Slides Icons</h1>
 
-**A PowerPoint Add-in with 94,000+ free icons from 107 open-source libraries.**
+<a href="https://opensource.org/licenses/MIT">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+</a>
+<a href="https://github.com/drankush/Slides-Icons">
+  <img src="https://img.shields.io/badge/Icons-94%2C000%2B-brightgreen" />
+</a>
+<a href="https://github.com/drankush/Slides-Icons">
+  <img src="https://img.shields.io/badge/Libraries-107-orange" />
+</a>
+<a href="https://github.com/drankush/Slides-Icons">
+  <img src="https://img.shields.io/badge/PowerPoint-Add--in-red?logo=microsoft-powerpoint" />
+</a>
+<a href="https://github.com/cenfun/open-icons">
+  <img src="https://img.shields.io/badge/Powered%20by-Open%20Icons-purple" />
+</a>
 
-![Slides Icons Demo](images/slides-icons-demo.jpg)
+<p>
+<b>A PowerPoint Add-in with 94,000+ free icons from 107 open-source libraries.</b>
+</p>
+
+<img src="images/slides-icons-demo.jpg" alt="Slides Icons Demo" width="900" />
+
+</div>
 
 ## ✨ Features
 
